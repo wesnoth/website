@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 CHECKOUTPATH=/usr/src/wesnoth
 
 WEBSITE_PATH=$HOME/git/website
