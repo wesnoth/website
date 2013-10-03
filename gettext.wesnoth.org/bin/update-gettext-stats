@@ -17,7 +17,7 @@ echo "starting wescamp.py for 1.12 at `date`" >> $HOME/g.w.o-updates.log
 echo "wescamp.py 1.12 exited with exit code $? at `date`" >> $HOME/g.w.o-updates.log
 
 #update our codebase
-cd $WEBSITE_PATH
+cd $WEBSITE_PATH/gettext.wesnoth.org
 git pull -q
 
 # update the stats
