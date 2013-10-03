@@ -13,10 +13,10 @@ $branch="1.10"; //version of current stable (folder name of the checkout folder)
 $wescampbranchversion="1.10";
 $wescamptrunkversion="1.12";
 
-$masterbasedir="/sources/wesnoth/master/";
-$branchbasedir="/sources/wesnoth/$branch/";
-$extratbasedir="/sources/wesnoth/wescamp-i18n/branch-$wescamptrunkversion/"; //master addon server
-$extrabbasedir="/sources/wesnoth/wescamp-i18n/branch-$wescampbranchversion/"; //branch addon server
+$masterbasedir="/usr/src/wesnoth/master/";
+$branchbasedir="/usr/src/wesnoth/$branch/";
+$extratbasedir="$home/wescamp-i18n/branch-$wescamptrunkversion/"; //master addon server
+$extrabbasedir="$home/wescamp-i18n/branch-$wescampbranchversion/"; //branch addon server
 
 //$packages = file_get_contents($basedir . "/po/DOMAINS");
 //$packages = substr($packages, 0, strlen($packages)-1);
