@@ -1,5 +1,6 @@
 #!/bin/sh
-CHECKOUTPATH=/usr/src/wesnoth
+MAINLINE_BASE=/usr/src/wesnoth
+WESCAMP_BASE=$HOME/wescamp-i18n
 
 WEBSITE_PATH=$HOME/git/website
 CAMPAIGND_HOST=192.168.1.20
@@ -7,13 +8,13 @@ CAMPAIGND_HOST=192.168.1.20
 echo update started at `date` >> $HOME/g.w.o-updates.log
 
 #update the wescamp checkout
-cd $CHECKOUTPATH/master/
+cd $MAINLINE_BASE/master/
 
 echo "starting wescamp.py for 1.10 at `date`" >> $HOME/g.w.o-updates.log
-./data/tools/wesnoth/wescamp.py -s$CAMPAIGND_HOST -p15002 -w$CHECKOUTPATH/wescamp-i18n/branch-1.10 -C >> $HOME/g.w.o-updates.log
+./data/tools/wesnoth/wescamp.py -s$CAMPAIGND_HOST -p15002 -w$WESCAMP_BASE/wescamp-i18n/branch-1.10 -C >> $HOME/g.w.o-updates.log
 echo "wescamp.py 1.10 exited with exit code $? at `date`" >> $HOME/g.w.o-updates.log
 echo "starting wescamp.py for 1.12 at `date`" >> $HOME/g.w.o-updates.log
-./data/tools/wesnoth/wescamp.py -s$CAMPAIGND_HOST -p15006 -w$CHECKOUTPATH/wescamp-i18n/branch-1.12 -C >> $HOME/g.w.o-updates.log
+./data/tools/wesnoth/wescamp.py -s$CAMPAIGND_HOST -p15006 -w$WESCAMP_BASE/wescamp-i18n/branch-1.12 -C >> $HOME/g.w.o-updates.log
 echo "wescamp.py 1.12 exited with exit code $? at `date`" >> $HOME/g.w.o-updates.log
 
 #update our codebase
