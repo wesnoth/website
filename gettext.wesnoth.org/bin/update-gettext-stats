@@ -16,8 +16,11 @@ echo "starting wescamp.py for 1.12 at `date`" >> $HOME/g.w.o-updates.log
 ./data/tools/wesnoth/wescamp.py -s$CAMPAIGND_HOST -p15006 -w$CHECKOUTPATH/wescamp-i18n/branch-1.12 -C >> $HOME/g.w.o-updates.log
 echo "wescamp.py 1.12 exited with exit code $? at `date`" >> $HOME/g.w.o-updates.log
 
-#update the stats
+#update our codebase
 cd $WEBSITE_PATH
+git pull -q
+
+# update the stats
 echo "starting grab-stats at `date`" >> $HOME/g.w.o-updates.log
 nice --adjustment=5 php grab-stats.php
 echo "grab-stats exited with exit code $? at `date`" >> $HOME/g.w.o-updates.log
