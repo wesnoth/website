@@ -15,8 +15,8 @@ $wescamptrunkversion="1.12";
 
 $masterbasedir="/usr/src/wesnoth/master/";
 $branchbasedir="/usr/src/wesnoth/$branch/";
-$extratbasedir="$home/wescamp-i18n/branch-$wescamptrunkversion/"; //master addon server
-$extrabbasedir="$home/wescamp-i18n/branch-$wescampbranchversion/"; //branch addon server
+$extratbasedir="/home/wesnoth/wescamp-i18n/branch-$wescamptrunkversion/"; //master addon server
+$extrabbasedir="/home/wesnoth/wescamp-i18n/branch-$wescampbranchversion/"; //branch addon server
 
 //$packages = file_get_contents($basedir . "/po/DOMAINS");
 //$packages = substr($packages, 0, strlen($packages)-1);
