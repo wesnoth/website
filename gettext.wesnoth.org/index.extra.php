@@ -272,7 +272,7 @@ if ($package=='alloff' || $package=='allun' || $package=='all' || $package=='all
         <!-- FIXME-GIT: This will need to be updated -->
 	if($official){
 		$repo = ($version == 'master') ? 'master' : "$branch";
-		echo "<a href='https://raw.github.com/wesnoth/wesnoth-old/$repo/po/$package/$lang.po'>" . $langs[$lang] . "</a> (" .$lang . ")";
+		echo "<a href='https://raw.github.com/wesnoth/wesnoth/$repo/po/$package/$lang.po'>" . $langs[$lang] . "</a> (" .$lang . ")";
 	}else{
 		$packname = getpackage($package);
 		$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
@@ -316,7 +316,7 @@ if ($package=='alloff' || $package=='allun' || $package=='all' || $package=='all
 }else{
 	if($official){
 		$repo = ($version == 'master') ? 'master' : "$branch";
-		echo "<a href='https://github.com/wesnoth/wesnoth-old/raw/$repo/po/$package/$package.pot'>Template catalog</a>";
+		echo "<a href='https://github.com/wesnoth/wesnoth/raw/$repo/po/$package/$package.pot'>Template catalog</a>";
 	}else{
 		$packname = getpackage($package);
 		$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
