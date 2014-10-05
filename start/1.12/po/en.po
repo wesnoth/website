@@ -1,0 +1,671 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Wesnoth 1.8 announcement\n"
+"POT-Creation-Date: 2014-10-05 01:49-0300\n"
+"PO-Revision-Date: 2010-03-27 12:55+0100\n"
+"Last-Translator: Nils Kneuper <crazy-ivanovic  AT gmx  D O  T net>\n"
+"Language-Team: Wesnoth team\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Attribute 'title' of: <html><head><link>
+#: template.html:8
+msgid "Default"
+msgstr "Default"
+
+#. type: Content of: <html><head><title>
+#: template.html:11
+#, fuzzy
+#| msgid "Battle for Wesnoth 1.8"
+msgid "Battle for Wesnoth 1.12"
+msgstr "Battle for Wesnoth 1.8"
+
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:20
+msgid "<a href='http://www.wesnoth.org'>"
+msgstr "<a href='http://www.wesnoth.org'>"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:20
+msgid "Wesnoth logo"
+msgstr "Wesnoth logo"
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: template.html:21 template.html:61 template.html:85 template.html:89
+#: template.html:97
+msgid "</a>"
+msgstr "</a>"
+
+#. type: Content of: <html><body><div><div><div><h1>
+#: template.html:31
+#, fuzzy
+#| msgid "Battle for Wesnoth 1.8 Release Notes"
+msgid "Battle for Wesnoth 1.12 Release Notes"
+msgstr "Battle for Wesnoth 1.8 Release Notes"
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:33
+#, fuzzy
+#| msgid ""
+#| "<em>April 2010</em>. It is once again time for that thrill you've all "
+#| "been waiting for, a Wesnoth stable release. The Battle for Wesnoth team "
+#| "is proud to release version 1.8 of <em>The Battle for Wesnoth</em>, a <a "
+#| "href='http://www.gnu.org/philosophy/philosophy.html'>free</a> <a "
+#| "href='http://www.opensource.org/'>open-source</a> turn-based strategy "
+#| "game with a fantasy theme and roleplaying elements. The game is <a "
+#| "href='#download'>available for download</a> now for Windows, Mac OS X and "
+#| "various GNU/Linux distributions."
+msgid ""
+"<em>December 2014</em>. As the year comes to an end, a new stable release "
+"series begins. The development team is proud to release version 1.12 of "
+"<em>The Battle for Wesnoth</em>, a <a href='http://www.gnu.org/philosophy/"
+"philosophy.html'>free</a> and <a href='http://www.opensource.org/'>open "
+"source</a> turn-based tactical strategy game with a high fantasy theme and "
+"role-playing elements. The game is available for Microsoft Windows, Apple OS "
+"X, and various GNU/Linux distributions."
+msgstr ""
+"<em>April 2010</em>. It is once again time for that thrill you've all been "
+"waiting for, a Wesnoth stable release. The Battle for Wesnoth team is proud "
+"to release version 1.8 of <em>The Battle for Wesnoth</em>, a <a href='http://"
+"www.gnu.org/philosophy/philosophy.html'>free</a> <a href='http://www."
+"opensource.org/'>open-source</a> turn-based strategy game with a fantasy "
+"theme and role-playing elements. The game is <a href='#download'>available "
+"for download</a> now for Windows, Mac OS X and various GNU/Linux "
+"distributions."
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:37
+#, fuzzy
+#| msgid "<a href='#game'>What's New in Wesnoth 1.8</a>"
+msgid "<a href='#game'>What’s New in Wesnoth 1.12</a>"
+msgstr "<a href='#game'>What's new in Wesnoth 1.8</a>"
+
+#. type: Content of: <html><body><div><div><div><ul><li><ul><li>
+#: template.html:40
+msgid "<a href='#players'>For Players</a>"
+msgstr "<a href='#players'>For Players</a>"
+
+#. type: Content of: <html><body><div><div><div><ul><li><ul><li><ul><li>
+#: template.html:42
+msgid "<a href='#campaigns'>Campaigns</a>"
+msgstr "<a href='#campaigns'>Campaigns</a>"
+
+#. type: Content of: <html><body><div><div><div><ul><li><ul><li><ul><li>
+#: template.html:43
+msgid "<a href='#multiplayer'>Multiplayer</a>"
+msgstr "<a href='#multiplayer'>Multiplayer</a>"
+
+#. type: Content of: <html><body><div><div><div><ul><li><ul><li><ul><li>
+#: template.html:44
+msgid "<a href='#general'>General</a>"
+msgstr "<a href='#general'>General</a>"
+
+#. type: Content of: <html><body><div><div><div><ul><li><ul><li>
+#: template.html:47
+#, fuzzy
+#| msgid "<a href='#campdev'>For Campaign Developers</a>"
+msgid "<a href='#campdev'>For Content Developers</a>"
+msgstr "<a href='#campdev'>For Campaign Developers</a>"
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:50
+msgid "<a href='#download'>Download</a>"
+msgstr "<a href='#download'>Download</a>"
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:51
+msgid "<a href='#more'>More Info</a>"
+msgstr "<a href='#more'>More Info</a>"
+
+#. type: Content of: <html><body><div><div><div><h2>
+#: template.html:56
+#, fuzzy
+#| msgid "What's New in Wesnoth 1.8"
+msgid "What’s New in Wesnoth 1.12"
+msgstr "What's new in Wesnoth 1.8"
+
+#. type: Content of: <html><body><div><div><div><div><div><a>
+#: template.html:61
+msgid "<a href='images/start-1-full.jpg'>"
+msgstr "<a href='images/start-1-full.jpg'>"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><div><div><a><img>
+#: template.html:61 template.html:85 template.html:89 template.html:97
+msgid "Wesnoth Screenshot"
+msgstr "Wesnoth Screenshot"
+
+#. type: Content of: <html><body><div><div><div><h3>
+#: template.html:64
+msgid "For Players"
+msgstr "For Players"
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:68
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus nisi "
+"molestie urna eleifend laoreet. Sed sed tellus mi. Duis quis ex at urna "
+"aliquam pretium a a justo. Ut quis congue enim. Morbi sed mollis mi, eu "
+"elementum mauris. Vivamus sit amet sollicitudin urna, at congue nisi. "
+"Suspendisse lectus risus, hendrerit sed vulputate non, lobortis eu nibh. "
+"Fusce."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:70
+msgid ""
+"Proin luctus leo vel justo dapibus hendrerit. Nullam efficitur posuere "
+"mauris eu dapibus. Class aptent taciti sociosqu ad litora torquent per "
+"conubia nostra, per inceptos himenaeos. Integer suscipit ultricies dictum. "
+"Sed volutpat erat vitae augue consectetur, in tincidunt lacus vehicula. "
+"Integer elementum venenatis tempor. Maecenas varius mauris arcu."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:72
+msgid ""
+"Maecenas nisl ligula, consectetur nec venenatis eu, porta ac est. Aenean "
+"quis massa ac neque egestas varius. Nam fermentum pharetra tempor. Nullam id "
+"est et tellus rhoncus pulvinar. Mauris eu tellus quis dui tempus euismod. "
+"Vivamus quis iaculis est. Nam vel feugiat nulla, a congue felis. Proin "
+"accumsan sollicitudin massa, iaculis faucibus mi finibus vitae. Sed non "
+"vestibulum enim, mollis tristique nulla."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><h4>
+#: template.html:74
+msgid "Campaigns"
+msgstr "Campaigns"
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:76
+msgid ""
+"Duis in tristique neque. Donec tempus posuere diam id consectetur. Sed "
+"rhoncus enim metus, eget feugiat mi gravida non. Maecenas gravida eros "
+"vestibulum placerat congue. Suspendisse vitae euismod velit. Pellentesque "
+"iaculis eros erat, ac tempus enim porttitor quis. Praesent lacinia eu nisi a "
+"euismod. Praesent arcu lectus, fringilla id tellus id, molestie imperdiet "
+"sapien."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><h4>
+#: template.html:78
+msgid "Multiplayer"
+msgstr "Multiplayer"
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:80
+msgid ""
+"Mauris leo nisl, scelerisque nec metus at, vulputate tincidunt lectus. "
+"Integer vitae nisl vel turpis pellentesque luctus vel et neque. In varius "
+"ullamcorper nisi, ac porttitor magna tristique a. Morbi erat lorem, euismod "
+"ut maximus sit amet, venenatis sed sapien. Morbi eu mi auctor, pulvinar nunc "
+"sit amet, cursus ligula. Fusce in tempus elit. Phasellus vulputate tortor "
+"quam, eu tempus nisl dapibus sit amet. Maecenas faucibus, purus ac fermentum "
+"scelerisque, ipsum felis sollicitudin mi, a eleifend enim eros quis sem. "
+"Proin at justo justo. Aenean in arcu a sem egestas posuere. Praesent libero "
+"nunc, aliquet vitae porttitor in, aliquam eget nunc. Vestibulum suscipit "
+"convallis nibh ac facilisis."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><h4>
+#: template.html:82
+msgid "General"
+msgstr "General"
+
+#. type: Content of: <html><body><div><div><div><div><div><a>
+#: template.html:85
+#, fuzzy
+#| msgid "<a href='images/start-2-full.jpg'>"
+msgid "<a href='images/start-5-full.jpg'>"
+msgstr "<a href='images/start-2-full.jpg'>"
+
+#. type: Content of: <html><body><div><div><div><div><div><a>
+#: template.html:89
+msgid "<a href='images/start-3-full.jpg'>"
+msgstr "<a href='images/start-3-full.jpg'>"
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:92
+msgid ""
+"Pellentesque sollicitudin, dui quis ultrices maximus, libero elit feugiat "
+"metus, fringilla semper enim diam at dolor. Proin elit urna, interdum et "
+"ipsum condimentum, consequat convallis enim. Suspendisse eu ipsum facilisis, "
+"pulvinar erat nec, aliquet nulla. Integer sit amet nisi nulla. Curabitur id "
+"metus neque. Proin vel aliquam libero. Nulla facilisi. Suspendisse "
+"pellentesque faucibus sollicitudin. Phasellus ut efficitur ipsum, tempus "
+"molestie elit. Phasellus dapibus leo vitae fermentum ultrices. Pellentesque "
+"aliquam purus vitae viverra gravida."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><h3>
+#: template.html:94
+msgid "For Content Developers"
+msgstr "For Content Developers"
+
+#. type: Content of: <html><body><div><div><div><div><div><a>
+#: template.html:97
+msgid "<a href='images/start-4-full.jpg'>"
+msgstr "<a href='images/start-4-full.jpg'>"
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:100
+msgid ""
+"Aliquam mattis varius consequat. Ut vulputate gravida tristique. Donec sed "
+"massa maximus, ullamcorper tortor et, fermentum nisl. Morbi non aliquet "
+"turpis, sed bibendum eros. Maecenas ut scelerisque augue, nec egestas justo. "
+"Mauris gravida felis id placerat semper. Sed ullamcorper dignissim nunc, id "
+"suscipit leo. Aenean dictum orci eu quam ultricies, ut tempor felis "
+"imperdiet. Aenean ullamcorper tortor a augue ullamcorper, pretium pulvinar "
+"dui iaculis. Integer quis fringilla justo. Mauris condimentum elementum "
+"ante, eu mattis tellus facilisis non. Aliquam maximus ullamcorper sapien "
+"quis laoreet. Suspendisse at faucibus mi. Maecenas ultrices condimentum est, "
+"non imperdiet enim scelerisque sed. In a varius justo. Fusce sodales nisi "
+"massa, at facilisis diam vulputate at."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><h2>
+#: template.html:104
+msgid "Download"
+msgstr "Download"
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:106
+#, fuzzy
+#| msgid ""
+#| "Battle for Wesnoth is made available under the <a href='http://www.gnu."
+#| "org/licenses/gpl-2.0.html'>GNU General Public License</a> (GPL). Source "
+#| "code is available from <a href='http://www.wesnoth.org'>wesnoth.org</a> "
+#| "where you will also find instructions for <a href='http://wiki.wesnoth."
+#| "org/CompilingWesnoth'>building from source</a> on a range of different "
+#| "operating systems. Ready-to-go packages are also available for most "
+#| "popular operating systems, including Linux and Windows and Mac OS X."
+msgid ""
+"<em>The Battle for Wesnoth</em> is made available under the <a href='http://"
+"www.gnu.org/licenses/gpl-2.0.html'>GNU General Public License</a> (GPL). The "
+"source code is available from <a href='http://www.wesnoth.org'>wesnoth.org</"
+"a>, where you can also find instructions for <a href='http://wiki.wesnoth."
+"org/CompilingWesnoth'>building from source</a> on a range of different "
+"operating systems. Ready-to-go packages are also available for most popular "
+"operating systems, including Microsoft Windows, Apple OS X, and GNU/Linux."
+msgstr ""
+"Battle for Wesnoth is made available under the <a href='http://www.gnu.org/"
+"licenses/gpl-2.0.html'>GNU General Public License</a> (GPL). Source code is "
+"available from <a href='http://www.wesnoth.org'>wesnoth.org</a> where you "
+"will also find instructions for <a href='http://wiki.wesnoth.org/"
+"CompilingWesnoth'>building from source</a> on a range of different operating "
+"systems. Ready-to-go packages are also available for most popular operating "
+"systems, including Linux and Windows and Mac OS X."
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:112
+#, fuzzy
+#| msgid ""
+#| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
+#| "wesnoth-1.8.tar.bz2/download'>Source code</a> </strong>"
+msgid ""
+"<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+"wesnoth-1.12/wesnoth-1.12.tar.bz2/download'>Source code</a> </strong>"
+msgstr ""
+"<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
+"wesnoth-1.8.tar.bz2/download'>Source code</a> </strong>"
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:117
+#, fuzzy
+#| msgid ""
+#| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
+#| "wesnoth-1.8-win32.exe/download'>Wesnoth for MS Windows</a> </strong>"
+msgid ""
+"<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+"wesnoth-1.12/wesnoth-1.12-win32.exe/download'>Wesnoth for Microsoft Windows</"
+"a> </strong>"
+msgstr ""
+"<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
+"wesnoth-1.8-win32.exe/download'>Wesnoth for MS Windows</a> </strong>"
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:122
+#, fuzzy
+#| msgid ""
+#| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
+#| "Wesnoth_1.8.dmg/download'>Wesnoth for Mac OS X</a> </strong>"
+msgid ""
+"<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+"wesnoth-1.12/Wesnoth_1.12.dmg/download'>Wesnoth for Mac OS X</a> </strong>"
+msgstr ""
+"<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
+"Wesnoth_1.8.dmg/download'>Wesnoth for Mac OS X</a> </strong>"
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:128
+#, fuzzy
+#| msgid ""
+#| "You can get up to date information about downloads at the <a href='http://"
+#| "wiki.wesnoth.org/Download'>downloads page</a>. There you can also find "
+#| "packages and instructions for other platforms once they are available."
+msgid ""
+"You can get up-to-date information on downloads at the <a href='http://wiki."
+"wesnoth.org/Download'>downloads page</a>. There you can also find packages "
+"and instructions for other platforms once they are available."
+msgstr ""
+"You can get up to date information about downloads at the <a href='http://"
+"wiki.wesnoth.org/Download'>downloads page</a>. There you can also find "
+"packages and instructions for other platforms once they are available."
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:130
+msgid ""
+"If you downloaded previous versions of the game, you might be interested in "
+"downloading the <a href='http://wiki.wesnoth.org/Download_Xdeltas'>xdelta</"
+"a> files only."
+msgstr ""
+"If you downloaded previous versions of the game, you might be interested in "
+"downloading the <a href='http://wiki.wesnoth.org/Download_Xdeltas'>xdelta</"
+"a> files only."
+
+#. type: Content of: <html><body><div><div><div><h2>
+#: template.html:133
+msgid "More Info"
+msgstr "More Info"
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:136
+#, fuzzy
+#| msgid ""
+#| "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.8.0/"
+#| "changelog'>Full Changelog</a> (English, very long)"
+msgid ""
+"<a href='http://1.12-changelog.wesnoth.org/'>Full Changelog</a> (English, "
+"very long)"
+msgstr ""
+"<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.8.0/"
+"changelog'>Full Changelog</a> (English, very long)"
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:137
+#, fuzzy
+#| msgid ""
+#| "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.8.0/doc/"
+#| "manual/manual.en.html'>User's Manual</a>"
+msgid ""
+"<a href='http://www.wesnoth.org/manual/1.12/manual.en.html'>User’s Manual</a>"
+msgstr ""
+"<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.8.0/doc/manual/"
+"manual.en.html'>User's Manual</a>"
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:138
+#, fuzzy
+#| msgid ""
+#| "<a href='http://www.wesnoth.org'>Wesnoth Official Website</a> (English)"
+msgid "<a href='http://www.wesnoth.org'>Official Website</a> (English)"
+msgstr ""
+"<a href='http://www.wesnoth.org'>Wesnoth Official Website</a> (English)"
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:146
+msgid ""
+"<a href='http://www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a>"
+msgstr ""
+"<a href='http://www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a>"
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:147
+#, fuzzy
+#| msgid ""
+#| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
+msgid ""
+"<a href='http://www.wesnoth.org/start/1.8'>Wesnoth 1.8 Release Notes</a>"
+msgstr ""
+"<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:148
+#, fuzzy
+#| msgid ""
+#| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
+msgid ""
+"<a href='http://www.wesnoth.org/start/1.10'>Wesnoth 1.10 Release Notes</a>"
+msgstr ""
+"<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: template.html:155
+msgid "This page is also available in the following languages:"
+msgstr "This page is also available in the following languages:"
+
+#~ msgid ""
+#~ "The improvements this time around include one entire new full-length "
+#~ "campaign, hundreds of new and revised unit portraits, five new music "
+#~ "tracks, some UI redesign, and substantial improvements in the game's AI."
+#~ msgstr ""
+#~ "The improvements this time around include one entire new full-length "
+#~ "campaign, hundreds of new and revised unit portraits, five new music "
+#~ "tracks, some UI redesign, and substantial improvements in the game's AI."
+
+#~ msgid ""
+#~ "To help the player keep those who are loyal to him alive, these units are "
+#~ "now marked with an overlay symbol that looks like a bronze ring."
+#~ msgstr ""
+#~ "To help the player keep those who are loyal to him alive, these units are "
+#~ "now marked with an overlay symbol that looks like a bronze ring."
+
+#~ msgid ""
+#~ "The names on maps and other images can now be localized to the player's "
+#~ "language; several languages already use this new feature. For more "
+#~ "information and tutorials, look at the wiki article on <a href=\"http://"
+#~ "wiki.wesnoth.org/ImageLocalization\">Image Localization</a>."
+#~ msgstr ""
+#~ "The names on maps and other images can now be localized to the player's "
+#~ "language; several languages already use this new feature. For more "
+#~ "information and tutorials, look at the wiki article on <a href=\"http://"
+#~ "wiki.wesnoth.org/ImageLocalization\">Image Localization</a>."
+
+#~ msgid ""
+#~ "A new campaign, <cite>Delfador's Memoirs</cite>, tells the tale of how a "
+#~ "mage-apprentice rose to become Delfador the Great. This campaign was "
+#~ "imported from the <a href=\"http://wesnoth-umc-dev.sourceforge.net"
+#~ "\">Wesnoth-UMC-Dev project</a>, where it spent almost a year being "
+#~ "adapted for mainline."
+#~ msgstr ""
+#~ "A new campaign, <cite>Delfador's Memoirs</cite>, tells the tale of how a "
+#~ "mage-apprentice rose to become Delfador the Great. This campaign was "
+#~ "imported from the <a href=\"http://wesnoth-umc-dev.sourceforge.net"
+#~ "\">Wesnoth-UMC-Dev project</a>, where it spent almost a year being "
+#~ "adapted for mainline."
+
+#~ msgid ""
+#~ "We've continued to polish and improve the mainline campaigns.  The hero "
+#~ "Kaleh's custom advancements in <cite>Under the Burning Suns</cite>, long "
+#~ "a source of problems, have been redesigned in a more robust and "
+#~ "streamlined fashion. Significant continuity problems in <cite>Heir to the "
+#~ "Throne's</cite> \"Cliffs of Thoria\" scenario have been fixed.  Some "
+#~ "scenarios in <cite>Legend of Wesmere</cite> have been rewritten and "
+#~ "significantly enhanced. An early version of its multiplayer port is "
+#~ "available to test Wesnoth's multiplayer campaign feature."
+#~ msgstr ""
+#~ "We've continued to polish and improve the mainline campaigns.  The hero "
+#~ "Kaleh's custom advancements in <cite>Under the Burning Suns</cite>, long "
+#~ "a source of problems, have been redesigned in a more robust and "
+#~ "streamlined fashion. Significant continuity problems in <cite>Heir to the "
+#~ "Throne's</cite> \"Cliffs of Thoria\" scenario have been fixed.  Some "
+#~ "scenarios in <cite>Legend of Wesmere</cite> have been rewritten and "
+#~ "significantly enhanced. An early version of its multiplayer port is "
+#~ "available to test Wesnoth's multiplayer campaign feature."
+
+#~ msgid ""
+#~ "There are five new full-orchestral music tracks: <cite>Casualties of War</"
+#~ "cite>, <cite>Into the Shadows</cite>, <cite>Journey's End</cite>, "
+#~ "<cite>Over the Northern Mountains</cite>, and <cite>Weight of Revenge</"
+#~ "cite>."
+#~ msgstr ""
+#~ "There are five new full-orchestral music tracks: <cite>Casualties of War</"
+#~ "cite>, <cite>Into the Shadows</cite>, <cite>Journey's End</cite>, "
+#~ "<cite>Over the Northern Mountains</cite>, and <cite>Weight of Revenge</"
+#~ "cite>."
+
+#~ msgid ""
+#~ "The game AI has been significantly debugged and improved; it chooses "
+#~ "recruits/recalls better, and does smarter target selection."
+#~ msgstr ""
+#~ "The game AI has been significantly debugged and improved; it chooses "
+#~ "recruits/recalls better, and does smarter target selection."
+
+#~ msgid ""
+#~ "The operating system's GUI can be told to notify the player that it's his "
+#~ "turn to play."
+#~ msgstr ""
+#~ "The operating system's GUI can be told to notify the player that it's his "
+#~ "turn to play."
+
+#~ msgid ""
+#~ "The multiplayer lobby has been completely redesigned for improved ease of "
+#~ "play and better appearance."
+#~ msgstr ""
+#~ "The multiplayer lobby has been completely redesigned for improved ease of "
+#~ "play and better appearance."
+
+#~ msgid ""
+#~ "Random numbers are generated on the Wesnoth multiplayer server during MP "
+#~ "combats. This makes certain kinds of cheats and out-of-sync conditions "
+#~ "impossible, at the cost of breaking compatibility with versions before "
+#~ "1.7.13."
+#~ msgstr ""
+#~ "Random numbers are generated on the Wesnoth multiplayer server during MP "
+#~ "combats. This makes certain kinds of cheats and out-of-sync conditions "
+#~ "impossible, at the cost of breaking compatibility with versions before "
+#~ "1.7.13."
+
+#~ msgid ""
+#~ "The right sidebar on the main game display has been tuned for usability. "
+#~ "It now gives more prominence to the selected unit's terrain defence "
+#~ "percentage and time-of-day modifier."
+#~ msgstr ""
+#~ "The right sidebar on the main game display has been tuned for usability. "
+#~ "It now gives more prominence to the selected unit's terrain defence "
+#~ "percentage and time-of-day modifier."
+
+#~ msgid ""
+#~ "There is a new monster unit: the Water Serpent. Additionally, the "
+#~ "Dwarvish Scout from Under the Burning Suns is now part of normal Dwarvish "
+#~ "sides in campaigns. Several other unit lines &mdash; most notably the "
+#~ "Drakes &mdash; have been completely redone with improved art and "
+#~ "animations.  A remake of the merfolk units out of our Art Director's "
+#~ "virtual pencil has been completed in this release cycle.  (But most "
+#~ "animations are still missing for them.)"
+#~ msgstr ""
+#~ "There is a new monster unit: the Water Serpent. Additionally, the "
+#~ "Dwarvish Scout from Under the Burning Suns is now part of normal Dwarvish "
+#~ "sides in campaigns. Several other unit lines &mdash; most notably the "
+#~ "Drakes &mdash; have been completely redone with improved art and "
+#~ "animations.  A remake of the merfolk units out of our Art Director's "
+#~ "virtual pencil has been completed in this release cycle.  (But most "
+#~ "animations are still missing for them.)"
+
+#~ msgid ""
+#~ "Add-on descriptions are now accessible from the add-on download dialog "
+#~ "via a button."
+#~ msgstr ""
+#~ "Add-on descriptions are now accessible from the add-on download dialog "
+#~ "via a button."
+
+#~ msgid ""
+#~ "Most translations have been updated. In addition, Vietnamese has "
+#~ "returned, and we have a new transliteration, English in the Shavian "
+#~ "alphabet."
+#~ msgstr ""
+#~ "Most translations have been updated. In addition, Vietnamese has "
+#~ "returned, and we have a new transliteration, English in the Shavian "
+#~ "alphabet."
+
+#~ msgid ""
+#~ "This year Wesnoth was once again a Google \"Summer of Code\" program; one "
+#~ "of its major results was a complete rework of Wesnoth's support for "
+#~ "multiplayer campaigns. Sides in multiplayer games are now persistent and "
+#~ "can be carried over from one multiplayer scenario to the next. The "
+#~ "leaders of AI sides are now able to recall from their side's list. As a "
+#~ "side effect it is now possible to have more than one leader with the "
+#~ "ability to recruit per side."
+#~ msgstr ""
+#~ "This year Wesnoth was once again a Google \"Summer of Code\" program; one "
+#~ "of its major results was a complete rework of Wesnoth's support for "
+#~ "multiplayer campaigns. Sides in multiplayer games are now persistent and "
+#~ "can be carried over from one multiplayer scenario to the next. The "
+#~ "leaders of AI sides are now able to recall from their side's list. As a "
+#~ "side effect it is now possible to have more than one leader with the "
+#~ "ability to recruit per side."
+
+#~ msgid ""
+#~ "Another Summer of Code result is a new framework for Wesnoth's artificial "
+#~ "intelligence. The AI can now be scripted to significantly change its "
+#~ "behavior in different story settings and in response to campaign events, "
+#~ "give enemy sides more distinct tactical personalities. It is possible, "
+#~ "though not easy, to use scripting languages (formula_ai, lua) to create "
+#~ "alternate AIs that are also scriptable."
+#~ msgstr ""
+#~ "Another Summer of Code result is a new framework for Wesnoth's artificial "
+#~ "intelligence. The AI can now be scripted to significantly change its "
+#~ "behavior in different story settings and in response to campaign events, "
+#~ "give enemy sides more distinct tactical personalities. It is possible, "
+#~ "though not easy, to use scripting languages (formula_ai, lua) to create "
+#~ "alternate AIs that are also scriptable."
+
+#~ msgid ""
+#~ "A new tool called the <a href=\"http://wiki.wesnoth.org/"
+#~ "CommandMode#Extra_Debugging_Commands\">\"gamestate inspector\"</a> allows "
+#~ "a content developer to view the values of the WML variables, ai "
+#~ "configuration, and the recall list while a game is in progress."
+#~ msgstr ""
+#~ "A new tool called the <a href=\"http://wiki.wesnoth.org/"
+#~ "CommandMode#Extra_Debugging_Commands\">\"gamestate inspector\"</a> allows "
+#~ "a content developer to view the values of the WML variables, ai "
+#~ "configuration, and the recall list while a game is in progress."
+
+#~ msgid ""
+#~ "New Orcish Village and Orcish Keep terrain graphics improve the options "
+#~ "available to map designers."
+#~ msgstr ""
+#~ "New Orcish Village and Orcish Keep terrain graphics improve the options "
+#~ "available to map designers."
+
+#~ msgid ""
+#~ "We've also achieved excellent results with our inaugural 'Summer Art "
+#~ "Scholarship' program. This has led to dozens of new portraits, as well as "
+#~ "a complete rework of the Drake sprites. We hope to continue this program "
+#~ "in coming years."
+#~ msgstr ""
+#~ "We've also achieved excellent results with our inaugural 'Summer Art "
+#~ "Scholarship' program. This has led to dozens of new portraits, as well as "
+#~ "a complete rework of the Drake sprites. We hope to continue this program "
+#~ "in coming years."
+
+#~ msgid ""
+#~ "We paid a lot of attention to world continuity, from small details like "
+#~ "replacing earth-human names for characters up through larger ones like "
+#~ "putting many new placenames on the main map. The main Wesnoth history "
+#~ "timeline has been tweaked to eliminate various minor inconsistencies."
+#~ msgstr ""
+#~ "We paid a lot of attention to world continuity, from small details like "
+#~ "replacing earth-human names for characters up through larger ones like "
+#~ "putting many new placenames on the main map. The main Wesnoth history "
+#~ "timeline has been tweaked to eliminate various minor inconsistencies."
+
+#~ msgid ""
+#~ "We kept the promise we made in 1.6 when we had to remove Python for "
+#~ "technical reasons; WML events and AI components can now be written in "
+#~ "lua. The integration of lua in the wesnoth game engine is advanced enough "
+#~ "to even allow the coding of WML action tags with lua definitions that can "
+#~ "read and modify game state variables in the C++ core."
+#~ msgstr ""
+#~ "We kept the promise we made in 1.6 when we had to remove Python for "
+#~ "technical reasons; WML events and AI components can now be written in "
+#~ "lua. The integration of lua in the wesnoth game engine is advanced enough "
+#~ "to even allow the coding of WML action tags with lua definitions that can "
+#~ "read and modify game state variables in the C++ core."
