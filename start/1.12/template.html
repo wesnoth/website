@@ -5,7 +5,34 @@
 
 <head>
   <meta http-equiv="content-type" content="text/xhtml; charset=utf-8"/>
-  <link href="styles/intl.css" type="text/css" title="Default" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles/intl.css" type="text/css" title="Default"/>
+
+  <style type="text/css">
+  .dlbutton {
+  /* This button was generated using CSSButtonGenerator.com */
+	box-shadow:inset 0px 1px 0px -50px #caefab;
+	background-color:#009000;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	border-bottom-right-radius:2px;
+	border-bottom-left-radius:2px;
+	border:1px solid #268a16;
+	display:inline-block;
+	color:#f0f2ef;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	height:40px;
+	line-height:40px;
+	width:217px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:-1px 0px 14px #000000;
+}.dlbutton:active {
+	position:relative;
+	top:1px;
+}
+  </style>
+
   <link rel="shortcut icon" type="image/png"
         href="http://www.wesnoth.org/mw/skins/glamdrol/ico.png"/>
   <title>Battle for Wesnoth 1.12</title>
@@ -18,7 +45,7 @@
 <div id='header'>
   <div id='logo'>
     <a href='http://www.wesnoth.org'><img alt='Wesnoth logo'
-       src='http://www.wesnoth.org/mw/skins/glamdrol/title16.jpg'/></a>
+       src='images/header.png'/></a>
   </div>
 </div>
 
@@ -28,28 +55,18 @@
 <div id='main'>
 <div id='content'>
 
-<h1>Battle for Wesnoth 1.12 Release Notes</h1>
+<div id='title'>
+  <img src="images/title.png">
+</div>
 
-<p><i>December 2014</i>. As the year comes to an end, a new stable release series begins. The development team is proud to present version 1.12 of <cite>The Battle for Wesnoth</cite>, a <a href='http://www.gnu.org/philosophy/philosophy.html'>free</a> and <a href='http://www.opensource.org/'>open source</a> turn-based tactical strategy game with a high fantasy theme and role-playing elements. The game is available for Microsoft Windows, Apple OS X, and various GNU/Linux distributions.</p>
-
-<ul>
-  <li>
-    <a href='#game'>What’s New in Wesnoth 1.12</a>
-    <ul>
-      <li>
-        <a href='#players'>For Players</a>
-        <ul>
-          <li><a href='#campaigns'>Campaigns</a></li>
-          <li><a href='#multiplayer'>Multiplayer</a></li>
-          <li><a href='#general'>General</a></li>
-        </ul>
-      </li>
-      <li><a href='#campdev'>For Content Developers</a></li>
-    </ul>
-  </li>
-  <li><a href='#download'>Download</a></li>
-  <li><a href='#more'>More Info</a></li>
-</ul>
+<div id="intro">
+  <div style="float:right; margin:5px">
+    <!-- Pick one button style -->
+    <a class="dlbutton" href='http://wiki.wesnoth.org/Download'>Download 1.12</a>
+	<!--	<a href='http://wiki.wesnoth.org/Download'><img alt='Download button' src='images/dl.png'/></a>-->
+  </div>
+  <p style="font-size:120%"><i>December 2014</i>. As the year comes to an end, a new stable release series begins. <br> The development team is proud to present version 1.12 of <cite>The Battle for Wesnoth</cite> ! This release features many improvements in all areas, including a completely revamped interface, a new faction, dozens of new portraits, updated unit animations, hundreds of bug fixes, and a brand new map editor. Grab your friends and try out the new features for yourself, or read on for more in-depth details of the changes.</p>
+</div>
 
 <br />
 
@@ -63,13 +80,9 @@
   <div><a href='images/start-1-full.jpg'><img src='images/start-1.jpg' alt='Wesnoth Screenshot'/></a></div>
 </div>
 
-<div class='thumb tright'>
-  <div><a href='images/start-3-full.jpg'><img src='images/start-3.jpg' alt='Wesnoth Screenshot'/></a></div>
-</div>
-
 <!-- TODO: List and describe changes in paragraphs, starting from the most important/visible changes. -->
 
-<p>This new stable release features plenty of interface improvements in all areas, starting with a refurnished game screen with an increased focus on units and terrains, and a more streamlined and modern visual design. As part of an increased focus in elegance and consistency, every dialog in the game benefits from the new design and many other subtle enhancements.</p>
+<p>This new stable release features many interface improvements in all areas, starting with a refurnished game screen with an increased focus on units and terrains, and a more streamlined and modern visual design. As part of an increased focus in elegance and consistency, every dialog in the game features the new design and many other subtle enhancements.</p>
 
 <p>The minimap now offers alternative display modes for situations where a more fine-grained visualization of units, terrains, and villages is desired. Sidebar elements are rearranged and rescaled according to the current screen resolution in order to make better use of available space, and the team flag and number for the selected unit are displayed for ease of access.</p>
 
@@ -81,16 +94,24 @@
 
 <p>Tropical forests were completely redrawn and expanded with several variations, including rainforest, sparse and dense palm forests, and savanna forests. Underground maps also benefit from the addition of new underground bridge types, and battle scenarios may be spiced up with two new trash and debris terrains available directly from the editor.</p>
 
+<div id="div-campaigns" style="overflow-y:hidden">
+
 <h4 id='campaigns'>Campaigns</h4>
 
+<div class='thumb tleft'>
+  <div><a href='images/start-3-full.jpg'><img src='images/start-3.jpg' alt='Wesnoth Screenshot'/></a></div>
+</div>
 <!-- TODO: List and describe changes in paragraphs, starting from the most important/visible changes. -->
 
 <p>Many additional portrait variations have been added to Wesnoth’s flagship campaign, <cite>Heir to the Throne</cite>, as well as a brand new set of portrait art for <cite>Eastern Invasion</cite>.</p>
 
 <p>All campaign journey maps featured in story screens — as well as the title screen — have been redrawn in a new style, and maps have been added to several campaigns that previously lacked one.</p>
 
-<p>Most mainline campaigns have received visual and gameplay improvements on some level. Most notably, <cite>Son of the Black Eye</cite> has been rebalanced in its entirety, bringing its difficulty in line with its designation as an expert level campaign. Many scenarios of <cite>Under the Burning Suns</cite> have seen significant improvements, with some having been completely redesigned from the ground up.</p>
+<p>Most mainline campaigns have also received various visual and gameplay improvements. Most notably, <cite>Son of the Black Eye</cite> has been rebalanced in its entirety, bringing its difficulty in line with its designation as an expert level campaign. Many scenarios of <cite>Under the Burning Suns</cite> have seen significant improvements, with some having been completely redesigned from the ground up.</p>
 
+</div> <!-- Campaigns -->
+
+<div id="div-multiplayer" style="overflow-y:hidden">
 <h4 id='multiplayer'>Multiplayer</h4>
 
 <div class='thumb tright'>
@@ -109,13 +130,16 @@
 
 <p>[TODO: this section sucks]</p>
 
+</div> <!-- MP -->
+
+<div id="div-general" style="overflow-y:hidden">
 <h4 id='general'>General</h4>
 
 <div class='thumb tright'>
   <div><a href='images/start-2-full.jpg'><img src='images/start-2.jpg' alt='Wesnoth Screenshot'/></a></div>
 </div>
 
-<p>Just as the game engine’s extensibility allows our community to create and publish their own original content, it also allows players to change options as they see fit. The Hotkeys section in the game Preferences dialog has been completely renewed with a categorized view and the ability to assign multiple sequences to a particular action, as well as change assignments to make use of additional buttons found in certain mouse models.</p>
+<p>Just as the game engine’s extensibility allows our community to create and publish their own original content, it also allows players to change options as they see fit. Customizable Hotkeys were introduced and the Hotkeys Preferences dialog has been completely renewed with a categorized view. Players now have the ability to assign multiple sequences to a particular action, as well as change assignments to make use of additional buttons found in certain mouse models.</p>
 
 <p>Very often, players require direct access to the game files to transfer or share with others their progress in campaigns, create or modify add-ons, and take screenshots of the game display or map terrain. As the game runs on multiple platforms and accepts a vast number of installation alternatives, a reliable and consistent mechanism to provide players with access to their stored data has been added to the Preferences dialog. In addition to this, pressing a screenshot key sequence configured in the Hotkeys section brings up a dialog with options to open the newly-created file with their preferred image viewer, or browse the full contents of their screenshots folder.</p>
 
@@ -123,17 +147,19 @@
 
 <p>New translations. [TODO: Ivanovic and/or Espreon]</p>
 
+</div> <!-- General -->
+
 <h3 id='campdev'>For Content Developers</h3>
 
 <!-- TODO: List and describe changes in paragraphs, starting from the most important/visible changes. -->
 
-<div class='thumb tright'>
+<div class='thumb tleft'>
   <div><a href='images/start-5-full.jpg'><img src='images/start-5.jpg' alt='Wesnoth Screenshot'/></a></div>
 </div>
 
 <p>The WML and Lua API has received several changes which content creators porting 1.10-based add-ons must adapt to: a list is provided in <a href='http://forums.wesnoth.org/viewtopic.php?t=36057'>this thread</a>.</p>
 
-<p>Something something editor. [TODO: fabi] Also, new terrains. [TODO: ?]</p>
+<p>The Map Editor has recieved a full interface and functionality upgrade. [TODO: fabi] Also, new terrains. [TODO: ?]</p>
 
 <p>Both WML authors and players reporting bugs to them benefit from the greatly improved reports for loading-stage errors, displaying more legible error messages with the option to copy the contents to clipboard. The Gamestate Inspector tool provides the same option for game variables and status information; it now also uses the same underlying code as saved games to generate valid multiline WML attributes and translatable strings.</p>
 
