@@ -28,8 +28,9 @@ else
 	echo "Wescamp-i18n task disabled, no GitHub auth info found in $GITHUB_AUTH_FILE"
 fi
 
-#update our codebase
-cd $WEBSITE_PATH/gettext.wesnoth.org
+#update our codebase (not only g.w.o but all of the website repo!)
+#cd $WEBSITE_PATH/gettext.wesnoth.org
+cd $WEBSITE_PATH/
 git pull -q
 
 # update the stats
