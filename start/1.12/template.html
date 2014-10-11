@@ -10,26 +10,21 @@
   <style type="text/css">
   .dlbutton {
   /* This button was generated using CSSButtonGenerator.com */
-	box-shadow:inset 0px 1px 0px -50px #caefab;
-	background-color:#009000;
-	border-top-left-radius:2px;
-	border-top-right-radius:2px;
-	border-bottom-right-radius:2px;
-	border-bottom-left-radius:2px;
-	border:1px solid #268a16;
+	-box-shadow:inset 0px 1px 0px -50px #caefab;
+	background-image:url(images/dl.png);
 	display:inline-block;
+	width:217px;
+	height:42px;
+	line-height:42px;
 	color:#f0f2ef;
 	font-family:Trebuchet MS;
 	font-size:20px;
-	height:40px;
-	line-height:40px;
-	width:217px;
 	text-decoration:none;
 	text-align:center;
 	text-shadow:-1px 0px 14px #000000;
-}.dlbutton:active {
+}.dlbutton:hover {
 	position:relative;
-	top:1px;
+	background-image:url(images/dl-active.png);
 }
   </style>
 
@@ -56,14 +51,14 @@
 <div id='content'>
 
 <div id='title'>
-  <img src="images/title.png">
+  <img src="images/title.png" alt="Wesnoth 1.12>
 </div>
 
 <div id="intro">
   <div style="float:right; margin:5px">
     <!-- Pick one button style -->
-    <!-- <a class="dlbutton" href='http://wiki.wesnoth.org/Download'>Download 1.12</a> -->
-	<a href='http://wiki.wesnoth.org/Download'><img alt='Download 1.12' src='images/dl.png'/></a>
+    <a class="dlbutton" href='http://wiki.wesnoth.org/Download'>Download 1.12</a>
+	<!--<a href='http://wiki.wesnoth.org/Download'><img alt='Download 1.12' src='images/dl.png'/></a>-->
   </div>
   <p style="font-size:120%"><i>December 2014</i>. As the year comes to an end, a new stable release series begins. <br> The development team is proud to present version 1.12 of <cite>The Battle for Wesnoth</cite> ! This release features many improvements in all areas, including a completely revamped interface, a new faction, dozens of new portraits, updated unit animations, hundreds of bug fixes, and a brand new map editor. Grab your friends and try out the new features for yourself, or read on for more in-depth details of the changes.</p>
 </div>
