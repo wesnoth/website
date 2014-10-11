@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<!-- TODO: DELETE THIS AND OTHER TODO COMMENT SECTIONS BEFORE SHIPPING -->
+
+<head>
+  <meta http-equiv="content-type" content="text/xhtml; charset=utf-8"/>
+  <link href="styles/intl.css" type="text/css" title="Default" rel="stylesheet"/>
+  <link rel="shortcut icon" type="image/png"
+        href="http://www.wesnoth.org/mw/skins/glamdrol/ico.png"/>
+  <title>Battle for Wesnoth 1.12</title>
+</head>
+
+<body>
+
+<div id='global'>
+
+<div id='header'>
+  <div id='logo'>
+    <a href='http://www.wesnoth.org'><img alt='Wesnoth logo'
+       src='http://www.wesnoth.org/mw/skins/glamdrol/title16.jpg'/></a>
+  </div>
+</div>
+
+<div id='nav'>
+</div>
+
+<div id='main'>
+<div id='content'>
+
+<h1>Battle for Wesnoth 1.12 Release Notes</h1>
+
+<p><i>December 2014</i>. As the year comes to an end, a new stable release series begins. The development team is proud to present version 1.12 of <cite>The Battle for Wesnoth</cite>, a <a href='http://www.gnu.org/philosophy/philosophy.html'>free</a> and <a href='http://www.opensource.org/'>open source</a> turn-based tactical strategy game with a high fantasy theme and role-playing elements. The game is available for Microsoft Windows, Apple OS X, and various GNU/Linux distributions.</p>
+
+<ul>
+  <li>
+    <a href='#game'>What’s New in Wesnoth 1.12</a>
+    <ul>
+      <li>
+        <a href='#players'>For Players</a>
+        <ul>
+          <li><a href='#campaigns'>Campaigns</a></li>
+          <li><a href='#multiplayer'>Multiplayer</a></li>
+          <li><a href='#general'>General</a></li>
+        </ul>
+      </li>
+      <li><a href='#campdev'>For Content Developers</a></li>
+    </ul>
+  </li>
+  <li><a href='#download'>Download</a></li>
+  <li><a href='#more'>More Info</a></li>
+</ul>
+
+<br />
+
+<h2 id='game'>What’s New in Wesnoth 1.12</h2>
+
+<h3 id='players'>For Players</h3>
+
+<!-- TODO: Screenshots that show off the new fetures... -->
+
+<div class='thumb tright'>
+  <div><a href='images/start-1-full.jpg'><img src='images/start-1.jpg' alt='Wesnoth Screenshot'/></a></div>
+</div>
+
+<div class='thumb tright'>
+  <div><a href='images/start-3-full.jpg'><img src='images/start-3.jpg' alt='Wesnoth Screenshot'/></a></div>
+</div>
+
+<!-- TODO: List and describe changes in paragraphs, starting from the most important/visible changes. -->
+
+<p>This new stable release features plenty of interface improvements in all areas, starting with a refurnished game screen with an increased focus on units and terrains, and a more streamlined and modern visual design. As part of an increased focus in elegance and consistency, every dialog in the game benefits from the new design and many other subtle enhancements.</p>
+
+<p>The minimap now offers alternative display modes for situations where a more fine-grained visualization of units, terrains, and villages is desired. Sidebar elements are rearranged and rescaled according to the current screen resolution in order to make better use of available space, and the team flag and number for the selected unit are displayed for ease of access.</p>
+
+<p>Because Wesnoth thrives on the diversity and ingenuity of add-on content, this time the Add-ons Manager packs long overdue additions such as displaying each add-on’s installation status on the list, filtering items by their type or status, and enabling authors to link to feedback topics hosted on our <a href='http://forums.wesnoth.org/'>official forum board</a>.</p>
+
+<p>Units with specialized variations like the Walking Corpse and Soulless have subsections in the built-in help system dedicated to documenting each variation in full. New top sections have been added as well, explaining the usage of add-ons for newcomers, and providing an overview for each multiplayer faction.</p>
+
+<p>Many graphic improvements have been made for mounted units in the main game, including the Horseman, Cavalryman, and Elvish Scout unit lines; the Dwarvish Fighter and Thunderer lines; and the undead Spectre and Skeleton units. Several generic portraits were added or updated as well: the Spearman, Ogre, Wose, Ancient Lich, Wraith, and some troll units, amongst others.</p>
+
+<p>Tropical forests were completely redrawn and expanded with several variations, including rainforest, sparse and dense palm forests, and savanna forests. Underground maps also benefit from the addition of new underground bridge types, and battle scenarios may be spiced up with two new trash and debris terrains available directly from the editor.</p>
+
+<h4 id='campaigns'>Campaigns</h4>
+
+<!-- TODO: List and describe changes in paragraphs, starting from the most important/visible changes. -->
+
+<p>Many additional portrait variations have been added to Wesnoth’s flagship campaign, <cite>Heir to the Throne</cite>, as well as a brand new set of portrait art for <cite>Eastern Invasion</cite>.</p>
+
+<p>All campaign journey maps featured in story screens — as well as the title screen — have been redrawn in a new style, and maps have been added to several campaigns that previously lacked one.</p>
+
+<p>Most mainline campaigns have received visual and gameplay improvements on some level. Most notably, <cite>Son of the Black Eye</cite> has been rebalanced in its entirety, bringing its difficulty in line with its designation as an expert level campaign. Many scenarios of <cite>Under the Burning Suns</cite> have seen significant improvements, with some having been completely redesigned from the ground up.</p>
+
+<h4 id='multiplayer'>Multiplayer</h4>
+
+<div class='thumb tright'>
+  <div><a href='images/start-4-full.jpg'><img src='images/start-4.jpg' alt='Wesnoth Screenshot'/></a></div>
+</div>
+
+<p>This release sees the introduction of the Khalifate human faction. [TODO: happygrue]</p>
+
+<p>Multiplayer game creation screen has been redesigned and split into two screens. First screen is responsible for game creation, eras and modifications selection while the second screen allows to perform some extra configurations. All multiplayer screens were improved to take the new changes to multiplayer campaigns into account and to increase the visibility of relevant information. Additionally, all multiplayer screens were adjusted to improve support for low-resolution devices. [TODO: lipkab, coffee]</p>
+
+<p>Support for CampaignWML has been added for multiplayer, thus allowing the same campaign to be used in both multiplayer and singleplayer. As a result of this, difficulty levels and other features of singleplayer campaigns are supported in multiplayer as well. Additionally, some new functionality has been added to the multiplayer campaigns and it is now possible to go to the lobby in between campaign scenarios and perform side configurations. Finally, the Legend of Wesmere campaign has been made available to play in multiplayer as a result of these changes. [TODO: lipkab, coffee]</p>
+
+<p>A new kind of add-on, multiplayer modifications, has been implemented. [TODO: lipkab]</p>
+
+<p>Several features have been added to improve the multiplayer experience. An audible bell has been added to the game setup screen to notify the host once all players have finished selecting a faction. A sound is also played when the game has begun. If players disconnect from the game, an option to assign their side to "idle" without revealing their vision to the game host has been created, and a "join blindfolded" has been added so that players may rejoin the game and be assigned to a side without getting the vision of a normal observer.</p>
+
+<p>Many bugs related to reloading mp campaigns and scenarios have been fixed.</p>
+
+<p>[TODO: this section sucks]</p>
+
+<h4 id='general'>General</h4>
+
+<div class='thumb tright'>
+  <div><a href='images/start-2-full.jpg'><img src='images/start-2.jpg' alt='Wesnoth Screenshot'/></a></div>
+</div>
+
+<p>Just as the game engine’s extensibility allows our community to create and publish their own original content, it also allows players to change options as they see fit. The Hotkeys section in the game Preferences dialog has been completely renewed with a categorized view and the ability to assign multiple sequences to a particular action, as well as change assignments to make use of additional buttons found in certain mouse models.</p>
+
+<p>Very often, players require direct access to the game files to transfer or share with others their progress in campaigns, create or modify add-ons, and take screenshots of the game display or map terrain. As the game runs on multiple platforms and accepts a vast number of installation alternatives, a reliable and consistent mechanism to provide players with access to their stored data has been added to the Preferences dialog. In addition to this, pressing a screenshot key sequence configured in the Hotkeys section brings up a dialog with options to open the newly-created file with their preferred image viewer, or browse the full contents of their screenshots folder.</p>
+
+<p>The UI theme selection dialog in Preferences/Display now includes a short description of each item. A new optional theme optimized for the <a href='http://www.open-pandora.org/'>Pandora</a> and other small resolution devices has been added as well, providing a more compact visualization of unit stats and more visible command buttons. [TODO: Ivanovic and/or fabi]</p>
+
+<p>New translations. [TODO: Ivanovic and/or Espreon]</p>
+
+<h3 id='campdev'>For Content Developers</h3>
+
+<!-- TODO: List and describe changes in paragraphs, starting from the most important/visible changes. -->
+
+<div class='thumb tright'>
+  <div><a href='images/start-5-full.jpg'><img src='images/start-5.jpg' alt='Wesnoth Screenshot'/></a></div>
+</div>
+
+<p>The WML and Lua API has received several changes which content creators porting 1.10-based add-ons must adapt to: a list is provided in <a href='http://forums.wesnoth.org/viewtopic.php?t=36057'>this thread</a>.</p>
+
+<p>Something something editor. [TODO: fabi] Also, new terrains. [TODO: ?]</p>
+
+<p>Both WML authors and players reporting bugs to them benefit from the greatly improved reports for loading-stage errors, displaying more legible error messages with the option to copy the contents to clipboard. The Gamestate Inspector tool provides the same option for game variables and status information; it now also uses the same underlying code as saved games to generate valid multiline WML attributes and translatable strings.</p>
+
+<p>On the backend side, this new stable series contains a vast array of additions and changes for content creators. <a href='http://wiki.wesnoth.org/Micro_AIs'>Micro AIs</a> provide a powerful framework for assigning new and specialized AI behaviors to sides with minimal coding effort. Other AI improvements include a vastly improved and entirely configurable <a href='http://wiki.wesnoth.org/AI_Recruitment'>AI recruitment engine</a>, and a new AI for use in multiplayer games.</p>
+
+<p>As it has been the norm with previous stable series, many new features have been added to the WML and Lua API. For instance, <a href='http://wiki.wesnoth.org/AnimationWML'>animation WML tags</a> have been extended to support a new, more compact syntax for defining animation frames in less space. You can find out more about this and other changes at PAGE THAT DOESN’T EXIST. [TODO: shadowm]</p>
+
+<div class='visualClear'></div>
+
+<h2 id='download'>Download</h2>
+
+<p><cite>The Battle for Wesnoth</cite> is made available under the <a href='http://www.gnu.org/licenses/gpl-2.0.html'>GNU General Public License</a>
+(GPL). The source code is available from <a href='http://www.wesnoth.org'>wesnoth.org</a>, where you can also find instructions for <a href='http://wiki.wesnoth.org/CompilingWesnoth'>building from source</a> on a range of different operating systems. Ready-to-go packages are also available for most popular operating systems, including Microsoft Windows, Apple OS X, and GNU/Linux.</p>
+
+<!-- TODO: add the correct links once the files are available -->
+<ul>
+<li>
+  <b>
+  <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/wesnoth-1.12/wesnoth-1.12.tar.bz2/download'>Source code</a>
+  </b>
+</li>
+<li>
+  <b>
+  <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/wesnoth-1.12/wesnoth-1.12-win32.exe/download'>Wesnoth for Microsoft Windows</a>
+  </b>
+</li>
+<li>
+  <b>
+  <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/wesnoth-1.12/Wesnoth_1.12.dmg/download'>Wesnoth for Mac OS X</a>
+  </b>
+</li>
+</ul>
+
+<p>You can get up-to-date information on downloads at the <a href='http://wiki.wesnoth.org/Download'>downloads page</a>. There you can also find packages and instructions for other platforms once they are available.</p>
+
+<p>If you downloaded previous versions of the game, you might be interested in downloading the <a href='http://wiki.wesnoth.org/Download_Xdeltas'>xdelta</a> files only.</p>
+
+
+<h2 id='more'>More Info</h2>
+
+<ul>
+  <li><a href='http://1.12-changelog.wesnoth.org/'>Full Changelog</a> (English, very long)</li>
+  <li><a href='http://www.wesnoth.org/manual/1.12/manual.en.html'>User’s Manual</a></li>
+  <li><a href='http://www.wesnoth.org'>Official Website</a> (English)</li>
+
+  <li><a href='http://www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a></li>
+  <li><a href='http://www.wesnoth.org/start/1.8'>Wesnoth 1.8 Release Notes</a></li>
+  <li><a href='http://www.wesnoth.org/start/1.10'>Wesnoth 1.10 Release Notes</a></li>
+</ul>
+
+<br />
+<hr />
+
+<div id="languages">
+<p>This page is also available in the following languages:</p>
+<ul>
+<!--LANGS--><li><a href='index.en.html'>English [US]</a></li>
+<!--LANGS-->
+</ul>
+</div>
+
+</div> <!-- content -->
+
+<div class="visualClear"></div>
+
+</div> <!-- main -->
+</div> <!-- global -->
+
+</body>
+</html>
