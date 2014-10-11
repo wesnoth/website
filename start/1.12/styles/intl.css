@@ -49,3 +49,20 @@ hr {
   padding: 0 6px 0 0;
   list-style: none;
 }
+
+.dlbutton {
+	background-image:url(../images/dl.png);
+	display:inline-block;
+	width:217px;
+	height:42px;
+	line-height:42px;
+	color:#f0f2ef;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:-1px 0px 14px #000000;
+}.dlbutton:active {
+	position:relative;
+	background-image:url(../images/dl-active.png);
+}
