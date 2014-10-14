@@ -20,10 +20,6 @@
  * 1. Structural
  */
 
-body {
-  background: transparent;
-}
-
 html {
   background: #fffbf0;
   background: -webkit-linear-gradient(left, rgba(231,217,192,1.0), rgba(231,217,192,0.0) 5%),
@@ -34,11 +30,44 @@ html {
               linear-gradient(to left,  rgba(231,217,192,1.0), #fffbf0 5%);
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  color: #111;
+  font: 0.88em sans-serif;
+}
+
+#global {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0.95em;
+}
+
 #header {
   background: #272727 url('../images/header-1920.jpg') bottom center no-repeat;
+  border-bottom: 1px solid #0f1421;
   min-height: 300px;
-
   padding: 2em 0;
+}
+
+#logo {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#logo img {
+  margin: 0;
+  padding: 0;
+}
+
+#logo a {
+  margin: 0;
+  padding: 0;
+  color: #654;
+  text-decoration: none;
+  font-size: 0.8em;
 }
 
 #intro {
@@ -67,8 +96,22 @@ html {
   font-size: 130%;
 }
 
-#game {
-  text-align:center;
+#main,
+#languages {
+  margin: 0 8% 0 8%;
+  padding: 0 10px;
+  line-height: 1.6em;
+}
+
+html>body #main,
+html>body #languages {
+  margin: 0 auto;
+  width: auto;
+  max-width: 66em;
+}
+
+#content {
+  margin: 10px 22px;
 }
 
 .divider,
@@ -117,19 +160,6 @@ html {
   color: #ddd;
 }
 
-/* same extents as glamdrol #main */
-#languages {
-  margin: 0 8% 0 8%;
-  padding: 0 10px;
-  line-height: 1.6em;
-}
-
-html>body #languages {
-  margin: 0 auto;
-  width: auto;
-  max-width: 66em;
-}
-
 #footer p,
 #footer ul {
   margin: 0 22px;
@@ -149,21 +179,52 @@ html>body #languages {
   list-style: none;
 }
 
+.visualClear {
+  clear: both;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+*.center * {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*
  * 2. Content
  */
 
+p {
+  margin: 0.4em 0em 0.5em 0em;
+  line-height: 1.6em;
+}
+
 img {
+  border: none;
   max-width: 100%;
+  vertical-align: middle;
 }
 
 a {
+  color: #259;
   text-decoration: none;
 }
 
 a:hover,
 a:active {
   text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0.7em 0 0.17em 0;
+  background: none;
+  color: #333;
+  font-family: Junicode, Baskerville, FreeSerif, "Times New Roman", serif;
+  font-weight: bold;
 }
 
 h2,
@@ -191,7 +252,9 @@ h4 {
 }
 
 hr {
+  height: 1px;
   margin: 1.7em 0 1em; /* +0.7em h2 padding */
+  border: none;
 
   background-color: #E7D9C0;
   background: -webkit-linear-gradient(left, #FFFBF0, #E7D9C0 30%, #E7D9C0 70%, #FFFBF0);
@@ -199,9 +262,25 @@ hr {
   background: linear-gradient(to right, #FFFBF0, #E7D9C0 30%, #E7D9C0 70%, #FFFBF0);
 }
 
-div.thumb div {
-  border-color: #e7d9c0;
-  padding: 0.4em;
+ul {
+  margin: 0.3em 0 0 1.5em;
+  padding: 0;
+  line-height: 1.6em;
+  list-style-type: square;
+  list-style-image: url('../images/bullet.gif');
+  /* inline version */
+  list-style-image: url('data:image/gif;base64,R0lGODlhBQANAIAAAGOMnP///yH5BAEAAAEALAAAAAAFAA0AAAIJjI+pu+APo4SpADs=');
+}
+
+ol {
+  margin: 0.3em 0 0 3.2em;
+  padding: 0;
+  line-height: 1.6em;
+  list-style-image: none;
+}
+
+li {
+  margin-bottom: 0.1em;
 }
 
 #footer a {
@@ -213,8 +292,48 @@ div.thumb div {
 }
 
 /*
- * 3. Bling
+ * 3. Thumbnails
  */
+
+.thumb {
+  width: auto;
+  margin-bottom: 0.5em;
+  border: #fffbf0 solid 0;
+}
+
+.thumb div {
+  overflow: hidden;
+  border: #e7d9c0 solid 1px;
+  background-color: #ebe5da;
+  font-size: 0.9em;
+  text-align: center;
+  padding: 0.4em;
+}
+
+.thumb img {
+  margin: 0.3em 0.4em;
+}
+
+div.tleft {
+  clear: left;
+  float: left;
+  margin-right: 0.5em;
+  border-width: 0.5em 1.4em 0.8em 0;
+}
+
+div.tright {
+  clear: right;
+  float: right;
+  border-width: 0.5em 0 0.8em 1.4em;
+}
+
+/*
+ * 4. Bling
+ */
+
+#game {
+  text-align:center;
+}
 
 #download-button {
   display: inline-block;
@@ -265,7 +384,7 @@ div.thumb div {
 }
 
 /*
- * 4. Media queries
+ * 5. Media queries
  */
 
 @media only screen and (max-width: 699px) {
