@@ -1,51 +1,264 @@
-@import url(http://www.wesnoth.org/mw/skins/glamdrol/main.css);
+@import url(http://glamdrol.localhost/mw/skins/glamdrol/main.css);
+/* @import url(http://www.wesnoth.org/mw/skins/glamdrol/main.css); */
 
-#header {
-  background: url(http://www.wesnoth.org/mw/skins/glamdrol/headerbg_large.jpg) top repeat-x;
+/* @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic'); */
+
+body {
+  background: transparent;
 }
 
-h1 {
-  font-size: 195%;
+html {
+  background: #fffbf0;
+  background: -webkit-linear-gradient(left, rgba(231,217,192,1.0), rgba(231,217,192,0.0) 5%),
+              -webkit-linear-gradient(right,  rgba(231,217,192,1.0), #fffbf0 5%);
+  background: -moz-linear-gradient(left, rgba(231,217,192,1.0), rgba(231,217,192,0.0) 5%),
+              -moz-linear-gradient(right,  rgba(231,217,192,1.0), #fffbf0 5%);
+  background: linear-gradient(to right, rgba(231,217,192,1.0), rgba(231,217,192,0.0) 5%),
+              linear-gradient(to left,  rgba(231,217,192,1.0), #fffbf0 5%);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+#header {
+  background: #272727 url('../images/header-1920.jpg') bottom center no-repeat;
+  min-height: 300px;
+
+  padding: 2em 0;
+}
+
+#intro {
+  background: #E7D9C0;
+  background: rgba(231,217,192,0.8);
+  text-shadow: 0px 1px 0px #e6e6e6;
+  box-shadow: 0px 0px 16px #000;
+  border-radius: 6px;
+
+  width: auto;
+  max-width: 60em;
+  margin: 2em auto;
+  padding: 1em 2em;
+
+  text-align: center;
+}
+
+#intro h1 {
+  color: #222;
+  font-size: 320%;
+  padding: 0;
+}
+
+#intro p {
+  font-family: 'Open Sans', Segoe, 'Segoe UI', Arial, sans-serif;
+  font-size: 130%;
+}
+
+.divider,
+#footer {
+  padding: 4px;
+  border-top: 1px solid #a27f44;
+  border-bottom: 1px solid #724f2e;
+
+  background: #0f1421;
+  background: -webkit-linear-gradient(left, #0f1421, #161e31, #0f1421);
+  background: -moz-linear-gradient(left, #0f1421, #161e31, #0f1421);
+  background: linear-gradient(to right, #0f1421, #161e31, #0f1421);
+}
+
+.top-shadow,
+.bot-shadow {
+  padding: 0.4em;
+}
+
+.top-shadow {
+  padding: 0.4em;
+  margin-bottom: 1em;
+  border-top: #0f1421 solid 1px;
+
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0));
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0));
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0));
+}
+
+.bot-shadow {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-bottom: #0f1421 solid 1px;
+
+  background: -webkit-linear-gradient(bottom, rgba(231,217,192,1.0), rgba(231,217,192,0.0));
+  background: -moz-linear-gradient(bottom, rgba(231,217,192,1.0), rgba(231,217,192,0.0));
+  background: linear-gradient(to top, rgba(231,217,192,1.0), rgba(231,217,192,0.0));
+}
+
+#footer {
+  margin: 0;
+  padding: 1em;
+  border-bottom: none;
+  border-top: #724f2e solid 1px;
+  font-size: 1em;
+  color: #ddd;
+}
+
+h2, h3, h4 {
+  text-shadow: 0px 1px 0px #fff;
 }
 
 h2 {
   margin-bottom: 0.6em;
-  font-size: 165%;
+  border-bottom: none;
+  font-size: 200%;
 }
 
 h3 {
   margin-bottom: 0.6em;
-  color: #111;
-  font-size: 150%;
+  font-size: 175%;
+  color: #222;
 }
 
-dt {
-  color: #444;
+h4 {
+  font-size: 120%;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #333;
 }
 
 hr {
-  background-color: #666;
+  margin: 1.7em 0 1em; /* +0.7em h2 padding */
+
+  background-color: #E7D9C0;
+  background: -webkit-linear-gradient(left, #FFFBF0, #E7D9C0 30%, #E7D9C0 70%, #FFFBF0);
+  background: -moz-linear-gradient(left, #FFFBF0, #E7D9C0 30%, #E7D9C0 70%, #FFFBF0);
+  background: linear-gradient(to right, #FFFBF0, #E7D9C0 30%, #E7D9C0 70%, #FFFBF0);
 }
 
+div.thumb div {
+  border-color: #e7d9c0;
+  padding: 0.4em;
+}
+
+/* same extents as glamdrol #main */
 #languages {
-  margin: 0;
-  padding: 0;
-  text-align: left;
+  margin: 0 8% 0 8%;
+  padding: 0 10px;
+  line-height: 1.6em;
 }
 
-#languages p {
-  margin: 0;
+html>body #languages {
+  margin: 0 auto;
+  width: auto;
+  max-width: 66em;
 }
 
-#languages ul {
-  margin: 0 0 1em 0;
+#footer p,
+#footer ul {
+  margin: 0 22px;
+  font-size: 0.8em;
+}
+
+#footer ul {
+  margin-bottom: 1em;
   padding: 0;
   list-style: none;
 }
 
-#languages li {
+#footer li {
   display: inline;
   margin: 0;
-  padding: 0 6px 0 0;
+  padding: 0 1em 0 0;
   list-style: none;
 }
+
+#footer a {
+  color: #a27f44;
+}
+
+#footer a:hover {
+  color: #e7d9c0;
+}
+
+#download-button {
+  display: inline-block;
+
+  min-width: 216px;
+  height: 42px;
+
+  font-family: 'Trebuchet MS';
+  font-size: 20px;
+  line-height: 42px;
+
+  text-decoration: none;
+  text-align: center;
+
+  background: url('../images/download.png') center 0 no-repeat;
+
+  -webkit-transition: text-shadow 120ms;
+  -moz-transition:    text-shadow 120ms;
+  -o-transition:      text-shadow 120ms;
+  transition:         text-shadow 120ms;
+}
+
+#download-button, #download-button:active {
+  text-shadow: 0px -1px 0px #000;
+  color:       #bcb088;
+}
+
+#download-button:hover {
+  text-shadow: 0px -1px 0px #000, 0px 0px 8px #8ef;
+  color:       #ddd;
+  background-position: center -44px;
+}
+
+#download-button:active {
+  background-position: center -88px;
+}
+
+#header, #intro {
+  -webkit-animation-name: width, height;
+  -webkit-transition:     1s;
+  -moz-animation-name:    width, height;
+  -moz-transition:        1s;
+  -o-animation-name:      width, height;
+  -o-transition:          1s;
+  animation-name:         width, height;
+  transition:             1s;
+}
+
+@media only screen and (max-width: 699px) {
+  #header {
+    padding-bottom: 0;
+    background-position: top center;
+  }
+
+  #intro {
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+
+  #main {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  div.tleft, div.tright {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  div.thumb div {
+    display: inline-block;
+    max-width: 100%;
+  }
+}
+
+/* kate: indent-mode normal; indent-width 2; space-indent on; */
