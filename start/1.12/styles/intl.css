@@ -62,6 +62,10 @@ a:hover, a:active {
   font-size: 130%;
 }
 
+#game{
+  text-align:center;
+}
+
 .divider,
 #footer {
   padding: 4px;
