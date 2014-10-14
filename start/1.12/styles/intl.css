@@ -1,7 +1,20 @@
-/* @import url(http://glamdrol.localhost/mw/skins/glamdrol/main.css); */
-@import url(http://www.wesnoth.org/mw/skins/glamdrol/main.css);
-
-/* @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic'); */
+/*
+ * codename "Westin" - Wesnoth 1.12 Press Release stylesheet
+ * Copyright (C) 2014 by Ignacio Riquelme Morelle <shadowm@wesnoth.org>
+ *
+ * Based on "Glamdrol" - Wesnoth.org MediaWiki stylesheet
+ * Copyright (C) 2005 by Jordà Polo <jorda AT ettin DOT org>
+ *
+ * This stylesheet is free software; you can redistribute it and/or
+ * modify under the terms of the GNU General Public License as
+ * published by the Free Software Foundation; either version 2 of the
+ * License, or (at your option) any later version.
+ *
+ * This stylesheet is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY.
+ *
+ * See <http://www.gnu.org/copyleft/gpl.html> for more details.
+ */
 
 /*
  * 1. Structural
