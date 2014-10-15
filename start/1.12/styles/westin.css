@@ -279,6 +279,11 @@ li {
   margin-bottom: 0.1em;
 }
 
+code {
+  font-family: Consolas, Inconsolata, 'Courier New', monospace;
+  line-height: 1.2em;
+}
+
 #footer a {
   color: #a27f44;
 }
