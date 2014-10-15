@@ -366,17 +366,6 @@ div.tright {
   background-position: center -88px;
 }
 
-#header, #intro {
-  -webkit-animation-name: width, height;
-  -webkit-transition:     1s;
-  -moz-animation-name:    width, height;
-  -moz-transition:        1s;
-  -o-animation-name:      width, height;
-  -o-transition:          1s;
-  animation-name:         width, height;
-  transition:             1s;
-}
-
 /*
  * 5. Media queries
  */
