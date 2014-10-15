@@ -1,0 +1,409 @@
+/*
+ * codename "Westin" - Wesnoth 1.12 Press Release stylesheet
+ * Copyright (C) 2014 by Ignacio Riquelme Morelle <shadowm@wesnoth.org>
+ *
+ * Based on "Glamdrol" - Wesnoth.org MediaWiki stylesheet
+ * Copyright (C) 2005 by Jordà Polo <jorda AT ettin DOT org>
+ *
+ * This stylesheet is free software; you can redistribute it and/or
+ * modify under the terms of the GNU General Public License as
+ * published by the Free Software Foundation; either version 2 of the
+ * License, or (at your option) any later version.
+ *
+ * This stylesheet is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY.
+ *
+ * See <http://www.gnu.org/copyleft/gpl.html> for more details.
+ */
+
+/*
+ * 1. Structural
+ */
+
+html {
+  background: #fffbf0;
+  background: -webkit-linear-gradient(left, rgba(231,217,192,1.0), rgba(231,217,192,0.0) 5%),
+              -webkit-linear-gradient(right,  rgba(231,217,192,1.0), #fffbf0 5%);
+  background: -moz-linear-gradient(left, rgba(231,217,192,1.0), rgba(231,217,192,0.0) 5%),
+              -moz-linear-gradient(right,  rgba(231,217,192,1.0), #fffbf0 5%);
+  background: linear-gradient(to right, rgba(231,217,192,1.0), rgba(231,217,192,0.0) 5%),
+              linear-gradient(to left,  rgba(231,217,192,1.0), #fffbf0 5%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #111;
+  font: 0.88em sans-serif;
+}
+
+#global {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0.95em;
+}
+
+#header {
+  background: #0f1421 url('../images/header-1920.jpg') bottom center no-repeat;
+  border-bottom: 1px solid #0f1421;
+  min-height: 300px;
+  padding: 2em 0;
+}
+
+#logo {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#logo img {
+  margin: 0;
+  padding: 0;
+}
+
+#logo a {
+  margin: 0;
+  padding: 0;
+  color: #654;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+#intro {
+  background: #E7D9C0;
+  background: rgba(231,217,192,0.8);
+  text-shadow: 0px 1px 0px #e6e6e6;
+  box-shadow: 0px 0px 16px #000;
+  border-radius: 6px;
+
+  width: auto;
+  max-width: 60em;
+  margin: 2em auto;
+  padding: 1em 2em;
+
+  text-align: center;
+}
+
+#intro h1 {
+  color: #222;
+  font-size: 320%;
+  padding: 0;
+}
+
+#intro p {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 130%;
+}
+
+#main,
+#languages {
+  margin: 0 8% 0 8%;
+  padding: 0 10px;
+  line-height: 1.6em;
+}
+
+html>body #main,
+html>body #languages {
+  margin: 0 auto;
+  width: auto;
+  max-width: 66em;
+}
+
+#content {
+  margin: 10px 22px;
+}
+
+.divider,
+#footer {
+  border-bottom: 1px solid #724f2e;
+
+  background: #0f1421;
+  background: -webkit-linear-gradient(left, #0f1421, #161e31, #0f1421);
+  background: -moz-linear-gradient(left, #0f1421, #161e31, #0f1421);
+  background: linear-gradient(to right, #0f1421, #161e31, #0f1421);
+}
+
+.top-shadow,
+.bot-shadow {
+  padding: 0.4em;
+}
+
+.top-shadow {
+  padding: 0.4em;
+  margin-bottom: 1em;
+  border-top: #0f1421 solid 1px;
+
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0));
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0));
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0));
+}
+
+.bot-shadow {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-bottom: #0f1421 solid 1px;
+
+  background: -webkit-linear-gradient(bottom, rgba(231,217,192,1.0), rgba(231,217,192,0.0));
+  background: -moz-linear-gradient(bottom, rgba(231,217,192,1.0), rgba(231,217,192,0.0));
+  background: linear-gradient(to top, rgba(231,217,192,1.0), rgba(231,217,192,0.0));
+}
+
+#footer {
+  margin: 0;
+  padding: 1em;
+  border-bottom: none;
+  border-top: #724f2e solid 1px;
+  font-size: 1em;
+  color: #ddd;
+}
+
+#footer p,
+#footer ul {
+  margin: 0 22px;
+  font-size: 0.8em;
+}
+
+#footer ul {
+  margin-bottom: 1em;
+  padding: 0;
+  list-style: none;
+}
+
+#footer li {
+  display: inline;
+  margin: 0;
+  padding: 0 1em 0 0;
+  list-style: none;
+}
+
+.visualClear {
+  clear: both;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+*.center * {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+ * 2. Content
+ */
+
+p {
+  margin: 0.4em 0em 0.5em 0em;
+  line-height: 1.6em;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  color: #259;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0.7em 0 0.17em 0;
+  background: none;
+  color: #333;
+  font-family: Junicode, Baskerville, FreeSerif, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+h2,
+h3,
+h4 {
+  margin-bottom: 0.6em;
+  text-shadow: 0px 1px 0px #fff;
+  color: #222;
+}
+
+h2 {
+  font-size: 200%;
+}
+
+h3 {
+  font-size: 175%;
+}
+
+h4 {
+  font-size: 120%;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #333;
+}
+
+hr {
+  height: 1px;
+  margin: 1.7em 0 1em; /* +0.7em h2 padding */
+  border: none;
+
+  background-color: #E7D9C0;
+  background: -webkit-linear-gradient(left, #FFFBF0, #E7D9C0 30%, #E7D9C0 70%, #FFFBF0);
+  background: -moz-linear-gradient(left, #FFFBF0, #E7D9C0 30%, #E7D9C0 70%, #FFFBF0);
+  background: linear-gradient(to right, #FFFBF0, #E7D9C0 30%, #E7D9C0 70%, #FFFBF0);
+}
+
+ul {
+  margin: 0.3em 0 0 1.5em;
+  padding: 0;
+  line-height: 1.6em;
+  list-style-type: square;
+  list-style-image: url('../images/bullet.gif');
+  /* inline version */
+  list-style-image: url('data:image/gif;base64,R0lGODlhBQANAIAAAGOMnP///yH5BAEAAAEALAAAAAAFAA0AAAIJjI+pu+APo4SpADs=');
+}
+
+ol {
+  margin: 0.3em 0 0 3.2em;
+  padding: 0;
+  line-height: 1.6em;
+  list-style-image: none;
+}
+
+li {
+  margin-bottom: 0.1em;
+}
+
+code {
+  font-family: Consolas, Inconsolata, 'Courier New', monospace;
+  line-height: 1.2em;
+}
+
+#footer a {
+  color: #a27f44;
+}
+
+#footer a:hover {
+  color: #e7d9c0;
+}
+
+/*
+ * 3. Thumbnails
+ */
+
+.thumb {
+  width: auto;
+  margin-bottom: 0.5em;
+  border: #fffbf0 solid 0;
+}
+
+.thumb div {
+  overflow: hidden;
+  border: #e7d9c0 solid 1px;
+  background-color: #ebe5da;
+  font-size: 0.9em;
+  text-align: center;
+  padding: 0.4em;
+}
+
+.thumb img {
+  margin: 0.3em 0.4em;
+}
+
+div.tleft {
+  clear: left;
+  float: left;
+  margin-right: 0.5em;
+  border-width: 0.5em 1.4em 0.8em 0;
+}
+
+div.tright {
+  clear: right;
+  float: right;
+  border-width: 0.5em 0 0.8em 1.4em;
+}
+
+/*
+ * 4. Bling
+ */
+
+#download-button {
+  display: inline-block;
+
+  margin-top: 0.8em;
+  min-width: 216px;
+  height: 42px;
+
+  font-family: 'Trebuchet MS';
+  font-size: 20px;
+  line-height: 42px;
+
+  text-decoration: none;
+  text-align: center;
+
+  background: url('../images/download.png') center 0 no-repeat;
+
+  -webkit-transition: text-shadow 120ms;
+  -moz-transition:    text-shadow 120ms;
+  -o-transition:      text-shadow 120ms;
+  transition:         text-shadow 120ms;
+}
+
+#download-button,
+#download-button:active {
+  text-shadow: 0px -1px 0px #000;
+  color:       #bcb088;
+}
+
+#download-button:hover {
+  text-shadow: 0px -1px 0px #000, 0px 0px 8px #8ef;
+  color:       #ddd;
+  background-position: center -44px;
+}
+
+#download-button:active {
+  background-position: center -88px;
+}
+
+/*
+ * 5. Media queries
+ */
+
+@media only screen and (max-width: 699px) {
+  #header {
+    padding-bottom: 0;
+    background-size: 1280px 439px;
+    background-position: center top;
+  }
+
+  #intro {
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+
+  #main {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  div.tleft,
+  div.tright {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  div.thumb div {
+    display: inline-block;
+    max-width: 100%;
+  }
+}
+
+/* kate: indent-mode normal; indent-width 2; space-indent on; */
