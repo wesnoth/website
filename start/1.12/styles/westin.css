@@ -45,7 +45,7 @@ body {
 }
 
 #header {
-  background: #272727 url('../images/header-1920.jpg') bottom center no-repeat;
+  background: #0f1421 url('../images/header-1920.jpg') bottom center no-repeat;
   border-bottom: 1px solid #0f1421;
   min-height: 300px;
   padding: 2em 0;
@@ -116,8 +116,6 @@ html>body #languages {
 
 .divider,
 #footer {
-  padding: 4px;
-  border-top: 1px solid #a27f44;
   border-bottom: 1px solid #724f2e;
 
   background: #0f1421;
@@ -386,7 +384,8 @@ div.tright {
 @media only screen and (max-width: 699px) {
   #header {
     padding-bottom: 0;
-    background-position: top center;
+    background-size: 1280px 439px;
+    background-position: center top;
   }
 
   #intro {
