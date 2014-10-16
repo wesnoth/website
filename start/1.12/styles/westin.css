@@ -406,4 +406,13 @@ div.tright {
   }
 }
 
+@media only screen and (min-width: 1921px) {
+  #header {
+    background-image: /* no legacy fallback intended */
+      linear-gradient(to right, rgba(15,20,33,1) calc((100% - 1920px)/2), rgba(15,20,33,0) calc((100% - 1920px)/2 + 3em)),
+      linear-gradient(to left, rgba(15,20,33,1) calc((100% - 1920px)/2), rgba(15,20,33,0) calc((100% - 1920px)/2 + 3em)),
+      url('../images/header-1920.jpg');
+  }
+}
+
 /* kate: indent-mode normal; indent-width 2; space-indent on; */
