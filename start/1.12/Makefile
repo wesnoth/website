@@ -18,7 +18,7 @@ HTML_STAMP = $(HTML_PAGES:=.html)
 LIST = languages.conf
 LIST_STAMP = $(STAMPDIR)/$(LIST)
 
-PO4A_OPTIONS = -f xhtml -M utf-8
+PO4A_OPTIONS = -f xhtml -M utf-8 -o untranslated='<script>'
 PO4A_THRESHOLD = 85
 
 # ----------------------------------------------------------------------
