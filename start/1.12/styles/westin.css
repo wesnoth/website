@@ -294,7 +294,7 @@ code {
 .thumb {
   width: auto;
   margin-bottom: 0.5em;
-  border: #fffbf0 solid 0;
+  border: transparent solid 0;
 }
 
 .thumb div {
