@@ -68,7 +68,7 @@ body {
   padding: 0;
   color: #654;
   text-decoration: none;
-  font-size: 0.8em;
+  font-size: 0.85em;
 }
 
 #intro {
@@ -80,8 +80,8 @@ body {
 
   width: auto;
   max-width: 60em;
-  margin: 1.6em auto;
-  padding: 0.8em 1.6em;
+  margin: 1.7em auto;
+  padding: 0.85em 1.7em;
 
   text-align: center;
 }
@@ -157,7 +157,7 @@ body {
 #footer p,
 #footer ul {
   margin: 0 22px;
-  font-size: 0.8em;
+  font-size: 0.85em;
 }
 
 #footer ul {
@@ -197,11 +197,11 @@ p,
 ul,
 ol,
 code {
-  line-height: 1.6em;
+  line-height: 1.7em;
 }
 
 p {
-  margin: 0.8em 0;
+  margin: 0.85em 0;
 }
 
 img {
@@ -221,8 +221,8 @@ a:active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0.8em 0;
-  padding-top: 0.8em;
+  margin: 0.85em 0;
+  padding-top: 0.85em;
   background: none;
   color: #333;
   font-family: Junicode, Baskerville, FreeSerif, "Times New Roman", serif;
@@ -253,7 +253,7 @@ h4 {
 
 hr {
   height: 1px;
-  margin: 1.6em 0 0.8em;
+  margin: 1.7em 0 0.85em;
   border: none;
 
   background-color: #E7D9C0;
@@ -263,7 +263,7 @@ hr {
 }
 
 ul {
-  margin: 0.8em 0 0 1.5em;
+  margin: 0.85em 0 0 1.5em;
   padding: 0;
   list-style-type: square;
   list-style-image: url('../images/bullet.gif');
@@ -272,7 +272,7 @@ ul {
 }
 
 ol {
-  margin: 0.8em 0 0 3.2em;
+  margin: 0.85em 0 0 3.2em;
   padding: 0;
   list-style-image: none;
 }
@@ -336,7 +336,7 @@ div.tright {
 #download-button {
   display: inline-block;
 
-  margin: 0.8em 0;
+  margin: 0.85em 0;
   min-width: 216px;
   height: 42px;
 
