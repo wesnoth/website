@@ -336,7 +336,7 @@ div.tright {
 #download-button {
   display: inline-block;
 
-  margin-top: 0.8em;
+  margin: 0.8em 0;
   min-width: 216px;
   height: 42px;
 
