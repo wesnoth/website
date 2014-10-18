@@ -87,12 +87,14 @@ body {
 }
 
 #intro h1 {
+  margin: 0;
   color: #222;
   font-size: 320%;
   padding: 0;
 }
 
 #intro p {
+  margin: 0.4em 0;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 130%;
 }
@@ -103,7 +105,6 @@ body {
   width: auto;
   max-width: 66em;
   padding: 0 10px;
-  line-height: 1.6em;
 }
 
 #content {
@@ -190,9 +191,17 @@ body {
  * 2. Content
  */
 
-p {
-  margin: 0.4em 0em 0.5em 0em;
+#main,
+#languages,
+p,
+ul,
+ol,
+code {
   line-height: 1.6em;
+}
+
+p {
+  margin: 0.8em 0;
 }
 
 img {
@@ -212,8 +221,8 @@ a:active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0.7em 0 0.17em 0;
+  margin: 0.8em 0;
+  padding-top: 0.8em;
   background: none;
   color: #333;
   font-family: Junicode, Baskerville, FreeSerif, "Times New Roman", serif;
@@ -223,13 +232,13 @@ h1, h2, h3, h4, h5, h6 {
 h2,
 h3,
 h4 {
-  margin-bottom: 0.6em;
   text-shadow: 0px 1px 0px #fff;
   color: #222;
 }
 
 h2 {
   font-size: 200%;
+  padding-top: 0;
 }
 
 h3 {
@@ -244,7 +253,7 @@ h4 {
 
 hr {
   height: 1px;
-  margin: 1.7em 0 1em; /* +0.7em h2 padding */
+  margin: 1.6em 0 0.8em;
   border: none;
 
   background-color: #E7D9C0;
@@ -254,9 +263,8 @@ hr {
 }
 
 ul {
-  margin: 0.3em 0 0 1.5em;
+  margin: 0.8em 0 0 1.5em;
   padding: 0;
-  line-height: 1.6em;
   list-style-type: square;
   list-style-image: url('../images/bullet.gif');
   /* inline version */
@@ -264,9 +272,8 @@ ul {
 }
 
 ol {
-  margin: 0.3em 0 0 3.2em;
+  margin: 0.8em 0 0 3.2em;
   padding: 0;
-  line-height: 1.6em;
   list-style-image: none;
 }
 
@@ -276,7 +283,6 @@ li {
 
 code {
   font-family: Consolas, Inconsolata, 'Courier New', monospace;
-  line-height: 1.2em;
 }
 
 #footer a {
