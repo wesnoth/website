@@ -225,8 +225,8 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 0.85em;
   background: none;
   color: #333;
-  font-family: Junicode, Baskerville, FreeSerif, "Times New Roman", serif;
-  font-weight: bold;
+  font-family: 'Crimson Text', Junicode, 'Times New Roman', serif;
+  font-weight: 600;
 }
 
 h2,
