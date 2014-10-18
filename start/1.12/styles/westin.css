@@ -465,6 +465,11 @@ div.tright {
     margin-bottom: 0;
   }
 
+  #anntoc-button,
+  #anntoc .expanded {
+    display: none !important;
+  }
+
   #main {
     margin: 0;
   }
