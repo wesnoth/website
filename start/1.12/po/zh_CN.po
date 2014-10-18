@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth 1.10\n"
-"POT-Creation-Date: 2014-10-16 02:45-0300\n"
+"POT-Creation-Date: 2014-10-18 01:01-0300\n"
 "PO-Revision-Date: 2012-01-21 14:53+0800\n"
 "Last-Translator: CloudiDust <cloudidust@gmail.com>\n"
 "Language-Team: Chinese Simplified <http://code.google.com/p/wesnoth-"
@@ -41,8 +41,8 @@ msgid "Wesnoth logo"
 msgstr "韦诺之战标识"
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: template.html:29 template.html:55 template.html:73 template.html:86
-#: template.html:106 template.html:122
+#: template.html:29 template.html:60 template.html:74 template.html:88
+#: template.html:104 template.html:118
 msgid "</a>"
 msgstr "</a>"
 
@@ -52,14 +52,14 @@ msgid "As the year comes to an end, a new stable release series begins."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:35
+#: template.html:36
 msgid ""
 "The development team is proud to present version 1.12 of <cite>The&nbsp;"
 "Battle&nbsp;for&nbsp;Wesnoth</cite>!"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:35
+#: template.html:37
 msgid ""
 "This release features many improvements in all areas, including a completely "
 "revamped interface, a new multiplayer faction, dozens of new portraits, "
@@ -68,79 +68,83 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div>
-#: template.html:38
+#: template.html:40
 #, fuzzy
 #| msgid "<a href='#download'>Download</a>"
 msgid "<a id='download-button' href='#download'>Download Now!</a>"
 msgstr "<a href='#download'>下载</a>"
 
 #. type: Content of: <html><body><div><div><div><h2>
-#: template.html:48
+#: template.html:51
 #, fuzzy
 #| msgid "What’s New in Wesnoth 1.10"
 msgid "What’s New in Wesnoth 1.12"
 msgstr "韦诺之战 1.10 新增元素"
 
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:55
+msgid ""
+"The improvements for this release begin at the title screen, featuring the "
+"familiar map of Wesnoth and its surroundings in a new visually-appealing "
+"style. Starting a new game — be it in single or multiplayer mode — reveals a "
+"completely refurnished game screen, with a more streamlined and modern "
+"design. As part of our commitment to elegance and consistency, every dialog "
+"in the game features the new design and many other subtle enhancements."
+msgstr ""
+
 #. type: Content of: <html><body><div><div><div><h3>
-#: template.html:50
+#: template.html:57
 msgid "For Players"
 msgstr "玩家可见的改进"
 
 #. type: Content of: <html><body><div><div><div><div><div><a>
-#: template.html:55
+#: template.html:60
 msgid "<a href='images/start-1-full.jpg'>"
 msgstr "<a href='images/start-1-full.jpg'>"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><div><div><a><img>
-#: template.html:55 template.html:73 template.html:86 template.html:106
-#: template.html:122
+#: template.html:60 template.html:74 template.html:88 template.html:104
+#: template.html:118
 msgid "Wesnoth Screenshot"
 msgstr "韦诺之战屏幕截图"
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:60
-msgid ""
-"This new stable release features many interface improvements in all areas, "
-"starting with a refurnished game screen with an increased focus on units and "
-"terrains and a more streamlined and modern visual design. As part of the "
-"focus on elegance and consistency, every dialog in the game features the new "
-"design and many other subtle enhancements."
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:62
+#: template.html:63
 msgid ""
 "The minimap now offers alternative display modes for situations where a more "
-"fine-grained visualization of units, terrains, and villages is desired. "
-"Sidebar elements have been rearranged and rescaled according to the current "
+"fine-grained visualization of units, terrains, and villages is desired. Many "
+"sidebar elements have been rearranged and rescaled according to the current "
 "screen resolution in order to make better use of available space, and the "
-"team flag and number for the selected unit are displayed for ease of access."
+"team flag and number for the selected unit are displayed for ease of access. "
+"Leaders and designated hero units in campaigns and multiplayer scenarios are "
+"also adorned with star-shaped ellipses for fast identification on the field."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:64
+#: template.html:65
 msgid ""
 "Because Wesnoth thrives on the diversity and ingenuity of add-on content, "
 "this time the Add-ons Manager packs long overdue additions, such as "
-"displaying each add-on’s installation status on the list, filtering items by "
-"their type or status, and enabling authors to link to feedback topics hosted "
-"on our <a href='http://forums.wesnoth.org/'>official forum board</a>."
+"displaying each add-on’s installation status directly on the list, filtering "
+"items by their type or status, and enabling authors to link to feedback "
+"topics hosted on our <a href='http://forums.wesnoth.org/'>official forum "
+"board</a>."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:66
+#: template.html:67
 msgid ""
-"Units with specialized variations like the Walking Corpse and Soulless have "
-"subsections in the built-in help system dedicated to documenting each "
-"variation in full. New top sections have been added as well, explaining the "
-"usage of add-ons for newcomers, and providing an overview for each "
-"multiplayer faction."
+"Units with specialized variations like the Walking Corpse and Soulless now "
+"have subsections in the built-in help system dedicated to documenting each "
+"variation in full. New top categories have been added as well, introducing "
+"the different types of add-ons to newcomers, and providing an overview for "
+"each multiplayer faction."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:68
+#: template.html:69
 msgid ""
-"Many graphic improvements have been made for mounted units in the main game, "
+"Many art improvements have been made for mounted units in the game, "
 "including the Horseman, Cavalryman, and Elvish Scout unit lines. The "
 "Dwarvish Fighter and Thunderer lines and the undead Spectre and Skeleton "
 "units have had their animations revamped in full. Several generic portraits "
@@ -149,29 +153,29 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h4>
-#: template.html:70
+#: template.html:71
 msgid "Campaigns"
 msgstr "战役"
 
 #. type: Content of: <html><body><div><div><div><div><div><a>
-#: template.html:73
+#: template.html:74
 msgid "<a href='images/start-3-full.jpg'>"
 msgstr "<a href='images/start-3-full.jpg'>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:77
 msgid ""
-"Many additional portrait variations have been added to Wesnoth’s flagship "
-"campaign, <cite>Heir to the Throne</cite>, as well as a brand new set of "
-"portrait art for <cite>Eastern Invasion</cite>."
+"A number of additional portrait variations have been added to "
+"<cite>Wesnoth’s</cite> flagship campaign, <cite>Heir to the Throne</cite>, "
+"as well as a brand new set of portrait art for <cite>Eastern Invasion</cite>."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:79
 msgid ""
-"All campaign journey maps featured in story screens — as well as the title "
-"screen — have been redrawn in a new style, and maps have been added to "
-"several campaigns that previously lacked one."
+"To complement the new title screen artwork, all campaign journey maps "
+"featured in story screens have been redrawn in the same style, and new ones "
+"have been added to several campaigns that previously lacked one."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
@@ -180,110 +184,122 @@ msgid ""
 "Most mainline campaigns have also received various visual and gameplay "
 "improvements. Most notably, <cite>Son of the Black Eye</cite> has been "
 "rebalanced in its entirety, bringing its difficulty in line with its "
-"designation as an expert level campaign. Many scenarios of <cite>Under the "
-"Burning Suns</cite> have seen significant improvements, with some having "
-"been completely redesigned from the ground up."
+"designation as an expert level campaign. Many scenarios of <cite>Eastern "
+"Invasion</cite> have seen significant improvements, with some having been "
+"completely redesigned from the ground up."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:83
+msgid ""
+"Although all campaigns in the menu are labeled according to their difficulty "
+"level, it is not uncommon for players to underestimate the challenge and "
+"face unsurmountable obstacles midway through. For this reason, a new option "
+"has been added to the Load Game dialog allowing players to switch difficulty "
+"at the very start of a scenario."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h4>
-#: template.html:83
+#: template.html:85
 msgid "Multiplayer"
 msgstr "多人游戏"
 
 #. type: Content of: <html><body><div><div><div><div><div><a>
-#: template.html:86
+#: template.html:88
 msgid "<a href='images/start-4-full.jpg'>"
 msgstr "<a href='images/start-4-full.jpg'>"
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:89
-msgid ""
-"This release sees the introduction of the Khalifate human faction. [TODO: "
-"happygrue]"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div><p>
 #: template.html:91
 msgid ""
-"Multiplayer game creation screen has been redesigned and split into two "
-"screens. First screen is responsible for game creation, eras and "
-"modifications selection while the second screen allows to perform some extra "
-"configurations. All multiplayer screens were improved to take the new "
-"changes to multiplayer campaigns into account and to increase the visibility "
-"of relevant information. Additionally, all multiplayer screens were adjusted "
-"to improve support for low-resolution devices. [TODO: lipkab, coffee]"
+"This series sees the introduction of a new playable faction in multiplayer "
+"games, the Khalifate. Available in game setup to use via the “Default + "
+"Khalifate” era, this faction of humans lacks magic users, and instead "
+"specializes in using terrain features to coordinate attacks at dawn or dusk. "
+"Their ranks boast lawful and liminal units, healers and high-accuracy melee "
+"fighters, and fearsome horse-mounted archers. While Khalifate units tend to "
+"be more expensive than those of the Loyalist faction, they make up for this "
+"with high mobility — especially on hilly terrains."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:93
 msgid ""
-"Support for CampaignWML has been added for multiplayer, thus allowing the "
-"same campaign to be used in both multiplayer and singleplayer. As a result "
-"of this, difficulty levels and other features of singleplayer campaigns are "
-"supported in multiplayer as well. Additionally, some new functionality has "
-"been added to the multiplayer campaigns and it is now possible to go to the "
-"lobby in between campaign scenarios and perform side configurations. "
-"Finally, the Legend of Wesmere campaign has been made available to play in "
-"multiplayer as a result of these changes. [TODO: lipkab, coffee]"
+"Multiplayer game creation screen has been redesigned and split into two "
+"screens. First screen is responsible for game creation, eras and "
+"modifications selection while the second screen allows to perform some extra "
+"configurations. A new feature implemented allows add-ons to add their "
+"configuration options as well on the second screen. All multiplayer screens "
+"were improved to take the new changes to multiplayer campaigns into account "
+"and to increase the visibility of relevant information. Additionally, all "
+"multiplayer screens were adjusted to improve support for low-resolution "
+"devices."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:95
 msgid ""
-"A new kind of add-on, multiplayer modifications, has been implemented. "
-"[TODO: lipkab]"
+"Many bugs related to reloading multiplayer campaigns and scenarios have been "
+"fixed. Support for the <a href=\"http://wiki.wesnoth.org/CampaignWML"
+"\"><code>[campaign]</code> tag</a> has been added to multiplayer mode, thus "
+"allowing the same campaign to be used in both multiplayer and singleplayer. "
+"As a result of this, difficulty levels and other features of singleplayer "
+"campaigns are supported in multiplayer as well. Multiplayer campaigns also "
+"support new functionality, including returning to the lobby between "
+"scenarios and performing side configurations. Finally, the <cite>Legend of "
+"Wesmere</cite> campaign has been made available as the first multiplayer-"
+"ready campaign shipping with the game."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:97
 msgid ""
-"Several features have been added to improve the multiplayer experience. An "
-"audible bell has been added to the game setup screen to notify the host once "
-"all players have finished selecting a faction. A sound is also played when "
-"the game has begun. If players disconnect from the game, an option to assign "
-"their side to 'idle' without revealing their vision to the game host has "
-"been created, and a 'join blindfolded' has been added so that players may "
-"rejoin the game and be assigned to a side without getting the vision of a "
-"normal observer."
+"A new kind of add-on, multiplayer modifications, has been implemented. "
+"Modifications are capable of changing the game rules independently of the "
+"used era or map. Thus, add-on creators can design scripts that can improve "
+"and alter the gameplay without restricting those improvements to a certain "
+"era or map. The default installation doesn't feature any modifications, but "
+"you can already download a few from the add-on server."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:99
 msgid ""
-"Many bugs related to reloading mp campaigns and scenarios have been fixed."
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:101
-msgid "[TODO: this section sucks]"
+"Several other features have been added to enhance the multiplayer "
+"experience. An audible bell has been added to the game setup screen to "
+"notify the host once all players have finished selecting a faction. A sound "
+"is also played when the game has begun. If players disconnect from the game, "
+"an option to assign their side to ‘idle’ without revealing their vision to "
+"the game host is now available, as well as a “blindfolded join” option so "
+"that players may rejoin the game and be assigned to a side without getting "
+"the vision of a normal observer."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h4>
-#: template.html:103
+#: template.html:101
 msgid "General"
 msgstr "总体改进"
 
 #. type: Content of: <html><body><div><div><div><div><div><a>
-#: template.html:106
+#: template.html:104
 #, fuzzy
 #| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href='images/start-2-full.jpg'>"
 msgstr "<a href='images/start-1-full.jpg'>"
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:109
+#: template.html:107
 msgid ""
 "Just as the game engine’s extensibility allows our community to create and "
 "publish their own original content, it also allows players to change options "
-"as they see fit. Customizable Hotkeys were introduced and the Hotkeys "
-"Preferences dialog has been completely renewed with a categorized view. "
-"Players now have the ability to assign multiple sequences to a particular "
-"action, as well as change assignments to make use of additional buttons "
-"found in certain mouse models."
+"as they see fit. The Hotkeys Preferences dialog has been renewed with a "
+"categorized view, the ability to assign multiple sequences to a particular "
+"action, and changing assignments to make use of additional buttons found in "
+"certain mouse models."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:111
+#: template.html:109
 msgid ""
 "Very often, players require direct access to the game files to share their "
 "saves, create or modify add-ons, or take screenshots of their games or map "
@@ -297,17 +313,17 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:113
+#: template.html:111
 msgid ""
 "The UI theme selection dialog in Preferences/Display now includes a short "
 "description of each item. A new optional theme optimized for the <a "
 "href='http://www.open-pandora.org/'>Pandora</a> and other small resolution "
 "devices has been added as well, providing a more compact visualization of "
-"unit stats and more visible command buttons. [TODO: Ivanovic and/or fabi]"
+"unit stats and more visible command buttons."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:115
+#: template.html:113
 msgid ""
 "Two new translations have been started: Scottish Gaelic and Ukrainian. As "
 "always, <cite>The Battle for Wesnoth</cite> relies on volunteers for "
@@ -317,67 +333,69 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h3>
-#: template.html:117
-msgid "For Content Developers"
+#: template.html:115
+#, fuzzy
+#| msgid "For Content Developers"
+msgid "For Content Creators"
 msgstr "内容开发者可见的改进"
 
 #. type: Content of: <html><body><div><div><div><div><div><a>
-#: template.html:122
+#: template.html:118
 msgid "<a href='images/start-5-full.jpg'>"
 msgstr "<a href='images/start-5-full.jpg'>"
 
 #. type: Content of: <html><body><div><div><div><p>
+#: template.html:121
+msgid ""
+"Like the main game interface, the map editor was also given a major "
+"overhaul, bringing with it increased visibility for commonly used file and "
+"selection tools, and more easily identifiable action icons. This version "
+"also marks the debut of the experimental scenario mode, which enables "
+"additional features previously available only to WML coders. Note that there "
+"are still many aspects remaining to be finalized and polished before it can "
+"be considered a substitute for the targeted subset of WML."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:123
+msgid ""
+"On the terrain selection front, tropical forests were completely redrawn and "
+"expanded with several variations, including rainforest, sparse and dense "
+"palm forests, and savanna. Underground maps also benefit from the addition "
+"of new underground bridge types, and battle scenarios may be spiced up with "
+"two new trash and debris terrains available directly from the editor."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
 #: template.html:125
-msgid ""
-"The WML and Lua API has received several changes which content creators "
-"porting 1.10-based add-ons must adapt to: a list is provided in <a "
-"href='http://forums.wesnoth.org/viewtopic.php?t=36057'>this thread</a>."
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:127
-msgid "Something something editor. [TODO: fabi]"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:129
-msgid ""
-"Tropical forests were completely redrawn and expanded with several "
-"variations, including rainforest, sparse and dense palm forests, and savanna "
-"forests. Underground maps also benefit from the addition of new underground "
-"bridge types, and battle scenarios may be spiced up with two new trash and "
-"debris terrains available directly from the editor."
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:131
 msgid ""
 "Both players and WML authors will benefit from improved debugging tools. "
 "Loading-stage error reports are now greatly more legible and feature copy-to-"
 "clipboard functionality. The Gamestate Inspector tool received similar "
-"updates: in addition the a copy-to-clipboard option for game variables and "
+"updates: in addition to a copy-to-clipboard option for game variables and "
 "status information, it now also makes use of the same underlying code as "
 "saved games to correctly generate valid multiline WML attributes and "
 "translatable strings."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:133
+#: template.html:127
 msgid ""
-"To further assist WML authors, a graphical interface has been added for the "
-"three main WML maintenance scripts (<code>wmllint</code>, <code>wmlindent</"
-"code>, and <code>wmlscope</code>), providing a convenient alternative to "
-"running them on the command line. The tool may be found in the <a "
-"href='http://wiki.wesnoth.org/EditingWesnoth'><code>data/tools</code></a> "
-"folder, and more information on the maintenance tools can be found <a "
-"href='http://wiki.wesnoth.org/Maintenance_tools'>on the wiki</a>."
+"To further assist WML authors, <code>GUI.pyw</code>, a graphical interface "
+"for the three main WML maintenance scripts (<code>wmllint</code>, "
+"<code>wmlindent</code>, and <code>wmlscope</code>) has been included, "
+"providing a convenient alternative to the command line versions. The tool "
+"may be found in the <a href='http://wiki.wesnoth.org/"
+"EditingWesnoth'><code>data/tools</code></a> folder. More information on the "
+"maintenance tools can be found <a href='http://wiki.wesnoth.org/"
+"Maintenance_tools'>on the wiki</a>."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:135
+#: template.html:129
 msgid ""
 "On the backend side, this new stable series contains a vast array of "
-"additions and changes for content creators. <a href='http://wiki.wesnoth.org/"
+"additions for content creators. <a href='http://wiki.wesnoth.org/"
 "Micro_AIs'>Micro AIs</a> provide a powerful framework for assigning new and "
 "specialized AI behaviors to sides with minimal coding effort. Other AI "
 "improvements include a vastly improved and entirely configurable <a "
@@ -386,23 +404,25 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:137
+#: template.html:131
 msgid ""
-"As it has been the norm with previous stable series, many new features have "
-"been added to the WML and Lua API. For instance, <a href='http://wiki."
-"wesnoth.org/AnimationWML'>animation WML tags</a> have been extended to "
-"support a new, more compact syntax for defining animation frames in less "
-"space. You can find out more about this and other changes at PAGE THAT "
-"DOESN’T EXIST. [TODO: shadowm]"
+"Many other new features have been added to the <a href=\"http://wiki.wesnoth."
+"org/ReferenceWML\">WML</a> and <a href=\"http://wiki.wesnoth.org/LuaWML"
+"\">Lua</a> API. For instance, <a href='http://wiki.wesnoth.org/"
+"AnimationWML'>animation WML tags</a> support a new, more compact syntax for "
+"defining animation frames in less space. The API has also received several "
+"changes which content creators porting 1.10-based add-ons must adapt to: a "
+"list is provided in our dedicated <a href='http://forums.wesnoth.org/"
+"viewtopic.php?t=36057'>forum thread</a>."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h2>
-#: template.html:141
+#: template.html:135
 msgid "Download"
 msgstr "下载"
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:143
+#: template.html:137
 #, fuzzy
 #| msgid ""
 #| "<em>The Battle for Wesnoth</em> is made available under the <a "
@@ -431,7 +451,7 @@ msgstr ""
 "Linux提供即装即用的软件包。"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:148
+#: template.html:142
 #, fuzzy
 #| msgid ""
 #| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/"
@@ -445,7 +465,7 @@ msgstr ""
 "wesnoth-1.10/wesnoth-1.10.tar.bz2/download'>源代码</a> </strong>"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:153
+#: template.html:147
 #, fuzzy
 #| msgid ""
 #| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/"
@@ -461,7 +481,7 @@ msgstr ""
 "a> </strong>"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:158
+#: template.html:152
 #, fuzzy
 #| msgid ""
 #| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/"
@@ -475,7 +495,7 @@ msgstr ""
 "wesnoth-1.10/Wesnoth_1.10.dmg/download'>韦诺之战 Mac OS X 版</a> </strong>"
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:164
+#: template.html:158
 #, fuzzy
 #| msgid ""
 #| "You can get up-to-date information on downloads at the <a href='http://"
@@ -490,7 +510,7 @@ msgstr ""
 "最新信息。其他平台下的软件包和安装指导信息发布后，您也可以在该页面上找到。"
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:166
+#: template.html:160
 #, fuzzy
 #| msgid ""
 #| "If you downloaded previous versions of the game, you might be interested "
@@ -505,12 +525,12 @@ msgstr ""
 "org/wiki/Download_Xdeltas'>xdelta</a>文件。"
 
 #. type: Content of: <html><body><div><div><div><h2>
-#: template.html:170
+#: template.html:164
 msgid "More Info"
 msgstr "更多信息"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:173
+#: template.html:167
 #, fuzzy
 #| msgid ""
 #| "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.10.0/"
@@ -523,7 +543,7 @@ msgstr ""
 "changelog'>完整的变更日志</a>（英文，非常长）"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:174
+#: template.html:168
 #, fuzzy
 #| msgid ""
 #| "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.10.0/doc/"
@@ -535,24 +555,24 @@ msgstr ""
 "manual/manual.zh_CN.html'>用户手册</a>"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:175
+#: template.html:169
 msgid "<a href='http://www.wesnoth.org'>Official Website</a> (English)"
 msgstr "<a href='http://www.wesnoth.org'>官方网站</a> （英文）"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:177
+#: template.html:171
 msgid ""
 "<a href='http://www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a>"
 msgstr "<a href='http://www.wesnoth.org/start/1.6'>韦诺之战 1.6 发行注记</a>"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:178
+#: template.html:172
 msgid ""
 "<a href='http://www.wesnoth.org/start/1.8'>Wesnoth 1.8 Release Notes</a>"
 msgstr "<a href='http://www.wesnoth.org/start/1.8'>韦诺之战 1.8 发行注记</a>"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:179
+#: template.html:173
 #, fuzzy
 #| msgid ""
 #| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
@@ -561,12 +581,12 @@ msgid ""
 msgstr "<a href='http://www.wesnoth.org/start/1.4'>韦诺之战 1.4 发行注记</a>"
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:190
+#: template.html:184
 msgid "This page is also available in the following languages:"
 msgstr "这个页面已被翻译为以下语言："
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:194
+#: template.html:188
 msgid "Copyright &#169; 2003&#8211;2014 The Battle for Wesnoth"
 msgstr ""
 
