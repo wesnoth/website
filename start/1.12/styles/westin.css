@@ -99,16 +99,11 @@ body {
 
 #main,
 #languages {
-  margin: 0 8% 0 8%;
-  padding: 0 10px;
-  line-height: 1.6em;
-}
-
-html>body #main,
-html>body #languages {
   margin: 0 auto;
   width: auto;
   max-width: 66em;
+  padding: 0 10px;
+  line-height: 1.6em;
 }
 
 #content {
