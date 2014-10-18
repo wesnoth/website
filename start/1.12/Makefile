@@ -69,6 +69,7 @@ $(LIST_STAMP): $(LIST) $(HTML_STAMP)
 	done
 	@for i in $(PAGE).*.html; do \
 		lang=`echo $$i | cut -d. -f 2 | tr "A-Z_" "a-z-"`; \
+		sed -i "s,<html lang='.[^']*'>,<html lang='$$lang'>," $$i ; \
 		echo "URI: $$i"; \
 		echo "Content-type: text/xhtml"; \
 		echo "Content-language: $$lang"; \
