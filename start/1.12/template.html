@@ -48,8 +48,14 @@
   <div id='anntoc'>
     <ul id='toc'>
       <script>
-        // TOC is hidden by default when js is enabled
-        $('#toc, #anntoc-button').addClass('collapsed').removeClass('hidden');
+        (function($) {
+          // TOC is hidden by default when js is enabled
+          $('#toc, #anntoc-button').addClass('collapsed');
+          $('#anntoc-button').removeClass('hidden').click(function() {
+            $('#anntoc-button, #toc').toggleClass('expanded collapsed');
+            return false;
+          });
+        }(jQuery));
       </script>
       <li>
         <a href='#game'>What’s New in Wesnoth 1.12</a>
@@ -222,8 +228,8 @@
 <script>
   (function($) {
     /*
-    * Smooth scrolling for anchor links
-    */
+     * Smooth scrolling for anchor links
+     */
     $('a[href*=#]:not(#anntoc-button):not([href=#])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
           && location.hostname == this.hostname)
@@ -236,12 +242,6 @@
           return false;
         }
       }
-    });
-
-
-    $('#anntoc-button').click(function() {
-      $('#anntoc-button, #toc').toggleClass('expanded collapsed');
-      return false;
     });
   }(jQuery));
 </script>
