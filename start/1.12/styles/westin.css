@@ -80,8 +80,8 @@ body {
 
   width: auto;
   max-width: 60em;
-  margin: 2em auto;
-  padding: 1em 2em;
+  margin: 1.6em auto;
+  padding: 0.8em 1.6em;
 
   text-align: center;
 }
@@ -89,14 +89,14 @@ body {
 #intro h1 {
   margin: 0;
   color: #222;
-  font-size: 320%;
+  font-size: 300%;
   padding: 0;
 }
 
 #intro p {
   margin: 0.4em 0;
   font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 130%;
+  font-size: 120%;
 }
 
 #main,
