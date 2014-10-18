@@ -40,42 +40,9 @@
       <a id='download-button' href='#download'>Download Now!</a>
     </div>
   </div>
-
-  <a id='anntoc-button' href='#toc' class='hidden'>Contents</a>
 </div>
 
-<div class='divider'>
-  <div id='anntoc'>
-    <ul id='toc'>
-      <script>
-        (function($) {
-          // TOC is hidden by default when js is enabled
-          $('#toc, #anntoc-button').addClass('collapsed');
-          $('#anntoc-button').removeClass('hidden').click(function() {
-            $('#anntoc-button, #toc').toggleClass('expanded collapsed');
-            return false;
-          });
-        }(jQuery));
-      </script>
-      <li>
-        <a href='#game'>What’s New in Wesnoth 1.12</a>
-        <ul>
-          <li>
-            <a href='#players'>For Players</a>
-            <ul>
-              <li><a href='#campaigns'>Campaigns</a></li>
-              <li><a href='#multiplayer'>Multiplayer</a></li>
-              <li><a href='#general'>General</a></li>
-            </ul>
-          </li>
-          <li><a href='#creators'>For Content Creators</a></li>
-        </ul>
-      </li>
-      <li><a href='#download'>Download</a></li>
-      <li><a href='#more'>More Info</a></li>
-    </ul>
-  </div>
-</div>
+<div class='divider'></div>
 <div class='top-shadow'></div>
 
 <div id='main'>
@@ -230,7 +197,7 @@
     /*
      * Smooth scrolling for anchor links
      */
-    $('a[href*=#]:not(#anntoc-button):not([href=#])').click(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
           && location.hostname == this.hostname)
       {
