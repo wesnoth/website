@@ -2,7 +2,7 @@
   /*
    * Smooth scrolling for anchor links
    */
-  $('a[href*=#]:not([href=#])').click(function() {
+  $('a[href*=#]:not(#anntoc-button):not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
         && location.hostname == this.hostname)
     {
@@ -14,6 +14,12 @@
         return false;
       }
     }
+  });
+
+
+  $('#anntoc-button').click(function() {
+    $('#anntoc-button, #toc').toggleClass('expanded collapsed');
+    return false;
   });
 }(jQuery));
 
