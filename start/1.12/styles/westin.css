@@ -33,15 +33,15 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #111;
-  font: 0.88em sans-serif;
+  color: #333;
+  font-size: 0.85em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #global {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-size: 0.95em;
 }
 
 #header {
@@ -68,35 +68,37 @@ body {
   padding: 0;
   color: #654;
   text-decoration: none;
-  font-size: 0.8em;
+  font-size: 0.85em;
 }
 
 #intro {
   background: #E7D9C0;
   background: rgba(231,217,192,0.8);
-  text-shadow: 0px 1px 0px #e6e6e6;
   box-shadow: 0px 0px 16px #000;
   border-radius: 6px;
 
   width: auto;
   max-width: 60em;
-  margin: 2em auto;
-  padding: 1em 2em;
+  margin: 1.7em auto;
+  padding: 0.85em 1.7em;
 
   text-align: center;
 }
 
 #intro h1 {
   margin: 0;
-  color: #222;
-  font-size: 320%;
-  padding: 0;
+  color: #000;
+  text-shadow: 0px 1px 0px #eee;
+  font-size: 325%;
+  padding: 0.1em 0;
 }
 
 #intro p {
   margin: 0.4em 0;
+  color: #111;
+  text-shadow: 0px 1px 0px #ddd;
   font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 130%;
+  font-size: 120%;
 }
 
 #main,
@@ -157,7 +159,7 @@ body {
 #footer p,
 #footer ul {
   margin: 0 22px;
-  font-size: 0.8em;
+  font-size: 0.85em;
 }
 
 #footer ul {
@@ -197,11 +199,11 @@ p,
 ul,
 ol,
 code {
-  line-height: 1.6em;
+  line-height: 1.7em;
 }
 
 p {
-  margin: 0.8em 0;
+  margin: 0.85em 0;
 }
 
 img {
@@ -221,39 +223,37 @@ a:active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0.8em 0;
-  padding-top: 0.8em;
+  margin: 0.85em 0;
+  padding-top: 0.85em;
   background: none;
-  color: #333;
-  font-family: Junicode, Baskerville, FreeSerif, "Times New Roman", serif;
-  font-weight: bold;
+  color: #222;
+  font-family: Montaga, Junicode, 'Times New Roman', serif;
+  font-weight: normal;
 }
 
 h2,
 h3,
 h4 {
   text-shadow: 0px 1px 0px #fff;
-  color: #222;
+  color: #000;
 }
 
 h2 {
-  font-size: 200%;
+  font-size: 240%;
   padding-top: 0;
 }
 
 h3 {
-  font-size: 175%;
+  font-size: 200%;
 }
 
 h4 {
-  font-size: 120%;
-  font-family: 'Open Sans', Arial, sans-serif;
-  color: #333;
+  font-size: 150%;
 }
 
 hr {
   height: 1px;
-  margin: 1.6em 0 0.8em;
+  margin: 1.7em 0 0.85em;
   border: none;
 
   background-color: #E7D9C0;
@@ -263,7 +263,7 @@ hr {
 }
 
 ul {
-  margin: 0.8em 0 0 1.5em;
+  margin: 0.85em 0 0 1.5em;
   padding: 0;
   list-style-type: square;
   list-style-image: url('../images/bullet.gif');
@@ -272,7 +272,7 @@ ul {
 }
 
 ol {
-  margin: 0.8em 0 0 3.2em;
+  margin: 0.85em 0 0 3.2em;
   padding: 0;
   list-style-image: none;
 }
@@ -336,11 +336,11 @@ div.tright {
 #download-button {
   display: inline-block;
 
-  margin: 0.8em 0;
+  margin: 0.85em 0;
   min-width: 216px;
   height: 42px;
 
-  font-family: 'Trebuchet MS';
+  font-family: 'Lucida Grande', 'Trebuchet MS', 'DejaVu Sans Condensed', Arial, sans-serif;
   font-size: 20px;
   line-height: 42px;
 
