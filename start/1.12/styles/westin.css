@@ -38,12 +38,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-#global {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 #header {
   position: relative;
   background: #0f1421 url('../images/header-1920.jpg') bottom center no-repeat;
