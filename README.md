@@ -1,10 +1,13 @@
-website
-=======
+wesnoth/website
+===============
 
-Website resources and scripts for wesnoth.org.
+This repository holds various resources and scripts used by the
+**[Battle for Wesnoth][1]** website.
 
-This README does not actually have any content (FIXME).
+[1]: <http://www.wesnoth.org/>
 
-In the meantime, INGORE ME!
+Most content in this repository is specific to ``wesnoth.org`` and is of little
+use to anyone else. If you are looking for the MediaWiki theme used in
+``wesnoth.org``, check the **[wesnoth/glamdrol][2]** repository instead.
 
-https://www.youtube.com/watch?v=aGbPs5y3oz8&index=2&list=RDFMNJuSl91qY
+[2]: <https://github.com/wesnoth/glamdrol>
