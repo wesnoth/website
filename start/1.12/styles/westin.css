@@ -213,12 +213,13 @@ img {
 }
 
 a {
-  color: #259;
+  color: #25a;
   text-decoration: none;
 }
 
 a:hover,
 a:active {
+  color: #36f;
   text-decoration: underline;
 }
 
