@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-18 01:01-0300\n"
+"POT-Creation-Date: 2014-10-19 19:03-0300\n"
 "PO-Revision-Date: 2005-10-03 10:06+0200\n"
 "Last-Translator: \n"
 "Language-Team: Afrikaans\n"
@@ -33,16 +33,16 @@ msgstr "Die Stryd vir Wesnoth 1.0"
 msgid "<a href='http://www.wesnoth.org'>"
 msgstr "<a href='http://www.wesnoth.org'>"
 
-# type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:29
-msgid "Wesnoth logo"
-msgstr ""
+#, fuzzy
+msgid "Wesnoth Logo"
+msgstr "Die Stryd vir Wesnoth 1.0 Uitgawe Nota's"
 
 # type: Content of: <html><body><div><div><div>
 #. type: Content of: <html><body><div><div><div><div><div>
-#: template.html:29 template.html:60 template.html:74 template.html:88
-#: template.html:104 template.html:118
+#: template.html:29 template.html:55 template.html:60 template.html:74
+#: template.html:88 template.html:104 template.html:118
 msgid "</a>"
 msgstr "</a>"
 
@@ -79,7 +79,7 @@ msgid "What’s New in Wesnoth 1.12"
 msgstr "Die Stryd vir Wesnoth 1.0"
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:55
+#: template.html:53
 msgid ""
 "The improvements for this release begin at the title screen, featuring the "
 "familiar map of Wesnoth and its surroundings in a new visually-appealing "
@@ -87,6 +87,19 @@ msgid ""
 "completely refurnished game screen, with a more streamlined and modern "
 "design. As part of our commitment to elegance and consistency, every dialog "
 "in the game features the new design and many other subtle enhancements."
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><div><a>
+#: template.html:55
+#, fuzzy
+#| msgid "<a href='images/start-1-full.jpg'>"
+msgid "<a href='images/start-1.png'>"
+msgstr "<a href='images/start-1-full.jpg'>"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><div><a><img>
+#: template.html:55
+msgid "Title Screen"
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><h3>
@@ -98,7 +111,9 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><div><a>
 #: template.html:60
-msgid "<a href='images/start-1-full.jpg'>"
+#, fuzzy
+#| msgid "<a href='images/start-1-full.jpg'>"
+msgid "<a href='images/start-2.png'>"
 msgstr "<a href='images/start-1-full.jpg'>"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><div><div><a><img>
@@ -123,12 +138,12 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:65
 msgid ""
-"Because Wesnoth thrives on the diversity and ingenuity of add-on content, "
-"this time the Add-ons Manager packs long overdue additions, such as "
-"displaying each add-on’s installation status directly on the list, filtering "
-"items by their type or status, and enabling authors to link to feedback "
-"topics hosted on our <a href='http://forums.wesnoth.org/'>official forum "
-"board</a>."
+"Because <cite>Wesnoth</cite> thrives on the diversity and ingenuity of add-"
+"on content, this time the Add-ons Manager packs long overdue additions, such "
+"as displaying each add-on’s installation status directly on the list, "
+"filtering items by their type or status, and enabling authors to link to "
+"feedback topics hosted on our <a href='http://forums.wesnoth.org/'>official "
+"forum board</a>."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
@@ -144,12 +159,12 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:69
 msgid ""
-"Many art improvements have been made for mounted units in the game, "
-"including the Horseman, Cavalryman, and Elvish Scout unit lines. The "
-"Dwarvish Fighter and Thunderer lines and the undead Spectre and Skeleton "
-"units have had their animations revamped in full. Several generic portraits "
-"were added or updated as well: the Spearman, Ogre, Wose, Ancient Lich, "
-"Wraith, and some troll units, amongst others."
+"Many art improvements have been made to the game’s mounted units, including "
+"the Horseman, Cavalryman, and Elvish Scout unit lines. The Dwarvish Fighter "
+"and Thunderer lines and the undead Spectre and Skeleton units have had their "
+"animations revamped in full. Several generic portraits were added or updated "
+"as well: the Spearman, Ogre, Wose, Ancient Lich, Wraith, and some troll "
+"units, amongst others."
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><h4>
@@ -161,7 +176,9 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><div><a>
 #: template.html:74
-msgid "<a href='images/start-3-full.jpg'>"
+#, fuzzy
+#| msgid "<a href='images/start-3-full.jpg'>"
+msgid "<a href='images/start-3.png'>"
 msgstr "<a href='images/start-3-full.jpg'>"
 
 #. type: Content of: <html><body><div><div><div><p>
@@ -210,7 +227,9 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><div><a>
 #: template.html:88
-msgid "<a href='images/start-4-full.jpg'>"
+#, fuzzy
+#| msgid "<a href='images/start-4-full.jpg'>"
+msgid "<a href='images/start-4.png'>"
 msgstr "<a href='images/start-4-full.jpg'>"
 
 #. type: Content of: <html><body><div><div><div><p>
@@ -220,7 +239,7 @@ msgid ""
 "games, the Khalifate. Available in game setup to use via the “Default + "
 "Khalifate” era, this faction of humans lacks magic users, and instead "
 "specializes in using terrain features to coordinate attacks at dawn or dusk. "
-"Their ranks boast lawful and liminal units, healers and high-accuracy melee "
+"Their ranks boast lawful and liminal units, healers, high-accuracy melee "
 "fighters, and fearsome horse-mounted archers. While Khalifate units tend to "
 "be more expensive than those of the Loyalist faction, they make up for this "
 "with high mobility — especially on hilly terrains."
@@ -229,41 +248,40 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:93
 msgid ""
-"Multiplayer game creation screen has been redesigned and split into two "
-"screens. First screen is responsible for game creation, eras and "
-"modifications selection while the second screen allows to perform some extra "
-"configurations. A new feature implemented allows add-ons to add their "
-"configuration options as well on the second screen. All multiplayer screens "
-"were improved to take the new changes to multiplayer campaigns into account "
-"and to increase the visibility of relevant information. Additionally, all "
-"multiplayer screens were adjusted to improve support for low-resolution "
-"devices."
+"A new kind of add-on, multiplayer modifications, has been implemented. "
+"Modifications are capable of changing the game rules independently of the "
+"selected era or map. Thus, add-on creators can design scripts that improve "
+"and alter the gameplay without restricting those improvements to a certain "
+"era or map. The default installation does not feature any modifications, but "
+"you can already download a few from the add-ons server."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:95
 msgid ""
-"Many bugs related to reloading multiplayer campaigns and scenarios have been "
-"fixed. Support for the <a href=\"http://wiki.wesnoth.org/CampaignWML"
-"\"><code>[campaign]</code> tag</a> has been added to multiplayer mode, thus "
-"allowing the same campaign to be used in both multiplayer and singleplayer. "
-"As a result of this, difficulty levels and other features of singleplayer "
-"campaigns are supported in multiplayer as well. Multiplayer campaigns also "
-"support new functionality, including returning to the lobby between "
-"scenarios and performing side configurations. Finally, the <cite>Legend of "
-"Wesmere</cite> campaign has been made available as the first multiplayer-"
-"ready campaign shipping with the game."
+"Multiplayer game creation has been redesigned and split into two screens. "
+"The first is responsible for game creation and selection of era and "
+"modifications, while the second allows for additional configuration. New "
+"functionality to allow user-made add-ons to display custom configuration "
+"options on the latter screen has been added. In addition, all multiplayer "
+"screens were improved to take the new changes to multiplayer campaigns into "
+"account and increase the visibility of relevant information, as well as "
+"adjusted to improve support for low-resolution devices."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:97
 msgid ""
-"A new kind of add-on, multiplayer modifications, has been implemented. "
-"Modifications are capable of changing the game rules independently of the "
-"used era or map. Thus, add-on creators can design scripts that can improve "
-"and alter the gameplay without restricting those improvements to a certain "
-"era or map. The default installation doesn't feature any modifications, but "
-"you can already download a few from the add-on server."
+"Many bugs related to reloading multiplayer campaigns and scenarios have been "
+"fixed. Support for the <a href='http://wiki.wesnoth.org/"
+"CampaignWML'><code>[campaign]</code> tag</a> has been added to multiplayer "
+"mode, thus allowing the same campaign to be played in both multiplayer and "
+"singleplayer. As a result of this, difficulty levels and other features of "
+"singleplayer campaigns are supported in multiplayer as well. Multiplayer "
+"campaigns also support new functionality, including returning to the lobby "
+"between scenarios and performing side configurations. Finally, the "
+"<cite>Legend of Wesmere</cite> campaign has been made available as the first "
+"multiplayer-ready campaign shipping with the game."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
@@ -274,7 +292,7 @@ msgid ""
 "notify the host once all players have finished selecting a faction. A sound "
 "is also played when the game has begun. If players disconnect from the game, "
 "an option to assign their side to ‘idle’ without revealing their vision to "
-"the game host is now available, as well as a “blindfolded join” option so "
+"the game host is now available, as well as a ‘blindfolded join’ option so "
 "that players may rejoin the game and be assigned to a side without getting "
 "the vision of a normal observer."
 msgstr ""
@@ -289,9 +307,9 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div><div><div><a>
 #: template.html:104
 #, fuzzy
-#| msgid "<a href='images/start-1-full.jpg'>"
-msgid "<a href='images/start-2-full.jpg'>"
-msgstr "<a href='images/start-1-full.jpg'>"
+#| msgid "<a href='images/start-2-full.jpg'>"
+msgid "<a href='images/start-5.png'>"
+msgstr "<a href='images/start-2-full.jpg'>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:107
@@ -321,11 +339,11 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:111
 msgid ""
-"The UI theme selection dialog in Preferences/Display now includes a short "
-"description of each item. A new optional theme optimized for the <a "
-"href='http://www.open-pandora.org/'>Pandora</a> and other small resolution "
-"devices has been added as well, providing a more compact visualization of "
-"unit stats and more visible command buttons."
+"The UI theme selection dialog now includes a short description of each item. "
+"A new optional theme optimized for the <a href='http://www.open-pandora."
+"org/'>Pandora</a> and other small resolution devices has been added as well, "
+"providing a more compact visualization of unit stats and more visible "
+"command buttons."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
@@ -333,9 +351,8 @@ msgstr ""
 msgid ""
 "Two new translations have been started: Scottish Gaelic and Ukrainian. As "
 "always, <cite>The Battle for Wesnoth</cite> relies on volunteers for "
-"translating the game. Interested volunteers should refer to the <a "
-"href='http://wiki.wesnoth.org/WesnothTranslations'>documentation for "
-"translators</a> on the Wesnoth.org wiki for details."
+"translating the game. Anyone interested should refer to the <a "
+"href='#contribute'>Contribute</a> section below for details."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h3>
@@ -347,20 +364,20 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div><div><div><a>
 #: template.html:118
 #, fuzzy
-#| msgid "<a href='images/start-2-full.jpg'>"
-msgid "<a href='images/start-5-full.jpg'>"
-msgstr "<a href='images/start-2-full.jpg'>"
+#| msgid "<a href='images/start-1-full.jpg'>"
+msgid "<a href='images/start-6.png'>"
+msgstr "<a href='images/start-1-full.jpg'>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:121
 msgid ""
 "Like the main game interface, the map editor was also given a major "
 "overhaul, bringing with it increased visibility for commonly used file and "
-"selection tools, and more easily identifiable action icons. This version "
-"also marks the debut of the experimental scenario mode, which enables "
-"additional features previously available only to WML coders. Note that there "
-"are still many aspects remaining to be finalized and polished before it can "
-"be considered a substitute for the targeted subset of WML."
+"selection tools and more easily identifiable action icons. This version also "
+"marks the debut of the experimental scenario mode, which enables additional "
+"features previously available only to WML coders. Note that there are still "
+"many aspects remaining to be finalized and polished before it can be "
+"considered a substitute for the targeted subset of WML."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
@@ -377,7 +394,7 @@ msgstr ""
 #: template.html:125
 msgid ""
 "Both players and WML authors will benefit from improved debugging tools. "
-"Loading-stage error reports are now greatly more legible and feature copy-to-"
+"Loading-stage error reports are now far more legible and feature copy-to-"
 "clipboard functionality. The Gamestate Inspector tool received similar "
 "updates: in addition to a copy-to-clipboard option for game variables and "
 "status information, it now also makes use of the same underlying code as "
@@ -413,14 +430,14 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:131
 msgid ""
-"Many other new features have been added to the <a href=\"http://wiki.wesnoth."
-"org/ReferenceWML\">WML</a> and <a href=\"http://wiki.wesnoth.org/LuaWML"
-"\">Lua</a> API. For instance, <a href='http://wiki.wesnoth.org/"
+"Many other new features have been added to the <a href='http://wiki.wesnoth."
+"org/ReferenceWML'>WML</a> and <a href='http://wiki.wesnoth.org/LuaWML'>Lua</"
+"a> API. For instance, <a href='http://wiki.wesnoth.org/"
 "AnimationWML'>animation WML tags</a> support a new, more compact syntax for "
 "defining animation frames in less space. The API has also received several "
 "changes which content creators porting 1.10-based add-ons must adapt to: a "
 "list is provided in our dedicated <a href='http://forums.wesnoth.org/"
-"viewtopic.php?t=36057'>forum thread</a>."
+"viewtopic.php?t=36057'>forum topic</a>."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h2>
@@ -433,8 +450,8 @@ msgstr "Aflaai"
 #, fuzzy
 msgid ""
 "<cite>The Battle for Wesnoth</cite> is made available under the <a "
-"href='http://www.gnu.org/licenses/gpl-2.0.html'>GNU General Public License</"
-"a> (GPL). The source code is available from <a href='http://www.wesnoth."
+"href='https://www.gnu.org/licenses/gpl-2.0.html'>GNU General Public License</"
+"a> (GNU GPL). The source code is available from <a href='http://www.wesnoth."
 "org'>wesnoth.org</a>, where you can also find instructions for <a "
 "href='http://wiki.wesnoth.org/CompilingWesnoth'>building from source</a> on "
 "a range of different operating systems. Ready-to-go packages are also "
@@ -449,29 +466,29 @@ msgstr ""
 "stelsels."
 
 #. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:141
+msgid ""
+"<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+"wesnoth-1.12/wesnoth-1.12.tar.bz2/download'><b>Source code</b></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><ul><li>
 #: template.html:142
 msgid ""
-"<b> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-"wesnoth-1.12/wesnoth-1.12.tar.bz2/download'>Source code</a> </b>"
+"<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+"wesnoth-1.12/wesnoth-1.12-win32.exe/download'><b>Wesnoth for Microsoft "
+"Windows</b></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:147
+#: template.html:143
 msgid ""
-"<b> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-"wesnoth-1.12/wesnoth-1.12-win32.exe/download'>Wesnoth for Microsoft Windows</"
-"a> </b>"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:152
-msgid ""
-"<b> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-"wesnoth-1.12/Wesnoth_1.12.dmg/download'>Wesnoth for Apple OS X</a> </b>"
+"<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+"wesnoth-1.12/Wesnoth_1.12.dmg/download'><b>Wesnoth for Apple OS X</b></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:158
+#: template.html:146
 #, fuzzy
 msgid ""
 "You can refer to the <a href='http://wiki.wesnoth.org/Download'>downloads "
@@ -482,7 +499,7 @@ msgstr ""
 "\"http://www.wesnoth.org/wiki/Download\">aflaai bladsy</a> kry."
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:160
+#: template.html:148
 #, fuzzy
 msgid ""
 "If you downloaded previous versions of the game, you might be interested in "
@@ -493,42 +510,77 @@ msgstr ""
 "aflaai van die <a href=\"%s\">xdelta</a> lêers alleen belang stel."
 
 #. type: Content of: <html><body><div><div><div><h2>
-#: template.html:164
+#: template.html:152
+msgid "Contribute"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:154
+msgid ""
+"Since its inception in July 2003, <cite>The Battle for Wesnoth</cite> is "
+"constantly being improved and expanded upon by hundreds of international "
+"volunteers from diverse backgrounds. Contributions range from mainline "
+"content shipped as part of the official game releases to hundreds of user-"
+"made projects available to download from our add-ons server, directly from "
+"the title screen. Whether you need help beating a particular scenario or "
+"adding a feature to your custom maps, <cite>Wesnoth</cite> boasts a massive "
+"community of players and creators always willing to help."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:156
+msgid ""
+"Besides creating your own add-on content, there are many other ways you can "
+"help <cite>Wesnoth</cite>:"
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:159
+#, fuzzy
+#| msgid "<a href='http://www.wesnoth.org'>"
+msgid "<a href='http://wiki.wesnoth.org/Project'>Contribute</a> code"
+msgstr "<a href='http://www.wesnoth.org'>"
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:160
+msgid ""
+"<a href='http://forums.wesnoth.org/viewforum.php?f=9'>Create</a> art for the "
+"main game or for user-made <a href='http://forums.wesnoth.org/viewforum.php?"
+"f=23'>add-ons</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:161
+msgid ""
+"<a href='http://wiki.wesnoth.org/WesnothTranslations'>Translate</a> the game "
+"into your language"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:162
+msgid ""
+"<a href='http://forums.wesnoth.org/viewforum.php?f=14'>Produce</a> new music "
+"tracks and sound effects"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:163
+msgid "Spread the word about <cite>Wesnoth</cite> on the Internet!"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><h2>
+#: template.html:168
 msgid "More Info"
 msgstr "Meer Informasie"
 
 # type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:167
-#, fuzzy
-#| msgid "<a href='http://www.wesnoth.org'>"
-msgid ""
-"<a href='http://1.12-changelog.wesnoth.org/'>Full Changelog</a> (English, "
-"very long)"
-msgstr "<a href='http://www.wesnoth.org'>"
-
-# type: Content of: <html><body><div><div><div><a>
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:168
-#, fuzzy
-msgid ""
-"<a href='http://www.wesnoth.org/manual/1.12/manual.en.html'>User’s Manual</a>"
-msgstr "<a href='http://www.wesnoth.org'>"
-
-# type: Content of: <html><body><div><div><div><a>
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:169
-#, fuzzy
-#| msgid "<a href='http://www.wesnoth.org'>"
-msgid "<a href='http://www.wesnoth.org'>Official Website</a> (English)"
-msgstr "<a href='http://www.wesnoth.org'>"
-
-# type: Content of: <html><body><div><div><div><a>
-#. type: Content of: <html><body><div><div><div><ul><li>
 #: template.html:171
 #, fuzzy
+#| msgid "<a href='http://www.wesnoth.org'>"
 msgid ""
-"<a href='http://www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a>"
+"<a href='http://1.12-changelog.wesnoth.org/'>Full Changelog</a> (English)"
 msgstr "<a href='http://www.wesnoth.org'>"
 
 # type: Content of: <html><body><div><div><div><a>
@@ -536,25 +588,49 @@ msgstr "<a href='http://www.wesnoth.org'>"
 #: template.html:172
 #, fuzzy
 msgid ""
-"<a href='http://www.wesnoth.org/start/1.8'>Wesnoth 1.8 Release Notes</a>"
+"<a href='http://www.wesnoth.org/manual/1.12/manual.en.html'>User’s Manual</a>"
 msgstr "<a href='http://www.wesnoth.org'>"
 
 # type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: template.html:173
 #, fuzzy
+#| msgid "<a href='http://www.wesnoth.org'>"
+msgid "<a href='http://www.wesnoth.org'>Official Website</a> (English)"
+msgstr "<a href='http://www.wesnoth.org'>"
+
+# type: Content of: <html><body><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:175
+#, fuzzy
+msgid ""
+"<a href='http://www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a>"
+msgstr "<a href='http://www.wesnoth.org'>"
+
+# type: Content of: <html><body><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:176
+#, fuzzy
+msgid ""
+"<a href='http://www.wesnoth.org/start/1.8'>Wesnoth 1.8 Release Notes</a>"
+msgstr "<a href='http://www.wesnoth.org'>"
+
+# type: Content of: <html><body><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: template.html:177
+#, fuzzy
 msgid ""
 "<a href='http://www.wesnoth.org/start/1.10'>Wesnoth 1.10 Release Notes</a>"
 msgstr "<a href='http://www.wesnoth.org'>"
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:184
+#: template.html:188
 msgid "This page is also available in the following languages:"
 msgstr "Hierdie bladsy is ook beskikbaar in die volgende tale:"
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:188
-msgid "Copyright &#169; 2003&#8211;2014 The Battle for Wesnoth"
+#: template.html:192
+msgid "Copyright &#169; 2003&#8211;2014 <cite>The Battle for Wesnoth</cite>"
 msgstr ""
 
 #, fuzzy
