@@ -292,7 +292,7 @@ li {
 }
 
 code {
-  font-family: Consolas, Inconsolata, 'Courier New', monospace;
+  font-family: Consolas, Inconsolata, Monaco, 'Courier New', monospace;
 }
 
 #footer a {
