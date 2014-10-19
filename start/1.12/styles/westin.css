@@ -225,11 +225,12 @@ a:active {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0.85em 0;
-  padding-top: 0.85em;
+  padding-top: 0.42em;
   background: none;
   color: #222;
   font-family: Montaga, Junicode, 'Times New Roman', serif;
   font-weight: normal;
+  line-height: 1em;
 }
 
 h2,
