@@ -33,7 +33,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #111;
+  color: #333;
   font-size: 0.85em;
   font-family: 'Open Sans', sans-serif;
 }
@@ -74,7 +74,6 @@ body {
 #intro {
   background: #E7D9C0;
   background: rgba(231,217,192,0.8);
-  text-shadow: 0px 1px 0px #e6e6e6;
   box-shadow: 0px 0px 16px #000;
   border-radius: 6px;
 
@@ -88,13 +87,16 @@ body {
 
 #intro h1 {
   margin: 0;
-  color: #222;
-  font-size: 300%;
-  padding: 0;
+  color: #000;
+  text-shadow: 0px 1px 0px #eee;
+  font-size: 325%;
+  padding: 0.1em 0;
 }
 
 #intro p {
   margin: 0.4em 0;
+  color: #111;
+  text-shadow: 0px 1px 0px #ddd;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 120%;
 }
@@ -224,31 +226,29 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0.85em 0;
   padding-top: 0.85em;
   background: none;
-  color: #333;
-  font-family: 'Crimson Text', Junicode, 'Times New Roman', serif;
-  font-weight: 600;
+  color: #222;
+  font-family: Montaga, Junicode, 'Times New Roman', serif;
+  font-weight: normal;
 }
 
 h2,
 h3,
 h4 {
   text-shadow: 0px 1px 0px #fff;
-  color: #222;
+  color: #000;
 }
 
 h2 {
-  font-size: 200%;
+  font-size: 240%;
   padding-top: 0;
 }
 
 h3 {
-  font-size: 175%;
+  font-size: 200%;
 }
 
 h4 {
-  font-size: 120%;
-  font-family: 'Open Sans', Arial, sans-serif;
-  color: #333;
+  font-size: 150%;
 }
 
 hr {
