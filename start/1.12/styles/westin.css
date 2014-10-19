@@ -295,6 +295,31 @@ code {
   font-family: Consolas, Inconsolata, Monaco, 'Courier New', monospace;
 }
 
+abbr {
+  cursor:         help;
+  font-variant:   normal;
+  letter-spacing: normal;
+  border-bottom:  1px dotted #333;
+}
+
+abbr:hover {
+  background: #E7D9C0;
+}
+
+ins {
+  text-decoration: underline;
+  color: #080;
+}
+
+del, s {
+  text-decoration: line-through;
+  color: #666;
+}
+
+del {
+  color: #800;
+}
+
 #footer a {
   color: #a27f44;
 }
