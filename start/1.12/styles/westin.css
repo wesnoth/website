@@ -373,8 +373,11 @@ div.tright {
   font-size: 20px;
   line-height: 42px;
 
+  text-shadow: 0px -1px 0px #000;
   text-decoration: none;
   text-align: center;
+
+  color:       #bcb088;
 
   background: url('../images/download.png') center 0 no-repeat;
 
@@ -382,12 +385,6 @@ div.tright {
   -moz-transition:    text-shadow 120ms;
   -o-transition:      text-shadow 120ms;
   transition:         text-shadow 120ms;
-}
-
-#download-button,
-#download-button:active {
-  text-shadow: 0px -1px 0px #000;
-  color:       #bcb088;
 }
 
 #download-button:hover {
