@@ -373,11 +373,10 @@ div.tright {
   font-size: 20px;
   line-height: 42px;
 
+  color: #bcb088;
   text-shadow: 0px -1px 0px #000;
   text-decoration: none;
   text-align: center;
-
-  color:       #bcb088;
 
   background: url('../images/download.png') center 0 no-repeat;
 
