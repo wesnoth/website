@@ -324,39 +324,42 @@ del {
 }
 
 /*
- * 3. Thumbnails
+ * 3. Thumbnails (including MW compatibility)
  */
 
 .thumb {
   width: auto;
-  margin-bottom: 0.5em;
-  border: transparent solid 0;
-}
-
-.thumb div {
-  overflow: hidden;
-  border: #e7d9c0 solid 1px;
-  background-color: #ebe5da;
+  margin: 0.5em auto 1em;
+  padding: 0.8em;
   font-size: 0.9em;
   text-align: center;
-  padding: 0.4em;
 }
 
-.thumb img {
-  margin: 0.3em 0.4em;
+.thumb p {
+  margin: 0;
+}
+
+.thumbcaption {
+  margin-top: 0.8em;
+  line-height: 0.8em;
+}
+
+div.tleft,
+div.tright {
+  border: #e7d9c0 solid 1px;
+  background: #ebe5da;
 }
 
 div.tleft {
-  clear: left;
-  float: left;
-  margin-right: 0.5em;
-  border-width: 0.5em 1.4em 0.8em 0;
+  clear: left; float: left;
+  margin-left: 0;
+  margin-right: 1.4em;
 }
 
 div.tright {
-  clear: right;
-  float: right;
-  border-width: 0.5em 0 0.8em 1.4em;
+  clear: right; float: right;
+  margin-right: 0;
+  margin-left: 1.4em;
 }
 
 /*
@@ -422,14 +425,11 @@ div.tright {
   div.tleft,
   div.tright {
     float: none;
-    text-align: center;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  div.thumb div {
-    display: inline-block;
-    max-width: 100%;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    border: none;
   }
 }
 
