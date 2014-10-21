@@ -60,8 +60,9 @@ $(PAGE_STAMP).%.html: $(TEMPLATE) $(PODIR)/%.po
 $(LIST_STAMP): $(LIST) $(HTML_STAMP)
 	@list=$$(for i in $(PAGE).*.html; do \
 		code=`echo $$i | cut -d. -f 2`; \
+		lang=`echo $$code | tr "A-Z_" "a-z-"`; \
 		name=`grep "^$$code:" $(LIST) | cut -d: -f 2`; \
-		echo -n "<li><a href='$$i'>$$name</a></li>"; \
+		echo -n "<li lang='$$lang'><a href='$$i'>$$name</a></li>"; \
 	done) && \
 	for i in $(PAGE).*.html; do \
 		sed -i "/<!--LANGS-->./d; \
