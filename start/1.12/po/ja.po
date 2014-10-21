@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.8\n"
-"POT-Creation-Date: 2014-10-19 19:03-0300\n"
+"POT-Creation-Date: 2014-10-21 04:02-0300\n"
 "PO-Revision-Date: 2010-03-22 21:04+0900\n"
 "Last-Translator: IWAI, Masaharu <iwaim.sub@gmail.com>\n"
 "Language-Team: Japanese Translation Team\n"
@@ -24,73 +24,75 @@ msgid "en"
 msgstr "ja"
 
 # type: Content of: <html><head><title>
-#. type: Content of: <html><body><div><div><div><h1>
-#: template.html:13 template.html:33
+#. type: Content of: <html><body><div><div><h1>
+#: template.html:13 template.html:31
 #, fuzzy
 #| msgid "Battle for Wesnoth 1.8"
 msgid "The Battle for Wesnoth 1.12"
 msgstr "Battle for Wesnoth 1.8"
 
 # type: Content of: <html><body><div><div><div><ul><li>
-#. type: Content of: <html><body><div><div><div><a>
-#: template.html:29
+#. type: Content of: <html><body><div><div><a>
+#: template.html:27
 msgid "<a href='http://www.wesnoth.org'>"
 msgstr "<a href='http://www.wesnoth.org'>"
 
 # type: Attribute 'alt' of: <html><body><div><div><div><a><img>
-#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
-#: template.html:29
+#. type: Attribute 'alt' of: <html><body><div><div><a><img>
+#: template.html:27
 #, fuzzy
 #| msgid "Wesnoth logo"
 msgid "Wesnoth Logo"
 msgstr "Wesnoth ロゴ"
 
 # type: Content of: <html><body><div><div><div>
-#. type: Content of: <html><body><div><div><div><div><div>
-#: template.html:29 template.html:55 template.html:60 template.html:74
-#: template.html:88 template.html:104 template.html:118
+#. type: Content of: <html><body><div><div><div><div>
+#: template.html:27 template.html:53 template.html:58 template.html:72
+#: template.html:86 template.html:102 template.html:116
 msgid "</a>"
 msgstr "</a>"
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:35
-msgid "As the year comes to an end, a new stable release series begins."
+#. type: Content of: <html><body><div><div><p>
+#: template.html:33
+msgid ""
+"<i>November 2014.</i> As the year comes to an end, a new stable release "
+"series begins."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:36
+#. type: Content of: <html><body><div><div><p>
+#: template.html:34
 msgid ""
 "The development team is proud to present version 1.12 of <cite>The&nbsp;"
 "Battle&nbsp;for&nbsp;Wesnoth</cite>!"
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:37
+#. type: Content of: <html><body><div><div><p>
+#: template.html:35
 msgid ""
 "This release features many improvements in all areas, including a completely "
 "revamped interface, a new multiplayer faction, dozens of new portraits, "
-"updated unit animations, hundreds of bug fixes, and a vastly improved map "
+"updated unit animations, hundreds of bug-fixes, and a vastly improved map "
 "editor. Try out the new features for yourself, or read on for more details..."
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><ul><li>
-#. type: Content of: <html><body><div><div><div><div>
-#: template.html:40
+#. type: Content of: <html><body><div><div><div>
+#: template.html:38
 #, fuzzy
 #| msgid "<a href='#download'>Download</a>"
 msgid "<a id='download-button' href='#download'>Download Now!</a>"
 msgstr "<a href='#download'>ダウンロード</a>"
 
 # type: Content of: <html><body><div><div><div><h2>
-#. type: Content of: <html><body><div><div><div><h2>
-#: template.html:51
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:49
 #, fuzzy
 #| msgid "What's New in Wesnoth 1.8"
 msgid "What’s New in Wesnoth 1.12"
 msgstr "Wesnoth 1.8 における変更点"
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:53
+#. type: Content of: <html><body><div><div><p>
+#: template.html:51
 msgid ""
 "The improvements for this release begin at the title screen, featuring the "
 "familiar map of Wesnoth and its surroundings in a new visually-appealing "
@@ -101,41 +103,41 @@ msgid ""
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><div><div><a>
-#. type: Content of: <html><body><div><div><div><div><a>
-#: template.html:55
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:53
 #, fuzzy
 #| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href='images/start-1.png'>"
 msgstr "<a href='images/start-1-full.jpg'>"
 
-#. type: Attribute 'alt' of: <html><body><div><div><div><div><a><img>
-#: template.html:55
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:53
 msgid "Title Screen"
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><h3>
-#. type: Content of: <html><body><div><div><div><h3>
-#: template.html:57
+#. type: Content of: <html><body><div><div><h3>
+#: template.html:55
 msgid "For Players"
 msgstr "プレイヤー向け"
 
 # type: Content of: <html><body><div><div><div><div><div><a>
-#. type: Content of: <html><body><div><div><div><div><div><a>
-#: template.html:60
+#. type: Content of: <html><body><div><div><div><div><a>
+#: template.html:58
 #, fuzzy
 #| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href='images/start-2.png'>"
 msgstr "<a href='images/start-1-full.jpg'>"
 
 # type: Attribute 'alt' of: <html><body><div><div><div><div><div><img>
-#. type: Attribute 'alt' of: <html><body><div><div><div><div><div><a><img>
-#: template.html:60 template.html:74 template.html:88 template.html:104
-#: template.html:118
+#. type: Attribute 'alt' of: <html><body><div><div><div><div><a><img>
+#: template.html:58 template.html:72 template.html:86 template.html:102
+#: template.html:116
 msgid "Wesnoth Screenshot"
 msgstr "Wesnoth スクリーンショット"
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:63
+#. type: Content of: <html><body><div><div><p>
+#: template.html:61
 msgid ""
 "The minimap now offers alternative display modes for situations where a more "
 "fine-grained visualization of units, terrains, and villages is desired. Many "
@@ -146,8 +148,8 @@ msgid ""
 "also adorned with star-shaped ellipses for fast identification on the field."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:65
+#. type: Content of: <html><body><div><div><p>
+#: template.html:63
 msgid ""
 "Because <cite>Wesnoth</cite> thrives on the diversity and ingenuity of add-"
 "on content, this time the Add-ons Manager packs long overdue additions, such "
@@ -157,8 +159,8 @@ msgid ""
 "forum board</a>."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:67
+#. type: Content of: <html><body><div><div><p>
+#: template.html:65
 msgid ""
 "Units with specialized variations like the Walking Corpse and Soulless now "
 "have subsections in the built-in help system dedicated to documenting each "
@@ -167,8 +169,8 @@ msgid ""
 "each multiplayer faction."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:69
+#. type: Content of: <html><body><div><div><p>
+#: template.html:67
 msgid ""
 "Many art improvements have been made to the game’s mounted units, including "
 "the Horseman, Cavalryman, and Elvish Scout unit lines. The Dwarvish Fighter "
@@ -179,37 +181,37 @@ msgid ""
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><h4>
-#. type: Content of: <html><body><div><div><div><h4>
-#: template.html:71
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:69
 msgid "Campaigns"
 msgstr "キャンペーン"
 
 # type: Content of: <html><body><div><div><div><div><div><a>
-#. type: Content of: <html><body><div><div><div><div><div><a>
-#: template.html:74
+#. type: Content of: <html><body><div><div><div><div><a>
+#: template.html:72
 #, fuzzy
-#| msgid "<a href='images/start-3-full.jpg'>"
-msgid "<a href='images/start-3.png'>"
-msgstr "<a href='images/start-3-full.jpg'>"
+#| msgid "<a href='images/start-2-full.jpg'>"
+msgid "<a href='images/start-5.png'>"
+msgstr "<a href='images/start-2-full.jpg'>"
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:77
+#. type: Content of: <html><body><div><div><p>
+#: template.html:75
 msgid ""
 "A number of additional portrait variations have been added to "
 "<cite>Wesnoth’s</cite> flagship campaign, <cite>Heir to the Throne</cite>, "
 "as well as a brand new set of portrait art for <cite>Eastern Invasion</cite>."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:79
+#. type: Content of: <html><body><div><div><p>
+#: template.html:77
 msgid ""
 "To complement the new title screen artwork, all campaign journey maps "
 "featured in story screens have been redrawn in the same style, and new ones "
 "have been added to several campaigns that previously lacked one."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:81
+#. type: Content of: <html><body><div><div><p>
+#: template.html:79
 msgid ""
 "Most mainline campaigns have also received various visual and gameplay "
 "improvements. Most notably, <cite>Son of the Black Eye</cite> has been "
@@ -219,8 +221,8 @@ msgid ""
 "completely redesigned from the ground up."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:83
+#. type: Content of: <html><body><div><div><p>
+#: template.html:81
 msgid ""
 "Although all campaigns in the menu are labeled according to their difficulty "
 "level, it is not uncommon for players to underestimate the challenge and "
@@ -230,21 +232,21 @@ msgid ""
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><dl><dt>
-#. type: Content of: <html><body><div><div><div><h4>
-#: template.html:85
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:83
 msgid "Multiplayer"
 msgstr "マルチプレイヤー"
 
 # type: Content of: <html><body><div><div><div><div><div><a>
-#. type: Content of: <html><body><div><div><div><div><div><a>
-#: template.html:88
+#. type: Content of: <html><body><div><div><div><div><a>
+#: template.html:86
 #, fuzzy
 #| msgid "<a href='images/start-4-full.jpg'>"
 msgid "<a href='images/start-4.png'>"
 msgstr "<a href='images/start-4-full.jpg'>"
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:91
+#. type: Content of: <html><body><div><div><p>
+#: template.html:89
 msgid ""
 "This series sees the introduction of a new playable faction in multiplayer "
 "games, the Khalifate. Available in game setup to use via the “Default + "
@@ -256,8 +258,8 @@ msgid ""
 "with high mobility — especially on hilly terrains."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:93
+#. type: Content of: <html><body><div><div><p>
+#: template.html:91
 msgid ""
 "A new kind of add-on, multiplayer modifications, has been implemented. "
 "Modifications are capable of changing the game rules independently of the "
@@ -267,8 +269,8 @@ msgid ""
 "you can already download a few from the add-ons server."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:95
+#. type: Content of: <html><body><div><div><p>
+#: template.html:93
 msgid ""
 "Multiplayer game creation has been redesigned and split into two screens. "
 "The first is responsible for game creation and selection of era and "
@@ -280,8 +282,8 @@ msgid ""
 "adjusted to improve support for low-resolution devices."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:97
+#. type: Content of: <html><body><div><div><p>
+#: template.html:95
 msgid ""
 "Many bugs related to reloading multiplayer campaigns and scenarios have been "
 "fixed. Support for the <a href='http://wiki.wesnoth.org/"
@@ -295,8 +297,8 @@ msgid ""
 "multiplayer-ready campaign shipping with the game."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:99
+#. type: Content of: <html><body><div><div><p>
+#: template.html:97
 msgid ""
 "Several other features have been added to enhance the multiplayer "
 "experience. An audible bell has been added to the game setup screen to "
@@ -309,21 +311,21 @@ msgid ""
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><h4>
-#. type: Content of: <html><body><div><div><div><h4>
-#: template.html:101
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:99
 msgid "General"
 msgstr "全般"
 
 # type: Content of: <html><body><div><div><div><div><div><a>
-#. type: Content of: <html><body><div><div><div><div><div><a>
-#: template.html:104
+#. type: Content of: <html><body><div><div><div><div><a>
+#: template.html:102
 #, fuzzy
-#| msgid "<a href='images/start-2-full.jpg'>"
-msgid "<a href='images/start-5.png'>"
-msgstr "<a href='images/start-2-full.jpg'>"
+#| msgid "<a href='images/start-3-full.jpg'>"
+msgid "<a href='images/start-3.png'>"
+msgstr "<a href='images/start-3-full.jpg'>"
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:107
+#. type: Content of: <html><body><div><div><p>
+#: template.html:105
 msgid ""
 "Just as the game engine’s extensibility allows our community to create and "
 "publish their own original content, it also allows players to change options "
@@ -333,8 +335,8 @@ msgid ""
 "certain mouse models."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:109
+#. type: Content of: <html><body><div><div><p>
+#: template.html:107
 msgid ""
 "Very often, players require direct access to the game files to share their "
 "saves, create or modify add-ons, or take screenshots of their games or map "
@@ -347,8 +349,8 @@ msgid ""
 "folder."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:111
+#. type: Content of: <html><body><div><div><p>
+#: template.html:109
 msgid ""
 "The UI theme selection dialog now includes a short description of each item. "
 "A new optional theme optimized for the <a href='http://www.open-pandora."
@@ -357,8 +359,8 @@ msgid ""
 "command buttons."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:113
+#. type: Content of: <html><body><div><div><p>
+#: template.html:111
 msgid ""
 "Two new translations have been started: Scottish Gaelic and Ukrainian. As "
 "always, <cite>The Battle for Wesnoth</cite> relies on volunteers for "
@@ -367,23 +369,23 @@ msgid ""
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><h3>
-#. type: Content of: <html><body><div><div><div><h3>
-#: template.html:115
+#. type: Content of: <html><body><div><div><h3>
+#: template.html:113
 #, fuzzy
 #| msgid "For Content Developers"
 msgid "For Content Creators"
 msgstr "コンテンツ開発者向け"
 
 # type: Content of: <html><body><div><div><div><div><div><a>
-#. type: Content of: <html><body><div><div><div><div><div><a>
-#: template.html:118
+#. type: Content of: <html><body><div><div><div><div><a>
+#: template.html:116
 #, fuzzy
 #| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href='images/start-6.png'>"
 msgstr "<a href='images/start-1-full.jpg'>"
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:121
+#. type: Content of: <html><body><div><div><p>
+#: template.html:119
 msgid ""
 "Like the main game interface, the map editor was also given a major "
 "overhaul, bringing with it increased visibility for commonly used file and "
@@ -394,18 +396,18 @@ msgid ""
 "considered a substitute for the targeted subset of WML."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:123
+#. type: Content of: <html><body><div><div><p>
+#: template.html:121
 msgid ""
 "On the terrain selection front, tropical forests were completely redrawn and "
 "expanded with several variations, including rainforest, sparse and dense "
 "palm forests, and savanna. Underground maps also benefit from the addition "
-"of new underground bridge types, and battle scenarios may be spiced up with "
-"two new trash and debris terrains available directly from the editor."
+"of new bridge types, and battle scenarios may be spiced up with two new "
+"trash and debris terrains available directly from the editor."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:125
+#. type: Content of: <html><body><div><div><p>
+#: template.html:123
 msgid ""
 "Both players and WML authors will benefit from improved debugging tools. "
 "Loading-stage error reports are now far more legible and feature copy-to-"
@@ -416,8 +418,8 @@ msgid ""
 "translatable strings."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:127
+#. type: Content of: <html><body><div><div><p>
+#: template.html:125
 msgid ""
 "To further assist WML authors, <code>GUI.pyw</code>, a graphical interface "
 "for the three main WML maintenance scripts (<code>wmllint</code>, "
@@ -429,8 +431,8 @@ msgid ""
 "Maintenance_tools'>on the wiki</a>."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:129
+#. type: Content of: <html><body><div><div><p>
+#: template.html:127
 msgid ""
 "On the backend side, this new stable series contains a vast array of "
 "additions for content creators. <a href='http://wiki.wesnoth.org/"
@@ -441,8 +443,8 @@ msgid ""
 "a new AI for use in multiplayer games."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:131
+#. type: Content of: <html><body><div><div><p>
+#: template.html:129
 msgid ""
 "Many other new features have been added to the <a href='http://wiki.wesnoth."
 "org/ReferenceWML'>WML</a> and <a href='http://wiki.wesnoth.org/LuaWML'>Lua</"
@@ -455,14 +457,14 @@ msgid ""
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><h2>
-#. type: Content of: <html><body><div><div><div><h2>
-#: template.html:135
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:133
 msgid "Download"
 msgstr "ダウンロード"
 
 # type: Content of: <html><body><div><div><div><p>
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:137
+#. type: Content of: <html><body><div><div><p>
+#: template.html:135
 #, fuzzy
 #| msgid ""
 #| "Battle for Wesnoth is made available under the <a href='http://www.gnu."
@@ -491,8 +493,8 @@ msgstr ""
 "ムのために準備されたパッケージもあります。"
 
 # type: Content of: <html><body><div><div><div><ul><li>
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:141
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:139
 #, fuzzy
 #| msgid ""
 #| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
@@ -505,8 +507,8 @@ msgstr ""
 "wesnoth-1.8.tar.bz2/download'>ソースコード</a> </strong>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:142
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:140
 #, fuzzy
 #| msgid ""
 #| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
@@ -520,8 +522,8 @@ msgstr ""
 "wesnoth-1.8-win32.exe/download'>Wesnoth の MS Windows 版</a> </strong>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:143
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:141
 #, fuzzy
 #| msgid ""
 #| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
@@ -534,8 +536,8 @@ msgstr ""
 "Wesnoth_1.8.dmg/download'>Wesnoth の Mac OS X 版</a> </strong>"
 
 # type: Content of: <html><body><div><div><div><p>
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:146
+#. type: Content of: <html><body><div><div><p>
+#: template.html:144
 #, fuzzy
 #| msgid ""
 #| "You can get up to date information about downloads at the <a href='http://"
@@ -551,8 +553,8 @@ msgstr ""
 "トホーム用のパッケージやライセンス情報などもあります。"
 
 # type: Content of: <html><body><div><div><div><p>
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:148
+#. type: Content of: <html><body><div><div><p>
+#: template.html:146
 #, fuzzy
 #| msgid ""
 #| "If you downloaded previous versions of the game, you might be interested "
@@ -567,13 +569,13 @@ msgstr ""
 "wiki.wesnoth.org/Download_Xdeltas'>xdelta</a> ファイルのみをダウンロードする"
 "こともできます。"
 
-#. type: Content of: <html><body><div><div><div><h2>
-#: template.html:152
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:150
 msgid "Contribute"
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:154
+#. type: Content of: <html><body><div><div><p>
+#: template.html:152
 msgid ""
 "Since its inception in July 2003, <cite>The Battle for Wesnoth</cite> is "
 "constantly being improved and expanded upon by hundreds of international "
@@ -585,57 +587,57 @@ msgid ""
 "community of players and creators always willing to help."
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:156
+#. type: Content of: <html><body><div><div><p>
+#: template.html:154
 msgid ""
 "Besides creating your own add-on content, there are many other ways you can "
 "help <cite>Wesnoth</cite>:"
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><ul><li>
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:159
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:157
 #, fuzzy
 #| msgid "<a href='http://www.wesnoth.org'>"
 msgid "<a href='http://wiki.wesnoth.org/Project'>Contribute</a> code"
 msgstr "<a href='http://www.wesnoth.org'>"
 
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:160
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:158
 msgid ""
 "<a href='http://forums.wesnoth.org/viewforum.php?f=9'>Create</a> art for the "
 "main game or for user-made <a href='http://forums.wesnoth.org/viewforum.php?"
 "f=23'>add-ons</a>"
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:161
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:159
 msgid ""
 "<a href='http://wiki.wesnoth.org/WesnothTranslations'>Translate</a> the game "
 "into your language"
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:162
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:160
 msgid ""
 "<a href='http://forums.wesnoth.org/viewforum.php?f=14'>Produce</a> new music "
 "tracks and sound effects"
 msgstr ""
 
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:163
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:161
 msgid "Spread the word about <cite>Wesnoth</cite> on the Internet!"
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><h2>
-#. type: Content of: <html><body><div><div><div><h2>
-#: template.html:168
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:166
 msgid "More Info"
 msgstr "より詳しい情報"
 
 # type: Content of: <html><body><div><div><div><ul><li>
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:171
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:169
 #, fuzzy
 #| msgid ""
 #| "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.8.0/"
@@ -647,8 +649,8 @@ msgstr ""
 "すべての変更履歴</a>（英語。とても長い）"
 
 # type: Content of: <html><body><div><div><div><ul><li>
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:172
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:170
 #, fuzzy
 #| msgid ""
 #| "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.8.0/doc/"
@@ -660,8 +662,8 @@ msgstr ""
 "manual.en.html'>ユーザーズ・マニュアル</a>（英語）"
 
 # type: Content of: <html><body><div><div><div><ul><li>
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:173
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:171
 #, fuzzy
 #| msgid ""
 #| "<a href='http://www.wesnoth.org'>Wesnoth Official Website</a> (English)"
@@ -669,16 +671,16 @@ msgid "<a href='http://www.wesnoth.org'>Official Website</a> (English)"
 msgstr "<a href='http://www.wesnoth.org'>Wesnoth 公式ウェブサイト</a> (英語)"
 
 # type: Content of: <html><body><div><div><div><ul><li>
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:175
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:173
 msgid ""
 "<a href='http://www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a>"
 msgstr ""
 "<a href='http://www.wesnoth.org/start/1.6'>Wesnoth 1.6 リリースノート</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:176
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:174
 #, fuzzy
 #| msgid ""
 #| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
@@ -688,8 +690,8 @@ msgstr ""
 "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 リリースノート</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: template.html:177
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:175
 #, fuzzy
 #| msgid ""
 #| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
@@ -699,14 +701,19 @@ msgstr ""
 "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 リリースノート</a>"
 
 # type: Content of: <html><body><div><div><div><div><p>
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:188
+#. type: Content of: <html><body><div><div><p>
+#: template.html:186
 msgid "This page is also available in the following languages:"
 msgstr "このページは以下の言語で書かれたものもあります:"
 
-#. type: Content of: <html><body><div><div><div><p>
-#: template.html:192
-msgid "Copyright &#169; 2003&#8211;2014 <cite>The Battle for Wesnoth</cite>"
+#. type: Content of: <html><body><div><div><p>
+#: template.html:190
+msgid "Copyright &#169; 2003&#8211;2014 The Battle for Wesnoth Project"
+msgstr ""
+
+#. type: Content of: <html><body><script><a>
+#: template.html:198
+msgid "#"
 msgstr ""
 
 # type: Attribute 'title' of: <html><head><link>
