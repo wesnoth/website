@@ -21,6 +21,7 @@
  */
 
 html {
+  overflow-y: scroll;
   background: #fffbf0;
   background: -webkit-linear-gradient(left, rgba(231,217,192,1.0), rgba(231,217,192,0.0) 5%),
               -webkit-linear-gradient(right,  rgba(231,217,192,1.0), #fffbf0 5%);
