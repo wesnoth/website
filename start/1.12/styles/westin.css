@@ -383,6 +383,7 @@ div.tright {
   text-align: center;
 
   background: url('../images/download.png') center 0 no-repeat;
+  background-size: 100% 132px;
 
   -webkit-transition: text-shadow 120ms;
   -moz-transition:    text-shadow 120ms;
