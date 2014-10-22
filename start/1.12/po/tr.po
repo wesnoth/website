@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rel-notes 1.6\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-10-21 04:02-0300\n"
+"POT-Creation-Date: 2014-10-21 23:50-0300\n"
 "PO-Revision-Date: 2009-03-18 14:55+0200\n"
 "Last-Translator: Nilgün Belma Bugüner <nilgun@belgeler.gen.tr>\n"
 "Language-Team: Turkish <wesnoth-tr@googlegroups.com>\n"
@@ -71,7 +71,7 @@ msgstr ""
 msgid ""
 "This release features many improvements in all areas, including a completely "
 "revamped interface, a new multiplayer faction, dozens of new portraits, "
-"updated unit animations, hundreds of bug-fixes, and a vastly improved map "
+"updated unit animations, hundreds of bug fixes, and a vastly improved map "
 "editor. Try out the new features for yourself, or read on for more details..."
 msgstr ""
 
@@ -291,9 +291,7 @@ msgid ""
 "singleplayer. As a result of this, difficulty levels and other features of "
 "singleplayer campaigns are supported in multiplayer as well. Multiplayer "
 "campaigns also support new functionality, including returning to the lobby "
-"between scenarios and performing side configurations. Finally, the "
-"<cite>Legend of Wesmere</cite> campaign has been made available as the first "
-"multiplayer-ready campaign shipping with the game."
+"between scenarios and performing side configurations."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
@@ -330,7 +328,7 @@ msgid ""
 "publish their own original content, it also allows players to change options "
 "as they see fit. The Hotkeys Preferences dialog has been renewed with a "
 "categorized view, the ability to assign multiple sequences to a particular "
-"action, and changing assignments to make use of additional buttons found in "
+"action, and change assignments to make use of additional buttons found in "
 "certain mouse models."
 msgstr ""
 
@@ -433,7 +431,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><p>
 #: template.html:127
 msgid ""
-"On the backend side, this new stable series contains a vast array of "
+"On the back-end side, this new stable series contains a vast array of "
 "additions for content creators. <a href='http://wiki.wesnoth.org/"
 "Micro_AIs'>Micro AIs</a> provide a powerful framework for assigning new and "
 "specialized AI behaviors to sides with minimal coding effort. Other AI "
@@ -680,11 +678,6 @@ msgstr "Bu sayfa ayrıca şu dillerde de mevcut:"
 #. type: Content of: <html><body><div><div><p>
 #: template.html:190
 msgid "Copyright &#169; 2003&#8211;2014 The Battle for Wesnoth Project"
-msgstr ""
-
-#. type: Content of: <html><body><script><a>
-#: template.html:198
-msgid "#"
 msgstr ""
 
 # type: Attribute 'title' of: <html><head><link>
