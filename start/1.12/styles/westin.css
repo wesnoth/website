@@ -23,12 +23,9 @@
 html {
   overflow-y: scroll;
   background: #fffbf0;
-  background: -webkit-linear-gradient(left, rgba(231,217,192,1.0), rgba(231,217,192,0.0) 5%),
-              -webkit-linear-gradient(right,  rgba(231,217,192,1.0), #fffbf0 5%);
-  background: -moz-linear-gradient(left, rgba(231,217,192,1.0), rgba(231,217,192,0.0) 5%),
-              -moz-linear-gradient(right,  rgba(231,217,192,1.0), #fffbf0 5%);
-  background: linear-gradient(to right, rgba(231,217,192,1.0), rgba(231,217,192,0.0) 5%),
-              linear-gradient(to left,  rgba(231,217,192,1.0), #fffbf0 5%);
+  background: -webkit-linear-gradient(left, #e7d9c0, #fffbf0 5%, #fffbf0 95%, #e7d9c0);
+  background: -moz-linear-gradient(left, #e7d9c0, #fffbf0 5%, #fffbf0 95%, #e7d9c0);
+  background: linear-gradient(to right, #e7d9c0, #fffbf0 5%, #fffbf0 95%, #e7d9c0);
 }
 
 body {
