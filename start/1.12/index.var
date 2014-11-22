@@ -14,7 +14,15 @@ URI: index.gl.html
 Content-type: text/xhtml
 Content-language: gl
 
+URI: index.hu.html
+Content-type: text/xhtml
+Content-language: hu
+
 URI: index.pt.html
 Content-type: text/xhtml
 Content-language: pt
+
+URI: index.ru.html
+Content-type: text/xhtml
+Content-language: ru
 

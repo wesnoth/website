@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: wesnoth-announcement.po\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-22 21:27-0300\n"
-"PO-Revision-Date: 2010-04-01 13:56+0200\n"
-"Last-Translator: Victor Sergienko <singalen@gmail.com>\n"
-"Language-Team: wesnoth\n"
+"PO-Revision-Date: 2014-11-22 22:00+0300\n"
+"Last-Translator: Fedor Khod'kov <fkhodkov@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,19 +19,18 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Generator: Emacs 24.4.1, po-mode 2.22+0.4\n"
 
 #. type: Attribute 'lang' of: <html>
 #: template.html:3
 msgid "en"
-msgstr ""
+msgstr "ru"
 
 # type: Content of: <html><head><title>
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:13 template.html:31
-#, fuzzy
-#| msgid "Battle for Wesnoth 1.8"
 msgid "The Battle for Wesnoth 1.12"
-msgstr "Битва за Веснот 1.8"
+msgstr "Битва за Веснот 1.12"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><a>
@@ -42,8 +41,6 @@ msgstr "<a href='http://www.wesnoth.org'>"
 # type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #. type: Attribute 'alt' of: <html><body><div><div><a><img>
 #: template.html:27
-#, fuzzy
-#| msgid "Wesnoth logo"
 msgid "Wesnoth Logo"
 msgstr "Логотип Веснота"
 
@@ -60,6 +57,8 @@ msgid ""
 "<i>November 2014.</i> As the year comes to an end, a new stable release "
 "series begins."
 msgstr ""
+"<i>Ноябрь 2014.</i> Год приближается концу, а новая серия стабильных "
+"выпусков только начинается."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:34
@@ -67,6 +66,8 @@ msgid ""
 "The development team is proud to present version 1.12 of <cite>The&nbsp;"
 "Battle&nbsp;for&nbsp;Wesnoth</cite>!"
 msgstr ""
+"Команда разработчиков с гордостью представляет версию 1.12 of "
+"<cite>Битвы&nbsp;за&nbsp;Веснот</cite>!"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:35
@@ -76,22 +77,23 @@ msgid ""
 "updated unit animations, hundreds of bug fixes, and a vastly improved map "
 "editor. Try out the new features for yourself, or read on for more details..."
 msgstr ""
+"В этом выпуске вас ждут множество улучшений во всех областях: полностью "
+"переботанный интерфейс, новая фракция мультиплеера, дюжина новых портретов, "
+"обновленная анимация, сотни исправленных ошибок и изрядно "
+"усовершенствованный редактор карт. Попробуйте всё сами — или читайте "
+"дальше..."
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><div>
 #: template.html:38
-#, fuzzy
-#| msgid "<a href='#download'>Download</a>"
 msgid "<a id='download-button' href='#download'>Download Now!</a>"
-msgstr "<a href='#download'>Скачать</a>"
+msgstr "<a id='download-button' href='#download'>Скачать!</a>"
 
 # type: Content of: <html><body><div><div><div><h2>
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:49
-#, fuzzy
-#| msgid "What's New in Wesnoth 1.8"
 msgid "What’s New in Wesnoth 1.12"
-msgstr "Что нового в «Битве за Веснот» 1.8"
+msgstr "Что нового в Весноте 1.12"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:51
@@ -103,19 +105,23 @@ msgid ""
 "design. As part of our commitment to elegance and consistency, every dialog "
 "in the game features the new design and many other subtle enhancements."
 msgstr ""
+"Улучшения начинаются с первого экрана. Знакомая карта Веснота и окружающих "
+"земель предстаёт в новом, приятном стиле. Начав новую одно- или "
+"многопользовательскую игру, вы увидите полностью переоснащённый игровой "
+"экран с более чётким и современным дизайном. Мы ставим во главу угла "
+"элегантность и постоянство, поэтому мы сделали новый дизайн и множество "
+"других тонких улучшений для каждого диалога в игре."
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:53
-#, fuzzy
-#| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href='images/start-1.png'>"
-msgstr "<a href='images/start-1-full.jpg'>"
+msgstr "<a href='images/start-1.png'>"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:53
 msgid "Title Screen"
-msgstr ""
+msgstr "Главный экран"
 
 # type: Content of: <html><body><div><div><div><h3>
 #. type: Content of: <html><body><div><div><h3>
@@ -126,10 +132,8 @@ msgstr "Игрокам"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:58
-#, fuzzy
-#| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href='images/start-2.png'>"
-msgstr "<a href='images/start-1-full.jpg'>"
+msgstr "<a href='images/start-2.png'>"
 
 # type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #. type: Attribute 'alt' of: <html><body><div><div><div><div><a><img>
@@ -149,6 +153,13 @@ msgid ""
 "Leaders and designated hero units in campaigns and multiplayer scenarios are "
 "also adorned with star-shaped ellipses for fast identification on the field."
 msgstr ""
+"Миникарта теперь предлагает альтернативные режимы для ситуаций, когда "
+"требуется более тонкое отображение бойцов, ландшафта и деревень. Многие "
+"элементы боковой панели перераспределены и масштабированы согласно текущему "
+"разрешению экрана, чтобы лучше использовать доступное место. Для облегчения "
+"доступа отображается флаг и номер команды выбранного бойца. Лидеры и "
+"выделенные герои в сценариях кампаний также украшены подсветкой в форме "
+"звезды для быстрой идентификации на поле."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:63
@@ -160,6 +171,12 @@ msgid ""
 "feedback topics hosted on our <a href='http://forums.wesnoth.org/'>official "
 "forum board</a>."
 msgstr ""
+"Поскольку в <cite>Весноте</cite> процветают разнообразные и оригинальные "
+"аддоны, в этот раз в менеджер аддонов внесены давно назревшие изменения. "
+"Состояние установки каждого аддона отображается прямо в списке, аддоны можно "
+"фильтровать по типу или состоянию, а авторы могут добавлять ссылку на "
+"посвященную аддону тему на нашем <a href='http://forums.wesnoth."
+"org/'>официальном форуме</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:65
@@ -170,6 +187,10 @@ msgid ""
 "the different types of add-ons to newcomers, and providing an overview for "
 "each multiplayer faction."
 msgstr ""
+"Бойцы со специальными вариациями, такие как Ходячий труп и Бездушный "
+"получили во встроенной системе справки подразделы, полностью посвященные "
+"каждому из вариантов. Также добавлены новые категории верхнего уровня: "
+"рассказ о разных типах аддонов для новичков и обзор все фракций мультиплеера."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:67
@@ -181,6 +202,11 @@ msgid ""
 "as well: the Spearman, Ogre, Wose, Ancient Lich, Wraith, and some troll "
 "units, amongst others."
 msgstr ""
+"Улучшения в оформлении коснулись, например, конных бойцов, включая всадников "
+"и кавалеристов у людей и разведчиков у эльфов. Полностью переработана "
+"анимация гномьих ополченцев, громовержцев и их производных, а также фантомов "
+"и скелетов. Добавлены новые портреты, в частности, для копьеносцев, огров, "
+"леших, древних личей, привидений и некоторых троллей."
 
 # type: Content of: <html><body><div><div><div><h4>
 #. type: Content of: <html><body><div><div><h4>
@@ -191,10 +217,8 @@ msgstr "Кампании"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:72
-#, fuzzy
-#| msgid "<a href='images/start-2-full.jpg'>"
 msgid "<a href='images/start-5.png'>"
-msgstr "<a href='images/start-2-full.jpg'>"
+msgstr "<a href='images/start-5.png'>"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:75
@@ -203,6 +227,9 @@ msgid ""
 "<cite>Wesnoth’s</cite> flagship campaign, <cite>Heir to the Throne</cite>, "
 "as well as a brand new set of portrait art for <cite>Eastern Invasion</cite>."
 msgstr ""
+"Во флагманской кампании <cite>Веснота</cite>, <cite>Наследник престола</"
+"cite>, добавлены варианты портретов героев. В кампании <cite>Вторжение с "
+"востока</cite> все портреты совершенно новые."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:77
@@ -211,6 +238,9 @@ msgid ""
 "featured in story screens have been redrawn in the same style, and new ones "
 "have been added to several campaigns that previously lacked one."
 msgstr ""
+"Все карты кампаний переработаны, чтобы соответствовать стилю карты на "
+"главном экране. В нескольких кампаниях, где раньше карт не было, они были "
+"добавлены."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:79
@@ -222,6 +252,11 @@ msgid ""
 "Invasion</cite> have seen significant improvements, with some having been "
 "completely redesigned from the ground up."
 msgstr ""
+"Мы улучшили геймплей и оформление большинства официальных кампаний. Заметнее "
+"всего изменилась кампания <cite>Сын Чёрного Глаза</cite> — мы полностью "
+"пересмотрели баланс, приведя её сложность в соответствии с маркировкой как "
+"кампании для опытных игроков. Были существенно улучшены многие сценарии "
+"<cite>Вторжения с Востока</cite>; некоторые были полностью переработаны."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:81
@@ -232,6 +267,11 @@ msgid ""
 "has been added to the Load Game dialog allowing players to switch difficulty "
 "at the very start of a scenario."
 msgstr ""
+"Несмотря на то, что большинство кампаний маркированы согласно своей "
+"сложности, игроки порой их недооценивают. Из-за этого они порой утыкаются в "
+"непреодолимые препятствия посреди кампании. Чтобы этого избежать, мы "
+"добавили в диалог загрузки игры новую опцию, позволяющую игрокам изменить "
+"сложность в самом начале сценария."
 
 # type: Content of: <html><body><div><div><div><dl><dt>
 #. type: Content of: <html><body><div><div><h4>
@@ -242,10 +282,8 @@ msgstr "Мультиплеер"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:86
-#, fuzzy
-#| msgid "<a href='images/start-4-full.jpg'>"
 msgid "<a href='images/start-4.png'>"
-msgstr "<a href='images/start-4-full.jpg'>"
+msgstr "<a href='images/start-4.png'>"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:89
@@ -259,6 +297,14 @@ msgid ""
 "be more expensive than those of the Loyalist faction, they make up for this "
 "with high mobility — especially on hilly terrains."
 msgstr ""
+"В новом выпуске введена новая фракция для многопользовательских игр — "
+"Халифат. Чтобы использовать её в игре, нужно выбрать эру «По умолчания"
+"+Халифат». В этой человеческой фракции нет магов; зато они умеют хорошо "
+"использовать особенности местности, чтобы нападать на рассвете и закате. Они "
+"могут похвастаться порядочными и сумеречными бойцами, целителями, умелыми "
+"рукопашными бойцами и грозными конными лучниками. Бойцы Халифата чаще всего "
+"дороже верноподданных, но они компенсируют этой высокой мобильностью — "
+"особенно на холмистой местности."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:91
@@ -270,6 +316,12 @@ msgid ""
 "era or map. The default installation does not feature any modifications, but "
 "you can already download a few from the add-ons server."
 msgstr ""
+"Введён новый вид аддонов — модификаторы мультиплеера. Модификаторы могут "
+"менять правила игры вне зависимости от текущей эру или карты. Таким образом, "
+"авторы аддонов могут создавать скрипты, которые улучшают и изменяют игровой "
+"процесс, не ограничивая эти изменения конкретной эрой или картой. По "
+"умолчанию никаких модификаторов не установлено, но вы можете загрузить их с "
+"сервера аддонов."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:93
@@ -283,6 +335,13 @@ msgid ""
 "account and increase the visibility of relevant information, as well as "
 "adjusted to improve support for low-resolution devices."
 msgstr ""
+"Создание многопользовательской игры переработано и занимает теперь два "
+"экрана. Первый отвечает за создание игры и выбор эры и модификаторов, второй "
+"— за дополнительную настройку. Добавлен новый функционал: теперь "
+"пользовательские аддоны могут выводить на второй экран собственные "
+"параметры. Во всех экранах мультиплеера учтены новые возможности "
+"многопользовательских кампаний, а важная информация сделана более заметной. "
+"Кроме того, улучшена поддержка устройств с малым разрешением."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:95
@@ -298,6 +357,16 @@ msgid ""
 "<cite>Legend of Wesmere</cite> campaign has been made available as the first "
 "multiplayer-ready campaign shipping with the game."
 msgstr ""
+"Исправлено множество ошибок при повторной загрузке многопользовательских "
+"кампаний и сценариев. Мультиплеер теперь поддерживает <a href='http://wiki."
+"wesnoth.org/CampaignWML'>тэг <code>[campaign]</code></a>, благодаря чему "
+"одну и ту же кампанию можно играть как однопользовательском, так и в "
+"многопользовательском режиме. В результате в многопользовательском режиме "
+"доступны уровни сложности и другие преимущества однопользовательских "
+"кампаний. В многопользовательских кампания появилась возможность вернуться в "
+"холл мультиплеера между сценариями и настроить стороны. Наконец, кампания "
+"<cite>Легенда Весмира</cite> стала первой включенной в официальную поставку "
+"игры кампанией с полной поддержкой многопользовательского режима."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:97
@@ -311,6 +380,13 @@ msgid ""
 "that players may rejoin the game and be assigned to a side without getting "
 "the vision of a normal observer."
 msgstr ""
+"Добавлено несколько новых функций, улучшающих восприятие "
+"многопользовательской игры. Когда все игроки выбрали себе фракцию, экран "
+"настройки игры уведомляет создателя игры звонком. Начало игры также "
+"сопровождается звуком. Теперь можно пометить сторону игроков, которые "
+"отсоединились от сервера, как «неактивную», не открывая владельцу игры их "
+"сторону; также можно «присоединиться вслепую» — игроки могут вернуться в "
+"игру и начать играть за свою сторону, не глядя на игру как обычные зрители."
 
 # type: Content of: <html><body><div><div><div><h4>
 #. type: Content of: <html><body><div><div><h4>
@@ -321,10 +397,8 @@ msgstr "Общие"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:102
-#, fuzzy
-#| msgid "<a href='images/start-3-full.jpg'>"
 msgid "<a href='images/start-3.png'>"
-msgstr "<a href='images/start-3-full.jpg'>"
+msgstr "<a href='images/start-3.png'>"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:105
@@ -336,6 +410,12 @@ msgid ""
 "action, and change assignments to make use of additional buttons found in "
 "certain mouse models."
 msgstr ""
+"Расширяемость движка игры не только позволяет членам нашего сообщества "
+"создавать и публиковать свои собственные материалы, но и даёт игрокам "
+"возможность настраивать игру по своему усмотрению. В новом диалоге настройки "
+"горячих клавиш разбиты по категориям, есть возможность назначать одному "
+"действию несколько последовательностей и использовать дополнительные кнопки "
+"некоторых моделей мышей."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:107
@@ -350,6 +430,14 @@ msgid ""
 "preferred image viewer, or browse the full contents of their screenshots "
 "folder."
 msgstr ""
+"Игрокам нередко требуется прямой доступ к файлам игры: чтобы делиться "
+"сохранёнными играми, изменять аддоны, делать снимки экрана своих игр и карт. "
+"Так как игра поддерживает множество платформ и допускает множество "
+"альтернатив при установке, мы добавили в диалог предпочтений надежный и "
+"последовательный механизм доступа к сохранённым данным игры. Кроме того, "
+"доступны новые возможности по управлению свежесозданными скриншотами: игроки "
+"могут открыть их в том просмотрщике изображений, который им нравится или "
+"открыть каталог скриншотов в проводнике."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:109
@@ -360,6 +448,11 @@ msgid ""
 "providing a more compact visualization of unit stats and more visible "
 "command buttons."
 msgstr ""
+"Диалог выбора темы содержит краткое описание каждой темы. Также добавлена "
+"новая тема, оптимизированная под <a href='http://www.open-pandora."
+"org/'>Pandora</a> и другие устройства с малым разрешением. В этой теме "
+"визуализация качеств бойца сделана более компактной, а кнопки управления — "
+"более заметными."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:111
@@ -369,22 +462,22 @@ msgid ""
 "translating the game. Anyone interested should refer to the <a "
 "href='#contribute'>Contribute</a> section below for details."
 msgstr ""
+"Начаты два новых перевода: на гаэльский и украинский языки. Как всегда, "
+"перевод <cite>Битвы за Веснот</cite> выполнен волонтёрами. Все, кто "
+"интересуется подробностями, могу ознакомится ниже с разделом <a "
+"href='#contribute'>Участвуйте</a>."
 
 # type: Content of: <html><body><div><div><div><h3>
 #. type: Content of: <html><body><div><div><h3>
 #: template.html:113
-#, fuzzy
-#| msgid "For Content Developers"
 msgid "For Content Creators"
-msgstr "Для разработчиков кампаний, рас, карт..."
+msgstr "Для авторов"
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:116
-#, fuzzy
-#| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href='images/start-6.png'>"
-msgstr "<a href='images/start-1-full.jpg'>"
+msgstr "<a href='images/start-6.png'>"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:119
@@ -397,6 +490,13 @@ msgid ""
 "many aspects remaining to be finalized and polished before it can be "
 "considered a substitute for the targeted subset of WML."
 msgstr ""
+"Редактор карт, как и вся игра, подвергся значительной переделке. Часто "
+"используемые инструменты работы с файлами и выбора сделаны более заметными, "
+"а иконки действий более ясными. В этой версии также появится "
+"экспериментальный режим сценариев с возможностями, ранее доступными только "
+"разработчикам WML. Стоит отметить, что потребуется закончить работу над "
+"многими аспектами этого режима, прежде чем считать его полноценной заменой "
+"соответствующего подмножества WML."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:121
@@ -407,6 +507,11 @@ msgid ""
 "of new bridge types, and battle scenarios may be spiced up with two new "
 "trash and debris terrains available directly from the editor."
 msgstr ""
+"Из изменений в части выбора местности стоит отметить тропические леса. Они "
+"полностью перерисованы и дополнены несколькими вариациями: влажные джунгли, "
+"редкий и плотный пальмовый лес, а также саванна. В подземных картах "
+"добавлены новые виды мостов, а сценарии битв можно оживить двумя видами "
+"мусора и обломков, доступных прямо из редактора."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:123
@@ -419,6 +524,12 @@ msgid ""
 "saved games to correctly generate valid multiline WML attributes and "
 "translatable strings."
 msgstr ""
+"Как игроки, так и авторы WML смогут воспользоваться преимуществами новых "
+"средств отладки. Отчёты об ошибках загрузки теперь более удобочитаемы, и их "
+"можно копировать в буфер обмена. Инспектор состояния игры также обновился: "
+"кроме копирования в буфер игровых переменных и информации о состоянии, он "
+"также использует тот же код, что и сохранённые игры, чтобы генерировать "
+"правильные многострочные атрибуты WML и переводимые строки."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:125
@@ -432,6 +543,13 @@ msgid ""
 "maintenance tools can be found <a href='http://wiki.wesnoth.org/"
 "Maintenance_tools'>on the wiki</a>."
 msgstr ""
+"Для авторов WML также добавлен <code>GUI.pyw</code>, графический интерфейс к "
+"трём основным скриптам поддержки WML (<code>wmllint</code>, <code>wmlindent</"
+"code> и <code>wmlscope</code>) — удобная альтернатива командной строке. Этот "
+"инструмент можно найти в каталоге <a href='http://wiki.wesnoth.org/"
+"EditingWesnoth'><code>data/tools</code></a>. Подробнее об этих инструментах "
+"можно прочитать <a href='http://wiki.wesnoth.org/Maintenance_tools'>в вики</"
+"a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:127
@@ -444,6 +562,13 @@ msgid ""
 "href='http://wiki.wesnoth.org/AI_Recruitment'>AI recruitment engine</a>, and "
 "a new AI for use in multiplayer games."
 msgstr ""
+"В новой стабильной версии авторы игрового контента найдут много нового. <a "
+"href='http://wiki.wesnoth.org/Micro_AIs'>Micro AIs</a> —  мощное средство, "
+"позволяющая задать для каждой стороны в игре нужное поведение AI с минимумом "
+"кода. Другие важные улучшения ИИ — заметно обновлённый и полностью "
+"настраиваемый <a href='http://wiki.wesnoth.org/AI_Recruitment'>движок "
+"вербовки ИИ</a>, а также новый ИИ для использования в многопользовательских "
+"играх."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:129
@@ -457,25 +582,24 @@ msgid ""
 "list is provided in our dedicated <a href='http://forums.wesnoth.org/"
 "viewtopic.php?t=36057'>forum topic</a>."
 msgstr ""
+"Множество других возможностей добавлены в API <a href='http://wiki.wesnoth."
+"org/ReferenceWML'>WML</a> и <a href='http://wiki.wesnoth.org/LuaWML'>Lua</"
+"a>. К примеру, <a href='http://wiki.wesnoth.org/AnimationWML'>WML-теги "
+"анимации</a> поддерживают новый, более компактный синтаксис для задания "
+"фреймов анимации. В API также внесено несколько изменений, которые "
+"необходимо учитывать при переносе аддонов с версии 1.10: полный список можно "
+"посмотреть в специальной  <a href='http://forums.wesnoth.org/viewtopic.php?"
+"t=36057'>ветке на нашем форуме</a>."
 
 # type: Content of: <html><body><div><div><div><h2>
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:133
 msgid "Download"
-msgstr "Загрузить"
+msgstr "Скачать"
 
 # type: Content of: <html><body><div><div><div><p>
 #. type: Content of: <html><body><div><div><p>
 #: template.html:135
-#, fuzzy
-#| msgid ""
-#| "Battle for Wesnoth is made available under the <a href='http://www.gnu."
-#| "org/licenses/gpl-2.0.html'>GNU General Public License</a> (GPL). Source "
-#| "code is available from <a href='http://www.wesnoth.org'>wesnoth.org</a> "
-#| "where you will also find instructions for <a href='http://wiki.wesnoth."
-#| "org/CompilingWesnoth'>building from source</a> on a range of different "
-#| "operating systems. Ready-to-go packages are also available for most "
-#| "popular operating systems, including Linux and Windows and Mac OS X."
 msgid ""
 "<cite>The Battle for Wesnoth</cite> is made available under the <a "
 "href='https://www.gnu.org/licenses/gpl-2.0.html'>GNU General Public License</"
@@ -486,94 +610,73 @@ msgid ""
 "available for most popular operating systems, including Microsoft Windows, "
 "Apple OS X, and GNU/Linux."
 msgstr ""
-"Битва за Веснот распространяется на условиях <a href='http://www.gnu.org/"
-"licenses/gpl-2.0.html'>Универсальной общественной лицензии GNU</a> (GPL). "
-"Исходный код доступен по адресу <a href='http://www.wesnoth.org'>wesnoth."
-"org</a>, там вы также найдёте инструкции <a href='http://wesnoth.org/wiki/"
-"CompilingWesnoth'>по сборке</a> для целого ряда операционных систем. Для "
-"наиболее популярных операционных систем, включая GNU/Linux, Windows и Mac OS "
-"X, уже есть готовые пакеты."
+"<cite>Битва за Веснот</cite> доступна на условиях <a href='http://www.gnu."
+"org/licenses/gpl-2.0.html'>Универсальной общественной лицензии GNU</a> "
+"(GPL). Исходный код доступен на сайте <a href='http://www.wesnoth."
+"org'>wesnoth.org</a>. Там же вы также найдёте инструкции <a href='http://"
+"wesnoth.org/wiki/CompilingWesnoth'>по сборке</a> для целого ряда "
+"операционных систем. Для наиболее популярных операционных систем, включая "
+"GNU/Linux, Microsoft Windows и Apple OS X, уже есть готовые пакеты."
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:139
-#, fuzzy
-#| msgid ""
-#| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
-#| "wesnoth-1.8.tar.bz2/download'>Source code</a> </strong>"
 msgid ""
 "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
 "wesnoth-1.12/wesnoth-1.12.tar.bz2/download'><b>Source code</b></a>"
 msgstr ""
-"<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
-"wesnoth-1.8.tar.bz2/download'>Исходный код</a> </strong>"
+"<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+"wesnoth-1.12/wesnoth-1.12.tar.bz2/download'><b>Исходный код</b></a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:140
-#, fuzzy
-#| msgid ""
-#| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
-#| "wesnoth-1.8-win32.exe/download'>Wesnoth for MS Windows</a> </strong>"
 msgid ""
 "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
 "wesnoth-1.12/wesnoth-1.12-win32.exe/download'><b>Wesnoth for Microsoft "
 "Windows</b></a>"
 msgstr ""
-"<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
-"wesnoth-1.8-win32.exe/download'>Версия для MS Windows</a> </strong>"
+"<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+"wesnoth-1.12/wesnoth-1.12-win32.exe/download'><b>Веснот для Microsoft "
+"Windows</b></a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:141
-#, fuzzy
-#| msgid ""
-#| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
-#| "Wesnoth_1.8.dmg/download'>Wesnoth for Mac OS X</a> </strong>"
 msgid ""
 "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
 "wesnoth-1.12/Wesnoth_1.12.dmg/download'><b>Wesnoth for Apple OS X</b></a>"
 msgstr ""
-"<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
-"Wesnoth_1.8.dmg/download'>Версия для Mac OS X</a> </strong>"
+"<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+"wesnoth-1.12/Wesnoth_1.12.dmg/download'><b>Веснот для Apple OS X</b></a>"
 
 # type: Content of: <html><body><div><div><div><p>
 #. type: Content of: <html><body><div><div><p>
 #: template.html:144
-#, fuzzy
-#| msgid ""
-#| "You can get up to date information about downloads at the <a href='http://"
-#| "wiki.wesnoth.org/Download'>downloads page</a>. There you can also find "
-#| "packages and instructions for other platforms once they are available."
 msgid ""
 "You can refer to the <a href='http://wiki.wesnoth.org/Download'>downloads "
 "page</a> for the latest up-to-date packages and instructions, including "
 "those for other platforms once they become available."
 msgstr ""
-"Самые свежие сведения смотрите на <a href='http://www.wesnoth.org/wiki/"
-"Download'>странице закачек</a>. Инсталляционные пакеты и инструкции для "
-"других платформ появляются там же в первую очередь."
+"Обратитесь к <a href='http://www.wesnoth.org/wiki/Download'>странице "
+"закачек</a>, чтобы найти самые свежие пакеты и инструкции, включая пакет и "
+"инструкции для других платформ, когда те появятся."
 
 # type: Content of: <html><body><div><div><div><p>
 #. type: Content of: <html><body><div><div><p>
 #: template.html:146
-#, fuzzy
-#| msgid ""
-#| "If you downloaded previous versions of the game, you might be interested "
-#| "in downloading the <a href='http://wiki.wesnoth.org/"
-#| "Download_Xdeltas'>xdelta</a> files only."
 msgid ""
 "If you downloaded previous versions of the game, you might be interested in "
 "downloading the <a href='http://wiki.wesnoth.org/Download_Xdeltas'>Xdelta</"
 "a> files only."
 msgstr ""
 "Если вы уже скачивали прежние версии, то, возможно, захотите скачать только "
-"файлы <a href='http://www.wesnoth.org/Download_Xdeltas'>xdelta</a>."
+"файлы <a href='http://www.wesnoth.org/Download_Xdeltas'>Xdelta</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:150
 msgid "Contribute"
-msgstr ""
+msgstr "Участвуйте"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:152
@@ -587,6 +690,14 @@ msgid ""
 "adding a feature to your custom maps, <cite>Wesnoth</cite> boasts a massive "
 "community of players and creators always willing to help."
 msgstr ""
+"С момента создания в июле 2003 года, <cite>Битва за Веснот</cite> постоянно "
+"улучшается и расширяется сотнями волонтёров со всех концов света и всех "
+"мыслимых культур. Их вклад варьируется от материалов, поставляемых вместе с "
+"официальными выпусками игры, до сотен пользовательских проектов, доступных "
+"для скачивания с нашего сервера аддонов, прямо из главного экрана игры. Если "
+"вам нужна помощь в прохождении определённого сценария или добавлении новых "
+"деталей к вашим картам, в <cite>Весноте</cite> вы найдёте массивное "
+"сообщество игроков и авторов, всегда готовых помочь."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:154
@@ -594,14 +705,14 @@ msgid ""
 "Besides creating your own add-on content, there are many other ways you can "
 "help <cite>Wesnoth</cite>:"
 msgstr ""
+"Кроме создания собственных аддонов, вы можете помочь <cite>Весноту</cite> во "
+"многих аспектах:"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:157
-#, fuzzy
-#| msgid "<a href='http://www.wesnoth.org'>"
 msgid "<a href='http://wiki.wesnoth.org/Project'>Contribute</a> code"
-msgstr "<a href='http://www.wesnoth.org'>"
+msgstr "<a href='http://wiki.wesnoth.org/Project'>Пишите</a> код"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:158
@@ -610,6 +721,9 @@ msgid ""
 "main game or for user-made <a href='http://forums.wesnoth.org/viewforum.php?"
 "f=23'>add-ons</a>"
 msgstr ""
+"<a href='http://forums.wesnoth.org/viewforum.php?f=9'>Рисуйте</a> оформление "
+"основной игры или пользовательских <a href='http://forums.wesnoth.org/"
+"viewforum.php?f=23'>аддонов</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:159
@@ -617,6 +731,8 @@ msgid ""
 "<a href='http://wiki.wesnoth.org/WesnothTranslations'>Translate</a> the game "
 "into your language"
 msgstr ""
+"<a href='http://wiki.wesnoth.org/WesnothTranslations'>Переводите</a> игру на "
+"свой язык"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:160
@@ -624,11 +740,13 @@ msgid ""
 "<a href='http://forums.wesnoth.org/viewforum.php?f=14'>Produce</a> new music "
 "tracks and sound effects"
 msgstr ""
+"<a href='http://forums.wesnoth.org/viewforum.php?f=14'>Сочиняйте</a> новые "
+"музыкальные треки и звуковые эффекты"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:161
 msgid "Spread the word about <cite>Wesnoth</cite> on the Internet!"
-msgstr ""
+msgstr "Рассказывайте про <cite>Веснот</cite> в Интернете!"
 
 # type: Content of: <html><body><div><div><div><h2>
 #. type: Content of: <html><body><div><div><h2>
@@ -639,38 +757,26 @@ msgstr "Дополнительно"
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:169
-#, fuzzy
-#| msgid ""
-#| "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.8/"
-#| "changelog'>Full Changelog</a> (English, very long)"
 msgid ""
 "<a href='http://1.12-changelog.wesnoth.org/'>Full Changelog</a> (English)"
 msgstr ""
-"<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.8.0/"
-"changelog'>Полный журнал изменений</a> (на английском, очень длинный)"
+"<a href='http://1.12-changelog.wesnoth.org/'>Полный список изменений</a> (На "
+"английском)"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:170
-#, fuzzy
-#| msgid ""
-#| "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.8/doc/"
-#| "manual/manual.en.html'>User's Manual</a>"
 msgid ""
 "<a href='http://www.wesnoth.org/manual/1.12/manual.en.html'>User’s Manual</a>"
 msgstr ""
-"<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.8.0/doc/manual/"
-"manual.ru.html'>Руководство пользователя</a>"
+"<a href='http://www.wesnoth.org/manual/1.12/manual.ru.html'>Руководство "
+"пользователя</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:171
-#, fuzzy
-#| msgid ""
-#| "<a href='http://www.wesnoth.org'>Wesnoth Official Website</a> (English)"
 msgid "<a href='http://www.wesnoth.org'>Official Website</a> (English)"
-msgstr ""
-"<a href='http://www.wesnoth.org'>Официальный сайт игры</a> (на английском)"
+msgstr "<a href='http://www.wesnoth.org'>Официальный сайт</a> (на английском)"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
@@ -678,29 +784,23 @@ msgstr ""
 msgid ""
 "<a href='http://www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a>"
 msgstr ""
-"<a href='http://www.wesnoth.org/start/1.6'>Пресс-релиз о версии 1.6</a>"
+"<a href='http://www.wesnoth.org/start/1.6'>Заметки о выпуске Веснота 1.6</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:174
-#, fuzzy
-#| msgid ""
-#| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
 msgid ""
 "<a href='http://www.wesnoth.org/start/1.8'>Wesnoth 1.8 Release Notes</a>"
 msgstr ""
-"<a href='http://www.wesnoth.org/start/1.4'>Пресс-релиз о версии 1.4</a>"
+"<a href='http://www.wesnoth.org/start/1.8'>Заметки о выпуске Веснота 1.8</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:175
-#, fuzzy
-#| msgid ""
-#| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
 msgid ""
 "<a href='http://www.wesnoth.org/start/1.10'>Wesnoth 1.10 Release Notes</a>"
 msgstr ""
-"<a href='http://www.wesnoth.org/start/1.4'>Пресс-релиз о версии 1.4</a>"
+"<a href='http://www.wesnoth.org/start/1.4'>Заметки о выпуске Веснота 1.10</a>"
 
 # type: Content of: <html><body><div><div><div><div><p>
 #. type: Content of: <html><body><div><div><p>
@@ -711,308 +811,4 @@ msgstr "Эта страница также доступна на следующ�
 #. type: Content of: <html><body><div><div><p>
 #: template.html:190
 msgid "Copyright &#169; 2003&#8211;2014 The Battle for Wesnoth Project"
-msgstr ""
-
-# type: Attribute 'title' of: <html><head><link>
-#~ msgid "Default"
-#~ msgstr "По умолчанию"
-
-# type: Content of: <html><body><div><div><div><h1>
-#, fuzzy
-#~| msgid "Battle for Wesnoth 1.8 Release Notes"
-#~ msgid "Battle for Wesnoth 1.12 Release Notes"
-#~ msgstr "Пресс-релиз «Битвы за Веснот» 1.8"
-
-# type: Content of: <html><body><div><div><div><p>
-# Я правильно понял замысел с датой?
-#, fuzzy
-#~| msgid ""
-#~| "<em>April 2010</em>. It is once again time for that thrill you've all "
-#~| "been waiting for, a Wesnoth stable release. The Battle for Wesnoth team "
-#~| "is proud to release version 1.8 of <em>The Battle for Wesnoth</em>, a <a "
-#~| "href='http://www.gnu.org/philosophy/philosophy.html'>free</a> <a "
-#~| "href='http://www.opensource.org/'>open-source</a> turn-based strategy "
-#~| "game with a fantasy theme and roleplaying elements. The game is <a "
-#~| "href='#download'>available for download</a> now for Windows, Mac OS X "
-#~| "and various GNU/Linux distributions."
-#~ msgid ""
-#~ "<i>December 2014</i>. As the year comes to an end, a new stable release "
-#~ "series begins. The development team is proud to present version 1.12 of "
-#~ "<cite>The Battle for Wesnoth</cite>, a <a href='http://www.gnu.org/"
-#~ "philosophy/philosophy.html'>free</a> and <a href='http://www.opensource."
-#~ "org/'>open source</a> turn-based tactical strategy game with a high "
-#~ "fantasy theme and role-playing elements. The game is available for "
-#~ "Microsoft Windows, Apple OS X, and various GNU/Linux distributions."
-#~ msgstr ""
-#~ "<em>апреля 2010 года</em>. И снова пришло время эпохального свершения — "
-#~ "это новый стабильный релиз <em>Битвы за Веснот</em>. Команда  "
-#~ "разработчиков «Битвы за Веснот» с гордостью представляет вам версию 1.8 "
-#~ "нашей <a href='http://www.gnu.org/philosophy/philosophy.html'>свободной</"
-#~ "a> и <a href='http://www.opensource.org/'>открытой</a> пошаговой "
-#~ "стратегии в стиле «фэнтэзи» с ролевыми элементами. Вы <a "
-#~ "href='#download'>можете скачать</a> версию для Windows, Mac OS X, и "
-#~ "различных дистрибутивов GNU/Linux."
-
-# type: Content of: <html><body><div><div><div><ul><li>
-#, fuzzy
-#~| msgid "<a href='#game'>What's New in Wesnoth 1.8</a>"
-#~ msgid "<a href='#game'>What’s New in Wesnoth 1.12</a>"
-#~ msgstr "<a href='#game'>Что нового в «Битве за Веснот» 1.8</a>"
-
-# type: Content of: <html><body><div><div><div><ul><li><ul><li>
-#~ msgid "<a href='#players'>For Players</a>"
-#~ msgstr "<a href='#players'>Для игроков</a>"
-
-# type: Content of: <html><body><div><div><div><ul><li><ul><li>
-#~ msgid "<a href='#campaigns'>Campaigns</a>"
-#~ msgstr "<a href='#campaigns'>Кампании</a>"
-
-# type: Content of: <html><body><div><div><div><ul><li><ul><li>
-#~ msgid "<a href='#multiplayer'>Multiplayer</a>"
-#~ msgstr "<a href='#multiplayer'>Мультиплеер</a>"
-
-# type: Content of: <html><body><div><div><div><ul><li>
-#~ msgid "<a href='#general'>General</a>"
-#~ msgstr "<a href='#general'>В целом</a>"
-
-# type: Content of: <html><body><div><div><div><ul><li><ul><li>
-#, fuzzy
-#~| msgid "<a href='#campdev'>For Campaign Developers</a>"
-#~ msgid "<a href='#campdev'>For Content Developers</a>"
-#~ msgstr "<a href='#campdev'>Для разработчиков кампаний</a>"
-
-# type: Content of: <html><body><div><div><div><ul><li>
-#~ msgid "<a href='#more'>More Info</a>"
-#~ msgstr "<a href='#more'>Дополнительно</a>"
-
-#~ msgid ""
-#~ "The improvements this time around include one entire new full-length "
-#~ "campaign, hundreds of new and revised unit portraits, five new music "
-#~ "tracks, some UI redesign, and substantial improvements in the game's AI."
-#~ msgstr ""
-#~ "Что нового на этот раз? Совершенно новая большая кампания, сотни новых и "
-#~ "переработанных портретов бойцов, пять новых звуковых дорожек, несколько "
-#~ "перестроенный интерфейс и существенно улучшенный ИИ."
-
-#~ msgid ""
-#~ "To help the player keep those who are loyal to him alive, these units are "
-#~ "now marked with an overlay symbol that looks like a bronze ring."
-#~ msgstr ""
-#~ "Чтобы игроку было легче сберечь верных бойцов, теперь они отмечены "
-#~ "специальным знаком в виде бронзового колечка."
-
-#~ msgid ""
-#~ "The names on maps and other images can now be localized to the player's "
-#~ "language; several languages already use this new feature. For more "
-#~ "information and tutorials, look at the wiki article on <a href=\"http://"
-#~ "wiki.wesnoth.org/ImageLocalization\">Image Localization</a>."
-#~ msgstr ""
-#~ "Названия на картах и других изображениях теперь можно переводить на "
-#~ "другие языки; некоторые переводчики уже используют эту возможность. "
-#~ "Информацию и руководства смотрите в вики-статье, посвящённой <a href="
-#~ "\"http://wiki.wesnoth.org/ImageLocalization\">переводу изображений</a>."
-
-# type: Content of: <html><body><div><div><div><p>
-#~ msgid ""
-#~ "A new campaign, <cite>Delfador's Memoirs</cite>, tells the tale of how a "
-#~ "mage-apprentice rose to become Delfador the Great. This campaign was "
-#~ "imported from the <a href=\"http://wesnoth-umc-dev.sourceforge.net"
-#~ "\">Wesnoth-UMC-Dev project</a>, where it spent almost a year being "
-#~ "adapted for mainline."
-#~ msgstr ""
-#~ "Новая кампания <cite>Воспоминания Делфадора</cite> рассказывает историю о "
-#~ "том, как маг-ученик вырос в Делфадора Великого. Эту кампанию мы взяли из "
-#~ "<a href=\"http://wesnoth-umc-dev.sourceforge.net\">проекта по созданию "
-#~ "пользовательских кампаний</a>, где её почти год адаптировали к основной "
-#~ "ветке игры."
-
-#~ msgid ""
-#~ "We've continued to polish and improve the mainline campaigns.  The hero "
-#~ "Kaleh's custom advancements in <cite>Under the Burning Suns</cite>, long "
-#~ "a source of problems, have been redesigned in a more robust and "
-#~ "streamlined fashion. Significant continuity problems in <cite>Heir to the "
-#~ "Throne's</cite> \"Cliffs of Thoria\" scenario have been fixed.  Some "
-#~ "scenarios in <cite>Legend of Wesmere</cite> have been rewritten and "
-#~ "significantly enhanced. An early version of its multiplayer port is "
-#~ "available to test Wesnoth's multiplayer campaign feature."
-#~ msgstr ""
-#~ "Мы продолжили править и улучшать кампании основной ветки. Особая система "
-#~ "продвижения Кале, героя кампании <cite>Под палящими светилами</cite>, "
-#~ "долго создававшая проблемы, переработана и стала более чёткой. Исправлены "
-#~ "значительные проблемы с целостностью сценария «Скалы Тории» из кампании "
-#~ "<cite>Наследник престола</cite>. Некоторые сценарии из <cite>Легенды "
-#~ "Весмира</cite> переписаны и улучшены. Доступна предварительная версия её "
-#~ "мультиплеерного порта; с его помощью можно протестировать новую "
-#~ "возможность Веснота — мультиплеерные кампании."
-
-#~ msgid ""
-#~ "There are five new full-orchestral music tracks: <cite>Casualties of War</"
-#~ "cite>, <cite>Into the Shadows</cite>, <cite>Journey's End</cite>, "
-#~ "<cite>Over the Northern Mountains</cite>, and <cite>Weight of Revenge</"
-#~ "cite>."
-#~ msgstr ""
-#~ "Добавлено пять новых полностью оркестровых музыкальных треков: "
-#~ "<cite>Военные потери</cite>, <cite>В тень</cite>, <cite>Конец "
-#~ "путешествия</cite>, <cite>Через северные горы</cite>, и <cite>Бремя "
-#~ "мщения</cite>."
-
-# type: Content of: <html><body><div><div><div><p>
-#~ msgid ""
-#~ "The game AI has been significantly debugged and improved; it chooses "
-#~ "recruits/recalls better, and does smarter target selection."
-#~ msgstr ""
-#~ "Игровой ИИ заметно улучшен и отлажен; он лучше выбирает, кого вербовать/"
-#~ "призывать, и умнее выбирает себе цель."
-
-#~ msgid ""
-#~ "The operating system's GUI can be told to notify the player that it's his "
-#~ "turn to play."
-#~ msgstr ""
-#~ "Теперь игра может сообщать игроку, что пришла его очередь ходить, через "
-#~ "интерфейс операционной системы."
-
-# type: Content of: <html><body><div><div><div><p>
-#~ msgid ""
-#~ "The multiplayer lobby has been completely redesigned for improved ease of "
-#~ "play and better appearance."
-#~ msgstr ""
-#~ "Полностью переработан холл мультиплеера — теперь он выглядит лучше, а "
-#~ "играть станет легче."
-
-#~ msgid ""
-#~ "Random numbers are generated on the Wesnoth multiplayer server during MP "
-#~ "combats. This makes certain kinds of cheats and out-of-sync conditions "
-#~ "impossible, at the cost of breaking compatibility with versions before "
-#~ "1.7.13."
-#~ msgstr ""
-#~ "Теперь сервер Веснота сам генерирует случайные числа во время "
-#~ "мультиплеерных сражений, благодаря чему стали невозможны некоторые "
-#~ "способы читерства и решены проблемы с синхронизацией. Цена — потеря "
-#~ "совместимости с версиями до 1.7.13."
-
-#~ msgid ""
-#~ "The right sidebar on the main game display has been tuned for usability. "
-#~ "It now gives more prominence to the selected unit's terrain defence "
-#~ "percentage and time-of-day modifier."
-#~ msgstr ""
-#~ "Правая боковая панель сделана более удобной. Теперь на ней есть "
-#~ "информация о защите выбранного бойца на данной местности и модификатор "
-#~ "времени суток."
-
-#~ msgid ""
-#~ "There is a new monster unit: the Water Serpent. Additionally, the "
-#~ "Dwarvish Scout from Under the Burning Suns is now part of normal Dwarvish "
-#~ "sides in campaigns. Several other unit lines &mdash; most notably the "
-#~ "Drakes &mdash; have been completely redone with improved art and "
-#~ "animations.  A remake of the merfolk units out of our Art Director's "
-#~ "virtual pencil has been completed in this release cycle.  (But most "
-#~ "animations are still missing for them.)"
-#~ msgstr ""
-#~ "Появился новый монстр: водяной змей. Кроме того, гномьи скороходы из "
-#~ "кампании «Под палящими светилами» теперь вошли в обычный набор гномьих "
-#~ "воинов в кампаниях. Некоторые другие ветви воинов — прежде всего, дрейки "
-#~ "— полностью переделаны, нарисована новая графика и анимация. В этом же "
-#~ "релизном цикле виртуальный карандаш нашего графического директора "
-#~ "закончил работу над водяными. (Впрочем, им по-прежнему не хватает "
-#~ "анимаций)."
-
-#~ msgid ""
-#~ "Add-on descriptions are now accessible from the add-on download dialog "
-#~ "via a button."
-#~ msgstr ""
-#~ "В диалог загрузки аддонов добавлена кнопка, которая позволяет посмотреть "
-#~ "описание аддона."
-
-#~ msgid ""
-#~ "Most translations have been updated. In addition, Vietnamese has "
-#~ "returned, and we have a new transliteration, English in the Shavian "
-#~ "alphabet."
-#~ msgstr ""
-#~ "Обновлена большая часть переводов. Кроме того, вновь доступен перевод на "
-#~ "вьетнамский; также мы добавили новую транслитерацию: английскую в "
-#~ "алфавите Шоу."
-
-#~ msgid ""
-#~ "This year Wesnoth was once again a Google \"Summer of Code\" program; one "
-#~ "of its major results was a complete rework of Wesnoth's support for "
-#~ "multiplayer campaigns. Sides in multiplayer games are now persistent and "
-#~ "can be carried over from one multiplayer scenario to the next. The "
-#~ "leaders of AI sides are now able to recall from their side's list. As a "
-#~ "side effect it is now possible to have more than one leader with the "
-#~ "ability to recruit per side."
-#~ msgstr ""
-#~ "В этом году Веснот снова участвовал в программе Гугла «Лето кода»; один "
-#~ "из главных результатов — полностью переработана поддержка мультиплеерных "
-#~ "кампаний. Стороны в таких играх теперь постоянны и сохраняются от "
-#~ "сценария к сценарию. Компьютер теперь может призывать своих бойцов; а "
-#~ "благодаря побочному эффекту, теперь у каждой стороны может быть более "
-#~ "одного лидера, способного призывать бойцов."
-
-#~ msgid ""
-#~ "Another Summer of Code result is a new framework for Wesnoth's artificial "
-#~ "intelligence. The AI can now be scripted to significantly change its "
-#~ "behavior in different story settings and in response to campaign events, "
-#~ "give enemy sides more distinct tactical personalities. It is possible, "
-#~ "though not easy, to use scripting languages (formula_ai, lua) to create "
-#~ "alternate AIs that are also scriptable."
-#~ msgstr ""
-#~ "Ещё один результат Лета кода — новая структура искусственного интеллекта "
-#~ "Веснота. Теперь ИИ можно запрограммировать так, чтобы он радикально менял "
-#~ "поведение в различных ситуациях и реагировал на события кампании; у "
-#~ "противников появятся различимые тактические предпочтения. Уже можно (хотя "
-#~ "и нелегко) использовать скриптовые языки (formula_ai, lua), чтобы создать "
-#~ "собственный программируемый ИИ."
-
-#~ msgid ""
-#~ "A new tool called the <a href=\"http://wiki.wesnoth.org/"
-#~ "CommandMode#Extra_Debugging_Commands\">\"gamestate inspector\"</a> allows "
-#~ "a content developer to view the values of the WML variables, ai "
-#~ "configuration, and the recall list while a game is in progress."
-#~ msgstr ""
-#~ "Новый инструмент, <a href=\"http://wiki.wesnoth.org/"
-#~ "CommandMode#Extra_Debugging_Commands\">«инспектор состояний»</a>, "
-#~ "позволяет разработчикам смотреть значения переменных WML, конфигурации ИИ "
-#~ "и список призываемых бойцов в процессе игры."
-
-#~ msgid ""
-#~ "New Orcish Village and Orcish Keep terrain graphics improve the options "
-#~ "available to map designers."
-#~ msgstr ""
-#~ "Авторы карт получили в свой инструментарий новые картинки для клеток — "
-#~ "«Орочья деревня» и «Орочий лагерь»."
-
-#~ msgid ""
-#~ "We've also achieved excellent results with our inaugural 'Summer Art "
-#~ "Scholarship' program. This has led to dozens of new portraits, as well as "
-#~ "a complete rework of the Drake sprites. We hope to continue this program "
-#~ "in coming years."
-#~ msgstr ""
-#~ "Кроме того, наша первая программа «Летних художественных стипедний» дала "
-#~ "отличный результат. Благодаря ей мы получили несколько дюжин новых "
-#~ "портретов, а также полностью переработали спрайты дрейков. Мы надеемся "
-#~ "продолжить эту программу в будущем."
-
-# type: Content of: <html><body><div><div><div><p>
-#~ msgid ""
-#~ "We paid a lot of attention to world continuity, from small details like "
-#~ "replacing earth-human names for characters up through larger ones like "
-#~ "putting many new placenames on the main map. The main Wesnoth history "
-#~ "timeline has been tweaked to eliminate various minor inconsistencies."
-#~ msgstr ""
-#~ "Мы уделили много внимания целостности мира, от самых мелких деталей — "
-#~ "например, мы заменили «земные» имена персонажей, до крупных — на главной "
-#~ "карте появились новые названия. Мы также слегка подправили историю "
-#~ "Веснота. чтобы избавиться от множества мелких несоответствий."
-
-#~ msgid ""
-#~ "We kept the promise we made in 1.6 when we had to remove Python for "
-#~ "technical reasons; WML events and AI components can now be written in "
-#~ "lua. The integration of lua in the wesnoth game engine is advanced enough "
-#~ "to even allow the coding of WML action tags with lua definitions that can "
-#~ "read and modify game state variables in the C++ core."
-#~ msgstr ""
-#~ "Мы выполнили обещание, данное перед выходом версии 1.6, когда нам, по "
-#~ "техническим причинам, пришлось удалить поддержку Python; события WML и ИИ "
-#~ "теперь можно программировать на lua. Lua настолько интегрирован в игровой "
-#~ "движок, что позволяет писать код тегов действий в WML на lua, и из них "
-#~ "читать и изменять переменные состояния игры в C++-ном ядре игры."
+msgstr "Авторские права &#169; 2003&#8211;2014 Проект Битва за Веснот"
