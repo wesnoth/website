@@ -266,7 +266,7 @@ foreach($stats as $stat){
 <div> <br/> </div>
 <div id="footer">
 <div id="footnote">
-&copy; 2003&#8211;2015 The Battle for Wesnoth<br/>
+&copy; 2003&#8211;2016 The Battle for Wesnoth<br/>
 <br/>
 <a href="http://validator.w3.org/check?uri=referer"><img
 src="http://www.w3.org/Icons/valid-xhtml10"
