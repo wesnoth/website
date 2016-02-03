@@ -85,30 +85,34 @@ $date = $filestat[9];
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/xhtml; charset=utf-8" />
-	<link rel="shortcut icon" type="image/png" href="http://www.wesnoth.org/mw/skins/glamdrol/ico.png" />
-	<style type="text/css">@import url('http://www.wesnoth.org/mw/skins/glamdrol/main.css');</style>
-	<link rel="stylesheet" type="text/css" href="styles/old.css" />
-	<title>Battle for Wesnoth</title>
+  <meta http-equiv="content-type" content="text/xhtml; charset=utf-8" />
+  <link rel="shortcut icon" type="image/png" href="/mw/skins/glamdrol/ico.png" />
+  <link rel="stylesheet" href="/mw/skins/glamdrol/main.css" />
+  <link rel="stylesheet" type="text/css" href="styles/old.css" />
+  <title>Battle for Wesnoth</title>
 </head>
+
 <body>
+
 <div id="global">
+
 <div id="header">
-<div id="logo">
-<a href="http://www.wesnoth.org/"><img alt="Wesnoth logo" src="http://www.wesnoth.org/mw/skins/glamdrol/wesnoth-logo.jpg" /></a>
-</div>
+  <div id="logo">
+    <a href="/"><img alt="Wesnoth logo" src="/mw/skins/glamdrol/wesnoth-logo.jpg" /></a>
+  </div>
 </div>
 
 <div id="nav">
-	<ul>
-	<li><a href="http://www.wesnoth.org/">Home</a></li>
-	<li><a href="http://www.wesnoth.org/wiki/Play">Play</a></li>
-	<li><a href="http://www.wesnoth.org/wiki/Create">Create</a></li>
-	<li><a href="http://www.wesnoth.org/forum/">Forums</a></li>
-	<li><a href="http://www.wesnoth.org/wiki/Support">Support</a></li>
-	<li><a href="http://www.wesnoth.org/wiki/Project">Project</a></li>
-	<li><a href="http://www.wesnoth.org/wiki/Credits">Credits</a></li>
-	</ul>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="//wiki.wesnoth.org/Play">Play</a></li>
+    <li><a href="//wiki.wesnoth.org/Create">Create</a></li>
+    <li><a href="//forums.wesnoth.org/">Forums</a></li>
+    <li><a href="//wiki.wesnoth.org/Support">Support</a></li>
+    <li><a href="//wiki.wesnoth.org/Project">Project</a></li>
+    <li><a href="//wiki.wesnoth.org/Credits">Credits</a></li>
+    <li><a href="//wiki.wesnoth.org/UsefulLinks">Links</a></li>
+  </ul>
 </div>
 
 <h2 style="display:inline">Wesnoth translation stats</h2>
@@ -266,11 +270,7 @@ foreach($stats as $stat){
 <div> <br/> </div>
 <div id="footer">
 <div id="footnote">
-&copy; 2003&#8211;2016 The Battle for Wesnoth<br/>
-<br/>
-<a href="http://validator.w3.org/check?uri=referer"><img
-src="http://www.w3.org/Icons/valid-xhtml10"
-alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+&copy; 2003&#8211;2016 The Battle for Wesnoth
 </div>
 </div>
 
