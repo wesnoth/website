@@ -269,7 +269,6 @@ foreach($stats as $lang => $stat){
 if ($package=='alloff' || $package=='allun' || $package=='all' || $package=='allcore'){
 	echo "<strong>" . $langs[$lang] . "</strong> (" . $lang . ")";
 }else{
-        <!-- FIXME-GIT: This will need to be updated -->
 	if($official){
 		$repo = ($version == 'master') ? 'master' : "$branch";
 		echo "<a href='https://raw.github.com/wesnoth/wesnoth/$repo/po/$package/$lang.po'>" . $langs[$lang] . "</a> (" .$lang . ")";
