@@ -89,7 +89,7 @@ $date = $filestat[9];
   <link rel="shortcut icon" type="image/png" href="/mw/skins/glamdrol/ico.png" />
   <link rel="stylesheet" href="/mw/skins/glamdrol/main.css" />
   <link rel="stylesheet" type="text/css" href="styles/old.css" />
-  <title>Battle for Wesnoth</title>
+  <title>Translation statistics - Battle for Wesnoth</title>
 </head>
 
 <body>
