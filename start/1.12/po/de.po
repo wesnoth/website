@@ -25,8 +25,8 @@ msgstr "The Battle for Wesnoth 1.12"
 
 #. type: Content of: <html><body><div><div><a>
 #: template.html:27
-msgid "<a href='http://www.wesnoth.org'>"
-msgstr "<a href='http://www.wesnoth.org'>"
+msgid "<a href='//www.wesnoth.org'>"
+msgstr "<a href='//www.wesnoth.org'>"
 
 #. type: Attribute 'alt' of: <html><body><div><div><a><img>
 #: template.html:27
@@ -152,7 +152,7 @@ msgid ""
 "on content, this time the Add-ons Manager packs long overdue additions, such "
 "as displaying each add-on’s installation status directly on the list, "
 "filtering items by their type or status, and enabling authors to link to "
-"feedback topics hosted on our <a href='http://forums.wesnoth.org/'>official "
+"feedback topics hosted on our <a href='//forums.wesnoth.org/'>official "
 "forum board</a>."
 msgstr ""
 "<cite>Wesnoth</cite> zieht großen Gewinn aus Vielfalt und Einfallsreichtum "
@@ -331,7 +331,7 @@ msgstr ""
 #: template.html:95
 msgid ""
 "Many bugs related to reloading multiplayer campaigns and scenarios have been "
-"fixed. Support for the <a href='http://wiki.wesnoth.org/"
+"fixed. Support for the <a href='//wiki.wesnoth.org/"
 "CampaignWML'><code>[campaign]</code> tag</a> has been added to multiplayer "
 "mode, thus allowing the same campaign to be played in both multiplayer and "
 "singleplayer. As a result of this, difficulty levels and other features of "
@@ -342,7 +342,7 @@ msgid ""
 "multiplayer-ready campaign shipping with the game."
 msgstr ""
 "Viele Probleme beim Neustart von Kampagnen und Szenarien wurden behoben. Das "
-"<a href='http://wiki.wesnoth.org/CampaignWML'><code>[campaign]</code> "
+"<a href='//wiki.wesnoth.org/CampaignWML'><code>[campaign]</code> "
 "Element</a> wird nun auch im Mehrspieler-Modus unterstützt, womit ein und "
 "dieselbe Partie alleine oder mit Mehreren gespielt werden kann. Infolge sind "
 "die Wahl des Schwierigkeitsgrades und andere Einzelspieler-Optionen jetzt "
@@ -524,33 +524,33 @@ msgid ""
 "for the three main WML maintenance scripts (<code>wmllint</code>, "
 "<code>wmlindent</code>, and <code>wmlscope</code>) has been included, "
 "providing a convenient alternative to the command line versions. The tool "
-"may be found in the <a href='http://wiki.wesnoth.org/"
+"may be found in the <a href='//wiki.wesnoth.org/"
 "EditingWesnoth'><code>data/tools</code></a> folder. More information on the "
-"maintenance tools can be found <a href='http://wiki.wesnoth.org/"
+"maintenance tools can be found <a href='//wiki.wesnoth.org/"
 "Maintenance_tools'>on the wiki</a>."
 msgstr ""
 "Um WML Autoren weitgehender zu unterstützen, wurde <code>GUI.pyw</code> "
 "aufgenommen, eine Grafikschnittstelle für die drei wichtigsten Skripte zur "
 "Wartung von WML (<code>wmllint</code>, <code>wmlindent</code> und "
 "<code>wmlscope</code>). Somit ist nun eine bequeme Alternative zur "
-"Befehlszeilenversion im Ordner <a href='http://wiki.wesnoth.org/"
+"Befehlszeilenversion im Ordner <a href='//wiki.wesnoth.org/"
 "EditingWesnoth'><code>data/tools</code></a> vorhanden. Mehr zu diesem Thema "
-"und den Wartungswerkzeugen steht im <a href='http://wiki.wesnoth.org/"
+"und den Wartungswerkzeugen steht im <a href='//wiki.wesnoth.org/"
 "Maintenance_tools'>Wiki</a>."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:127
 msgid ""
 "On the back-end side, this new stable series contains a vast array of "
-"additions for content creators. <a href='http://wiki.wesnoth.org/"
+"additions for content creators. <a href='//wiki.wesnoth.org/"
 "Micro_AIs'>Micro AIs</a> provide a powerful framework for assigning new and "
 "specialized AI behaviors to sides with minimal coding effort. Other AI "
 "improvements include a vastly improved and entirely configurable <a "
-"href='http://wiki.wesnoth.org/AI_Recruitment'>AI recruitment engine</a>, and "
+"href='//wiki.wesnoth.org/AI_Recruitment'>AI recruitment engine</a>, and "
 "a new AI for use in multiplayer games."
 msgstr ""
 "Auf der Backend-Seite bringt diese Nutzerversion ein reiches Angebot an "
-"Ergänzungen für die Entwickler. <a href='http://wiki.wesnoth.org/"
+"Ergänzungen für die Entwickler. <a href='//wiki.wesnoth.org/"
 "Micro_AIs'>Micro KIs</a> bieten einen leistungsfähigen Rahmen, um der KI mit "
 "minimalem Codieraufwand neue, spezialisierte Verhaltensweisen beizubringen. "
 "Andere Korrekturen computergesteuerter Abläufe betreffen sowohl die in "
@@ -562,17 +562,17 @@ msgstr ""
 #: template.html:129
 msgid ""
 "Many other new features have been added to the <a href='http://wiki.wesnoth."
-"org/ReferenceWML'>WML</a> and <a href='http://wiki.wesnoth.org/LuaWML'>Lua</"
-"a> API. For instance, <a href='http://wiki.wesnoth.org/"
+"org/ReferenceWML'>WML</a> and <a href='//wiki.wesnoth.org/LuaWML'>Lua</"
+"a> API. For instance, <a href='//wiki.wesnoth.org/"
 "AnimationWML'>animation WML tags</a> support a new, more compact syntax for "
 "defining animation frames in less space. The API has also received several "
 "changes which content creators porting 1.10-based add-ons must adapt to: a "
-"list is provided in our dedicated <a href='http://forums.wesnoth.org/"
+"list is provided in our dedicated <a href='//forums.wesnoth.org/"
 "viewtopic.php?t=36057'>forum topic</a>."
 msgstr ""
 "Wesentlichen Neuerungen beziehen sich auf den Funktionsumfang der <a "
-"href='http://wiki.wesnoth.org/ReferenceWML'>WML</a> und <a href='http://wiki."
-"wesnoth.org/LuaWML'>Lua</a> API. <a href='http://wiki.wesnoth.org/"
+"href='//wiki.wesnoth.org/ReferenceWML'>WML</a> und <a href='http://wiki."
+"wesnoth.org/LuaWML'>Lua</a> API. <a href='//wiki.wesnoth.org/"
 "AnimationWML'>Animations WML Elemente</a> bspw. unterstützen eine kompaktere "
 "Syntax, um für Animationsbilder weniger Platz zu definieren. Entwickler, die "
 "auf 1.10 basierende Erweiterungen portieren, sollten sich an eine Reihe von "
@@ -591,14 +591,14 @@ msgid ""
 "href='https://www.gnu.org/licenses/gpl-2.0.html'>GNU General Public License</"
 "a> (GNU GPL). The source code is available from <a href='http://www.wesnoth."
 "org'>wesnoth.org</a>, where you can also find instructions for <a "
-"href='http://wiki.wesnoth.org/CompilingWesnoth'>building from source</a> on "
+"href='//wiki.wesnoth.org/CompilingWesnoth'>building from source</a> on "
 "a range of different operating systems. Ready-to-go packages are also "
 "available for most popular operating systems, including Microsoft Windows, "
 "Apple OS X, and GNU/Linux."
 msgstr ""
 "<cite>Battle for Wesnoth</cite> ist unter der <a href='http://www.gnu.org/"
 "licenses/gpl-2.0.html'>GNU General Public License</a> (GPL) (Englisch) "
-"lizenziert. Der Quelltext ist unter <a href='http://www.wesnoth.org'>wesnoth."
+"lizenziert. Der Quelltext ist unter <a href='//www.wesnoth.org'>wesnoth."
 "org</a> verfügbar. Ferner finden sich Informationen zum <a href='http://"
 "wesnoth.org/wiki/CompilingWesnoth'>Kompilieren des Quelltextes</a> "
 "(Englisch) für diverse Plattformen. Für populäre Plattformen, wie "
@@ -641,7 +641,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><p>
 #: template.html:144
 msgid ""
-"You can refer to the <a href='http://wiki.wesnoth.org/Download'>downloads "
+"You can refer to the <a href='//wiki.wesnoth.org/Download'>downloads "
 "page</a> for the latest up-to-date packages and instructions, including "
 "those for other platforms once they become available."
 msgstr ""
@@ -654,11 +654,11 @@ msgstr ""
 #: template.html:146
 msgid ""
 "If you downloaded previous versions of the game, you might be interested in "
-"downloading the <a href='http://wiki.wesnoth.org/Download_Xdeltas'>Xdelta</"
+"downloading the <a href='//wiki.wesnoth.org/Download_Xdeltas'>Xdelta</"
 "a> files only."
 msgstr ""
 "Wenn Ihr die Vorgängerversion des Spieles installiert habt, mögt Ihr "
-"interessiert sein, nur die <a href='http://wiki.wesnoth.org/"
+"interessiert sein, nur die <a href='//wiki.wesnoth.org/"
 "Download_Xdeltas'>Xdelta</a> Dateien herunterzuladen."
 
 #. type: Content of: <html><body><div><div><h2>
@@ -701,36 +701,36 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:157
-msgid "<a href='http://wiki.wesnoth.org/Project'>Contribute</a> code"
-msgstr "<a href='http://wiki.wesnoth.org/Project'>Programmiere</a> mit"
+msgid "<a href='//wiki.wesnoth.org/Project'>Contribute</a> code"
+msgstr "<a href='//wiki.wesnoth.org/Project'>Programmiere</a> mit"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:158
 msgid ""
-"<a href='http://forums.wesnoth.org/viewforum.php?f=9'>Create</a> art for the "
-"main game or for user-made <a href='http://forums.wesnoth.org/viewforum.php?"
+"<a href='//forums.wesnoth.org/viewforum.php?f=9'>Create</a> art for the "
+"main game or for user-made <a href='//forums.wesnoth.org/viewforum.php?"
 "f=23'>add-ons</a>"
 msgstr ""
-"Entwirf <a href='http://forums.wesnoth.org/viewforum.php?f=9'>Grafiken</a> "
+"Entwirf <a href='//forums.wesnoth.org/viewforum.php?f=9'>Grafiken</a> "
 "für das Hauptspiel oder von anderen Benutzern entwickelte <a href='http://"
 "forums.wesnoth.org/viewforum.php?f=23'>Erweiterungen</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:159
 msgid ""
-"<a href='http://wiki.wesnoth.org/WesnothTranslations'>Translate</a> the game "
+"<a href='//wiki.wesnoth.org/WesnothTranslations'>Translate</a> the game "
 "into your language"
 msgstr ""
-"<a href='http://wiki.wesnoth.org/WesnothTranslations'>Übersetze</a> das "
+"<a href='//wiki.wesnoth.org/WesnothTranslations'>Übersetze</a> das "
 "Spiel in deine Sprache"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:160
 msgid ""
-"<a href='http://forums.wesnoth.org/viewforum.php?f=14'>Produce</a> new music "
+"<a href='//forums.wesnoth.org/viewforum.php?f=14'>Produce</a> new music "
 "tracks and sound effects"
 msgstr ""
-"Ergänzt die Sammlung unserer <a href='http://forums.wesnoth.org/viewforum."
+"Ergänzt die Sammlung unserer <a href='//forums.wesnoth.org/viewforum."
 "php?f=14'>Musik</a> und Klangeffekte"
 
 #. type: Content of: <html><body><div><div><ul><li>
@@ -747,26 +747,26 @@ msgstr "Weitere Infos"
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:169
 msgid ""
-"<a href='http://1.12-changelog.wesnoth.org/'>Full Changelog</a> (English)"
+"<a href='//changelog.wesnoth.org/1.12/'>Full Changelog</a> (English)"
 msgstr ""
-"<a href='http://1.12-changelog.wesnoth.org/'>Komplettes Änderungsprotokoll</"
+"<a href='//changelog.wesnoth.org/1.12/'>Komplettes Änderungsprotokoll</"
 "a> (Englisch)"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:170
 msgid ""
-"<a href='http://www.wesnoth.org/manual/1.12/manual.en.html'>User’s Manual</a>"
+"<a href='//www.wesnoth.org/manual/1.12/manual.en.html'>User’s Manual</a>"
 msgstr ""
-"<a href='http://www.wesnoth.org/manual/1.12/manual.en."
+"<a href='//www.wesnoth.org/manual/1.12/manual.en."
 "html'>Benutzerhandbuch</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:171
-msgid "<a href='http://www.wesnoth.org'>Official Website</a> (English)"
+msgid "<a href='//www.wesnoth.org'>Official Website</a> (English)"
 msgstr ""
-"<a href='http://www.wesnoth.org'>Offizielle Wesnoth Homepage</a> (Englisch)"
+"<a href='//www.wesnoth.org'>Offizielle Wesnoth Homepage</a> (Englisch)"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #
@@ -775,25 +775,25 @@ msgstr ""
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:173
 msgid ""
-"<a href='http://www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a>"
+"<a href='//www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a>"
 msgstr ""
-"<a href='http://www.wesnoth.org/start/1.6'>Wesnoth 1.6 Versionshinweise</a>"
+"<a href='//www.wesnoth.org/start/1.6'>Wesnoth 1.6 Versionshinweise</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:174
 msgid ""
-"<a href='http://www.wesnoth.org/start/1.8'>Wesnoth 1.8 Release Notes</a>"
+"<a href='//www.wesnoth.org/start/1.8'>Wesnoth 1.8 Release Notes</a>"
 msgstr ""
-"<a href='http://www.wesnoth.org/start/1.8'>Wesnoth 1.8 Versionshinweise</a>"
+"<a href='//www.wesnoth.org/start/1.8'>Wesnoth 1.8 Versionshinweise</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:175
 msgid ""
-"<a href='http://www.wesnoth.org/start/1.10'>Wesnoth 1.10 Release Notes</a>"
+"<a href='//www.wesnoth.org/start/1.10'>Wesnoth 1.10 Release Notes</a>"
 msgstr ""
-"<a href='http://www.wesnoth.org/start/1.10'>Wesnoth 1.10 Versionshinweise</a>"
+"<a href='//www.wesnoth.org/start/1.10'>Wesnoth 1.10 Versionshinweise</a>"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:186
