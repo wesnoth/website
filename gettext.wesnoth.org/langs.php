@@ -3,6 +3,7 @@ $langs['af'] = 'Afrikaans';
 $langs['ang'] = 'Old English';
 $langs['ang@latin'] = 'Old English (Latin chars)';
 $langs['ar'] = 'Arabic';
+$langs['ast'] = 'Asturian';
 $langs['bg'] = 'Bulgarian';
 $langs['ca'] = 'Catalan';
 $langs['ca_ES@valencia'] = 'Valencian (southern Catalan)';
