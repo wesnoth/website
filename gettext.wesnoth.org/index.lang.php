@@ -116,7 +116,7 @@ $date = $filestat[9];
 </div>
 
 <h2 style="display:inline">Wesnoth translation stats</h2>
-(last update: <strong><? echo date("r", $date); ?></strong>)
+(last update: <strong><?php echo date("r", $date); ?></strong>)
 
 <table class="main" cellpadding="1" cellspacing="0" border="0" width="100%"><tr><td>
 <table class="title" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td>
@@ -124,11 +124,11 @@ $date = $filestat[9];
 <tr>
 <td align="left">
 Version:
-<? if($version=='master'){ ?>
+<?php if($version=='master'){ ?>
 <strong>Development</strong> || <a href="?version=branch&amp;package=<?=$package?>&amp;lang=<?=$lang?>"><?=$branch?></a>
-<? }else{ ?>
+<?php }else{ ?>
 <a href="?version=master&amp;package=<?=$package?>&amp;lang=<?=$lang?>">Development</a>  || <strong><?=$branch?></strong>
-<? } ?>
+<?php } ?>
 </td>
 </tr>
 <tr>
@@ -153,7 +153,7 @@ Language:
 		if($code==$lang){
 ?>
 			<strong><?=$langname?></strong>
-<? 		}else{ ?>
+<?php 		}else{ ?>
 			<a href="?lang=<?=$code?>&amp;version=<?=$version?>"><?=$langname?></a> <?
 		}
 	}
@@ -164,7 +164,7 @@ Language:
 </td></tr></table>
 </td></tr></table>
 <div> <br/> </div>
-<? if(!$nostats){ ?>
+<?php if(!$nostats){ ?>
 <table class="main" cellspacing="0" cellpadding="0" border="0" width="100%"><tr><td>
 <table cellspacing="1" cellpadding="2" border="0" width="100%">
 <tr class="header">
@@ -223,21 +223,21 @@ foreach($stats as $stat){
 
 ?>
 	</td>
-<? if(($stat[0]==1) || ($total == 0) || ($stat[5] == 0)){ ?>
-	<td colspan="8">Error in <? echo $stat[4] ; ?> translation files</td>
-<? }else{ ?>
-    <td align="right"><? echo $stat[1]; ?></td>
-    <td class="percentage<?=$class?>" align="right"><? printf("%0.2f", ($stat[1]*100)/$stat[5]); ?></td>
-    <td align="right"><? echo $stat[2]; ?></td>
-    <td class="percentage<?=$class?>" align="right"><? printf("%0.2f", ($stat[2]*100)/$stat[5]); ?></td>
-    <td align="right"><? echo ($stat[5] - $stat[1] - $stat[2]); ?></td>
-    <td class="percentage<?=$class?>" align="right"><? printf("%0.2f", (($stat[5]-$stat[1]-$stat[2])*100)/$stat[5]); ?></td>
-    <td align="right"><? echo $total; ?></td>
-    <? $trans = sprintf("%d", ($stat[1]*200)/$stat[5]);?>
-    <? $fuzzy = sprintf("%d", ($stat[2]*200)/$stat[5]);?>
-    <? $untrans = 200 - $trans - $fuzzy;?>
+<?php if(($stat[0]==1) || ($total == 0) || ($stat[5] == 0)){ ?>
+	<td colspan="8">Error in <?php echo $stat[4] ; ?> translation files</td>
+<?php }else{ ?>
+    <td align="right"><?php echo $stat[1]; ?></td>
+    <td class="percentage<?=$class?>" align="right"><?php printf("%0.2f", ($stat[1]*100)/$stat[5]); ?></td>
+    <td align="right"><?php echo $stat[2]; ?></td>
+    <td class="percentage<?=$class?>" align="right"><?php printf("%0.2f", ($stat[2]*100)/$stat[5]); ?></td>
+    <td align="right"><?php echo ($stat[5] - $stat[1] - $stat[2]); ?></td>
+    <td class="percentage<?=$class?>" align="right"><?php printf("%0.2f", (($stat[5]-$stat[1]-$stat[2])*100)/$stat[5]); ?></td>
+    <td align="right"><?php echo $total; ?></td>
+    <?php $trans = sprintf("%d", ($stat[1]*200)/$stat[5]);?>
+    <?php $fuzzy = sprintf("%d", ($stat[2]*200)/$stat[5]);?>
+    <?php $untrans = 200 - $trans - $fuzzy;?>
     <td><img src="images/green.png" height="15" width="<?=$trans?>" alt="translated"/><img src="images/blue.png" height="15" width="<?=$fuzzy?>" alt="fuzzy"/><img src="images/red.png" height="15" width="<?=$untrans?>" alt="untranslated"/></td>
-<? } ?>
+<?php } ?>
 		    </tr>
 <?
 	$i++;
@@ -247,20 +247,20 @@ foreach($stats as $stat){
 <tr class="title">
 </td>
     <td>Total</td>
-    <td align="right"><? echo $sumstat[1]; ?></td>
+    <td align="right"><?php echo $sumstat[1]; ?></td>
     <td></td>
-    <td align="right"><? echo $sumstat[2]; ?></td>
+    <td align="right"><?php echo $sumstat[2]; ?></td>
     <td></td>
-    <td align="right"><? echo $sumstat[3]; ?></td>
+    <td align="right"><?php echo $sumstat[3]; ?></td>
     <td></td>
-    <td align="right"><? echo $sumstat[5]; ?></td>
+    <td align="right"><?php echo $sumstat[5]; ?></td>
     <td></td>
 </tr>
 </table>
 </td>
 </tr>
 </table>
-<? }else{
+<?php }else{
 	if(isset($lang)){
 ?>
 <h2>No available stats for lang <?=$lang?></h2>
