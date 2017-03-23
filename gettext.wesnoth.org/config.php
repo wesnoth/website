@@ -22,7 +22,7 @@ $extrabbasedir="/home/wesnoth/wescamp-i18n/branch-$wescampbranchversion/"; //bra
 //$packages = substr($packages, 0, strlen($packages)-1);
 $corepackages = "wesnoth wesnoth-lib wesnoth-editor wesnoth-help wesnoth-ai wesnoth-units wesnoth-multiplayer wesnoth-tutorial";
 //$packages = trim(system("grep ^SUBDIRS " . $basedir . "/po/Makefile.am | cut -d= -f2"));
-$packages = "wesnoth wesnoth-lib wesnoth-editor wesnoth-help wesnoth-ai wesnoth-units wesnoth-multiplayer wesnoth-test wesnoth-anl wesnoth-tutorial wesnoth-manpages wesnoth-manual wesnoth-aoi wesnoth-did wesnoth-dm wesnoth-dw wesnoth-ei wesnoth-httt wesnoth-l wesnoth-low wesnoth-nr wesnoth-sof wesnoth-sotbe wesnoth-tb wesnoth-thot wesnoth-trow wesnoth-tsg wesnoth-utbs";
+$packages = "wesnoth wesnoth-lib wesnoth-editor wesnoth-help wesnoth-ai wesnoth-units wesnoth-multiplayer wesnoth-test wesnoth-anl wesnoth-tutorial wesnoth-manpages wesnoth-manual wesnoth-aoi wesnoth-did wesnoth-dm wesnoth-dw wesnoth-ei wesnoth-httt wesnoth-l wesnoth-low wesnoth-nr wesnoth-sof wesnoth-sota wesnoth-sotbe wesnoth-tb wesnoth-thot wesnoth-trow wesnoth-tsg wesnoth-utbs";
 
 $ignore_langs = "sr@ijekavianlatin sr@latin sr@ijekavian";
 
