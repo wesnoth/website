@@ -1,8 +1,12 @@
 <?php
 
+define('IN_WESNOTH_LANGSTATS', true);
+
 include('config.php');
 include('functions.php');
+include('functions-web.php');
 include('langs.php');
+include('wesmere.php');
 
 global $langs;
 
@@ -159,11 +163,7 @@ switch ($package)
 				}
 				else
 				{
-					$stats[$lang] = [];
-					$stats[$lang][0] = $stat[0];
-					$stats[$lang][1] = $stat[1];
-					$stats[$lang][2] = $stat[2];
-					$stats[$lang][3] = $stat[3];
+					$stats[$lang] = array_slice($stat, 0, 4);
 				}
 			}
 		}
@@ -203,229 +203,140 @@ if (!$nostats)
 	}
 }
 
-?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-	<meta http-equiv="content-type" content="text/xhtml; charset=utf-8" />
-	<link rel="shortcut icon" type="image/png" href="/mw/skins/glamdrol/ico.png" />
-	<link rel="stylesheet" href="/mw/skins/glamdrol/main.css" />
-	<link rel="stylesheet" type="text/css" href="styles/old.css" />
-	<title>Translation statistics - Battle for Wesnoth</title>
-</head>
-
-<body>
-
-<div id="global">
-
-<div id="header">
-	<div id="logo">
-		<a href="/"><img alt="Wesnoth logo" src="/mw/skins/glamdrol/wesnoth-logo.jpg" /></a>
-	</div>
-</div>
-
-<div id="nav">
-	<ul>
-		<li><a href="/">Home</a></li>
-		<li><a href="//wiki.wesnoth.org/Play">Play</a></li>
-		<li><a href="//wiki.wesnoth.org/Create">Create</a></li>
-		<li><a href="//forums.wesnoth.org/">Forums</a></li>
-		<li><a href="//wiki.wesnoth.org/Support">Support</a></li>
-		<li><a href="//wiki.wesnoth.org/Project">Project</a></li>
-		<li><a href="//wiki.wesnoth.org/Credits">Credits</a></li>
-		<li><a href="//wiki.wesnoth.org/UsefulLinks">Links</a></li>
-	</ul>
-</div>
-
-<h2 style="display:inline">Wesnoth translation stats</h2><?php
-
-if (!$nostats)
-{
-	?>(last update: <strong><?php echo date('r', $date) ?></strong>)<?php
-}
+wesmere_emit_header();
 
 ?>
-<table class="main" cellpadding="1" cellspacing="0" border="0" width="100%"><tr><td>
 
-<table class="title" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td>
+<h1>Translation Statistics</h1>
 
-<table cellpadding="2" cellspacing="0" border="0" width="100%"><!-- display order and package selection -->
-	<tr>
-		<td align="left">Order by:<?php
-			if ($order == 'trans')
-			{
-				?><strong># of translated strings</strong> || <a href="?order=alpha&amp;package=<?php echo $package ?>">Team name</a><?php
-			}
-			else
-			{
-				?><a href="?order=trans&amp;package=<?php echo $package ?>"># of translated strings</a> || <strong>Team name</strong><?php
-			}
-		?></td>
-	</tr>
-	<tr>
-		<td align="left">Version:<?php
-			if ($version == 'branch')
-			{
-				?><a href="?version=master&amp;package=<?php echo $package ?>">Development</a> || <strong><?php echo $branch ?></strong><?php
-			}
-			else
-			{
-				?><strong>Development</strong> || <a href="?version=branch&amp;package=<?php echo $package ?>"><?php echo $branch ?></a><?php
-			}
-		?></td>
-	</tr>
-	<tr>
-		<td align="left">Show:<?php
-			if ($package == 'alloff')
-			{
-				?><strong>All official packages</strong><?php
-			}
-			else
-			{
-				?><a href="?package=alloff&amp;order=<?php echo $order ?>&amp;version=<?php echo $version ?>">All official packages</a><?php
-			}
-
-			echo ' || ';
-
-			if ($package == 'allcore')
-			{
-				?><strong>Official core packages</strong><?php
-			}
-			else
-			{
-				?><a href="?package=allcore&amp;order=<?php echo $order ?>&amp;version=<?php echo $version ?>">Official core packages</a><?php
-			}
-
-			echo ' || ';
-
-			if ($package == 'all')
-			{
-				?><strong>All packages</strong><?php
-			}
-			else
-			{
-				?><a href="?package=all&amp;order=<?php echo $order ?>&amp;version=<?php echo $version ?>">All packages</a><?php
-			}
-
-			echo ' || ';
-
-			if ($package == 'allun')
-			{
-				?><strong>All unofficial packages</strong><?php
-			}
-			else
-			{
-				?><a href="?package=allun&amp;order=<?php echo $order ?>&amp;version=<?php echo $version ?>">All unofficial packages</a><?php
-			}
-
-			echo ' || ';
-			?><a href="index.lang.php?version=<?php echo $version ?>">By language</a><?php
-
-			for ($i = 0; $i < 2; ++$i)
-			{
-				if ($i == 0)
-				{
-					$packs = $existing_packs;
-					echo '<br/>Official: ';
-				}
-				else
-				{
-					$packs = ($version == 'master') ? $existing_extra_packs_t : $existing_extra_packs_b;
-					echo '<br/>Unofficial: ';
-				}
-
-				$first = true;
-				foreach ($packs as $pack)
-				{
-					if ($first)
-					{
-						$first = false;
-					}
-					else
-					{
-						echo '||';
-					}
-
-					$packdisplay = $pack;
-					if ($i == 1)
-					{
-						$pack = getdomain($pack);
-					}
-
-					if ($pack == $package)
-					{
-						if ($i == 1)
-						{
-							$official = false;
-						}
-
-						?><strong><?php echo $packdisplay ?></strong><?php
-					}
-					else
-					{
-						?><a href="?package=<?php echo $pack ?>&amp;order=<?php echo $order?>&amp;version=<?php echo $version?>"><?php echo $packdisplay ?></a> <?php
-					}
-				}
-			}
-		?></td>
-	</tr>
-</table> <!-- display order and package selection -->
-</td></tr></table>
-</td></tr></table>
-
-<!-- FIXME WHY -->
-<div> <br/> </div><?php
+<div id="gettext-display-options"><?php
 
 if (!$nostats)
 {
-	?><table class="main" cellspacing="0" cellpadding="0" border="0" width="100%"><tr><td>
-	<table cellspacing="1" cellpadding="2" border="0" width="100%">
-	<tr class="header"><?php
-	if ($order == 'trans')
+	?><div id="lastmod" class="fr">Last updated on <?php echo date('r', $date) ?></div><?php
+}
+
+?><div id="orderby">Order by:
+	<ul class="gettext-switch"
+		><li><?php ui_self_link($order == 'trans', 'Translated strings count', "?order=trans&package=$package") ?></li
+		><li><?php ui_self_link($order != 'trans', 'Team name', "?order=alpha&package=$package") ?></li
+	></ul>
+</div>
+
+<div id="version">Branch:
+	<ul class="gettext-switch"
+		><li><?php ui_self_link($version == 'branch', 'Stable/1.12', "?version=branch&package=$package") ?></li
+		><li><?php ui_self_link($version != 'branch', 'Development/master', "?version=master&package=$package") ?></li
+	></ul>
+</div>
+
+<?php
+function ui_package_set_link($package_set, $label)
+{
+	global $package, $order, $version;
+	ui_self_link($package == $package_set, $label, '?package=' . $package_set . '&order=' . $order . '&version=' . $version);
+}
+
+?><div id="package-set">Show:
+	<ul class="gettext-switch"
+		><li><?php ui_package_set_link('alloff',  'All mainline textdomains')   ?></li
+		><li><?php ui_package_set_link('allcore', 'Mainline core textdomains')  ?></li
+		><li><?php ui_package_set_link('all',     'All textdomains')            ?></li
+		><li><?php ui_package_set_link('allun',   'All unofficial textdomains') ?></li
+		><li><a href="index.lang.php?version=<?php echo $version ?>">By language</a></li
+	></ul>
+</div><?php
+
+for ($i = 0; $i < 2; ++$i)
+{
+	if ($i == 0)
 	{
-		?><td class="title">position</td><?php
+		$packs = $existing_packs;
+		echo '<div id="textdomains-mainline">Official: ';
 	}
-	?>
-	<td class="title">team name</td>
-	<td class="translated">translated</td>
-	<td class="translated">%</td>
-	<td class="fuzzy"><strong>fuzzy</strong></td>
-	<td class="fuzzy"><strong>%</strong></td>
-	<td class="untranslated"><strong>untranslated</strong></td>
-	<td class="untranslated"><strong>%</strong></td>
-	<td class="title">total</td>
-	<td class="title">graph</td>
-	</tr>
+	else
+	{
+		$packs = ($version == 'master') ? $existing_extra_packs_t : $existing_extra_packs_b;
+		echo '<div id="textdomains-umc">Unofficial: ';
+	}
+
+	echo '<ul class="gettext-switch">';
+
+	$first = true;
+	foreach ($packs as $pack)
+	{
+		$packdisplay = $pack;
+		if ($i == 1)
+		{
+			$pack = getdomain($pack);
+		}
+
+		echo '<li>';
+
+		if ($pack == $package)
+		{
+			if ($i == 1)
+			{
+				$official = false;
+			}
+		}
+
+		ui_self_link($pack == $package, $packdisplay, "?package=$pack&order=$order&version=$version");
+
+		echo '</li>';
+	}
+
+	echo '</ul></div>';
+}
+
+?></div><!-- gettext-display-options --><?php
+
+if (!$nostats)
+{
+	?><table class="gettext-stats">
+	<thead><tr><?php
+		if ($order == 'trans')
+		{
+			?><th class="rank">Rank</th><?php
+		}
+		?><th class="title">Language</th>
+		<th class="translated">Translated</th>
+		<th class="translated percent">%</th>
+		<th class="fuzzy">Fuzzy</th>
+		<th class="fuzzy percent">%</th>
+		<th class="untranslated">Untranslated</th>
+		<th class="untranslated percent">%</th>
+		<th class="total">Total</th>
+		<th class="graph">Graph</th>
+	</tr></thead>
+	<tbody>
 	<?php
 
 	$i = 0;
 	$pos = 1;
-	$oldstat[0] = 0;
-	$oldstat[1] = 0;
-	$oldstat[2] = 0;
+	$oldstat = [ 0, 0, 0 ];
 
 	foreach ($stats as $lang => $stat)
 	{
 		$total = $stat[1] + $stat[2] + $stat[3];
 
-		$class = '-' . ($i % 2);
 		if (cmp_translated($stat, $oldstat) != 0)
 		{
 			$pos = $i + 1;
 		}
 
-		?><tr class="row<?php echo $class ?>"><?php
+		?><tr><?php
 
 		if ($order == 'trans')
 		{
-			?><td align="right"><?php echo $pos ?></td><?php
+			?><td class="rank"><?php echo $pos ?></td><?php
 		}
 
 		?><td><?php
 
 		if ($package == 'alloff' || $package == 'allun' || $package == 'all' || $package == 'allcore')
 		{
-			echo "<strong><a href='index.lang.php?lang=$lang&amp;version=$version'>" . $langs[$lang] . '</a></strong> (' . $lang . ')';
+			echo "<b><a href='index.lang.php?lang=$lang&amp;version=$version'>" . $langs[$lang] . '</a></b> (' . $lang . ')';
 		}
 		else
 		{
@@ -450,19 +361,21 @@ if (!$nostats)
 		}
 		else
 		{
-			?><td align="right"><?php echo $stat[1] ?></td>
-			<td class="percentage<?php echo $class ?>" align="right"><?php printf("%0.2f", ($stat[1]*100)/$main_total); ?></td>
-			<td align="right"><?php echo $stat[2] ?></td>
-			<td class="percentage<?php echo $class ?>" align="right"><?php printf("%0.2f", ($stat[2]*100)/$main_total); ?></td>
-			<td align="right"><?php echo ($main_total - $stat[1] - $stat[2]) ?></td>
-			<td class="percentage<?php echo $class ?>" align="right"><?php printf("%0.2f", (($main_total-$stat[1]-$stat[2])*100)/$main_total); ?></td>
-			<td align="right"><?php echo $main_total ?></td><?php
+			?><td class="translated"><?php echo $stat[1] ?></td>
+			<td class="percent"><?php printf("%0.2f", ($stat[1]*100)/$main_total); ?></td>
+			<td class="fuzzy"><?php echo $stat[2] ?></td>
+			<td class="percent"><?php printf("%0.2f", ($stat[2]*100)/$main_total); ?></td>
+			<td class="untranslated"><?php echo ($main_total - $stat[1] - $stat[2]) ?></td>
+			<td class="percent"><?php printf("%0.2f", (($main_total-$stat[1]-$stat[2])*100)/$main_total); ?></td>
+			<td class="strcount"><?php echo $main_total ?></td><?php
 
-			$trans = sprintf("%d", ($stat[1] * 200) / $main_total);
-			$fuzzy = sprintf("%d", ($stat[2] * 200) / $main_total);
-			$untrans = 200 - $trans - $fuzzy;
+			$graph_width = 240; // px
 
-			?><td><img src="images/green.png" height="15" width="<?php echo $trans ?>" alt="translated"/><img src="images/blue.png" height="15" width="<?php echo $fuzzy ?>" alt="fuzzy"/><img src="images/red.png" height="15" width="<?php echo $untrans ?>" alt="untranslated"/></td><?php
+			$trans = sprintf("%d", ($stat[1] * $graph_width) / $main_total);
+			$fuzzy = sprintf("%d", ($stat[2] * $graph_width) / $main_total);
+			$untrans = $graph_width - $trans - $fuzzy;
+
+			?><td class="graph"><span class="stats-bar green-bar" style="width:<?php echo $trans ?>px"></span><span class="stats-bar blue-bar" style="width:<?php echo $fuzzy ?>px"></span><span class="stats-bar red-bar" style="width:<?php echo $untrans ?>px"></span></td><?php
 		}
 
 		?></tr><?php
@@ -471,18 +384,18 @@ if (!$nostats)
 		$oldstat = $stat;
 	}
 
-	?><tr class="title"><?php
+	?><tr class="potstats"><?php
 
 	if ($order == 'trans')
 	{
-		?><td align="right"></td><?php
+		?><td></td><?php
 	}
 
-	?><td><?php
+	?><td colspan="7"><?php
 
 	if ($package == 'alloff' || $package == 'allun' || $package == 'all' || $package == 'allcore')
 	{
-		echo '<strong>Template catalog</strong>';
+		echo 'Template catalogs total';
 	}
 	else
 	{
@@ -500,30 +413,16 @@ if (!$nostats)
 		}
 	}
 	?></td>
-	<td align="right"></td>
-	<td align="right"></td>
-	<td align="right"></td>
-	<td></td>
-	<td align="right"></td>
-	<td></td>
-	<td align="right"><?php echo $main_total ?></td>
-	<td></td>
+	<td class="strcount" colspan="2"><?php echo $main_total ?></td>
 	</tr>
-	</table>
-	</td>
-	</tr>
+	</tbody>
+
 	</table><?php
 }
 else
 {
 	?><h2>No available stats for package <?php echo $package ?></h2><?php
 }
-?><div> <br/> </div>
-<div id="footer">
-<div id="footnote">
-&copy; 2003&#8211;2016 The Battle for Wesnoth
-</div>
-</div>
-</div>
-</body>
-</html>
+?><div> <br/> </div><?php
+
+wesmere_emit_footer();
