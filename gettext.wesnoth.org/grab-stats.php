@@ -6,8 +6,8 @@
 //
 ////////////////////////////////////////////////////////////////////////////
 
-include('functions.php');
 include('config.php');
+include('functions.php');
 
 // ************* PRELIMINARY TASKS, DATA INIT *************
 set_time_limit(0);
