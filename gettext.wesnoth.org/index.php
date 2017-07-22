@@ -39,7 +39,6 @@ $firstpack = $existing_packs[0];
 
 $stats = [];
 
-$official = true;
 $nostats = false;
 
 //
@@ -73,7 +72,9 @@ switch ($package)
 	case 'all':
 		for ($i = 0; $i < 2; ++$i)
 		{
-			if ($i == 0)
+			$official = $i == 0;
+
+			if ($official)
 			{
 				$packs = $existing_packs;
 			}
@@ -86,7 +87,7 @@ switch ($package)
 			{
 				$statsfile = ($version == 'branch') ? 'branchstats' : 'masterstats';
 
-				if ($i == 1)
+				if (!$official)
 				{
 					$pack = getdomain($pack);
 				}
@@ -162,7 +163,7 @@ if (!$nostats)
 
 <div id="version">Branch:
 	<ul class="gettext-switch"
-		><li><?php ui_self_link($version == 'branch', 'Stable/1.12', "?version=branch&package=$package") ?></li
+		><li><?php ui_self_link($version == 'branch', 'Stable/' . $branch, "?version=branch&package=$package") ?></li
 		><li><?php ui_self_link($version != 'branch', 'Development/master', "?version=master&package=$package") ?></li
 	></ul>
 </div>
@@ -252,6 +253,12 @@ if (!$nostats)
 	$pos = 1;
 	$oldstat = [ 0, 0, 0 ];
 
+	// The column count increases by 1 when including the completion ranking.
+	$column_count = 9;
+	// This offset is based on the language/textdomain name column, not the
+	// actual first column.
+	$strcount_column_offset = 8;
+
 	foreach ($stats as $lang => $stat)
 	{
 		$total = $stat[1] + $stat[2] + $stat[3];
@@ -265,28 +272,31 @@ if (!$nostats)
 
 		if ($order == 'trans')
 		{
+			++$column_count;
 			?><td class="rank"><?php echo $pos ?></td><?php
 		}
 
 		?><td class="language-team"><?php
 
+		$lang_code_html = "<code>$lang</code>";
+
 		if ($package == 'alloff' || $package == 'allun' || $package == 'all' || $package == 'allcore')
 		{
-			echo "<a class='language-stats-link' href='index.lang.php?lang=$lang&amp;version=$version'>" . $langs[$lang] . '</a> (' . $lang . ')';
+			echo "<a class='language-stats-link' href='index.lang.php?lang=$lang&amp;version=$version'>" . $langs[$lang] . '</a> (' . $lang_code_html . ')';
 		}
 		else
 		{
 			if ($official)
 			{
 				$repo = ($version == 'master') ? 'master' : $branch;
-				echo "<a class='textdomain-file' href='https://raw.github.com/wesnoth/wesnoth/$repo/po/$package/$lang.po'>" . $langs[$lang] . '</a> (' .$lang . ')';
+				echo "<a class='textdomain-file' href='https://raw.github.com/wesnoth/wesnoth/$repo/po/$package/$lang.po'>" . $langs[$lang] . '</a> (' .$lang_code_html . ')';
 			}
 			else
 			{
 				$packname = getpackage($package);
 				$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
 				$reponame = "$packname-$repo";
-				echo "<a class='textdomain-file' href='https://raw.github.com/wescamp/$reponame/master/po/$lang.po'>" . $langs[$lang] . '</a> (' . $lang . ')';
+				echo "<a class='textdomain-file' href='https://raw.github.com/wescamp/$reponame/master/po/$lang.po'>" . $langs[$lang] . '</a> (' . $lang_code_html . ')';
 			}
 		}
 		?></td><?php
@@ -327,7 +337,7 @@ if (!$nostats)
 		?><td></td><?php
 	}
 
-	?><td colspan="7"><?php
+	?><td colspan="<?php echo $strcount_column_offset - 1 ?>"><?php
 
 	if ($package == 'alloff' || $package == 'allun' || $package == 'all' || $package == 'allcore')
 	{
@@ -338,25 +348,26 @@ if (!$nostats)
 		if ($official)
 		{
 			$repo = ($version == 'master') ? 'master' : $branch;
-			echo "<a href='https://raw.github.com/wesnoth/wesnoth/$repo/po/$package/$package.pot'>Template catalog</a>";
+			echo "<a class='textdomain-file' href='https://raw.github.com/wesnoth/wesnoth/$repo/po/$package/$package.pot'>Template catalog</a>";
 		}
 		else
 		{
 			$packname = getpackage($package);
 			$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
 			$reponame = "$packname-$repo";
-			echo "<a href='https://raw.github.com/wescamp/$reponame/master/po/$package.pot'>Template catalog</a>";
+			echo "<a class='textdomain-file' href='https://raw.github.com/wescamp/$reponame/master/po/$package.pot'>Template catalog</a>";
 		}
 	}
 	?></td>
-	<td class="strcount" colspan="2"><?php echo $main_total ?></td>
+	<td class="strcount"><?php echo $main_total ?></td>
+	<td></td>
 	</tr>
 	</tbody>
 	</table><?php
 }
 else
 {
-	?><h2>No available stats for package <?php echo $package ?></h2><?php
+	ui_error("There are no statistics available for the selected textdomain on the selected branch");
 }
 
 wesmere_emit_footer();

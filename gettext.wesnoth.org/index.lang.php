@@ -29,8 +29,6 @@ $version = isset($_GET['version']) ? parameter_get('version') : 'branch';
 
 $lang = isset($_GET['lang']) ? parameter_get('lang') : '';
 
-$nostats = false;
-
 if (!empty($lang))
 {
 	for ($i = 0; $i < 2; ++$i)
@@ -63,6 +61,11 @@ if (!empty($lang))
 			$serialized = file_get_contents($statsfile);
 			$tmpstats = unserialize($serialized);
 
+			if (!isset($tmpstats[$lang]))
+			{
+				continue;
+			}
+
 			$stat = $tmpstats[$lang];
 			$stats[] = [
 				$stat[0],	// errors
@@ -76,11 +79,6 @@ if (!empty($lang))
 		}
 	}
 }
-else
-{
-	$nostats = true;
-	unset($lang);
-}
 
 wesmere_emit_header();
 
@@ -90,7 +88,7 @@ wesmere_emit_header();
 
 <div id="gettext-display-options"><?php
 
-if (!$nostats)
+if (!empty($stats))
 {
 	$firstpack = $existing_packs[0];
 	$filestat = stat('stats/' . $firstpack . '/' . $version . 'stats');
@@ -100,7 +98,7 @@ if (!$nostats)
 
 ?><div id="version">Branch:
 	<ul class="gettext-switch"
-		><li><?php ui_self_link($version == 'branch', 'Stable/1.12', "?version=branch&package=$package&lang=$lang") ?></li
+		><li><?php ui_self_link($version == 'branch', 'Stable/' . $branch, "?version=branch&package=$package&lang=$lang") ?></li
 		><li><?php ui_self_link($version != 'branch', 'Development/master', "?version=master&package=$package&lang=$lang") ?></li
 	></ul>
 </div>
@@ -139,7 +137,7 @@ function ui_package_set_link($package_set, $label)
 
 </div><!-- gettext-display-options --><?php
 
-if (!$nostats)
+if (!empty($stats))
 {
 	?><table class="gettext-stats">
 	<thead><tr><?php
@@ -193,7 +191,7 @@ if (!$nostats)
 
 			if (($stat[0] == 1) || ($total == 0) || ($stat[5] == 0))
 			{
-				?><td class="invalidstats" colspan="8">Error in <?php echo $stat[4] ?> translation files</td><?php
+				?><td class="invalidstats" colspan="8">Could not read translation file</td><?php
 			}
 			else
 			{
@@ -234,10 +232,13 @@ if (!$nostats)
 }
 else
 {
-	// TODO: ask user to select a language
-	if (isset($lang))
+	if (!empty($lang))
 	{
-		?><h2>No available stats for language <?php echo $lang ?></h2><?php
+		ui_error("There are no statistics available for the selected language");
+	}
+	else
+	{
+		ui_message("Choose a language above to see statistics by textdomain");
 	}
 }
 
