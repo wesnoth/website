@@ -6,26 +6,26 @@
 //
 ////////////////////////////////////////////////////////////////////////////
 
-//
-// Create a lock file
-//
+/**
+ * Creates the lock file
+ */
 function create_lock()
 {
 	global $prog;
 	@touch("/tmp/$prog.lock");
 }
 
-//
-// Remove the lock file
-//
+/**
+ * Removes the lock file
+ */
 function remove_lock() {
 	global $prog;
 	@unlink("/tmp/$prog.lock");
 }
 
-//
-// Check if the lock file exists
-//
+/**
+ * Checks if the lock file exists
+ */
 function is_locked()
 {
 	global $prog;
@@ -47,9 +47,16 @@ function update($basedir, $lang, $package)
 	@exec('msgmerge --update ' . $pofile . ' ' . $potfile);
 }
 
-//
-// Get statistics from .po file
-//
+/**
+ * Get statistics from .po file by running msgfmt on it.
+ *
+ * The return value is a 0-indexed array containing the following values:
+ *
+ *   [0] - 0 if msgfmt succeeded, 1 if it failed.
+ *   [1] - The fully translated strings count.
+ *   [2] - The fuzzied strings count.
+ *   [3] - The untranslated strings count.
+ */
 function getstats($file)
 {
 	global $msgfmt;
@@ -99,24 +106,45 @@ function getstats($file)
 	return [ $error, $translated, $fuzzy, $untranslated ];
 }
 
+/**
+ * Retrieves the add-on textdomain name from a WesCamp package name.
+ */
 function getdomain($string)
 {
 	return 'wesnoth-' . str_replace('-po', '', $string);
 }
 
+/**
+ * Retrieves the WesCamp package name from an add-on textdomain name.
+ */
 function getpackage($string)
 {
 	return str_replace('wesnoth-', '', $string);
 }
 
-//
-// Get a GET variable cleaned up for possible XSS exploits.
-//
+/**
+ * Retrieves a GET variable cleaned up to avoid XSS exploits.
+ */
 function parameter_get($name)
 {
 	return htmlspecialchars($_GET[$name], ENT_QUOTES, 'UTF-8');
 }
 
+/**
+ * Adds the textdomain stats from the specified file to the count array.
+ *
+ * @param $file       (string) Textdomain stats file.
+ * @param &$stats_ary (array)  Cumulative stats array.
+ *
+ * As with the return value of getstats(), &$stats_ary consists of a 0-indexed
+ * array containing at least the following fields (any additional fields are
+ * ignored and left intact):
+ *
+ *   [0] - The failed files count.
+ *   [1] - The fully translated strings count.
+ *   [2] - The fuzzied strings count.
+ *   [3] - The untranslated strings count.
+ */
 function add_textdomain_stats($file, &$stats_ary)
 {
 	if (!file_exists($file))

@@ -26,6 +26,8 @@ $packages = 'wesnoth wesnoth-lib wesnoth-editor wesnoth-help wesnoth-ai wesnoth-
 
 $ignore_langs = 'sr@ijekavianlatin sr@latin sr@ijekavian';
 
+$mainline_file_url_prefix = 'https://raw.github.com/wesnoth/wesnoth';
+
 //
 // Get unofficial packages
 //

@@ -157,7 +157,7 @@ if (!$nostats)
 ?><div id="orderby">Order by:
 	<ul class="gettext-switch"
 		><li><?php ui_self_link($order == 'trans', 'Translated strings count', "?order=trans&package=$package") ?></li
-		><li><?php ui_self_link($order != 'trans', 'Team name', "?order=alpha&package=$package") ?></li
+		><li><?php ui_self_link($order != 'trans', 'Language', "?order=alpha&package=$package") ?></li
 	></ul>
 </div>
 
@@ -184,6 +184,8 @@ function ui_package_set_link($package_set, $label)
 		><li><a href="index.lang.php?version=<?php echo $version ?>">By language</a></li
 	></ul>
 </div><?php
+
+$is_official_textdomain = true;
 
 for ($i = 0; $i < 2; ++$i)
 {
@@ -215,7 +217,7 @@ for ($i = 0; $i < 2; ++$i)
 		{
 			if ($i == 1)
 			{
-				$official = false;
+				$is_official_textdomain = false;
 			}
 		}
 
@@ -237,16 +239,11 @@ if (!$nostats)
 		{
 			?><th class="rank">Rank</th><?php
 		}
-		?><th class="title">Language</th>
-		<th class="translated">Translated</th>
-		<th class="translated percent">%</th>
-		<th class="fuzzy">Fuzzy</th>
-		<th class="fuzzy percent">%</th>
-		<th class="untranslated">Untranslated</th>
-		<th class="untranslated percent">%</th>
-		<th class="total">Total</th>
-		<th class="graph">Graph</th>
-	</tr></thead>
+		?><th class="title">Language</th><?php
+
+		ui_column_headers();
+
+	?></tr></thead>
 	<tbody><?php
 
 	$i = 0;
@@ -286,42 +283,28 @@ if (!$nostats)
 		}
 		else
 		{
-			if ($official)
+			if ($is_official_textdomain)
 			{
 				$repo = ($version == 'master') ? 'master' : $branch;
-				echo "<a class='textdomain-file' href='https://raw.github.com/wesnoth/wesnoth/$repo/po/$package/$lang.po'>" . $langs[$lang] . '</a> (' .$lang_code_html . ')';
+				ui_mainline_catalog_link($repo, $package, $lang, $langs[$lang], true);
 			}
 			else
 			{
 				$packname = getpackage($package);
 				$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
 				$reponame = "$packname-$repo";
-				echo "<a class='textdomain-file' href='https://raw.github.com/wescamp/$reponame/master/po/$lang.po'>" . $langs[$lang] . '</a> (' . $lang_code_html . ')';
+				ui_addon_catalog_link($reponame, $package, $lang, $langs[$lang], true);
 			}
 		}
 		?></td><?php
 
 		if (($stat[0] == 1) || ($total == 0))
 		{
-			?><td class="invalidstats" colspan="0">Error in <?php echo $langs[$lang] . "($lang)";  ?> translation files</td><?php
+			?><td class="invalidstats" colspan="0">Error in <?php echo $langs[$lang] . "(<code>$lang</code>)" ?> translation files</td><?php
 		}
 		else
 		{
-			?><td class="translated"><?php echo $stat[1] ?></td>
-			<td class="percent"><?php printf("%0.2f", ($stat[1]*100)/$main_total); ?></td>
-			<td class="fuzzy"><?php echo $stat[2] ?></td>
-			<td class="percent"><?php printf("%0.2f", ($stat[2]*100)/$main_total); ?></td>
-			<td class="untranslated"><?php echo ($main_total - $stat[1] - $stat[2]) ?></td>
-			<td class="percent"><?php printf("%0.2f", (($main_total-$stat[1]-$stat[2])*100)/$main_total); ?></td>
-			<td class="strcount"><?php echo $main_total ?></td><?php
-
-			$graph_width = 240; // px
-
-			$trans = sprintf("%d", ($stat[1] * $graph_width) / $main_total);
-			$fuzzy = sprintf("%d", ($stat[2] * $graph_width) / $main_total);
-			$untrans = $graph_width - $trans - $fuzzy;
-
-			?><td class="graph"><span class="stats-bar green-bar" style="width:<?php echo $trans ?>px"></span><span class="stats-bar blue-bar" style="width:<?php echo $fuzzy ?>px"></span><span class="stats-bar red-bar" style="width:<?php echo $untrans ?>px"></span></td><?php
+			ui_stat_columns($main_total, $stat[1], $stat[2]);
 		}
 
 		?></tr><?php
@@ -345,17 +328,17 @@ if (!$nostats)
 	}
 	else
 	{
-		if ($official)
+		if ($is_official_textdomain)
 		{
 			$repo = ($version == 'master') ? 'master' : $branch;
-			echo "<a class='textdomain-file' href='https://raw.github.com/wesnoth/wesnoth/$repo/po/$package/$package.pot'>Template catalog</a>";
+			ui_mainline_catalog_link($repo, $package);
 		}
 		else
 		{
 			$packname = getpackage($package);
 			$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
 			$reponame = "$packname-$repo";
-			echo "<a class='textdomain-file' href='https://raw.github.com/wescamp/$reponame/master/po/$package.pot'>Template catalog</a>";
+			ui_addon_catalog_link($reponame, $package);
 		}
 	}
 	?></td>

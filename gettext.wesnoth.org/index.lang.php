@@ -98,8 +98,8 @@ if (!empty($stats))
 
 ?><div id="version">Branch:
 	<ul class="gettext-switch"
-		><li><?php ui_self_link($version == 'branch', 'Stable/' . $branch, "?version=branch&package=$package&lang=$lang") ?></li
-		><li><?php ui_self_link($version != 'branch', 'Development/master', "?version=master&package=$package&lang=$lang") ?></li
+		><li><?php ui_self_link($version == 'branch', 'Stable/' . $branch, "?version=branch&lang=$lang") ?></li
+		><li><?php ui_self_link($version != 'branch', 'Development/master', "?version=master&lang=$lang") ?></li
 	></ul>
 </div>
 
@@ -140,17 +140,12 @@ function ui_package_set_link($package_set, $label)
 if (!empty($stats))
 {
 	?><table class="gettext-stats">
-	<thead><tr><?php
-		?><th class="title">Textdomain</th>
-		<th class="translated">Translated</th>
-		<th class="translated percent">%</th>
-		<th class="fuzzy">Fuzzy</th>
-		<th class="fuzzy percent">%</th>
-		<th class="untranslated">Untranslated</th>
-		<th class="untranslated percent">%</th>
-		<th class="total">Total</th>
-		<th class="graph">Graph</th>
-	</tr></thead>
+	<thead><tr>
+		<th class="title">Textdomain</th><?php
+
+		ui_column_headers();
+
+	?></tr></thead>
 	<tbody><?php
 
 	$sumstat = [ 0, 0, 0, 0, 0, 0 ];
@@ -178,14 +173,14 @@ if (!empty($stats))
 				if ($official)
 				{
 					$repo = ($version == 'master') ? 'master' : $branch;
-					echo "<a class='textdomain-file' href='https://raw.github.com/wesnoth/wesnoth/$repo/po/" . $stat[4]. "/$lang.po'>" . $stat[4] . '</a>';
+					ui_mainline_catalog_link($repo, $stat[4], $lang, $stat[4]);
 				}
 				else
 				{
 					$packname = getpackage($stat[4]);
 					$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
 					$reponame = "$packname-$repo";
-					echo "<a class='textdomain-file' href='https://raw.github.com/wescamp/$reponame/master/po/$lang.po'>" . $stat[4] . '</a>';
+					ui_addon_catalog_link($reponame, $package, $lang, $stat[4]);
 				}
 			?></td><?php
 
@@ -195,29 +190,15 @@ if (!empty($stats))
 			}
 			else
 			{
-				?><td class="translated"><?php echo $stat[1] ?></td>
-				<td class="percent"><?php printf("%0.2f", ($stat[1]*100)/$stat[5]) ?></td>
-				<td class="fuzzy"><?php echo $stat[2] ?></td>
-				<td class="percent"><?php printf("%0.2f", ($stat[2]*100)/$stat[5]) ?></td>
-				<td class="untranslated"><?php echo ($stat[5] - $stat[1] - $stat[2]) ?></td>
-				<td class="percent"><?php printf("%0.2f", (($stat[5]-$stat[1]-$stat[2])*100)/$stat[5]) ?></td>
-				<td class="strcount"><?php echo $total ?></td><?php
-
-				$graph_width = 240; // px
-
-				$trans = sprintf("%d", ($stat[1] * $graph_width) / $stat[5]);
-				$fuzzy = sprintf("%d", ($stat[2] * $graph_width) / $stat[5]);
-				$untrans = $graph_width - $trans - $fuzzy;
-
-				?><td class="graph"><span class="stats-bar green-bar" style="width:<?php echo $trans ?>px"></span><span class="stats-bar blue-bar" style="width:<?php echo $fuzzy ?>px"></span><span class="stats-bar red-bar" style="width:<?php echo $untrans ?>px"></span></td><?php
+				ui_stat_columns($total, $stat[1], $stat[2], $stat[5]);
 			}
 
 		?></tr><?php
 	}
 	?></tbody>
 	<tfoot>
-		<tr>
-			<th>Total</th>
+		<tr class="teamstats">
+			<th class="title">Total</th>
 			<td class="translated"><?php echo $sumstat[1] ?></td>
 			<td></td>
 			<td class="fuzzy"><?php echo $sumstat[2] ?></td>
