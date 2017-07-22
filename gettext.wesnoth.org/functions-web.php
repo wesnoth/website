@@ -21,3 +21,8 @@ function ui_separator()
 {
 	echo ' | ';
 }
+
+function ui_last_update_timestamp($date)
+{
+	echo '<div id="lastmod" class="fr">Last updated on ' . date('r', $date) . '</div>';
+}

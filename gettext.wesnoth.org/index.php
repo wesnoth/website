@@ -8,8 +8,6 @@ include('functions-web.php');
 include('langs.php');
 include('wesmere.php');
 
-global $langs;
-
 function cmp_translated($a, $b)
 {
 	if ($a[1] == $b[1])
@@ -32,9 +30,6 @@ function cmp_alpha($a, $b)
 	return strcmp($langs[$a], $langs[$b]);
 }
 
-$official = true;
-$nostats = false;
-
 $existing_packs         = explode(' ', $packages);
 $existing_corepacks     = explode(' ', $corepackages);
 $existing_extra_packs_t = explode(' ', $extratpackages);
@@ -44,12 +39,19 @@ $firstpack = $existing_packs[0];
 
 $stats = [];
 
-$package = isset($_GET['package']) ? parameter_get('package') : 'alloff';
+$official = true;
+$nostats = false;
+
+//
+// Process URL parameters
+//
 
 // Set the default starting point when calling gettext.wesnoth.org:
 //   'branch': show stats from the current stable branch
 //   'master': show stats from master
 $version = isset($_GET['version']) ? parameter_get('version') : 'branch';
+
+$package = isset($_GET['package']) ? parameter_get('package') : 'alloff';
 
 $order = (!isset($_GET['order']) || $_GET['order'] != 'alpha')
          ? 'trans' : 'alpha';
@@ -63,29 +65,7 @@ switch ($package)
 		foreach ($packs as $pack)
 		{
 			$statsfile = ($version == 'branch') ? 'branchstats' : 'masterstats';
-
-			if (!file_exists('stats/' . $pack . '/' . $statsfile))
-			{
-				continue;
-			}
-
-			$serialized = file_get_contents('stats/' . $pack . '/' . $statsfile);
-			$tmpstats = unserialize($serialized);
-
-			foreach ($tmpstats as $lang => $stat)
-			{
-				if (isset($stats[$lang]))
-				{
-					$stats[$lang][0] += $stat[0];
-					$stats[$lang][1] += $stat[1];
-					$stats[$lang][2] += $stat[2];
-					$stats[$lang][3] += $stat[3];
-				}
-				else
-				{
-					$stats[$lang] = array_slice($stat, 0, 4);
-				}
-			}
+			add_textdomain_stats('stats/' . $pack . '/' . $statsfile, $stats);
 		}
 
 		break;
@@ -111,28 +91,7 @@ switch ($package)
 					$pack = getdomain($pack);
 				}
 
-				if (!file_exists('stats/' . $pack . '/' . $statsfile))
-				{
-					continue;
-				}
-
-				$serialized = file_get_contents('stats/' . $pack . '/' . $statsfile);
-				$tmpstats = unserialize($serialized);
-
-				foreach ($tmpstats as $lang => $stat)
-				{
-					if (isset($stats[$lang]))
-					{
-						$stats[$lang][0] += $stat[0];
-						$stats[$lang][1] += $stat[1];
-						$stats[$lang][2] += $stat[2];
-						$stats[$lang][3] += $stat[3];
-					}
-					else
-					{
-						$stats[$lang] = array_slice($stat, 0, 4);
-					}
-				}
+				add_textdomain_stats('stats/' . $pack . '/' . $statsfile, $stats);
 			}
 		}
 		break;
@@ -144,33 +103,11 @@ switch ($package)
 			$pack = getdomain($pack);
 			$statsfile = $version . 'stats';
 
-			if (!file_exists('stats/' . $pack . '/' . $statsfile))
-			{
-				continue;
-			}
-
-			$serialized = file_get_contents('stats/' . $pack . '/' . $statsfile);
-			$tmpstats = unserialize($serialized);
-
-			foreach ($tmpstats as $lang => $stat)
-			{
-				if (isset($stats[$lang]))
-				{
-					$stats[$lang][0] += $stat[0];
-					$stats[$lang][1] += $stat[1];
-					$stats[$lang][2] += $stat[2];
-					$stats[$lang][3] += $stat[3];
-				}
-				else
-				{
-					$stats[$lang] = array_slice($stat, 0, 4);
-				}
-			}
+			add_textdomain_stats('stats/' . $pack . '/' . $statsfile, $stats);
 		}
 		break;
 
 	default:
-		$package = parameter_get('package');
 		$statsfile = $version . 'stats';
 
 		if (!file_exists('stats/' . $package . '/' . $statsfile))
@@ -213,7 +150,7 @@ wesmere_emit_header();
 
 if (!$nostats)
 {
-	?><div id="lastmod" class="fr">Last updated on <?php echo date('r', $date) ?></div><?php
+	ui_last_update_timestamp($date);
 }
 
 ?><div id="orderby">Order by:
@@ -309,8 +246,7 @@ if (!$nostats)
 		<th class="total">Total</th>
 		<th class="graph">Graph</th>
 	</tr></thead>
-	<tbody>
-	<?php
+	<tbody><?php
 
 	$i = 0;
 	$pos = 1;
@@ -332,32 +268,32 @@ if (!$nostats)
 			?><td class="rank"><?php echo $pos ?></td><?php
 		}
 
-		?><td><?php
+		?><td class="language-team"><?php
 
 		if ($package == 'alloff' || $package == 'allun' || $package == 'all' || $package == 'allcore')
 		{
-			echo "<b><a href='index.lang.php?lang=$lang&amp;version=$version'>" . $langs[$lang] . '</a></b> (' . $lang . ')';
+			echo "<a class='language-stats-link' href='index.lang.php?lang=$lang&amp;version=$version'>" . $langs[$lang] . '</a> (' . $lang . ')';
 		}
 		else
 		{
 			if ($official)
 			{
 				$repo = ($version == 'master') ? 'master' : $branch;
-				echo "<a href='https://raw.github.com/wesnoth/wesnoth/$repo/po/$package/$lang.po'>" . $langs[$lang] . '</a> (' .$lang . ')';
+				echo "<a class='textdomain-file' href='https://raw.github.com/wesnoth/wesnoth/$repo/po/$package/$lang.po'>" . $langs[$lang] . '</a> (' .$lang . ')';
 			}
 			else
 			{
 				$packname = getpackage($package);
 				$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
 				$reponame = "$packname-$repo";
-				echo "<a href='https://raw.github.com/wescamp/$reponame/master/po/$lang.po'>" . $langs[$lang] . '</a> (' . $lang . ')';
+				echo "<a class='textdomain-file' href='https://raw.github.com/wescamp/$reponame/master/po/$lang.po'>" . $langs[$lang] . '</a> (' . $lang . ')';
 			}
 		}
 		?></td><?php
 
 		if (($stat[0] == 1) || ($total == 0))
 		{
-			?><td colspan="8">Error in <?php echo $langs[$lang] . "($lang)";  ?> translation files</td><?php
+			?><td class="invalidstats" colspan="0">Error in <?php echo $langs[$lang] . "($lang)";  ?> translation files</td><?php
 		}
 		else
 		{
@@ -416,13 +352,11 @@ if (!$nostats)
 	<td class="strcount" colspan="2"><?php echo $main_total ?></td>
 	</tr>
 	</tbody>
-
 	</table><?php
 }
 else
 {
 	?><h2>No available stats for package <?php echo $package ?></h2><?php
 }
-?><div> <br/> </div><?php
 
 wesmere_emit_footer();

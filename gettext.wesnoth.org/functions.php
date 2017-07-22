@@ -116,3 +116,26 @@ function parameter_get($name)
 {
 	return htmlspecialchars($_GET[$name], ENT_QUOTES, 'UTF-8');
 }
+
+function add_textdomain_stats($file, &$stats_ary)
+{
+	if (!file_exists($file))
+	{
+		return;
+	}
+
+	$raw_td_stats = unserialize(file_get_contents($file));
+
+	foreach ($raw_td_stats as $lang => $lang_stats)
+	{
+		if (!isset($stats_ary[$lang]))
+		{
+			$stats_ary[$lang] = [ 0, 0, 0, 0 ];
+		}
+
+		for ($i = 0; $i < 4; ++$i)
+		{
+			$stats_ary[$lang][$i] += $lang_stats[$i];
+		}
+	}
+}
