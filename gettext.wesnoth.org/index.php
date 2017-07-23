@@ -8,6 +8,50 @@ include('includes/functions-web.php');
 include('includes/langs.php');
 include('includes/wesmere.php');
 
+$existing_packs         = $mainline_textdomains;
+$existing_corepacks     = $core_textdomains;
+$existing_extra_packs_t = $addon_packages_dev;
+$existing_extra_packs_b = $addon_packages_branch;
+
+$stats = [];
+
+$nostats = true;
+
+$last_update_timestamp = 0;
+
+$current_textdomain_is_official = true;
+
+//
+// Process URL parameters
+//
+
+// The view mode (either unset/empty or 'langs').
+$view = isset($_GET['view']) ? parameter_get('view') : '';
+
+if (!empty($view) && $view !== 'langs')
+{
+	$view = '';
+}
+
+// Set the default starting point when calling gettext.wesnoth.org:
+//   'branch': show stats from the current stable branch
+//   'master': show stats from master
+$version = isset($_GET['version']) ? parameter_get('version') : 'branch';
+
+// Language (only used in 'langs' view mode).
+$lang = isset($_GET['lang']) ? parameter_get('lang') : '';
+
+// Textdomain/add-on (only used in 'textdomains' view mode).
+$package = isset($_GET['package']) ? parameter_get('package') : 'alloff';
+
+// Language sorting criterion (only used in 'textdomains' view mode).
+$order = (!isset($_GET['order']) || $_GET['order'] != 'alpha')
+         ? 'trans' : 'alpha';
+
+//
+// Comparison functions used to sort language stats in the textdomain view.
+//
+
 function cmp_translated($a, $b)
 {
 	if ($a[1] == $b[1])
@@ -26,93 +70,151 @@ function cmp_translated($a, $b)
 function cmp_alpha($a, $b)
 {
 	global $langs;
-
 	return strcmp($langs[$a], $langs[$b]);
 }
 
-$existing_packs         = $mainline_textdomains;
-$existing_corepacks     = $core_textdomains;
-$existing_extra_packs_t = $addon_packages_dev;
-$existing_extra_packs_b = $addon_packages_branch;
-
-$stats = [];
-
-$nostats = false;
-
 //
-// Process URL parameters
+// Populate $stats global with information relevant to the current view mode.
 //
-
-// Set the default starting point when calling gettext.wesnoth.org:
-//   'branch': show stats from the current stable branch
-//   'master': show stats from master
-$version = isset($_GET['version']) ? parameter_get('version') : 'branch';
-
-$package = isset($_GET['package']) ? parameter_get('package') : 'alloff';
-
-$order = (!isset($_GET['order']) || $_GET['order'] != 'alpha')
-         ? 'trans' : 'alpha';
-
-// 'all' is the combination of the stats from 'alloff' and 'allun' together.
-$enum_packages = $package === 'all' ? [ 'alloff', 'allun' ] : [ $package ];
-
-foreach ($enum_packages as $p)
+switch ($view)
 {
-	switch ($p)
-	{
-		case 'alloff':
-		case 'allcore':
-			$packs = ($p == 'alloff') ? $existing_packs : $existing_corepacks;
-			foreach ($packs as $pack)
+	//
+	// Textdomain stats view.
+	//
+	case '':
+		$nostats = false;
+
+		// 'all' is the combination of the stats from 'alloff' and 'allun' together.
+		$enum_packages = $package === 'all' ? [ 'alloff', 'allun' ] : [ $package ];
+
+		foreach ($enum_packages as $p)
+		{
+			switch ($p)
 			{
-				$statsfile = ($version == 'branch') ? 'branchstats' : 'masterstats';
-				add_textdomain_stats('stats/' . $pack . '/' . $statsfile, $stats);
+				case 'alloff':
+				case 'allcore':
+					$packs = ($p == 'alloff') ? $existing_packs : $existing_corepacks;
+					foreach ($packs as $pack)
+					{
+						$statsfile = ($version == 'branch') ? 'branchstats' : 'masterstats';
+						add_textdomain_stats('stats/' . $pack . '/' . $statsfile, $stats);
+					}
+					break;
+
+				case 'allun':
+					$packs = ($version == 'master') ? $existing_extra_packs_t : $existing_extra_packs_b;
+					foreach ($packs as $pack)
+					{
+						$pack = getdomain($pack);
+						$statsfile = $version . 'stats';
+
+						add_textdomain_stats('stats/' . $pack . '/' . $statsfile, $stats);
+					}
+					break;
+
+				default:
+					$statsfile = $version . 'stats';
+
+					if (!file_exists('stats/' . $p . '/' . $statsfile))
+					{
+						$nostats = true;
+					}
+					else
+					{
+						$serialized = file_get_contents('stats/' . $p . '/' . $statsfile);
+						$stats = unserialize($serialized);
+					}
 			}
-			break;
+		}
 
-		case 'allun':
-			$packs = ($version == 'master') ? $existing_extra_packs_t : $existing_extra_packs_b;
-			foreach ($packs as $pack)
+		if (!$nostats)
+		{
+			// get total number of strings
+			$main_total = $stats['_pot'][1] + $stats['_pot'][2] + $stats['_pot'][3];
+			unset($stats['_pot']);
+
+			if ($order == 'trans')
 			{
-				$pack = getdomain($pack);
-				$statsfile = $version . 'stats';
-
-				add_textdomain_stats('stats/' . $pack . '/' . $statsfile, $stats);
-			}
-			break;
-
-		default:
-			$statsfile = $version . 'stats';
-
-			if (!file_exists('stats/' . $p . '/' . $statsfile))
-			{
-				$nostats = true;
+				uasort($stats, 'cmp_translated');
 			}
 			else
 			{
-				$serialized = file_get_contents('stats/' . $p . '/' . $statsfile);
-				$stats = unserialize($serialized);
+				uksort($stats, 'cmp_alpha');
 			}
-	}
+		}
+
+		break;
+
+	//
+	// Language stats view.
+	//
+	case 'langs':
+		$nostats = true;
+
+		if (empty($lang))
+		{
+			break;
+		}
+
+		foreach ([ true, false ] as $official)
+		{
+			if ($official)
+			{
+				$packs = $existing_packs;
+			}
+			else
+			{
+				$packs = $version == 'master' ? $existing_extra_packs_t : $existing_extra_packs_b;
+			}
+
+			foreach ($packs as $pack)
+			{
+				if (!$official)
+				{
+					$pack = getdomain($pack);
+				}
+
+				$statsfile = 'stats/' . $pack . '/' . $version . 'stats';
+
+				if (!file_exists($statsfile))
+				{
+					continue;
+				}
+
+				$serialized = file_get_contents($statsfile);
+				$tmpstats = unserialize($serialized);
+
+				if (!isset($tmpstats[$lang]))
+				{
+					continue;
+				}
+
+				$stat = $tmpstats[$lang];
+				$stats[] = [
+					$stat[0],	// errors
+					$stat[1],	// translated
+					$stat[2],	// fuzzy
+					$stat[3],	// untranslated
+					$pack,		// textdomain name
+					$tmpstats['_pot'][1] + $tmpstats['_pot'][2] + $tmpstats['_pot'][3],
+					$official,	// is official
+				];
+			}
+		}
+
+		$nostats = empty($stats);
+
+		break;
+
+	default:
+		// We're not supposed to be here.
+		die(1);
 }
 
 if (!$nostats)
 {
-	// get total number of strings
-	$main_total = $stats['_pot'][1] + $stats['_pot'][2] + $stats['_pot'][3];
-	unset($stats['_pot']);
-
 	$firstpack = $existing_packs[0];
-	$date = filemtime('stats/' . $firstpack . '/' . $version . 'stats');
-
-	if ($order == 'trans')
-	{
-		uasort($stats, 'cmp_translated');
-	}
-	else
-	{
-		uksort($stats, 'cmp_alpha');
-	}
+	$last_update_timestamp = filemtime('stats/' . $firstpack . '/' . $version . 'stats');
 }
 
 wesmere_emit_header();
@@ -125,28 +227,48 @@ wesmere_emit_header();
 
 if (!$nostats)
 {
-	ui_last_update_timestamp($date);
+	ui_last_update_timestamp($last_update_timestamp);
 }
 
-?><div id="orderby">Order by:
-	<ul class="gettext-switch"
-		><li><?php ui_self_link($order == 'trans', 'Translated strings count', "?order=trans&package=$package") ?></li
-		><li><?php ui_self_link($order != 'trans', 'Language', "?order=alpha&package=$package") ?></li
-	></ul>
-</div>
+if ($view !== 'langs')
+{
+	?><div id="orderby">Order by:
+		<ul class="gettext-switch"
+			><li><?php
+			ui_self_link($order === 'trans',
+			             'Translated strings count',
+			             clean_url_parameters([ 'order' => 'trans' ]));
+			?></li
+			><li><?php
+			ui_self_link($order === 'alpha',
+			             'Language',
+			             clean_url_parameters([ 'order' => 'alpha' ]));
+			?></li
+		></ul>
+	</div><?php
+}
 
-<div id="version">Branch:
+?><div id="version">Branch:
 	<ul class="gettext-switch"
-		><li><?php ui_self_link($version == 'branch', 'Stable/' . $branch, "?version=branch&package=$package") ?></li
-		><li><?php ui_self_link($version != 'branch', 'Development/master', "?version=master&package=$package") ?></li
+		><li><?php
+		ui_self_link($version == 'branch',
+		             'Stable/' . $branch,
+		             clean_url_parameters([ 'version' => 'branch' ]));
+		?></li
+		><li><?php
+		ui_self_link($version == 'master',
+		             'Development/master',
+		             clean_url_parameters([ 'version' => 'master' ]));
+		?></li
 	></ul>
-</div>
+</div><?php
 
-<?php
 function ui_package_set_link($package_set, $label)
 {
-	global $package, $order, $version;
-	ui_self_link($package == $package_set, $label, '?package=' . $package_set . '&order=' . $order . '&version=' . $version);
+	global $package, $view;
+	ui_self_link(($view !== 'langs' && $package == $package_set),
+	             $label,
+	             clean_url_parameters([ 'view' => '', 'package' => $package_set ]));
 }
 
 ?><div id="package-set">Show:
@@ -155,52 +277,80 @@ function ui_package_set_link($package_set, $label)
 		><li><?php ui_package_set_link('allcore', 'Mainline core textdomains')  ?></li
 		><li><?php ui_package_set_link('all',     'All textdomains')            ?></li
 		><li><?php ui_package_set_link('allun',   'All unofficial textdomains') ?></li
-		><li><a href="index.lang.php?version=<?php echo $version ?>">By language</a></li
+		><li><?php ui_self_link($view === 'langs',
+		                        'By language',
+		                        "?view=langs&version=$version") ?></li
 	></ul>
 </div><?php
 
-$is_official_textdomain = true;
-
-for ($i = 0; $i < 2; ++$i)
+if ($view === 'langs')
 {
-	if ($i == 0)
-	{
-		$packs = $existing_packs;
-		echo '<div id="textdomains-mainline">Official: ';
-	}
-	else
-	{
-		$packs = ($version == 'master') ? $existing_extra_packs_t : $existing_extra_packs_b;
-		echo '<div id="textdomains-umc">Unofficial: ';
-	}
+	//
+	// Print the list of languages to pick from.
+	//
+	?><div id="language-teams">Language:
+		<ul class="gettext-switch"><?php
+			// Since $langs is pretty free-form and in all likelihood provided
+			// in language code order, resort it by human-readable names
+			// instead for readability.
+			$sorted_langs = $langs;
+			asort($sorted_langs);
 
-	echo '<ul class="gettext-switch">';
-
-	$first = true;
-	foreach ($packs as $pack)
-	{
-		$packdisplay = $pack;
-		if ($i == 1)
-		{
-			$pack = getdomain($pack);
-		}
-
-		echo '<li>';
-
-		if ($pack == $package)
-		{
-			if ($i == 1)
+			foreach ($sorted_langs as $code => $langname)
 			{
-				$is_official_textdomain = false;
+				echo '<li>';
+				ui_self_link($code == $lang,
+				             $langname,
+				             clean_url_parameters([ 'lang' => $code ]));
+				echo '</li>';
 			}
+		?></ul>
+	</div><?php
+}
+else // $view !== 'langs'
+{
+	//
+	// Print the list of textdomains to pick from.
+	//
+	foreach ([ true, false ] as $official)
+	{
+		if ($official)
+		{
+			$packs = $existing_packs;
+			echo '<div id="textdomains-mainline">Official: ';
+		}
+		else
+		{
+			$packs = ($version == 'master') ? $existing_extra_packs_t : $existing_extra_packs_b;
+			echo '<div id="textdomains-umc">Unofficial: ';
 		}
 
-		ui_self_link($pack == $package, $packdisplay, "?package=$pack&order=$order&version=$version");
+		echo '<ul class="gettext-switch">';
 
-		echo '</li>';
+		foreach ($packs as $pack)
+		{
+			$packdisplay = $pack;
+			if (!$official)
+			{
+				$pack = getdomain($pack);
+			}
+
+			echo '<li>';
+
+			if ($pack == $package && !$official)
+			{
+				$current_textdomain_is_official = false;
+			}
+
+			ui_self_link($pack == $package,
+			             $packdisplay,
+			             clean_url_parameters([ 'package' => $pack ]));
+
+			echo '</li>';
+		}
+
+		echo '</ul></div>';
 	}
-
-	echo '</ul></div>';
 }
 
 ?></div><!-- gettext-display-options --><?php
@@ -209,122 +359,206 @@ if (!$nostats)
 {
 	?><table class="gettext-stats">
 	<thead><tr><?php
-		if ($order == 'trans')
+		if ($view !== 'langs')
 		{
-			?><th class="rank">Rank</th><?php
+			if ($order == 'trans')
+			{
+				?><th class="rank">Rank</th><?php
+			}
+			?><th class="title">Language</th><?php
 		}
-		?><th class="title">Language</th><?php
+		else
+		{
+			?><th class="title">Textdomain</th><?php
+		}
 
 		ui_column_headers();
 
 	?></tr></thead>
 	<tbody><?php
-
-	$i = 0;
-	$pos = 1;
-	$oldstat = [ 0, 0, 0 ];
-
-	// The column count increases by 1 when including the completion ranking.
-	$column_count = 9;
-	// This offset is based on the language/textdomain name column, not the
-	// actual first column.
-	$strcount_column_offset = 8;
-
-	foreach ($stats as $lang => $stat)
-	{
-		$total = $stat[1] + $stat[2] + $stat[3];
-
-		if (cmp_translated($stat, $oldstat) != 0)
+		if ($view !== 'langs')
 		{
-			$pos = $i + 1;
-		}
+			$i = 0;
+			$pos = 1;
+			$oldstat = [ 0, 0, 0 ];
 
-		?><tr><?php
+			// The column count increases by 1 when including the completion ranking.
+			$column_count = 9;
+			// This offset is based on the language/textdomain name column, not the
+			// actual first column.
+			$strcount_column_offset = 8;
 
-		if ($order == 'trans')
-		{
-			++$column_count;
-			?><td class="rank"><?php echo $pos ?></td><?php
-		}
-
-		?><td class="language-team"><?php
-
-		$lang_code_html = "<code>$lang</code>";
-
-		if ($package == 'alloff' || $package == 'allun' || $package == 'all' || $package == 'allcore')
-		{
-			echo "<a class='language-stats-link' href='index.lang.php?lang=$lang&amp;version=$version'>" . $langs[$lang] . '</a> (' . $lang_code_html . ')';
-		}
-		else
-		{
-			if ($is_official_textdomain)
+			foreach ($stats as $lang => $stat)
 			{
-				$repo = ($version == 'master') ? 'master' : $branch;
-				ui_mainline_catalog_link($repo, $package, $lang, $langs[$lang], true);
+				$total = $stat[1] + $stat[2] + $stat[3];
+
+				if (cmp_translated($stat, $oldstat) != 0)
+				{
+					$pos = $i + 1;
+				}
+
+				?><tr><?php
+
+				if ($order == 'trans')
+				{
+					++$column_count;
+					?><td class="rank"><?php echo $pos ?></td><?php
+				}
+
+				?><td class="language-team"><?php
+
+				$lang_code_html = "<code>$lang</code>";
+
+				if ($package == 'alloff' || $package == 'allun' || $package == 'all' || $package == 'allcore')
+				{
+					echo "<a class='language-stats-link' href='index.lang.php?lang=$lang&amp;version=$version'>" . $langs[$lang] . '</a> (' . $lang_code_html . ')';
+				}
+				else
+				{
+					if ($current_textdomain_is_official)
+					{
+						$repo = ($version == 'master') ? 'master' : $branch;
+						ui_mainline_catalog_link($repo, $package, $lang, $langs[$lang], true);
+					}
+					else
+					{
+						$packname = getpackage($package);
+						$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
+						$reponame = "$packname-$repo";
+						ui_addon_catalog_link($reponame, $package, $lang, $langs[$lang], true);
+					}
+				}
+				?></td><?php
+
+				if (($stat[0] == 1) || ($total == 0))
+				{
+					?><td class="invalidstats" colspan="0">Error in <?php echo $langs[$lang] . "(<code>$lang</code>)" ?> translation files</td><?php
+				}
+				else
+				{
+					ui_stat_columns($main_total, $stat[1], $stat[2]);
+				}
+
+				?></tr><?php
+
+				++$i;
+				$oldstat = $stat;
+			}
+
+			?><tr class="potstats"><?php
+
+			if ($order == 'trans')
+			{
+				?><td></td><?php
+			}
+
+			?><td colspan="<?php echo $strcount_column_offset - 1 ?>"><?php
+
+			if ($package == 'alloff' || $package == 'allun' || $package == 'all' || $package == 'allcore')
+			{
+				echo 'Template catalogs total';
 			}
 			else
 			{
-				$packname = getpackage($package);
-				$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
-				$reponame = "$packname-$repo";
-				ui_addon_catalog_link($reponame, $package, $lang, $langs[$lang], true);
+				if ($current_textdomain_is_official)
+				{
+					$repo = ($version == 'master') ? 'master' : $branch;
+					ui_mainline_catalog_link($repo, $package);
+				}
+				else
+				{
+					$packname = getpackage($package);
+					$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
+					$reponame = "$packname-$repo";
+					ui_addon_catalog_link($reponame, $package);
+				}
 			}
+			?></td>
+			<td class="strcount"><?php echo $main_total ?></td>
+			<td></td>
+			</tr>
+			</tbody><?php
 		}
-		?></td><?php
-
-		if (($stat[0] == 1) || ($total == 0))
+		else // $view === 'langs'
 		{
-			?><td class="invalidstats" colspan="0">Error in <?php echo $langs[$lang] . "(<code>$lang</code>)" ?> translation files</td><?php
+			$sumstat = [ 0, 0, 0, 0, 0, 0 ];
+			$official = true;
+
+			foreach ($stats as $stat)
+			{
+				$oldofficial = $official;
+				$official = $stat[6];
+
+				$sumstat[1] += $stat[1];
+				$sumstat[2] += $stat[2];
+				$sumstat[3] += $stat[3];
+				$sumstat[5] += $stat[5];
+
+				$total = $stat[1] + $stat[2] + $stat[3];
+
+				if ($oldofficial != $official)
+				{
+					?><tr class="officialness-separator"><td colspan="9"></td></tr><?php
+				}
+
+				?><tr>
+					<td class="textdomain-name"><?php
+						if ($official)
+						{
+							$repo = ($version == 'master') ? 'master' : $branch;
+							ui_mainline_catalog_link($repo, $stat[4], $lang, $stat[4]);
+						}
+						else
+						{
+							$packname = getpackage($stat[4]);
+							$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
+							$reponame = "$packname-$repo";
+							ui_addon_catalog_link($reponame, $package, $lang, $stat[4]);
+						}
+					?></td><?php
+
+					if (($stat[0] == 1) || ($total == 0) || ($stat[5] == 0))
+					{
+						?><td class="invalidstats" colspan="8">Could not read translation file</td><?php
+					}
+					else
+					{
+						ui_stat_columns($total, $stat[1], $stat[2], $stat[5]);
+					}
+
+				?></tr><?php
+			}
+			?></tbody>
+			<tfoot>
+				<tr class="teamstats">
+					<th class="title">Total</th>
+					<td class="translated"><?php echo $sumstat[1] ?></td>
+					<td></td>
+					<td class="fuzzy"><?php echo $sumstat[2] ?></td>
+					<td></td>
+					<td class="untranslated"><?php echo $sumstat[3] ?></td>
+					<td></td>
+					<td class="strcount"><?php echo $sumstat[5] ?></td>
+					<td></td>
+				</tr>
+			</tfoot><?php
 		}
-		else
-		{
-			ui_stat_columns($main_total, $stat[1], $stat[2]);
-		}
-
-		?></tr><?php
-
-		++$i;
-		$oldstat = $stat;
-	}
-
-	?><tr class="potstats"><?php
-
-	if ($order == 'trans')
+	?></table><?php
+}
+else // $nostats
+{
+	if ($view !== 'langs')
 	{
-		?><td></td><?php
+		ui_error("There are no statistics available for the selected textdomain on the selected branch");
 	}
-
-	?><td colspan="<?php echo $strcount_column_offset - 1 ?>"><?php
-
-	if ($package == 'alloff' || $package == 'allun' || $package == 'all' || $package == 'allcore')
+	else if (!empty($lang))
 	{
-		echo 'Template catalogs total';
+		ui_error("There are no statistics available for the selected language");
 	}
 	else
 	{
-		if ($is_official_textdomain)
-		{
-			$repo = ($version == 'master') ? 'master' : $branch;
-			ui_mainline_catalog_link($repo, $package);
-		}
-		else
-		{
-			$packname = getpackage($package);
-			$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
-			$reponame = "$packname-$repo";
-			ui_addon_catalog_link($reponame, $package);
-		}
+		ui_message("Choose a language above to see statistics by textdomain");
 	}
-	?></td>
-	<td class="strcount"><?php echo $main_total ?></td>
-	<td></td>
-	</tr>
-	</tbody>
-	</table><?php
-}
-else
-{
-	ui_error("There are no statistics available for the selected textdomain on the selected branch");
 }
 
 wesmere_emit_footer();

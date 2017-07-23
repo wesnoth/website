@@ -5,6 +5,69 @@ if (!defined('IN_WESNOTH_LANGSTATS'))
 	die(1);
 }
 
+/**
+ * Returns the URL parameters portion for the current document.
+ *
+ * Any parameters that do not apply because of the current view mode are not
+ * included in the result.
+ *
+ * @param $merge_with_ary (array) Add or replace parameters in the result.
+ */
+function clean_url_parameters($merge_with_ary = null)
+{
+	global $view, $version;
+
+	$params_ary = [
+		'view'			=> $view,
+		'version'		=> $version,
+	];
+
+	// Merge the new view parameter first and handle it accordingly.
+	if (isset($merge_with_ary['view']))
+	{
+		$params_ary['view'] = $merge_with_ary['view'];
+		unset($merge_with_ary['view']);
+	}
+
+	if ($params_ary['view'] === 'langs')
+	{
+		global $lang;
+		$params_ary = array_merge($params_ary, [
+			'lang'			=> $lang,
+		]);
+	}
+	else
+	{
+		global $package, $order;
+		$params_ary = array_merge($params_ary, [
+			'package'		=> $package,
+			'order'			=> $order,
+		]);
+	}
+
+	if (!empty($merge_with_ary))
+	{
+		$params_ary = array_merge($params_ary, $merge_with_ary);
+	}
+
+	$res = '';
+
+	foreach ($params_ary as $key => $val)
+	{
+		if (!empty($val))
+		{
+			$res .= '&' . $key . '=' . $val;
+		}
+	}
+
+	if (!empty($res))
+	{
+		$res[0] = '?';
+	}
+
+	return $res;
+}
+
 function ui_self_link($disable_condition, $text, $href)
 {
 	if ($disable_condition)
