@@ -559,7 +559,7 @@ else // $nostats
 	}
 	else if (!empty($lang))
 	{
-		ui_error("There are no statistics available for the selected language");
+		ui_error("There are no statistics available for the selected language on the selected branch");
 	}
 	else
 	{
