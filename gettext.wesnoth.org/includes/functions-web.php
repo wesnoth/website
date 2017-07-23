@@ -74,6 +74,15 @@ function clean_url_parameters($merge_with_ary = null)
 	return $res;
 }
 
+/**
+ * Returns whether the specified textdomain is a core textdomain.
+ */
+function is_core_textdomain($textdomain)
+{
+	global $core_textdomains;
+	return in_array($textdomain, $core_textdomains);
+}
+
 function ui_self_link($disable_condition, $text, $href)
 {
 	if ($disable_condition)

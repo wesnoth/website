@@ -282,8 +282,8 @@ function ui_package_set_link($package_set, $label)
 
 ?><dl id="package-set" class="display-options"><dt>Textdomain groups:</dt><dd>
 	<ul class="gettext-switch"
-		><li><?php ui_package_set_link('alloff',  'All mainline')  ?></li
-		><li><?php ui_package_set_link('allcore', 'Mainline core') ?></li<?php
+		><li><?php ui_package_set_link('alloff',  'All mainline')   ?></li
+		><li><?php ui_package_set_link('allcore', 'Mainline core*') ?></li<?php
 		if ($use_wescamp)
 		{
 			?>><li><?php ui_package_set_link('allun',   'All add-ons') ?></li
@@ -366,7 +366,7 @@ else // $view !== 'langs'
 			}
 
 			ui_self_link($pack == $package,
-			             $packdisplay,
+			             $packdisplay . (is_core_textdomain($pack) ? '*' : ''),
 			             clean_url_parameters([ 'package' => $pack ]));
 
 			echo '</li>';
@@ -536,7 +536,14 @@ if (!$nostats)
 						if ($official)
 						{
 							$repo = ($version == 'master') ? 'master' : $branch;
-							ui_mainline_catalog_link($repo, $stat[4], $lang, $stat[4]);
+							$label = $stat[4];
+
+							if (is_core_textdomain($stat[4]))
+							{
+								$label .= '*';
+							}
+
+							ui_mainline_catalog_link($repo, $stat[4], $lang, $label);
 						}
 						else
 						{
