@@ -406,7 +406,6 @@ if (!$nostats)
 
 				if ($order == 'trans')
 				{
-					++$column_count;
 					?><td class="rank"><?php echo $pos ?></td><?php
 				}
 
@@ -428,7 +427,7 @@ if (!$nostats)
 					else
 					{
 						$packname = getpackage($package);
-						$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
+						$repo = ($version == 'master') ? $wescamp_version_dev : $wescamp_version_branch;
 						$reponame = "$packname-$repo";
 						ui_addon_catalog_link($reponame, $package, $lang, $langs[$lang], true);
 					}
@@ -474,7 +473,7 @@ if (!$nostats)
 						else
 						{
 							$packname = getpackage($package);
-							$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
+							$repo = ($version == 'master') ? $wescamp_version_dev : $wescamp_version_branch;
 							$reponame = "$packname-$repo";
 							ui_addon_catalog_link($reponame, $package);
 						}
@@ -517,7 +516,7 @@ if (!$nostats)
 						else
 						{
 							$packname = getpackage($stat[4]);
-							$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
+							$repo = ($version == 'master') ? $wescamp_version_dev : $wescamp_version_branch;
 							$reponame = "$packname-$repo";
 							ui_addon_catalog_link($reponame, $package, $lang, $stat[4]);
 						}
