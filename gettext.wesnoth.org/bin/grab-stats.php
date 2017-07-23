@@ -14,13 +14,7 @@ if (php_sapi_name() !== "cli")
 include('../includes/config.php');
 include('../includes/functions.php');
 
-// ************* PRELIMINARY TASKS, DATA INIT *************
 set_time_limit(0);
-
-// data initialization
-$currdate = date('Y-m-d', mktime());
-
-// ************* DATA PROCESSING *************
 
 // Acquire a lock to prevent running more than one instance at a time.
 if (is_locked())

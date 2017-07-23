@@ -28,7 +28,7 @@ function wesmere_emit_header()
 {
 	?><!DOCTYPE html>
 
-<html class="no-js i18nstats" lang="en">
+<html class="no-js langstats" lang="en">
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
