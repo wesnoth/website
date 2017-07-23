@@ -106,22 +106,20 @@ switch ($view)
 					foreach ($packs as $pack)
 					{
 						$pack = getdomain($pack);
-						$statsfile = $version . 'stats';
-
-						add_textdomain_stats('stats/' . $pack . '/' . $statsfile, $stats);
+						add_textdomain_stats('stats/' . $pack . '/' . $version . 'stats', $stats);
 					}
 					break;
 
 				default:
-					$statsfile = $version . 'stats';
+					$statsfile = 'stats/' . $p . '/' . $version . 'stats';
 
-					if (!file_exists('stats/' . $p . '/' . $statsfile))
+					if (!file_exists($statsfile))
 					{
 						$nostats = true;
 					}
 					else
 					{
-						$serialized = file_get_contents('stats/' . $p . '/' . $statsfile);
+						$serialized = file_get_contents($statsfile);
 						$stats = unserialize($serialized);
 					}
 			}
@@ -382,11 +380,18 @@ if (!$nostats)
 			$pos = 1;
 			$oldstat = [ 0, 0, 0 ];
 
-			// The column count increases by 1 when including the completion ranking.
-			$column_count = 9;
 			// This offset is based on the language/textdomain name column, not the
 			// actual first column.
 			$strcount_column_offset = 8;
+
+			/**
+			 * Returns whether the package selection refers to a predefined
+			 * set of packages as opposed to a singular package.
+			 */
+			function package_is_not_singular($package)
+			{
+				return in_array($package, [ 'alloff', 'allun', 'all', 'allcore' ], true);
+			}
 
 			foreach ($stats as $lang => $stat)
 			{
@@ -409,7 +414,7 @@ if (!$nostats)
 
 				$lang_code_html = "<code>$lang</code>";
 
-				if ($package == 'alloff' || $package == 'allun' || $package == 'all' || $package == 'allcore')
+				if (package_is_not_singular($package))
 				{
 					echo "<a class='language-stats-link' href='index.lang.php?lang=$lang&amp;version=$version'>" . $langs[$lang] . '</a> (' . $lang_code_html . ')';
 				}
@@ -454,7 +459,7 @@ if (!$nostats)
 
 			?><td colspan="<?php echo $strcount_column_offset - 1 ?>"><?php
 
-			if ($package == 'alloff' || $package == 'allun' || $package == 'all' || $package == 'allcore')
+			if (package_is_not_singular($package))
 			{
 				echo 'Template catalogs total';
 			}
