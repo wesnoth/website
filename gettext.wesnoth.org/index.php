@@ -415,7 +415,7 @@ if (!$nostats)
 
 				if (package_is_not_singular($package))
 				{
-					echo "<a class='language-stats-link' href='index.lang.php?lang=$lang&amp;version=$version'>" . $langs[$lang] . '</a> (' . $lang_code_html . ')';
+					echo '<a class="language-stats-link" href="'. clean_url_parameters([ 'view' => 'langs', 'lang' => $lang ]) . '">' . $langs[$lang] . '</a> (' . $lang_code_html . ')';
 				}
 				else
 				{
