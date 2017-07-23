@@ -37,7 +37,7 @@ function wesmere_emit_header()
 	<link rel="icon" type="image/png" href="https://www.wesnoth.org/wesmere/img/favicon-32.png" sizes="32x32" />
 	<link rel="icon" type="image/png" href="https://www.wesnoth.org/wesmere/img/favicon-16.png" sizes="16x16" />
 	<link rel="stylesheet" type="text/css" href="https://www.wesnoth.org/wesmere/css/wesmere-1.0.0.css" />
-	<link rel="stylesheet" type="text/css" href="http://wesmere.localhost/wesmere/css/gettext-1.0.0.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.wesnoth.org/wesmere/css/gettext-1.0.0.css" />
 
 	<title>Translation Statistics - The Battle for Wesnoth</title>
 
