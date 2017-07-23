@@ -2,11 +2,11 @@
 
 define('IN_WESNOTH_LANGSTATS', true);
 
-include('config.php');
-include('functions.php');
-include('functions-web.php');
-include('langs.php');
-include('wesmere.php');
+include('includes/config.php');
+include('includes/functions.php');
+include('includes/functions-web.php');
+include('includes/langs.php');
+include('includes/wesmere.php');
 
 function cmp_translated($a, $b)
 {

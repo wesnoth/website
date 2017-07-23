@@ -11,8 +11,8 @@ if (php_sapi_name() !== "cli")
 	die(1);
 }
 
-include('config.php');
-include('functions.php');
+include('../includes/config.php');
+include('../includes/functions.php');
 
 // ************* PRELIMINARY TASKS, DATA INIT *************
 set_time_limit(0);
