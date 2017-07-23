@@ -13,9 +13,6 @@ $existing_corepacks     = $core_textdomains;
 $existing_extra_packs_t = $addon_packages_dev;
 $existing_extra_packs_b = $addon_packages_branch;
 
-sort($existing_extra_packs_t);
-sort($existing_extra_packs_b);
-
 $stats = [];
 
 //
