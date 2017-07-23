@@ -50,13 +50,13 @@ $core_textdomains = [
 	'wesnoth-ai',
 	'wesnoth-units',
 	'wesnoth-multiplayer',
+	'wesnoth-anl',
 	'wesnoth-tutorial',
 ];
 
 // Additional mainline textdomains
 $mainline_textdomains = array_merge($core_textdomains, [
 	'wesnoth-test',
-	'wesnoth-anl', // FIXME: why does this count as non-core?
 	'wesnoth-manpages',
 	'wesnoth-manual',
 	// Campaigns
