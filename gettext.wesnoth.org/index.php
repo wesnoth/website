@@ -106,6 +106,11 @@ switch ($view)
 					break;
 
 				case 'allun':
+					if (!$use_wescamp)
+					{
+						break;
+					}
+
 					$packs = ($version == 'master') ? $existing_extra_packs_t : $existing_extra_packs_b;
 					foreach ($packs as $pack)
 					{
@@ -278,10 +283,13 @@ function ui_package_set_link($package_set, $label)
 ?><dl id="package-set" class="display-options"><dt>Textdomain groups:</dt><dd>
 	<ul class="gettext-switch"
 		><li><?php ui_package_set_link('alloff',  'All mainline')  ?></li
-		><li><?php ui_package_set_link('allcore', 'Mainline core') ?></li
-		><li><?php ui_package_set_link('allun',   'All add-ons')   ?></li
-		><li><?php ui_package_set_link('all',     'All')           ?></li
-		><li><?php ui_self_link($view === 'langs',
+		><li><?php ui_package_set_link('allcore', 'Mainline core') ?></li<?php
+		if ($use_wescamp)
+		{
+			?>><li><?php ui_package_set_link('allun',   'All add-ons') ?></li
+			><li><?php   ui_package_set_link('all',     'All')         ?></li<?php
+		}
+		?>><li><?php ui_self_link($view === 'langs',
 		                        'All by language',
 		                        "?view=langs&version=$version") ?></li
 	></ul>
@@ -328,11 +336,15 @@ else // $view !== 'langs'
 			$group_class = 'mainline';
 			$group_label = 'Mainline textdomains';
 		}
-		else
+		else if ($use_wescamp)
 		{
 			$packs = ($version == 'master') ? $existing_extra_packs_t : $existing_extra_packs_b;
 			$group_class = 'umc';
 			$group_label = 'Add-on textdomains';
+		}
+		else
+		{
+			continue;
 		}
 
 		echo '<fieldset id="textdomains-' . $group_class . '">' .

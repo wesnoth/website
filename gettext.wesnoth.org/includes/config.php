@@ -19,6 +19,9 @@ $msgfmt = '/usr/bin/msgfmt';
 // Name of the current stable branch (dir name of the Git clone).
 $branch = '1.12';
 
+// Whether to actually process WesCamp content.
+$use_wescamp = false;
+
 // Name of the current stable branch for WesCamp.
 $wescamp_version_dev = '1.12';
 
@@ -120,5 +123,5 @@ function enumerate_addon_packages($base_dir)
 	return $packs_ary;
 }
 
-$addon_packages_dev = enumerate_addon_packages($addons_dev_basedir);
-$addon_packages_branch = enumerate_addon_packages($addons_branch_basedir);
+$addon_packages_dev = $use_wescamp ? enumerate_addon_packages($addons_dev_basedir) : [];
+$addon_packages_branch = $use_wescamp ? enumerate_addon_packages($addons_branch_basedir) : [];
