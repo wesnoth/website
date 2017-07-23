@@ -11,6 +11,8 @@ if (php_sapi_name() !== "cli")
 	die(1);
 }
 
+define('IN_WESNOTH_LANGSTATS', true);
+
 include('includes/config.php');
 include('includes/functions.php');
 
