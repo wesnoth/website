@@ -11,8 +11,8 @@ if (php_sapi_name() !== "cli")
 	die(1);
 }
 
-include('../includes/config.php');
-include('../includes/functions.php');
+include('includes/config.php');
+include('includes/functions.php');
 
 set_time_limit(0);
 
