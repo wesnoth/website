@@ -17,11 +17,6 @@ function ui_self_link($disable_condition, $text, $href)
 	}
 }
 
-function ui_separator()
-{
-	echo ' | ';
-}
-
 /**
  * Prints the timestamp element.
  */

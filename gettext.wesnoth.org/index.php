@@ -35,8 +35,6 @@ $existing_corepacks     = $core_textdomains;
 $existing_extra_packs_t = $addon_packages_dev;
 $existing_extra_packs_b = $addon_packages_branch;
 
-$firstpack = $existing_packs[0];
-
 $stats = [];
 
 $nostats = false;
@@ -55,71 +53,47 @@ $package = isset($_GET['package']) ? parameter_get('package') : 'alloff';
 $order = (!isset($_GET['order']) || $_GET['order'] != 'alpha')
          ? 'trans' : 'alpha';
 
-switch ($package)
+// 'all' is the combination of the stats from 'alloff' and 'allun' together.
+$enum_packages = $package === 'all' ? [ 'alloff', 'allun' ] : [ $package ];
+
+foreach ($enum_packages as $p)
 {
-	case 'alloff':
-	case 'allcore':
-		$packs = ($package == 'alloff') ? $existing_packs : $existing_corepacks;
-
-		foreach ($packs as $pack)
-		{
-			$statsfile = ($version == 'branch') ? 'branchstats' : 'masterstats';
-			add_textdomain_stats('stats/' . $pack . '/' . $statsfile, $stats);
-		}
-
-		break;
-
-	case 'all':
-		for ($i = 0; $i < 2; ++$i)
-		{
-			$official = $i == 0;
-
-			if ($official)
-			{
-				$packs = $existing_packs;
-			}
-			else
-			{
-				$packs = ($version == 'master') ? $existing_extra_packs_t : $existing_extra_packs_b;
-			}
-
+	switch ($p)
+	{
+		case 'alloff':
+		case 'allcore':
+			$packs = ($p == 'alloff') ? $existing_packs : $existing_corepacks;
 			foreach ($packs as $pack)
 			{
 				$statsfile = ($version == 'branch') ? 'branchstats' : 'masterstats';
+				add_textdomain_stats('stats/' . $pack . '/' . $statsfile, $stats);
+			}
+			break;
 
-				if (!$official)
-				{
-					$pack = getdomain($pack);
-				}
+		case 'allun':
+			$packs = ($version == 'master') ? $existing_extra_packs_t : $existing_extra_packs_b;
+			foreach ($packs as $pack)
+			{
+				$pack = getdomain($pack);
+				$statsfile = $version . 'stats';
 
 				add_textdomain_stats('stats/' . $pack . '/' . $statsfile, $stats);
 			}
-		}
-		break;
+			break;
 
-	case 'allun':
-		$packs = ($version == 'master') ? $existing_extra_packs_t : $existing_extra_packs_b;
-		foreach ($packs as $pack)
-		{
-			$pack = getdomain($pack);
+		default:
 			$statsfile = $version . 'stats';
 
-			add_textdomain_stats('stats/' . $pack . '/' . $statsfile, $stats);
-		}
-		break;
-
-	default:
-		$statsfile = $version . 'stats';
-
-		if (!file_exists('stats/' . $package . '/' . $statsfile))
-		{
-			$nostats = true;
-		}
-		else
-		{
-			$serialized = file_get_contents('stats/' . $package . '/' . $statsfile);
-			$stats = unserialize($serialized);
-		}
+			if (!file_exists('stats/' . $p . '/' . $statsfile))
+			{
+				$nostats = true;
+			}
+			else
+			{
+				$serialized = file_get_contents('stats/' . $p . '/' . $statsfile);
+				$stats = unserialize($serialized);
+			}
+	}
 }
 
 if (!$nostats)
@@ -127,9 +101,9 @@ if (!$nostats)
 	// get total number of strings
 	$main_total = $stats['_pot'][1] + $stats['_pot'][2] + $stats['_pot'][3];
 	unset($stats['_pot']);
-	$statsfile = $version . 'stats';
-	$filestat = stat('stats/' . $firstpack . '/' . $statsfile);
-	$date = $filestat[9];
+
+	$firstpack = $existing_packs[0];
+	$date = filemtime('stats/' . $firstpack . '/' . $version . 'stats');
 
 	if ($order == 'trans')
 	{

@@ -88,9 +88,9 @@ wesmere_emit_header();
 if (!empty($stats))
 {
 	$firstpack = $existing_packs[0];
-	$filestat = stat('stats/' . $firstpack . '/' . $version . 'stats');
+	$date = filemtime('stats/' . $firstpack . '/' . $version . 'stats');
 
-	ui_last_update_timestamp($filestat[9]);
+	ui_last_update_timestamp($date);
 }
 
 ?><div id="version">Branch:
