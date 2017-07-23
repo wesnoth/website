@@ -1,4 +1,8 @@
 <?php
+#
+# Translation statistics Web interface (gettext.wesnoth.org)
+# Part of the Battle for Wesnoth Project <https://www.wesnoth.org/>
+#
 
 define('IN_WESNOTH_LANGSTATS', true);
 

@@ -1,10 +1,10 @@
 <?php
-
-////////////////////////////////////////////////////////////////////////////
-//
-// Description: Grab GUI messages statistics
-//
-////////////////////////////////////////////////////////////////////////////
+#
+# gettext.wesnoth.org back-end statistics collection script
+#
+# Translation statistics Web interface (gettext.wesnoth.org)
+# Part of the Battle for Wesnoth Project <https://www.wesnoth.org/>
+#
 
 if (php_sapi_name() !== "cli")
 {

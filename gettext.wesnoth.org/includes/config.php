@@ -1,10 +1,15 @@
 <?php
+#
+# gettext.wesnoth.org front-end and back-end configuration file
+#
+# Translation statistics Web interface (gettext.wesnoth.org)
+# Part of the Battle for Wesnoth Project <https://www.wesnoth.org/>
+#
 
-////////////////////////////////////////////////////////////////////////////
-//
-// Description: Configuration file for GUI statistics grabbing program
-//
-////////////////////////////////////////////////////////////////////////////
+if (!defined('IN_WESNOTH_LANGSTATS'))
+{
+	die(1);
+}
 
 error_reporting(E_ALL);
 

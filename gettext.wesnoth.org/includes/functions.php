@@ -1,10 +1,15 @@
 <?php
+#
+# Common functions
+#
+# Translation statistics Web interface (gettext.wesnoth.org)
+# Part of the Battle for Wesnoth Project <https://www.wesnoth.org/>
+#
 
-////////////////////////////////////////////////////////////////////////////
-//
-// Description: Common functions for GUI statistics grabbing program
-//
-////////////////////////////////////////////////////////////////////////////
+if (!defined('IN_WESNOTH_LANGSTATS'))
+{
+	die(1);
+}
 
 $prog = 'grab-stats';
 

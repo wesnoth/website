@@ -1,4 +1,10 @@
 <?php
+#
+# Front-end UI/HTML generation functions
+#
+# Translation statistics Web interface (gettext.wesnoth.org)
+# Part of the Battle for Wesnoth Project <https://www.wesnoth.org/>
+#
 
 if (!defined('IN_WESNOTH_LANGSTATS'))
 {

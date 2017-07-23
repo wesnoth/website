@@ -1,4 +1,11 @@
 <?php
+#
+# Language list for gettext.wesnoth.org
+#
+# Translation statistics Web interface (gettext.wesnoth.org)
+# Part of the Battle for Wesnoth Project <https://www.wesnoth.org/>
+#
+
 $langs = [
 	'af'				=> 'Afrikaans',
 	'ang'				=> 'Old English',
