@@ -450,39 +450,40 @@ if (!$nostats)
 				$oldstat = $stat;
 			}
 
-			?><tr class="potstats"><?php
+			?></tbody>
+			<tfoot>
+				<tr class="potstats"><?php
+					if ($order == 'trans')
+					{
+						?><td></td><?php
+					}
 
-			if ($order == 'trans')
-			{
-				?><td></td><?php
-			}
+					?><td colspan="<?php echo $strcount_column_offset - 1 ?>"><?php
 
-			?><td colspan="<?php echo $strcount_column_offset - 1 ?>"><?php
-
-			if (package_is_not_singular($package))
-			{
-				echo 'Template catalogs total';
-			}
-			else
-			{
-				if ($current_textdomain_is_official)
-				{
-					$repo = ($version == 'master') ? 'master' : $branch;
-					ui_mainline_catalog_link($repo, $package);
-				}
-				else
-				{
-					$packname = getpackage($package);
-					$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
-					$reponame = "$packname-$repo";
-					ui_addon_catalog_link($reponame, $package);
-				}
-			}
-			?></td>
-			<td class="strcount"><?php echo $main_total ?></td>
-			<td></td>
-			</tr>
-			</tbody><?php
+					if (package_is_not_singular($package))
+					{
+						echo 'Template catalogs total';
+					}
+					else
+					{
+						if ($current_textdomain_is_official)
+						{
+							$repo = ($version == 'master') ? 'master' : $branch;
+							ui_mainline_catalog_link($repo, $package);
+						}
+						else
+						{
+							$packname = getpackage($package);
+							$repo = ($version == 'master') ? $wescamptrunkversion : $wescampbranchversion;
+							$reponame = "$packname-$repo";
+							ui_addon_catalog_link($reponame, $package);
+						}
+					}
+					?></td>
+					<td class="strcount"><?php echo $main_total ?></td>
+					<td></td>
+				</tr>
+			</tfoot><?php
 		}
 		else // $view === 'langs'
 		{
