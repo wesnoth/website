@@ -7,13 +7,15 @@ CAMPAIGND_HOST=192.168.1.20
 
 USE_WESCAMP=0
 
+LOG_FILE=$HOME/g.w.o-updates.log
+
+echo "update started at `date`" >> $LOG_FILE
+
 if [ "$USE_WESCAMP" -ne 0 ]; then
 	# Path to a plain-text file containing the credentials
 	# for wescamp.py (either user:pass or oauth 2 token)
 	GITHUB_AUTH_FILE=$HOME/.wescamp-i18n-auth
 	GITHUB_AUTH=
-
-	echo update started at `date` >> $HOME/g.w.o-updates.log
 
 	[ -r "$GITHUB_AUTH_FILE" ] && GITHUB_AUTH=`cat $GITHUB_AUTH_FILE`
 
@@ -21,14 +23,14 @@ if [ "$USE_WESCAMP" -ne 0 ]; then
 		#update the wescamp checkout
 		cd $MAINLINE_BASE/master/
 
-		echo "starting wescamp.py for 1.10 at `date`" >> $HOME/g.w.o-updates.log
-		./data/tools/wesnoth/wescamp.py -s$CAMPAIGND_HOST -p15002 -w$WESCAMP_BASE/branch-1.10 -C -G$GITHUB_AUTH >> $HOME/g.w.o-updates.log
-		echo "wescamp.py 1.10 exited with exit code $? at `date`" >> $HOME/g.w.o-updates.log
-		echo "starting wescamp.py for 1.12 at `date`" >> $HOME/g.w.o-updates.log
-		./data/tools/wesnoth/wescamp.py -s$CAMPAIGND_HOST -p15006 -w$WESCAMP_BASE/branch-1.12 -C -G$GITHUB_AUTH >> $HOME/g.w.o-updates.log
-		echo "wescamp.py 1.12 exited with exit code $? at `date`" >> $HOME/g.w.o-updates.log
+		echo "starting wescamp.py for 1.10 at `date`" >> $LOG_FILE
+		./data/tools/wesnoth/wescamp.py -s$CAMPAIGND_HOST -p15002 -w$WESCAMP_BASE/branch-1.10 -C -G$GITHUB_AUTH >> $LOG_FILE
+		echo "wescamp.py 1.10 exited with exit code $? at `date`" >> $LOG_FILE
+		echo "starting wescamp.py for 1.12 at `date`" >> $LOG_FILE
+		./data/tools/wesnoth/wescamp.py -s$CAMPAIGND_HOST -p15006 -w$WESCAMP_BASE/branch-1.12 -C -G$GITHUB_AUTH >> $LOG_FILE
+		echo "wescamp.py 1.12 exited with exit code $? at `date`" >> $LOG_FILE
 	else
-		echo "Wescamp-i18n task disabled, no GitHub auth info found in $GITHUB_AUTH_FILE"
+		echo "Wescamp-i18n task disabled, no GitHub auth info found in $GITHUB_AUTH_FILE" >> $LOG_FILE
 	fi
 fi
 
@@ -37,8 +39,9 @@ cd $WEBSITE_PATH/gettext.wesnoth.org
 git pull -q
 
 # update the stats
-echo "starting grab-stats at `date`" >> $HOME/g.w.o-updates.log
+echo "starting grab-stats at `date`" >> $LOG_FILE
+
 nice --adjustment=5 php bin/grab-stats.php
-echo "grab-stats exited with exit code $? at `date`" >> $HOME/g.w.o-updates.log
-#php bin/grab-stats.php >> $HOME/g.w.o-updates.log
-echo update completed at `date` >> $HOME/g.w.o-updates.log
+echo "grab-stats exited with exit code $? at `date`" >> $LOG_FILE
+
+echo "update completed at `date`" >> $LOG_FILE
