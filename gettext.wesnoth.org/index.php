@@ -30,10 +30,10 @@ function cmp_alpha($a, $b)
 	return strcmp($langs[$a], $langs[$b]);
 }
 
-$existing_packs         = explode(' ', $packages);
-$existing_corepacks     = explode(' ', $corepackages);
-$existing_extra_packs_t = explode(' ', $extratpackages);
-$existing_extra_packs_b = explode(' ', $extrabpackages);
+$existing_packs         = $mainline_textdomains;
+$existing_corepacks     = $core_textdomains;
+$existing_extra_packs_t = $addon_packages_dev;
+$existing_extra_packs_b = $addon_packages_branch;
 
 $firstpack = $existing_packs[0];
 

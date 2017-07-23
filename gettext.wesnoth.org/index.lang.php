@@ -8,10 +8,10 @@ include('functions-web.php');
 include('langs.php');
 include('wesmere.php');
 
-$existing_packs         = explode(' ', $packages);
-$existing_corepacks     = explode(' ', $corepackages);
-$existing_extra_packs_t = explode(' ', $extratpackages);
-$existing_extra_packs_b = explode(' ', $extrabpackages);
+$existing_packs         = $mainline_textdomains;
+$existing_corepacks     = $core_textdomains;
+$existing_extra_packs_t = $addon_packages_dev;
+$existing_extra_packs_b = $addon_packages_branch;
 
 sort($existing_extra_packs_t);
 sort($existing_extra_packs_b);

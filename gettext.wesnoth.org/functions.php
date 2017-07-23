@@ -6,6 +6,8 @@
 //
 ////////////////////////////////////////////////////////////////////////////
 
+$prog = 'grab-stats';
+
 /**
  * Creates the lock file
  */
@@ -48,7 +50,7 @@ function update($basedir, $lang, $package)
 }
 
 /**
- * Get statistics from .po file by running msgfmt on it.
+ * Get statistics from a .po file by running msgfmt on it.
  *
  * The return value is a 0-indexed array containing the following values:
  *
@@ -60,7 +62,7 @@ function update($basedir, $lang, $package)
 function getstats($file)
 {
 	global $msgfmt;
-  
+
 	$translated = 0;
 	$untranslated = 0;
 	$fuzzy = 0;
