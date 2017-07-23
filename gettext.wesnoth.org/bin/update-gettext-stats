@@ -34,7 +34,7 @@ git pull -q
 
 # update the stats
 echo "starting grab-stats at `date`" >> $HOME/g.w.o-updates.log
-nice --adjustment=5 php grab-stats.php
+nice --adjustment=5 php bin/grab-stats.php
 echo "grab-stats exited with exit code $? at `date`" >> $HOME/g.w.o-updates.log
-#php grab-stats.php >> $HOME/g.w.o-updates.log
+#php bin/grab-stats.php >> $HOME/g.w.o-updates.log
 echo update completed at `date` >> $HOME/g.w.o-updates.log
