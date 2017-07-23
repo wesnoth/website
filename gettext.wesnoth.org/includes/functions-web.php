@@ -172,7 +172,7 @@ function ui_column_headers()
 	<th class="fuzzy percent">%</th>
 	<th class="untranslated">Untranslated</th>
 	<th class="untranslated percent">%</th>
-	<th class="total">Total</th>
+	<th class="strcount">Total</th>
 	<th class="graph">Graph</th><?php
 }
 
