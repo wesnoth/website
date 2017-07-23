@@ -219,7 +219,7 @@ wesmere_emit_header();
 
 ?>
 
-<h1>Translation Statistics</h1>
+<h1><a href="<?php echo clean_url_parameters() ?>">Translation Statistics</a></h1>
 
 <div id="gettext-display-options"><?php
 
@@ -228,25 +228,9 @@ if (!$nostats)
 	ui_last_update_timestamp($last_update_timestamp);
 }
 
-if ($view !== 'langs')
-{
-	?><div id="orderby">Order by:
-		<ul class="gettext-switch"
-			><li><?php
-			ui_self_link($order === 'trans',
-			             'Translated strings count',
-			             clean_url_parameters([ 'order' => 'trans' ]));
-			?></li
-			><li><?php
-			ui_self_link($order === 'alpha',
-			             'Language',
-			             clean_url_parameters([ 'order' => 'alpha' ]));
-			?></li
-		></ul>
-	</div><?php
-}
+?><fieldset id="classification"><legend>Display</legend>
 
-?><div id="version">Branch:
+<dl id="version" class="display-options"><dt>Branch:</dt><dd>
 	<ul class="gettext-switch"
 		><li><?php
 		ui_self_link($version == 'branch',
@@ -259,7 +243,25 @@ if ($view !== 'langs')
 		             clean_url_parameters([ 'version' => 'master' ]));
 		?></li
 	></ul>
-</div><?php
+</dd></dl><?php
+
+if ($view !== 'langs')
+{
+	?><dl id="orderby" class="display-options"><dt>Sort by:</dt><dd>
+		<ul class="gettext-switch"
+			><li><?php
+			ui_self_link($order === 'trans',
+			             'Translation progress',
+			             clean_url_parameters([ 'order' => 'trans' ]));
+			?></li
+			><li><?php
+			ui_self_link($order === 'alpha',
+			             'Language',
+			             clean_url_parameters([ 'order' => 'alpha' ]));
+			?></li
+		></ul>
+	</dd></dl><?php
+}
 
 function ui_package_set_link($package_set, $label)
 {
@@ -269,24 +271,28 @@ function ui_package_set_link($package_set, $label)
 	             clean_url_parameters([ 'view' => '', 'package' => $package_set ]));
 }
 
-?><div id="package-set">Show:
+?><dl id="package-set" class="display-options"><dt>Textdomain groups:</dt><dd>
 	<ul class="gettext-switch"
-		><li><?php ui_package_set_link('alloff',  'All mainline textdomains')   ?></li
-		><li><?php ui_package_set_link('allcore', 'Mainline core textdomains')  ?></li
-		><li><?php ui_package_set_link('all',     'All textdomains')            ?></li
-		><li><?php ui_package_set_link('allun',   'All unofficial textdomains') ?></li
+		><li><?php ui_package_set_link('alloff',  'All mainline')  ?></li
+		><li><?php ui_package_set_link('allcore', 'Mainline core') ?></li
+		><li><?php ui_package_set_link('allun',   'All add-ons')   ?></li
+		><li><?php ui_package_set_link('all',     'All')           ?></li
 		><li><?php ui_self_link($view === 'langs',
-		                        'By language',
+		                        'All by language',
 		                        "?view=langs&version=$version") ?></li
 	></ul>
-</div><?php
+</dd></dl>
+
+</fieldset><!-- #classification -->
+
+<?php
 
 if ($view === 'langs')
 {
 	//
 	// Print the list of languages to pick from.
 	//
-	?><div id="language-teams">Language:
+	?><fieldset id="language-teams"><legend>Language:</legend>
 		<ul class="gettext-switch"><?php
 			// Since $langs is pretty free-form and in all likelihood provided
 			// in language code order, resort it by human-readable names
@@ -303,7 +309,7 @@ if ($view === 'langs')
 				echo '</li>';
 			}
 		?></ul>
-	</div><?php
+	</fieldset><?php
 }
 else // $view !== 'langs'
 {
@@ -315,15 +321,18 @@ else // $view !== 'langs'
 		if ($official)
 		{
 			$packs = $existing_packs;
-			echo '<div id="textdomains-mainline">Official: ';
+			$group_class = 'mainline';
+			$group_label = 'Mainline textdomains';
 		}
 		else
 		{
 			$packs = ($version == 'master') ? $existing_extra_packs_t : $existing_extra_packs_b;
-			echo '<div id="textdomains-umc">Unofficial: ';
+			$group_class = 'umc';
+			$group_label = 'Add-on textdomains';
 		}
 
-		echo '<ul class="gettext-switch">';
+		echo '<fieldset id="textdomains-' . $group_class . '">' .
+		     '<legend>' . $group_label . '</legend><ul class="gettext-switch">';
 
 		foreach ($packs as $pack)
 		{
@@ -347,7 +356,7 @@ else // $view !== 'langs'
 			echo '</li>';
 		}
 
-		echo '</ul></div>';
+		echo '</ul></fieldset>';
 	}
 }
 

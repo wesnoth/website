@@ -85,7 +85,7 @@ function ui_self_link($disable_condition, $text, $href)
  */
 function ui_last_update_timestamp($date)
 {
-	echo '<div id="lastmod" class="fr">Last updated on ' . date('r', $date) . '</div>';
+	echo '<div id="lastmod">Last updated on ' . strftime('%F %R UTC%z', $date) . '</div>';
 }
 
 /**
