@@ -41,8 +41,6 @@ function wesmere_emit_header()
 
 	<title>Translation Statistics - The Battle for Wesnoth</title>
 
-	<script src="https://www.wesnoth.org/wesmere/js/jquery-3.2.1.min.js"></script>
-
 	<script src="https://www.wesnoth.org/wesmere/js/modernizr.js"></script>
 </head>
 
