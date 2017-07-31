@@ -181,14 +181,14 @@ function ui_addon_catalog_link($repo, $textdomain, $lang = null, $lang_label = n
  */
 function ui_column_headers()
 {
-	?><th class="translated">Translated</th>
-	<th class="translated percent">%</th>
-	<th class="fuzzy">Fuzzy</th>
-	<th class="fuzzy percent">%</th>
-	<th class="untranslated">Untranslated</th>
-	<th class="untranslated percent">%</th>
-	<th class="strcount">Total</th>
-	<th class="graph">Graph</th><?php
+	?><th class="translated" scope="col">Translated</th>
+	<th class="translated percent" scope="col">%</th>
+	<th class="fuzzy" scope="col">Fuzzy</th>
+	<th class="fuzzy percent" scope="col">%</th>
+	<th class="untranslated" scope="col">Untranslated</th>
+	<th class="untranslated percent" scope="col">%</th>
+	<th class="strcount" scope="col">Total</th>
+	<th class="graph" scope="col">Graph</th><?php
 }
 
 /**

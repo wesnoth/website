@@ -386,13 +386,13 @@ if (!$nostats)
 		{
 			if ($order == 'trans')
 			{
-				?><th class="rank">Rank</th><?php
+				?><th class="rank" scope="col">Rank</th><?php
 			}
-			?><th class="title">Language</th><?php
+			?><th class="title" scope="col">Language</th><?php
 		}
 		else
 		{
-			?><th class="title">Textdomain</th><?php
+			?><th class="title" scope="col">Textdomain</th><?php
 		}
 
 		ui_column_headers();
@@ -482,7 +482,7 @@ if (!$nostats)
 						?><td></td><?php
 					}
 
-					?><td colspan="<?php echo $strcount_column_offset - 1 ?>"><?php
+					?><th colspan="<?php echo $strcount_column_offset - 1 ?>" scope="row"><?php
 
 					if (package_is_not_singular($package))
 					{
@@ -503,7 +503,7 @@ if (!$nostats)
 							ui_addon_catalog_link($reponame, $package);
 						}
 					}
-					?></td>
+					?></th>
 					<td class="strcount"><?php echo $main_total ?></td>
 					<td></td>
 				</tr>
@@ -568,7 +568,7 @@ if (!$nostats)
 			?></tbody>
 			<tfoot>
 				<tr class="teamstats">
-					<th class="title">Total</th>
+					<th class="title" scope="row">Total</th>
 					<td class="translated"><?php echo $sumstat[1] ?></td>
 					<td></td>
 					<td class="fuzzy"><?php echo $sumstat[2] ?></td>
