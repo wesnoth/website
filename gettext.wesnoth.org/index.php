@@ -560,7 +560,7 @@ if (!$nostats)
 					}
 					else
 					{
-						ui_stat_columns($total, $stat[1], $stat[2], $stat[5]);
+						ui_stat_columns($total, $stat[1], $stat[2]);
 					}
 
 				?></tr><?php
