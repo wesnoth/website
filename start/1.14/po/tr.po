@@ -1,0 +1,799 @@
+# Turkish translations for Wesnoth package
+# Copyright (C) 2008 Wesnoth Development Team
+# This file is distributed under the same license as the Wesnoth package.
+#
+# Nilgün Belma Bugüner <nilgun@belgeler.gen.tr>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: rel-notes 1.6\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2018-02-24 23:57-0300\n"
+"PO-Revision-Date: 2009-03-18 14:55+0200\n"
+"Last-Translator: Nilgün Belma Bugüner <nilgun@belgeler.gen.tr>\n"
+"Language-Team: Turkish <wesnoth-tr@googlegroups.com>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+# type: Attribute 'xml:lang' of: <html>
+#. type: Attribute 'lang' of: <html>
+#: template.html:3
+msgid "en"
+msgstr "tr"
+
+# type: Content of: <html><head><title>
+#. type: Content of: <html><body><div><div><h1>
+#: template.html:13 template.html:28
+#, fuzzy
+msgid "The Battle for Wesnoth 1.14"
+msgstr "Wesnoth Savaşı 1.6"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><a>
+#: template.html:24
+#, fuzzy
+#| msgid "<a href='//www.wesnoth.org'>"
+msgid "<a href=\"//www.wesnoth.org\">"
+msgstr "<a href='//www.wesnoth.org'>"
+
+# type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#. type: Attribute 'alt' of: <html><body><div><div><a><img>
+#: template.html:24
+#, fuzzy
+#| msgid "Wesnoth logo"
+msgid "Wesnoth Logo"
+msgstr "Wesnoth logosu"
+
+# type: Content of: <html><body><div><div><div>
+#. type: Content of: <html><body><div><div><div><div>
+#: template.html:24 template.html:50 template.html:55 template.html:63
+#: template.html:71 template.html:81 template.html:89
+msgid "</a>"
+msgstr "</a>"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:30
+msgid "<i>TBD 2018.</i> TODO SHORT INTRO TEXT HERE TODO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:31
+msgid ""
+"The development team is proud to present version 1.14 of <cite>The&nbsp;"
+"Battle&nbsp;for&nbsp;Wesnoth</cite>!"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:32
+msgid ""
+"This new series bring forth a vast number of additions, changes, and "
+"improvements in all areas, including a new single-player campaign, a new and "
+"more powerful multiplayer lobby, a refreshed add-ons manager, a refurbished "
+"game display engine, new unit graphics and animations, and much more. Try "
+"out the new features for yourself, or read on for more details..."
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><div>
+#: template.html:35
+#, fuzzy
+#| msgid "<a href='#download'>Download</a>"
+msgid "<a id=\"download-button\" href=\"#download\">Download Now!</a>"
+msgstr "<a href='#download'>İndirmeler</a>"
+
+# type: Content of: <html><body><div><div><div><h2>
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:46
+#, fuzzy
+msgid "What’s New in Wesnoth 1.14"
+msgstr "Wesnoth 1.6 Sürümündeki Yenilikler"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:48
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor tellus a "
+"fermentum viverra. Sed vulputate lectus non pharetra accumsan. Integer quis "
+"ultricies eros, id dignissim dui. Duis dolor enim, porttitor quis felis id, "
+"maximus dictum erat. Phasellus ultrices dictum ligula, quis egestas magna "
+"luctus a."
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:50
+#, fuzzy
+#| msgid "<a href='images/start-1-full.jpg'>"
+msgid "<a href=\"images/start-1.png\">"
+msgstr "<a href='images/start-1-full.jpg'>"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:50
+msgid "Title Screen"
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><h3>
+#. type: Content of: <html><body><div><div><h3>
+#: template.html:52
+msgid "For Players"
+msgstr "Oyuncular için"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><div><a>
+#: template.html:55
+#, fuzzy
+#| msgid "<a href='images/start-1-full.jpg'>"
+msgid "<a href=\"images/start-2.png\">"
+msgstr "<a href='images/start-1-full.jpg'>"
+
+# type: Attribute 'alt' of: <html><body><div><div><div><div><div><img>
+#. type: Attribute 'alt' of: <html><body><div><div><div><div><a><img>
+#: template.html:55 template.html:63 template.html:71 template.html:81
+#: template.html:89
+msgid "Wesnoth Screenshot"
+msgstr "Wesnoth Ekran Görüntüsü"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:58
+msgid ""
+"Aliquam sagittis velit vel mi convallis, a congue arcu dapibus. Quisque "
+"placerat suscipit lacus, eu congue purus placerat nec. Aliquam hendrerit "
+"aliquet enim ac mattis. Vivamus sit amet gravida diam, nec iaculis tortor. "
+"Donec pretium est sed pellentesque pharetra. Donec consequat lacus ut ex "
+"commodo cursus. Aliquam id quam vel lacus pellentesque sagittis. Nunc congue "
+"ornare ligula, id rutrum risus. In non nibh purus. In nec nunc in lacus "
+"lacinia lacinia. Nulla tincidunt blandit sem vel accumsan."
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><h4>
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:60
+msgid "Campaigns"
+msgstr "Seferberlikler"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><div><a>
+#: template.html:63
+#, fuzzy
+#| msgid "<a href='images/start-2-full.jpg'>"
+msgid "<a href=\"images/start-5.png\">"
+msgstr "<a href='images/start-2-full.jpg'>"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:66
+msgid ""
+"Ut pharetra justo mollis, interdum sapien bibendum, bibendum est. Cras sem "
+"urna, vulputate in erat vitae, tincidunt scelerisque justo. In maximus "
+"sagittis nulla eleifend aliquet. Duis arcu nisi, condimentum ac dolor in, "
+"suscipit tempus libero. Quisque pulvinar elit quis interdum aliquet. "
+"Vestibulum sit amet metus velit. Proin porta orci non dignissim congue. Ut "
+"ut elementum lectus, sagittis mollis risus. Nullam vel luctus nisi, vitae "
+"tempor magna. Proin sit amet odio libero."
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><dl><dt>
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:68
+msgid "Multiplayer"
+msgstr "Çok oyunculu"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><div><a>
+#: template.html:71
+#, fuzzy
+#| msgid "<a href='images/start-4-full.jpg'>"
+msgid "<a href=\"images/start-4.png\">"
+msgstr "<a href='images/start-4-full.jpg'>"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:74
+msgid ""
+"Maecenas molestie nunc purus, vitae fermentum lacus iaculis sit amet. In "
+"suscipit nisl quis odio mattis, imperdiet convallis ligula tincidunt. Cras "
+"eget eros ut quam suscipit accumsan."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:76
+msgid ""
+"Nulla neque nunc, varius eu ex non, vulputate cursus massa. Curabitur "
+"malesuada a ante sit amet ullamcorper. Sed congue dolor et purus consequat, "
+"eu lacinia mi ornare. Aenean in ligula erat. Donec in pulvinar ligula. In ut "
+"libero tempus, placerat nunc quis, faucibus turpis. Suspendisse dictum "
+"ultrices laoreet. Nam id neque auctor nunc dictum molestie. Curabitur eu "
+"erat nisi. Nulla ut efficitur dolor, vitae dapibus turpis. Pellentesque non "
+"convallis nibh. Cras at neque gravida, gravida sapien vitae, ullamcorper "
+"velit."
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><h4>
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:78
+msgid "General"
+msgstr "Genel"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><div><a>
+#: template.html:81
+#, fuzzy
+#| msgid "<a href='images/start-3-full.jpg'>"
+msgid "<a href=\"images/start-3.png\">"
+msgstr "<a href='images/start-3-full.jpg'>"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:84
+msgid ""
+"Integer volutpat tortor sed condimentum condimentum. Praesent eu lorem in "
+"neque auctor ornare. Sed semper maximus semper. Sed in interdum quam. "
+"Integer blandit dolor eget tellus blandit, et feugiat nunc gravida. In "
+"volutpat dui et mi eleifend mattis. Nunc et congue elit, id fermentum nisi. "
+"In quis aliquam mi. Vestibulum vehicula eget erat a maximus."
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><h3>
+#. type: Content of: <html><body><div><div><h3>
+#: template.html:86
+#, fuzzy
+#| msgid "For Content Developers"
+msgid "For Content Creators"
+msgstr "İçerik Geliştiricileri için"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><div><a>
+#: template.html:89
+#, fuzzy
+#| msgid "<a href='images/start-1-full.jpg'>"
+msgid "<a href=\"images/start-6.png\">"
+msgstr "<a href='images/start-1-full.jpg'>"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:92
+msgid ""
+"Mauris non varius odio. Suspendisse odio turpis, eleifend sit amet lorem "
+"congue, suscipit ornare arcu. Integer id arcu massa."
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><h2>
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:96
+msgid "Download"
+msgstr "İndirmeler"
+
+# type: Content of: <html><body><div><div><div><p>
+#. type: Content of: <html><body><div><div><p>
+#: template.html:98
+#, fuzzy
+msgid ""
+"<cite>The Battle for Wesnoth</cite> is made available under the <a href="
+"\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU General Public License</a> "
+"(GNU GPL). The source code is available from <a href=\"https://www.wesnoth."
+"org\">Wesnoth.org</a>, where you can also find instructions for <a href="
+"\"https://wiki.wesnoth.org/CompilingWesnoth\">building from source</a> on a "
+"range of different operating systems. Ready-to-install packages are also "
+"available for most popular operating systems, including Microsoft Windows, "
+"Apple macOS, and GNU/Linux."
+msgstr ""
+"Wesnoth Savaşı artık <a href='http://www.gnu.org/licenses/gpl-2.0.html'>GNU "
+"Genel Halk Lisansı</a> (GPL) altında dağıtılıyor. Kaynak kodu <a href='//www."
+"wesnoth.org/'>wesnoth.org</a>’dan temin edilebilir. Ayrıca kaynak kodunu "
+"farklı platformlarda çalışacak şekilde derlemek için <a href='http://wesnoth."
+"org/wiki/CompilingWesnoth'>derleme yönergeleri</a> de mevcuttur. Linux, "
+"Windows, Mac OS X gibi günümüzün çok bilinen işletim sistemlerinin çoğu için "
+"kullanıma hazır paketler de mevcuttur."
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:103
+#, fuzzy
+msgid ""
+"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
+"wesnoth-1.14.0/wesnoth-1.14.0.tar.bz2/download\"><b>Source code</b></a>"
+msgstr ""
+"<strong> <a href='http://downloads.sourceforge.net/wesnoth/wesnoth-1.6a.tar."
+"bz2?download'>Kaynak paketi</a> </strong>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:104
+#, fuzzy
+msgid ""
+"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
+"wesnoth-1.14.0/wesnoth-1.14.0-win32.exe/download\"><b>Wesnoth for Microsoft "
+"Windows</b></a>"
+msgstr ""
+"<strong> <a href='http://downloads.sourceforge.net/wesnoth/wesnoth-1.6a-"
+"win32.exe?download'>MS Windows için Wesnoth</a> </strong>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:105
+#, fuzzy
+msgid ""
+"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
+"wesnoth-1.14.0/Wesnoth_1.14.0.dmg/download\"><b>Wesnoth for Apple macOS</b></"
+"a>"
+msgstr ""
+"<strong> <a href='http://downloads.sourceforge.net/wesnoth/Wesnoth_1.6a.dmg?"
+"download'>Mac OS X için Wesnoth</a> </strong>"
+
+# type: Content of: <html><body><div><div><div><p>
+#. type: Content of: <html><body><div><div><p>
+#: template.html:108
+#, fuzzy
+msgid ""
+"You can refer to the <a href=\"https://wiki.wesnoth.org/Download\">downloads "
+"page</a> for the latest up-to-date packages and instructions, including "
+"those for other platforms once they become available."
+msgstr ""
+"İndirmelerle ilgili en güncel bilgileri <a href='//www.wesnoth.org/wiki/"
+"Download'>indirmeler sayfasında</a> bulabilirsiniz."
+
+# type: Content of: <html><body><div><div><div><p>
+#. type: Content of: <html><body><div><div><p>
+#: template.html:110
+#, fuzzy
+msgid ""
+"If you downloaded previous versions of the game, you might be interested in "
+"downloading the <a href=\"https://wiki.wesnoth.org/Download_Xdeltas"
+"\">Xdelta</a> files only."
+msgstr ""
+"Eğer elinizde önceki sürüm mevcutsa <a href='//www.wesnoth.org/wiki/"
+"Download_Xdeltas'>xdelta</a> dosyalarını indirmek size ilginç gelebilir."
+
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:114
+msgid "Contribute"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:116
+msgid ""
+"Since its inception in July 2003, <cite>The Battle for Wesnoth</cite> is "
+"constantly being improved and expanded upon by hundreds of international "
+"volunteers from diverse backgrounds. Contributions range from mainline "
+"content shipped as part of the official game releases to hundreds of user-"
+"made projects available to download from our add-ons server, directly from "
+"the title screen. Whether you need help beating a particular scenario or "
+"adding a feature to your custom maps, <cite>Wesnoth</cite> boasts a massive "
+"community of players and creators always willing to help."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:118
+msgid ""
+"Besides creating your own add-on content, there are many other ways you can "
+"help <cite>Wesnoth</cite>:"
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:121
+#, fuzzy
+#| msgid "<a href='http://www.wesnoth.org'>"
+msgid "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
+msgstr "<a href='//www.wesnoth.org'>"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:122
+msgid ""
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">Create</a> art for "
+"the main game or for user-made <a href=\"https://forums.wesnoth.org/"
+"viewforum.php?f=23\">add-ons</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:123
+msgid ""
+"<a href=\"https://wiki.wesnoth.org/WesnothTranslations\">Translate</a> the "
+"game into your language"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:124
+msgid ""
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=14\">Produce</a> new "
+"music tracks and sound effects"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:125
+msgid "Spread the word about <cite>Wesnoth</cite> on the Internet!"
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><h2>
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:130
+msgid "More Info"
+msgstr "Ek Bilgiler"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:133
+#, fuzzy
+msgid ""
+"<a href=\"https://changelog.wesnoth.org/1.14/\">Full Changelog</a> (English "
+"only)"
+msgstr ""
+"<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.6/"
+"changelog'>Değişiklikleri içeren Changelog dosyası</a> (İngilizce ve çok "
+"uzun)"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:134
+#, fuzzy
+msgid ""
+"<a href=\"https://www.wesnoth.org/manual/1.14/manual.en.html\">User’s "
+"Manual</a>"
+msgstr ""
+"<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.6/doc/manual/"
+"manual.tr.html'>Kullanıcı Kılavuzu</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:135
+#, fuzzy
+#| msgid ""
+#| "<a href='http://www.wesnoth.org'>Wesnoth Official Website</a> (English)"
+msgid "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
+msgstr "<a href='//www.wesnoth.org'>Resmi Wesnoth Sitesi</a> (İngilizce)"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:137
+#, fuzzy
+#| msgid ""
+#| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release Notes</a>"
+msgstr ""
+"<a href='//www.wesnoth.org/start/1.4/index.html.tur'>Wesnoth 1.4 Dağıtım "
+"Bilgileri</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:138
+#, fuzzy
+#| msgid ""
+#| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release Notes</a>"
+msgstr ""
+"<a href='//www.wesnoth.org/start/1.4/index.html.tur'>Wesnoth 1.4 Dağıtım "
+"Bilgileri</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:139
+#, fuzzy
+#| msgid ""
+#| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</a>"
+msgstr ""
+"<a href='//www.wesnoth.org/start/1.4/index.html.tur'>Wesnoth 1.4 Dağıtım "
+"Bilgileri</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:140
+#, fuzzy
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</a>"
+msgstr ""
+"<a href='//www.wesnoth.org/start/1.4/index.html.tur'>Wesnoth 1.4 Dağıtım "
+"Bilgileri</a>"
+
+# type: Content of: <html><body><div><div><div><div><p>
+#. type: Content of: <html><body><div><div><p>
+#: template.html:151
+msgid "This page is also available in the following languages:"
+msgstr "Bu sayfa ayrıca şu dillerde de mevcut:"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:155
+msgid ""
+"Copyright &#169; 2003&#8211;2018 by <a href=\"https://wiki.wesnoth.org/"
+"Project\">The Battle for Wesnoth Project</a>."
+msgstr ""
+
+# type: Attribute 'title' of: <html><head><link>
+#~ msgid "Default"
+#~ msgstr "Öntanımlı"
+
+# type: Content of: <html><body><div><div><div><h1>
+#, fuzzy
+#~ msgid "Battle for Wesnoth 1.12 Release Notes"
+#~ msgstr "Wesnoth Savaşı 1.6 Sürümünün Dağıtım Bilgileri"
+
+# type: Content of: <html><body><div><div><div><p>
+#, fuzzy
+#~ msgid ""
+#~ "<em>December 2014</em>. As the year comes to an end, a new stable release "
+#~ "series begins. The development team is proud to release version 1.12 of "
+#~ "<em>The Battle for Wesnoth</em>, a <a href='http://www.gnu.org/philosophy/"
+#~ "philosophy.html'>free</a> and <a href='http://www.opensource.org/'>open "
+#~ "source</a> turn-based tactical strategy game with a high fantasy theme "
+#~ "and role-playing elements. The game is available for Microsoft Windows, "
+#~ "Apple OS X, and various GNU/Linux distributions."
+#~ msgstr ""
+#~ "<em>22 Mart 2009</em>. Yeni bir Wesnoth kararlı sürümünü daha dağıtmanın "
+#~ "vakti geldi. Wesnoth Savaşı ekibi sırayla oynanan, fantastik temalı, rol "
+#~ "paylaşım öğeleri ile bezenmiş <a href='http://www.gnu.org/philosophy/"
+#~ "philosophy.html'>özgür</a> bir oyun olan <em>Wesnoth Savaşı</em>’nın 1.6 "
+#~ "sürümünü iftiharla sunar. Oyun Windows, Mac OS X ve çeşitli GNU/Linux "
+#~ "dağıtımları için  <a href='#download'>indirilmeye hazır</a>."
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#, fuzzy
+#~ msgid "<a href='#game'>What’s New in Wesnoth 1.12</a>"
+#~ msgstr "<a href='#game'>Wesnoth'un 1.6 Sürümündeki Yenilikler</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li><ul><li>
+#~ msgid "<a href='#players'>For Players</a>"
+#~ msgstr "<a href='#players'>Oyuncular için</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li><ul><li>
+#~ msgid "<a href='#campaigns'>Campaigns</a>"
+#~ msgstr "<a href='#campaigns'>Seferberlikler</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li><ul><li>
+#~ msgid "<a href='#multiplayer'>Multiplayer</a>"
+#~ msgstr "<a href='#multiplayer'>Çok Oyunculu</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#~ msgid "<a href='#general'>General</a>"
+#~ msgstr "<a href='#general'>Genel</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li><ul><li>
+#, fuzzy
+#~| msgid "<a href='#campdev'>For Campaign Developers</a>"
+#~ msgid "<a href='#campdev'>For Content Developers</a>"
+#~ msgstr "<a href='#campdev'>Seferberlik Geliştiricileri için</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#~ msgid "<a href='#more'>More Info</a>"
+#~ msgstr "<a href='#more'>Ek Bilgiler</a>"
+
+# type: Content of: <html><body><div><div><div>
+#~ msgid "<br/>"
+#~ msgstr "<br/>"
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "We have many new features for your enjoyment this time around, including "
+#~ "a new mainline campaign, two new multiplayer scenarios and another "
+#~ "refresh of the user interface."
+#~ msgstr ""
+#~ "Bu yeni sürüm, oyunun zevkini daha iyi çıkarabilesiniz diye, yeni bir "
+#~ "seferberlik, iki yeni çok oyunculu senaryo, yenilenmiş bir kullanıcı "
+#~ "arayüzü ve bir çok başka yenilikler içeriyor."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "There is a new mainline campaign, <em>The Legend of Wesmere</em>, with "
+#~ "new gameplay features including (in one scenario) the ability to use the "
+#~ "game AI as your commander for an allied side, setting its objectives as "
+#~ "you like. Search for this hidden feature by right-clicking on your allied "
+#~ "commanders during scenario 7.  This campaign was imported from the <a "
+#~ "href=\"http://www.wesnoth.org/forum/viewtopic.php?f=8&amp;"
+#~ "t=21413\">Wesnoth-UMC-Dev project</a>, where it spent a few months being "
+#~ "adapted for mainline."
+#~ msgstr ""
+#~ "Yerleşik olarak dağıtılan seferberliklere <em>Vesmer Destanı</em> adında "
+#~ "bir yenisini ekledik. Bu seferberlikte diğerlerinden farklı olarak bir "
+#~ "senaryoda, müttefik tarafın komutanı olarak saldırı arabirimine "
+#~ "senaryonun amaçlarına uygun olarak oyuncu emir verebiliyor. Bu gizli "
+#~ "özelliği kullanmak için 7. senaryoda müttefik komutanın üzerine sağ "
+#~ "tıklayın. Bu seferberlik, bu sürümün yerleşik seferberliklerinden biri "
+#~ "olmasına karar verilmeden önce,<a href=\"http://www.wesnoth.org/forum/"
+#~ "viewtopic.php?f=8&amp;t=21413\">Wesnoth-UMC-Dev projesinin</a> bir "
+#~ "parçasıydı. Bir kaç haftalık bir çalışma sonucunda onu da bu sürüme dahil "
+#~ "edebildik."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "Almost all mainline campaigns now use a different method of carrying over "
+#~ "gold from scenario to scenario: the amount of gold retained is now 40% "
+#~ "instead of 80%, but it is added to the minimum starting gold of the next "
+#~ "scenario instead of only replacing it if higher."
+#~ msgstr ""
+#~ "Artık tüm seferberliklerde aksi belirtilmedikçe, bir senaryodan artan "
+#~ "altının %80'i değil %40'ı bir sonraki senaryoya aktarılıyor. Sonraki "
+#~ "senaryonun asgari başlangıç altını bu miktardan düşük veya yüksek "
+#~ "olabilir. Bu durumda hangisi yüksekse yeni senaryonun başlangıç altını o "
+#~ "oluyor."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "Many mainline campaigns have improved storyline prose and new cutscenes "
+#~ "or epilogs.  Several have improved and redrawn campaign maps. All now "
+#~ "have dates in the Wesnoth history timeline, and almost all have journey "
+#~ "animations on their campaign maps.  The history and geography of Wesnoth "
+#~ "have been developed in more depth and detail: More campaigns now include "
+#~ "references to events in the overall history, adding depth and richness to "
+#~ "the narration."
+#~ msgstr ""
+#~ "Ana seferberliklerin çoğunun hikayeleri yeni hikaye anlatımları, yeni "
+#~ "konuşmalar ve sonsözler eklenerek geliştirildi. Artık hepsinin Wesnoth "
+#~ "kronolojisi içinde geçerli tarihleri ve hemen hepsinin seferberlik "
+#~ "haritalarında yolculuk canlandırmaları var. Wesnoth tarihi ve coğrafyası "
+#~ "daha derin ayrıntılara girilerek geliştirildi: Çoğu seferberlikte olaylar "
+#~ "anlatıma derinlik ve zenginlik katmak için Wesnoth kronolojisiyle "
+#~ "ilişkilendirildi."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "The multiplayer server can now be logged onto using the username and "
+#~ "password of a Wesnoth forum account.  However, registration is not "
+#~ "required and one can continue to use an unregistered username."
+#~ msgstr ""
+#~ "Çok oyunculu oyun sunucusuna artık Wesnoth forum kullanıcı ismi ve "
+#~ "parolası ile oturum açılabiliyor. Ancak oyuncuların illaki Wesnoth forum "
+#~ "üyesi olmaları gerekli değil. Kayıtlı olmayan kullanıcı isimleri için "
+#~ "parola gerekli değil."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "The multiplayer lobby has been improved to allow easier management of the "
+#~ "friends and ignores list by double-clicking on the player list."
+#~ msgstr ""
+#~ "Çok oyunculu oyun sunucusunun giriş salonu, oyuncu listesine çift "
+#~ "tıklamak suretiyle arkadaşların ve yok sayılanların yönetimini "
+#~ "kolaylaştıracak şekilde geliştirildi."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid "Notable changes to default era balancing include:"
+#~ msgstr "Öntanımlı çağ dengelemesinde göze çarpan değişiklikler:"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#~ msgid "Increased the cost of the Goblin Spearman from 8 to 9."
+#~ msgstr "Goblin Mızrakçı'nın ücreti 8 altından 9 altına yükseltildi."
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#~ msgid "Increased the movement of the Goblin Spearman line from 4 to 5."
+#~ msgstr "Goblin Mızrakçı'nın hareket alanı 4 birimden 5 birime yükseltildi."
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#~ msgid "Increased the melee attack of the Goblin Spearman from 4-3 to 6-3."
+#~ msgstr "Goblin Mızrakçı'nın yakın saldırısı 4-3'ten 6-3'e yükseltildi."
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#~ msgid ""
+#~ "Added the traits weak, slow and dim and made goblins each receive one of "
+#~ "them instead of two standard traits."
+#~ msgstr ""
+#~ "Zayıf, yavaş ve karartma mizaçları eklendi ve goblinlerin bir yerine iki "
+#~ "standart mizaç almaları sağlandı."
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#~ msgid ""
+#~ "Added the marksman special to the ranged attack of the Orcish Assassin "
+#~ "line."
+#~ msgstr "Ork Suikastçisinin menzilli saldırısına nişancı özelliği eklendi."
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#~ msgid "Increased the cost of the Walking Corpse from 7 to 8."
+#~ msgstr "Yürüyen Ceset'in ücreti 7 altından 8 altına yükseltildi."
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#~ msgid "Decreased the cost of the Bowman from 15 to 14."
+#~ msgstr "Okçu'nun ücreti 15 altından 14 altına indirildi."
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#~ msgid "Decreased the melee attack of the Bowman from 6-2 to 4-2."
+#~ msgstr "Okçu'nun yakın saldırısı 6-2'ten 4-2'e indirildi."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "The game graphics have been improved with a whole new range of unit "
+#~ "portraits.  Many more units have full animations and team coloring."
+#~ msgstr ""
+#~ "Birim portrelerinin büyük çoğunluğu geliştirildi. Çoğu birim artık takım "
+#~ "renklerine sahip ve hemen her aşamada gerektiği gibi canlandırılıyorlar."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "There is a new basic terrain type, coastal reef, which gives most land-"
+#~ "based units slightly higher defense than in regular shallow water, and "
+#~ "70% defense to most water-based units such as mermen and nagas.  Forests "
+#~ "get more variety with graphics for spring/summer, fall and winter "
+#~ "deciduous forest terrains.  There are new village graphics for human "
+#~ "cities and primitive tribal areas."
+#~ msgstr ""
+#~ "Yeni bir temel arazi tipi var, kayalık sahil. Karacı birimlere sığ sulara "
+#~ "göre biraz daha yüksek savunma imkanı sağlıyor. Su insanları ve Nagalar "
+#~ "gibi bazı denizci birimlere ise %70'lik bir savunma sağlıyor. Ormanların "
+#~ "görüntüsü yaz, kış, güz, bahar gibi mevsim değişikliklerine uygun şekilde "
+#~ "değiştiriliyor. Ayrıca, insan şehirleri ve ilkel yaşam alanları için yeni "
+#~ "köy resimleri eklendi."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "Our composers have added five new original background tracks: <em>Heroes' "
+#~ "Rite</em>, <em>Siege of Laurelmor</em>, <em>Suspense</em>, <em>The "
+#~ "Dangerous Symphony</em> and <em>The Deep Path</em>. Also, the game now "
+#~ "plays special music clips for victory and defeat events."
+#~ msgstr ""
+#~ "Bestecilerimiz dört yeni artalan müziği ekledi: <em>Heroes' Rite</em>, "
+#~ "<em>The Dangerous Symphony</em>, <em>Suspense</em> ve <em>The Deep Path</"
+#~ "em>. Ayrıca, zafer ve yenilgi durumlarına uygun özel müzik parçaları "
+#~ "çalınıyor."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "The game interface has continued to evolve, especially in making more "
+#~ "dramatic use of portraits.  Unit recall dialogs now display useful "
+#~ "information about your veterans' traits.  Add-ons now display their "
+#~ "category when you browse them on the download server."
+#~ msgstr ""
+#~ "Oyun arayüzü, özellikle portreler daha dramatik hale getirilerek "
+#~ "geliştirilmeye devam edildi. Askere çağırma diyaloglarında artık "
+#~ "gazilerinizin özellikleri ile ilgili yararlı bilgiler gösteriliyor. "
+#~ "Eklenti indirme menüsünde ise artık eklentilerin türleri de gösteriliyor."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "New game translations include Arabic, Croatian, Friulian, Latvian, "
+#~ "Macedonian and Marathi.  Existing translations have been extensively "
+#~ "updated and revised."
+#~ msgstr ""
+#~ "Oyun, Arapça, Hırvatça, Frulyanca, Letonca, Makedon ve Marathi dillerine "
+#~ "de çevrildi. Mevcut çeviriler büyük oranda güncellendi ve düzeltildi."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "The map editor was much improved (thank you, Google Summer of Code).  It "
+#~ "can be started from within the game now.  You can toggle overlay displays "
+#~ "of terrain codes and map coordinates while editing. The editor can handle "
+#~ "multiple maps in a session, and you can take screenshots of full maps.  "
+#~ "There's also a new interactive editing tool for animated journey tracks."
+#~ msgstr ""
+#~ "Harita düzenleyici daha da geliştirildi (Google Summer of Code'a "
+#~ "teşekkürler). Artık oyun içinden başlatılabiliyor. Arazi kodlarının ve "
+#~ "harita koordinatlarının gösterimi açılıp kapatılabiliyor. Düzenleyici "
+#~ "aynı oturum içinde birden fazla harita düzenlemeye imkan verdiği gibi "
+#~ "haritanın tamamının ekrar görüntüsü alınabiliyor. Ayrıca yolculuğu "
+#~ "hareketlendirmek için yeni etkileşimli düzenleme araçları eklendi."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "There are some new core units available everywhere: Troll Shaman, Royal "
+#~ "Warrior and Dread Bat."
+#~ msgstr ""
+#~ "Bazı yeni temel birimler var: Trol Şaman, Asil Savaşçı ve Dev Yarasa."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "Less visible changes include improvements in the game AI, including a new "
+#~ "formula-based AI that allows more flexible setting of objectives and an "
+#~ "improved pathfinding algorithm.  As usual, WML has grown more powerful "
+#~ "with many new tags and attributes to extend the range of what campaign "
+#~ "authors can do.  The GUI engine is under heavy development; these changes "
+#~ "will allow the entire GUI to be configured from WML.  The first steps "
+#~ "have been made, but the project is not finished yet and will continue in "
+#~ "the 1.7 development cycle."
+#~ msgstr ""
+#~ "Oyun saldırı arabiriminde ilk bakışta farkedilmeyen bazı iyileştirmeler "
+#~ "yapıldı; geliştirilmiş bir yol bulma algoritması ve amaçların daha esnek "
+#~ "olarak ayarlanabilmesi için yeni bir formüle dayalı saldırı arabirimi "
+#~ "birimi bunlardan sadece bir kaçı. Doğal olarak, seferberlik yazarlarının "
+#~ "yapabilecekleri şeyleri genişleten yeni etiketler ve özniteliklerle WML "
+#~ "daha da güçlü duruma getirildi. Çizgesel kullanıcı arabiriminin motoru "
+#~ "epeyce geliştirildi; bu değişiklikler sayesinde arabirimin tamamı WML "
+#~ "içinden yapılandırılabiliyor. İlk adımlar atıldı fakat proje henüz "
+#~ "bitmedi, 1.7 sürümünde geliştirilmesine devam edilecek."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "The support for writing Python AIs has been removed because the feature "
+#~ "opened a serious security hole. However, we hope to build an even more "
+#~ "powerful AI-scripting feature, possibly using a different and safer "
+#~ "extension language, in 1.7."
+#~ msgstr ""
+#~ "Python Saldırı Arabirimleri (AI) bir takım güvenlik açıklarına sebep "
+#~ "olması nedeniyle artık desteklenmiyor. Ancak, muhtemelen daha farklı ve "
+#~ "güvenli bir betik yazma dili kullanarak 1.7 sürümünde daha güçlü bir "
+#~ "saldırı arabirimi yazım özelliğini devreye sokabileceğiz."
