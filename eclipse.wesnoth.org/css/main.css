@@ -1,0 +1,47 @@
+/*
+ * Copyright (C) 2018 by Charles Dang.
+ * Part of the Battle for Wesnoth project.
+ */
+
+#decor {
+	margin-left: 0.9em; /* wesmere measurement-sub */
+}
+
+#news td:first-child {
+	font-weight: bold;
+}
+
+#manuals a,
+#download-section li div:first-child {
+	font-size: large;
+}
+
+#download-section li:first-child {
+	margin-bottom: calc(1em * 1.7 / 2); /* wesmere measurement-paragraph-spacing */
+}
+
+.download-entry {
+	background-color: #e7d9c0; /* wesmere glamdrol-darkbg */
+	border-radius: 10px;
+	font-size: larger;
+	margin-bottom: 20px;
+}
+
+.downloadicon {
+	margin: 10px; /* Add extra margins. */
+}
+
+.download-links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.download-links a,
+.download-links span {
+	text-align: left;
+	width: 100%;
+}
+
+.os-label {
+	font-size: larger;
+}
