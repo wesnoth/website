@@ -13,18 +13,18 @@
 
 #manuals a,
 #download-section li div:first-child {
-	font-size: large;
+	font-size: 1.3em;
 }
 
 #download-section li:first-child {
-	margin-bottom: calc(1em * 1.7 / 2); /* wesmere measurement-paragraph-spacing */
+	margin-bottom: 0.85em; /* wesmere $measurement-paragraph-spacing */
 }
 
 .download-entry {
-	background-color: #e7d9c0; /* wesmere glamdrol-darkbg */
+	background: #e7d9c0; /* wesmere $glamdrol-darkbg */
 	border-radius: 10px;
-	font-size: larger;
-	margin-bottom: 20px;
+	font-size: 1.2em;
+	margin-bottom: 1.3em;
 }
 
 .downloadicon {
@@ -43,5 +43,5 @@
 }
 
 .os-label {
-	font-size: larger;
+	font-size: 1.2em;
 }
