@@ -19,6 +19,8 @@ $existing_extra_packs_b = $addon_packages_branch;
 
 $stats = [];
 
+$main_total = 0;
+
 $nostats = true;
 
 $last_update_timestamp = 0;
@@ -58,17 +60,17 @@ $order = (!isset($_GET['order']) || $_GET['order'] != 'alpha')
 
 function cmp_translated($a, $b)
 {
-	if ($a[1] == $b[1])
+	if ($a['translated'] == $b['translated'])
 	{
-		if ($a[2] == $b[2])
+		if ($a['fuzzy'] == $b['fuzzy'])
 		{
 			return 0;
 		}
 
-		return ($a[2] < $b[2]) ? 1 : -1;
+		return ($a['fuzzy'] < $b['fuzzy']) ? 1 : -1;
 	}
 
-	return ($a[1] < $b[1]) ? 1 : -1;
+	return ($a['translated'] < $b['translated']) ? 1 : -1;
 }
 
 function cmp_alpha($a, $b)
@@ -137,7 +139,7 @@ switch ($view)
 		if (!$nostats)
 		{
 			// get total number of strings
-			$main_total = $stats['_pot'][1] + $stats['_pot'][2] + $stats['_pot'][3];
+			$main_total = $stats['_pot']['total'];
 			unset($stats['_pot']);
 
 			if ($order == 'trans')
@@ -196,16 +198,11 @@ switch ($view)
 					continue;
 				}
 
-				$stat = $tmpstats[$lang];
-				$stats[] = [
-					$stat[0],	// errors
-					$stat[1],	// translated
-					$stat[2],	// fuzzy
-					$stat[3],	// untranslated
-					$pack,		// textdomain name
-					$tmpstats['_pot'][1] + $tmpstats['_pot'][2] + $tmpstats['_pot'][3],
-					$official,	// is official
-				];
+				$stats[] = array_merge($tmpstats[$lang], [
+					'textdomain' => $pack,
+					'official'   => $official,
+					'pot_total'  => $tmpstats['_pot']['total']
+				]);
 			}
 		}
 
@@ -403,7 +400,7 @@ if (!$nostats)
 		{
 			$i = 0;
 			$pos = 1;
-			$oldstat = [ 0, 0, 0 ];
+			$oldstat = make_stats_array();
 
 			// This offset is based on the language/textdomain name column, not the
 			// actual first column.
@@ -420,8 +417,6 @@ if (!$nostats)
 
 			foreach ($stats as $lang => $stat)
 			{
-				$total = $stat[1] + $stat[2] + $stat[3];
-
 				if (cmp_translated($stat, $oldstat) != 0)
 				{
 					$pos = $i + 1;
@@ -459,13 +454,13 @@ if (!$nostats)
 				}
 				?></td><?php
 
-				if (($stat[0] == 1) || ($total == 0))
+				if ($stat['error'] || ($stat['total'] == 0))
 				{
-					?><td class="invalidstats" colspan="0">Error in <?php echo $langs[$lang] . "(<code>$lang</code>)" ?> translation files</td><?php
+					?><td class="invalidstats" colspan="<?php echo ui_column_headers_count() ?>">Error in <?php echo $langs[$lang] . "(<code>$lang</code>)" ?> translation files</td><?php
 				}
 				else
 				{
-					ui_stat_columns($main_total, $stat[1], $stat[2]);
+					ui_stat_columns($main_total, $stat['translated'], $stat['fuzzy']);
 				}
 
 				?></tr><?php
@@ -511,20 +506,17 @@ if (!$nostats)
 		}
 		else // $view === 'langs'
 		{
-			$sumstat = [ 0, 0, 0, 0, 0, 0 ];
+			$sumstat = make_stats_array();
 			$official = true;
 
 			foreach ($stats as $stat)
 			{
+				$textdomain = $stat['textdomain'];
+
 				$oldofficial = $official;
-				$official = $stat[6];
+				$official = $stat['official'];
 
-				$sumstat[1] += $stat[1];
-				$sumstat[2] += $stat[2];
-				$sumstat[3] += $stat[3];
-				$sumstat[5] += $stat[5];
-
-				$total = $stat[1] + $stat[2] + $stat[3];
+				increment_catalogue_stats($sumstat, $stat);
 
 				if ($oldofficial != $official)
 				{
@@ -536,31 +528,31 @@ if (!$nostats)
 						if ($official)
 						{
 							$repo = ($version == 'master') ? 'master' : $branch;
-							$label = $stat[4];
+							$label = $textdomain;
 
-							if (is_core_textdomain($stat[4]))
+							if (is_core_textdomain($textdomain))
 							{
 								$label .= '*';
 							}
 
-							ui_mainline_catalog_link($repo, $stat[4], $lang, $label);
+							ui_mainline_catalog_link($repo, $textdomain, $lang, $label);
 						}
 						else
 						{
-							$packname = getpackage($stat[4]);
+							$packname = getpackage($textdomain);
 							$repo = ($version == 'master') ? $wescamp_version_dev : $wescamp_version_branch;
 							$reponame = "$packname-$repo";
-							ui_addon_catalog_link($reponame, $package, $lang, $stat[4]);
+							ui_addon_catalog_link($reponame, $package, $lang, $textdomain);
 						}
 					?></td><?php
 
-					if (($stat[0] == 1) || ($total == 0) || ($stat[5] == 0))
+					if ($stat['error'] || $stat['total'] == 0 || $stat['pot_total'] == 0)
 					{
 						?><td class="invalidstats" colspan="8">Could not read translation file</td><?php
 					}
 					else
 					{
-						ui_stat_columns($total, $stat[1], $stat[2]);
+						ui_stat_columns($stat['total'], $stat['translated'], $stat['fuzzy']);
 					}
 
 				?></tr><?php
@@ -569,13 +561,13 @@ if (!$nostats)
 			<tfoot>
 				<tr class="teamstats">
 					<th class="title" scope="row">Total</th>
-					<td class="translated"><?php echo $sumstat[1] ?></td>
+					<td class="translated"><?php echo $sumstat['translated'] ?></td>
 					<td></td>
-					<td class="fuzzy"><?php echo $sumstat[2] ?></td>
+					<td class="fuzzy"><?php echo $sumstat['fuzzy'] ?></td>
 					<td></td>
-					<td class="untranslated"><?php echo $sumstat[3] ?></td>
+					<td class="untranslated"><?php echo $sumstat['untranslated'] ?></td>
 					<td></td>
-					<td class="strcount"><?php echo $sumstat[5] ?></td>
+					<td class="strcount"><?php echo $sumstat['total'] ?></td>
 					<td></td>
 				</tr>
 			</tfoot><?php

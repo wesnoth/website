@@ -192,6 +192,14 @@ function ui_column_headers()
 }
 
 /**
+ * Returns the number of statistics headers displayed by ui_column_headers().
+ */
+function ui_column_headers_count()
+{
+	return 8;
+}
+
+/**
  * Prints the statistics columns HTML.
  *
  * @param $strcount   (int) String count for this row.

@@ -54,15 +54,28 @@ function update($basedir, $lang, $package)
 	@exec('msgmerge --update ' . $pofile . ' ' . $potfile);
 }
 
+$stat_fields = [ 'error', 'translated', 'fuzzy', 'untranslated', 'total' ];
+
+function make_stats_array($error = 0)
+{
+	global $stat_fields;
+
+	$res = array_fill_keys($stat_fields, 0);
+	$res['error'] = $error;
+
+	return $res;
+}
+
 /**
- * Get statistics from a .po file by running msgfmt on it.
+ * Get language statistics from a .po file by running msgfmt on it.
  *
- * The return value is a 0-indexed array containing the following values:
+ * The return value is an array containing the following entries:
  *
- *   [0] - 0 if msgfmt succeeded, 1 if it failed.
- *   [1] - The fully translated strings count.
- *   [2] - The fuzzied strings count.
- *   [3] - The untranslated strings count.
+ *   'error'        - 0 if msgfmt succeeded, 1 if it failed
+ *   'translated'   - Translated strings count (not including fuzzies)
+ *   'fuzzy'        - Fuzzy strings count
+ *   'untranslated' - Untranslated strings count
+ *   'total'        - Total string count (translated + fuzzy + untranslated)
  */
 function getstats($file)
 {
@@ -98,19 +111,25 @@ function getstats($file)
 		}
 		else
 		{
-			return [ 1, 0, 0, 0 ];
+			return make_stats_array(1);
 		}
 
-		$translated = $m[1] + 0;
-		$fuzzy = $m[2] + 0;
-		$untranslated = $m[3] + 0;
+		$translated =   0 + $m[1];
+		$fuzzy =        0 + $m[2];
+		$untranslated = 0 + $m[3];
 	}
 	else
 	{
 		$error = 1;
 	}
 
-	return [ $error, $translated, $fuzzy, $untranslated ];
+	return [
+		'error'        => $error,
+		'translated'   => $translated,
+		'fuzzy'        => $fuzzy,
+		'untranslated' => $untranslated,
+		'total'        => $translated + $fuzzy + $untranslated,
+	];
 }
 
 /**
@@ -138,19 +157,30 @@ function parameter_get($name)
 }
 
 /**
- * Adds the textdomain stats from the specified file to the count array.
+ * Adds catalogue stats to an overall stats array.
+ *
+ * As with the return value of getstats(), &$overall_stats consists of an array
+ * containing the fields described therein (any additional fields are ignored
+ * and left intact).
+ */
+function increment_catalogue_stats(&$overall_stats, $catalogue_stats)
+{
+	global $stat_fields;
+	foreach($stat_fields as $k)
+	{
+		$overall_stats[$k] += $catalogue_stats[$k];
+	}
+}
+
+/**
+ * Adds the textdomain stats for all languages recorded in the specified file.
  *
  * @param $file       (string) Textdomain stats file.
  * @param &$stats_ary (array)  Cumulative stats array.
  *
- * As with the return value of getstats(), &$stats_ary consists of a 0-indexed
- * array containing at least the following fields (any additional fields are
- * ignored and left intact):
- *
- *   [0] - The failed files count.
- *   [1] - The fully translated strings count.
- *   [2] - The fuzzied strings count.
- *   [3] - The untranslated strings count.
+ * As with the return value of getstats(), &$stats_ary consists of an array
+ * containing the fields described therein (any additional fields are ignored
+ * and left intact).
  */
 function add_textdomain_stats($file, &$stats_ary)
 {
@@ -165,12 +195,9 @@ function add_textdomain_stats($file, &$stats_ary)
 	{
 		if (!isset($stats_ary[$lang]))
 		{
-			$stats_ary[$lang] = [ 0, 0, 0, 0 ];
+			$stats_ary[$lang] = make_stats_array();
 		}
 
-		for ($i = 0; $i < 4; ++$i)
-		{
-			$stats_ary[$lang][$i] += $lang_stats[$i];
-		}
+		increment_catalogue_stats($stats_ary[$lang], $lang_stats);
 	}
 }
