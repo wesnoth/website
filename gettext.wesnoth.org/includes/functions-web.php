@@ -138,7 +138,7 @@ function ui_catalog_link_internal($textdomain, $lang, &$lang_label, &$show_lang_
 
 		if ($lang_label === null)
 		{
-			$lang_label = "&lt;unspecified language <code>$lang</code>&lt;";
+			$lang_label = "&lt;unspecified language <code>$lang</code>&gt;";
 			$show_lang_code = false;
 		}
 	}
