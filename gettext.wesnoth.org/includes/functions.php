@@ -85,51 +85,45 @@ function getstats($file)
 	$untranslated = 0;
 	$fuzzy = 0;
 	$error = 0;
+	$total = 0;
 
 	$escfile = escapeshellarg($file);
 	@exec("$msgfmt -o /dev/null --statistics $escfile 2>&1", $output, $ret);
 
 	if ($ret == 0)
 	{
-		// new version of msgfmt make life harder :-/
-		if (preg_match("/^\s*(\d+)\s*translated[^\d]+(\d+)\s*fuzzy[^\d]+(\d+)\s*untranslated/", $output[0], $m))
+		if (preg_match('/(\d+)\s*translated/', $output[0], $m))
 		{
-			$m[3] = 0;
-		}
-		else if (preg_match("/^\s*(\d+)\s*translated[^\d]+(\d+)\s*fuzzy[^\d]/", $output[0], $m))
-		{
-			$m[3] = 0;
-		}
-		else if (preg_match("/^\s*(\d+)\s*translated[^\d]+(\d+)\s*untranslated[^\d]/", $output[0], $m))
-		{
-			$m[3] = $m[2];
-			$m[2] = 0;
-		}
-		else if (preg_match("/^\s*(\d+)\s*translated[^\d]+/", $output[0], $m))
-		{
-			$m[2] = $m[3] = 0;
-		}
-		else
-		{
-			return make_stats_array(1);
+			$translated += $m[1];
 		}
 
-		$translated =   0 + $m[1];
-		$fuzzy =        0 + $m[2];
-		$untranslated = 0 + $m[3];
+		if (preg_match('/(\d+)\s*fuzzy/', $output[0], $m))
+		{
+			$fuzzy += $m[1];
+		}
+
+		if (preg_match('/(\d+)\s*untranslated/', $output[0], $m))
+		{
+			$untranslated += $m[1];
+		}
+
+		$total = $translated + $untranslated + $fuzzy;
 	}
-	else
+
+	if ($total == 0)
 	{
 		$error = 1;
 	}
 
-	return [
+	$res = [
 		'error'        => $error,
 		'translated'   => $translated,
 		'fuzzy'        => $fuzzy,
 		'untranslated' => $untranslated,
-		'total'        => $translated + $fuzzy + $untranslated,
+		'total'        => $total,
 	];
+
+	return $res;
 }
 
 /**
