@@ -115,15 +115,13 @@ function getstats($file)
 		$error = 1;
 	}
 
-	$res = [
+	return [
 		'error'        => $error,
 		'translated'   => $translated,
 		'fuzzy'        => $fuzzy,
 		'untranslated' => $untranslated,
 		'total'        => $total,
 	];
-
-	return $res;
 }
 
 /**
