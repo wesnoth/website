@@ -26,9 +26,14 @@ if [ "$USE_WESCAMP" -ne 0 ]; then
 		echo "starting wescamp.py for 1.10 at `date`" >> $LOG_FILE
 		./data/tools/wesnoth/wescamp.py -s$CAMPAIGND_HOST -p15002 -w$WESCAMP_BASE/branch-1.10 -C -G$GITHUB_AUTH >> $LOG_FILE
 		echo "wescamp.py 1.10 exited with exit code $? at `date`" >> $LOG_FILE
+
 		echo "starting wescamp.py for 1.12 at `date`" >> $LOG_FILE
 		./data/tools/wesnoth/wescamp.py -s$CAMPAIGND_HOST -p15006 -w$WESCAMP_BASE/branch-1.12 -C -G$GITHUB_AUTH >> $LOG_FILE
 		echo "wescamp.py 1.12 exited with exit code $? at `date`" >> $LOG_FILE
+
+		echo "starting wescamp.py for 1.14 at `date`" >> $LOG_FILE
+		./data/tools/wesnoth/wescamp.py -s$CAMPAIGND_HOST -p15014 -w$WESCAMP_BASE/branch-1.14 -C -G$GITHUB_AUTH >> $LOG_FILE
+		echo "wescamp.py 1.14 exited with exit code $? at `date`" >> $LOG_FILE
 	else
 		echo "Wescamp-i18n task disabled, no GitHub auth info found in $GITHUB_AUTH_FILE" >> $LOG_FILE
 	fi
