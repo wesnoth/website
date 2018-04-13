@@ -1,0 +1,17 @@
+/*
+ * codename Lintanir - Wesnoth 1.14 Release Notes CSS supplement for Wesmere
+ * Copyright (C) 2018 by Iris Morelle <shadowm@wesnoth.org>
+ *
+ * See LICENSE for usage terms.
+ */
+
+@font-face {
+	font-family: 'Oldania ASD';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Oldania ASD'),
+	     url('../fonts/oldaniaadfstd-regular-webfont.woff2') format('woff2'),
+	     url('../fonts/oldaniaadfstd-regular-webfont.woff') format('woff'),
+	     url('../fonts/oldaniaadfstd-regular.otf') format('opentype'),
+	     url('../fonts/oldaniaadfstd-regular-webfont.ttf') format('truetype');
+}

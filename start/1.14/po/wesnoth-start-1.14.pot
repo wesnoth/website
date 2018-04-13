@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-02-24 23:57-0300\n"
+"POT-Creation-Date: 2018-04-13 05:12-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,59 +22,59 @@ msgid "en"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h1>
-#: template.html:13 template.html:28
+#: template.html:15 template.html:29
 msgid "The Battle for Wesnoth 1.14"
 msgstr ""
 
-#. type: Content of: <html><body><div><div><a>
-#: template.html:24
-msgid "<a href=\"//www.wesnoth.org\">"
-msgstr ""
-
-#. type: Attribute 'alt' of: <html><body><div><div><a><img>
-#: template.html:24
-msgid "Wesnoth Logo"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div><div>
-#: template.html:24 template.html:50 template.html:55 template.html:63 template.html:71 template.html:81 template.html:89
-msgid "</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><p>
-#: template.html:30
-msgid "<i>TBD 2018.</i> TODO SHORT INTRO TEXT HERE TODO"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><p>
-#: template.html:31
+#. type: Content of: <html><body><div><div>
+#: template.html:27
 msgid ""
-"The development team is proud to present version 1.14 of "
-"<cite>The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</cite>!"
+"<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span "
+"aria-hidden=\"true\"></span></a>"
 msgstr ""
 
-#. type: Content of: <html><body><div><div><p>
+#. type: Content of: <html><body><div><div><h1>
+#: template.html:29
+msgid "<span id=\"branding-sub\">New Horizons Update</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
 #: template.html:32
 msgid ""
-"This new series bring forth a vast number of additions, changes, and "
-"improvements in all areas, including a new single-player campaign, a new and "
-"more powerful multiplayer lobby, a refreshed add-ons manager, a refurbished "
-"game display engine, new unit graphics and animations, and much more. Try "
-"out the new features for yourself, or read on for more details..."
+"<i>May 2018.</i> The development team is proud to present version 1.14 of "
+"<cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:34
+msgid ""
+"Along with the long-awaited debut on Steam, this new release series brings "
+"forth a vast number of additions and changes in all areas: a new "
+"single-player campaign, a visual and functional refresh of the multiplayer "
+"lobby and add-ons manager, a refurbished display engine, new unit graphics "
+"and animations, and much more. Try out the new features for yourself, or <a "
+"href=\"#game\">read on</a> for more details..."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
-#: template.html:35
-msgid "<a id=\"download-button\" href=\"#download\">Download Now!</a>"
+#: template.html:38
+msgid ""
+"<a class=\"download-button\" role=\"button\" href=\"#download\"> <span "
+"class=\"download-arrow\" aria-hidden=\"true\"></span> <span "
+"class=\"download-text\"> <span class=\"download-big\">Download Now!</span> "
+"</span> </a> <a class=\"steam-button\" role=\"button\" href=\"#\"> <span "
+"class=\"download-text\"> <span class=\"steam-icon\" "
+"aria-hidden=\"true\"></span> <span class=\"download-big\">Get on "
+"Steam!</span> </span> </a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
-#: template.html:46
-msgid "What’s New in Wesnoth 1.14"
+#: template.html:58
+msgid "What’s New in This Update"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:48
+#: template.html:60
 msgid ""
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor tellus a "
 "fermentum viverra. Sed vulputate lectus non pharetra accumsan. Integer quis "
@@ -84,32 +84,37 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><a>
-#: template.html:50
+#: template.html:62
 msgid "<a href=\"images/start-1.png\">"
 msgstr ""
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
-#: template.html:50
+#: template.html:62
 msgid "Title Screen"
 msgstr ""
 
+#. type: Content of: <html><body><div><div><div><div>
+#: template.html:62 template.html:67 template.html:75 template.html:83 template.html:93 template.html:101
+msgid "</a>"
+msgstr ""
+
 #. type: Content of: <html><body><div><div><h3>
-#: template.html:52
+#: template.html:64
 msgid "For Players"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><a>
-#: template.html:55
+#: template.html:67
 msgid "<a href=\"images/start-2.png\">"
 msgstr ""
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><div><a><img>
-#: template.html:55 template.html:63 template.html:71 template.html:81 template.html:89
+#: template.html:67 template.html:75 template.html:83 template.html:93 template.html:101
 msgid "Wesnoth Screenshot"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:58
+#: template.html:70
 msgid ""
 "Aliquam sagittis velit vel mi convallis, a congue arcu dapibus. Quisque "
 "placerat suscipit lacus, eu congue purus placerat nec. Aliquam hendrerit "
@@ -121,17 +126,17 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h4>
-#: template.html:60
+#: template.html:72
 msgid "Campaigns"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><a>
-#: template.html:63
+#: template.html:75
 msgid "<a href=\"images/start-5.png\">"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:66
+#: template.html:78
 msgid ""
 "Ut pharetra justo mollis, interdum sapien bibendum, bibendum est. Cras sem "
 "urna, vulputate in erat vitae, tincidunt scelerisque justo. In maximus "
@@ -143,17 +148,17 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h4>
-#: template.html:68
+#: template.html:80
 msgid "Multiplayer"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><a>
-#: template.html:71
+#: template.html:83
 msgid "<a href=\"images/start-4.png\">"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:74
+#: template.html:86
 msgid ""
 "Maecenas molestie nunc purus, vitae fermentum lacus iaculis sit amet. In "
 "suscipit nisl quis odio mattis, imperdiet convallis ligula tincidunt. Cras "
@@ -161,7 +166,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:76
+#: template.html:88
 msgid ""
 "Nulla neque nunc, varius eu ex non, vulputate cursus massa. Curabitur "
 "malesuada a ante sit amet ullamcorper. Sed congue dolor et purus consequat, "
@@ -174,17 +179,17 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h4>
-#: template.html:78
+#: template.html:90
 msgid "General"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><a>
-#: template.html:81
+#: template.html:93
 msgid "<a href=\"images/start-3.png\">"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:84
+#: template.html:96
 msgid ""
 "Integer volutpat tortor sed condimentum condimentum. Praesent eu lorem in "
 "neque auctor ornare. Sed semper maximus semper. Sed in interdum "
@@ -194,29 +199,29 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h3>
-#: template.html:86
+#: template.html:98
 msgid "For Content Creators"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><a>
-#: template.html:89
+#: template.html:101
 msgid "<a href=\"images/start-6.png\">"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:92
+#: template.html:104
 msgid ""
 "Mauris non varius odio. Suspendisse odio turpis, eleifend sit amet lorem "
 "congue, suscipit ornare arcu. Integer id arcu massa."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
-#: template.html:96
+#: template.html:106
 msgid "Download"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:98
+#: template.html:108
 msgid ""
 "<cite>The Battle for Wesnoth</cite> is made available under the <a "
 "href=\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU General Public "
@@ -230,31 +235,51 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:103
+#: template.html:111
 msgid ""
 "<a "
-"href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/wesnoth-1.14.0/wesnoth-1.14.0.tar.bz2/download\"><b>Source "
-"code</b></a>"
+"href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/wesnoth-1.14.0/wesnoth-1.14.0-win32.exe/download\"><i "
+"class=\"downloadicon downloadicon-windows\" aria-hidden=\"true\"></i><span "
+"class=\"os\">Windows</span> <span class=\"size\">100 GiB</span></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:104
+#: template.html:112
 msgid ""
 "<a "
-"href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/wesnoth-1.14.0/wesnoth-1.14.0-win32.exe/download\"><b>Wesnoth "
-"for Microsoft Windows</b></a>"
+"href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/wesnoth-1.14.0/Wesnoth_1.14.0.dmg/download\"><i "
+"class=\"downloadicon downloadicon-apple\" aria-hidden=\"true\"></i><span "
+"class=\"os\">macOS</span> <span class=\"size\">100 GiB</span></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:105
+#: template.html:113
 msgid ""
 "<a "
-"href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/wesnoth-1.14.0/Wesnoth_1.14.0.dmg/download\"><b>Wesnoth "
-"for Apple macOS</b></a>"
+"href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/wesnoth-1.14.0/wesnoth-1.14.0.tar.bz2/download\"><i "
+"class=\"downloadicon downloadicon-src\" aria-hidden=\"true\"></i><span "
+"class=\"os\">Source</span> <span class=\"size\">100 GiB</span></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:114
+msgid ""
+"<a href=\"https://wiki.wesnoth.org/WesnothBinariesLinux\"><i "
+"class=\"downloadicon downloadicon-linux\" aria-hidden=\"true\"></i><span "
+"class=\"os\">Linux</span></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:115
+msgid ""
+"<a "
+"href=\"https://itunes.apple.com/us/app/battle-for-wesnoth-hd/id575852062\"><i "
+"class=\"downloadicon downloadicon-ios\" aria-hidden=\"true\"></i><span "
+"class=\"os\">iOS</span></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:108
+#: template.html:118
 msgid ""
 "You can refer to the <a href=\"https://wiki.wesnoth.org/Download\">downloads "
 "page</a> for the latest up-to-date packages and instructions, including "
@@ -262,7 +287,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:110
+#: template.html:120
 msgid ""
 "If you downloaded previous versions of the game, you might be interested in "
 "downloading the <a "
@@ -270,12 +295,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
-#: template.html:114
+#: template.html:122
 msgid "Contribute"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:116
+#: template.html:124
 msgid ""
 "Since its inception in July 2003, <cite>The Battle for Wesnoth</cite> is "
 "constantly being improved and expanded upon by hundreds of international "
@@ -288,19 +313,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:118
+#: template.html:126
 msgid ""
 "Besides creating your own add-on content, there are many other ways you can "
 "help <cite>Wesnoth</cite>:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:121
+#: template.html:129
 msgid "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:122
+#: template.html:130
 msgid ""
 "<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">Create</a> art for "
 "the main game or for user-made <a "
@@ -308,81 +333,93 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:123
+#: template.html:131
 msgid ""
 "<a href=\"https://wiki.wesnoth.org/WesnothTranslations\">Translate</a> the "
 "game into your language"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:124
+#: template.html:132
 msgid ""
 "<a href=\"https://forums.wesnoth.org/viewforum.php?f=14\">Produce</a> new "
 "music tracks and sound effects"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:125
+#: template.html:133
 msgid "Spread the word about <cite>Wesnoth</cite> on the Internet!"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
-#: template.html:130
+#: template.html:136
 msgid "More Info"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:133
+#: template.html:139
 msgid ""
 "<a href=\"https://changelog.wesnoth.org/1.14/\">Full Changelog</a> (English "
 "only)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:134
+#: template.html:140
 msgid ""
 "<a href=\"https://www.wesnoth.org/manual/1.14/manual.en.html\">User’s "
 "Manual</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:135
+#: template.html:141
 msgid "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:137
+#: template.html:143
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release "
 "Notes</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:138
+#: template.html:144
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release "
 "Notes</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:139
+#: template.html:145
 msgid "<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:140
+#: template.html:146
 msgid "<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</a>"
 msgstr ""
 
-#. type: Content of: <html><body><div><div><p>
-#: template.html:151
+#. type: Content of: <html><body><div><div><div><div>
+#: template.html:157
 msgid "This page is also available in the following languages:"
 msgstr ""
 
-#. type: Content of: <html><body><div><div><p>
-#: template.html:155
+#. type: Content of: <html><body><div><div><div>
+#: template.html:163
 msgid ""
-"Copyright &#169; 2003&#8211;2018 by <a "
+"<a href=\"https://wiki.wesnoth.org/StartingPoints\">Site Map</a> &#8226; <a "
+"href=\"https://status.wesnoth.org/\">Site Status</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:164
+msgid ""
+"Copyright &#169; 2003&#8211;2018 by <a rel=\"author\" "
 "href=\"https://wiki.wesnoth.org/Project\">The Battle for Wesnoth "
 "Project</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:165
+msgid "Site design Copyright &#169; 2017&#8211;2018 by Iris Morelle."
 msgstr ""

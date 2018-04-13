@@ -1,4 +1,4 @@
-DOMAIN = wesnoth-start-1.12
+DOMAIN = wesnoth-start-1.14
 
 PODIR = po
 STAMPDIR = .stamp
@@ -21,6 +21,12 @@ LIST_STAMP = $(STAMPDIR)/$(LIST)
 PO4A_OPTIONS = -f xhtml -M utf-8 -o untranslated='<script>'
 PO4A_THRESHOLD = 85
 
+SASS      = sass
+SASSFLAGS = -t compressed
+
+sass_in_dir = sass
+sass_out_dir = css
+
 # ----------------------------------------------------------------------
 
 all: update-pot update-po update-html update-list
@@ -35,6 +41,17 @@ update-list: $(LIST_STAMP)
 
 clean:
 	rm -rf $(PODIR)/*~ $(PAGE).* $(TMAP) $(STAMPDIR)
+
+# ----------------------------------------------------------------------
+
+css:
+	$(SASS) $(SASSFLAGS) -C --update $(sass_in_dir):$(sass_out_dir)
+
+css-auto:
+	$(SASS) $(SASSFLAGS) --watch $(sass_in_dir):$(sass_out_dir)
+
+css-clean:
+	rm -rf $(sass_out_dir)/*.css $(sass_out_dir)/*.css.map
 
 # ----------------------------------------------------------------------
 
@@ -87,4 +104,4 @@ stats:
 		msgfmt --statistics -o /dev/null $$i; \
 	done
 
-.PHONY: all update-pot update-po update-html update-list clean stats
+.PHONY: all update-pot update-po update-html update-list clean stats css
