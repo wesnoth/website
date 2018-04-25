@@ -83,6 +83,15 @@ function is_core_textdomain($textdomain)
 	return in_array($textdomain, $core_textdomains);
 }
 
+/**
+ * Returns whether the specified textdomain is a mainline campaign textdomain.
+ */
+function is_mainline_campaign_textdomain($textdomain)
+{
+	global $mainline_campaign_textdomains;
+	return in_array($textdomain, $mainline_campaign_textdomains);
+}
+
 function ui_self_link($disable_condition, $text, $href)
 {
 	if ($disable_condition)

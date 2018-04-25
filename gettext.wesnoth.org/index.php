@@ -13,6 +13,7 @@ include('includes/langs.php');
 include('includes/wesmere.php');
 
 $existing_packs         = $mainline_textdomains;
+$existing_campaignpacks = $mainline_campaign_textdomains;
 $existing_corepacks     = $core_textdomains;
 $existing_extra_packs_t = $addon_packages_dev;
 $existing_extra_packs_b = $addon_packages_branch;
@@ -98,8 +99,21 @@ switch ($view)
 			switch ($p)
 			{
 				case 'alloff':
+				case 'allmainlinecampaigns':
 				case 'allcore':
-					$packs = ($p == 'alloff') ? $existing_packs : $existing_corepacks;
+					if ($p == 'alloff')
+					{
+						$packs = $existing_packs;
+					}
+					elseif ($p =='allmainlinecampaigns')
+					{
+						$packs = $existing_campaignpacks;
+					}
+					else
+					{
+						$packs = $existing_corepacks;
+					}
+
 					foreach ($packs as $pack)
 					{
 						$statsfile = ($version == 'branch') ? 'branchstats' : 'masterstats';
@@ -279,8 +293,9 @@ function ui_package_set_link($package_set, $label)
 
 ?><dl id="package-set" class="display-options"><dt>Textdomain groups:</dt><dd>
 	<ul class="gettext-switch"
-		><li><?php ui_package_set_link('alloff',  'All mainline')   ?></li
-		><li><?php ui_package_set_link('allcore', 'Mainline core*') ?></li<?php
+		><li><?php ui_package_set_link('alloff',               'All mainline')   ?></li
+		><li><?php ui_package_set_link('allcore',              'Mainline core<sup>*</sup>') ?></li
+		><li><?php ui_package_set_link('allmainlinecampaigns', 'Mainline campaigns<sup>†</sup>') ?></li<?php
 		if ($use_wescamp)
 		{
 			?>><li><?php ui_package_set_link('allun',   'All add-ons') ?></li
@@ -362,8 +377,19 @@ else // $view !== 'langs'
 				$current_textdomain_is_official = false;
 			}
 
+			$category_marker = '';
+
+			if (is_core_textdomain($pack))
+			{
+				$category_marker = '<sup>*</sup>';
+			}
+			elseif (is_mainline_campaign_textdomain($pack))
+			{
+				$category_marker = '<sup>†</sup>';
+			}
+
 			ui_self_link($pack == $package,
-			             $packdisplay . (is_core_textdomain($pack) ? '*' : ''),
+			             $packdisplay . $category_marker,
 			             clean_url_parameters([ 'package' => $pack ]));
 
 			echo '</li>';
@@ -412,7 +438,7 @@ if (!$nostats)
 			 */
 			function package_is_not_singular($package)
 			{
-				return in_array($package, [ 'alloff', 'allun', 'all', 'allcore' ], true);
+				return in_array($package, [ 'alloff', 'allun', 'all', 'allcore', 'allmainlinecampaigns' ], true);
 			}
 
 			foreach ($stats as $lang => $stat)
@@ -532,7 +558,11 @@ if (!$nostats)
 
 							if (is_core_textdomain($textdomain))
 							{
-								$label .= '*';
+								$label .= '<sup>*</sup>';
+							}
+							elseif (is_mainline_campaign_textdomain($pack))
+							{
+								$label .= '<sup>†</sup>';
 							}
 
 							ui_mainline_catalog_link($repo, $textdomain, $lang, $label);

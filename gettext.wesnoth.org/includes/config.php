@@ -54,12 +54,8 @@ $core_textdomains = [
 	'wesnoth-tutorial',
 ];
 
-// Additional mainline textdomains
-$mainline_textdomains = array_merge($core_textdomains, [
-	'wesnoth-test',
-	'wesnoth-manpages',
-	'wesnoth-manual',
-	// Campaigns
+// Mainline campaign textdmains.
+$mainline_campaign_textdomains = [
 	'wesnoth-aoi',
 	'wesnoth-did',
 	'wesnoth-dm',
@@ -77,6 +73,13 @@ $mainline_textdomains = array_merge($core_textdomains, [
 	'wesnoth-trow',
 	'wesnoth-tsg',
 	'wesnoth-utbs',
+];
+
+// Additional mainline textdomains
+$mainline_textdomains = array_merge($core_textdomains, $mainline_campaign_textdomains, [
+	'wesnoth-test',
+	'wesnoth-manpages',
+	'wesnoth-manual',
 ]);
 
 // URL prefix used in links to the contents of individual mainline catalog files.
