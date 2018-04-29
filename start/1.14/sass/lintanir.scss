@@ -41,6 +41,12 @@ html {
 	color: $wui-text-normal;
 }
 
+#content,
+#footer,
+#main {
+	line-height: $measurement-paragraph-spacing-unitless;
+}
+
 code,
 pre,
 kbd {
