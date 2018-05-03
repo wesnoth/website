@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html class="no-js press-release" lang="ja">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montaga%7COpen+Sans:400,400i,700,700i" type="text/css" />
+	<link rel="icon" type="image/png" href="/wesmere/img/favicon-32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/wesmere/img/favicon-16.png" sizes="16x16" />
+
+	<link rel="stylesheet" type="text/css" href="https://www.wesnoth.org/wesmere/css/wesmere.css" />
+	<link rel="stylesheet" type="text/css" href="css/lintanir.css" />
+
+	<title>The Battle for Wesnoth 1.14</title>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<script src="js/modernizr.js"></script>
+</head>
+
+<body>
+
+<div id="main">
+
+<div id="cover" role="banner">
+	<a id="bigshield" href="/" aria-label="Wesnoth logo"><span
+aria-hidden="true"></span></a>
+
+	<h1 id="branding-title">The Battle for Wesnoth 1.14<br/><span id="branding-sub">New Horizons Update</span></h1>
+
+	<div id="intro">
+		<p><i>2018年5月、</i> 開発チームは、 <cite><a
+href="/">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>
+バージョン1.14を自信を持ってお届けします！</p>
+
+		<p>待望のSteamデビューに加えて、このリリースでは大量の機能追加・変更がなされています。新しいシングルプレイ・キャンペーン、マルチプレイヤーロビーとアドオンマネージャのビジュアル・機能の両面での刷新、ディスプレイエンジンの改良、ユニットの新しいグラフィックとアニメーションなど、変更は多くの部分に渡っています。さあ、新機能を直に体験するのも一興ですし、<a
+href="#game">以下の詳細</a>をご覧になるのもよいでしょう。</p>
+	</div>
+
+	<div id="quick-download">
+		<a class="download-button" role="button" href="#download"> <span
+class="download-arrow" aria-hidden="true"></span> <span
+class="download-text"> <span class="download-big">Download Now!</span>
+</span> </a> <a class="steam-button" role="button"
+href="https://store.steampowered.com/app/599390"> <span
+class="download-text"> <span class="steam-icon" aria-hidden="true"></span>
+<span class="download-big">Get on Steam!</span> </span> </a>
+	</div>
+</div>
+
+<div id="nav"></div>
+
+<div id="content">
+
+<h2 id="game" class="center">本アップデートでの変更点</h2>
+
+<p>バージョン1.12のリリースから3年半もの間、開発チームのメンバーは<cite>Wesnoth</cite>の未来のために身を捧げてきました。その結果、このバージョンは新しくエキサイティングな変更を含むことになりました。できればそれらの変更点すべてをお知らせしたいのですが、そのうちの一部をここで紹介します。たくさんの貢献者たちが多くの時間を費やすことによって、エンジンの近代化、バグ修正、インターフェースの改善、コンテンツの追加、ユーザーエクスペリエンスの合理化が行われました。その結果、<cite>Wesnoth
+1.14</cite>は、これまでで最も安定したリリースとなっています。</p>
+
+<p>特にめぼしいことは、初めて<a href="https://store.steampowered.com/app/599390"><b>Steam
+ストア</b></a>上でリリースされたことでしょう。Steam
+ストアではWindows、macOS、Linuxプラットフォーム向けに無料でWesnothが公開されています！2年間に渡って、Steamリリースに向けて支えてくださった皆さんにたいへん感謝しております。<cite>Wesnoth</cite>が記録的なほどの短期間でSteam
+Greenlightに採択され、皆さんがWesnothのフォーラムやソーシャルメディアで関心を持ち続けてくれたことは、私たちの大きな励みになりました。Wesnothコミュニティに新しい人たちが参加することを、心待ちにしております！</p>
+
+<div class="thumb center"><a href="images/start-1.jpg"><img src="images/start-1-thumb.jpg" alt="タイトルスクリーン" /></a></div>
+
+<h3 id="players">プレイヤー向け</h3>
+
+<div class="thumb tright">
+  <div><a href="images/start-2.jpg"><img src="images/start-2-thumb.jpg" alt="Wesnoth スクリーンショット" /></a></div>
+</div>
+
+<p>以前はWesnothのエンジンには旧式となったSDL 1.2ライブラリが使用されていましたが、より改善されたSDL
+2.0に置き換えました。これによって、長い間修正されていなかったOSやハードウェアの互換性に関する問題が改善されました。特に、マルチモニタ環境でのフルスクリーン表示は大きく改善され、Apple
+Retinaデバイスで発生していた、マウス関連のやっかいな問題も修正されました。</p>
+
+<p>ユーザーインターフェースも洗練されました。メインメニューの背景は4K対応となり、メインテーマ曲は<a
+href="http://mattiaswestlund.net/">Mattias Westlund</a>(West)
+が作曲した新しいものとなっています。大きく、鮮明な新フォントとシンプルなダイアログボーダーとボタンによって、多様なハードウェアとコンテキスト上で可読性が向上しています。また、それによって見た目も近代的なものとなっています。アドオンマネージャやマルチプレイヤーロビー、ゲーム作成画面は完全に刷新されて新鮮なデザインとなり、長期間残っていた不具合を克服しました。設定ダイアログにも大幅な変更が加えられて、より使いやすくなっています。</p>
+
+<p>重歩兵やシルフ、盗賊を含む多数のユニットに、新しいアニメーションとベースフレームが用意されました。これによって、グラフィックの品質が底上げされ、戦場がよりダイナミックで生き生きしたものとなります。また、トロルや古代ウーズ、歩く死体、イエティなどのいくつかのユニットには新しいポートレートも追加されています。そして、<em>数多くの</em>地形、特に室内・地下の地形が変更され、より新しくてエキサイティングなマップを生み出します。また、水や溶岩はより流体的で完全なアニメーションとなるように描き直されており、美しいスタイルとなっています。村地形に関しては、時刻によってグラフィックが変化するようになり、夜には照明が灯ります。</p>
+
+<p>そして、多くのユニットやユーザーインターフェースの効果音が変更されました。</p>
+
+<h4 id="campaigns">キャンペーン</h4>
+
+<div class="thumb center"><a href="images/start-3.jpg"><img src="images/start-3-thumb.jpg" alt="キャンペーンメニューのスクリーンショット" /></a></div>
+
+<p>メインキャンペーンのラインナップには<cite>古代の秘密（Secrets of the
+Ancients）</cite>が追加されました！このキャンペーンは<cite>死の海（Dead
+Water）</cite>の作者によって制作されており、もともとはユーザーメイドコンテンツの一つでした。Tarrynth出身の少女Ardonnaは不死について研究し、緑の島を支配していた古代リッチの秘密を暴こうとします。</p>
+
+<div class="thumb tleft">
+  <div><a href="images/start-4.jpg"><img src="images/start-4-thumb.jpg" alt="Wesnoth スクリーンショット" /></a></div>
+</div>
+
+<p>数年の苦節のすえに、<cite>燃える太陽の下で（Under the Burning
+Suns）</cite>に登場する砂漠エルフのユニットグラフィックを刷新しました。<a
+href="https://www.theartysquid.com/">Emilien Rotival</a> (LordBob)
+はWesnothのアーティストとして長い間活躍していますが、砂漠エルフのポートレートもLordBobによって刷新されました。また、砂漠エルフのユニット昇進ツリーについても、標準的な森エルフからかけ離れたものへと変更されています。</p>
+
+<p><cite>北部の再興（Northern
+Rebirth）</cite>の最初の9シナリオのマップは、新しい地形を使ってより単純で有機的なデザインとなるように改良されました。
+また、シナリオ自体もより合理的にプレイできるように調整されています。<cite>闇に堕ちて（Descent into Darkness）</cite>
+にも、同様にしてビジュアル面での改良が加えられています。</p>
+
+<p><cite>Wesnoth</cite>に同梱されるシングルプレイヤーキャンペーンが増えたため、歴史の年表の把握が難しくなっていました。それに対応するため、キャンペーンメニューでは、キャンペーンをIrdyaの歴史順にソートするオプションが追加されました。また、アルファベット順にソートすることも可能です。</p>
+
+<p>シングルプレイヤーキャンペーンにもModを適用可能にすることで、プレイヤー制作のギミックやチャレンジを追加できるようになりました。また、リロードによってより良い結果を求めてしまいがちな方は、「決定論モード」を有効にすると良いでしょう。</p>
+
+<h4 id="multiplayer">マルチプレイヤー</h4>
+
+<div class="thumb center"><a href="images/start-5.jpg"><img src="images/start-5-thumb.jpg" alt="マルチプレイヤーゲーム・セットアップのスクリーンショット" /></a></div>
+
+<p><cite>Wesnoth</cite>のマルチプレイヤーロビーは完全に再実装されて、新規プレイヤーにもわかりやすいようにシンプルになりました。チャットログに含まれるリンクはクリックで開けるようになり、別のタブを開いてプライベートメッセージをやり取りできるようになりました。また、ゲームやプレイヤーをフィルタリングするのが簡単になり、マップ推奨の設定を利用することによってより素早くゲームを作成できるようになりました。そして、党派の属性をより包括的に表示するようになりました。</p>
+
+<p>新しいコンテンツにとしては、コミュニティによって作成された<b>9つ</b>もの新しいマップが追加されました！今や、バランス調整済みのバラエティ豊かな55ものマップが存在することになります。</p>
+
+<p>マルチプレイヤー用の党派の一つ、カリフェイト（Khalifate）はバージョン1.12で追加されましたが、1.14からはデューンフォーク（Dunefolk）にリネームされました。これは、デューンフォークの伝承を拡張し、Irdyaの世界により溶け込めるようにするためです。それに伴い、様々なデューンフォークのユニットにステータスの調整が施され、マルチプレイヤーでの対戦がより良いバランスとなるようにしました。</p>
+
+<p>そして、マルチプレイヤーゲームでは、投了が可能となりました。したがって、もうプレイを続ける気が無い場合には、以前のように唐突に部屋を出ていく必要はありません。</p>
+
+<h4 id="general">全般</h4>
+
+<div class="thumb tright">
+  <div><a href="images/start-6.jpg"><img src="images/start-6-thumb.jpg" alt="Wesnoth スクリーンショット" /></a></div>
+</div>
+
+<p>移動・攻撃の宝珠は、色をカスタマイズできるようになりました。これによって、ユニットの状態を確認しやすくなるでしょう。また、標準では無効化されていますが、敵ユニットにも宝珠を表示するオプションも追加されています。</p>
+
+<p><cite>Wesnoth</cite>を起動中に他のアプリケーションに切り替えた場合、ミュージックがポーズする設定が標準となりました。もちろん、この設定を無効化することもできます。</p>
+
+<p>バグ報告の際により詳細なシステムの情報を付与できるように、バージョン情報のダイアログが表示できるようになりました。メインメニュー画面で、左下のボタンを押すことで開くことができます。OSのバージョンだけでなく、<cite>Wesnoth</cite>が使用しているパスや、ゲームのビルドに使用されたライブラリのバージョン、有効化されているオプション機能のリストが表示されます。</p>
+
+<p>Windowsプレイヤーに関することですが、設定、セーブデータ、アドオンが保存されるフォルダが「ドキュメント（Documents）」に固定されました。旧来の、システムのProgram
+Filesフォルダに設定を保存する方法では、それに起因して様々な問題が発生していたためです。旧来のオプション自体は削除されましたが、コマンドラインオプションを指定することによってフォルダのパスを変更することは可能です。おそらく、<cite>Wesnoth</cite>を外部のドライブに保存したい場合には役に立つでしょう。</p>
+
+<h3 id="creators">コンテンツクリエイター向け</h3>
+
+<div class="thumb tleft">
+  <div><a href="images/start-7.jpg"><img src="images/start-7-thumb.jpg" alt="Wesnoth スクリーンショット"/></a></div>
+</div>
+
+<p>これまでは長期に渡って延期されてきたのですが、1.14系では<cite>Wesnoth</cite>に含まれるコンテンツのライセンスに大きな変更が行われています。以前はすべてのコンテンツ（コード、ビジュアル・サウンドなど）にGNU
+一般公衆利用許諾書（GPL） バージョン
+2（またはそれ以降のバージョン）を使用していました。1.14からは、アドオンのアート、サウンド、ミュージックに関しては<a
+href="https://creativecommons.org/licenses/">Creative Commons
+license</a>ならば<b>どれでも</b>適用できるようになりました。さらに、Wesnothに同梱されているコンテンツは<a
+href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+license</a>でライセンスされる可能性があります。それらの両方のケースにおいて、GPLの利用も引き続き可能です。この変更によって、以前にGNU
+GPLの下で公開されていたファイルに影響することはありません。ただし、copyrightの権利者が変更を宣言した場合には、その限りではありません。</p>
+
+<p>より技術的な側面については、<cite>Wesnoth</cite>のWML、Lua、Formula Language
+エンジンには多くの改善が行われました。内部のLuaインタプリタはバージョン5.3.4にアップグレードされ、<a
+href="https://wiki.wesnoth.org/LuaWML">Lua API</a>には多くの新機能が追加されました。<a
+href="https://wiki.wesnoth.org/MapGeneratorWML#The_lua_generator">マップジェネレータ</a>をLuaで記述する、特定のストックダイアログをゲームUI（メニューポップアップ、確認プロンプト、情報ポップアップ、<code>[message]</code>UI、ストーリースクリーンUI）から呼び出す、名前付きLua関数を<a
+href="https://wiki.wesnoth.org/StandardLocationFilter">Standard Location
+Filters</a>内で<code>lua_function=</code>属性によって呼び出す、などの新機能が含まれています。ゲーム状態インスペクタでは、デバッグ・テスト用のコードを利用できるようにするため、ゲーム中で組み込みのLuaコンソールに直接アクセスできるようになりました。</p>
+
+<p>Wesnoth Formula
+Language内のインラインフォーミュラでは、多数の新しい組み込み関数や文法の追加が行われています。<code>formula=</code>フィルター属性の<a
+href="https://wiki.wesnoth.org/StandardLocationFilter">Standard Location
+Filters</a>と<a href="https://wiki.wesnoth.org/StandardSideFilter">Standard
+Side
+Filters</a>の拡張サポートによって、インラインフォーミュラをWML内のより複雑なロジックを記述するために使用できます。新しい</code>~ADJUST_ALPHA()</code>と<code>~CHAN()</code><a
+href="https://wiki.wesnoth.org/ImagePathFunctionWML">image path
+functions</a>はゲーム中の画像のレンダリングを変更するためのフォーミュラサポートを含みます。</p>
+
+<p>WMLのプリプロセッサは、<a
+href="https://wiki.wesnoth.org/PreprocessorRef#.23arg_and_.23endarg"><code>#arg/#endarg</code>directive
+</a>を用いることで、マクロ定義とsubstitutionの中でデフォルト値を持つオプションパラメータをサポートするようになりました。これによって、使用法のバリエーションに合わせて複数のマクロを定義する必要がある状況において、アドオンのコードの増大を防ぐことができます。</p>
+
+<p>WMLのループ構造が、<a
+href="https://wiki.wesnoth.org/ConditionalActionsWML#.5Bfor.5D"><code>[for]</code>と<code>[foreach]</code></a>タグの追加によって、より自然で柔軟になりました。これらは、古い<code>{FOREACH}</code>やお手製の代替マクロよりも軽量です。</p>
+
+<p>AIエンジンに新しく実験的な機能を追加する開発サイクルを繰り返した後に、すでに古くなった部分のクリーンアップと再構成が行われました。そして、その過程でいくつかの目立ったバグが修正されました。例を挙げると、隠しユニットや霧、幕の扱いに対する整合性の無さや、AIに召還リストが存在している場合に起こる雇用の問題などです。全体として、アドオン制作時には以前よりもAIを自在にコントロールできるようになるでしょう。様々な設定やパラメータはより簡単に設定できるようになり、いくつかの<a
+href="https://wiki.wesnoth.org/Micro_AIs">MicroAI
+preset</a>が追加されました。「卑劣な暗殺者（sneaky assassin）」presetはいやらしい敵をけん制するのに最適です！</p>
+
+<p>以前に触れたように、<a
+href="https://wiki.wesnoth.org/ModificationWML">ゲームMod</a>はシングルプレイヤーキャンペーンにも適用できるようになりました。また、それらの文法には<code>[resource]</code>タグが追加され、プレイヤーが手動で選択できない、他のアドオンから呼び出すための隠しModの実装に利用することができます。</p>
+
+<p>マップエディタの「マップ読み込み」「名前を付けてマップを保存」ダイアログが再設計され、ゲームのファイルやインストール済みのアドオンにより簡単にアクセスできるようになりました。その他の場所にも、クイックアクセスブックマークを利用して簡単にアクセスできます。</p>
+
+<p>最後に、Windowsを利用しているコンテンツクリエイターには<i>「Battle for Wesnoth (with
+console)」</i>ショートカットが役に立つでしょう。このショートカットは<code>--wconsole</code>という新しいオプションを有効にしており、これによってログメッセージをファイルではなく標準のWindowsコンソールにリアルタイムで表示できます。絶え間の無いログを通常通り記録したい場合、それに関しても改善を施しています。ログファイルはプレイヤーファイルパスの<code>logs</code>フォルダに保存され、8よりも前のセッションのログは別のファイルに分割されます。分割されたファイルにはタイムスタンプが付きますので、参照する際には便利です。そして、現在のセッションのログには、前述したバージョン情報ダイアログからアクセスできるようになりました。</p>
+
+<h2 id="download">ダウンロード</h2>
+
+<p><cite>The Battle for Wesnoth</cite> は <a
+href="https://www.gnu.org/licenses/gpl-2.0.html">GNU 一般公衆利用許諾書</a> (GNU GPL)
+のバージョン 2 の元で配布されています。加えて、GPL のバージョン 2 以降のバージョン、<a
+href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons ─ 表示
+- 継承</a> (CC BY-SA) 4.0 のライセンスでの配布も許諾されています。ソースコードは <a
+href="https://github.com/wesnoth/wesnoth">GitHub</a> から取得可能であり、各 OS での<a
+href="https://wiki.wesnoth.org/CompilingWesnoth">ソースコードからのビルド方法</a>は我々の wiki
+に情報があります。Microsoft Windows、Apple macOS、GNU/Linux
+についてはコンパイル済みのインストーラーパッケージも利用可能です。</p>
+
+<ul class="downloads"
+	><li class="windows"><a
+href="https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/wesnoth-1.14.0/wesnoth-1.14.0-win32.exe/download"><i
+class="downloadicon downloadicon-windows" aria-hidden="true"></i><span
+class="os">Windows</span> <span class="size">403.1 MiB</span></a></li
+	><li class="apple"><a
+href="https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/wesnoth-1.14.0/Wesnoth_1.14.0.dmg/download"><i
+class="downloadicon downloadicon-apple" aria-hidden="true"></i><span
+class="os">macOS</span> <span class="size">447.0 MiB</span></a></li
+	><li class="src"><a
+href="https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/wesnoth-1.14.0/wesnoth-1.14.0.tar.bz2/download"><i
+class="downloadicon downloadicon-src" aria-hidden="true"></i><span
+class="os">Source</span> <span class="size">442.2 MiB</span></a></li
+	><li class="linux"><a href="https://wiki.wesnoth.org/WesnothBinariesLinux"><i
+class="downloadicon downloadicon-linux" aria-hidden="true"></i><span
+class="os">Linux</span></a></li
+	><li class="ios"><a
+href="https://itunes.apple.com/us/app/battle-for-wesnoth-hd/id575852062"><i
+class="downloadicon downloadicon-ios" aria-hidden="true"></i><span
+class="os">iOS</span></a></li
+></ul>
+
+<p>最新のパッケージや説明書については、<a
+href="https://wiki.wesnoth.org/Download">ダウンロードページ</a>をご参照ください。現在リストされていないプラットフォームについての情報についても対応次第、順次更新していく予定です。</p>
+
+<p>もし既に以前のバージョンをダウンロード済みならば、<a
+href="https://wiki.wesnoth.org/Download_Xdeltas">Xdelta</a>
+ファイルのダウンロードを利用することも可能でしょう。</p>
+
+<h2 id="contribute">貢献</h2>
+
+<p><cite>The Battle for Wesnoth</cite>
+は世界各国の様々な得意分野を持つ人々の自発的な貢献によって発展を続けています。2003 年 7
+月にプロジェクトが始まって以来、公式リリースに取り込まれたコンテンツはもちろん、アドオンサーバからダウンロード可能なユーザの独自プロジェクトまで、多くの人々が様々な形でプロジェクトに貢献してきました。シナリオがクリアできないとき、独自マップの作成で困ったとき、そのような時は<cite>Wesnoth</cite>の誇るこの巨大なコミュニティがきっとあなたの助けになってくれるでしょう。</p>
+
+<p>アドオンコンテンツの作成以外にも、<cite>Wesnoth</cite> の開発に貢献する方法はたくさんあります：</p>
+
+<ul>
+  <li>コードの<a href="https://wiki.wesnoth.org/Project">コントリビューション</a></li>
+  <li>メインゲームと<a
+href="https://forums.wesnoth.org/viewforum.php?f=23">アドオン</a>用のグラフィック<a
+href="https://forums.wesnoth.org/viewforum.php?f=9">制作</a></li>
+  <li><a href="https://wiki.wesnoth.org/WesnothTranslations">翻訳</a></li>
+  <li>ミュージックトラックとサウンドエフェクトの<a
+href="https://forums.wesnoth.org/viewforum.php?f=14">制作</a></li>
+  <li>ソーシャルメディア上で<cite>Wesnoth</cite>を宣伝</li>
+</ul>
+
+<h2 id="more">詳細</h2>
+
+<ul>
+  <li><a href="https://changelog.wesnoth.org/1.14/">すべての変更履歴</a> （英語）</li>
+  <li><a href="https://www.wesnoth.org/manual/1.14/manual.en.html">ユーザーマニュアル</a></li>
+  <li><a href="https://www.wesnoth.org">公式サイト</a> （英語）</li>
+
+  <li><a href="https://www.wesnoth.org/start/1.12">Wesnoth 1.12 リリースノート</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.10">Wesnoth 1.10 リリースノート</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.8">Wesnoth 1.8 リリースノート</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.6">Wesnoth 1.6 リリースノート</a></li>
+</ul>
+
+</div> 
+
+<!-- content -->
+</div> 
+
+<!-- #main -->
+<div id="footer-sep"></div>
+
+<div id="footer"><div id="footer-content"><div>
+	<div id="languages">
+		利用可能な他の言語：
+		<ul>
+			
+		<!--LANGS--><li lang='en'><a href='index.en.html'>English [US]</a></li><li lang='ja'><a href='index.ja.html'>日本語</a></li>
+<!--LANGS-->
+</ul>
+	</div>
+
+	<a href="https://wiki.wesnoth.org/StartingPoints">サイトマップ</a> &#8226; <a
+href="https://status.wesnoth.org/">サイトステータス</a><br />
+	Copyright &#169; 2003&#8211;2018 by <a rel="author"
+href="https://wiki.wesnoth.org/Project">The Battle for Wesnoth Project</a>.<br />
+	Site design Copyright &#169; 2017&#8211;2018 by Iris Morelle.
+</div></div></div>
+
+<script>
+	(function($) {
+		/*
+		* Auto links on headers
+		*/
+		$("h2,h3,h4").each(function(i, e) {
+			var link = $("<a/>", { text: $(this).text(), href: "#" + $(this)[0].id } );
+			$(this).text("").append(link);
+		});
+
+		/*
+		* Smooth scrolling for anchor links
+		*/
+
+		$('a[href*="#"]:not([href="#"])').click(function() {
+			if (location.pathname.replace(/^\//,"") == this.pathname.replace(/^\//,"") && location.hostname == this.hostname) {
+				var hash = this.hash;
+				var target = $(hash);
+				target = target.length ? target : $("[name=" + hash.slice(1) + "]");
+				if (target.length) {
+					$("html,body").animate(
+						{ scrollTop: target.offset().top },
+						{ duration: 500, complete: function() { window.location.href = hash; } }
+					);
+					return false;
+				}
+			}
+		});
+	}(jQuery));
+</script>
+
+</body>
+</html>
