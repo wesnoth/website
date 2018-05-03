@@ -10,17 +10,15 @@ msgstr ""
 "Project-Id-Version: wesnoth-1.12-notes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-01 17:47-0300\n"
-"PO-Revision-Date: 2014-11-12 00:09-0000\n"
+"PO-Revision-Date: 2018-05-03 05:40-0700\n"
 "Last-Translator: Antonio 'Antro' Rosella <arosella@yahoo.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Italian\n"
-"X-Poedit-Country: ITALY\n"
 
 #. type: Attribute 'lang' of: <html>
 #: template.html:3
@@ -29,10 +27,8 @@ msgstr "it"
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:15 template.html:29
-#, fuzzy
-#| msgid "The Battle for Wesnoth 1.12"
 msgid "The Battle for Wesnoth 1.14"
-msgstr "Battle for Wesnoth 1.12"
+msgstr "Battle for Wesnoth 1.14"
 
 #. type: Content of: <html><body><div><div>
 #: template.html:27
@@ -40,34 +36,25 @@ msgid ""
 "<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span aria-hidden="
 "\"true\"></span></a>"
 msgstr ""
+"<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span aria-hidden="
+"\"true\"></span></a>"
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:29
 msgid "<span id=\"branding-sub\">New Horizons Update</span>"
-msgstr ""
+msgstr "<span id=\"branding-sub\">Nuovi Orizzonti Aggiornati</span>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:32
-#, fuzzy
-#| msgid ""
-#| "The development team is proud to present version 1.12 of <cite>The&nbsp;"
-#| "Battle&nbsp;for&nbsp;Wesnoth</cite>!"
 msgid ""
 "<i>May 2018.</i> The development team is proud to present version 1.14 of "
 "<cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
 msgstr ""
-"Il team di sviluppo è orgoglioso di presentarvi la versione 1.12 di "
-"<cite>Battle&nbsp;for&nbsp;Wesnoth</cite>!"
+"<i>Maggio 2018.</i>Il team di sviluppo è orgoglioso di presentarvi la "
+"versione 1.14 di <cite><a href=\"/\">Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:34
-#, fuzzy
-#| msgid ""
-#| "This release features many improvements in all areas, including a "
-#| "completely revamped interface, a new multiplayer faction, dozens of new "
-#| "portraits, updated unit animations, hundreds of bug fixes, and a vastly "
-#| "improved map editor. Try out the new features for yourself, or read on "
-#| "for more details..."
 msgid ""
 "Along with the long-awaited debut on Steam, this new release series brings "
 "forth a vast number of additions and changes in all areas: a new single-"
@@ -76,12 +63,13 @@ msgid ""
 "animations, and much more. Try out the new features for yourself, or <a href="
 "\"#game\">read on</a> for more details..."
 msgstr ""
-"Questa versione presenta numerosi miglioramenti in tutti i campi, inclusa "
-"un’interfaccia completamente rinnovata, una nuova fazione per la modalità "
-"multigiocatore, animazioni delle unità aggiornate, centinaia di problemi "
-"risolti, e un editor delle mappe ampiamente migliorato. Prova tu stesso "
-"tutte le novità, o continua a leggere questo annuncio per avere altri "
-"dettagli..."
+"Assieme al tanto atteso debutto sulla piattaforma Steam, questa nuova "
+"versione presenta numerosi miglioramenti e aggiunte in tutti i campi: una "
+"nuova campagna per singolo giocatore, un’interfaccia completamente rinnovata "
+"sia per la modalità multigiocatore che per la gestione delle estensioni; un "
+"rinnovato motore grafico, animazioni e grafica delle unità aggiornate e "
+"molto altro ancora. Prova tu stesso tutte le novità, o <a href=\"#game"
+"\">continua a leggere questo annuncio</a> per avere altri dettagli..."
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:38
@@ -94,13 +82,18 @@ msgid ""
 "hidden=\"true\"></span> <span class=\"download-big\">Get on Steam!</span> </"
 "span> </a>"
 msgstr ""
+"<a class=\"download-button\" role=\"button\" href=\"#download\"> <span class="
+"\"download-arrow\" aria-hidden=\"true\"></span> <span class=\"download-text"
+"\"> <span class=\"download-big\">Scaricala subito!</span> </span> </a> <a "
+"class=\"steam-button\" role=\"button\" href=\"https://store.steampowered.com/"
+"app/599390\"> <span class=\"download-text\"> <span class=\"steam-icon\" aria-"
+"hidden=\"true\"></span> <span class=\"download-big\">Prendila su Steam!</"
+"span> </span> </a>"
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:58
-#, fuzzy
-#| msgid "What’s New in Wesnoth 1.12"
 msgid "What’s New in This Update"
-msgstr "Novità in Wesnoth 1.12"
+msgstr "Novità in questa nuova aggiornamento"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:60
@@ -115,6 +108,16 @@ msgid ""
 "player experience to ensure this version of <cite>Wesnoth</cite> is the most "
 "stable we have ever released."
 msgstr ""
+"Nei tre anni e mezzo trascorsi dal rilascio della versione 1.12, noi del "
+"team di sviluppo abbiamo pensato a lungo al futuro di <cite>Wesnoth</cite> e "
+"verso quale direzione volevamo che il gioco procedesse. Di conseguenza, "
+"questa versione getta le basi per dei nuovi ed eccitanti cambiamenti, alcuni "
+"già inclusi in questa versione ed altri che speriamo di introdurre più "
+"avanti nello sviluppo. Dozzine di persone hanno dedicato centinaia di ore "
+"per ammodernare il nostro motore grafico, correggere bachi, migliorare "
+"l’interfaccia, aggiungere nuovi contenuti e razionalizzare l’esperienza dei "
+"giocatori per garantire che questa versione di <cite>Wesnoth</cite> sia la "
+"più stabile che sia mai stata rilasciata."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:62
@@ -128,14 +131,21 @@ msgid ""
 "forums and social media has been extremely encouraging. We look forward to "
 "seeing new faces in our community!"
 msgstr ""
+"La novità più appariscente di tutte è probabilmente la prima pubblicazione "
+"sullo <a href=\"https://store.steampowered.com/app/599390\"><b>Steam Store</"
+"b></a>, dove è disponibile gratuitamente per le piattaforme Windows, macOS, "
+"e Linux! Vogliamo rivolgere un enorme ringraziamento a tutti quelli che ci "
+"hanno aiutato durante questo lavoro lungo i due anni trascorsi. "
+"<cite>Wesnoth</cite> ce l’ha fatta su Steam Greenlight a tempo di record, e "
+"il tuo continuo interesse sui nostri forum e sui social media si è rivelato "
+"estremamente incoraggiante. Non vediamo l’ora di vedere volti nuovi nella "
+"nostra comunità!"
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:64
-#, fuzzy
-#| msgid "<a href='images/start-1.png'>"
 msgid "<a href=\"images/start-1.jpg\">"
-msgstr "<a href='images/start-1.png'>"
+msgstr "<a href=\"images/start-1.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:64
@@ -158,10 +168,8 @@ msgstr "Per i giocatori"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:69
-#, fuzzy
-#| msgid "<a href='images/start-2.png'>"
 msgid "<a href=\"images/start-2.jpg\">"
-msgstr "<a href='images/start-2.png'>"
+msgstr "<a href=\"images/start-2.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><div><a><img>
 #: template.html:69 template.html:87 template.html:113 template.html:127
@@ -177,6 +185,12 @@ msgid ""
 "monitor configurations is greatly improved, and various annoying mouse-"
 "related issues on Apple Retina devices have been fixed."
 msgstr ""
+"La vecchia libreria SDL 1.2 utilizzata dal nostro motore è stata rimpiazzata "
+"dalla nuova SDL 2.0, molto migliorata. Questo ha risolto molti vecchi "
+"problemi di compatibilità sia hardware che a livello SO. In particolare, il "
+"supporto alla modalità a pieno schermo con configurazioni pluri-monitor è "
+"enormemente migliorato, e diversi annosi problemi legati alla gestione del "
+"mouse sui dispositivi Apple Retina sono stati risolti."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:74
@@ -192,6 +206,18 @@ msgid ""
 "preferences dialog has also been through a substantial overhaul making it "
 "easier to navigate and use."
 msgstr ""
+"L’interfaccia utente è stata ulteriormente raffinata e ripulita. Il menù "
+"principale ora si presenta più nitido a risoluzione 4K e con un nuovo tema "
+"musicale principale del compositore <a href=\"http://mattiaswestlund.net/"
+"\">Mattias Westlund</a> (West). L’uso di nuovi font più grandi e nitidi, "
+"accoppiati con cornici e bottoni di dialogo semplificati, ha migliorato la "
+"leggibilità del gioco su tutta una serie di dispositivi fisici e in molti "
+"altri contesti, portando un look più moderno. Il gestore delle estensioni, "
+"l’atrio multigiocatore e le interfacce per la customizzazione del gioco sono "
+"state completamente rivisitate con un design fresco che risolve molte delle "
+"mancanze note da lungo tempo. In menù di scelta delle preferenze è stato "
+"sottoposto ad una sostanziale revisione, per renderne la fruizione più "
+"semplice."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:76
@@ -207,6 +233,18 @@ msgid ""
 "Many village types have also received time-of-day variations and will now "
 "immersively light up when night falls."
 msgstr ""
+"Una pletora di unità come la Fanteria Pesante, le Silfidi e i Furfanti hanno "
+"ora delle nuove animazioni e nuovi ritratti di alta qualità standard e tutto "
+"ciò rende il campo di battaglia molto più realistico e dinamico. Diverse "
+"unità hanno dei nuovi ritratti generici, quali i Troll, gli Antichi Wose, i "
+"Morti Viventi e gli Yeti. Infine, è stato aggiunto un <em>enorme</em> "
+"quantitativo di tipi di terreno diversi, in modo da migliorare sia le "
+"vecchie mappe che le nuove — specialmente quelle ambientate al chiuso e "
+"sotto terra — e sia l’acqua che la lava sono state ridisegnate e si "
+"presentano nuove, fluide e totalmente animate, in uno stile esteticamente "
+"piacevole. Molti tipi di villaggio ora hanno delle variazioni estetiche in "
+"base al trascorrere del tempo durante la giornata e si illuminano "
+"completamente al calare della notte."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:78
@@ -214,6 +252,8 @@ msgid ""
 "Finally, the in-game sounds for many units and user interface elements have "
 "been replaced."
 msgstr ""
+"Infine, i rumori di gioco di molte unità e gli elementi dell’interfaccia "
+"utente sono stati riposizionati."
 
 # type: Content of: <html><body><div><div><div><h4>
 #. type: Content of: <html><body><div><div><h4>
@@ -224,15 +264,13 @@ msgstr "Campagne"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:82
-#, fuzzy
-#| msgid "<a href='images/start-3.png'>"
 msgid "<a href=\"images/start-3.jpg\">"
-msgstr "<a href='images/start-3.png'>"
+msgstr "<a href=\"images/start-3.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:82
 msgid "Campaigns menu screenshot"
-msgstr ""
+msgstr "Schermata menù campagne"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:84
@@ -243,14 +281,17 @@ msgid ""
 "secrets of the ancient lich-lords of the Green Isle in her search for "
 "immortality."
 msgstr ""
+"L’elenco delle campagne principali dà il benvenuto alla nuova aggiunta di "
+"<cite>I Segreti degli Antichi</cite>, una campagna creata dai giocatori e "
+"presentata a voi dall’autore di <cite>Acque Morte</cite>! Segui Ardonna di "
+"Tarrynth mentre svela i segreti degli antichi signori-lich dell’Isola Verde, "
+"alla ricerca dell’immortalità."
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:87
-#, fuzzy
-#| msgid "<a href='images/start-4.png'>"
 msgid "<a href=\"images/start-4.jpg\">"
-msgstr "<a href='images/start-4.png'>"
+msgstr "<a href=\"images/start-4.png\">"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:90
@@ -262,6 +303,13 @@ msgid ""
 "revamped unit advancement trees with unique stats to further set them apart "
 "from the standard forest elves featured throughout the rest of the game."
 msgstr ""
+"Dopo anni di battute d’arresto tecniche, <cite>Sotto i Soli Roventi</cite> "
+"finalmente vede la fazione degli elfi del deserto completamente rinnovata "
+"con nuova grafica, nuovi sbalorditivi ritratti grazie all’artista <a href="
+"\"https://www.theartysquid.com/\">Emilien Rotival</a> (LordBob), "
+"collaboratore di lungo corso, e un rinnovato albero di avanzamento delle "
+"unità con caratteristiche peculiari in modo da differenziarli in maniera "
+"ancora più netta da normali elfi utilizzati nelle altre campagne del gioco."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:92
@@ -272,6 +320,12 @@ msgid ""
 "<cite>Descent into Darkness</cite> received similar treatment with visual "
 "improvements of its own."
 msgstr ""
+"I primi nove scenari di <cite>La Rinascita del Nord</cite> ora godono di "
+"mappe nuove e migliorate, grazie al sapiente uso dei nuovi tipi di terreno e "
+"una progettazione più semplice ed organica. Gli scenari stessi sono state "
+"anche ottimizzati per migliorare la fluidità di gioco. <cite>Discesa "
+"nell’Oscurità</cite> ha ricevuto un trattamento simile con i suoi propri "
+"miglioramenti visivi."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:94
@@ -283,6 +337,13 @@ msgid ""
 "position in the timeline of Irdya’s history, as well as the option to sort "
 "them alphabetically should one so desire."
 msgstr ""
+"A causa della quantità di campagne per singolo giocatore incluse in "
+"<cite>Wesnoth</cite>, è diventato sempre più difficile avere un’idea della "
+"cronologia dell’universo nel quale si svolgono le storie che raccontano. Per "
+"risolvere questo problema, il menù delle Campagne ora offre la possibilità "
+"di ordinare le campagne stesse in base alla posizione cronologica che "
+"occupano nella linea temporale della storia di Idrya, così come l’opzione di "
+"ordinarle alfabeticamente, se lo si desidera."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:96
@@ -293,6 +354,12 @@ msgid ""
 "favorable outcomes overcome players, the new Deterministic Mode option will "
 "keep them in check."
 msgstr ""
+"Ci desiderasse arricchire la propria esperienza di gioco con espedienti o "
+"sfide create dai giocatori, ora è possibile utilizzare le Modifiche sia in "
+"modalità singolo che multigiocatore. E nel caso si fosse tentati di caricare "
+"delle partite salvate per cercare dei risultati più favorevoli per battere "
+"gli altri giocatori, la nuova opzioni Modalità Deterministica terrà il tutto "
+"sotto controllo."
 
 # type: Content of: <html><body><div><div><div><dl><dt>
 #. type: Content of: <html><body><div><div><h4>
@@ -303,15 +370,13 @@ msgstr "Multigiocatore"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:100
-#, fuzzy
-#| msgid "<a href='images/start-5.png'>"
 msgid "<a href=\"images/start-5.jpg\">"
-msgstr "<a href='images/start-5.png'>"
+msgstr "<a href=\"images/start-5.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:100
 msgid "Multiplayer game setup screenshot"
-msgstr ""
+msgstr "Schermata impostazione partita multigiocatore"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:102
@@ -323,6 +388,14 @@ msgid ""
 "game creation for those using map authors’ recommended settings, and a more "
 "comprehensive display of faction attributes."
 msgstr ""
+"L’atrio multigiocatore di <cite>Wesnoth</cite> è stato completamente "
+"ridisegnato a partire da zero per fornire un’esperienza più semplice ai "
+"nuovi giocatori che stanno imparando le meccaniche di gioco. Le nuove "
+"funzionalità includono log delle chat cliccabili, schede separate per "
+"scambio di messaggi privati, un filtraggio più semplice delle partite e dei "
+"giocatori, un creazione di partite più rapida per chi utilizza le "
+"impostazioni raccomandate per i creatori di mappe e una visualizzazione più "
+"completa delle caratteristiche delle fazioni."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:104
@@ -332,6 +405,12 @@ msgid ""
 "<cite>Wesnoth</cite> now ships with a total of 55 carefully-balanced maps "
 "with many different environments and team set-ups for players to choose from."
 msgstr ""
+"In termini di nuovi contenuti, i giocatori saranno lieti di sapere che "
+"l’elenco delle partite è stato ampliato con non meno di <b>nove</b> mappe "
+"create grazie al contributo della comunità! <cite>Wesnoth</cite> quindi ora "
+"presenta un totale di 55 mappe attentamente bilanciate con molte "
+"ambientazioni e configurazioni di squadre differenti fra i quali possono "
+"scegliere i giocatori."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:106
@@ -342,6 +421,12 @@ msgid ""
 "multitude of stats changes to various Dunefolk units aimed to better balance "
 "the faction in multiplayer matchups."
 msgstr ""
+"La fazione multigiocatore del Califfato introdotta nella versione 1.12 è "
+"stata rinominata come Popolo delle Dune. Questo fa parte dello sforzo, "
+"tuttora in corso, di espandere il loro folklore ed integrarli meglio nel "
+"mondo di Irdya. Il tutto è abbinato ad una miriade di piccoli cambiamenti "
+"alle statistiche delle varie unità del Popolo delle Dune allo scopo di "
+"migliorare il bilanciamento della fazione nelle partite multigiocatore."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:108
@@ -349,20 +434,21 @@ msgid ""
 "It is now possible to forfeit a multiplayer game, signaling that you no "
 "longer intend to keep playing without simply suddenly quitting."
 msgstr ""
+"Ora è possibile abbandonare una partita multigiocatore semplicemente "
+"segnalando che non si intende continuare a giocare senza dover più "
+"abbandonare improvvisamente la partita."
 
 # type: Content of: <html><body><div><div><div><h4>
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:110
 msgid "General"
-msgstr "Generico"
+msgstr "Generali"
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:113
-#, fuzzy
-#| msgid "<a href='images/start-6.png'>"
 msgid "<a href=\"images/start-6.jpg\">"
-msgstr "<a href='images/start-6.png'>"
+msgstr "<a href=\"images/start-6.png\">"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:116
@@ -372,6 +458,11 @@ msgid ""
 "different color perception to identify each unit’s status. An option "
 "(disabled by default) is also provided to display a color orb on enemy units."
 msgstr ""
+"Ora è possibile personalizzare i colori dei globi di movimento/attacco "
+"visualizzati insieme alle unità sulla mappa, per rendere più facile, ai "
+"giocatori con una diversa percezione dei colori, identificare lo stato di "
+"ogni unità. Viene inoltre fornita una opzione (disabilitata di default) per "
+"visualizzare un globo colorato sulle unità nemiche."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:118
@@ -380,6 +471,9 @@ msgid ""
 "pauses the music by default. If you’d prefer it to keep playing, there is an "
 "option for that."
 msgstr ""
+"Passare ad un’altra applicazione mentre <cite>Wesnoth</cite> è in "
+"esecuzione, metterà di default in pausa la musica. Se preferisci continuare "
+"a sentirla, c’è una apposita opzione da attivare."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:120
@@ -392,6 +486,13 @@ msgid ""
 "libraries the game is built against, and a list of optional features enabled "
 "by the packager."
 msgstr ""
+"Per permettere ai giocatori di includere facilmente i dettagli sul loro "
+"sistema in fase di segnalazione di problemi con il gioco, è accessibile una "
+"nuova finestra di dialogo dall’angolo in basso a sinistra del menù "
+"principale. Tra le informazioni fornite ci sono la versione del sistema "
+"operativo, i percorsi dei vari file che <cite>Wesnoth</cite> usa, la "
+"versione delle librerie con le quali è stato compilato il gioco e un elenco "
+"di funzionalità opzionali abilitati da chi compila il gioco."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:122
@@ -405,6 +506,16 @@ msgid ""
 "may still be achieved through the use of certain command-line options for "
 "those who prefer to install <cite>Wesnoth</cite> on an external drive."
 msgstr ""
+"Infine, per i giocatori che utilizzano Windows, la configurazione del gioco, "
+"i salvataggi e le estensioni ora vengono salvate nella cartella Documenti. "
+"Questo cambiamento è stato fatto per evitare diversi problemi che possono "
+"sorgere dal tradizionale metodo di scrivere nella cartella Programmi del "
+"sistema, che non è né consigliata, né ben supportata nelle versioni più "
+"recenti di Windows. Da notare che mentre la tradizionale opzione di "
+"memorizzazione dei file nel percorso di istallazione è scomparsa, questo "
+"comportamento può ancora essere utilizzato in alcune opzioni da riga di "
+"comando per chi preferisce installare <cite>Wesnoth</cite> in un disco "
+"esterno."
 
 # type: Content of: <html><body><div><div><div><h3>
 #. type: Content of: <html><body><div><div><h3>
@@ -415,10 +526,8 @@ msgstr "Per i creatori di contenuti"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:127
-#, fuzzy
-#| msgid "<a href='images/start-1.png'>"
 msgid "<a href=\"images/start-7.jpg\">"
-msgstr "<a href='images/start-1.png'>"
+msgstr "<a href=\"images/start-7.png\">"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:130
@@ -435,6 +544,20 @@ msgid ""
 "change does not retroactively affect any files previously published under "
 "the GNU GPL unless the copyright holder chooses to relicense said resources."
 msgstr ""
+"Questa serie di rilasci porta con se un cambiamento importante e lungamente "
+"atteso al modo in cui il contenuto di <cite>Wesnoth</cite> viene concesso in "
+"licenza. Sebbene tutti i contenuti avessero precedentemente richiesto "
+"l’utilizzo della Licenza Pubblica Generale GNU, versione 2 o successiva sia "
+"per il codice che per le risorse video ed audio, ora è possibile per i "
+"creatori utilizzare <b>qualsiasi</b> <a href=\"https://creativecommons.org/"
+"licenses/\">licenza Creative Commons</a> per contenuti artistici, suoni e "
+"musica nelle loro creazioni. Inoltre le risorse fornite con il gioco possono "
+"anche essere concesse in licenza con la <a href=\"https://creativecommons."
+"org/licenses/by-sa/4.0/\">licenza CC BY-SA</a>. In entrambi i casi, la "
+"Licenza Pubblica Generale GNU continua ad essere supportata. Questo "
+"cambiamento non ha effetti retroattivi su alcun file pubblicato "
+"precedentemente sotto licenza GNU GPL salvo che il possessore dei diritti "
+"non scelga di rilasciare tali risorse."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:132
@@ -454,6 +577,21 @@ msgid ""
 "access to a built-in Lua console for debugging and testing code directly "
 "within the game."
 msgstr ""
+"Per quanto riguarda gli aspetti più tecnici, i motori WML, Lua e Linguaggio "
+"Formula di <cite>Wesnoth</cite> sono stati largamente migliorati e cambiati "
+"in questo ciclo di rilascio. L’interprete Lua interno è stato aggiornato "
+"alla versione 5.3.4,e sono state aggiunte molte nuove funzionalità alle <a "
+"href=\"https://wiki.wesnoth.org/LuaWML\">API Lua</a>. Questo comprende la "
+"possibilità di scrivere <a href=\"https://wiki.wesnoth.org/"
+"MapGeneratorWML#The_lua_generator\">generatori di mappe</a> utilizzando Lua, "
+"invocare determinate finestre utilizzate nelle varie IU del gioco (menù pop-"
+"up, prompt di conferma, pop-up informativi, la IU <code>[messaggio]</code>, "
+"e la IU nella schermata della storia), e utilizzare le funzioni Lua con "
+"l’attributo <code>lua_function=</code> nei <a href=\"https://wiki.wesnoth."
+"org/StandardLocationFilter\">Filtri di Posizione Standard</a>. Il Gamestate "
+"Inspector ora mette a disposizione anche la possibilità di accedere ad un "
+"console Lua integrata per il debug ed il test del codice direttamente "
+"all’interno del gioco."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:134
@@ -469,6 +607,17 @@ msgid ""
 "a> also include support for formulas to alter the rendering of images within "
 "the game."
 msgstr ""
+"Sono state migliorate le formule Inline del Linguaggio Formula Wesnoth, "
+"aggiungendone di nuove incorporate e con nuove caratteristiche sintattiche. "
+"Avendo esteso il supporto per l’attributo filtro <code>formula=</code> anche "
+"ai <a href=\"https://wiki.wesnoth.org/StandardLocationFilter\">Filtri di "
+"Posizione Standard</a> e ai <a href=\"https://wiki.wesnoth.org/"
+"StandardSideFilter\">Filtri di Squadra Standard</a>, le formule inline ora "
+"possono essere utilizzate per costruire logiche complesse all’interno del "
+"WML. Anche le nuove funzioni <code>~ADJUST_ALPHA()</code> e <code>~CHAN()</"
+"code> per i <a href=\"https://wiki.wesnoth.org/ImagePathFunctionWML"
+"\">percorsi delle immagini</a> includono il supporto alle formule per "
+"alterare la letture delle immagini all’interno del gioco."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:136
@@ -480,6 +629,13 @@ msgid ""
 "in situations where more than one definition of a macro would otherwise be "
 "needed to cover varied use cases."
 msgstr ""
+"Il preprocessore WML ora supporta i parametri opzionali con dei valori di "
+"default nelle macro definizioni e le sostituzioni tramite le nuove direttive "
+"<a href=\"https://wiki.wesnoth.org/PreprocessorRef#.23arg_and_.23endarg"
+"\"><code>#arg/#endarg</code></a>. Ciò dovrebbe consentire agli autori di "
+"estensioni di ridurre l’eccesso di codice in quelle situazioni in cui "
+"sarebbe altrimenti necessaria più di una definizione di macro per coprire i "
+"vari casi di utilizzo."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:138
@@ -490,6 +646,11 @@ msgid ""
 "underlying syntax more lightweight compared to the old <code>{FOREACH}</"
 "code> macro and hand-written alternatives."
 msgstr ""
+"I costrutti di loop del WML ora sono più naturali e flessibili con "
+"l’aggiunta dei tag <a href=\"https://wiki.wesnoth.org/"
+"ConditionalActionsWML#.5Bfor.5D\"><code>[for]</code> e <code>[foreach]</"
+"code></a>, rendendo la sintassi sottostante più leggera rispetto alla vecchi "
+"macro <code>{FOREACH}</code> e alle alternative scritte a mano."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:140
@@ -504,6 +665,17 @@ msgid ""
 "href=\"https://wiki.wesnoth.org/Micro_AIs\">MicroAI presets</a> were added. "
 "The sneaky assassin preset is perfect for picking off pesky enemies!"
 msgstr ""
+"Dopo diversi cicli di sviluppo durante i quali sono state aggiunte "
+"funzionalità nuove e/o sperimentali al motore IA, è stato intrapreso un "
+"lavoro di pulizia e riorganizzazione, lungamente rimandato. Molti errori "
+"importanti sono stati risolti lungo il percorso, come le incongruenze nel "
+"trattare le unità nascoste, la nebbia, la cortina e un problema nel "
+"reclutamento quando la IA aveva una lista di richiamo disponibile. Nel "
+"complesso, gli autori delle estensioni ora hanno più controllo che mai "
+"sull’IA. Diverse impostazioni e parametri possono essere configurati con "
+"maggiore facilità, e sono stati aggiunti diversi <a href=\"https://wiki."
+"wesnoth.org/Micro_AIs\">presets MicroAI</a>. Il preset dell’assassino "
+"furtivo è perfetto per eliminare nemici fastidiosi!"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:142
@@ -514,6 +686,13 @@ msgid ""
 "code> tag to implement hidden modifications that can be explicitly requested "
 "by add-ons instead of manually selected by players."
 msgstr ""
+"Come detto in precedenza, le <a href=\"https://wiki.wesnoth.org/"
+"ModificationWML\">modifiche del gioco</a> ora possono essere usate sia nelle "
+"campagne a singolo giocatore che in partite multigiocatore. La loro sintassi "
+"è stata arricchita da un tag <code>[resource]</code> tag per "
+"l’implementazione di modifiche nascoste che possono essere richieste "
+"esplicitamente da delle  estensioni, piuttosto che selezionate manualmente "
+"dai giocatori."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:144
@@ -522,6 +701,10 @@ msgid ""
 "well, enabling easier access to the game’s files and installed add-ons, as "
 "well as any other location via quick-access bookmarks."
 msgstr ""
+"Anche le finestre “Apri” e “Salva Come” dell’editor delle mappe sono state "
+"completamente ridisegnate, consentendo un accesso facilitato ai file del "
+"gioco e alle estensioni installate, nonché a molte altre posizioni tramite i "
+"segnalibri ad accesso rapido."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:146
@@ -537,6 +720,19 @@ msgid ""
 "convenient reference. Finally, access to the current session’s log is "
 "possible from the aforementioned version information dialog."
 msgstr ""
+"Infine, i creatori di contenuti che eseguono il gioco su Windows potrebbero "
+"trovare utile la scorciatoia <i>\"Battle for Wesnoth (con console)\"</i>. "
+"Ciò include la nuova opzione da riga di comando <code>--wconsole</code>, che "
+"consente di visualizzare in tempo reale il registro dei messaggi in una "
+"console standard di windows, piuttosto che in un file. Se si preferisce "
+"mantenere la usuale persistenza dei registri, abbiamo anche migliorato il "
+"modo in cui vengono memorizzati su disco. I file di registro vengono infatti "
+"ora salvati nella cartella <code>logs</code> nel percorso dei file del "
+"giocatore, e i registri fino ad otto sessioni precedenti sessioni vengono "
+"archiviati in file separati con un marcatore temporale per un comodo "
+"riferimento. Da ultimo, l ’accesso ai registri della sessione corrente è "
+"consentito dalla suddetta finestra di dialogo delle informazioni sulla "
+"versione."
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:148
@@ -545,16 +741,6 @@ msgstr "Scaricamento"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:150
-#, fuzzy
-#| msgid ""
-#| "<cite>The Battle for Wesnoth</cite> is made available under the <a "
-#| "href='https://www.gnu.org/licenses/gpl-2.0.html'>GNU General Public "
-#| "License</a> (GNU GPL). The source code is available from <a href='http://"
-#| "www.wesnoth.org'>wesnoth.org</a>, where you can also find instructions "
-#| "for <a href='//wiki.wesnoth.org/CompilingWesnoth'>building from source</"
-#| "a> on a range of different operating systems. Ready-to-go packages are "
-#| "also available for most popular operating systems, including Microsoft "
-#| "Windows, Apple OS X, and GNU/Linux."
 msgid ""
 "<cite>The Battle for Wesnoth</cite> is made available under the <a href="
 "\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU General Public License</a> "
@@ -567,54 +753,50 @@ msgid ""
 "different operating systems on our wiki. Ready-to-install packages are "
 "available for Microsoft Windows, Apple macOS, and GNU/Linux."
 msgstr ""
-"<em>Battle for Wesnoth</em> è disponibile sotto i termini della <a "
-"href='http://www.gnu.org/licenses/gpl-2.0.html'>Licenza Pubblica Generale "
-"GNU</a> (GNU GPL). Il codice sorgente è disponibile su <a href='http://www."
-"wesnoth.org'>wesnoth.org</a> dove potrai trovare le istruzioni per <a "
-"href='http://wesnoth.org/wiki/CompilingWesnoth'>compilarne il codice "
-"sorgente</a> su tanti sistemi operativi differenti. Sono disponibili anche "
-"molti pacchetti contenenti i binari per i più popolari sistemi operativi, "
-"inclusi GNU/Linux, Microsoft Windows e Apple OS X."
+"<cite>Battle for Wesnoth</cite> è disponibile sotto i termini della <a href="
+"\"https://www.gnu.org/licenses/gpl-2.0.html\">Licenza Pubblica Generale GNU</"
+"a> (GNU GPL) — sia la versione 2 della suddetta licenza, o versioni "
+"successive, se preferisci — e sotto licenza <a href=\"https://"
+"creativecommons.org/licenses/by-sa/4.0/\">Licenze Creative Commons "
+"Attribution Share-Alike</a> (CC BY-SA), version 4.0. . Il codice sorgente è "
+"disponibile su <a href=\"https://github.com/wesnoth/wesnoth\">GitHub</a> "
+"dove potrai trovare le istruzioni per <a href=\"https://wiki.wesnoth.org/"
+"CompilingWesnoth\">compilarne il codice sorgente</a> su tanti sistemi "
+"operativi differenti. Sono disponibili anche molti pacchetti contenenti i "
+"binari per i più popolari sistemi operativi, inclusi GNU/Linux, Microsoft "
+"Windows e Apple macOS."
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:153
-#, fuzzy
-#| msgid ""
-#| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-#| "wesnoth-1.12.6/wesnoth-1.12.6-win32.exe/download'><b>Wesnoth for "
-#| "Microsoft Windows</b></a>"
 msgid ""
 "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
 "wesnoth-1.14.0/wesnoth-1.14.0-win32.exe/download\"><i class=\"downloadicon "
 "downloadicon-windows\" aria-hidden=\"true\"></i><span class=\"os\">Windows</"
 "span> <span class=\"size\">403.1 MiB</span></a>"
 msgstr ""
-"<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-"wesnoth-1.12.6/wesnoth-1.12.6-win32.exe/download'><b>Wesnoth per Microsoft "
-"Windows</b></a>"
+"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
+"wesnoth-1.14.0/wesnoth-1.14.0-win32.exe/download\"><i class=\"downloadicon "
+"downloadicon-windows\" aria-hidden=\"true\"></i><span class=\"os\">Windows</"
+"span> <span class=\"size\">403.1 MiB</span></a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:154
-#, fuzzy
-#| msgid ""
-#| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-#| "wesnoth-1.12.6/Wesnoth_1.12.6.dmg/download'><b>Wesnoth for Apple OS X</"
-#| "b></a>"
 msgid ""
 "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
 "wesnoth-1.14.0/Wesnoth_1.14.0.dmg/download\"><i class=\"downloadicon "
 "downloadicon-apple\" aria-hidden=\"true\"></i><span class=\"os\">macOS</"
 "span> <span class=\"size\">447.0 MiB</span></a>"
 msgstr ""
-"<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-"wesnoth-1.12.6/Wesnoth_1.12.6.dmg/download'><b>Wesnoth per Apple OS X</b></a>"
+"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
+"wesnoth-1.14.0/Wesnoth_1.14.0.dmg/download\"><i class=\"downloadicon "
+"downloadicon-apple\" aria-hidden=\"true\"></i><span class=\"os\">macOS</"
+"span> <span class=\"size\">447.0 MiB</span></a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:155
-#, fuzzy
 #| msgid ""
 #| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
 #| "wesnoth-1.12.6/wesnoth-1.12.6.tar.bz2/download'><b>Source code</b></a>"
@@ -624,8 +806,10 @@ msgid ""
 "downloadicon-src\" aria-hidden=\"true\"></i><span class=\"os\">Source</span> "
 "<span class=\"size\">442.2 MiB</span></a>"
 msgstr ""
-"<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-"wesnoth-1.12.6/wesnoth-1.12.6.tar.bz2/download'><b>Codice sorgente</b></a>"
+"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
+"wesnoth-1.14.0/wesnoth-1.14.0.tar.bz2/download\"><i class=\"downloadicon "
+"downloadicon-src\" aria-hidden=\"true\"></i><span class=\"os\">Codice "
+"sorgente</span> <span class=\"size\">442.2 MiB</span></a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:156
@@ -634,6 +818,9 @@ msgid ""
 "\"downloadicon downloadicon-linux\" aria-hidden=\"true\"></i><span class=\"os"
 "\">Linux</span></a>"
 msgstr ""
+"<a href=\"https://wiki.wesnoth.org/WesnothBinariesLinux\"><i class="
+"\"downloadicon downloadicon-linux\" aria-hidden=\"true\"></i><span class=\"os"
+"\">Linux</span></a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:157
@@ -642,39 +829,32 @@ msgid ""
 "id575852062\"><i class=\"downloadicon downloadicon-ios\" aria-hidden=\"true"
 "\"></i><span class=\"os\">iOS</span></a>"
 msgstr ""
+"<a href=\"https://itunes.apple.com/us/app/battle-for-wesnoth-hd/"
+"id575852062\"><i class=\"downloadicon downloadicon-ios\" aria-hidden=\"true"
+"\"></i><span class=\"os\">iOS</span></a>"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:160
-#, fuzzy
-#| msgid ""
-#| "You can refer to the <a href='//wiki.wesnoth.org/Download'>downloads "
-#| "page</a> for the latest up-to-date packages and instructions, including "
-#| "those for other platforms once they become available."
 msgid ""
 "You can refer to the <a href=\"https://wiki.wesnoth.org/Download\">downloads "
 "page</a> for the latest up-to-date packages and instructions, including "
 "those for other platforms once they become available."
 msgstr ""
-"Puoi trovare informazioni aggiornate su come scaricare alla <a href=\"http://"
-"www.wesnoth.org/wiki/Download\">pagina degli scaricamenti</a>. Qui puoi "
-"trovare anche pacchetti e istruzioni per altre piattaforme una volta che "
-"sono disponibili."
+"Puoi trovare informazioni aggiornate su come scaricare alla <a href="
+"\"https://wiki.wesnoth.org/Download\">pagina degli scaricamenti</a>. Qui "
+"puoi trovare anche pacchetti e istruzioni per altre piattaforme una volta "
+"che sono disponibili."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:162
-#, fuzzy
-#| msgid ""
-#| "If you downloaded previous versions of the game, you might be interested "
-#| "in downloading the <a href='//wiki.wesnoth.org/Download_Xdeltas'>Xdelta</"
-#| "a> files only."
 msgid ""
 "If you downloaded previous versions of the game, you might be interested in "
 "downloading the <a href=\"https://wiki.wesnoth.org/Download_Xdeltas"
 "\">Xdelta</a> files only."
 msgstr ""
 "Se hai già scaricato una versione precedente del gioco potresti essere "
-"interessato allo scaricamento dei soli file <a href='//www.wesnoth.org/wiki/"
-"Download_Xdeltas'>xdelta</a>."
+"interessato allo scaricamento dei soli file <a href=\"https://wiki.wesnoth."
+"org/Download_Xdeltas\">Xdelta</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:164
@@ -683,16 +863,6 @@ msgstr "Contributi"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:166
-#, fuzzy
-#| msgid ""
-#| "Since its inception in July 2003, <cite>The Battle for Wesnoth</cite> is "
-#| "constantly being improved and expanded upon by hundreds of international "
-#| "volunteers from diverse backgrounds. Contributions range from mainline "
-#| "content shipped as part of the official game releases to hundreds of user-"
-#| "made projects available to download from our add-ons server, directly "
-#| "from the title screen. Whether you need help beating a particular "
-#| "scenario or adding a feature to your custom maps, <cite>Wesnoth</cite> "
-#| "boasts a massive community of players and creators always willing to help."
 msgid ""
 "<cite>The Battle for Wesnoth</cite> is constantly being improved and "
 "expanded upon by a multitude of international volunteers from diverse "
@@ -713,7 +883,7 @@ msgstr ""
 "superare uno scenario particolarmente ostico, o per aggiungere una "
 "caratteristica particolare alla tua mappa, <cite>Wesnoth</cite> vanta una "
 "solida ed ampia comunità di giocatori e creatori che potranno sempre "
-"aiutarti. "
+"aiutarti."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:168
@@ -727,59 +897,44 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:171
-#, fuzzy
-#| msgid "<a href='//wiki.wesnoth.org/Project'>Contribute</a> code"
 msgid "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
-msgstr "<a href='//wiki.wesnoth.org/Project'>Contributi</a> al codice"
+msgstr ""
+"<a href=\"https://wiki.wesnoth.org/Project\">Contribuisci</a> al codice "
+"sorgente"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:172
-#, fuzzy
-#| msgid ""
-#| "<a href='//forums.wesnoth.org/viewforum.php?f=9'>Create</a> art for the "
-#| "main game or for user-made <a href='//forums.wesnoth.org/viewforum.php?"
-#| "f=23'>add-ons</a>"
 msgid ""
 "<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">Create</a> art for "
 "the main game or for user-made <a href=\"https://forums.wesnoth.org/"
 "viewforum.php?f=23\">add-ons</a>"
 msgstr ""
-"<a href='//forums.wesnoth.org/viewforum.php?f=9'>Crea</a> immagini "
-"artistiche per il gioco principale, o anche per le <a href='http://forums."
-"wesnoth.org/viewforum.php?f=23'>estensioni</a> realizzate dagli utenti"
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">Crea</a> immagini "
+"artistiche per il gioco principale, o anche per le <a href=\"https://forums."
+"wesnoth.org/viewforum.php?f=23\">estensioni</a> realizzate dagli utenti"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:173
-#, fuzzy
-#| msgid ""
-#| "<a href='//wiki.wesnoth.org/WesnothTranslations'>Translate</a> the game "
-#| "into your language"
 msgid ""
 "<a href=\"https://wiki.wesnoth.org/WesnothTranslations\">Translate</a> the "
 "game into your language"
 msgstr ""
-"<a href='//wiki.wesnoth.org/WesnothTranslations'>Traduci</a> il gioco nel "
-"tuo linguaggio"
+"<a href=\"https://wiki.wesnoth.org/WesnothTranslations\">Traduci</a> il "
+"gioco nel tuo linguaggio"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:174
-#, fuzzy
-#| msgid ""
-#| "<a href='//forums.wesnoth.org/viewforum.php?f=14'>Produce</a> new music "
-#| "tracks and sound effects"
 msgid ""
 "<a href=\"https://forums.wesnoth.org/viewforum.php?f=14\">Produce</a> new "
 "music tracks and sound effects"
 msgstr ""
-"<a href='//forums.wesnoth.org/viewforum.php?f=14'>Produci</a> nuove tracce "
-"musicali ed effetti sonori"
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=14\">Produci</a> nuove "
+"tracce musicali ed effetti sonori"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:175
-#, fuzzy
-#| msgid "Spread the word about <cite>Wesnoth</cite> on the Internet!"
 msgid "Spread the word about <cite>Wesnoth</cite> on social media!"
-msgstr "Spargi la voce su <cite>Wesnoth</cite> in Internet!"
+msgstr "Spargi la voce su <cite>Wesnoth</cite> sui social media!"
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:178
@@ -789,78 +944,66 @@ msgstr "Altre Informazioni"
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:181
-#, fuzzy
-#| msgid "<a href='//changelog.wesnoth.org/1.12/'>Full Changelog</a> (English)"
 msgid ""
 "<a href=\"https://changelog.wesnoth.org/1.14/\">Full Changelog</a> (English "
 "only)"
 msgstr ""
-"<a href='//changelog.wesnoth.org/1.12/'>Elenco completo delle modifiche</a> "
-"(in inglese)"
+"<a href=\"https://changelog.wesnoth.org/1.14/\">Elenco completo delle "
+"modifiche</a> (in inglese)"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:182
-#, fuzzy
-#| msgid ""
-#| "<a href='//www.wesnoth.org/manual/1.12/manual.en.html'>User’s Manual</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/manual/1.14/manual.en.html\">User’s "
 "Manual</a>"
 msgstr ""
-"<a href='//www.wesnoth.org/manual/1.12/manual.it.html'>Manuale per l’utente</"
-"a>"
+"<a href=\"https://www.wesnoth.org/manual/1.14/manual.it.html\">Manuale per "
+"l’utente</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:183
-#, fuzzy
-#| msgid "<a href='//www.wesnoth.org'>Official Website</a> (English)"
 msgid "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
 msgstr ""
-"<a href='//www.wesnoth.org'>Sito web ufficiale di Wesnoth</a> (Inglese)"
+"<a href=\"https://www.wesnoth.org\">Sito web ufficiale di Wesnoth</a> "
+"(Inglese)"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:185
-#, fuzzy
-#| msgid ""
-#| "<a href='//www.wesnoth.org/start/1.10'>Wesnoth 1.10 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release Notes</a>"
 msgstr ""
-"<a href='//www.wesnoth.org/start/1.10'>Note di rilascio di Wesnoth 1.10</a>"
+"<a href=\"https://www.wesnoth.org/start/1.12\">Note di rilascio di Wesnoth "
+"1.12</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:186
-#, fuzzy
-#| msgid ""
-#| "<a href='//www.wesnoth.org/start/1.10'>Wesnoth 1.10 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release Notes</a>"
 msgstr ""
-"<a href='//www.wesnoth.org/start/1.10'>Note di rilascio di Wesnoth 1.10</a>"
+"<a href=\"https://www.wesnoth.org/start/1.10\">Note di rilascio di Wesnoth "
+"1.10</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:187
-#, fuzzy
-#| msgid "<a href='//www.wesnoth.org/start/1.8'>Wesnoth 1.8 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</a>"
 msgstr ""
-"<a href='//www.wesnoth.org/start/1.8'>Note di rilascio di Wesnoth 1.8</a>"
+"<a href=\"https://www.wesnoth.org/start/1.8\">Note di rilascio di Wesnoth "
+"1.8</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:188
-#, fuzzy
-#| msgid "<a href='//www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</a>"
 msgstr ""
-"<a href='//www.wesnoth.org/start/1.6'>Note di rilascio di Wesnoth 1.6</a>"
+"<a href=\"https://www.wesnoth.org/start/1.6\">Note di rilascio di Wesnoth "
+"1.6</a>"
 
 #. type: Content of: <html><body><div><div><div><div>
 #: template.html:199
@@ -873,20 +1016,23 @@ msgid ""
 "<a href=\"https://wiki.wesnoth.org/StartingPoints\">Site Map</a> &#8226; <a "
 "href=\"https://status.wesnoth.org/\">Site Status</a>"
 msgstr ""
+"<a href=\"https://wiki.wesnoth.org/StartingPoints\">Mappa de Sito</a> "
+"&#8226; <a href=\"https://status.wesnoth.org/\">Stato del Sito</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:206
-#, fuzzy
 #| msgid "Copyright &#169; 2003&#8211;2014 The Battle for Wesnoth Project"
 msgid ""
 "Copyright &#169; 2003&#8211;2018 by <a rel=\"author\" href=\"https://wiki."
 "wesnoth.org/Project\">The Battle for Wesnoth Project</a>."
-msgstr "Copyright &#169; 2003&#8211;2014 The Battle for Wesnoth Project"
+msgstr ""
+"Copyright &#169; 2003&#8211;2018 by <a rel=\"author\" href=\"https://wiki."
+"wesnoth.org/Project\">The Battle for Wesnoth Project</a>."
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:207
 msgid "Site design Copyright &#169; 2017&#8211;2018 by Iris Morelle."
-msgstr ""
+msgstr "Site design Copyright &#169; 2017&#8211;2018 by Iris Morelle."
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #, fuzzy
