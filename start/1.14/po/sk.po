@@ -5,31 +5,28 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-05-01 17:47-0300\n"
-"PO-Revision-Date: 2012-01-14 18:37+0100\n"
+"PO-Revision-Date: 2018-05-06 22:59+0200\n"
 "Last-Translator: aceman <acelists@atlas.sk>\n"
 "Language-Team: none\n"
-"Language: \n"
+"Language: sk_SK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
-"X-Poedit-Language: Slovak\n"
-"X-Poedit-Country: SLOVAKIA\n"
+"X-Generator: Poedit 2.0.4\n"
 
 #. type: Attribute 'lang' of: <html>
 #: template.html:3
 msgid "en"
-msgstr ""
+msgstr "sk"
 
 # type: Content of: <html><head><title>
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:15 template.html:29
-#, fuzzy
-#| msgid "Battle for Wesnoth 1.10"
 msgid "The Battle for Wesnoth 1.14"
-msgstr "Bitka o Wesnoth 1.10"
+msgstr "Bitka o Wesnoth 1.14"
 
 #. type: Content of: <html><body><div><div>
 #: template.html:27
@@ -37,11 +34,13 @@ msgid ""
 "<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span aria-hidden="
 "\"true\"></span></a>"
 msgstr ""
+"<a id=\"bigshield\" href=\"/\" aria-label=\"Logo Wesnothu\"><span aria-"
+"hidden=\"true\"></span></a>"
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:29
 msgid "<span id=\"branding-sub\">New Horizons Update</span>"
-msgstr ""
+msgstr "<span id=\"branding-sub\">Aktualizácia \"Nové horizonty\"</span>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:32
@@ -49,6 +48,8 @@ msgid ""
 "<i>May 2018.</i> The development team is proud to present version 1.14 of "
 "<cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
 msgstr ""
+"<i>Máj 2018.</i> Vývojový tím je hrdý, že môže predstaviť verziu 1.14 hry "
+"<cite><a href=\"/\">Bitka&nbsp;o&nbsp;Wesnoth</a></cite>!"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:34
@@ -76,10 +77,8 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><h2>
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:58
-#, fuzzy
-#| msgid "What’s New in Wesnoth 1.10"
 msgid "What’s New in This Update"
-msgstr "Novinky vo Wesnothe 1.10"
+msgstr "Čo je nové v tomto vydaní"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:60
@@ -111,15 +110,14 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:64
-#, fuzzy
 #| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href=\"images/start-1.jpg\">"
-msgstr "<a href='images/start-1-full.jpg'>"
+msgstr "<a href=\"images/start-1.jpg\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:64
 msgid "Title Screen"
-msgstr ""
+msgstr "Úvodná obrazovka"
 
 # type: Content of: <html><body><div><div><div>
 #. type: Content of: <html><body><div><div><div><div>
@@ -137,10 +135,9 @@ msgstr "Pre hráčov"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:69
-#, fuzzy
 #| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href=\"images/start-2.jpg\">"
-msgstr "<a href='images/start-1-full.jpg'>"
+msgstr "<a href=\"images/start-2.jpg\">"
 
 # type: Attribute 'alt' of: <html><body><div><div><div><div><div><img>
 #. type: Attribute 'alt' of: <html><body><div><div><div><div><a><img>
@@ -204,15 +201,14 @@ msgstr "Výpravy"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:82
-#, fuzzy
 #| msgid "<a href='images/start-3-full.jpg'>"
 msgid "<a href=\"images/start-3.jpg\">"
-msgstr "<a href='images/start-3-full.jpg'>"
+msgstr "<a href=\"images/start-3.jpg\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:82
 msgid "Campaigns menu screenshot"
-msgstr ""
+msgstr "Snímka obrazovky ponuky výprav"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:84
@@ -227,10 +223,9 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:87
-#, fuzzy
 #| msgid "<a href='images/start-4-full.jpg'>"
 msgid "<a href=\"images/start-4.jpg\">"
-msgstr "<a href='images/start-4-full.jpg'>"
+msgstr "<a href=\"images/start-4.jpg\">"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:90
@@ -283,15 +278,14 @@ msgstr "Zápas pre viacerých hráčov"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:100
-#, fuzzy
 #| msgid "<a href='images/start-5-full.jpg'>"
 msgid "<a href=\"images/start-5.jpg\">"
-msgstr "<a href='images/start-5-full.jpg'>"
+msgstr "<a href=\"images/start-5.jpg\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:100
 msgid "Multiplayer game setup screenshot"
-msgstr ""
+msgstr "Obrazovka nastavenia hry pre viacerých hráčov"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:102
@@ -339,10 +333,9 @@ msgstr "Všeobecné"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:113
-#, fuzzy
 #| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href=\"images/start-6.jpg\">"
-msgstr "<a href='images/start-1-full.jpg'>"
+msgstr "<a href=\"images/start-6.jpg\">"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:116
@@ -389,18 +382,15 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><h3>
 #. type: Content of: <html><body><div><div><h3>
 #: template.html:124
-#, fuzzy
-#| msgid "For Content Developers"
 msgid "For Content Creators"
-msgstr "Pre autorov príbehov"
+msgstr "Pre autorov obsahu"
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:127
-#, fuzzy
 #| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href=\"images/start-7.jpg\">"
-msgstr "<a href='images/start-1-full.jpg'>"
+msgstr "<a href=\"images/start-7.jpg\">"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:130
@@ -529,16 +519,6 @@ msgstr "Na stiahnutie"
 # type: Content of: <html><body><div><div><div><p>
 #. type: Content of: <html><body><div><div><p>
 #: template.html:150
-#, fuzzy
-#| msgid ""
-#| "<em>The Battle for Wesnoth</em> is made available under the <a "
-#| "href='http://www.gnu.org/licenses/gpl-2.0.html'>GNU General Public "
-#| "License</a> (GPL). The source code is available from <a href='http://www."
-#| "wesnoth.org'>wesnoth.org</a>, where you can also find instructions for <a "
-#| "href='http://wiki.wesnoth.org/CompilingWesnoth'>building from source</a> "
-#| "on a range of different operating systems. Ready-to-go packages are also "
-#| "available for most popular operating systems, including Microsoft "
-#| "Windows, Mac OS X, and GNU/Linux."
 msgid ""
 "<cite>The Battle for Wesnoth</cite> is made available under the <a href="
 "\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU General Public License</a> "
@@ -551,65 +531,57 @@ msgid ""
 "different operating systems on our wiki. Ready-to-install packages are "
 "available for Microsoft Windows, Apple macOS, and GNU/Linux."
 msgstr ""
-"Bitka o Wesnoth je dostupná pod <a href='http://www.gnu.org/licenses/gpl-2.0."
-"html'>Všeobecnou verejnou licenciou GNU</a> (GPL). Zdrojový kód nájdete na "
-"stránke <a href='//www.wesnoth.org'>wesnoth.org</a> spolu s návodom na <a "
-"href='//wiki.wesnoth.org/CompilingWesnoth'>zostavenie zo zdrojového kódu</a> "
-"na množstve rozličných operačných systémov. Pre najčastejšie používané "
-"operačné systémy ako Windows, Mac OS X a GNU/Linux sú už inštalačné balíky "
-"pripravené."
+"<cite>Bitka o Wesnoth</cite> je dostupná pod <a href=\"https://www.gnu.org/"
+"licenses/gpl-2.0.html\">Všeobecnou verejnou licenciou GNU</a> (GPL) — verzie "
+"2 alebo vyššej, podľa vašej voľby — a <a href=\"https://creativecommons.org/"
+"licenses/by-sa/4.0/\">Creative Commons Attribution Share-Alike License</a> "
+"(CC BY-SA), verzie 4.0. Zdrojový kód nájdete na <a href=\"https://github.com/"
+"wesnoth/wesnoth\">GitHube</a> spolu s návodom na <a href=\"https://wiki."
+"wesnoth.org/CompilingWesnoth\">zostavenie zo zdrojového kódu</a> na množstve "
+"rozličných operačných systémov na našej wiki. Pre systémy Microsoft Windows, "
+"Apple Mac OS X a GNU/Linux sú už inštalačné balíky pripravené."
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:153
-#, fuzzy
-#| msgid ""
-#| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/"
-#| "wesnoth-1.10/wesnoth-1.10/wesnoth-1.10-win32.exe/download'>Wesnoth for "
-#| "Microsoft Windows</a> </strong>"
 msgid ""
 "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
 "wesnoth-1.14.0/wesnoth-1.14.0-win32.exe/download\"><i class=\"downloadicon "
 "downloadicon-windows\" aria-hidden=\"true\"></i><span class=\"os\">Windows</"
 "span> <span class=\"size\">403.1 MiB</span></a>"
 msgstr ""
-"<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
-"wesnoth-1.10/wesnoth-1.10-win32.exe/download'>Wesnoth pre MS Windows</a> </"
-"strong>"
+"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
+"wesnoth-1.14.0/wesnoth-1.14.0-win32.exe/download\"><i class=\"downloadicon "
+"downloadicon-windows\" aria-hidden=\"true\"></i><span class=\"os\">Windows</"
+"span> <span class=\"size\">403.1 MiB</span></a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:154
-#, fuzzy
-#| msgid ""
-#| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/"
-#| "wesnoth-1.10/wesnoth-1.10/Wesnoth_1.10.dmg/download'>Wesnoth for Mac OS "
-#| "X</a> </strong>"
 msgid ""
 "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
 "wesnoth-1.14.0/Wesnoth_1.14.0.dmg/download\"><i class=\"downloadicon "
 "downloadicon-apple\" aria-hidden=\"true\"></i><span class=\"os\">macOS</"
 "span> <span class=\"size\">447.0 MiB</span></a>"
 msgstr ""
-"<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
-"wesnoth-1.10/Wesnoth_1.10.dmg?download'>Wesnoth pre Mac OS X</a> </strong>"
+"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
+"wesnoth-1.14.0/Wesnoth_1.14.0.dmg/download\"><i class=\"downloadicon "
+"downloadicon-apple\" aria-hidden=\"true\"></i><span class=\"os\">Mac OS X</"
+"span> <span class=\"size\">447.0 MiB</span></a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:155
-#, fuzzy
-#| msgid ""
-#| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/"
-#| "wesnoth-1.10/wesnoth-1.10/wesnoth-1.10.tar.bz2/download'>Source code</a> "
-#| "</strong>"
 msgid ""
 "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
 "wesnoth-1.14.0/wesnoth-1.14.0.tar.bz2/download\"><i class=\"downloadicon "
 "downloadicon-src\" aria-hidden=\"true\"></i><span class=\"os\">Source</span> "
 "<span class=\"size\">442.2 MiB</span></a>"
 msgstr ""
-"<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
-"wesnoth-1.10/wesnoth-1.10.tar.bz2/download'>Zdrojový kód</a> </strong>"
+"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
+"wesnoth-1.14.0/wesnoth-1.14.0.tar.bz2/download\"><i class=\"downloadicon "
+"downloadicon-src\" aria-hidden=\"true\"></i><span class=\"os\">Zdrojový kód</"
+"span> <span class=\"size\">442.2 MiB</span></a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:156
@@ -630,41 +602,31 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><p>
 #. type: Content of: <html><body><div><div><p>
 #: template.html:160
-#, fuzzy
-#| msgid ""
-#| "You can get up-to-date information on downloads at the <a href='http://"
-#| "wiki.wesnoth.org/Download'>downloads page</a>. There you can also find "
-#| "packages and instructions for other platforms once they are available."
 msgid ""
 "You can refer to the <a href=\"https://wiki.wesnoth.org/Download\">downloads "
 "page</a> for the latest up-to-date packages and instructions, including "
 "those for other platforms once they become available."
 msgstr ""
-"Aktuálne informácie o stiahnuteľných súboroch nájdete na stránke <a href='//"
-"wiki.wesnoth.org/Download'>Download</a>. Tam bude možné nájsť aj inštalačné "
-"balíky a inštrukcie pre iné platformy hneď ako budú dostupné."
+"Aktuálne informácie o stiahnuteľných súboroch nájdete na stránke <a href="
+"\"https://wiki.wesnoth.org/Download\">Download</a>. Tam bude možné nájsť aj "
+"inštalačné balíky a inštrukcie pre iné platformy hneď ako budú dostupné."
 
 # type: Content of: <html><body><div><div><div><p>
 #. type: Content of: <html><body><div><div><p>
 #: template.html:162
-#, fuzzy
-#| msgid ""
-#| "If you downloaded previous versions of the game, you might be interested "
-#| "in downloading the <a href='http://wiki.wesnoth.org/"
-#| "Download_Xdeltas'>xdelta</a> files only."
 msgid ""
 "If you downloaded previous versions of the game, you might be interested in "
 "downloading the <a href=\"https://wiki.wesnoth.org/Download_Xdeltas"
 "\">Xdelta</a> files only."
 msgstr ""
 "Ak ste si už stiahli predchádzajúce verzie hry, možno budete mať záujem o "
-"stiahnutie iba súborov <a href='//wiki.wesnoth.org/wiki/"
-"Download_Xdeltas'>xdelta</a>."
+"stiahnutie iba súborov <a href=\"https://wiki.wesnoth.org/Download_Xdeltas"
+"\">xdelta</a>."
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:164
 msgid "Contribute"
-msgstr ""
+msgstr "Prispejte"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:166
@@ -689,10 +651,10 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:171
-#, fuzzy
 #| msgid "<a href='http://www.wesnoth.org'>"
 msgid "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
-msgstr "<a href='//www.wesnoth.org'>"
+msgstr ""
+"<a href=\"https://wiki.wesnoth.org/Project\">Prispejte</a> programovaním"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:172
@@ -719,7 +681,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:175
 msgid "Spread the word about <cite>Wesnoth</cite> on social media!"
-msgstr ""
+msgstr "Rozšírte informácie o <cite>Wesnothe</cite> na sociálnych médiách!"
 
 # type: Content of: <html><body><div><div><div><h2>
 #. type: Content of: <html><body><div><div><h2>
@@ -730,81 +692,66 @@ msgstr "Ďalšie informácie"
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:181
-#, fuzzy
-#| msgid ""
-#| "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.10.0/"
-#| "changelog'>Full Changelog</a> (English, very long)"
 msgid ""
 "<a href=\"https://changelog.wesnoth.org/1.14/\">Full Changelog</a> (English "
 "only)"
 msgstr ""
-"<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.10.0/"
-"changelog'>Plný zoznam zmien</a> (po anglicky, veľmi dlhý)"
+"<a href=\"https://changelog.wesnoth.org/1.14/\">Plný zoznam zmien</a> (po "
+"anglicky, veľmi dlhý)"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:182
-#, fuzzy
-#| msgid ""
-#| "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.10.0/doc/"
-#| "manual/manual.en.html'>User’s Manual</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/manual/1.14/manual.en.html\">User’s "
 "Manual</a>"
 msgstr ""
-"<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.10.0/doc/"
-"manual/manual.en.html'>Príručka používateľa</a>"
+"<a href=\"https://www.wesnoth.org/manual/1.14/manual.sk.html\">Príručka "
+"používateľa</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:183
-#, fuzzy
-#| msgid "<a href='//www.wesnoth.org'>Official Website</a> (English)"
 msgid "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
 msgstr ""
-"<a href='//www.wesnoth.org'>Oficiálna stránka Wesnothu</a> (po anglicky)"
+"<a href=\"https://www.wesnoth.org\">Oficiálna stránka Wesnothu</a> (po "
+"anglicky)"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:185
-#, fuzzy
-#| msgid ""
-#| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release Notes</a>"
 msgstr ""
-"<a href='//www.wesnoth.org/start/1.4'>Oznam o uverejnení Wesnothu 1.4</a>"
+"<a href=\"https://www.wesnoth.org/start/1.12\">Oznam o uverejnení Wesnothu "
+"1.12</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:186
-#, fuzzy
-#| msgid ""
-#| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release Notes</a>"
 msgstr ""
-"<a href='//www.wesnoth.org/start/1.4'>Oznam o uverejnení Wesnothu 1.4</a>"
+"<a href=\"https://www.wesnoth.org/start/1.10\">Oznam o uverejnení Wesnothu "
+"1.10</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:187
-#, fuzzy
-#| msgid "<a href='//www.wesnoth.org/start/1.8'>Wesnoth 1.8 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</a>"
 msgstr ""
-"<a href='//www.wesnoth.org/start/1.8'>Oznam o uverejnení Wesnothu 1.8</a>"
+"<a href=\"https://www.wesnoth.org/start/1.8\">Oznam o uverejnení Wesnothu "
+"1.8</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:188
-#, fuzzy
-#| msgid "<a href='//www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</a>"
 msgstr ""
-"<a href='//www.wesnoth.org/start/1.6'>Oznam o uverejnení Wesnothu 1.6</a>"
+"<a href=\"https://www.wesnoth.org/start/1.6\">Oznam o uverejnení Wesnothu "
+"1.6</a>"
 
 # type: Content of: <html><body><div><div><div><div><p>
 #. type: Content of: <html><body><div><div><div><div>
@@ -829,7 +776,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div>
 #: template.html:207
 msgid "Site design Copyright &#169; 2017&#8211;2018 by Iris Morelle."
-msgstr ""
+msgstr "Dizajn stránky je Copyright &#169; 2017&#8211;2018 by Iris Morelle."
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #, fuzzy
