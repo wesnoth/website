@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+
+<html class="no-js press-release" lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montaga%7COpen+Sans:400,400i,700,700i" type="text/css" />
+	<link rel="icon" type="image/png" href="/wesmere/img/favicon-32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/wesmere/img/favicon-16.png" sizes="16x16" />
+
+	<link rel="stylesheet" type="text/css" href="https://www.wesnoth.org/wesmere/css/wesmere.css" />
+	<link rel="stylesheet" type="text/css" href="css/lintanir.css" />
+
+	<title>La batalla por Wesnoth 1.14</title>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<script src="js/modernizr.js"></script>
+</head>
+
+<body>
+
+<div id="main">
+
+<div id="cover" role="banner">
+	<a id="bigshield" href="/" aria-label="Wesnoth logo"><span
+aria-hidden="true"></span></a>
+
+	<h1 id="branding-title">La batalla por Wesnoth 1.14<br/><span id="branding-sub">Actualización Nuevos Horizontes</span></h1>
+
+	<div id="intro">
+		<p><i>Mayo de 2018.</i> El equipo de desarrollo tiene el orgullo de presentar
+la versión 1.14 de <cite><a
+href="/">¡La&nbsp;batalla&nbsp;por&nbsp;Wesnoth</a></cite>!</p>
+
+		<p>Además del largamente esperado estreno en Steam, esta nueva versión nos
+brinda una gran cantidad de novedades y de cambios en todas las áreas: una
+nueva campaña para un jugador, una renovación visual y funcional de la sala
+multijugador y del gestor de complementos, un motor gráfico renovado, nuevos
+gráficos y animaciones para las unidades y mucho más. Pruebe usted mismo las
+nuevas características o <a href="#game">siga leyendo</a> para conocer más
+detalles...</p>
+	</div>
+
+	<div id="quick-download">
+		<a class="download-button" role="button" href="#download"> <span
+class="download-arrow" aria-hidden="true"></span> <span
+class="download-text"> <span class="download-big">¡Descárguelo ya!</span>
+</span> </a> <a class="steam-button" role="button"
+href="https://store.steampowered.com/app/599390"> <span
+class="download-text"> <span class="steam-icon" aria-hidden="true"></span>
+<span class="download-big">Obténgalo en Steam!</span> </span> </a>
+	</div>
+</div>
+
+<div id="nav"></div>
+
+<div id="content">
+
+<h2 id="game" class="center">Qué hay de nuevo en esta actualización</h2>
+
+<p>Durante los tres años y medio desde la versión 1.12, en el equipo de
+desarrollo nos hemos centrado mayormente en pensar cual va a ser el futuro
+de <cite>Wesnoth</cite> y hacia donde queremos que vaya el juego. En
+consecuencia, esta versión pone los cimientos para cambios novedosos y
+emocionantes, algunos de los cuales ya se han incluido aquí, y algunos otros
+que esperamos desvelar en el futuro. Docenas de colaboradores han dedicado
+cientos de horas a modernizar nuestro motor, solucionar errores, mejorar la
+interfaz, añadir nuevo contenido y optimizar la experiencia del jugador par
+asegurarse de que esta versión de <cite>Wesnoth</cite> es la más estable que
+nunca hemos presentado.</p>
+
+<p>Es probable que lo más destacado sea que esta es también la primera edición
+que se publica en la <a
+href="https://store.steampowered.com/app/599390"><b>Tienda de Steam</b></a>,
+¡donde está disponible de forma gratuita para los sistemas Windows, macOS, y
+Linux! Nos gustaría brindar nuestro enorme agradecimiento a todos aquellos
+que nos ayudaron en este esfuerzo durante los últimos dos
+años. <cite>Wesnoth</cite> pasó por Steam Greenlight en un tiempo récord, y
+vuestro continuado interés en nuestros foros y en los medios sociales ha
+sido tremendamente motivador. ¡Estamos ansiosos por ver nuevas caras en
+nuestra comunidad!</p>
+
+<div class="thumb center"><a href='images/start-1.png'><img src="images/start-1-thumb.jpg" alt="Pantalla de inicio" /></a></div>
+
+<h3 id="players">Para los jugadores</h3>
+
+<div class="thumb tright">
+  <div><a href="images/start-2.jpg"><img src="images/start-2-thumb.jpg" alt="Captura de pantalla de Wesnoth" /></a></div>
+</div>
+
+<p>La anticuada librería SDL 1.2 que usaba nuestro motor ha sido reemplazada
+por la mucho más avanzada SDL 2.0. Esto soluciona muchas incidencias
+antiguas de compatibilidad con hardware y sistemas operativos. En
+particular, el soporte para pantalla completa en configuraciones
+multi-monitor ha sido mejorado en gran medida, y se han solucionado varios
+molestos conflictos con el ratón en dispositivos Apple Retina.</p>
+
+<p>La interfaz con el usuario también ha sido refinada y pulida en gran
+medida. El menú principal ahora presenta un fondo con resolución 4K y un
+recién estrenado tema principal del compositor <a
+href="http://mattiaswestlund.net/">Mattias Westlund</a> (West). Nuevas
+fuentes más grandes junto a marcos de diálogo más simples y botones que
+mejoran la legibilidad en una variedad de contextos y hardware, mostrando un
+aspecto más moderno. Las interfaz para el gestor de complementos, para la
+sala multijugador y  para la configuración del juego han sido rediseñadas
+por completo con diseños frescos que abordan las deficiencias que cada una
+tuvo durante bastante tiempo. El diálogo sobre preferencias también ha sido
+sometido a  un proceso de revisión sustancial que ha hecho que usarlo y
+navegar por él sea más sencillo.</p>
+
+<p>Una gran cantidad de unidades tales como la infantería pesada, las sílfides
+elfas, y los ladrones han recibido nuevas animaciones e imágenes base para
+proporcionarles unos estándares de calidad superiores y hacer que el campo
+de batalla sea más vivo y dinámico. También hay disponibles nuevos retratos
+genéricos para varias unidades, incluidos los troles, woses ancianos,
+muertos andantes y yetis. Finalmente, una <em>enorme</em> cantidad de
+terrenos nuevos ha sido añadida al juego para mejorar los mapas nuevos y los
+ya existentes — especialmente los que transcurren en interiores y bajo
+tierra — y el agua y la lava han sido reformadas en un estilo nuevo, fluido,
+totalmente animado, estéticamente agradable. Muchos de los tipos de
+población también han recibido variaciones según la hora del día y se
+iluminarán ahora de manera inmersiva cuando cae la noche.</p>
+
+<p>Finalmente, los sonidos del juego para muchas unidades y para los elementos
+de la interfaz del usuario han sido sustituidos.</p>
+
+<h4 id="campaigns">Campañas</h4>
+
+<div class="thumb center"><a href="images/start-3.jpg"><img src="images/start-3-thumb.jpg" alt="Captura de pantalla del menú de campañas" /></a></div>
+
+<p>¡La lista principal de campañas da la bienvenida a <cite>Los secretos de los
+Ancestros</cite>, una campaña creada por un jugador que pone a nuestra
+disposición el autor de <cite>Aguas muertas</cite>! Siga a Ardonna de
+Tarrynth mientras saca a la luz los secretos de los antiguos señores liche
+de la Isla Verde en su búsqueda de la inmortalidad.</p>
+
+<div class="thumb tleft">
+  <div><a href="images/start-4.jpg"><img src="images/start-4-thumb.jpg" alt="Captura de pantalla de Wesnoth" /></a></div>
+</div>
+
+<p>Tras años de contratiempos técnicos, <cite>Bajo los soles ardientes</cite>
+ve finalmente a la facción de los elfos del desierto completamente
+rediseñada con animaciones totalmente nuevas, nuevos retratos impresionantes
+del durante mucho tiempo colaborador artístico <a
+href="https://www.theartysquid.com/">Emilien Rotival</a> (LordBob), y
+árboles de promoción para las unidades rediseñados con estadísticas únicas
+para mantenerlas aún más diferenciadas de los elfos del bosque comunes de
+los que disponemos en el resto del juego.</p>
+
+<p>Los nueve primeros escenarios de <cite>El renacimiento del norte</cite>
+tienen ahora nuevos mapas mejorados, haciendo uso de los nuevos terrenos y
+de unos diseños más sencillos y orgánicos. Los propios escenarios se han
+modificado para un juego más simplificado. <cite>Descenso a la
+oscuridad</cite> ha recibido el mismo tratamiento con sus propias mejoras
+visuales.</p>
+
+<p>Debido al número de campañas para un jugador que se incluyen en
+<cite>Wesnoth</cite>, se ha vuelto cada vez más difícil hacerse una idea de
+la cronología que siguen las historias que se cuentan en ellas dentro del
+trasfondo del universo del juego. Para abordar esto, el menú Campañas
+proporciona la opción de ordenar las campañas de forma cronológica de
+acuerdo con su posición temporal dentro de la historia de Irdya, además de
+la opción de ordenarlas alfabéticamente si así se desea.</p>
+
+<p>Para aquellos que deseen enriquecer sus partidas con retos o mecanismos
+creados por otros jugadores, ahora es posible usar modificaciones tanto en
+partidas para un solo jugador como en multijugador. Y si la tentación de
+recargar partidas guardadas para conseguir resultados más favorables pudiera
+vencer a algún jugador, la nueva opción de Modo Determinístico les hará
+controlarse.</p>
+
+<h4 id="multiplayer">Modo multijugador</h4>
+
+<div class="thumb center"><a href="images/start-5.jpg"><img src="images/start-5-thumb.jpg" alt="Captura de pantalla de la configuración de las partidas multijugador" /></a></div>
+
+<p>La sala multijugador de <cite>Wesnoth</cite> ha sido rediseñada por completo
+para proporcionar una experiencia más sencilla a los nuevos jugadores que se
+incorporan al juego. Entre las nuevas características se incluyen enlaces a
+los registros de las conversaciones accesibles con un clic, pestañas
+separadas para el intercambio de mensajes privados, filtrado más sencillo de
+las partidas y los jugadores, creación de partidas más rápidas para aquellos
+que usen la configuración recomendada por el autor de los mapas, y una
+visualización más inteligible de los atributos de cada facción.</p>
+
+<p>¡En cuanto al nuevo contenido, los jugadores estarán contentos de saber que
+el catálogo del juego se ha visto ampliado con no menos de <b>nueve</b>
+mapas a los que ha contribuido la comunidad! <cite>Wesnoth</cite> se
+presenta ahora con un total de 55 mapas ajustados cuidadosamente con muchos
+entornos diferentes y configuraciones de equipo para que los jugadores
+puedan escoger.</p>
+
+<p>La facción multijugador Califato que se introdujo en la versión 1.12 se ha
+renombrado como Barján. Esto forma parte de un continuo esfuerzo para
+expandir su contexto e integrarlos mejor en el mundo de Irdya. En conjunción
+con esto se han cambiado muchas de las estadísticas de varias unidades
+Barjanas con intención de equilibrar mejor a la facción en encuentros
+multijugador.</p>
+
+<p>Ahora se puede abandonar una partida multijugador, indicando que no se tiene
+intención de seguir jugando sin necesidad de cortar repentinamente la
+conexión.</p>
+
+<h4 id="general">General</h4>
+
+<div class="thumb tright">
+  <div><a href="images/start-6.jpg"><img src="images/start-6-thumb.jpg" alt="Captura de pantalla de Wesnoth" /></a></div>
+</div>
+
+<p>Ahora es posible personalizar los colores de los orbes de movimiento\ataque
+que muestran las unidades a lo ancho del mapa para facilitar a los jugadores
+con diferente percepción de los colores identificar el estado de cada
+unidad. También se dispone de una opción (deshabilitada por omisión) para
+mostrar un orbe coloreado en las unidades enemigas.</p>
+
+<p>Cambiar a otra aplicación mientras <cite>Wesnoth</cite> está en ejecución
+pausa ahora la música de forma predeterminada. Si prefiere que siga sonando,
+hay una opción para ello.</p>
+
+<p>Para que los jugadores puedan incluir más fácilmente los detalles sobre su
+sistema al informar de incidencias con el juego, se puede acceder a un nuevo
+diálogo de información de versión desde la esquina inferior izquierda de la
+pantalla de inicio. Entre la información que se nos ofrece está la versión
+del sistema operativo, las direcciones a los diferentes archivos que usa
+<cite>Wesnoth</cite>, el número de la versión de las librerías de código con
+que se ha compilado el juego, y una lista de características opcionales
+configuradas por el compilador.</p>
+
+<p>Finalmente, para los jugadores que usan Windows, la configuración del juego,
+partidas guardadas y complementos ahora siempre se guardan en su carpeta de
+Documentos. Este cambio se hizo para evitar varias incidencias debidas a la
+anterior solución que guardaba en la carpeta de Archivos de programa, que ni
+se recomienda ni está bien soportada por las nuevas versiones de
+Windows. Vea que aunque la antigua opción de guardar dichos archivos en la
+dirección de instalación del juego ha desaparecido, ese comportamiento aún
+podría darse al usar ciertas opciones de línea de comandos para aquellos que
+prefieren instalar <cite>Wesnoth</cite> en un dispositivo externo.</p>
+
+<h3 id="creators">Para autores de contenido</h3>
+
+<div class="thumb tleft">
+  <div><a href="images/start-7.jpg"><img src="images/start-7-thumb.jpg" alt="Captura de pantalla de Wesnoth"/></a></div>
+</div>
+
+<p>Este lanzamiento trae un gran cambio muy esperado a la forma en que el
+contenido de <cite>Wesnoth</cite> se licencia. Mientras que anteriormente a
+todo el contenido se le requería el uso de la Licencia Pública General de
+GNU versión 2 o posterior tanto para el código como para  los recursos
+visuales o sonoros, ahora permitimos a los creadores de complementos el uso
+de <b>cualquier</b> <a href="https://creativecommons.org/licenses/">Creative
+Commons license</a> para el arte, sonido y música de sus
+complementos. Adicionalmente, los recursos que se proporcionan con el juego
+podrían ser licenciados bajo la <a
+href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+license</a>. En ambos casos, la Licencia Pública General de GNU continúa
+siendo soportada. Este cambio no afecta de forma retroactiva a ninguno de
+los archivos publicados previamente bajo la GNU GPL a no ser que el
+propietario del copyright elija volver a licenciar dichos recursos.</p>
+
+<p>Con relación a los aspectos más técnicos, los motores del WML, de la Lua, y
+del lenguaje Formula de <cite>Wesnoth</cite> han visto un gran número de
+mejoras y cambios en este ciclo de lanzamiento. El intérprete interno de la
+Lua ha sido actualizado a la versión 5.3.4, y se han añadido muchas
+funcionalidades nuevas a la <a href="https://wiki.wesnoth.org/LuaWML">API de
+la Lua</a>. Esto incluye la habilidad de interpretar <a
+href="https://wiki.wesnoth.org/MapGeneratorWML#The_lua_generator">generadores
+de mapas</a> usando la Lua, invocar ciertos diálogos disponibles que se usan
+en toda la IU del juego (menús emergentes, entradas de confirmación,
+notificaciones, la IU de <code>[message]</code>, y  la IU de la pantalla de
+la historia), y de usar funciones de Lua nominales con el atributo
+<code>lua_function=</code> en <a
+href="https://wiki.wesnoth.org/StandardLocationFilter">Standard Location
+Filters</a>. El Gamestate Inspector ahora también proporciona acceso a una
+consola de Lua integrada para depurar y testar código directamente dentro
+del juego.</p>
+
+<p>Las fórmulas internas del lenguaje Formula de Wesnoth han sido mejoradas con
+el añadido de muchas funciones integradas y de características en la
+sintaxis. Extendiendo el soporte para el atributo de filtrado de
+<code>formula=</code> a <a
+href="https://wiki.wesnoth.org/StandardLocationFilter">Standard Location
+Filters</a> y <a href="https://wiki.wesnoth.org/StandardSideFilter">Standard
+Side Filters</a>, las fórmulas internas pueden usarse ahora para construir
+una lógica más compleja en WML. Las nuevas <a
+href="https://wiki.wesnoth.org/ImagePathFunctionWML">funciones de
+direccionado de imágenes</a>  <code>~ADJUST_ALPHA()</code> y
+<code>~CHAN()</code> incluyen también soporte para fórmulas que alteran la
+presentación de imágenes dentro del juego.</p>
+
+<p>El preprocesador de WML ahora soporta parámetros opcionales con valores
+predeterminados en las definiciones de macros y sustituciones por medio de
+las nuevas <a
+href="https://wiki.wesnoth.org/PreprocessorRef#.23arg_and_.23endarg"><code>#arg/#endarg</code>
+directivas</a>. Esto debería permitir a los autores de complementos reducir
+la inflación de código en situaciones en las que más de una definición de
+una macro podría ser necesaria de otra manera para cubrir casos de uso
+diferentes.</p>
+
+<p>La creación de bucles en WML es ahora más natural y flexible con el añadido
+de las etiquetas <a
+href="https://wiki.wesnoth.org/ConditionalActionsWML#.5Bfor.5D"><code>[for]</code>
+y <code>[foreach]</code></a>, haciendo más ligera la sintaxis subyacente en
+comparación con la antigua macro <code>{FOREACH}</code> y con las
+alternativas escritas a mano.</p>
+
+<p>Después de varios ciclos de desarrollo en los que se han ido añadiendo
+características nuevas y\o experimentales al motor de la IA, se ha llevado a
+cabo un muy esperado esfuerzo de limpieza y reorganización. En el proceso se
+solucionaron muchos fallos notables, tales como inconsistencias en el manejo
+de unidades ocultas, de la niebla o del velo y problemas con el
+reclutamiento cuando la IA disponía de una lista de reincorporaciones
+posibles. En general, los autores de complementos tienen ahora más control
+que antes sobre la IA. Varios ajustes y parámetros pueden ser configurados
+con más facilidad, y se han añadido varias <a
+href="https://wiki.wesnoth.org/Micro_AIs">MicroIA preconfiguradas</a>. ¡El
+ajuste de asesino furtivo es perfecto para hacerse cargo de enemigos
+molestos!</p>
+
+<p>Como ya habíamos mencionado, <a
+href="https://wiki.wesnoth.org/ModificationWML">las modificaciones en el
+juego</a> ahora pueden ser usadas en campañas para un jugador tanto como en
+multijugador. Su sintaxis dispone del añadido de una etiqueta
+<code>[resource]</code> para llevar a cabo modificaciones ocultas que pueden
+ser requeridas de forma explícita por complementos en vez de ser
+seleccionadas manualmente por los jugadores.</p>
+
+<p>Los diálogos Abrir y Guardar como del editor de mapas también han sido
+rediseñados por completo, permitiendo un acceso más fácil a los archivos del
+juego y a los complementos instalados, así como a cualquier otra dirección
+mediante enlaces de acceso rápido.</p>
+
+<p>Para finalizar, los creadores de contenido que ejecuten el juego en Windows
+podrían encontrar útil el acceso directo <i>"La batalla por Wesnoth (con
+consola)"</i>. Este incluye la nueva opción de línea de comandos
+<code>--wconsole</code>, que habilita la visualización en tiempo real de los
+mensajes del registro en una ventana de comandos estándar de Windows en vez
+de escribirlos en un archivo. Si se prefiere guardar los registros de forma
+persistente como de costumbre, también hemos mejorado la forma en que estos
+se almacenan en el disco. Los archivos del registro se guardan ahora en la
+carpeta <code>logs</code> en la dirección de los archivos del jugador, y se
+guardan registros en archivos separados de hasta las últimas ocho sesiones
+con marcas horarias para una consulta adecuada. Finalmente, el acceso al
+registro actual de sesiones es posible desde el anteriormente mencionado
+diálogo de información de versión.</p>
+
+<h2 id="download">Descargas</h2>
+
+<p><cite>La batalla por Wesnoth</cite> se encuentra disponible bajo los
+términos de la <a href='http://www.gnu.org/licenses/gpl-2.0.html'>Licencia
+Pública General de GNU</a> (GPL)— ya sea la versión 2 de la licencia u,
+opcionalmente, cualquier versión posterior — y la <a
+href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+Attribution Share-Alike License</a> (CC BY-SA), version 4.0. El código
+fuente está disponible en <a
+href="https://github.com/wesnoth/wesnoth">GitHub</a>, y puede encontrar
+instrucciones para <a href='//wiki.wesnoth.org/CompilingWesnoth'>compilar el
+código fuente</a> en una variedad de sistemas operativos diferentes en
+nuestra wiki. Hay disponibles paquetes listos para instalar para Microsoft
+Windows, Apple macOS, y GNU/Linux.</p>
+
+<ul class="downloads"
+	><li class="windows"><a
+href="https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/wesnoth-1.14.1/wesnoth-1.14.1-win32.exe/download"><i
+class="downloadicon downloadicon-windows" aria-hidden="true"></i><span
+class="os">Windows</span> <span class="size">403.2 MiB</span></a></li
+	><li class="apple"><a
+href="https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/wesnoth-1.14.1/Wesnoth_1.14.1a.dmg/download"><i
+class="downloadicon downloadicon-apple" aria-hidden="true"></i><span
+class="os">macOS</span> <span class="size">450.5 MiB</span></a></li
+	><li class="src"><a
+href="https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/wesnoth-1.14.1/wesnoth-1.14.1.tar.bz2/download"><i
+class="downloadicon downloadicon-src" aria-hidden="true"></i><span
+class="os">Source</span> <span class="size">442.4 MiB</span></a></li
+	><li class="linux"><a href="https://wiki.wesnoth.org/WesnothBinariesLinux"><i
+class="downloadicon downloadicon-linux" aria-hidden="true"></i><span
+class="os">Linux</span></a></li
+	><li class="ios"><a
+href="https://itunes.apple.com/us/app/battle-for-wesnoth-hd/id575852062"><i
+class="downloadicon downloadicon-ios" aria-hidden="true"></i><span
+class="os">iOS</span></a></li
+></ul>
+
+<p>Puede consultar en <a href="https://wiki.wesnoth.org/Download">la página de
+descargas</a> las últimas actualizaciones de paquetes e instrucciones,
+incluidas aquellas para otras plataformas conforme vayan estando
+disponibles.</p>
+
+<p>Si ya había descargado versiones anteriores del juego, podría interesarle
+descargar solamente los archivos <a
+href="https://wiki.wesnoth.org/Download_Xdeltas">Xdelta</a>.</p>
+
+<h2 id="contribute">Contribuciones</h2>
+
+<p><cite>La batalla por Wesnoth</cite> ha sido mejorada y ampliada
+constantemente por una multitud de voluntarios internacionales de muy
+diversos orígenes. Desde su comienzo en julio de 2003, cientos de personas
+han contribuido en todas las áreas del juego, desde el contenido principal
+lanzado como parte de las publicaciones oficiales hasta los cientos de
+proyectos hechos por jugadores disponibles para descarga desde nuestro
+servidor de complementos. Si usted necesita ayuda para superar un escenario
+determinado o para añadir una característica a sus mapas personalizados,
+<cite>Wesnoth</cite> presume de tener una enorme comunidad de jugadores y
+creadores deseando ayudarle.</p>
+
+<p>Aparte de crear sus propios complementos, hay muchas otras formas en las que
+usted puede ayudar a <cite>Wesnoth</cite>:</p>
+
+<ul>
+  <li><a href="https://wiki.wesnoth.org/Project">Produciendo</a> código</li>
+  <li><a href="https://forums.wesnoth.org/viewforum.php?f=9">Creando</a> arte para
+el juego principal o para los <a
+href="https://forums.wesnoth.org/viewforum.php?f=23">complementos</a>
+creados por los otros jugadores.</li>
+  <li><a href="https://wiki.wesnoth.org/WesnothTranslations">Traduzca</a> el juego
+a su propio idioma</li>
+  <li><a href="https://forums.wesnoth.org/viewforum.php?f=14">Produzca</a> nuevos
+temas musicales y efectos de sonido</li>
+  <li>¡Difunda información sobre <cite>Wesnoth</cite> en los medios de
+comunicación social!</li>
+</ul>
+
+<h2 id="more">Más información</h2>
+
+<ul>
+  <li><a href="https://changelog.wesnoth.org/1.14/">Registro completo de
+cambios</a> (solamente en inglés)</li>
+  <li><a href="https://www.wesnoth.org/manual/1.14/manual.en.html">Manual de
+usuario</a></li>
+  <li><a href="https://www.wesnoth.org">Sitio web oficial</a> (solamente en
+inglés)</li>
+
+  <li><a href="https://www.wesnoth.org/start/1.12">Notas de publicación de Wesnoth
+1.12</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.10">Notas de publicación de Wesnoth
+1.10</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.8">Notas de publicación de Wesnoth
+1.8</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.6">Notas de publicación de Wesnoth
+1.6</a></li>
+</ul>
+
+</div> 
+
+<!-- content -->
+</div> 
+
+<!-- #main -->
+<div id="footer-sep"></div>
+
+<div id="footer"><div id="footer-content"><div>
+	<div id="languages">
+		Esta página también está disponible en los siguientes idiomas:
+		<ul>
+			
+		<!--LANGS--><li lang='en'><a href='index.en.html'>English [US]</a></li><li lang='es'><a href='index.es.html'>Español</a></li><li lang='it'><a href='index.it.html'>Italiano</a></li><li lang='ja'><a href='index.ja.html'>日本語</a></li>
+<!--LANGS-->
+</ul>
+	</div>
+
+	<a href="https://wiki.wesnoth.org/StartingPoints">Mapa del sitio</a> &#8226;
+<a href="https://status.wesnoth.org/">Estado del sitio</a><br />
+	Copyright &#169; 2003&#8211;2018 por <a rel="author"
+href="https://wiki.wesnoth.org/Project">Proyecto de la batalla por
+Wesnoth</a>.<br />
+	Copyright &#169; 2017&#8211;2018 del diseño del sitio por Iris Morelle.
+</div></div></div>
+
+<script>
+	(function($) {
+		/*
+		* Auto links on headers
+		*/
+		$("h2,h3,h4").each(function(i, e) {
+			var link = $("<a/>", { text: $(this).text(), href: "#" + $(this)[0].id } );
+			$(this).text("").append(link);
+		});
+
+		/*
+		* Smooth scrolling for anchor links
+		*/
+
+		$('a[href*="#"]:not([href="#"])').click(function() {
+			if (location.pathname.replace(/^\//,"") == this.pathname.replace(/^\//,"") && location.hostname == this.hostname) {
+				var hash = this.hash;
+				var target = $(hash);
+				target = target.length ? target : $("[name=" + hash.slice(1) + "]");
+				if (target.length) {
+					$("html,body").animate(
+						{ scrollTop: target.offset().top },
+						{ duration: 500, complete: function() { window.location.href = hash; } }
+					);
+					return false;
+				}
+			}
+		});
+	}(jQuery));
+</script>
+
+</body>
+</html>
