@@ -18,3 +18,7 @@ URI: index.ja.html
 Content-type: text/xhtml
 Content-language: ja
 
+URI: index.zh_CN.html
+Content-type: text/xhtml
+Content-language: zh-cn
+
