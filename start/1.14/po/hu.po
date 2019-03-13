@@ -872,13 +872,13 @@ msgstr ""
 #, fuzzy
 #| msgid "Copyright &#169; 2003&#8211;2014 The Battle for Wesnoth Project"
 msgid ""
-"Copyright &#169; 2003&#8211;2018 by <a rel=\"author\" href=\"https://wiki."
+"Copyright &#169; 2003&#8211;2019 by <a rel=\"author\" href=\"https://wiki."
 "wesnoth.org/Project\">The Battle for Wesnoth Project</a>."
 msgstr "Copyright &#169; 2003&#8211;2014 Harc Wesnothért Projekt"
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:207
-msgid "Site design Copyright &#169; 2017&#8211;2018 by Iris Morelle."
+msgid "Site design Copyright &#169; 2017&#8211;2019 by Iris Morelle."
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><ul><li>
