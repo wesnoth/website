@@ -515,9 +515,9 @@ msgstr ""
 #: template.html:154
 msgid ""
 "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
-"wesnoth-1.14.7/Wesnoth_1.14.7a.dmg/download\"><i class=\"downloadicon "
+"wesnoth-1.14.7/Wesnoth_1.14.8a.dmg/download\"><i class=\"downloadicon "
 "downloadicon-apple\" aria-hidden=\"true\"></i><span class=\"os\">macOS</"
-"span> <span class=\"size\">466.0 MiB</span></a>"
+"span> <span class=\"size\">465.6 MiB</span></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
