@@ -31,6 +31,7 @@ $langs = [
 	'ga'				=> 'Irish',
 	'gd'				=> 'Scottish Gaelic',
 	'gl'				=> 'Galician',
+	'grc'				=> 'Ancient Greek',
 	'he'				=> 'Hebrew',
 	'hr'				=> 'Croatian',
 	'hu'				=> 'Hungarian',
