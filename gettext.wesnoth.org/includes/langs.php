@@ -8,8 +8,10 @@
 
 $langs = [
 	'af'				=> 'Afrikaans',
+	'ang'				=> 'Old English',
 	'ang@latin'			=> 'Old English (Latin chars)',
 	'ar'				=> 'Arabic',
+	'ast'				=> 'Asturian',
 	'bg'				=> 'Bulgarian',
 	'ca'				=> 'Catalan',
 	'ca_ES@valencia'	=> 'Valencian (southern Catalan)',
@@ -20,6 +22,7 @@ $langs = [
 	'eu'				=> 'Basque',
 	'fi'				=> 'Finnish',
 	'fr'				=> 'French',
+	'fur_IT'			=> 'Friulian',
 	'el'				=> 'Greek',
 	'en_GB'				=> 'British English',
 	'en@shaw'			=> 'English (Shavian chars)',
