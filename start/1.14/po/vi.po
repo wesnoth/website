@@ -506,27 +506,27 @@ msgstr ""
 #: template.html:153
 msgid ""
 "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
-"wesnoth-1.14.9/wesnoth-1.14.9-win32.exe/download\"><i class=\"downloadicon "
+"wesnoth-1.14.11/wesnoth-1.14.11-win32.exe/download\"><i class=\"downloadicon "
 "downloadicon-windows\" aria-hidden=\"true\"></i><span class=\"os\">Windows</"
-"span> <span class=\"size\">411.7 MiB</span></a>"
+"span> <span class=\"size\">414.0 MiB</span></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:154
 msgid ""
 "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
-"wesnoth-1.14.9/Wesnoth_1.14.9.dmg/download\"><i class=\"downloadicon "
+"wesnoth-1.14.11/Wesnoth_1.14.11.dmg/download\"><i class=\"downloadicon "
 "downloadicon-apple\" aria-hidden=\"true\"></i><span class=\"os\">macOS</"
-"span> <span class=\"size\">467.7 MiB</span></a>"
+"span> <span class=\"size\">468.0 MiB</span></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:155
 msgid ""
 "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
-"wesnoth-1.14.9/wesnoth-1.14.9.tar.bz2/download\"><i class=\"downloadicon "
+"wesnoth-1.14.11/wesnoth-1.14.11.tar.bz2/download\"><i class=\"downloadicon "
 "downloadicon-src\" aria-hidden=\"true\"></i><span class=\"os\">Source</span> "
-"<span class=\"size\">456.4 MiB</span></a>"
+"<span class=\"size\">458.9 MiB</span></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
