@@ -19,6 +19,7 @@ Each unit in Wesnoth has its own strengths and weaknesses. A unit's defense (whi
 A central design philosophy of the game is the KISS principle; for a new idea to be accepted, it should not complicate gameplay.[8] Another important facet of the game is randomness and its manipulation: it is never certain a unit's attack will fail or succeed, only likely or unlikely. Developers have stated that the potential for a skirmish to go better or worse than expected adds excitement, replayability and strategic depth to the game.
 
 **About Developement**
+
 David White began development of Wesnoth because he wanted to create a freely available, open source strategy game with very simple rules, but one that had difficult to beat artificial intelligence and that was challenging and fun — a game that was easy to learn but hard to master.
 
 The game is programmed in C++. It is cross-platform, and runs on AmigaOS 4, BeOS, FreeBSD, Linux (including OS flavors running on GP2X and Nokia n800, n810, and n900 handheld devices), OS X/Darwin, Windows, MorphOS,[16] NetBSD, OpenBSD, RISC OS, iOS, Solaris/illumos, Android, Playbook and Google Native Client running under Google Chrome.
