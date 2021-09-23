@@ -56,7 +56,6 @@ $core_textdomains = [
 
 // Mainline campaign textdmains.
 $mainline_campaign_textdomains = [
-	'wesnoth-aoi',
 	'wesnoth-did',
 	'wesnoth-dm',
 	'wesnoth-dw',
@@ -78,7 +77,6 @@ $mainline_campaign_textdomains = [
 
 // Additional mainline textdomains
 $mainline_textdomains = array_merge($core_textdomains, $mainline_campaign_textdomains, [
-	'wesnoth-test',
 	'wesnoth-manpages',
 	'wesnoth-manual',
 ]);
