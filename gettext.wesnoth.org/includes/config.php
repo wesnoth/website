@@ -47,7 +47,6 @@ $core_textdomains = [
 	'wesnoth-lib',
 	'wesnoth-editor',
 	'wesnoth-help',
-	'wesnoth-ai',
 	'wesnoth-units',
 	'wesnoth-multiplayer',
 	'wesnoth-anl',
