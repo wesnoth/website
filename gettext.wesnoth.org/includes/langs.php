@@ -45,6 +45,7 @@ $langs = [
 	'lv'				=> 'Latvian',
 	'mk'				=> 'Macedonian',
 	'mr'				=> 'Marathi',
+	'my'				=> 'Burmese',
 	'nl'				=> 'Dutch',
 	'nb_NO'				=> 'Norwegian',
 	//'oc'				=> 'Occitan',
