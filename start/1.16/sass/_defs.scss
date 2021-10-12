@@ -1,0 +1,266 @@
+/*
+ * Common constants and mixins for Sass
+ *
+ * codename Lintanir - Wesnoth 1.14 Release Notes CSS supplement for Wesmere
+ * Copyright (C) 2018 - 2019 by Iris Morelle <shadowm@wesnoth.org>
+ *
+ * codename Wesmere - Next-gen Wesnoth.org stylesheet
+ * Copyright (C) 2011 - 2019 by Iris Morelle <shadowm@wesnoth.org>
+ *
+ * See LICENSE for usage terms.
+ */
+
+/*****************************************************************************
+ *                                  CONSTANTS                                *
+ *****************************************************************************/
+
+/* The basis of all measurements */
+$wesmere-base-font-size:					16px;
+
+$wesmere-min-high-dpi-factor:				1.25;
+
+$measurement-std:							1.3em;
+$measurement-sub:							0.9em;
+$measurement-sub2:							0.8em;
+$measurement-small:							0.6em;
+
+$measurement-paragraph-spacing-unitless:	1.85;
+$measurement-paragraph-spacing:				1em * $measurement-paragraph-spacing-unitless / 2;
+
+$measurement-centerbox-width:				66em;
+
+$radius-std:								6px;
+$radius-minor:								4px;
+$radius-large:								16px;
+
+$link-color:								#b48648;
+$link-hover-color:							#ffa93f;
+
+$glamdrol-bg:								#fffbf0;
+$glamdrol-fg:								#111;
+$glamdrol-darkbg:							#e7d9c0;
+
+$wesmere-hr:								darken($glamdrol-darkbg, 20%);
+$wesmere-page-bg:							#f3ead8;
+/* glamdrol-darkbg blended 50% over wesmere-page-bg */
+$wesmere-page-bg-shade:						#ede1cc;
+$wesmere-page-bg-size:						10%;
+$wesmere-page-bg-small-size:				0.8em;
+$wesmere-page-bg-small-on-page-width:		($measurement-centerbox-width - 3);
+
+/* In-game dialog bg colors */
+$wui-dialog-bg:								#0a0e16;
+
+$wui-gradient-start:						#0f1421;
+$wui-gradient-end:							#161e31;
+$wui-border-light:							#a27f44;
+$wui-border-dark:							#724f2e;
+$wui-selection-bg:							#153550;
+
+$wui-text-normal:							#ddd;
+$wui-text-gold:								#bcb088;
+$wui-text-navlink:							#b48648;
+
+$wui-menu-bg:								#e9dbc2;
+
+/*****************************************************************************
+ *                               BASE CLASSES                                *
+ *****************************************************************************/
+
+@mixin column-layout($col-params) {
+	-webkit-columns: $col-params;
+	-moz-columns:    $col-params;
+	columns:         $col-params;
+}
+
+@mixin column-gap($length) {
+	-webkit-column-gap: $length;
+	-moz-column-gap:    $length;
+	column-gap:         $length;
+}
+
+@mixin column-rule($style) {
+	-webkit-column-rule: $style;
+	-moz-column-rule:    $style;
+	column-rule:         $style;
+}
+
+/*****************************************************************************
+ *                                 MEDIA RULES                               *
+ *****************************************************************************/
+
+@mixin media-tiny-screen-constraint {
+	@media only screen and (max-width: 499px) {
+		@content;
+	}
+}
+
+@mixin media-not-tiny-screen-constraint {
+	@media screen and (min-width: 500px) {
+		@content;
+	}
+}
+
+@mixin media-small-screen-constraint {
+	@media only screen and (max-width: 699px) {
+		@content;
+	}
+}
+
+@mixin media-not-small-screen-constraint {
+	@media screen and (min-width: 700px) {
+		@content;
+	}
+}
+
+@mixin media-high-dpi-screen {
+	@media
+	(-webkit-min-device-pixel-ratio: $wesmere-min-high-dpi-factor),
+	(min--moz-device-pixel-ratio: $wesmere-min-high-dpi-factor), // Firefox 15 and earlier
+	(min-device-pixel-ratio: $wesmere-min-high-dpi-factor), // ????
+	(min-resolution: ($wesmere-min-high-dpi-factor*96)dpi),
+	(min-resolution: ($wesmere-min-high-dpi-factor)dppx) {
+		@content;
+	}
+}
+
+/*****************************************************************************
+ *                  RETINA-AWARE CSS-SPECIFIED IMAGE ELEMENT                 *
+ *****************************************************************************/
+
+%css-image-base {
+	display: inline-block;
+	width:   100%;
+
+	// Can't use this and have working margins. Just make sure there's no
+	// text content in this and the other elements.
+	//font-size:    0;
+	line-height:    0;
+	vertical-align: middle;
+
+	background-size: 100%;
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+
+@mixin responsive-high-dpi-image-size($width, $height) {
+	max-width:  $width*1px;
+	max-height: $height*1px;
+
+	& > span {
+		padding-top: ($height/$width * 100%);
+	}
+}
+
+@mixin responsive-high-dpi-image-url($url, $url-2x) {
+	background-image: $url;
+
+	@include media-high-dpi-screen {
+		background-image: $url-2x;
+	}
+}
+
+@mixin responsive-high-dpi-image($url, $url-2x, $width, $height) {
+	@extend %css-image-base;
+
+	@include responsive-high-dpi-image-url($url, $url-2x);
+
+	& > span {
+		display: block;
+		height:  0;
+	}
+
+	@include responsive-high-dpi-image-size($width, $height);
+}
+
+/*****************************************************************************
+ *                         TRANSITIONS & TRANSFORMS                          *
+ *****************************************************************************/
+
+@mixin css-transitions($value) {
+	-webkit-transition: $value;
+	-moz-transition:    $value;
+	-o-transition:      $value;
+	transition:         $value;
+}
+
+%standard-transitions {
+	@include css-transitions(120ms);
+}
+
+%slow-transitions {
+	@include css-transitions(500ms);
+}
+
+%no-transitions {
+	-webkit-transition: none;
+	-moz-transition:    none;
+	-o-transition:      none;
+	transition:         none;
+}
+
+@mixin css-transition-properties($prop-list) {
+	-webkit-transition-property: $prop-list;
+	-moz-transition-property:    $prop-list;
+	-o-transition-property:      $prop-list;
+	transition-property:         $prop-list;
+}
+
+%transition-border-color-only {
+	@include css-transition-properties(border-color);
+}
+
+%transition-decorative-properties-only {
+	@include css-transition-properties((color, text-shadow, background));
+}
+
+// An absolutely positioned box that is fully centered
+%absolute-pos-center-x-y {
+	position: absolute;
+	left:     50%;
+	top:      50%;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform:    translate(-50%, -50%);
+	-ms-transform:     translate(-50%, -50%);
+	-o-transform:      translate(-50%, -50%);
+	transform:         translate(-50%, -50%);
+}
+
+/*****************************************************************************
+ *                                  GRADIENTS                                *
+ *****************************************************************************/
+
+@mixin wesmere-center-faded-border($directions) {
+	border: 0 solid $wesmere-hr;
+
+	@each $dir in $directions {
+		border-#{$dir}-width: 1px;
+	}
+
+	border-image: linear-gradient(to right, rgba($wui-text-navlink, 0.1), rgba($wui-text-navlink, 0.6), rgba($wui-text-navlink, 0.1)) 1;
+}
+
+@mixin wesmere-gradient-background-base($background-rgb, $shadow-rgb, $gradient-size: $wesmere-page-bg-size) {
+	background: $background-rgb;
+
+	$bg-start: rgba($shadow-rgb, 1.0);
+	$bg-alend: rgba($shadow-rgb, 0.0);
+	$bg-opend: $background-rgb;
+
+	background: -webkit-linear-gradient(left,     $bg-start, $bg-alend $gradient-size),
+	            -webkit-linear-gradient(right,    $bg-start, $bg-opend $gradient-size);
+	background:    -moz-linear-gradient(left,     $bg-start, $bg-alend $gradient-size),
+	               -moz-linear-gradient(right,    $bg-start, $bg-opend $gradient-size);
+	background:         linear-gradient(to right, $bg-start, $bg-alend $gradient-size),
+	                    linear-gradient(to left,  $bg-start, $bg-opend $gradient-size);
+}
+
+@mixin wesmere-gradient-background($background-rgb, $shadow-rgb) {
+	@include wesmere-gradient-background-base($background-rgb, $shadow-rgb);
+	// Shrink the gradient on small viewports so that it doesn't reach behind
+	// the content region.
+	@media only screen and (max-width: $wesmere-page-bg-small-on-page-width) {
+		@include wesmere-gradient-background-base($background-rgb, $shadow-rgb, $wesmere-page-bg-small-size);
+	}
+}
