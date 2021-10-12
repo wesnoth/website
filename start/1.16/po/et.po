@@ -1,0 +1,656 @@
+# Estonian translation of the Battle for Wesnoth
+# Copyright (C) 2005-2010 Wesnoth development team
+# This file is distributed under the same license as the Battle for Wesnoth pac$
+# Version 1.4+ translated by:
+# UncleOwl (Kaido Kikkas) <kakk AT kakupesa DOT net>
+# Based on former translations by:
+#  Mart Tõnso <tm AT rinjin DOT pri DOT ee>
+#  Priit Laes <amd AT store20 DOT com>, 2007
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-10-12 09:26-0500\n"
+"PO-Revision-Date: 2010-03-24 13:33+0300\n"
+"Last-Translator: Kaido Kikkas <kakk@kakupesa.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Attribute 'lang' of: <html>
+#: template.html:3
+msgid "en"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: template.html:27
+msgid ""
+"<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span aria-hidden="
+"\"true\"></span></a>"
+msgstr ""
+
+#.  TODO: itch.io button 
+#. type: Content of: <html><body><div><div><div>
+#: template.html:38
+msgid ""
+"<a class=\"download-button\" role=\"button\" href=\"#download\"> <span class="
+"\"download-arrow\" aria-hidden=\"true\"></span> <span class=\"download-text"
+"\"> <span class=\"download-big\"></span> </span> </a> <a class=\"steam-button"
+"\" role=\"button\" href=\"https://store.steampowered.com/app/599390\"> <span "
+"class=\"download-text\"> <span class=\"steam-icon\" aria-hidden=\"true\"></"
+"span> <span class=\"download-big\"></span> </span> </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:89
+#, fuzzy
+#| msgid ""
+#| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
+#| "wesnoth-1.8-win32.exe/download'>Wesnoth for MS Windows</a> </strong>"
+msgid ""
+"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
+"wesnoth-1.16.0/wesnoth-1.16.0-win64.exe/download\"><i class=\"downloadicon "
+"downloadicon-windows\" aria-hidden=\"true\"></i><span class=\"os\"></span> "
+"<span class=\"size\"></span></a>"
+msgstr ""
+"<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
+"wesnoth-1.8-win32.exe/download'>Wesnoth MS Windowsile</a> </strong>"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:90
+#, fuzzy
+#| msgid ""
+#| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
+#| "Wesnoth_1.8.dmg/download'>Wesnoth for Mac OS X</a> </strong>"
+msgid ""
+"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
+"wesnoth-1.16.0/Wesnoth_1.16.0.dmg/download\"><i class=\"downloadicon "
+"downloadicon-apple\" aria-hidden=\"true\"></i><span class=\"os\"></span> "
+"<span class=\"size\"></span></a>"
+msgstr ""
+"<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
+"Wesnoth_1.8.dmg/download'>Wesnoth Mac OS X-ile</a> </strong>"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:91
+#, fuzzy
+#| msgid ""
+#| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
+#| "Wesnoth_1.8.dmg/download'>Wesnoth for Mac OS X</a> </strong>"
+msgid ""
+"<a href=\"https://flathub.org/apps/details/org.wesnoth.Wesnoth\"><i class="
+"\"downloadicon downloadicon-linux\" aria-hidden=\"true\"></i><span class=\"os"
+"\"></span></a>"
+msgstr ""
+"<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
+"Wesnoth_1.8.dmg/download'>Wesnoth Mac OS X-ile</a> </strong>"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:92
+#, fuzzy
+#| msgid ""
+#| "<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
+#| "wesnoth-1.8.tar.bz2/download'>Source code</a> </strong>"
+msgid ""
+"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
+"wesnoth-1.16.0/wesnoth-1.16.0.tar.bz2/download\"><i class=\"downloadicon "
+"downloadicon-src\" aria-hidden=\"true\"></i><span class=\"os\"></span> <span "
+"class=\"size\"></span></a>"
+msgstr ""
+"<strong> <a href='http://sourceforge.net/projects/wesnoth/files/wesnoth/"
+"wesnoth-1.8.tar.bz2/download'>Lähtekood</a> </strong>"
+
+# type: Content of: <html><head><title>
+#, fuzzy
+#~| msgid "Battle for Wesnoth 1.8"
+#~ msgid "The Battle for Wesnoth 1.16"
+#~ msgstr "Wesnothi Lahing 1.8"
+
+# type: Content of: <html><body><div><div><div><h2>
+#, fuzzy
+#~| msgid "What's New in Wesnoth 1.8"
+#~ msgid "What’s New in This Update"
+#~ msgstr "Mis on Wesnoth 1.8-s uut"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='images/start-1-full.jpg'>"
+#~ msgid "<a href=\"images/start-1.jpg\">"
+#~ msgstr "<a href='images/start-1-full.jpg'>"
+
+# type: Content of: <html><body><div><div><div>
+#~ msgid "</a>"
+#~ msgstr "</a>"
+
+# type: Content of: <html><body><div><div><div><h3>
+#~ msgid "For Players"
+#~ msgstr "Mängijatele"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='images/start-1-full.jpg'>"
+#~ msgid "<a href=\"images/start-2.jpg\">"
+#~ msgstr "<a href='images/start-1-full.jpg'>"
+
+# type: Attribute 'alt' of: <html><body><div><div><div><div><div><img>
+#~ msgid "Wesnoth Screenshot"
+#~ msgstr "Wesnothi ekraanipilt"
+
+# type: Content of: <html><body><div><div><div><h4>
+#~ msgid "Campaigns"
+#~ msgstr "Sõjakäigud"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='images/start-3-full.jpg'>"
+#~ msgid "<a href=\"images/start-3.jpg\">"
+#~ msgstr "<a href='images/start-3-full.jpg'>"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='images/start-4-full.jpg'>"
+#~ msgid "<a href=\"images/start-4.jpg\">"
+#~ msgstr "<a href='images/start-4-full.jpg'>"
+
+# type: Content of: <html><body><div><div><div><h4>
+#~ msgid "Multiplayer"
+#~ msgstr "Mitmekesi mäng"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='images/start-2-full.jpg'>"
+#~ msgid "<a href=\"images/start-5.jpg\">"
+#~ msgstr "<a href='images/start-2-full.jpg'>"
+
+# type: Content of: <html><body><div><div><div><h4>
+#~ msgid "General"
+#~ msgstr "Üldist"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='images/start-1-full.jpg'>"
+#~ msgid "<a href=\"images/start-6.jpg\">"
+#~ msgstr "<a href='images/start-1-full.jpg'>"
+
+# type: Content of: <html><body><div><div><div><h3>
+#, fuzzy
+#~| msgid "For Content Developers"
+#~ msgid "For Content Creators"
+#~ msgstr "Sisuarendajatele"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='images/start-1-full.jpg'>"
+#~ msgid "<a href=\"images/start-7.jpg\">"
+#~ msgstr "<a href='images/start-1-full.jpg'>"
+
+# type: Content of: <html><body><div><div><div><h2>
+#~ msgid "Download"
+#~ msgstr "Allalaadimine"
+
+# type: Content of: <html><body><div><div><div><p>
+#, fuzzy
+#~| msgid ""
+#~| "Battle for Wesnoth is made available under the <a href='http://www.gnu."
+#~| "org/licenses/gpl-2.0.html'>GNU General Public License</a> (GPL). Source "
+#~| "code is available from <a href='http://www.wesnoth.org'>wesnoth.org</a> "
+#~| "where you will also find instructions for <a href='http://wiki.wesnoth."
+#~| "org/CompilingWesnoth'>building from source</a> on a range of different "
+#~| "operating systems. Ready-to-go packages are also available for most "
+#~| "popular operating systems, including Linux and Windows and Mac OS X."
+#~ msgid ""
+#~ "<cite>The Battle for Wesnoth</cite> is made available under the <a href="
+#~ "\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU General Public License</"
+#~ "a> (GNU GPL) — either version 2 of the license or, at your option, any "
+#~ "later version — and the <a href=\"https://creativecommons.org/licenses/by-"
+#~ "sa/4.0/\">Creative Commons Attribution Share-Alike License</a> (CC BY-"
+#~ "SA), version 4.0. The source code is available on <a href=\"https://"
+#~ "github.com/wesnoth/wesnoth\">GitHub</a>, and you can find instructions "
+#~ "for <a href=\"https://wiki.wesnoth.org/CompilingWesnoth\">building from "
+#~ "source</a> on a range of different operating systems on our wiki. Ready-"
+#~ "to-install packages are available for Microsoft Windows, Apple macOS, and "
+#~ "GNU/Linux."
+#~ msgstr ""
+#~ "Wesnothi Lahing on saadaval <a href='http://www.gnu.org/licenses/gpl-2.0."
+#~ "html'>GNU Üldise Avaliku Litsentsi</a> (GPL) all. Lähtekood on saadaval "
+#~ "<a href='//www.wesnoth.org'>wesnoth.org</a> -veebilehelt, kust leiab ka "
+#~ "juhiseid selle <a href='//wiki.wesnoth.org/"
+#~ "CompilingWesnoth'>kompileerimiseks </a> erinevatel "
+#~ "operatsioonisüsteemidel. Valmispaketid on samuti olemas enamikule levinud "
+#~ "operatsioonisüsteemidest, sealhulgas Linuxile, Windowsile ja MacOS X-ile."
+
+#, fuzzy
+#~| msgid ""
+#~| "You can get up to date information about downloads at the <a "
+#~| "href='http://wiki.wesnoth.org/Download'>downloads page</a>. There you "
+#~| "can also find packages and instructions for other platforms once they "
+#~| "are available."
+#~ msgid ""
+#~ "You can refer to the <a href=\"https://wiki.wesnoth.org/Download"
+#~ "\">downloads page</a> for the latest up-to-date packages and "
+#~ "instructions, including those for other platforms once they become "
+#~ "available."
+#~ msgstr ""
+#~ "Ajakohase allalaadimisinfo leiab <a href='//wiki.wesnoth.org/"
+#~ "Download'>allalaadimiste lehelt</a>. Sealt leiab ka tarkvarapakid ja "
+#~ "juhised erinevatele süsteemidele."
+
+# type: Content of: <html><body><div><div><div><p>
+#, fuzzy
+#~| msgid ""
+#~| "If you downloaded previous versions of the game, you might be interested "
+#~| "in downloading the <a href='http://wiki.wesnoth.org/"
+#~| "Download_Xdeltas'>xdelta</a> files only."
+#~ msgid ""
+#~ "If you downloaded previous versions of the game, you might be interested "
+#~ "in downloading the <a href=\"https://wiki.wesnoth.org/Download_Xdeltas"
+#~ "\">Xdelta</a> files only."
+#~ msgstr ""
+#~ "Kui sul on alla laetud mõni varasem versioon, võid alla laadida ka üksnes "
+#~ "<a href='//wiki.wesnoth.org/Download_Xdeltas'>xdelta</a> -failid."
+
+# type: Content of: <html><body><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='http://www.wesnoth.org'>"
+#~ msgid "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
+#~ msgstr "<a href='//www.wesnoth.org'>"
+
+# type: Content of: <html><body><div><div><div><h2>
+#~ msgid "More Info"
+#~ msgstr "Lisainfo"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#, fuzzy
+#~| msgid ""
+#~| "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.8.0/"
+#~| "changelog'>Full Changelog</a> (English, very long)"
+#~ msgid ""
+#~ "<a href=\"https://changelog.wesnoth.org/1.14/\">Full Changelog</a> "
+#~ "(English only)"
+#~ msgstr ""
+#~ "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.8.0/"
+#~ "changelog'>Muutuste täielik nimekiri</a> (ingliskeelne, väga pikk)"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#, fuzzy
+#~| msgid ""
+#~| "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.8.0/doc/"
+#~| "manual/manual.en.html'>User's Manual</a>"
+#~ msgid ""
+#~ "<a href=\"https://www.wesnoth.org/manual/1.14/manual.en.html\">User’s "
+#~ "Manual</a>"
+#~ msgstr ""
+#~ "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.8.0/doc/"
+#~ "manual/manual.et.html'>Kasutusjuhend</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#, fuzzy
+#~| msgid ""
+#~| "<a href='http://www.wesnoth.org'>Wesnoth Official Website</a> (English)"
+#~ msgid ""
+#~ "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
+#~ msgstr ""
+#~ "<a href='//www.wesnoth.org'>Wesnothi ametlik kodulehekülg</a> (inglise "
+#~ "keeles)"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#, fuzzy
+#~| msgid ""
+#~| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
+#~ msgid ""
+#~ "<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release "
+#~ "Notes</a>"
+#~ msgstr ""
+#~ "<a href='//www.wesnoth.org/start/1.4'>Wesnoth 1.4 väljalaskeinfo</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#, fuzzy
+#~| msgid ""
+#~| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
+#~ msgid ""
+#~ "<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release "
+#~ "Notes</a>"
+#~ msgstr ""
+#~ "<a href='//www.wesnoth.org/start/1.4'>Wesnoth 1.4 väljalaskeinfo</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#, fuzzy
+#~| msgid ""
+#~| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
+#~ msgid ""
+#~ "<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</"
+#~ "a>"
+#~ msgstr ""
+#~ "<a href='//www.wesnoth.org/start/1.4'>Wesnoth 1.4 väljalaskeinfo</a>"
+
+# type: Content of: <html><body><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='//www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a>"
+#~ msgid ""
+#~ "<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</"
+#~ "a>"
+#~ msgstr ""
+#~ "<a href='//www.wesnoth.org/start/1.6'>Wesnoth 1.6 - väljalaskeinfo</a>"
+
+# type: Content of: <html><body><div><div><div><div><p>
+#~ msgid "This page is also available in the following languages:"
+#~ msgstr "See leht on saadaval ka järgmistes keeltes:"
+
+# type: Content of: <html><body><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='//www.wesnoth.org'>"
+#~ msgid "<a href=\"//www.wesnoth.org\">"
+#~ msgstr "<a href='//www.wesnoth.org'>"
+
+# type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#, fuzzy
+#~| msgid "Wesnoth logo"
+#~ msgid "Wesnoth Logo"
+#~ msgstr "Wesnothi logo"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#, fuzzy
+#~| msgid "<a href='#download'>Download</a>"
+#~ msgid "<a id=\"download-button\" href=\"#download\">Download Now!</a>"
+#~ msgstr "<a href='#download'>Allalaadimine</a>"
+
+# type: Attribute 'title' of: <html><head><link>
+#~ msgid "Default"
+#~ msgstr "Vaikimisi"
+
+# type: Content of: <html><body><div><div><div><h1>
+#, fuzzy
+#~| msgid "Battle for Wesnoth 1.8 Release Notes"
+#~ msgid "Battle for Wesnoth 1.12 Release Notes"
+#~ msgstr "Wesnothi Lahing 1.8  - väljalaskeinfo"
+
+#, fuzzy
+#~| msgid ""
+#~| "<em>April 2010</em>. It is once again time for that thrill you've all "
+#~| "been waiting for, a Wesnoth stable release. The Battle for Wesnoth team "
+#~| "is proud to release version 1.8 of <em>The Battle for Wesnoth</em>, a <a "
+#~| "href='http://www.gnu.org/philosophy/philosophy.html'>free</a> <a "
+#~| "href='http://www.opensource.org/'>open-source</a> turn-based strategy "
+#~| "game with a fantasy theme and roleplaying elements. The game is <a "
+#~| "href='#download'>available for download</a> now for Windows, Mac OS X "
+#~| "and various GNU/Linux distributions."
+#~ msgid ""
+#~ "<i>December 2014</i>. As the year comes to an end, a new stable release "
+#~ "series begins. The development team is proud to present version 1.12 of "
+#~ "<cite>The Battle for Wesnoth</cite>, a <a href='http://www.gnu.org/"
+#~ "philosophy/philosophy.html'>free</a> and <a href='http://www.opensource."
+#~ "org/'>open source</a> turn-based tactical strategy game with a high "
+#~ "fantasy theme and role-playing elements. The game is available for "
+#~ "Microsoft Windows, Apple OS X, and various GNU/Linux distributions."
+#~ msgstr ""
+#~ "<em>Aprillis 2010</em> on peale pikka ootamist taas aeg tunda rõõmu "
+#~ "Wesnothi järgmisest stabiilsest versioonist. Wesnothi Lahingu meeskond  "
+#~ "laseb uhkusega välja  <a href='http://www.gnu.org/philosophy/philosophy."
+#~ "html'>vaba</a> ja  <a href='http://www.opensource.org/'>avatud "
+#~ "lähtekoodiga</a> käigupõhise strateegiamängu <em>Wesnothi Lahing</em> "
+#~ "versiooni 1.8.  Mäng on  <a href='#download'>nüüd saadaval</a> "
+#~ "Windowsile, MacOS X-ile ja mitmetele GNU/Linuxi distrodele."
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#, fuzzy
+#~| msgid "<a href='#game'>What's New in Wesnoth 1.8</a>"
+#~ msgid "<a href='#game'>What’s New in Wesnoth 1.12</a>"
+#~ msgstr "<a href='#game'>Mis on Wesnoth 1.8-s uut</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li><ul><li>
+#~ msgid "<a href='#players'>For Players</a>"
+#~ msgstr "<a href='#players'>Mängijatele</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li><ul><ul><li>
+#~ msgid "<a href='#campaigns'>Campaigns</a>"
+#~ msgstr "<a href='#campaigns'>Sõjakäigud</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li><ul><ul><li>
+#~ msgid "<a href='#multiplayer'>Multiplayer</a>"
+#~ msgstr "<a href='#multiplayer'>Mitmekesi mäng</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li><ul><ul><li>
+#~ msgid "<a href='#general'>General</a>"
+#~ msgstr "<a href='#general'>Üldist</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li><ul><li>
+#, fuzzy
+#~| msgid "<a href='#campdev'>For Campaign Developers</a>"
+#~ msgid "<a href='#campdev'>For Content Developers</a>"
+#~ msgstr "<a href='#campdev'>Sõjakäikude arendajatele</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#~ msgid "<a href='#more'>More Info</a>"
+#~ msgstr "<a href='#more'>Lisainfo</a>"
+
+#~ msgid ""
+#~ "The improvements this time around include one entire new full-length "
+#~ "campaign, hundreds of new and revised unit portraits, five new music "
+#~ "tracks, some UI redesign, and substantial improvements in the game's AI."
+#~ msgstr ""
+#~ "Seekordsete  täiendustena väärivad mainimist üks uus täispikkuses "
+#~ "sõjakäik, sajad uued ja uuendatud üksuste pildid, viis uut helitausta, "
+#~ "kasutajaliidese parandused ning mängu tehisintellekti märgatav paranemine."
+
+#~ msgid ""
+#~ "To help the player keep those who are loyal to him alive, these units are "
+#~ "now marked with an overlay symbol that looks like a bronze ring."
+#~ msgstr ""
+#~ "Aitamaks mängijal ustavaid üksusi kergemini eristada ja elus hoida, on "
+#~ "need nüüd märgitud pronkssõrmust meenutava sümboliga."
+
+#~ msgid ""
+#~ "The names on maps and other images can now be localized to the player's "
+#~ "language; several languages already use this new feature. For more "
+#~ "information and tutorials, look at the wiki article on <a href=\"http://"
+#~ "wiki.wesnoth.org/ImageLocalization\">Image Localization</a>."
+#~ msgstr ""
+#~ "Kaartidel ja muudel graafikaelementidel kasutatavaid nimesid saab nüüd "
+#~ "tõlkida - mitmete keelte tõlked kasutavad juba seda võimalust. Lisainfot "
+#~ "ja õpetusi leiab  Wesnothi wiki artiklist <a href=\"http://wiki.wesnoth."
+#~ "org/ImageLocalization\">Image Localization</a>."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "A new campaign, <cite>Delfador's Memoirs</cite>, tells the tale of how a "
+#~ "mage-apprentice rose to become Delfador the Great. This campaign was "
+#~ "imported from the <a href=\"http://wesnoth-umc-dev.sourceforge.net"
+#~ "\">Wesnoth-UMC-Dev project</a>, where it spent almost a year being "
+#~ "adapted for mainline."
+#~ msgstr ""
+#~ "Uus sõjakäik <cite>Delfadori mälestused</cite> on lugu sellest, kuidas "
+#~ "võluri õpipoisist sai Delfador Suur. See võeti üle <a href=\"http://"
+#~ "wesnoth-umc-dev.sourceforge.net\">Wesnoth-UMC-Dev  -projektist</a>, kus "
+#~ "seda peaaegu aasta aega viimistleti."
+
+#~ msgid ""
+#~ "We've continued to polish and improve the mainline campaigns.  The hero "
+#~ "Kaleh's custom advancements in <cite>Under the Burning Suns</cite>, long "
+#~ "a source of problems, have been redesigned in a more robust and "
+#~ "streamlined fashion. Significant continuity problems in <cite>Heir to the "
+#~ "Throne's</cite> \"Cliffs of Thoria\" scenario have been fixed.  Some "
+#~ "scenarios in <cite>Legend of Wesmere</cite> have been rewritten and "
+#~ "significantly enhanced. An early version of its multiplayer port is "
+#~ "available to test Wesnoth's multiplayer campaign feature."
+#~ msgstr ""
+#~ "Oleme ka jätkuvalt viimistlenud ja parandanud põhilisi sõjakäike. Pikka "
+#~ "aega peavalu tekitanud kohandused  sõjakäigu <cite>Põletavate päikeste "
+#~ "all</cite> kangelase Kaleh'  edenemisastmetes on nüüdseks lahendatud "
+#~ "selgemalt ja kindlamalt.  <cite>Troonipärija</cite> sõjakäigus \"Thoria "
+#~ "kaljude\" loos esinevad küsitavused on korda tehtud. Mõned \"Wesmere "
+#~ "legendi\" stsenaariumid on ümberkirjutatud ja märgatavalt laiendatud. "
+#~ "Wesnothi mitmemängija sõjakäikude katsetamiseks on saadaval selle "
+#~ "mänguosa üks varajane versioon."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "There are five new full-orchestral music tracks: <cite>Casualties of War</"
+#~ "cite>, <cite>Into the Shadows</cite>, <cite>Journey's End</cite>, "
+#~ "<cite>Over the Northern Mountains</cite>, and <cite>Weight of Revenge</"
+#~ "cite>."
+#~ msgstr ""
+#~ "Lisatud on viis uut muusikatausta: <cite>Sõjaohvrid</cite>, "
+#~ "<cite>Varjudesse</cite>, <cite>Teekonna lõpp</cite>, <cite>Üle Põhja "
+#~ "mägede</cite> ja <cite>Kättemaksu taak</cite>."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "The game AI has been significantly debugged and improved; it chooses "
+#~ "recruits/recalls better, and does smarter target selection."
+#~ msgstr ""
+#~ "Mängu tehisintellekti on märkimisväärselt silutud ja parandatud  - nüüd "
+#~ "ta värbab ja kutsub üksusi tagasi paremini ning valib ka rünnakusihte "
+#~ "hoolsamini."
+
+#~ msgid ""
+#~ "The operating system's GUI can be told to notify the player that it's his "
+#~ "turn to play."
+#~ msgstr ""
+#~ "Operatsioonisüsteemi kasutajaliidesel saab nüüd lasta mängijale tema "
+#~ "käigu saabumisest märku anda."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "The multiplayer lobby has been completely redesigned for improved ease of "
+#~ "play and better appearance."
+#~ msgstr ""
+#~ "Mitmemängija ooteruum on täiesti ümber kujundatud, et saavutada lihtsust "
+#~ "ja paremat väljanägemist."
+
+#~ msgid ""
+#~ "Random numbers are generated on the Wesnoth multiplayer server during MP "
+#~ "combats. This makes certain kinds of cheats and out-of-sync conditions "
+#~ "impossible, at the cost of breaking compatibility with versions before "
+#~ "1.7.13."
+#~ msgstr ""
+#~ "Wesnothi mitmemängija server genereerib mängu ajal juhuslikke arve. See "
+#~ "kaotab ära mitmed pettuste ja sünkroonist väljamineku võimalused - selle "
+#~ "hinnaks on aga ühilduvuse kadumine 1.7.13-st varasemate versioonidega."
+
+#~ msgid ""
+#~ "The right sidebar on the main game display has been tuned for usability. "
+#~ "It now gives more prominence to the selected unit's terrain defence "
+#~ "percentage and time-of-day modifier."
+#~ msgstr ""
+#~ "Paremas servas asuv külgpaan mängu põhiekraanil on kasutatavuse "
+#~ "vaatenurgast üle vaadatud. Nüüd näitab ta selgemalt valitud üksuse "
+#~ "kaitsevõimet asukoha maastikul ning päevaajast sõltuvaid omadusi."
+
+#~ msgid ""
+#~ "There is a new monster unit: the Water Serpent. Additionally, the "
+#~ "Dwarvish Scout from Under the Burning Suns is now part of normal Dwarvish "
+#~ "sides in campaigns. Several other unit lines &mdash; most notably the "
+#~ "Drakes &mdash; have been completely redone with improved art and "
+#~ "animations.  A remake of the merfolk units out of our Art Director's "
+#~ "virtual pencil has been completed in this release cycle.  (But most "
+#~ "animations are still missing for them.)"
+#~ msgstr ""
+#~ "Üksustesse on lisatud on uus koletis: veemadu. Lisaks on \"Põletavate "
+#~ "päikeste all\" sõjakäigust tuttav päkapike luuraja nüüd saadaval teiste "
+#~ "päkapike hulgas ka mujal. Mitmed üksusteliigid &mdash; eriti lohed "
+#~ "&mdash; on parema graafika ja animatsioonidega täiesti ümber tehtud. Meie "
+#~ "graafikapealiku loodud uued näkkide üksused on samuti lisatud, ent neil "
+#~ "puudub veel enamik animatsioone."
+
+#~ msgid ""
+#~ "Add-on descriptions are now accessible from the add-on download dialog "
+#~ "via a button."
+#~ msgstr ""
+#~ "LIsamoodulite kirjeldusi näeb nüüd vastavast dialoogist sellekohasele "
+#~ "nupule klõpsates."
+
+#~ msgid ""
+#~ "Most translations have been updated. In addition, Vietnamese has "
+#~ "returned, and we have a new transliteration, English in the Shavian "
+#~ "alphabet."
+#~ msgstr ""
+#~ "Enamik tõlkeid on uuenenud. Vietnamikeelne tõlge on uuesti tagasi ning "
+#~ "lisandunud on ingliskeelne, Shaw' tähestikku kasutav tõlge."
+
+#~ msgid ""
+#~ "This year Wesnoth was once again a Google \"Summer of Code\" program; one "
+#~ "of its major results was a complete rework of Wesnoth's support for "
+#~ "multiplayer campaigns. Sides in multiplayer games are now persistent and "
+#~ "can be carried over from one multiplayer scenario to the next. The "
+#~ "leaders of AI sides are now able to recall from their side's list. As a "
+#~ "side effect it is now possible to have more than one leader with the "
+#~ "ability to recruit per side."
+#~ msgstr ""
+#~ "Sel aastal oli Wesnoth taas osa Google'i \"Summer of Code\" -programmist. "
+#~ "Üks peamisi tulemusi oli mitmemängija sõjakäikude süsteemi täielik "
+#~ "uussünd. Nüüd on mängu osapooled püsivad ja säilivad stsenaariumist teise "
+#~ "liikumisel. Arvuti poolt juhitavad osapooled saavad oma üksusi tagasi "
+#~ "kutsuda. Ühe kõrvalefektina on nüüd võimalik, et ühel osapoolel on rohkem "
+#~ "kui üks värbamisõigusega pealik."
+
+#~ msgid ""
+#~ "Another Summer of Code result is a new framework for Wesnoth's artificial "
+#~ "intelligence. The AI can now be scripted to significantly change its "
+#~ "behavior in different story settings and in response to campaign events, "
+#~ "give enemy sides more distinct tactical personalities. It is possible, "
+#~ "though not easy, to use scripting languages (formula_ai, lua) to create "
+#~ "alternate AIs that are also scriptable."
+#~ msgstr ""
+#~ "Veel üks Summer of Code'i tulemus on Wesnothi tehisintellekti uus "
+#~ "raamistik. Seda saab nüüd programmeerida muutma tunduvalt oma käitumist "
+#~ "vastavalt erinevatele olukordadele ja sõjakäigu sündmustele, võimaldades "
+#~ "luua isikupärase taktikaga vastaseid.  Võimalik, ehkki mitte kerge, on "
+#~ "luua skriptitavaid tehisintellekte ka skriptikeelte nagu Formula_AI või "
+#~ "Lua abil."
+
+#~ msgid ""
+#~ "A new tool called the <a href=\"http://wiki.wesnoth.org/"
+#~ "CommandMode#Extra_Debugging_Commands\">\"gamestate inspector\"</a> allows "
+#~ "a content developer to view the values of the WML variables, ai "
+#~ "configuration, and the recall list while a game is in progress."
+#~ msgstr ""
+#~ "Uus töövahend, <a href=\"http://wiki.wesnoth.org/"
+#~ "CommandMode#Extra_Debugging_Commands\">\"mängu oleku jälgija\"</a> "
+#~ "võimaldab sisuarendajal jälgida XMLi muutujate väärtusi, tehisintellekti "
+#~ "seadeid ning tagasikutsutavate üksuste nimekirja ka mängu ajal."
+
+#~ msgid ""
+#~ "New Orcish Village and Orcish Keep terrain graphics improve the options "
+#~ "available to map designers."
+#~ msgstr ""
+#~ "Uued graafikaelemendid orkide küla ja lossi tarvis laiendavad "
+#~ "kaardiloojate võimalusi."
+
+#~ msgid ""
+#~ "We've also achieved excellent results with our inaugural 'Summer Art "
+#~ "Scholarship' program. This has led to dozens of new portraits, as well as "
+#~ "a complete rework of the Drake sprites. We hope to continue this program "
+#~ "in coming years."
+#~ msgstr ""
+#~ "Oleme ka saavutanud suurepäraseid tulemusi meie uue suvise "
+#~ "kunstistipendiumiprogrammiga. See on andnud hulganisti uusi tegelaste "
+#~ "portreesid ning kogu lohede rassi graafikaelementide ümbertöötluse. "
+#~ "Loodame seda programmi jätkata ka edaspidi."
+
+# type: Content of: <html><body><div><div><div><p>
+#~ msgid ""
+#~ "We paid a lot of attention to world continuity, from small details like "
+#~ "replacing earth-human names for characters up through larger ones like "
+#~ "putting many new placenames on the main map. The main Wesnoth history "
+#~ "timeline has been tweaked to eliminate various minor inconsistencies."
+#~ msgstr ""
+#~ "Pöörasime suurt tähelepanu ka Wesnothi maailma ühtsusele, alates "
+#~ "väikestest detailidest nagu tegelaste maiste nimede väljavahetamine ning "
+#~ "lõpetades suurtega nagu hulk uusi kohanimesid Wesnothi kaardil. Wesnothi "
+#~ "ajalugu vaadati üle, et eemaldada sealt mitmed väikesed vasturääkivused."
+
+#~ msgid ""
+#~ "We kept the promise we made in 1.6 when we had to remove Python for "
+#~ "technical reasons; WML events and AI components can now be written in "
+#~ "lua. The integration of lua in the wesnoth game engine is advanced enough "
+#~ "to even allow the coding of WML action tags with lua definitions that can "
+#~ "read and modify game state variables in the C++ core."
+#~ msgstr ""
+#~ "Me täitsime versiooni 1.6 juures antud lubaduse: kuna me pidime "
+#~ "tehnilistel põhjustel loobuma Pythonist, saab nüüd WML-i sündmusi ja "
+#~ "tehisintellekti osi kirjutada Lua-keeles. Lua sidumine Wesnothi "
+#~ "põhisüsteemiga on piisavalt tõhus, et võimaldada Lua definitsioonide abil "
+#~ "kirjutada WML-i tegevustemärgendeid ning lugeda ja muuta C++ -põhikoodis "
+#~ "kasutatavaid mängumuutujaid."

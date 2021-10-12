@@ -1,0 +1,277 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Wesnoth Project
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Release Notes 1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-12 09:26-0500\n"
+"PO-Revision-Date: 2006-12-23 18:54+0100\n"
+"Last-Translator: Viliam Bur <viliam@bur.sk>\n"
+"Language-Team: Wesnoth Esperanto team <viliam@bur.sk>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Esperanto\n"
+
+#. type: Attribute 'lang' of: <html>
+#: template.html:3
+msgid "en"
+msgstr "eo"
+
+#. type: Content of: <html><body><div><div>
+#: template.html:27
+msgid ""
+"<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span aria-hidden="
+"\"true\"></span></a>"
+msgstr ""
+
+#.  TODO: itch.io button 
+#. type: Content of: <html><body><div><div><div>
+#: template.html:38
+msgid ""
+"<a class=\"download-button\" role=\"button\" href=\"#download\"> <span class="
+"\"download-arrow\" aria-hidden=\"true\"></span> <span class=\"download-text"
+"\"> <span class=\"download-big\"></span> </span> </a> <a class=\"steam-button"
+"\" role=\"button\" href=\"https://store.steampowered.com/app/599390\"> <span "
+"class=\"download-text\"> <span class=\"steam-icon\" aria-hidden=\"true\"></"
+"span> <span class=\"download-big\"></span> </span> </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:89
+msgid ""
+"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
+"wesnoth-1.16.0/wesnoth-1.16.0-win64.exe/download\"><i class=\"downloadicon "
+"downloadicon-windows\" aria-hidden=\"true\"></i><span class=\"os\"></span> "
+"<span class=\"size\"></span></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:90
+msgid ""
+"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
+"wesnoth-1.16.0/Wesnoth_1.16.0.dmg/download\"><i class=\"downloadicon "
+"downloadicon-apple\" aria-hidden=\"true\"></i><span class=\"os\"></span> "
+"<span class=\"size\"></span></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:91
+msgid ""
+"<a href=\"https://flathub.org/apps/details/org.wesnoth.Wesnoth\"><i class="
+"\"downloadicon downloadicon-linux\" aria-hidden=\"true\"></i><span class=\"os"
+"\"></span></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:92
+msgid ""
+"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
+"wesnoth-1.16.0/wesnoth-1.16.0.tar.bz2/download\"><i class=\"downloadicon "
+"downloadicon-src\" aria-hidden=\"true\"></i><span class=\"os\"></span> <span "
+"class=\"size\"></span></a>"
+msgstr ""
+
+#, fuzzy
+#~ msgid "The Battle for Wesnoth 1.16"
+#~ msgstr "Batalo por Vesnot' 1.2"
+
+#, fuzzy
+#~ msgid "What’s New in This Update"
+#~ msgstr "Novaĵoj en Vesnot' 1.2"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='images/start-1-full.jpg'>"
+#~ msgid "<a href=\"images/start-1.jpg\">"
+#~ msgstr "<a href='images/start-1-full.jpg'>"
+
+# type: Content of: <html><body><div><div><div>
+#~ msgid "</a>"
+#~ msgstr "</a>"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='images/start-1-full.jpg'>"
+#~ msgid "<a href=\"images/start-2.jpg\">"
+#~ msgstr "<a href='images/start-1-full.jpg'>"
+
+#, fuzzy
+#~ msgid "Wesnoth Screenshot"
+#~ msgstr "Publikigaj notoj pri Vesnot' 1.0"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='images/start-3-full.jpg'>"
+#~ msgid "<a href=\"images/start-3.jpg\">"
+#~ msgstr "<a href='images/start-3-full.jpg'>"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='images/start-4-full.jpg'>"
+#~ msgid "<a href=\"images/start-4.jpg\">"
+#~ msgstr "<a href='images/start-4-full.jpg'>"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='images/start-2-full.jpg'>"
+#~ msgid "<a href=\"images/start-5.jpg\">"
+#~ msgstr "<a href='images/start-2-full.jpg'>"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='images/start-1-full.jpg'>"
+#~ msgid "<a href=\"images/start-6.jpg\">"
+#~ msgstr "<a href='images/start-1-full.jpg'>"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='images/start-1-full.jpg'>"
+#~ msgid "<a href=\"images/start-7.jpg\">"
+#~ msgstr "<a href='images/start-1-full.jpg'>"
+
+#~ msgid "Download"
+#~ msgstr "Elŝuto"
+
+#, fuzzy
+#~ msgid ""
+#~ "<cite>The Battle for Wesnoth</cite> is made available under the <a href="
+#~ "\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU General Public License</"
+#~ "a> (GNU GPL) — either version 2 of the license or, at your option, any "
+#~ "later version — and the <a href=\"https://creativecommons.org/licenses/by-"
+#~ "sa/4.0/\">Creative Commons Attribution Share-Alike License</a> (CC BY-"
+#~ "SA), version 4.0. The source code is available on <a href=\"https://"
+#~ "github.com/wesnoth/wesnoth\">GitHub</a>, and you can find instructions "
+#~ "for <a href=\"https://wiki.wesnoth.org/CompilingWesnoth\">building from "
+#~ "source</a> on a range of different operating systems on our wiki. Ready-"
+#~ "to-install packages are available for Microsoft Windows, Apple macOS, and "
+#~ "GNU/Linux."
+#~ msgstr ""
+#~ "Batalo por Vesnot' akireblas sub la <a href=\"%s\">Ĝenerala publika "
+#~ "permesilo de GNU</a> (GPL). La fonto-kodo estas akirebla de <a href=\"%s"
+#~ "\">wesnoth.org</a>, kie oni trovos ankaŭ instruojn por <a href=\"%s"
+#~ "\">bildigi la fonton</a> sur diversaj operaciumoj. Pretaj pakaĵoj estas "
+#~ "ankaŭ akireblaj por la plej popularaj operaciumoj."
+
+#, fuzzy
+#~ msgid ""
+#~ "You can refer to the <a href=\"https://wiki.wesnoth.org/Download"
+#~ "\">downloads page</a> for the latest up-to-date packages and "
+#~ "instructions, including those for other platforms once they become "
+#~ "available."
+#~ msgstr ""
+#~ "La ĝisdatan informon pri elŝuteblaĵoj oni trovos ĉe la <a href=\"http://"
+#~ "www.wesnoth.org/wiki/Download\">paĝo <em>Download</em></a>."
+
+#, fuzzy
+#~ msgid ""
+#~ "If you downloaded previous versions of the game, you might be interested "
+#~ "in downloading the <a href=\"https://wiki.wesnoth.org/Download_Xdeltas"
+#~ "\">Xdelta</a> files only."
+#~ msgstr ""
+#~ "Se vi elŝutis la antaŭajn versiojn de la ludo, eble povus esti interese "
+#~ "por vi elŝuti nur la <a href=\"%s\">xdelta</a> dosierojn."
+
+# type: Content of: <html><body><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='http://www.wesnoth.org'>"
+#~ msgid "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
+#~ msgstr "<a href='//www.wesnoth.org'>"
+
+#~ msgid "More Info"
+#~ msgstr "Pli da informoj"
+
+# type: Content of: <html><body><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='http://www.wesnoth.org'>"
+#~ msgid ""
+#~ "<a href=\"https://changelog.wesnoth.org/1.14/\">Full Changelog</a> "
+#~ "(English only)"
+#~ msgstr "<a href='//www.wesnoth.org'>"
+
+# type: Content of: <html><body><div><div><div><a>
+#, fuzzy
+#~ msgid ""
+#~ "<a href=\"https://www.wesnoth.org/manual/1.14/manual.en.html\">User’s "
+#~ "Manual</a>"
+#~ msgstr "<a href='//www.wesnoth.org'>"
+
+# type: Content of: <html><body><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='http://www.wesnoth.org'>"
+#~ msgid ""
+#~ "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
+#~ msgstr "<a href='//www.wesnoth.org'>"
+
+# type: Content of: <html><body><div><div><div><a>
+#, fuzzy
+#~ msgid ""
+#~ "<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release "
+#~ "Notes</a>"
+#~ msgstr "<a href='//www.wesnoth.org'>"
+
+# type: Content of: <html><body><div><div><div><a>
+#, fuzzy
+#~ msgid ""
+#~ "<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release "
+#~ "Notes</a>"
+#~ msgstr "<a href='//www.wesnoth.org'>"
+
+# type: Content of: <html><body><div><div><div><a>
+#, fuzzy
+#~ msgid ""
+#~ "<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</"
+#~ "a>"
+#~ msgstr "<a href='//www.wesnoth.org'>"
+
+# type: Content of: <html><body><div><div><div><a>
+#, fuzzy
+#~ msgid ""
+#~ "<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</"
+#~ "a>"
+#~ msgstr "<a href='//www.wesnoth.org'>"
+
+#~ msgid "This page is also available in the following languages:"
+#~ msgstr "Tiu ĉi paĝo ankaŭ akireblas en la sekvantaj lingvoj:"
+
+# type: Content of: <html><body><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='//www.wesnoth.org'>"
+#~ msgid "<a href=\"//www.wesnoth.org\">"
+#~ msgstr "<a href='//www.wesnoth.org'>"
+
+#, fuzzy
+#~ msgid "Wesnoth Logo"
+#~ msgstr "Publikigaj notoj pri Vesnot' 1.0"
+
+#, fuzzy
+#~ msgid "Battle for Wesnoth 1.12 Release Notes"
+#~ msgstr "Publikigaj notoj pri Batalo por Vesnot' 1.2"
+
+#, fuzzy
+#~ msgid ""
+#~ "<i>December 2014</i>. As the year comes to an end, a new stable release "
+#~ "series begins. The development team is proud to present version 1.12 of "
+#~ "<cite>The Battle for Wesnoth</cite>, a <a href='http://www.gnu.org/"
+#~ "philosophy/philosophy.html'>free</a> and <a href='http://www.opensource."
+#~ "org/'>open source</a> turn-based tactical strategy game with a high "
+#~ "fantasy theme and role-playing elements. The game is available for "
+#~ "Microsoft Windows, Apple OS X, and various GNU/Linux distributions."
+#~ msgstr ""
+#~ "La teamo de Batalo por Vesnot' fiere publikigas la version 1.2 de "
+#~ "<em>Batalo por Vesnot'</em>, la <a href=\"%s\">libera</a> turna strategia "
+#~ "ludo de fantasta medio kun rol-ludaj elementoj. La ludon oni povas <a "
+#~ "href=\"%s\">elŝuti</a> por Vindozo, Mac OS X, kaj diversaj GNU/Linuksaj "
+#~ "distribuaĵoj."
+
+#, fuzzy
+#~ msgid "<a href='#game'>What’s New in Wesnoth 1.12</a>"
+#~ msgstr "Novaĵoj en Vesnot' 1.2"
+
+# type: Content of: <html><body><div><div><div>
+#~ msgid "<br/>"
+#~ msgstr "<br/>"
