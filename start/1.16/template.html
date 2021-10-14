@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="https://www.wesnoth.org/wesmere/css/wesmere.css" />
 	<link rel="stylesheet" type="text/css" href="css/lintanir.css" />
 
-	<title></title>
+	<title>The Battle for Wesnoth 1.16</title>
 
 	<script src="js/jquery-3.3.1.min.js"></script>
 
@@ -23,29 +23,31 @@
 
 <div id="main">
 
+<!-- TODO: check for a different background image -->
+<!-- TODO: add a DiD/Halloween reference somewhere -->
 <div id="cover" role="banner">
 	<a id="bigshield" href="/" aria-label="Wesnoth logo"><span aria-hidden="true"></span></a>
 
-	<h1 id="branding-title"><br/></h1>
+	<h1 id="branding-title">The Battle for Wesnoth 1.16<br/><span id="branding-sub">Dune Conquests Update</span></h1>
 
 	<div id="intro">
-		<p></p>
+		<p><i>October 2021.</i> The development team is proud to present version 1.16 of <cite><a href="/">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!</p>
 
-		<p></p>
+		<p>This release features a variety of improvements to many areas of the game including many improved campaigns, a fully rebalanced Dunefolk faction, new portraits and units, upgrades to the AI, a variety of new features for add-on authors, many <b>many</b> bugs fixed, and much more besides. Try out the new features for yourself, or take a look <a href="#game">below</a> for more details.</p>
 	</div>
 
 	<div id="quick-download">
-		<a class="download-button" role="button" href="#download">
+		<a class="download-button" role="button" href="https://www.wesnoth.org/#download">
 			<span class="download-arrow" aria-hidden="true"></span>
 			<span class="download-text">
-				<span class="download-big"></span>
+				<span class="download-big">Download Now!</span>
 			</span>
 		</a>
 
 		<a class="steam-button" role="button" href="https://store.steampowered.com/app/599390">
 			<span class="download-text">
 				<span class="steam-icon" aria-hidden="true"></span>
-				<span class="download-big"></span>
+				<span class="download-big">Get on Steam!</span>
 			</span>
 		</a>
 		
@@ -55,60 +57,97 @@
 
 <div id="nav"></div>
 
+<!-- TODO: <cite> things -->
+
 <div id="content">
 
-<h2 id="game" class="center"></h2>
+<h2 id="game" class="center">What’s New in This Update</h2>
 
-<h3 id="players"></h3>
+<h3 id="players">For Players</h3>
 
-<p></p>
+<div class="thumb tright">
+  <div><a href="images/start-2.jpg"><img src="images/start-2-thumb.jpg" alt="Wesnoth Screenshot" /></a></div>
+</div>
 
-<h4 id="campaigns"></h4>
+<p>Due to our use of more modern distribution platforms such as Steam, itch.io, Flathub, and others, players will be automatically upgraded to a new stable series for the first time since Wesnoth was released. To support this, an option will be shown the first time 1.16.0 is started after being upgraded from 1.14.17 to migrate settings as well as download the 1.16 version of any add-ons that are installed, if they have been updated to work with 1.16.  To go along with that, Wesnoth is now able to select save files from previous versions from within the game itself.</p>
 
-<p></p>
+<p>Addressing a long standing pain point, especially for players with slow and-or limited internet bandwidth, updating add-ons will no longer result in the entire add-on being redownloaded - instead only the files that have actually changed will be downloaded - which will significantly reduce both the time it takes to update add-ons as well as how much data is used when updating. Additionally, any version of an add-on that has been uploaded by the author in the last 30 days is selectable for download, thus allowing for downgrading an add-on if needed for any reason.</p>
 
-<p></p>
+<p>Many aspects of the AI have seen improvements as well, with much of the experimental AI having been merged into the default AI. This allows it to better handle healers, poison, retreating, and other behavior.</p>
 
-<h4 id="multiplayer"></h4>
+<p>Finally, the Dunefolk faction as a whole has been further reworked and rebalanced. They should now be much closer to the factions in the Default era in terms of overall strength as well as be more interesting to play.</p>
 
-<p></p>
+<h4 id="campaigns">Campaigns</h4>
 
-<h4 id="general"></h4>
+<!-- TODO: campaign menu screenshot -->
+<div class="thumb center"><a href="images/start-3.jpg"><img src="images/start-3-thumb.jpg" alt="Campaigns menu screenshot" /></a></div>
 
-<p></p>
+<p>Descent into Darkness, Liberty, and Sceptre of Fire have received a multitude of revisions, including streamlining of the gameplay, addition of RPG elements, various storyline and dialogue rewrites, and visual and balance updates. Under the Burning Suns also received revamped maps and the Quenoth faction was rebalanced to better match the other mainline factions.</p>
 
-<h3 id="creators"></h3>
+<p>To accompany the improved AI that was added in this development cycle, all campaigns were rebalanced to better match their intended difficulties and to prevent unusual difficulty spikes throughout the campaign, most notably in Eastern Invasion. The novice level campaigns were also reduced in difficulty to make them more accessible to newer players.</p>
 
-<p></p>
+<p>The Hammer of Thursagan had several scenarios revised and others removed to modernize the story and gameplay, especially to focus more on dwarven culture and the interactions between their clans. Secrets of the Ancients also received a minor gameplay update with new zombie variations available for creation and recruiting.</p>
 
-<h2 id="download"></h2>
+<p>Finally, accompanying the various modernizations and tweaks to many of the mainline campaigns, a new campaign menu was made featuring several stunning backgrounds drawn by Emilien Rotival (LordBob).</p>
 
-<p></p>
+<h4 id="multiplayer">Multiplayer</h4>
 
-<ul class="downloads"
-	><li class="windows"><a href="https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/wesnoth-1.16.0/wesnoth-1.16.0-win64.exe/download"><i class="downloadicon downloadicon-windows" aria-hidden="true"></i><span class="os"></span> <span class="size"></span></a></li
-	><li class="apple"><a href="https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/wesnoth-1.16.0/Wesnoth_1.16.0.dmg/download"><i class="downloadicon downloadicon-apple" aria-hidden="true"></i><span class="os"></span> <span class="size"></span></a></li
-	><li class="linux"><a href="https://flathub.org/apps/details/org.wesnoth.Wesnoth"><i class="downloadicon downloadicon-linux" aria-hidden="true"></i><span class="os"></span></a></li
-	><li class="src"><a href="https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/wesnoth-1.16.0/wesnoth-1.16.0.tar.bz2/download"><i class="downloadicon downloadicon-src" aria-hidden="true"></i><span class="os"></span> <span class="size"></span></a></li
-	></ul>
+<!-- TODO: add screenshot of isar's cross with background -->
+<div class="thumb center"><a href="images/start-5.jpg"><img src="images/start-5-thumb.jpg" alt="Multiplayer game setup screenshot" /></a></div>
 
-<p></p>
+<p>There have been two major additions to Wesnoth's multiplayer content: Isle of Mists and World Conquest. Isle of Mists is a coop survival scenario in the vein of Dark Forecast, the latter of which has had its difficulty reduced with the former taking its place in terms of challenge.  World Conquest, formerly the add-on World Conquest II, is a multiplayer campaign with RPG elements where up to three players can cooperate to survive, upgrade their units, and defeat the armies opposing them.</p>
 
-<h2 id="contribute"></h2>
+<p>The add-on Plan Unit Advance is also now included in mainline. When enabled, this allows players to pre-emptively choose what they want their units to become if they level up on another player's turn in multiplayer. Complementing this, units whose advancement hasn't been planned will now always level up into the same unit rather than choosing one at random when there are multiple options available.</p>
 
-<p></p>
+<p>Another significant change is a new feature which isolates add-on content from each other once a game has started. This will prevent add-ons that aren't being used in a game from interfering with each other, thereby significantly reducing the occurrence of strange bugs and out of sync errors.</p>
 
-<p></p>
+<p>Improvements for game hosts to better handle unwanted players have also been implemented - bans from individual games are now enforced by username rather than just by IP address, people on a player's ignore list are now automatically banned from joining their games, and observers are now also required to enter the password to join password protected games rather than just players.</p>
+
+<h4 id="creators">For Content Creators</h4>
+
+<div class="thumb tleft">
+  <div><a href="images/start-7.jpg"><img src="images/start-7-thumb.jpg" alt="Wesnoth Screenshot"/></a></div>
+</div>
+
+<p>To go along with the new incremental downloads of add-on updates mentioned above, also coming with this release is incremental uploads for add-on authors; when uploading a new version of your add-on you will only send the files that have changed rather than the entire add-on. Additionally, add-ons can now provide translations of their titles and descriptions for multiple languages in the _server.pbl file. A minor security improvement has also been made to _server.pbl handling - it's no longer required for the passphrase field to be stored plaintext in the file; instead Wesnoth will prompt you to enter the passphrase if it isn't present.</p>
+
+<p>More significantly, though perhaps less visible, are the various and sundry improvements made to the WML, lua, and Wesnoth Formula Language (WFL) APIs. First and foremost, many of the existing lua functions have been reorganized into submodules, and a comprehensive list of these changes can be found <a href="https://wiki.wesnoth.org/LuaAPI/UpdatingFrom14">here</a>. While the existing names of reorganized functions will still work, content authors are nevertheless encouraged to update existing code to the new modules. Separately, the version of lua that comes packaged with Wesnoth had ben updated to 5.4 from 5.3.</p>
+
+<p>The formula= attribute is now also supported in ConditionalWML. This allows the use of conditions that would otherwise require the use of more complex WML or lua, as well as being generally a more concise way to express complex conditions.</p>
+
+<p>The male_voice and female_voice attributes are now supported in [message] to better allow for voice acting for add-ons.</p>
+
+<p>The new tag [modify_unit_type] has been added for campaigns, eras, and modifications to allow for changing certain unit_type's experience, cost, and advancement options. In particular, this is meant to be the replacement for the deprecated [advancefrom] tag.</p>
+
+<p>Programmatically working with WML from within lua has also been expanded and simplified with the addition of the wml.merge, wml.diff, wml.patch, wml.find_child, wml.attribute_count, wml.equal, wml.valid, and wml.interpolate functions.</p>
+
+<h2 id="contribute">Contribute</h2>
+
+<p><cite>The Battle for Wesnoth</cite> is constantly being improved and expanded upon by a multitude of international volunteers from diverse backgrounds. Since its inception in July 2003, hundreds of people have contributed to all areas of the game, from mainline content shipped as part of the official releases to hundreds of player-made projects available to download from our add-ons server. Whether you need help beating a particular scenario or adding a feature to your custom maps, <cite>Wesnoth</cite> boasts a massive community of players and creators always willing to help.</p>
+
+<p>Besides creating your own add-on content, there are many other ways you can help <cite>Wesnoth</cite>:</p>
 
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li><a href="https://wiki.wesnoth.org/Project">Contribute</a> code</li>
+  <li><a href="https://forums.wesnoth.org/viewforum.php?f=9">Create</a> art for the main game or for user-made <a href="https://forums.wesnoth.org/viewforum.php?f=23">add-ons</a></li>
+  <li><a href="https://wiki.wesnoth.org/WesnothTranslations">Translate</a> the game into your language</li>
+  <li><a href="https://forums.wesnoth.org/viewforum.php?f=14">Produce</a> new music tracks and sound effects</li>
+  <li>Spread the word about <cite>Wesnoth</cite> on social media!</li>
 </ul>
 
-<h2 id="more"></h2>
+<h2 id="more">More Info</h2>
+
+<ul>
+  <li><a href="https://changelog.wesnoth.org/1.16/">Full Changelog</a> (English only)</li>
+  <li><a href="https://www.wesnoth.org/manual/1.16/manual.en.html">User’s Manual</a></li>
+  <li><a href="https://www.wesnoth.org">Official Website</a> (English only)</li>
+
+  <li><a href="https://www.wesnoth.org/start/1.14">Wesnoth 1.14 Release Notes</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.12">Wesnoth 1.12 Release Notes</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.10">Wesnoth 1.10 Release Notes</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.8">Wesnoth 1.8 Release Notes</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.6">Wesnoth 1.6 Release Notes</a></li>
+</ul>
 
 </div> <!-- content -->
 
@@ -117,6 +156,16 @@
 <div id="footer-sep"></div>
 
 <div id="footer"><div id="footer-content"><div>
+	<div id="languages">
+		This page is also available in the following languages:
+		<ul>
+			<!--LANGS-->
+		</ul>
+	</div>
+
+	<a href="https://wiki.wesnoth.org/StartingPoints">Site Map</a> &#8226; <a href="https://status.wesnoth.org/">Site Status</a><br />
+	Copyright &#169; 2003&#8211;2021 by <a rel="author" href="https://wiki.wesnoth.org/Project">The Battle for Wesnoth Project</a>.<br />
+	Site design Copyright &#169; 2017&#8211;2021 by Iris Morelle.
 </div></div></div>
 
 <script>
