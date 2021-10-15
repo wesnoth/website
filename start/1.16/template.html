@@ -109,17 +109,17 @@
   <div><a href="images/start-7.jpg"><img src="images/start-7-thumb.jpg" alt="Wesnoth Screenshot"/></a></div>
 </div>
 
-<p>To go along with the new incremental downloads of add-on updates mentioned above, also coming with this release is incremental uploads for add-on authors; when uploading a new version of your add-on you will only send the files that have changed rather than the entire add-on. Additionally, add-ons can now provide translations of their titles and descriptions for multiple languages in the _server.pbl file. A minor security improvement has also been made to _server.pbl handling - it's no longer required for the passphrase field to be stored plaintext in the file; instead Wesnoth will prompt you to enter the passphrase if it isn't present.</p>
+<p>To go along with the new incremental downloads of add-on updates mentioned above, also coming with this release is incremental uploads for add-on authors; when uploading a new version of your add-on you will only send the files that have changed rather than the entire add-on. Additionally, add-ons can now provide translations of their titles and descriptions for multiple languages in the <code>_server.pbl</code> file. A minor security improvement has also been made to <code>_server.pbl</code> handling - it's no longer required for the passphrase field to be stored plaintext in the file; instead Wesnoth will prompt you to enter the passphrase if it isn't present.</p>
 
 <p>More significantly, though perhaps less visible, are the various and sundry improvements made to the WML, lua, and Wesnoth Formula Language (WFL) APIs. First and foremost, many of the existing lua functions have been reorganized into submodules, and a comprehensive list of these changes can be found <a href="https://wiki.wesnoth.org/LuaAPI/UpdatingFrom14">here</a>. While the existing names of reorganized functions will still work, content authors are nevertheless encouraged to update existing code to the new modules. Separately, the version of lua that comes packaged with Wesnoth had ben updated to 5.4 from 5.3.</p>
 
-<p>The formula= attribute is now also supported in ConditionalWML. This allows the use of conditions that would otherwise require the use of more complex WML or lua, as well as being generally a more concise way to express complex conditions.</p>
+<p>The <code>formula=</code> attribute is now also supported in ConditionalWML. This allows the use of conditions that would otherwise require the use of more complex WML or lua, as well as being generally a more concise way to express complex conditions.</p>
 
-<p>The male_voice and female_voice attributes are now supported in [message] to better allow for voice acting for add-ons.</p>
+<p>The <code>male_voice</code> and <code>female_voice</code> attributes are now supported in <code>[message]</code> to better allow for voice acting for add-ons.</p>
 
-<p>The new tag [modify_unit_type] has been added for campaigns, eras, and modifications to allow for changing certain unit_type's experience, cost, and advancement options. In particular, this is meant to be the replacement for the deprecated [advancefrom] tag.</p>
+<p>The new tag <code>[modify_unit_type]</code> has been added for campaigns, eras, and modifications to allow for changing certain unit_type's experience, cost, and advancement options. In particular, this is meant to be the replacement for the deprecated <code>[advancefrom]</code> tag.</p>
 
-<p>Programmatically working with WML from within lua has also been expanded and simplified with the addition of the wml.merge, wml.diff, wml.patch, wml.find_child, wml.attribute_count, wml.equal, wml.valid, and wml.interpolate functions.</p>
+<p>Programmatically working with WML from within lua has also been expanded and simplified with the addition of the <code>wml.merge</code>, <code>wml.diff</code>, <code>wml.patch</code>, <code>wml.find_child</code>, <code>wml.attribute_count</code>, <code>wml.equal</code>, <code>wml.valid</code>, and <code>wml.interpolate</code> functions.</p>
 
 <h2 id="contribute">Contribute</h2>
 
