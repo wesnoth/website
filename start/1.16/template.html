@@ -95,13 +95,13 @@
 <!-- TODO: add screenshot of isar's cross with background -->
 <div class="thumb center"><a href="images/start-5.jpg"><img src="images/start-5-thumb.jpg" alt="Multiplayer game setup screenshot" /></a></div>
 
-<p>There have been two major additions to Wesnoth's multiplayer content: Isle of Mists and World Conquest. Isle of Mists is a coop survival scenario in the vein of Dark Forecast, the latter of which has had its difficulty reduced with the former taking its place in terms of challenge.  World Conquest, formerly the add-on World Conquest II, is a multiplayer campaign with RPG elements where up to three players can cooperate to survive, upgrade their units, and defeat the armies opposing them.</p>
+<p>There have been two major additions to Wesnoth’s multiplayer content: Isle of Mists and World Conquest. Isle of Mists is a coop survival scenario in the vein of Dark Forecast, the latter of which has had its difficulty reduced with the former taking its place in terms of challenge.  World Conquest, formerly the add-on World Conquest II, is a multiplayer campaign with RPG elements where up to three players can cooperate to survive, upgrade their units, and defeat the armies opposing them.</p>
 
-<p>The add-on Plan Unit Advance is also now included in mainline. When enabled, this allows players to pre-emptively choose what they want their units to become if they level up on another player's turn in multiplayer. Complementing this, units whose advancement hasn't been planned will now always level up into the same unit rather than choosing one at random when there are multiple options available.</p>
+<p>The add-on Plan Unit Advance is also now included in mainline. When enabled, this allows players to pre-emptively choose what they want their units to become if they level up on another player’s turn in multiplayer. Complementing this, units whose advancement has not been planned will now always level up into the same unit rather than choosing one at random when there are multiple options available.</p>
 
-<p>Another significant change is a new feature which isolates add-on content from each other once a game has started. This will prevent add-ons that aren't being used in a game from interfering with each other, thereby significantly reducing the occurrence of strange bugs and out of sync errors.</p>
+<p>Another significant change is a new feature which isolates add-on content from each other once a game has started. This will prevent add-ons that are not being used in a game from interfering with each other, thereby significantly reducing the occurrence of strange bugs and out of sync errors.</p>
 
-<p>Improvements for game hosts to better handle unwanted players have also been implemented - bans from individual games are now enforced by username rather than just by IP address, people on a player's ignore list are now automatically banned from joining their games, and observers are now also required to enter the password to join password protected games rather than just players.</p>
+<p>Improvements for game hosts to better handle unwanted players have also been implemented - bans from individual games are now enforced by username rather than just by IP address, people on a player’s ignore list are now automatically banned from joining their games, and observers are now also required to enter the password to join password protected games rather than just players.</p>
 
 <h4 id="creators">For Content Creators</h4>
 
@@ -109,15 +109,15 @@
   <div><a href="images/start-7.jpg"><img src="images/start-7-thumb.jpg" alt="Wesnoth Screenshot"/></a></div>
 </div>
 
-<p>To go along with the new incremental downloads of add-on updates mentioned above, also coming with this release is incremental uploads for add-on authors; when uploading a new version of your add-on you will only send the files that have changed rather than the entire add-on. Additionally, add-ons can now provide translations of their titles and descriptions for multiple languages in the <code>_server.pbl</code> file. A minor security improvement has also been made to <code>_server.pbl</code> handling - it's no longer required for the passphrase field to be stored plaintext in the file; instead Wesnoth will prompt you to enter the passphrase if it isn't present.</p>
+<p>To go along with the new incremental downloads of add-on updates mentioned above, also coming with this release is incremental uploads for add-on authors; when uploading a new version of your add-on you will only send the files that have changed rather than the entire add-on. Additionally, add-ons can now provide translations of their titles and descriptions for multiple languages in the <code>_server.pbl</code> file. A minor security improvement has also been made to <code>_server.pbl</code> handling - it is no longer required for the passphrase field to be stored plaintext in the file; instead Wesnoth will prompt you to enter the passphrase if it is not present.</p>
 
 <p>More significantly, though perhaps less visible, are the various and sundry improvements made to the WML, Lua, and Wesnoth Formula Language (WFL) APIs. First and foremost, many of the existing Lua functions have been reorganized into submodules, and a comprehensive list of these changes can be found <a href="https://wiki.wesnoth.org/LuaAPI/UpdatingFrom14">here</a>. While the existing names of reorganized functions will still work, content authors are nevertheless encouraged to update existing code to the new modules. Separately, the version of Lua that comes packaged with Wesnoth had ben updated to 5.4 from 5.3.</p>
 
 <p>The <code>formula=</code> attribute is now also supported in ConditionalWML. This allows the use of conditions that would otherwise require the use of more complex WML or Lua, as well as being generally a more concise way to express complex conditions.</p>
 
-<p>The <code>male_voice</code> and <code>female_voice</code> attributes are now supported in <code>[message]</code> to better allow for voice acting for add-ons.</p>
+<p>The <code>male_voice=</code> and <code>female_voice=</code> attributes are now supported in <code>[message]</code> to better allow for voice acting for add-ons.</p>
 
-<p>The new tag <code>[modify_unit_type]</code> has been added for campaigns, eras, and modifications to allow for changing certain unit_type's experience, cost, and advancement options. In particular, this is meant to be the replacement for the deprecated <code>[advancefrom]</code> tag.</p>
+<p>The new tag <code>[modify_unit_type]</code> has been added for campaigns, eras, and modifications to allow for changing certain unit types’ experience, cost, and advancement options. In particular, this is meant to be the replacement for the deprecated <code>[advancefrom]</code> tag.</p>
 
 <p>Programmatically working with WML from within Lua has also been expanded and simplified with the addition of the <code>wml.merge</code>, <code>wml.diff</code>, <code>wml.patch</code>, <code>wml.find_child</code>, <code>wml.attribute_count</code>, <code>wml.equal</code>, <code>wml.valid</code>, and <code>wml.interpolate</code> functions.</p>
 
