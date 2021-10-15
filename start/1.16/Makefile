@@ -22,7 +22,7 @@ PO4A_OPTIONS = -f xhtml -M utf-8 -o untranslated='<script>'
 PO4A_THRESHOLD = 85
 
 SASS      = sass
-SASSFLAGS = -t compressed
+SASSFLAGS = -s compressed
 
 sass_in_dir = sass
 sass_out_dir = css
@@ -45,7 +45,7 @@ clean:
 # ----------------------------------------------------------------------
 
 css:
-	$(SASS) $(SASSFLAGS) -C --update $(sass_in_dir):$(sass_out_dir)
+	$(SASS) $(SASSFLAGS) --update $(sass_in_dir):$(sass_out_dir)
 
 css-auto:
 	$(SASS) $(SASSFLAGS) --watch $(sass_in_dir):$(sass_out_dir)
