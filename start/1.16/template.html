@@ -66,9 +66,9 @@
 
 <h3 id="players">For Players</h3>
 
-<p>Due to our use of more modern distribution platforms such as Steam, itch.io, Flathub, and others, players will be automatically upgraded to a new stable series for the first time since <cite>Wesnoth</cite> was released. To support this, an option will be shown the first time 1.16.0 is started after being upgraded from 1.14.17 to migrate settings as well as download the 1.16 version of any add-ons that are installed, if they have been updated to work with 1.16.  To go along with that, <cite>Wesnoth</cite> is now able to select save files from previous versions from within the game itself.</p>
+<p>Due to our use of more modern distribution platforms such as Steam, itch.io, Flathub, and others, players will be automatically upgraded to a new stable series for the first time since <cite>Wesnoth</cite> was released. To support this, an option will be shown the first time 1.16.0 is started after being upgraded from 1.14.17. This will provide the option to migrate settings as well as download the 1.16 version of any add-ons that are installed, if they have been updated to work with 1.16.  To go along with that, <cite>Wesnoth</cite> is now able to select save files from previous versions from within the game itself.</p>
 
-<p>Addressing a long standing pain point, especially for players with slow and-or limited internet bandwidth, updating add-ons will no longer result in the entire add-on being redownloaded — instead only the files that have actually changed will be downloaded, which will significantly reduce both the time it takes to update add-ons as well as how much data is used when updating. Additionally, any version of an add-on that has been uploaded by the author in the last 30 days is selectable for download, thus allowing for downgrading an add-on if needed for any reason.</p>
+<p>Addressing a long-standing pain point, especially for players with slow and/or limited internet bandwidth, updating add-ons will no longer result in the entire add-on being redownloaded — instead only the files that have actually changed will be downloaded, which will significantly reduce both the time it takes to update add-ons as well as how much data is used when updating. Additionally, any version of an add-on that has been recently uploaded by the author is selectable for download, thus allowing for downgrading an add-on if needed for any reason.</p>
 
 <p>Many aspects of the AI have seen improvements as well, with much of the experimental AI having been merged into the default AI. This allows it to better handle healers, poison, retreating, and other behavior.</p>
 
@@ -80,11 +80,11 @@
 
 <p><cite>Descent into Darkness</cite>, <cite>Liberty</cite>, and <cite>Sceptre of Fire</cite> have received a multitude of revisions, including streamlining of the gameplay, addition of RPG elements, various storyline and dialogue rewrites, and visual and balance updates. For those looking for something befitting the upcoming night of Halloween, the overhauled, undead-heavy <cite>Descent into Darkness</cite> as well as the <cite>Secrets of the Ancients</cite> are the campaigns to play! <cite>Under the Burning Suns</cite> also received revamped maps and the Quenoth faction was rebalanced to better match the other mainline factions.</p>
 
-<p>To accompany the improved AI that was added in this development cycle, all campaigns were rebalanced to better match their intended difficulties and to prevent unusual difficulty spikes throughout the campaign, most notably in Eastern Invasion. The novice level campaigns were also reduced in difficulty to make them more accessible to newer players.</p>
+<p>To accompany the improved AI that was added in this development cycle, all campaigns were adjusted to retain their intended difficulties and to prevent unusual difficulty spikes throughout the campaign, most notably in Eastern Invasion. The novice level campaigns were also reduced in difficulty to make them more accessible to newer players.</p>
 
 <p><cite>The Hammer of Thursagan</cite> had several scenarios revised and others removed to modernize the story and gameplay, especially to focus more on dwarven culture and the interactions between their clans. <cite>Secrets of the Ancients</cite> also received a minor gameplay update with new zombie variations available for creation and recruiting.</p>
 
-<p>Finally, accompanying the various modernizations and tweaks to many of the mainline campaigns, a new campaign menu was made featuring several stunning backgrounds drawn by Emilien Rotival (LordBob).</p>
+<p>Finally, accompanying the various modernizations and tweaks to many of the mainline campaigns, a new campaign menu was made featuring several stunning backgrounds drawn by Emilien Rotival (LordBob), Stefan, and Kitty.</p>
 
 <h4 id="multiplayer">Multiplayer</h4>
 
@@ -102,15 +102,15 @@
 
 <div class="thumb tleft"><div><a href="images/start-3.jpg"><img src="images/start-3-thumb.jpg" alt="Royal Warrior portrait"/></a></div></div>
 
-<p>To go along with the new incremental downloads of add-on updates mentioned above, also coming with this release is incremental uploads for add-on authors; when uploading a new version of your add-on you will only send the files that have changed rather than the entire add-on. Additionally, add-ons can now provide translations of their titles and descriptions for multiple languages in the <code>_server.pbl</code> file. A minor security improvement has also been made to <code>_server.pbl</code> handling — it is no longer required for the passphrase field to be stored plaintext in the file; instead <cite>Wesnoth</cite> will prompt you to enter the passphrase if it is not present.</p>
+<p>To go along with the new incremental downloads of add-on updates mentioned above, this release also includes incremental uploads for add-on authors; when uploading a new version of your add-on you will only send the files that have changed rather than the entire add-on. Additionally, add-ons can now provide translations of their titles and descriptions for multiple languages in the <code>_server.pbl</code> file. A minor security improvement has also been made to <code>_server.pbl</code> handling — it is no longer required for the passphrase field to be stored plaintext in the file; instead <cite>Wesnoth</cite> will prompt you to enter the passphrase if it is not present.</p>
 
 <p>More significantly, though perhaps less visible, are the various and sundry improvements made to the WML, Lua, and Wesnoth Formula Language (WFL) APIs. First and foremost, many of the existing Lua functions have been reorganized into submodules, and a comprehensive list of these changes can be found <a href="https://wiki.wesnoth.org/LuaAPI/UpdatingFrom14">here</a>. While the existing names of reorganized functions will still work, content authors are nevertheless encouraged to update existing code to the new modules. Separately, the version of Lua that comes packaged with <cite>Wesnoth</cite> has been updated to 5.4 from 5.3.</p>
 
-<p>The <code>formula=</code> attribute is now also supported in ConditionalWML. This allows the use of conditions that would otherwise require the use of more complex WML or Lua, as well as being generally a more concise way to express complex conditions.</p>
+<p>The <code>formula=</code> attribute is now also supported in the <code>[variable]></code> conditional tag. This allows the use of conditions that would otherwise require the use of more complex WML or Lua, as well as being generally a more concise way to express complex conditions.</p>
 
 <p>The <code>male_voice=</code> and <code>female_voice=</code> attributes are now supported in <code>[message]</code> to better allow for voice acting for add-ons.</p>
 
-<p>The new tag <code>[modify_unit_type]</code> has been added for campaigns, eras, and modifications to allow for changing certain unit types’ experience, cost, and advancement options. In particular, this is meant to be the replacement for the deprecated <code>[advancefrom]</code> tag.</p>
+<p>The new tag <code>[modify_unit_type]</code> has been added for campaigns, eras, and modifications to allow for changing certain unit types’ experience, cost, and advancement options. In particular, this is meant to be the replacement for the no longer supported <code>[advancefrom]</code> tag.</p>
 
 <p>Programmatically working with WML from within Lua has also been expanded and simplified with the addition of the <code>wml.merge</code>, <code>wml.diff</code>, <code>wml.patch</code>, <code>wml.find_child</code>, <code>wml.attribute_count</code>, <code>wml.equal</code>, <code>wml.valid</code>, and <code>wml.interpolate</code> functions.</p>
 <div class="thumb tright"><div><a href="images/start-4.jpg"><img src="images/start-4-thumb.jpg" alt="New terrain"/></a></div></div>
