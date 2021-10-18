@@ -60,6 +60,8 @@ code {
 }
 
 a {
+	@extend %slow-transitions;
+
 	&:link, &:visited {
 		color: $link-color;
 	}
@@ -188,13 +190,10 @@ h1#branding-title {
 }
 
 #cover {
-	background: linear-gradient(to top, rgba(#000,0.4), rgba(#000,0.0) 2em),
+	background: linear-gradient(to top, rgba(#000,0.4), rgba(#000,0.0) 2em) scroll,
 	            $cover-color-avg url($cover-path) no-repeat top center fixed;
 	background-size: cover;
 	border-bottom: #000 1px solid;
-
-	// HACK: Chrome, we need more power to deal with that bg layer, pls.
-	-webkit-transform: translatez(0);
 
 	height: $cover-height;
 	min-height: 100vh;
