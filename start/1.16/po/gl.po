@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-10-12 09:26-0500\n"
+"POT-Creation-Date: 2021-10-19 20:43-0300\n"
 "PO-Revision-Date: 2014-10-29 06:54+0100\n"
 "Last-Translator: Adrián Chaves Fernández <adriyetichaves@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
@@ -22,6 +22,14 @@ msgstr ""
 msgid "en"
 msgstr "gl"
 
+# type: Content of: <html><head><title>
+#. type: Content of: <html><body><div><div><h1>
+#: template.html:15 template.html:29
+#, fuzzy
+#| msgid "The Battle for Wesnoth 1.12"
+msgid "The Battle for Wesnoth 1.16"
+msgstr "A batalla polo Noroeste 1.12"
+
 #. type: Content of: <html><body><div><div>
 #: template.html:27
 msgid ""
@@ -29,99 +37,663 @@ msgid ""
 "\"true\"></span></a>"
 msgstr ""
 
-#.  TODO: itch.io button 
-#. type: Content of: <html><body><div><div><div>
+#. type: Content of: <html><body><div><div><h1>
+#: template.html:29
+msgid "<span id=\"branding-sub\">Dune Conquests Update</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:32
+#, fuzzy
+#| msgid ""
+#| "The development team is proud to present version 1.12 of <cite>The&nbsp;"
+#| "Battle&nbsp;for&nbsp;Wesnoth</cite>!"
+msgid ""
+"<i>October 2021.</i> The development team is proud to present version 1.16 "
+"of <cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
+msgstr ""
+"Para o equipo de desenvolvemento é un orgullo presentar a versión 1.12 de "
+"<cite>A&nbsp;batalla&nbsp;polo&nbsp;Noroeste</cite>!"
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:34
+msgid ""
+"This release features a variety of improvements to many areas of the game "
+"including many improved campaigns, a fully rebalanced Dunefolk faction, new "
+"portraits and units, upgrades to the AI, a variety of new features for add-"
+"on authors, many <b>many</b> bugs fixed, and much more besides. Try out the "
+"new features for yourself, or take a look <a href=\"#game\">below</a> for "
+"more details."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><a><span>
 #: template.html:38
 msgid ""
-"<a class=\"download-button\" role=\"button\" href=\"#download\"> <span class="
-"\"download-arrow\" aria-hidden=\"true\"></span> <span class=\"download-text"
-"\"> <span class=\"download-big\"></span> </span> </a> <a class=\"steam-button"
-"\" role=\"button\" href=\"https://store.steampowered.com/app/599390\"> <span "
-"class=\"download-text\"> <span class=\"steam-icon\" aria-hidden=\"true\"></"
-"span> <span class=\"download-big\"></span> </span> </a>"
+"<a class=\"download-button\" role=\"button\" href=\"https://www.wesnoth.org/"
+"#download\"> <span class=\"download-arrow\" aria-hidden=\"true\"></span> "
+"<span class=\"download-text\"> <span class=\"download-big\">Download Now</"
+"span> </span> </a> <a class=\"itchio-button\" role=\"button\" href=\"https://"
+"wesnoth.itch.io/battle-for-wesnoth\" aria-label=\"Available on itch.io\"> "
+"<span class=\"download-text\">"
 msgstr ""
 
-#. type: Content of: <html><body><div><div><ul><li>
+#. type: Content of: <html><body><div><div><div>
+#: template.html:48
+msgid ""
+"<span class=\"download-big\">Get on itch.io</span> </span> </a> <a class="
+"\"steam-button\" role=\"button\" href=\"https://store.steampowered.com/"
+"app/599390\"> <span class=\"download-text\"> <span class=\"steam-icon\" aria-"
+"hidden=\"true\"></span> <span class=\"download-big\">Get on Steam</span> </"
+"span> </a>"
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><h2>
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:65
+#, fuzzy
+#| msgid "What’s New in Wesnoth 1.12"
+msgid "What’s New in This Update"
+msgstr "Novidades da versión 1.12"
+
+# type: Content of: <html><body><div><div><div><h3>
+#. type: Content of: <html><body><div><div><h3>
+#: template.html:67
+msgid "For Players"
+msgstr "Para os xogadores"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:69
+#, fuzzy
+#| msgid "<a href='images/start-5.png'>"
+msgid "<a href=\"images/start-5.jpg\">"
+msgstr "<a href='images/start-5.png'>"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:69
+msgid "Dunefolk overhaul sample screenshot"
+msgstr ""
+
+# type: Content of: <html><body><div><div><div>
+#. type: Content of: <html><body><div><div><div><div>
+#: template.html:69 template.html:81 template.html:93 template.html:107
+#: template.html:120
+msgid "</a>"
+msgstr "</a>"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:71
+msgid ""
+"Due to our use of more modern distribution platforms such as Steam, itch.io, "
+"Flathub, and others, players will be automatically upgraded to a new stable "
+"series for the first time since <cite>Wesnoth</cite> was released. To "
+"support this, an option will be shown the first time 1.16.0 is started after "
+"being upgraded from 1.14.17. This will provide the option to migrate "
+"settings as well as download the 1.16 version of any add-ons that are "
+"installed, if they have been updated to work with 1.16. To go along with "
+"that, <cite>Wesnoth</cite> is now able to select save files from previous "
+"versions from within the game itself."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:73
+msgid ""
+"Addressing a long-standing pain point, especially for players with slow "
+"download speeds and/or data limits, updating add-ons will no longer result "
+"in the entire add-on being redownloaded — instead only the files that have "
+"actually changed will be downloaded, which will significantly reduce both "
+"the time it takes to update add-ons as well as how much data is used when "
+"updating. Additionally, any version of an add-on that has been recently "
+"uploaded by the author is selectable for download, thus allowing for "
+"downgrading an add-on if needed for any reason."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:75
+msgid ""
+"Many aspects of the AI have seen improvements as well, with much of the "
+"experimental AI having been merged into the default AI. This allows it to "
+"better handle healers, poison, retreating, and other behavior."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:77
+msgid ""
+"Finally, the entire Dunefolk faction has been reworked and rebalanced, "
+"including a reimagining of the unit lines, new unit descriptions and "
+"sprites, and reworking of the liminal alignment. They should now be much "
+"closer to the factions in the Default era in terms of overall strength as "
+"well as be more interesting to play."
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><h4>
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:79
+msgid "Campaigns"
+msgstr "Campañas"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:81
+#, fuzzy
+#| msgid "<a href='images/start-1.png'>"
+msgid "<a href=\"images/start-1.jpg\">"
+msgstr "<a href='images/start-1.png'>"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:81
+msgid "Campaigns menu screenshot"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:83
+msgid ""
+"<cite>Descent into Darkness</cite>, <cite>Liberty</cite>, and <cite>Sceptre "
+"of Fire</cite> have received a multitude of revisions, including "
+"streamlining of the gameplay, addition of RPG elements, various storyline "
+"and dialogue rewrites, and visual and balance updates. For those looking for "
+"something befitting the upcoming night of Halloween, the overhauled, undead-"
+"heavy <cite>Descent into Darkness</cite> as well as the <cite>Secrets of the "
+"Ancients</cite> are the campaigns to play! <cite>Under the Burning Suns</"
+"cite> also received revamped maps and the Quenoth faction was rebalanced to "
+"better match the other mainline factions."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:85
+msgid ""
+"To accompany the improved AI that was added in this development cycle, all "
+"campaigns were adjusted to retain their intended difficulties and to prevent "
+"unusual difficulty spikes throughout the campaign, most notably in Eastern "
+"Invasion. The novice level campaigns were also reduced in difficulty to make "
+"them more accessible to newer players."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:87
+msgid ""
+"<cite>The Hammer of Thursagan</cite> had several scenarios revised and "
+"others removed to modernize the story and gameplay, especially to focus more "
+"on dwarven culture and the interactions between their clans. <cite>Secrets "
+"of the Ancients</cite> also received a minor gameplay update with new zombie "
+"variations available for creation and recruiting."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
 #: template.html:89
-#, fuzzy
-#| msgid ""
-#| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-#| "wesnoth-1.12.6/wesnoth-1.12.6-win32.exe/download'><b>Wesnoth for "
-#| "Microsoft Windows</b></a>"
 msgid ""
-"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
-"wesnoth-1.16.0/wesnoth-1.16.0-win64.exe/download\"><i class=\"downloadicon "
-"downloadicon-windows\" aria-hidden=\"true\"></i><span class=\"os\"></span> "
-"<span class=\"size\"></span></a>"
+"Finally, accompanying the various modernizations and tweaks to many of the "
+"mainline campaigns, a new campaign menu was made featuring several stunning "
+"backgrounds drawn by Emilien Rotival (LordBob), Stefan, and Kathrin Polikeit "
+"(Kitty)."
 msgstr ""
-"<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-"wesnoth-1.12.6/wesnoth-1.12.6-win32.exe/download'><b><cite>A batalla polo "
-"Noroeste</cite> para Microsoft Windows</b></a>"
 
-#. type: Content of: <html><body><div><div><ul><li>
-#: template.html:90
-#, fuzzy
-#| msgid ""
-#| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-#| "wesnoth-1.12.6/Wesnoth_1.12.6.dmg/download'><b>Wesnoth for Apple OS X</"
-#| "b></a>"
-msgid ""
-"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
-"wesnoth-1.16.0/Wesnoth_1.16.0.dmg/download\"><i class=\"downloadicon "
-"downloadicon-apple\" aria-hidden=\"true\"></i><span class=\"os\"></span> "
-"<span class=\"size\"></span></a>"
-msgstr ""
-"<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-"wesnoth-1.12.6/Wesnoth_1.12.6.dmg/download'><b><cite>A batalla polo "
-"Noroeste</cite> para Apple OS X</b></a>"
-
-#. type: Content of: <html><body><div><div><ul><li>
+# type: Content of: <html><body><div><div><div><h4>
+#. type: Content of: <html><body><div><div><h4>
 #: template.html:91
+msgid "Multiplayer"
+msgstr "Varios xogadores"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:93
+#, fuzzy
+#| msgid "<a href='images/start-2.png'>"
+msgid "<a href=\"images/start-2.jpg\">"
+msgstr "<a href='images/start-2.png'>"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:93
+msgid "Isar's Cross background"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:95
+msgid ""
+"There have been two major additions to <cite>Wesnoth’s</cite> multiplayer "
+"content: Isle of Mists and World Conquest. Isle of Mists is a coop survival "
+"scenario in the vein of Dark Forecast, the latter of which has had its "
+"difficulty reduced with the former taking its place in terms of challenge. "
+"World Conquest, formerly the add-on World Conquest II, is a multiplayer "
+"campaign with RPG elements where up to three players can cooperate to "
+"survive, upgrade their units, and defeat the armies opposing them."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:97
+msgid ""
+"The add-on Plan Unit Advance is also now included in mainline. When enabled, "
+"this allows players to pre-emptively choose what they want their units to "
+"become if they level up on another player’s turn in multiplayer. Separately "
+"complementing this, units whose advancement has not been planned will now "
+"always level up into the same unit rather than choosing one at random when "
+"there are multiple options available."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:99
+msgid ""
+"This update also includes a large number of balance updates to the default "
+"era factions, especially gold and hitpoints tweaks to key units. Certain "
+"matchups and units should now be more balanced and allow for greater "
+"diversity in gameplay."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:101
+msgid ""
+"Another significant change is a new feature which isolates add-on content "
+"from each other once a game has started. This will prevent add-ons that are "
+"not being used in a game from interfering with each other, thereby "
+"significantly reducing the occurrence of strange bugs and out of sync errors."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:103
+msgid ""
+"Improvements for game hosts to better handle unwanted players have also been "
+"implemented — bans from individual games are now enforced by username rather "
+"than just by IP address, people on a player’s ignore list are now "
+"automatically banned from joining their games, and observers are now also "
+"required to enter the password to join password protected games rather than "
+"just players."
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><h3>
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:105
+msgid "For Content Creators"
+msgstr "Para os creadores de contidos"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><div><a>
+#: template.html:107
+#, fuzzy
+#| msgid "<a href='images/start-3.png'>"
+msgid "<a href=\"images/start-3.jpg\">"
+msgstr "<a href='images/start-3.png'>"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><div><a><img>
+#: template.html:107
+msgid "Royal Warrior portrait"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:109
+msgid ""
+"To go along with the new incremental downloads of add-on updates mentioned "
+"above, this release also includes incremental uploads for add-on authors; "
+"when uploading a new version of your add-on you will only send the files "
+"that have changed rather than the entire add-on. Additionally, add-ons can "
+"now provide translations of their titles and descriptions for multiple "
+"languages in the <code>_server.pbl</code> file. A minor security improvement "
+"has also been made to <code>_server.pbl</code> handling — it is no longer "
+"required for the passphrase field to be stored plaintext in the file; "
+"instead <cite>Wesnoth</cite> will prompt you to enter the passphrase if it "
+"is not present."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:111
+msgid ""
+"More significantly, though perhaps less visible, are the various and sundry "
+"improvements made to the WML, Lua, and Wesnoth Formula Language (WFL) APIs. "
+"First and foremost, many of the existing Lua functions have been reorganized "
+"into submodules, and a comprehensive list of these changes can be found <a "
+"href=\"https://wiki.wesnoth.org/LuaAPI/UpdatingFrom14\">here</a>. While the "
+"existing names of reorganized functions will still work, content authors are "
+"nevertheless encouraged to update existing code to the new modules. "
+"Separately, the version of Lua that comes packaged with <cite>Wesnoth</cite> "
+"has been updated to 5.4 from 5.3."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:113
+msgid ""
+"The <code>formula=</code> attribute is now also supported in the "
+"<code>[variable]></code> conditional tag. This allows the use of conditions "
+"that would otherwise require the use of more complex WML or Lua, as well as "
+"being generally a more concise way to express complex conditions."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:115
+msgid ""
+"The <code>male_voice=</code> and <code>female_voice=</code> attributes are "
+"now supported in <code>[message]</code> to better allow for voice acting for "
+"add-ons."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:117
+msgid ""
+"The new tag <code>[modify_unit_type]</code> has been added for campaigns, "
+"eras, and modifications to allow for changing certain unit types’ "
+"experience, cost, and advancement options. In particular, this is meant to "
+"be the replacement for the no longer supported <code>[advancefrom]</code> "
+"tag."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:119
+msgid ""
+"Programmatically working with WML from within Lua has also been expanded and "
+"simplified with the addition of the <code>wml.merge</code>, <code>wml.diff</"
+"code>, <code>wml.patch</code>, <code>wml.find_child</code>, <code>wml."
+"attribute_count</code>, <code>wml.equal</code>, <code>wml.valid</code>, and "
+"<code>wml.interpolate</code> functions."
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><div><a>
+#: template.html:120
+#, fuzzy
+#| msgid "<a href='images/start-4.png'>"
+msgid "<a href=\"images/start-4.jpg\">"
+msgstr "<a href='images/start-4.png'>"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><div><a><img>
+#: template.html:120
+msgid "New terrain"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:121
+msgid ""
+"A great deal of new art has been added to many different areas of the game. "
+"Portraits have been added for the Royal Warrior, Jinn, Naga Ophidian, Naga "
+"Ringcaster, and others. New terrains such as Catacombs, Ancient Stone floors "
+"and walls, and Overgrown Walls are now available for use in the editor, "
+"along with many improved terrain transitions. A variety of wildlife units "
+"have also been added, including the Crocodile, Cave Bear, Icemonax, Fire "
+"Ant, Horned Scarab, Seahorse, and more."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:123
+msgid "Contribute"
+msgstr "Colaborar"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:125
 #, fuzzy
 #| msgid ""
-#| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-#| "wesnoth-1.12.6/Wesnoth_1.12.6.dmg/download'><b>Wesnoth for Apple OS X</"
-#| "b></a>"
+#| "Since its inception in July 2003, <cite>The Battle for Wesnoth</cite> is "
+#| "constantly being improved and expanded upon by hundreds of international "
+#| "volunteers from diverse backgrounds. Contributions range from mainline "
+#| "content shipped as part of the official game releases to hundreds of user-"
+#| "made projects available to download from our add-ons server, directly "
+#| "from the title screen. Whether you need help beating a particular "
+#| "scenario or adding a feature to your custom maps, <cite>Wesnoth</cite> "
+#| "boasts a massive community of players and creators always willing to help."
 msgid ""
-"<a href=\"https://flathub.org/apps/details/org.wesnoth.Wesnoth\"><i class="
-"\"downloadicon downloadicon-linux\" aria-hidden=\"true\"></i><span class=\"os"
-"\"></span></a>"
+"<cite>The Battle for Wesnoth</cite> is constantly being improved and "
+"expanded upon by a multitude of international volunteers from diverse "
+"backgrounds. Since its inception in July 2003, hundreds of people have "
+"contributed to all areas of the game, from mainline content shipped as part "
+"of the official releases to hundreds of player-made projects available to "
+"download from our add-ons server. Whether you need help beating a particular "
+"scenario or adding a feature to your custom maps, <cite>Wesnoth</cite> "
+"boasts a massive community of players and creators always willing to help."
 msgstr ""
-"<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-"wesnoth-1.12.6/Wesnoth_1.12.6.dmg/download'><b><cite>A batalla polo "
-"Noroeste</cite> para Apple OS X</b></a>"
+"Desde a súa concepción en xullo de 2003, <cite>A batalla polo Noroeste</"
+"cite> mellórase e esténdese de maneira constante, un cambio no que "
+"participan centos de voluntarios en diversas partes de todo o mundo. As "
+"colaboracións son tamén diversas, e van desde contido principal do xogo que "
+"se inclúe como parte das versións oficiais a centos de proxectos dos "
+"usuarios que se poden descargar do servidor de complementos, dispoñíbel "
+"directamente no menú principal do xogo. Se necesita axuda, sexa para un "
+"escenario concreto ou para engadir unha funcionalidade a un mapa "
+"personalizado, detrás de <cite>A batalla polo Noroeste</cite> hai unha "
+"enorme e vibrante comunidade de xogadores e creadores de contidos dispostos "
+"a botarlle unha man."
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:127
+msgid ""
+"Besides creating your own add-on content, there are many other ways you can "
+"help <cite>Wesnoth</cite>:"
+msgstr ""
+"Ademais de coa creación de contidos orixinais en forma de complementos, pode "
+"colaborar co desenvolvemento de <cite>A batalla polo Noroeste</cite> de "
+"moitas outras maneiras:"
+
+# type: Content of: <html><body><div><div><div><a>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:130
+#, fuzzy
+#| msgid "<a href='//wiki.wesnoth.org/Project'>Contribute</a> code"
+msgid "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
+msgstr "<a href='//wiki.wesnoth.org/Project'>Colaborar</a> con código."
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:92
+#: template.html:131
 #, fuzzy
 #| msgid ""
-#| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-#| "wesnoth-1.12.6/wesnoth-1.12.6.tar.bz2/download'><b>Source code</b></a>"
+#| "<a href='//forums.wesnoth.org/viewforum.php?f=9'>Create</a> art for the "
+#| "main game or for user-made <a href='//forums.wesnoth.org/viewforum.php?"
+#| "f=23'>add-ons</a>"
 msgid ""
-"<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
-"wesnoth-1.16.0/wesnoth-1.16.0.tar.bz2/download\"><i class=\"downloadicon "
-"downloadicon-src\" aria-hidden=\"true\"></i><span class=\"os\"></span> <span "
-"class=\"size\"></span></a>"
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">Create</a> art for "
+"the main game or for user-made <a href=\"https://forums.wesnoth.org/"
+"viewforum.php?f=23\">add-ons</a>"
 msgstr ""
-"<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-"wesnoth-1.12.6/wesnoth-1.12.6.tar.bz2/download'><b>Código fonte</b></a>"
+"<a href='//forums.wesnoth.org/viewforum.php?f=9'>Crear</a> imaxes para o "
+"xogo ou para os <a href='//forums.wesnoth.org/viewforum.php?"
+"f=23'>complementos</a> creados polos xogadores."
 
-# type: Content of: <html><head><title>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:132
 #, fuzzy
-#~| msgid "The Battle for Wesnoth 1.12"
-#~ msgid "The Battle for Wesnoth 1.16"
-#~ msgstr "A batalla polo Noroeste 1.12"
+#| msgid ""
+#| "<a href='//wiki.wesnoth.org/WesnothTranslations'>Translate</a> the game "
+#| "into your language"
+msgid ""
+"<a href=\"https://wiki.wesnoth.org/WesnothTranslations\">Translate</a> the "
+"game into your language"
+msgstr ""
+"<a href='//wiki.wesnoth.org/WesnothTranslations'>Traducir</a> o xogo do "
+"inglés a outros idiomas."
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:133
+#, fuzzy
+#| msgid ""
+#| "<a href='//forums.wesnoth.org/viewforum.php?f=14'>Produce</a> new music "
+#| "tracks and sound effects"
+msgid ""
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=14\">Produce</a> new "
+"music tracks and sound effects"
+msgstr ""
+"<a href='//forums.wesnoth.org/viewforum.php?f=14'>Producir</a> novas pistas "
+"de música e efectos de son."
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:134
+#, fuzzy
+#| msgid "Spread the word about <cite>Wesnoth</cite> on the Internet!"
+msgid "Spread the word about <cite>Wesnoth</cite> on social media!"
+msgstr "Correr a voz sobre <cite>A batalla por Wesnoth</cite> por internet!"
+
+# type: Content of: <html><body><div><div><div><h2>
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:137
+msgid "More Info"
+msgstr "Información adicional"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:140
+#, fuzzy
+#| msgid "<a href='//changelog.wesnoth.org/1.12/'>Full Changelog</a> (English)"
+msgid ""
+"<a href=\"https://changelog.wesnoth.org/1.16/\">Full Changelog</a> (English "
+"only)"
+msgstr ""
+"<a href='//changelog.wesnoth.org/1.12/'>Lista de cambios completa</a> (en "
+"inglés)"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:141
+#, fuzzy
+#| msgid ""
+#| "<a href='//www.wesnoth.org/manual/1.12/manual.en.html'>User’s Manual</a>"
+msgid ""
+"<a href=\"https://www.wesnoth.org/manual/1.16/manual.en.html\">User’s "
+"Manual</a>"
+msgstr ""
+"<a href='//www.wesnoth.org/manual/1.12/manual.en.html'>Manual de usuario</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:142
+#, fuzzy
+#| msgid "<a href='//www.wesnoth.org'>Official Website</a> (English)"
+msgid "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
+msgstr "<a href='//www.wesnoth.org'>Sitio web oficial</a> (en inglés)"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:144
+#, fuzzy
+#| msgid ""
+#| "<a href='//www.wesnoth.org/start/1.10'>Wesnoth 1.10 Release Notes</a>"
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.14\">Wesnoth 1.14 Release Notes</a>"
+msgstr ""
+"<a href='//www.wesnoth.org/start/1.10'>Notas do lanzamento da versión 1.10 "
+"de <cite>A batalla polo Noroeste</cite></a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:145
+#, fuzzy
+#| msgid ""
+#| "<a href='//www.wesnoth.org/start/1.10'>Wesnoth 1.10 Release Notes</a>"
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release Notes</a>"
+msgstr ""
+"<a href='//www.wesnoth.org/start/1.10'>Notas do lanzamento da versión 1.10 "
+"de <cite>A batalla polo Noroeste</cite></a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:146
+#, fuzzy
+#| msgid ""
+#| "<a href='//www.wesnoth.org/start/1.10'>Wesnoth 1.10 Release Notes</a>"
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release Notes</a>"
+msgstr ""
+"<a href='//www.wesnoth.org/start/1.10'>Notas do lanzamento da versión 1.10 "
+"de <cite>A batalla polo Noroeste</cite></a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:147
+#, fuzzy
+#| msgid "<a href='//www.wesnoth.org/start/1.8'>Wesnoth 1.8 Release Notes</a>"
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</a>"
+msgstr ""
+"<a href='//www.wesnoth.org/start/1.8'>Notas do lanzamento da versión 1.8 de "
+"<cite>A batalla polo Noroeste</cite></a>"
+
+# type: Content of: <html><body><div><div><div><a>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:148
+#, fuzzy
+#| msgid "<a href='//www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a>"
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</a>"
+msgstr ""
+"<a href='//www.wesnoth.org/start/1.6'>Notas do lanzamento da versión 1.6 de "
+"<cite>A batalla polo Noroeste</cite></a>"
+
+# type: Content of: <html><body><div><div><div><div><p>
+#. type: Content of: <html><body><div><div><div><div>
+#: template.html:159
+msgid "This page is also available in the following languages:"
+msgstr "Esta páxina tamén está dispoñíbel nos seguintes idiomas:"
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:165
+msgid ""
+"<a href=\"https://wiki.wesnoth.org/StartingPoints\">Site Map</a> &#8226; <a "
+"href=\"https://status.wesnoth.org/\">Site Status</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:166
+#, fuzzy
+#| msgid "Copyright &#169; 2003&#8211;2014 The Battle for Wesnoth Project"
+msgid ""
+"Copyright &#169; 2003&#8211;2021 by <a rel=\"author\" href=\"https://wiki."
+"wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
+msgstr "Copyright &#169; 2003&#8211;2014 The Battle for Wesnoth Project"
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:167
+msgid "Site design Copyright &#169; 2017&#8211;2021 by Iris Morelle"
+msgstr ""
 
 #, fuzzy
 #~| msgid ""
-#~| "The development team is proud to present version 1.12 of <cite>The&nbsp;"
-#~| "Battle&nbsp;for&nbsp;Wesnoth</cite>!"
+#~| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+#~| "wesnoth-1.12.6/wesnoth-1.12.6-win32.exe/download'><b>Wesnoth for "
+#~| "Microsoft Windows</b></a>"
 #~ msgid ""
-#~ "<i>May 2018.</i> The development team is proud to present version 1.14 of "
-#~ "<cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
+#~ "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
+#~ "wesnoth-1.16.0/wesnoth-1.16.0-win64.exe/download\"><i class="
+#~ "\"downloadicon downloadicon-windows\" aria-hidden=\"true\"></i><span "
+#~ "class=\"os\"></span> <span class=\"size\"></span></a>"
 #~ msgstr ""
-#~ "Para o equipo de desenvolvemento é un orgullo presentar a versión 1.12 de "
-#~ "<cite>A&nbsp;batalla&nbsp;polo&nbsp;Noroeste</cite>!"
+#~ "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+#~ "wesnoth-1.12.6/wesnoth-1.12.6-win32.exe/download'><b><cite>A batalla polo "
+#~ "Noroeste</cite> para Microsoft Windows</b></a>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+#~| "wesnoth-1.12.6/Wesnoth_1.12.6.dmg/download'><b>Wesnoth for Apple OS X</"
+#~| "b></a>"
+#~ msgid ""
+#~ "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
+#~ "wesnoth-1.16.0/Wesnoth_1.16.0.dmg/download\"><i class=\"downloadicon "
+#~ "downloadicon-apple\" aria-hidden=\"true\"></i><span class=\"os\"></span> "
+#~ "<span class=\"size\"></span></a>"
+#~ msgstr ""
+#~ "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+#~ "wesnoth-1.12.6/Wesnoth_1.12.6.dmg/download'><b><cite>A batalla polo "
+#~ "Noroeste</cite> para Apple OS X</b></a>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+#~| "wesnoth-1.12.6/Wesnoth_1.12.6.dmg/download'><b>Wesnoth for Apple OS X</"
+#~| "b></a>"
+#~ msgid ""
+#~ "<a href=\"https://flathub.org/apps/details/org.wesnoth.Wesnoth\"><i class="
+#~ "\"downloadicon downloadicon-linux\" aria-hidden=\"true\"></i><span class="
+#~ "\"os\"></span></a>"
+#~ msgstr ""
+#~ "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+#~ "wesnoth-1.12.6/Wesnoth_1.12.6.dmg/download'><b><cite>A batalla polo "
+#~ "Noroeste</cite> para Apple OS X</b></a>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+#~| "wesnoth-1.12.6/wesnoth-1.12.6.tar.bz2/download'><b>Source code</b></a>"
+#~ msgid ""
+#~ "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
+#~ "wesnoth-1.16.0/wesnoth-1.16.0.tar.bz2/download\"><i class=\"downloadicon "
+#~ "downloadicon-src\" aria-hidden=\"true\"></i><span class=\"os\"></span> "
+#~ "<span class=\"size\"></span></a>"
+#~ msgstr ""
+#~ "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+#~ "wesnoth-1.12.6/wesnoth-1.12.6.tar.bz2/download'><b>Código fonte</b></a>"
 
 #, fuzzy
 #~| msgid ""
@@ -145,64 +717,12 @@ msgstr ""
 #~ "correccións de erros, e un editor de mapas moi mellorado. Comece a gozar "
 #~ "xa de todas estas novidades, ou continúe lendo para máis información…"
 
-# type: Content of: <html><body><div><div><div><h2>
-#, fuzzy
-#~| msgid "What’s New in Wesnoth 1.12"
-#~ msgid "What’s New in This Update"
-#~ msgstr "Novidades da versión 1.12"
-
-# type: Content of: <html><body><div><div><div><div><div><a>
-#, fuzzy
-#~| msgid "<a href='images/start-1.png'>"
-#~ msgid "<a href=\"images/start-1.jpg\">"
-#~ msgstr "<a href='images/start-1.png'>"
-
 #~ msgid "Title Screen"
 #~ msgstr "Menú principal."
-
-# type: Content of: <html><body><div><div><div>
-#~ msgid "</a>"
-#~ msgstr "</a>"
-
-# type: Content of: <html><body><div><div><div><h3>
-#~ msgid "For Players"
-#~ msgstr "Para os xogadores"
-
-# type: Content of: <html><body><div><div><div><div><div><a>
-#, fuzzy
-#~| msgid "<a href='images/start-2.png'>"
-#~ msgid "<a href=\"images/start-2.jpg\">"
-#~ msgstr "<a href='images/start-2.png'>"
 
 # type: Attribute 'alt' of: <html><body><div><div><div><div><div><img>
 #~ msgid "Wesnoth Screenshot"
 #~ msgstr "Captura de pantalla de A batalla polo Noroeste."
-
-# type: Content of: <html><body><div><div><div><h4>
-#~ msgid "Campaigns"
-#~ msgstr "Campañas"
-
-# type: Content of: <html><body><div><div><div><div><div><a>
-#, fuzzy
-#~| msgid "<a href='images/start-3.png'>"
-#~ msgid "<a href=\"images/start-3.jpg\">"
-#~ msgstr "<a href='images/start-3.png'>"
-
-# type: Content of: <html><body><div><div><div><div><div><a>
-#, fuzzy
-#~| msgid "<a href='images/start-4.png'>"
-#~ msgid "<a href=\"images/start-4.jpg\">"
-#~ msgstr "<a href='images/start-4.png'>"
-
-# type: Content of: <html><body><div><div><div><h4>
-#~ msgid "Multiplayer"
-#~ msgstr "Varios xogadores"
-
-# type: Content of: <html><body><div><div><div><div><div><a>
-#, fuzzy
-#~| msgid "<a href='images/start-5.png'>"
-#~ msgid "<a href=\"images/start-5.jpg\">"
-#~ msgstr "<a href='images/start-5.png'>"
 
 # type: Content of: <html><body><div><div><div><h4>
 #~ msgid "General"
@@ -213,10 +733,6 @@ msgstr ""
 #~| msgid "<a href='images/start-6.png'>"
 #~ msgid "<a href=\"images/start-6.jpg\">"
 #~ msgstr "<a href='images/start-6.png'>"
-
-# type: Content of: <html><body><div><div><div><h3>
-#~ msgid "For Content Creators"
-#~ msgstr "Para os creadores de contidos"
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #, fuzzy
@@ -291,184 +807,6 @@ msgstr ""
 #~ "Se descargou unha versión anterior do xogo, quizais lle interese "
 #~ "descargar só os ficheiros <a href='//wiki.wesnoth.org/"
 #~ "Download_Xdeltas'>Xdelta</a>."
-
-#~ msgid "Contribute"
-#~ msgstr "Colaborar"
-
-#, fuzzy
-#~| msgid ""
-#~| "Since its inception in July 2003, <cite>The Battle for Wesnoth</cite> is "
-#~| "constantly being improved and expanded upon by hundreds of international "
-#~| "volunteers from diverse backgrounds. Contributions range from mainline "
-#~| "content shipped as part of the official game releases to hundreds of "
-#~| "user-made projects available to download from our add-ons server, "
-#~| "directly from the title screen. Whether you need help beating a "
-#~| "particular scenario or adding a feature to your custom maps, "
-#~| "<cite>Wesnoth</cite> boasts a massive community of players and creators "
-#~| "always willing to help."
-#~ msgid ""
-#~ "<cite>The Battle for Wesnoth</cite> is constantly being improved and "
-#~ "expanded upon by a multitude of international volunteers from diverse "
-#~ "backgrounds. Since its inception in July 2003, hundreds of people have "
-#~ "contributed to all areas of the game, from mainline content shipped as "
-#~ "part of the official releases to hundreds of player-made projects "
-#~ "available to download from our add-ons server. Whether you need help "
-#~ "beating a particular scenario or adding a feature to your custom maps, "
-#~ "<cite>Wesnoth</cite> boasts a massive community of players and creators "
-#~ "always willing to help."
-#~ msgstr ""
-#~ "Desde a súa concepción en xullo de 2003, <cite>A batalla polo Noroeste</"
-#~ "cite> mellórase e esténdese de maneira constante, un cambio no que "
-#~ "participan centos de voluntarios en diversas partes de todo o mundo. As "
-#~ "colaboracións son tamén diversas, e van desde contido principal do xogo "
-#~ "que se inclúe como parte das versións oficiais a centos de proxectos dos "
-#~ "usuarios que se poden descargar do servidor de complementos, dispoñíbel "
-#~ "directamente no menú principal do xogo. Se necesita axuda, sexa para un "
-#~ "escenario concreto ou para engadir unha funcionalidade a un mapa "
-#~ "personalizado, detrás de <cite>A batalla polo Noroeste</cite> hai unha "
-#~ "enorme e vibrante comunidade de xogadores e creadores de contidos "
-#~ "dispostos a botarlle unha man."
-
-#~ msgid ""
-#~ "Besides creating your own add-on content, there are many other ways you "
-#~ "can help <cite>Wesnoth</cite>:"
-#~ msgstr ""
-#~ "Ademais de coa creación de contidos orixinais en forma de complementos, "
-#~ "pode colaborar co desenvolvemento de <cite>A batalla polo Noroeste</cite> "
-#~ "de moitas outras maneiras:"
-
-# type: Content of: <html><body><div><div><div><a>
-#, fuzzy
-#~| msgid "<a href='//wiki.wesnoth.org/Project'>Contribute</a> code"
-#~ msgid "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
-#~ msgstr "<a href='//wiki.wesnoth.org/Project'>Colaborar</a> con código."
-
-#, fuzzy
-#~| msgid ""
-#~| "<a href='//forums.wesnoth.org/viewforum.php?f=9'>Create</a> art for the "
-#~| "main game or for user-made <a href='//forums.wesnoth.org/viewforum.php?"
-#~| "f=23'>add-ons</a>"
-#~ msgid ""
-#~ "<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">Create</a> art "
-#~ "for the main game or for user-made <a href=\"https://forums.wesnoth.org/"
-#~ "viewforum.php?f=23\">add-ons</a>"
-#~ msgstr ""
-#~ "<a href='//forums.wesnoth.org/viewforum.php?f=9'>Crear</a> imaxes para o "
-#~ "xogo ou para os <a href='//forums.wesnoth.org/viewforum.php?"
-#~ "f=23'>complementos</a> creados polos xogadores."
-
-#, fuzzy
-#~| msgid ""
-#~| "<a href='//wiki.wesnoth.org/WesnothTranslations'>Translate</a> the game "
-#~| "into your language"
-#~ msgid ""
-#~ "<a href=\"https://wiki.wesnoth.org/WesnothTranslations\">Translate</a> "
-#~ "the game into your language"
-#~ msgstr ""
-#~ "<a href='//wiki.wesnoth.org/WesnothTranslations'>Traducir</a> o xogo do "
-#~ "inglés a outros idiomas."
-
-#, fuzzy
-#~| msgid ""
-#~| "<a href='//forums.wesnoth.org/viewforum.php?f=14'>Produce</a> new music "
-#~| "tracks and sound effects"
-#~ msgid ""
-#~ "<a href=\"https://forums.wesnoth.org/viewforum.php?f=14\">Produce</a> new "
-#~ "music tracks and sound effects"
-#~ msgstr ""
-#~ "<a href='//forums.wesnoth.org/viewforum.php?f=14'>Producir</a> novas "
-#~ "pistas de música e efectos de son."
-
-#, fuzzy
-#~| msgid "Spread the word about <cite>Wesnoth</cite> on the Internet!"
-#~ msgid "Spread the word about <cite>Wesnoth</cite> on social media!"
-#~ msgstr "Correr a voz sobre <cite>A batalla por Wesnoth</cite> por internet!"
-
-# type: Content of: <html><body><div><div><div><h2>
-#~ msgid "More Info"
-#~ msgstr "Información adicional"
-
-# type: Content of: <html><body><div><div><div><ul><li>
-#, fuzzy
-#~| msgid ""
-#~| "<a href='//changelog.wesnoth.org/1.12/'>Full Changelog</a> (English)"
-#~ msgid ""
-#~ "<a href=\"https://changelog.wesnoth.org/1.14/\">Full Changelog</a> "
-#~ "(English only)"
-#~ msgstr ""
-#~ "<a href='//changelog.wesnoth.org/1.12/'>Lista de cambios completa</a> (en "
-#~ "inglés)"
-
-# type: Content of: <html><body><div><div><div><ul><li>
-#, fuzzy
-#~| msgid ""
-#~| "<a href='//www.wesnoth.org/manual/1.12/manual.en.html'>User’s Manual</a>"
-#~ msgid ""
-#~ "<a href=\"https://www.wesnoth.org/manual/1.14/manual.en.html\">User’s "
-#~ "Manual</a>"
-#~ msgstr ""
-#~ "<a href='//www.wesnoth.org/manual/1.12/manual.en.html'>Manual de usuario</"
-#~ "a>"
-
-# type: Content of: <html><body><div><div><div><ul><li>
-#, fuzzy
-#~| msgid "<a href='//www.wesnoth.org'>Official Website</a> (English)"
-#~ msgid ""
-#~ "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
-#~ msgstr "<a href='//www.wesnoth.org'>Sitio web oficial</a> (en inglés)"
-
-# type: Content of: <html><body><div><div><div><ul><li>
-#, fuzzy
-#~| msgid ""
-#~| "<a href='//www.wesnoth.org/start/1.10'>Wesnoth 1.10 Release Notes</a>"
-#~ msgid ""
-#~ "<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release "
-#~ "Notes</a>"
-#~ msgstr ""
-#~ "<a href='//www.wesnoth.org/start/1.10'>Notas do lanzamento da versión "
-#~ "1.10 de <cite>A batalla polo Noroeste</cite></a>"
-
-# type: Content of: <html><body><div><div><div><ul><li>
-#, fuzzy
-#~| msgid ""
-#~| "<a href='//www.wesnoth.org/start/1.10'>Wesnoth 1.10 Release Notes</a>"
-#~ msgid ""
-#~ "<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release "
-#~ "Notes</a>"
-#~ msgstr ""
-#~ "<a href='//www.wesnoth.org/start/1.10'>Notas do lanzamento da versión "
-#~ "1.10 de <cite>A batalla polo Noroeste</cite></a>"
-
-# type: Content of: <html><body><div><div><div><ul><li>
-#, fuzzy
-#~| msgid "<a href='//www.wesnoth.org/start/1.8'>Wesnoth 1.8 Release Notes</a>"
-#~ msgid ""
-#~ "<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</"
-#~ "a>"
-#~ msgstr ""
-#~ "<a href='//www.wesnoth.org/start/1.8'>Notas do lanzamento da versión 1.8 "
-#~ "de <cite>A batalla polo Noroeste</cite></a>"
-
-# type: Content of: <html><body><div><div><div><a>
-#, fuzzy
-#~| msgid "<a href='//www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a>"
-#~ msgid ""
-#~ "<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</"
-#~ "a>"
-#~ msgstr ""
-#~ "<a href='//www.wesnoth.org/start/1.6'>Notas do lanzamento da versión 1.6 "
-#~ "de <cite>A batalla polo Noroeste</cite></a>"
-
-# type: Content of: <html><body><div><div><div><div><p>
-#~ msgid "This page is also available in the following languages:"
-#~ msgstr "Esta páxina tamén está dispoñíbel nos seguintes idiomas:"
-
-#, fuzzy
-#~| msgid "Copyright &#169; 2003&#8211;2014 The Battle for Wesnoth Project"
-#~ msgid ""
-#~ "Copyright &#169; 2003&#8211;2021 by <a rel=\"author\" href=\"https://wiki."
-#~ "wesnoth.org/Project\">The Battle for Wesnoth Project</a>."
-#~ msgstr "Copyright &#169; 2003&#8211;2014 The Battle for Wesnoth Project"
 
 # type: Content of: <html><body><div><div><div><a>
 #, fuzzy
