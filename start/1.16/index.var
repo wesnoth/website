@@ -6,3 +6,7 @@ URI: index.en_GB.html
 Content-type: text/xhtml
 Content-language: en-gb
 
+URI: index.ru.html
+Content-type: text/xhtml
+Content-language: ru
+
