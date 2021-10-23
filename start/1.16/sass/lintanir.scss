@@ -290,6 +290,7 @@ h1#branding-title {
 	margin: $measurement-std 0;
 	display: flex;
 	justify-content: center;
+	flex-flow: row wrap;
 }
 
 .download-button,
