@@ -220,7 +220,7 @@ msgid ""
 " them more accessible to newer players."
 msgstr ""
 "改善されたAIを組み込むにあたって、すべてのキャンペーン、特に<cite>東部侵略（Eastern "
-"Invasion）<cite/>において、意図通りの難易度で終始一貫するように調整されました。また、新しいプレイヤーが取り組みやすいように、初心者向けキャンペーンの難易度をより簡単に調整しました。"
+"Invasion）</cite>において、意図通りの難易度で終始一貫するように調整されました。また、新しいプレイヤーが取り組みやすいように、初心者向けキャンペーンの難易度をより簡単に調整しました。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:87
