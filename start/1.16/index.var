@@ -10,6 +10,10 @@ URI: index.fr.html
 Content-type: text/xhtml
 Content-language: fr
 
+URI: index.ja.html
+Content-type: text/xhtml
+Content-language: ja
+
 URI: index.ru.html
 Content-type: text/xhtml
 Content-language: ru
