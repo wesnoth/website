@@ -288,29 +288,41 @@ h1#branding-title {
 
 #quick-download {
 	margin: $measurement-std 0;
+	display: flex;
+	justify-content: center;
 }
 
 .download-button,
 .itchio-button,
 .steam-button {
+	// Flex to guarantee everything is vertically centered (also needed on .download-button
+	// in particular because we can't change the markup structure due to string freeze FIXME).
+	display: flex;
+	align-items: center;
 	// Overrides wesmere/wesmere/sass/home/_download.scss
-	display: inline-block;
 	margin: $measurement-small;
+
+	line-height: 1.5;
 
 	@include media-small-screen-constraint {
 		font-size: 1.4em;
-		line-height: 1.1em;
 	}
 
 	@include media-tiny-screen-constraint {
 		font-size: 1.2em;
-		line-height: 1em;
+	}
+
+	.download-text {
+		display: flex;
+		align-items: center;
+		overflow: auto;
+		white-space: normal;
 	}
 }
 
-// Try to center text since it's only one line, like with the Steam button.
-.download-button .download-big {
-	line-height: 2.2;
+// HACK override from wesmere
+.steam-button .download-big, .itchio-button .download-big {
+	line-height: 1.5;
 }
 
 // Disable wesmere/wesmere/sass/home/_site_home.scss rules.
