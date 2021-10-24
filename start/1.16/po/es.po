@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-19 20:43-0300\n"
-"PO-Revision-Date: 2021-10-24 20:09+0200\n"
+"PO-Revision-Date: 2021-10-24 20:52+0200\n"
 "Last-Translator: Pepe <donpepe1963@gmail.com>\n"
 "Language-Team: Spanish <i18n@wesnoth.org>\n"
 "Language: es\n"
@@ -611,7 +611,7 @@ msgstr ""
 #| msgid "<a href=\"https://www.wesnoth.org/manual/1.14/manual.en.html\">User’s Manual</a>"
 msgid "<a href=\"https://www.wesnoth.org/manual/1.16/manual.en.html\">User’s Manual</a>"
 msgstr ""
-"<a href=\"https://www.wesnoth.org/manual/1.16/manual.en.html\">Manual de usuario</a>"
+"<a href=\"https://www.wesnoth.org/manual/1.16/manual.es.html\">Manual de usuario</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
