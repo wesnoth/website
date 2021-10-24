@@ -10,14 +10,14 @@ msgstr ""
 "Project-Id-Version: wesnoth-1.12-notes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-19 20:43-0300\n"
-"PO-Revision-Date: 2021-10-23 21:52+0200\n"
+"PO-Revision-Date: 2021-10-24 10:09+0200\n"
 "Last-Translator: Antonio 'Antro' Rosella <arosella@yahoo.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Attribute 'lang' of: <html>
@@ -74,14 +74,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><div><a><span>
 #: template.html:38
-#| msgid ""
-#| "<a class=\"download-button\" role=\"button\" href=\"#download\"> <span "
-#| "class=\"download-arrow\" aria-hidden=\"true\"></span> <span class="
-#| "\"download-text\"> <span class=\"download-big\">Download Now!</span> </"
-#| "span> </a> <a class=\"steam-button\" role=\"button\" href=\"https://store."
-#| "steampowered.com/app/599390\"> <span class=\"download-text\"> <span class="
-#| "\"steam-icon\" aria-hidden=\"true\"></span> <span class=\"download-big"
-#| "\">Get on Steam!</span> </span> </a>"
 msgid ""
 "<a class=\"download-button\" role=\"button\" href=\"https://www.wesnoth.org/"
 "#download\"> <span class=\"download-arrow\" aria-hidden=\"true\"></span> "
@@ -115,7 +107,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:65
 msgid "What’s New in This Update"
-msgstr "Novità in questo nuovo aggiornamento"
+msgstr "Novità in Questo Aggiornamento"
 
 # type: Content of: <html><body><div><div><div><h3>
 #. type: Content of: <html><body><div><div><h3>
@@ -155,11 +147,11 @@ msgid ""
 "versions from within the game itself."
 msgstr ""
 "L’utilizzo di moderne piattaforme di distribuzione, quali Steam, itch.io, "
-"Flathub ed altre, consente ai giocatori di essere automaticamente aggiornati "
-"al nuovo rilascio stabile per la prima volta da quando <cite>Wesnoth</cite> "
-"è stato rilasciato. A supporto di questo, alla prima esecuzione della "
-"release 1.16.0 dopo l’aggiornamento dalla 1.14.17 verrà mostrata una opzione "
-"per migrare sia la configurazione che scaricare le versioni appropriate "
+"Flathub ed altre, consente ai giocatori di aggiornare automaticamente il "
+"nuovo rilascio stabile per la prima volta da quando <cite>Wesnoth</cite> è "
+"stato pubblicato. A supporto di questo, alla prima esecuzione della release "
+"1.16.0 dopo l’aggiornamento dalla 1.14.17 verrà mostrata una opzione sia per "
+"migrare la configurazione attuale che per scaricare le versioni appropriate "
 "delle estensioni installate, se aggiornate e compatibili con la 1.16. "
 "Analogamente, <cite>Wesnoth</cite> ora è in grado di aprire salvataggi dalle "
 "versioni precedenti anche all’interno del gioco stesso."
@@ -248,7 +240,7 @@ msgstr ""
 "della giocabilità, l’aggiunta di elementi GDR, varie riscritture della trama "
 "e dei dialoghi, aggiornamenti grafici e di bilanciamento. Per coloro che "
 "cercano qualcosa che si addica alla imminente notte di Halloween, ci sono "
-"fresche di revisione le campagne pullulanti di non-morti:<cite>Discesa "
+"fresche di revisione le campagne pullulanti di non-morti: <cite>Discesa "
 "nell’oscurità</cite> al pari di <cite>I segreti degli Antichi</cite> sono le "
 "campagne da giocare! Anche <cite>Sotto i soli roventi</cite> ha ricevuto un "
 "aggiornamento delle mappe e la fazione degli elfi Quenoth è stata "
@@ -256,19 +248,20 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:85
+#, fuzzy
 msgid ""
 "To accompany the improved AI that was added in this development cycle, all "
 "campaigns were adjusted to retain their intended difficulties and to prevent "
-"unusual difficulty spikes throughout the campaign, most notably in <cite>Eastern "
-"Invasion</cite>. The novice level campaigns were also reduced in difficulty to make "
-"them more accessible to newer players."
+"unusual difficulty spikes throughout the campaign, most notably in "
+"<cite>Eastern Invasion</cite>. The novice level campaigns were also reduced "
+"in difficulty to make them more accessible to newer players."
 msgstr ""
 "In aggiunta ai miglioramenti dell’AI aggiunti in questo ciclo di sviluppo, "
 "tutte le campagne sono state adattate per mantenere il livello di difficoltà "
 "previsto e per prevenire insoliti picchi di difficoltà durante il corso di "
-"una campagna stessa, in particolare “Invasione dall’est”. Anche le campagne "
-"di livello “principiante” hanno visto abbassarsi il grado di difficoltà, in "
-"modo da renderle più accessibili ai nuovi giocatori."
+"una campagna stessa, in particolare <cite>Invasione dall’est</cite>. Anche "
+"le campagne di livello “principiante” hanno visto abbassarsi il grado di "
+"difficoltà, in modo da renderle più accessibili ai nuovi giocatori."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:87
@@ -467,6 +460,7 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:113
+#, fuzzy
 msgid ""
 "The <code>formula=</code> attribute is now also supported in the "
 "<code>[variable]</code> conditional tag. This allows the use of conditions "
@@ -738,11 +732,6 @@ msgstr "Site design Copyright &#169; 2017&#8211;2021 by Iris Morelle"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #, fuzzy
-#~| msgid ""
-#~| "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
-#~| "wesnoth-1.14.17/wesnoth-1.14.17-win32.exe/download\"><i class="
-#~| "\"downloadicon downloadicon-windows\" aria-hidden=\"true\"></i><span "
-#~| "class=\"os\">Windows</span> <span class=\"size\">415.8 MiB</span></a>"
 #~ msgid ""
 #~ "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
 #~ "wesnoth-1.16.0/wesnoth-1.16.0-win64.exe/download\"><i class="
@@ -756,11 +745,6 @@ msgstr "Site design Copyright &#169; 2017&#8211;2021 by Iris Morelle"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #, fuzzy
-#~| msgid ""
-#~| "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
-#~| "wesnoth-1.14.17/Wesnoth_1.14.17.dmg/download\"><i class=\"downloadicon "
-#~| "downloadicon-apple\" aria-hidden=\"true\"></i><span class=\"os\">macOS</"
-#~| "span> <span class=\"size\">454.6 MiB</span></a>"
 #~ msgid ""
 #~ "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
 #~ "wesnoth-1.16.0/Wesnoth_1.16.0.dmg/download\"><i class=\"downloadicon "
@@ -773,10 +757,6 @@ msgstr "Site design Copyright &#169; 2017&#8211;2021 by Iris Morelle"
 #~ "span> <span class=\"size\">454.6 MiB</span></a>"
 
 #, fuzzy
-#~| msgid ""
-#~| "<a href=\"https://wiki.wesnoth.org/WesnothBinariesLinux\"><i class="
-#~| "\"downloadicon downloadicon-linux\" aria-hidden=\"true\"></i><span class="
-#~| "\"os\">Linux</span></a>"
 #~ msgid ""
 #~ "<a href=\"https://flathub.org/apps/details/org.wesnoth.Wesnoth\"><i class="
 #~ "\"downloadicon downloadicon-linux\" aria-hidden=\"true\"></i><span class="
@@ -788,11 +768,6 @@ msgstr "Site design Copyright &#169; 2017&#8211;2021 by Iris Morelle"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #, fuzzy
-#~| msgid ""
-#~| "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
-#~| "wesnoth-1.14.17/wesnoth-1.14.17.tar.bz2/download\"><i class="
-#~| "\"downloadicon downloadicon-src\" aria-hidden=\"true\"></i><span class="
-#~| "\"os\">Source</span> <span class=\"size\">462.5 MiB</span></a>"
 #~ msgid ""
 #~ "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
 #~ "wesnoth-1.16.0/wesnoth-1.16.0.tar.bz2/download\"><i class=\"downloadicon "
@@ -1399,7 +1374,6 @@ msgstr "Site design Copyright &#169; 2017&#8211;2021 by Iris Morelle"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #, fuzzy
-#~| msgid "<a href='//www.wesnoth.org'>"
 #~ msgid "<a href=\"//www.wesnoth.org\">"
 #~ msgstr "<a href='//www.wesnoth.org'>"
 
@@ -1409,7 +1383,6 @@ msgstr "Site design Copyright &#169; 2017&#8211;2021 by Iris Morelle"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #, fuzzy
-#~| msgid "<a id='download-button' href='#download'>Download Now!</a>"
 #~ msgid "<a id=\"download-button\" href=\"#download\">Download Now!</a>"
 #~ msgstr "<a id='download-button' href='#download'>Scaricalo ora!</a>"
 
