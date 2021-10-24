@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-1.12-notes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-19 20:43-0300\n"
-"PO-Revision-Date: 2021-10-24 10:09+0200\n"
+"PO-Revision-Date: 2021-10-24 21:42+0200\n"
 "Last-Translator: Antonio 'Antro' Rosella <arosella@yahoo.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -248,7 +248,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:85
-#, fuzzy
 msgid ""
 "To accompany the improved AI that was added in this development cycle, all "
 "campaigns were adjusted to retain their intended difficulties and to prevent "
@@ -460,7 +459,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:113
-#, fuzzy
 msgid ""
 "The <code>formula=</code> attribute is now also supported in the "
 "<code>[variable]</code> conditional tag. This allows the use of conditions "
