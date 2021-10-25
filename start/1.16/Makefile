@@ -21,6 +21,9 @@ LIST_STAMP = $(STAMPDIR)/$(LIST)
 PO4A_OPTIONS = -f xhtml -M utf-8 -o untranslated='<script>'
 PO4A_THRESHOLD = 85
 
+IMGLOCALIZE = ./imglocalize
+LOCALIZED_IMG_PREFIX = images/start-
+
 SASS      = sass
 SASSFLAGS = -s compressed
 
@@ -88,6 +91,7 @@ $(LIST_STAMP): $(LIST) $(HTML_STAMP)
 	@for i in $(PAGE).*.html; do \
 		lang=`echo $$i | cut -d. -f 2 | tr "A-Z_" "a-z-"`; \
 		sed -i "s,<html lang='.[^']*'>,<html lang='$$lang'>," $$i ; \
+		$(IMGLOCALIZE) $$lang $(LOCALIZED_IMG_PREFIX) $$i 1>&2; \
 		echo "URI: $$i"; \
 		echo "Content-type: text/xhtml"; \
 		echo "Content-language: $$lang"; \
