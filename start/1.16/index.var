@@ -26,6 +26,10 @@ URI: index.ja.html
 Content-type: text/xhtml
 Content-language: ja
 
+URI: index.nl.html
+Content-type: text/xhtml
+Content-language: nl
+
 URI: index.pl.html
 Content-type: text/xhtml
 Content-language: pl
