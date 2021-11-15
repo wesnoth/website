@@ -660,7 +660,7 @@ msgid ""
 "<a href=\"https://wiki.wesnoth.org/StartingPoints\">Site Map</a> &#8226; <a href="
 "\"https://status.wesnoth.org/\">Site Status</a>"
 msgstr ""
-"a href=\"https://wiki.wesnoth.org/StartingPoints\">Plan du site</a> &#8226; <a href="
+"<a href=\"https://wiki.wesnoth.org/StartingPoints\">Plan du site</a> &#8226; <a href="
 "\"https://status.wesnoth.org/\">Statut de site</a>"
 
 #. type: Content of: <html><body><div><div><div>
