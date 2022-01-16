@@ -19,6 +19,7 @@ $langs = [
 	'da'				=> 'Danish',
 	'de'				=> 'German',
 	'es'				=> 'Spanish',
+	'es_419				=> 'Spanish (Latin American)',
 	'eu'				=> 'Basque',
 	'fi'				=> 'Finnish',
 	'fr'				=> 'French',
