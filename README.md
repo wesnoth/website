@@ -11,3 +11,12 @@ use to anyone else. If you are looking for the MediaWiki theme used in
 ``wesnoth.org``, check the **[wesnoth/wesmere][2]** repository instead.
 
 [2]: <https://github.com/wesnoth/wesmere>
+
+Building
+===============
+To update an existing translation, simply:
+* Add the translation's po file to the respective version's `start/<version>/po` directory.
+* Run `make`.
+* Commit the results.
+* Pull the update to the website's VM.
+* You're done.
