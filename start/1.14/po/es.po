@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-01 17:47-0300\n"
+"POT-Creation-Date: 2022-05-07 13:15-0500\n"
 "PO-Revision-Date: 2018-05-19 16:25-0400\n"
 "Last-Translator: Iris Morelle <shadowm2006@gmail.com>\n"
 "Language-Team: Spanish <i18n@wesnoth.org>\n"
@@ -169,7 +169,6 @@ msgstr "Para los jugadores"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:69
-#| msgid "<a href='images/start-2.png'>"
 msgid "<a href=\"images/start-2.jpg\">"
 msgstr "<a href=\"images/start-2.jpg\">"
 
@@ -265,7 +264,6 @@ msgstr "Campañas"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:82
-#| msgid "<a href='images/start-3.png'>"
 msgid "<a href=\"images/start-3.jpg\">"
 msgstr "<a href=\"images/start-3.jpg\">"
 
@@ -292,7 +290,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:87
-#| msgid "<a href='images/start-4.png'>"
 msgid "<a href=\"images/start-4.jpg\">"
 msgstr "<a href=\"images/start-4.jpg\">"
 
@@ -373,7 +370,6 @@ msgstr "Modo multijugador"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:100
-#| msgid "<a href='images/start-5.png'>"
 msgid "<a href=\"images/start-5.jpg\">"
 msgstr "<a href=\"images/start-5.jpg\">"
 
@@ -452,7 +448,6 @@ msgstr "General"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:113
-#| msgid "<a href='images/start-6.png'>"
 msgid "<a href=\"images/start-6.jpg\">"
 msgstr "<a href=\"images/start-6.jpg\">"
 
@@ -532,7 +527,6 @@ msgstr "Para autores de contenido"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:127
-#| msgid "<a href='images/start-1.png'>"
 msgid "<a href=\"images/start-7.jpg\">"
 msgstr "<a href=\"images/start-7.jpg\">"
 
@@ -571,8 +565,8 @@ msgid ""
 "With regards to more technically-oriented aspects, <cite>Wesnoth’s</cite> "
 "WML, Lua, and Formula Language engines have seen a great number of "
 "improvements and changes this release cycle. The internal Lua interpreter "
-"has been upgraded to version 5.3, and much new functionality has been "
-"added to the <a href=\"https://wiki.wesnoth.org/LuaWML\">Lua API</a>. This "
+"has been upgraded to version 5.3, and much new functionality has been added "
+"to the <a href=\"https://wiki.wesnoth.org/LuaWML\">Lua API</a>. This "
 "includes the ability to write <a href=\"https://wiki.wesnoth.org/"
 "MapGeneratorWML#The_lua_generator\">map generators</a> using Lua, invoke "
 "certain stock dialogs used across the game UI (menu popups, confirmation "
@@ -583,22 +577,21 @@ msgid ""
 "access to a built-in Lua console for debugging and testing code directly "
 "within the game."
 msgstr ""
-"Con relación a los aspectos más técnicos, los motores WML, Lua, y del"
-" lenguaje de fórmulas de <cite>Wesnoth</cite> han visto un "
-"gran número de mejoras y cambios en este ciclo de lanzamiento. El intérprete "
-"interno de Lua ha sido actualizado a la versión 5.3, y se han añadido "
-"muchas funcionalidades nuevas a la <a href=\"https://wiki.wesnoth.org/LuaWML"
-"\">API de Lua</a>. Esto incluye la habilidad de interpretar <a href="
-"\"https://wiki.wesnoth.org/MapGeneratorWML#The_lua_generator\">generadores "
-"de mapas</a> usando Lua, invocar ciertos diálogos disponibles que se usan en "
-"toda la IU del juego (menús emergentes, entradas de confirmación, "
-"notificaciones, la IU de <code>[message]</code>, y  la IU de la pantalla de "
-"la historia), y de usar funciones de Lua nominales con el atributo "
-"<code>lua_function=</code> en <a href=\"https://wiki.wesnoth.org/"
-"StandardLocationFilter\">Filtros estándar de ubicación</a>. El Inspector de"
-" estado de juego "
-"estado ahora también proporciona acceso a una consola de Lua integrada para "
-"depurar y testear código directamente dentro del juego."
+"Con relación a los aspectos más técnicos, los motores WML, Lua, y del "
+"lenguaje de fórmulas de <cite>Wesnoth</cite> han visto un gran número de "
+"mejoras y cambios en este ciclo de lanzamiento. El intérprete interno de Lua "
+"ha sido actualizado a la versión 5.3, y se han añadido muchas "
+"funcionalidades nuevas a la <a href=\"https://wiki.wesnoth.org/LuaWML\">API "
+"de Lua</a>. Esto incluye la habilidad de interpretar <a href=\"https://wiki."
+"wesnoth.org/MapGeneratorWML#The_lua_generator\">generadores de mapas</a> "
+"usando Lua, invocar ciertos diálogos disponibles que se usan en toda la IU "
+"del juego (menús emergentes, entradas de confirmación, notificaciones, la IU "
+"de <code>[message]</code>, y  la IU de la pantalla de la historia), y de "
+"usar funciones de Lua nominales con el atributo <code>lua_function=</code> "
+"en <a href=\"https://wiki.wesnoth.org/StandardLocationFilter\">Filtros "
+"estándar de ubicación</a>. El Inspector de estado de juego estado ahora "
+"también proporciona acceso a una consola de Lua integrada para depurar y "
+"testear código directamente dentro del juego."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:134
@@ -614,18 +607,18 @@ msgid ""
 "a> also include support for formulas to alter the rendering of images within "
 "the game."
 msgstr ""
-"Las fórmulas <i>inline</i> del lenguaje de fórmulas de <cite>Wesnoth</cite>"
-" han sido mejoradas con el "
-"añadido de muchas funciones integradas y de características en la sintaxis. "
-"Extendiendo el soporte para el atributo de filtrado de <code>formula=</code> "
-"a <a href=\"https://wiki.wesnoth.org/StandardLocationFilter\">Filtros "
-"estándar de ubicación</a> y <a href=\"https://wiki.wesnoth.org/"
-"StandardSideFilter\">Filtros estándar de equipo</a>, ahora pueden utilizarse"
-" fórmulas <i>inline</i> para construir lógica más compleja en WML. Las "
-"nuevas <a href=\"https://wiki.wesnoth.org/ImagePathFunctionWML\">funciones "
-"de rutas de imágenes</a><code>~ADJUST_ALPHA()</code> y <code>~CHAN()</"
-"code> incluyen también soporte para fórmulas que alteran la presentación de "
-"imágenes dentro del juego."
+"Las fórmulas <i>inline</i> del lenguaje de fórmulas de <cite>Wesnoth</cite> "
+"han sido mejoradas con el añadido de muchas funciones integradas y de "
+"características en la sintaxis. Extendiendo el soporte para el atributo de "
+"filtrado de <code>formula=</code> a <a href=\"https://wiki.wesnoth.org/"
+"StandardLocationFilter\">Filtros estándar de ubicación</a> y <a href="
+"\"https://wiki.wesnoth.org/StandardSideFilter\">Filtros estándar de equipo</"
+"a>, ahora pueden utilizarse fórmulas <i>inline</i> para construir lógica más "
+"compleja en WML. Las nuevas <a href=\"https://wiki.wesnoth.org/"
+"ImagePathFunctionWML\">funciones de rutas de imágenes</"
+"a><code>~ADJUST_ALPHA()</code> y <code>~CHAN()</code> incluyen también "
+"soporte para fórmulas que alteran la presentación de imágenes dentro del "
+"juego."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:136
@@ -775,10 +768,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:153
-#| msgid ""
-#| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-#| "wesnoth-1.12.6/wesnoth-1.12.6-win32.exe/download'><b>Wesnoth for "
-#| "Microsoft Windows</b></a>"
 msgid ""
 "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
 "wesnoth-1.14.17/wesnoth-1.14.17-win32.exe/download\"><i class=\"downloadicon "
@@ -793,10 +782,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:154
-#| msgid ""
-#| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-#| "wesnoth-1.12.6/Wesnoth_1.12.6.dmg/download'><b>Wesnoth for Apple OS X</"
-#| "b></a>"
 msgid ""
 "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
 "wesnoth-1.14.17/Wesnoth_1.14.17.dmg/download\"><i class=\"downloadicon "
@@ -811,9 +796,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:155
-#| msgid ""
-#| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
-#| "wesnoth-1.12.6/wesnoth-1.12.6.tar.bz2/download'><b>Source code</b></a>"
 msgid ""
 "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
 "wesnoth-1.14.17/wesnoth-1.14.17.tar.bz2/download\"><i class=\"downloadicon "
@@ -822,9 +804,8 @@ msgid ""
 msgstr ""
 "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.14/"
 "wesnoth-1.14.17/wesnoth-1.14.17.tar.bz2/download\"><i class=\"downloadicon "
-"downloadicon-src\" aria-hidden=\"true\"></i><span class=\"os\">Código fuente<"
-"/span> "
-"<span class=\"size\">462.5 MiB</span></a>"
+"downloadicon-src\" aria-hidden=\"true\"></i><span class=\"os\">Código "
+"fuente</span> <span class=\"size\">462.5 MiB</span></a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:156
@@ -850,10 +831,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:160
-#| msgid ""
-#| "You can refer to the <a href='//wiki.wesnoth.org/Download'>downloads "
-#| "page</a> for the latest up-to-date packages and instructions, including "
-#| "those for other platforms once they become available."
 msgid ""
 "You can refer to the <a href=\"https://wiki.wesnoth.org/Download\">downloads "
 "page</a> for the latest up-to-date packages and instructions, including "
@@ -865,10 +842,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:162
-#| msgid ""
-#| "If you downloaded previous versions of the game, you might be interested "
-#| "in downloading the <a href='//wiki.wesnoth.org/Download_Xdeltas'>Xdelta</"
-#| "a> files only."
 msgid ""
 "If you downloaded previous versions of the game, you might be interested in "
 "downloading the <a href=\"https://wiki.wesnoth.org/Download_Xdeltas"
@@ -934,9 +907,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:173
-#| msgid ""
-#| "<a href='//wiki.wesnoth.org/WesnothTranslations'>Translate</a> the game "
-#| "into your language"
 msgid ""
 "<a href=\"https://wiki.wesnoth.org/WesnothTranslations\">Translate</a> the "
 "game into your language"
@@ -946,9 +916,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:174
-#| msgid ""
-#| "<a href='//forums.wesnoth.org/viewforum.php?f=14'>Produce</a> new music "
-#| "tracks and sound effects"
 msgid ""
 "<a href=\"https://forums.wesnoth.org/viewforum.php?f=14\">Produce</a> new "
 "music tracks and sound effects"
@@ -971,7 +938,6 @@ msgstr "Más información"
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:181
-#| msgid "<a href='//changelog.wesnoth.org/1.12/'>Full Changelog</a> (English)"
 msgid ""
 "<a href=\"https://changelog.wesnoth.org/1.14/\">Full Changelog</a> (English "
 "only)"
@@ -982,8 +948,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:182
-#| msgid ""
-#| "<a href='//www.wesnoth.org/manual/1.12/manual.en.html'>User’s Manual</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/manual/1.14/manual.en.html\">User’s "
 "Manual</a>"
@@ -994,7 +958,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:183
-#| msgid "<a href='//www.wesnoth.org'>Official Website</a> (English)"
 msgid "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
 msgstr ""
 "<a href=\"https://www.wesnoth.org\">Sitio web oficial</a> (solamente en "
@@ -1003,8 +966,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:185
-#| msgid ""
-#| "<a href='http://www.wesnoth.org/start/1.2'>Wesnoth 1.2 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release Notes</a>"
 msgstr ""
@@ -1014,8 +975,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:186
-#| msgid ""
-#| "<a href='//www.wesnoth.org/start/1.10'>Wesnoth 1.10 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release Notes</a>"
 msgstr ""
@@ -1025,8 +984,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:187
-#| msgid ""
-#| "<a href='http://www.wesnoth.org/start/1.2'>Wesnoth 1.2 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</a>"
 msgstr ""
@@ -1036,8 +993,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:188
-#| msgid ""
-#| "<a href='http://www.wesnoth.org/start/1.2'>Wesnoth 1.2 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</a>"
 msgstr ""

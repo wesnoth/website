@@ -6,14 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-10-19 20:43-0300\n"
+"POT-Creation-Date: 2022-05-07 13:13-0500\n"
 "PO-Revision-Date: 2021-10-20 11:51+1100\n"
 "Last-Translator: Thomas Hockings <elprofesh@gmail.com>\n"
+"Language-Team: \n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.3\n"
 
 #. type: Attribute 'lang' of: <html>
@@ -23,7 +23,6 @@ msgstr "en_GB"
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:15 template.html:29
-#| msgid "Battle for Wesnoth 1.10"
 msgid "The Battle for Wesnoth 1.16"
 msgstr "The Battle for Wesnoth 1.16"
 
@@ -101,7 +100,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:65
-#| msgid "What’s New in Wesnoth 1.10"
 msgid "What’s New in This Update"
 msgstr "What’s New in This Update"
 
@@ -114,7 +112,6 @@ msgstr "For Players"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:69
-#| msgid "<a href='images/start-5-full.jpg'>"
 msgid "<a href=\"images/start-5.jpg\">"
 msgstr "<a href=\"images/start-5.jpg\">"
 
@@ -209,7 +206,6 @@ msgstr "Campaigns"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:81
-#| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href=\"images/start-1.jpg\">"
 msgstr "<a href=\"images/start-1.jpg\">"
 
@@ -246,15 +242,15 @@ msgstr ""
 msgid ""
 "To accompany the improved AI that was added in this development cycle, all "
 "campaigns were adjusted to retain their intended difficulties and to prevent "
-"unusual difficulty spikes throughout the campaign, most notably in <cite>Eastern "
-"Invasion</cite>. The novice level campaigns were also reduced in difficulty to make "
-"them more accessible to newer players."
+"unusual difficulty spikes throughout the campaign, most notably in "
+"<cite>Eastern Invasion</cite>. The novice level campaigns were also reduced "
+"in difficulty to make them more accessible to newer players."
 msgstr ""
 "To accompany the improved AI that was added in this development cycle, all "
 "campaigns were adjusted to retain their intended difficulties and to prevent "
-"unusual difficulty spikes throughout the campaign, most notably in <cite>Eastern "
-"Invasion</cite>. The novice level campaigns were also reduced in difficulty to make "
-"them more accessible to newer players."
+"unusual difficulty spikes throughout the campaign, most notably in "
+"<cite>Eastern Invasion</cite>. The novice level campaigns were also reduced "
+"in difficulty to make them more accessible to newer players."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:87
@@ -293,7 +289,6 @@ msgstr "Multiplayer"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:93
-#| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href=\"images/start-2.jpg\">"
 msgstr "<a href=\"images/start-2.jpg\">"
 
@@ -384,14 +379,12 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><h3>
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:105
-#| msgid "For Content Developers"
 msgid "For Content Creators"
 msgstr "For Content Creators"
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:107
-#| msgid "<a href='images/start-3-full.jpg'>"
 msgid "<a href=\"images/start-3.jpg\">"
 msgstr "<a href=\"images/start-3.jpg\">"
 
@@ -505,7 +498,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:120
-#| msgid "<a href='images/start-4-full.jpg'>"
 msgid "<a href=\"images/start-4.jpg\">"
 msgstr "<a href=\"images/start-4.jpg\">"
 
@@ -571,7 +563,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:130
-#| msgid "<a href='http://www.wesnoth.org'>"
 msgid "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
 msgstr "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
 
@@ -589,7 +580,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:132
-#| msgid "<a href='http://www.wesnoth.org'>"
 msgid ""
 "<a href=\"https://wiki.wesnoth.org/WesnothTranslations\">Translate</a> the "
 "game into your language"
@@ -619,9 +609,6 @@ msgstr "More Info"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:140
-#| msgid ""
-#| "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.10.0/"
-#| "changelog'>Full Changelog</a> (English, very long)"
 msgid ""
 "<a href=\"https://changelog.wesnoth.org/1.16/\">Full Changelog</a> (English "
 "only)"
@@ -631,9 +618,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:141
-#| msgid ""
-#| "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.10.0/doc/"
-#| "manual/manual.en.html'>User’s Manual</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/manual/1.16/manual.en.html\">User’s "
 "Manual</a>"
@@ -644,7 +628,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:142
-#| msgid "<a href='//www.wesnoth.org'>Official Website</a> (English)"
 msgid "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
 msgstr ""
 "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
@@ -652,8 +635,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:144
-#| msgid ""
-#| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.14\">Wesnoth 1.14 Release Notes</a>"
 msgstr ""
@@ -662,8 +643,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:145
-#| msgid ""
-#| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release Notes</a>"
 msgstr ""
@@ -672,8 +651,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:146
-#| msgid ""
-#| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release Notes</a>"
 msgstr ""
@@ -682,7 +659,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:147
-#| msgid "<a href='//www.wesnoth.org/start/1.8'>Wesnoth 1.8 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</a>"
 msgstr ""
@@ -691,7 +667,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:148
-#| msgid "<a href='//www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</a>"
 msgstr ""

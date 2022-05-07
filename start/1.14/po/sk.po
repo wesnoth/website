@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-05-01 17:47-0300\n"
+"POT-Creation-Date: 2022-05-07 13:15-0500\n"
 "PO-Revision-Date: 2018-05-06 22:59+0200\n"
 "Last-Translator: aceman <acelists@atlas.sk>\n"
 "Language-Team: none\n"
@@ -110,7 +110,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:64
-#| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href=\"images/start-1.jpg\">"
 msgstr "<a href=\"images/start-1.jpg\">"
 
@@ -135,7 +134,6 @@ msgstr "Pre hráčov"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:69
-#| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href=\"images/start-2.jpg\">"
 msgstr "<a href=\"images/start-2.jpg\">"
 
@@ -201,7 +199,6 @@ msgstr "Výpravy"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:82
-#| msgid "<a href='images/start-3-full.jpg'>"
 msgid "<a href=\"images/start-3.jpg\">"
 msgstr "<a href=\"images/start-3.jpg\">"
 
@@ -223,7 +220,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:87
-#| msgid "<a href='images/start-4-full.jpg'>"
 msgid "<a href=\"images/start-4.jpg\">"
 msgstr "<a href=\"images/start-4.jpg\">"
 
@@ -278,7 +274,6 @@ msgstr "Zápas pre viacerých hráčov"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:100
-#| msgid "<a href='images/start-5-full.jpg'>"
 msgid "<a href=\"images/start-5.jpg\">"
 msgstr "<a href=\"images/start-5.jpg\">"
 
@@ -333,7 +328,6 @@ msgstr "Všeobecné"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:113
-#| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href=\"images/start-6.jpg\">"
 msgstr "<a href=\"images/start-6.jpg\">"
 
@@ -388,7 +382,6 @@ msgstr "Pre autorov obsahu"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><div><a>
 #: template.html:127
-#| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href=\"images/start-7.jpg\">"
 msgstr "<a href=\"images/start-7.jpg\">"
 
@@ -414,8 +407,8 @@ msgid ""
 "With regards to more technically-oriented aspects, <cite>Wesnoth’s</cite> "
 "WML, Lua, and Formula Language engines have seen a great number of "
 "improvements and changes this release cycle. The internal Lua interpreter "
-"has been upgraded to version 5.3, and much new functionality has been "
-"added to the <a href=\"https://wiki.wesnoth.org/LuaWML\">Lua API</a>. This "
+"has been upgraded to version 5.3, and much new functionality has been added "
+"to the <a href=\"https://wiki.wesnoth.org/LuaWML\">Lua API</a>. This "
 "includes the ability to write <a href=\"https://wiki.wesnoth.org/"
 "MapGeneratorWML#The_lua_generator\">map generators</a> using Lua, invoke "
 "certain stock dialogs used across the game UI (menu popups, confirmation "
@@ -651,7 +644,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:171
-#| msgid "<a href='http://www.wesnoth.org'>"
 msgid "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
 msgstr ""
 "<a href=\"https://wiki.wesnoth.org/Project\">Prispejte</a> programovaním"

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html class="no-js press-release" lang="zh_CN">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montaga%7COpen+Sans:400,400i,700,700i" type="text/css" />
+	<link rel="icon" type="image/png" href="/wesmere/img/favicon-32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/wesmere/img/favicon-16.png" sizes="16x16" />
+
+	<link rel="stylesheet" type="text/css" href="https://www.wesnoth.org/wesmere/css/wesmere.css" />
+	<link rel="stylesheet" type="text/css" href="css/lintanir.css" />
+
+	<title>韦诺之战 1.16</title>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<script src="js/modernizr.js"></script>
+</head>
+
+<body>
+
+<div id="main">
+
+<div id="cover" role="banner">
+	<a id="bigshield" href="/" aria-label="Wesnoth logo"><span
+aria-hidden="true"></span></a>
+
+	<h1 id="branding-title">韦诺之战 1.16<br/><span id="branding-sub">沙丘征服更新</span></h1>
+
+	<div id="intro">
+		<p><b>2021年10月。</b>开发团队在此自豪地宣布<cite><a href="/">韦诺之战</a></cite>!的1.16版本发布了！</p>
+
+		<p>此发布版本包含了对游戏中诸多方面的多种改进，其中有：经过了优化的许多战役，全面重新平衡后的沙丘游民派系，新立绘和新单位，AI升级，为附加组件作者准备的新特性，修复了许多<b>许多</b>Bug，此外还有许多内容。请亲自尝试这些新特性吧，也可以在<a
+href="#game">下文</a>中读到更多细节。</p>
+	</div>
+
+	<div id="quick-download">
+		<a class="download-button" role="button"
+href="https://www.wesnoth.org/#download"> <span class="download-arrow"
+aria-hidden="true"></span> <span class="download-text"> <span
+class="download-big">立即下载</span> </span> </a> <a class="itchio-button"
+role="button" href="https://wesnoth.itch.io/battle-for-wesnoth"
+aria-label="Available on itch.io"> <span class="download-text">
+				<svg class="itchio-logo" xmlns="http://www.w3.org/2000/svg" height="235.452" width="261.728" viewBox="0 0 245.371 220.736"><path d="M31.99 1.365C21.287 7.72.2 31.945 0 38.298v10.516C0 62.144 12.46 73.86 23.773 73.86c13.584 0 24.902-11.258 24.903-24.62 0 13.362 10.93 24.62 24.515 24.62 13.586 0 24.165-11.258 24.165-24.62 0 13.362 11.622 24.62 25.207 24.62h.246c13.586 0 25.208-11.258 25.208-24.62 0 13.362 10.58 24.62 24.164 24.62 13.585 0 24.515-11.258 24.515-24.62 0 13.362 11.32 24.62 24.903 24.62 11.313 0 23.773-11.714 23.773-25.046V38.298c-.2-6.354-21.287-30.58-31.988-36.933C180.118.197 157.056-.005 122.685 0c-34.37.003-81.228.54-90.697 1.365zm65.194 66.217a28.025 28.025 0 0 1-4.78 6.155c-5.128 5.014-12.157 8.122-19.906 8.122a28.482 28.482 0 0 1-19.948-8.126c-1.858-1.82-3.27-3.766-4.563-6.032l-.006.004c-1.292 2.27-3.092 4.215-4.954 6.037a28.5 28.5 0 0 1-19.948 8.12c-.934 0-1.906-.258-2.692-.528-1.092 11.372-1.553 22.24-1.716 30.164l-.002.045c-.02 4.024-.04 7.333-.06 11.93.21 23.86-2.363 77.334 10.52 90.473 19.964 4.655 56.7 6.775 93.555 6.788h.006c36.854-.013 73.59-2.133 93.554-6.788 12.883-13.14 10.31-66.614 10.52-90.474-.022-4.596-.04-7.905-.06-11.93l-.003-.045c-.162-7.926-.623-18.793-1.715-30.165-.786.27-1.757.528-2.692.528a28.5 28.5 0 0 1-19.948-8.12c-1.862-1.822-3.662-3.766-4.955-6.037l-.006-.004c-1.294 2.266-2.705 4.213-4.563 6.032a28.48 28.48 0 0 1-19.947 8.125c-7.748 0-14.778-3.11-19.906-8.123a28.025 28.025 0 0 1-4.78-6.155 27.99 27.99 0 0 1-4.736 6.155 28.49 28.49 0 0 1-19.95 8.124c-.27 0-.54-.012-.81-.02h-.007c-.27.008-.54.02-.813.02a28.49 28.49 0 0 1-19.95-8.123 27.992 27.992 0 0 1-4.736-6.155zm-20.486 26.49l-.002.01h.015c8.113.017 15.32 0 24.25 9.746 7.028-.737 14.372-1.105 21.722-1.094h.006c7.35-.01 14.694.357 21.723 1.094 8.93-9.747 16.137-9.73 24.25-9.746h.014l-.002-.01c3.833 0 19.166 0 29.85 30.007L210 165.244c8.504 30.624-2.723 31.373-16.727 31.4-20.768-.773-32.267-15.855-32.267-30.935-11.496 1.884-24.907 2.826-38.318 2.827h-.006c-13.412 0-26.823-.943-38.318-2.827 0 15.08-11.5 30.162-32.267 30.935-14.004-.027-25.23-.775-16.726-31.4L46.85 124.08C57.534 94.073 72.867 94.073 76.7 94.073zm45.985 23.582v.006c-.02.02-21.863 20.08-25.79 27.215l14.304-.573v12.474c0 .584 5.74.346 11.486.08h.006c5.744.266 11.485.504 11.485-.08v-12.474l14.304.573c-3.928-7.135-25.79-27.215-25.79-27.215v-.006l-.003.002z" color="#000"/></svg>
+				<span class="download-big">在itch.io上获取</span> </span> </a> <a
+class="steam-button" role="button"
+href="https://store.steampowered.com/app/599390"> <span
+class="download-text"> <span class="steam-icon" aria-hidden="true"></span>
+<span class="download-big">在Steam上获取</span> </span> </a>
+	</div>
+</div>
+
+<div id="nav"></div>
+
+<div id="content">
+
+<h2 id="game" class="center">此更新中的新要素</h2>
+
+<h3 id="players">玩家可见的新要素</h3>
+
+<div class="thumb tright"><a href="images/start-5.jpg"><img src="images/start-5-thumb.jpg" alt="沙丘游民大修样例截屏" /></a></div>
+
+<p>由于我们使用了更现代化的分发平台，例如Steam、itch.io、Flathub等，自<cite>韦诺</cite>发布以来，玩家第一次可以自动升级到新的稳定版本系列。为了支持这一新特性，在游戏从1.14.17升级到1.16.0后第一次运行时，将显示一个选项。该选项可用于迁移游戏设置，也可以下载已安装的附加组件的1.16兼容版本——如果这些附加组件已升级到支持1.16版本的话。与此相配合，现在在<cite>韦诺</cite>游戏本体中，可以选择以前版本的存档文件了。</p>
+
+<p>本升级解决了一个长期痛点，尤其是对下载速度缓慢或者有数据流量限制的玩家们有利：现在升级附加组件时，不会再重复下载整个附加组件了——取而代之的是，只会下载有变化的文件。这样就能显著减少升级附加组件耗费的时间和数据流量。此外，附加组件作者最近上传的所有附加组件版本都可以选择下载，这样一来，不论有什么缘由，都可以降级附加组件了。</p>
+
+<p>AI的许多方面也都有了改进，试验性AI中的很多部分也并入了默认AI中。这样一来，AI就可以更好地处理医者、使毒、撤退，以及其他行为了。</p>
+
+<p>最后，整个沙丘游民派系进行了重做和重新平衡，这包括了单位树的重塑，新的单位描述和小人图像，以及“边缘”立场的重做。现在，他们的整体实力，应该与默认时代中的派系接近得多了，同时游玩起来也更为有趣。</p>
+
+<h4 id="campaigns">战役</h4>
+
+<div class="thumb"><a href="images/start-1.jpg"><img src="images/start-1-thumb.jpg" alt="战役菜单截屏" /></a></div>
+
+<p><cite>堕入黑暗</cite>、<cite>自由</cite>以及<cite>圣火权杖</cite>经过了多轮修订，修订内容有：精简游戏玩法、添加RPG元素、重写各处故事情节和对话，以及升级视效和平衡性。若你正在寻找适合在即将到来的万圣夜游玩的内容，那么大修之后到处冒亡灵的<cite>堕入黑暗</cite>以及<cite>古人之密</cite>便是推荐游玩的战役！<cite>灼热双日之下</cite>的地图也翻新了，同时奎诺派系也经过了重新平衡，以便更好地与其他主线派系相匹配。</p>
+
+<p>为了配合在这个开发周期中加入的改进版AI，所有战役都进行了调整，以保持其预想的难度，并防止在整个战役中出现不正常的难度高峰。这一调整，在<cite>东部入侵</cite>中最为明显。新手级别战役的难度也有所降低，以使新玩家更容易接受。</p>
+
+<p><cite>瑟萨冈之锤</cite>中的几幕场景经过了修订，同时删除了其他部分场景，以使故事和玩法现代化，特别是更加注重了矮人文化和他们部族之间的互动。<cite>古人之密</cite>也有了小规模的玩法更新，可以创造和征募新的僵尸变种了。</p>
+
+<p>最后，伴随着对许多主线战役的各种现代化和调整而来的，是新的战役菜单，其中包括了由Emilien
+Rotival（LordBob）、Stefan和Kathrin Polikeit（Kitty）绘制的令人惊叹的背景图。</p>
+
+<h4 id="multiplayer">多人游戏</h4>
+
+<div class="thumb tright"><a href="images/start-2.jpg"><img src="images/start-2-thumb.jpg" alt="伊萨尔交叉口背景" /></a></div>
+
+<p><cite>韦诺</cite>的多人游戏内容有两大主要补充。迷雾岛和世界征服。迷雾岛是与黑暗预想类似的合作生存场景。后者的难度现已降低，而前者在挑战性方面取而代之。世界征服，其前身是附加组件世界征服II，是带有RPG元素的多人战役。最多三个玩家可以合作求生，升级单位，并击败对抗他们的军队。</p>
+
+<p>现在主线中也包含了原附加组件“计划单位升级”。当启用时，针对己方单位在多人游戏中另一个玩家的回合内升级的情况，玩家可以预先选择希望其升级成何种单位。另外，作为对此的补充，没有被计划过的单位，现在在多人游戏中其他玩家的回合内升级时，总是会升级为同一种单位，而不是在有多种选项时随机选择一个。</p>
+
+<p>这次更新中还包括对默认时代派系的大量平衡更新，特别是对关键单位的征募费用和生命值的调整。某些对阵和单位现在应该更加平衡了，这让游戏玩法更为多样。</p>
+
+<p>另一个重要变化是如下新特性：一旦游戏开始，附加组件就会相互隔离。这将防止游戏中没有使用的附加组件相互干扰，从而大大降低奇怪Bug和失步错误的发生机率。</p>
+
+<p>为了让游戏主建者能更好地处理不受欢迎的玩家，还实现了以下改进——现在各次游戏中的封禁是按用户名而不仅仅是按IP地址来执行的，在玩家的忽略列表上的人现在被自动禁止加入他们的游戏，而且旁观者现在也需要输入密码才能加入受密码保护的游戏，而不仅仅是玩家需要输入。</p>
+
+<h4 id="creators">内容创作者可见的新要素</h4>
+
+<div class="thumb tleft"><div><a href="images/start-3.jpg"><img src="images/start-3-thumb.jpg" alt="皇家战士立绘"/></a></div></div>
+
+<p>为了配合上面提到的附加组件更新增量下载的新功能，这个发布版本还包括了为附加组件作者提供的增量上传功能。当上传你的附加组件的新版本时，将只发送有变化的文件而不是整个附加组件。此外，现在可以在<code>_server.pbl</code>文件中提供附加组件标题和描述的多语言翻译。在对<code>_server.pbl</code>的处理中，也做了一个小安全改进——不再要求密码字段以明文形式存储在文件中。取而代之的是，如果不存在密码，那么<cite>韦诺</cite>会提示你输入密码。</p>
+
+<p>更重要但可能不太明显的，是对WML、Lua和韦诺公式语言（WFL）API的各种改进。首先，许多现有的Lua函数已重组进了子模块，这些变化的全面清单可以在<a
+href="https://wiki.wesnoth.org/LuaAPI/UpdatingFrom14">这里</a>找到。虽然重组后的函数的已有名称仍然有效，但还是鼓励内容创作者将现有代码更新为使用新模块。另外，与<cite>韦诺</cite>一起打包的Lua版本从5.3更新到了5.4。</p>
+
+<p>现在<code>[variable]</code>条件标签中也支持<code>formula=</code>属性。这样，在本需要使用更复杂的WML或Lua的地方，现在可以使用条件了，这通常也是表述复杂条件的更简洁的方式。</p>
+
+<p>现在<code>[message]</code>中支持<code>male_voice=</code>和<code>female_voice=</code>属性，以更好地支持附加组件中的配音。</p>
+
+<p>战役、时代和模组中添加了新标签<code>[modify_unit_type]</code>，这样就能改变某些单位类型的经验、费用和升级选项了。特别一提，此标签是要取代不再被支持的<code>[advancefrom]</code>标签的。</p>
+
+<p>随着<code>wml.merge</code>、<code>wml.diff</code>、<code>wml.patch</code>、<code>wml.find_child</code>、<code>wml.attribute_count</code>、<code>wml.equal</code>、<code>wml.valid</code>以及<code>wml.interpolate</code>函数的加入，从Lua内部以编程方式处理WML的能力得到了扩展，使用方式也简化了。</p>
+<div class="thumb tright"><div><a href="images/start-4.jpg"><img src="images/start-4-thumb.jpg" alt="新地形"/></a></div></div>
+<p>游戏的许多不同部分中都增加了大量的新美术。添加了皇家武士、巨灵、娜迦蛇身武士、娜迦刃环使等单位的立绘。新的地形，如墓穴、古老石地板和墙，以及蔓生墙，现在都可以在编辑器中使用，同时可用的还有改进后的许多地形转换效果。还增加了各种野生动物单位，包括鳄鱼、穴居熊、冰莫纳兽、火蚁、有角圣甲虫、海马等。</p>
+
+<h2 id="contribute">贡献</h2>
+
+<p><cite>韦诺之战</cite>在来自各种各样背景的大量国际志愿者努力下不断完善和拓展。自从2003年7月此游戏诞生以来，几百人已经为游戏的方方面面作出了贡献。从官方发布版中包含的主线内容，到可以从我们的附加组件服务器上下载的几百个玩家自制项目，都包括在这些贡献中。无论您是需要在通关特定场景时获得一些帮助，还是想要添加新特性到您的自定义地图里，<cite>韦诺</bite>都有一个巨大的玩家和创作者社区总是愿意提供帮助。</p>
+
+<p>除了创作您自己的附加组件内容，还有很多其他方式您能参与到<b>韦诺</b>创作中来：</p>
+
+<ul>
+  <li><a href="https://wiki.wesnoth.org/Project">贡献</a>代码</li>
+  <li>为游戏主体和用户自制的<a
+href="https://forums.wesnoth.org/viewforum.php?f=23">附加组件</a>进行美工<a
+href="https://forums.wesnoth.org/viewforum.php?f=9">创作</a></li>
+  <li>将游戏<a href="https://wiki.wesnoth.org/WesnothTranslations">翻译</a>为您的语言</li>
+  <li><a href="https://forums.wesnoth.org/viewforum.php?f=14">谱写</a>新的音轨和声效</li>
+  <li>或是在社交媒体上宣传<cite>韦诺</cite>！</li>
+</ul>
+
+<h2 id="more">更多信息</h2>
+
+<ul>
+  <li><a href="https://changelog.wesnoth.org/1.16/">完整的更新日志</a>（仅有英文）</li>
+  <li><a href="https://www.wesnoth.org/manual/1.16/manual.zh_CN.html">用户手册</a></li>
+  <li><a href="https://www.wesnoth.org">官方网站</a>（仅有英文）</li>
+
+  <li><a href="https://www.wesnoth.org/start/1.14">韦诺之战1.14发行说明</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.12">韦诺之战1.12发行说明</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.10">韦诺之战1.10发行说明</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.8">韦诺之战1.8发行说明</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.6">韦诺之战1.6发行说明</a></li>
+</ul>
+
+</div> 
+
+<!-- content -->
+</div> 
+
+<!-- #main -->
+<div id="footer-sep"></div>
+
+<div id="footer"><div id="footer-content"><div>
+	<div id="languages">
+		这个页面已被翻译为以下语言：
+		<ul>
+			
+		<!--LANGS--><li lang='cs'><a href='index.cs.html'>Čeština</a></li><li lang='en'><a href='index.en.html'>English (US)</a></li><li lang='en-gb'><a href='index.en_GB.html'>English (GB)</a></li><li lang='es'><a href='index.es.html'>Español</a></li><li lang='fr'><a href='index.fr.html'>Français</a></li><li lang='it'><a href='index.it.html'>Italiano</a></li><li lang='ja'><a href='index.ja.html'>日本語</a></li><li lang='nl'><a href='index.nl.html'>Nederlands</a></li><li lang='pl'><a href='index.pl.html'>Polski</a></li><li lang='ru'><a href='index.ru.html'>Русский</a></li><li lang='zh-cn'><a href='index.zh_CN.html'>中文</a></li>
+<!--LANGS-->
+</ul>
+	</div>
+
+	<a href="https://wiki.wesnoth.org/StartingPoints">网站地图</a> &#8226; <a
+href="https://status.wesnoth.org/">网站状态</a><br />
+	版权所有 &#169; 2003&#8211;2021，<a rel="author"
+href="https://wiki.wesnoth.org/Project">韦诺之战项目团队</a><br />
+	网站设计版权所有 &#169; 2017&#8211;2021，Iris Morelle
+</div></div></div>
+
+<script>
+	(function($) {
+		/*
+		* Auto links on headers
+		*/
+		$("h2,h3,h4").each(function(i, e) {
+			var link = $("<a/>", { text: $(this).text(), href: "#" + $(this)[0].id } );
+			$(this).text("").append(link);
+		});
+
+		/*
+		* Smooth scrolling for anchor links
+		*/
+
+		$('a[href*="#"]:not([href="#"])').click(function() {
+			if (location.pathname.replace(/^\//,"") == this.pathname.replace(/^\//,"") && location.hostname == this.hostname) {
+				var hash = this.hash;
+				var target = $(hash);
+				target = target.length ? target : $("[name=" + hash.slice(1) + "]");
+				if (target.length) {
+					$("html,body").animate(
+						{ scrollTop: target.offset().top },
+						{ duration: 500, complete: function() { window.location.href = hash; } }
+					);
+					return false;
+				}
+			}
+		});
+	}(jQuery));
+</script>
+
+</body>
+</html>
