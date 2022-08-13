@@ -615,7 +615,7 @@ msgstr "<a href=\"https://www.wesnoth.org\">Site officiel de Wesnoth</a> (en ang
 #: template.html:144
 msgid "<a href=\"https://www.wesnoth.org/start/1.14\">Wesnoth 1.14 Release Notes</a>"
 msgstr ""
-"<a href=\"https//www.wesnoth.org/start/1.14\">Notes de publication de Wesnoth 1.14</"
+"<a href=\"https://www.wesnoth.org/start/1.14\">Notes de publication de Wesnoth 1.14</"
 "a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
@@ -623,7 +623,7 @@ msgstr ""
 #: template.html:145
 msgid "<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release Notes</a>"
 msgstr ""
-"<a href=\"https//www.wesnoth.org/start/1.12\">Notes de publication de Wesnoth 1.12</"
+"<a href=\"https://www.wesnoth.org/start/1.12\">Notes de publication de Wesnoth 1.12</"
 "a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
@@ -631,7 +631,7 @@ msgstr ""
 #: template.html:146
 msgid "<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release Notes</a>"
 msgstr ""
-"<a href=\"https//www.wesnoth.org/start/1.10\">Notes de publication de Wesnoth 1.10</"
+"<a href=\"https://www.wesnoth.org/start/1.10\">Notes de publication de Wesnoth 1.10</"
 "a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
@@ -639,14 +639,14 @@ msgstr ""
 #: template.html:147
 msgid "<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</a>"
 msgstr ""
-"<a href=\"https//www.wesnoth.org/start/1.8\">Notes de publication de Wesnoth 1.8</a>"
+"<a href=\"https://www.wesnoth.org/start/1.8\">Notes de publication de Wesnoth 1.8</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:148
 msgid "<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</a>"
 msgstr ""
-"<a href=\"https//www.wesnoth.org/start/1.6\">Notes de publication de Wesnoth 1.6</a>"
+"<a href=\"https://www.wesnoth.org/start/1.6\">Notes de publication de Wesnoth 1.6</a>"
 
 # type: Content of: <html><body><div><div><div><div><p>
 #. type: Content of: <html><body><div><div><div><div>
