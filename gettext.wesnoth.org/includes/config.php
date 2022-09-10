@@ -72,6 +72,7 @@ $mainline_campaign_textdomains = [
 	'wesnoth-tsg',
 	'wesnoth-utbs',
 	'wesnoth-wc',
+	'wesnoth-wof',
 ];
 
 // Additional mainline textdomains
