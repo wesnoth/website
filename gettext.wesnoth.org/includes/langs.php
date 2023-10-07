@@ -16,6 +16,7 @@ $langs = [
 	'ca'				=> 'Catalan',
 	'ca_ES@valencia'	=> 'Valencian (southern Catalan)',
 	'cs'				=> 'Czech',
+	'cs'				=> 'Welsh',
 	'da'				=> 'Danish',
 	'de'				=> 'German',
 	'es'				=> 'Spanish',
