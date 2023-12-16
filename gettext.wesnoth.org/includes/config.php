@@ -51,6 +51,7 @@ $core_textdomains = [
 	'wesnoth-multiplayer',
 	'wesnoth-anl',
 	'wesnoth-tutorial',
+	'wesnoth-tools',
 ];
 
 // Mainline campaign textdmains.
