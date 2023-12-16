@@ -51,7 +51,6 @@ $core_textdomains = [
 	'wesnoth-multiplayer',
 	'wesnoth-anl',
 	'wesnoth-tutorial',
-	'wesnoth-tools',
 ];
 
 // Mainline campaign textdmains.
@@ -80,6 +79,7 @@ $mainline_campaign_textdomains = [
 $mainline_textdomains = array_merge($core_textdomains, $mainline_campaign_textdomains, [
 	'wesnoth-manpages',
 	'wesnoth-manual',
+	'wesnoth-tools',
 ]);
 
 // URL prefix used in links to the contents of individual mainline catalog files.
