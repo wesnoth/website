@@ -13,6 +13,7 @@ $langs = [
 	'ar'				=> 'Arabic',
 	'ast'				=> 'Asturian',
 	'bg'				=> 'Bulgarian',
+	'bn'				=> 'Bengali',
 	'ca'				=> 'Catalan',
 	'ca_ES@valencia'	=> 'Valencian (southern Catalan)',
 	'cs'				=> 'Czech',
