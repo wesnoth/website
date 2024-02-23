@@ -1,0 +1,80 @@
+#!/usr/bin/python3
+'''
+HTML post-processor for codename "Wesmere"
+
+Copyright (C) 2021 by Iris Morelle <shadowm@wesnoth.org>
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, see <http://www.gnu.org/licenses/>.
+'''
+
+import argparse
+import re
+import sys
+from pathlib import Path
+
+
+debug = False
+
+
+def dbgprint(msg):
+    if debug:
+        print(msg)
+
+
+def apply_transforms(line, language, prefix):
+    path_expr = re.compile(r'(?:src|href)=(?:"([^"]+)"|\'([^\']+)\')')
+    for match in re.finditer(path_expr, line):
+        path_old = match.group(1 if match.group(2) is None else 2)
+        if path_old.startswith(prefix):
+            path_new = re.sub(r'\.(png|gif|jpg|jpeg|webp|avif)$',
+                              r'-{}.\1'.format(language),
+                              path_old,
+                              flags=re.IGNORECASE)
+            if len(path_new) != len(path_old) and Path(path_new).is_file():
+                line = line.replace(path_old, path_new)
+                dbgprint("sub {} {}".format(path_old, path_new))
+    return line
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-d', action='store_true', dest='debug',
+                        help="show extra debugging information")
+    parser.add_argument('language', metavar='LANG_CODE')
+    parser.add_argument('prefix', metavar='PREFIX')
+    parser.add_argument('input_file', metavar='INPUT_FILE')
+    args = parser.parse_args()
+
+    global debug
+    debug = args.debug
+    language = args.language
+    prefix = args.prefix
+    input_file = args.input_file
+
+    #
+    # Do the thing
+    #
+    try:
+        lines = ()
+        with open(input_file, "r", encoding="utf-8") as inf:
+            lines = inf.readlines()
+        with open(input_file, "w", encoding="utf-8") as outf:
+            for line in lines:
+                outf.write(apply_transforms(line, language, prefix))
+    except FileNotFoundError as err:
+        sys.exit("Could not open {0.filename}, aborting.\n".format(err))
+
+
+if __name__ == '__main__':
+    main()

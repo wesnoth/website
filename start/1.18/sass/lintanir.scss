@@ -1,0 +1,452 @@
+/*
+ * codename Lintanir - Wesnoth 1.14 Release Notes CSS supplement for Wesmere
+ * Copyright (C) 2018 - 2019 by Iris Morelle <shadowm@wesnoth.org>
+ *
+ * codename Wesmere - Next-gen Wesnoth.org stylesheet
+ * Copyright (C) 2011 - 2019 by Iris Morelle <shadowm@wesnoth.org>
+ *
+ * See LICENSE for usage terms.
+ */
+
+/*! lintanir.css (GNU GPL v2+) | AUTOMATICALLY GENERATED - DO NOT EDIT */
+
+@import "defs";
+@import "oldania";
+@import "assets";
+
+$cover-path:								'../images/cover-trow_story_04b-The_Midlands.jpg';
+$cover-color-avg:							#383848;
+$cover-width:								1920;
+$cover-height:								1080;
+
+$brand-color:								lighten($wui-text-gold, 15%);
+$brand-shadow:								#000;
+$brand-shadow-size:							4px;
+
+$lintanir-bg-1:								lighten($wui-dialog-bg, 3%);
+$lintanir-bg-2:								darken($lintanir-bg-1, 5%);
+$lintanir-bg-3:								$lintanir-bg-1;
+
+$lintanir-box-bg:							lighten($lintanir-bg-1, 6%);
+$lintanir-box-bg-highlight:					lighten($lintanir-bg-1, 12%);
+
+/*
+ * Base styles
+ */
+
+html {
+	@include wesmere-gradient-background($lintanir-bg-1, $wui-dialog-bg);
+
+	font-size: $wesmere-base-font-size;
+	color: $wui-text-normal;
+}
+
+#content,
+#footer,
+#main {
+	line-height: $measurement-paragraph-spacing-unitless;
+}
+
+code,
+pre,
+kbd {
+	background: $lintanir-box-bg;
+	border: none;
+	color: inherit;
+}
+
+code {
+	background: transparent;
+}
+
+a {
+	@extend %slow-transitions;
+
+	&:link, &:visited {
+		color: $link-color;
+	}
+
+	&:hover, &:active {
+		color: $link-hover-color;
+	}
+}
+
+strong, b, .bold {
+	color: #eee;
+}
+
+s {
+	color: #999;
+}
+
+ins {
+	color: #292;
+}
+
+del {
+	color: #c22;
+}
+
+abbr, acronym, dfn {
+	&:hover {
+		background: $wui-border-dark;
+	}
+}
+
+ul {
+	list-style-image: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20version%3D%221.1%22%3E%3Crect%20x%3D%227%22%20y%3D%227%22%20width%3D%226%22%20height%3D%226%22%20fill%3D%22%23a27f44%22%2F%3E%3C%2Fsvg%3E');
+}
+
+h1,
+h2,
+h3 {
+	clear: both;
+}
+
+h2 { font-size: 225%; }
+h3 { font-size: 200%; }
+h4 { font-size: 160%; }
+h5 { font-size: 140%; }
+h6 { font-size: 120%; }
+
+h2 {
+	@include wesmere-center-faded-border('top');
+
+	padding-top: $measurement-paragraph-spacing/2;
+
+	&:first-child {
+		margin-top: 0;
+		padding-top: 0;
+		border: none 0;
+	}
+}
+
+h2, h3, h4, h5, h6 {
+	color: $wui-text-gold;
+	text-shadow: 0px 0px 1px #000,
+	             0px 0px 1px #000,
+	             0px 0px 12px #bb9;
+
+	a {
+		&:link, &:visited {
+			color: $wui-text-gold;
+		}
+
+		&:hover, &:active {
+			color: #eee;
+			text-decoration: none;
+		}
+	}
+}
+
+.js pre,
+.client-js pre {
+	max-height: 400px;
+}
+
+blockquote {
+	color: #999;
+}
+
+blockquote::before {
+	color: $wui-text-gold;
+	opacity: 0.8;
+}
+
+/*
+ * Cover area
+ */
+
+%oldania-typeface {
+	font-family: 'Oldania ASD', Montaga, Junicode, 'Times New Roman', serif;
+	font-weight: 400;
+}
+
+h1#branding-title {
+	@extend %oldania-typeface;
+
+	font-size: 64px;
+	line-height: 1.1; // with subtitle, otherwise use 1.3
+
+	margin: 0.25em;
+
+	color: $brand-color;
+	text-shadow: -1px -1px $brand-shadow-size $brand-shadow,
+	              1px -1px $brand-shadow-size $brand-shadow,
+	             -1px  1px $brand-shadow-size $brand-shadow,
+	              1px  1px $brand-shadow-size $brand-shadow;
+
+	@include media-small-screen-constraint {
+		font-size: 48px;
+	}
+
+	@include media-tiny-screen-constraint {
+		font-size: 36px;
+	}
+}
+
+#branding-sub {
+	font-size: $measurement-sub2;
+}
+
+#cover {
+	background: linear-gradient(to top, rgba(#000,0.4), rgba(#000,0.0) 2em) scroll,
+	            $cover-color-avg url($cover-path) no-repeat top center fixed;
+	background-size: cover;
+	border-bottom: #000 1px solid;
+
+	height: $cover-height;
+	min-height: 100vh;
+	width: 100%;
+
+	text-align: center;
+}
+
+#intro {
+	font-family: Montaga, Junicode, 'Times New Roman', serif;
+	font-weight: 400;
+	font-size: 1.3em;
+
+	max-width: 36em;
+	margin: 0 auto;
+	padding: $measurement-sub;
+
+	background: rgba($wui-dialog-bg, 0.8);
+	color:      $wui-text-normal;
+
+	border: 1px solid $wui-border-light;
+	border-radius: $radius-minor;
+	box-shadow: 0px 0px 2px 0px #000;
+	text-shadow: 0px 0px 2px #000;
+
+	@include media-small-screen-constraint {
+		max-width: none;
+		border-style: solid none;
+	}
+
+	@include media-tiny-screen-constraint {
+		font-size: 1.2em;
+	}
+
+	p:first-child {
+		margin-top: 0;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+
+	i, em, cite {
+		font-style: normal;
+	}
+
+	cite {
+		@extend %oldania-typeface;
+
+		color: $wui-text-gold;
+		font-size: 1.1em;
+	}
+
+	i {
+		color: darken($wui-text-normal, 25%);
+	}
+
+	a {
+		@extend %standard-transitions;
+
+		&:link,
+		&:visited {
+			color: $wui-text-gold;
+		}
+
+		&:hover,
+		&:active {
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+}
+
+#bigshield {
+	@include responsive-high-dpi-image(url('../images/shield.png'), url('../images/shield@2x.png'), 216, 216);
+
+	margin: 1em auto 0;
+
+	/*
+	@include media-small-screen-constraint {
+	}
+	*/
+
+	@include media-tiny-screen-constraint {
+		@include responsive-high-dpi-image-size(136, 136);
+	}
+}
+
+/*
+ * Downloads section
+ */
+
+#quick-download {
+	margin: $measurement-std 0;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+.download-button,
+.itchio-button,
+.steam-button {
+	// Flex to guarantee everything is vertically centered (also needed on .download-button
+	// in particular because we can't change the markup structure due to string freeze FIXME).
+	display: flex;
+	align-items: center;
+	// Overrides wesmere/wesmere/sass/home/_download.scss
+	margin: $measurement-small;
+
+	line-height: 1.5;
+
+	@include media-small-screen-constraint {
+		font-size: 1.4em;
+	}
+
+	@include media-tiny-screen-constraint {
+		font-size: 1.2em;
+	}
+
+	.download-text {
+		display: flex;
+		align-items: center;
+		overflow: auto;
+		white-space: normal;
+	}
+}
+
+// HACK override from wesmere
+.steam-button .download-big, .itchio-button .download-big {
+	line-height: 1.5;
+}
+
+// Disable wesmere/wesmere/sass/home/_site_home.scss rules.
+
+#contribute,
+.flexbox #contribute {
+	float: none;
+	width: auto;
+	margin-left: 0;
+}
+
+.downloads {
+	a {
+		&:link,
+		&:visited {
+			color: $wui-text-gold;
+		}
+
+		&:hover,
+		&:active {
+			color: #fff;
+		}
+	}
+
+	.size,
+	.note {
+		color: $wui-border-light;
+	}
+}
+
+.downloadicon {
+	color: $wui-text-gold;
+
+	/*
+	 * Silhouetted version of the FA Linux icon so it doesn't look like a demon
+	 * when using bright text on dark backgrounds.
+	 */
+	&-linux {
+		background-image: $svg-linux-silhouette-normal;
+		background-repeat:   no-repeat;
+		background-position: 50% 65%;
+		background-size:     0.88em;
+
+		&::before {
+			content: "\A0";
+		}
+	}
+
+	a:hover &-linux {
+		background-image: $svg-linux-silhouette-highlight;
+	}
+}
+
+/*
+ * Thumbnails
+ */
+
+$thumbnail-extra-margin: 1.4em;
+
+div.thumb {
+	& > div {
+		border: none;
+		padding: 0;
+	}
+
+	a {
+		@extend %slow-transitions;
+
+		display: inline-block;
+		padding: $measurement-sub2;
+
+		background: $lintanir-box-bg;
+
+		&:hover {
+			background: $lintanir-box-bg-highlight;
+		}
+	}
+}
+
+div.tleft,
+div.tright {
+	border: none;
+}
+
+div.tleft {
+	margin-right:  $thumbnail-extra-margin;
+	margin-bottom: $thumbnail-extra-margin;
+}
+
+div.tright {
+	margin-left:   $thumbnail-extra-margin;
+	margin-bottom: $thumbnail-extra-margin;
+}
+
+/*
+ * Language menu
+ */
+
+#languages > ul {
+	margin-top: 0;
+	padding: 0;
+
+	& > li {
+		display: inline-block;
+		padding-right: $measurement-small;
+
+		&:last-child {
+			padding: 0;
+		}
+	}
+}
+
+/*
+ * Navigation and footer
+ */
+
+#nav {
+	background: transparent;
+}
+
+#footer {
+	background: $lintanir-bg-2;
+	background: -webkit-linear-gradient(left, $lintanir-bg-2, $lintanir-bg-3, $lintanir-bg-2);
+	background:    -moz-linear-gradient(left, $lintanir-bg-2, $lintanir-bg-3, $lintanir-bg-2);
+	background:         linear-gradient(to right, $lintanir-bg-2, $lintanir-bg-3, $lintanir-bg-2);
+}
