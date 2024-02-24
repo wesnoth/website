@@ -17,16 +17,16 @@ error_reporting(E_ALL);
 $msgfmt = '/usr/bin/msgfmt';
 
 // Name of the current stable branch (dir name of the Git clone).
-$branch = '1.16';
+$branch = '1.18';
 
 // Whether to actually process WesCamp content.
 $use_wescamp = false;
 
 // Name of the current stable branch for WesCamp.
-$wescamp_version_dev = '1.16';
+$wescamp_version_dev = '1.18';
 
 // Name of the current development branch for WesCamp.
-$wescamp_version_branch = '1.16';
+$wescamp_version_branch = '1.18';
 
 // Prefix containing a checkout of Wesnoth's development branch.
 $master_basedir = '/usr/src/wesnoth/master/';
