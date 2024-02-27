@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-27 11:46-0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2009-03-22 15:23+0100\n"
+"Last-Translator: none\n"
+"Language-Team: none\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,8 +29,8 @@ msgstr ""
 #. type: Content of: <html><body><div><div>
 #: template.html:27
 msgid ""
-"<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span "
-"aria-hidden=\"true\"></span></a>"
+"<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span aria-"
+"hidden=\"true\"></span></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h1>
@@ -58,24 +58,22 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div><a><span>
 #: template.html:38
 msgid ""
-"<a class=\"download-button\" role=\"button\" "
-"href=\"https://www.wesnoth.org/#download\"> <span class=\"download-arrow\" "
-"aria-hidden=\"true\"></span> <span class=\"download-text\"> <span "
-"class=\"download-big\">Download Now</span> </span> </a> <a "
-"class=\"itchio-button\" role=\"button\" "
-"href=\"https://wesnoth.itch.io/battle-for-wesnoth\" aria-label=\"Available "
-"on itch.io\"> <span class=\"download-text\">"
+"<a class=\"download-button\" role=\"button\" href=\"https://www.wesnoth.org/"
+"#download\"> <span class=\"download-arrow\" aria-hidden=\"true\"></span> "
+"<span class=\"download-text\"> <span class=\"download-big\">Download Now</"
+"span> </span> </a> <a class=\"itchio-button\" role=\"button\" href=\"https://"
+"wesnoth.itch.io/battle-for-wesnoth\" aria-label=\"Available on itch.io\"> "
+"<span class=\"download-text\">"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:48
 msgid ""
 "<span class=\"download-big\">Get on itch.io</span> </span> </a> <a "
-"class=\"steam-button\" role=\"button\" "
-"href=\"https://store.steampowered.com/app/599390\"> <span "
-"class=\"download-text\"> <span class=\"steam-icon\" "
-"aria-hidden=\"true\"></span> <span class=\"download-big\">Get on "
-"Steam</span> </span> </a>"
+"class=\"steam-button\" role=\"button\" href=\"https://store.steampowered.com/"
+"app/599390\"> <span class=\"download-text\"> <span class=\"steam-icon\" aria-"
+"hidden=\"true\"></span> <span class=\"download-big\">Get on Steam</span> </"
+"span> </a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
@@ -179,10 +177,10 @@ msgstr ""
 msgid ""
 "All multiplayer factions have gone through major updates to ensure standard "
 "1v1 games are more balanced as well as to help survival scenarios be more "
-"fun and to allow campaigns to use the new variable recall cost "
-"mechanic. Higher level units have also had a variety of adjustments to "
-"better balance the Age of Heroes era as well as survival scenarios where "
-"high level units are common."
+"fun and to allow campaigns to use the new variable recall cost mechanic. "
+"Higher level units have also had a variety of adjustments to better balance "
+"the Age of Heroes era as well as survival scenarios where high level units "
+"are common."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><a>
@@ -195,12 +193,12 @@ msgstr ""
 msgid ""
 "A clear separation has been made for auto-hosted games such as Afterlife vs "
 "custom games hosted by other players. Games hosted by players will be in the "
-"General Lobby tab, while auto-hosted games will be in the Matchmaking "
-"tab. To aid with reporting problematic players or games, the "
-"<cite>/report</cite> command now shows a dialog where information about the "
-"issue can be entered. And to better handle server disconnects due to network "
-"issues, Wesnoth will now automatically detect when your connection is lost "
-"and alert you to the problem."
+"General Lobby tab, while auto-hosted games will be in the Matchmaking tab. "
+"To aid with reporting problematic players or games, the <cite>/report</cite> "
+"command now shows a dialog where information about the issue can be entered. "
+"And to better handle server disconnects due to network issues, Wesnoth will "
+"now automatically detect when your connection is lost and alert you to the "
+"problem."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
@@ -214,7 +212,8 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:95
-msgid "And, as a cherry on top, the waterfalls on Isars Cross are now animated."
+msgid ""
+"And, as a cherry on top, the waterfalls on Isars Cross are now animated."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h4>
@@ -253,9 +252,9 @@ msgid ""
 "recovery to regain access to your add-ons. Additionally, this allows "
 "specifying other users who are also allowed to upload updates to the add-on, "
 "for add-ons which are developed collaboratively by multiple people. Your "
-"<cite>_server.pbl</cite> will also be validated prior to uploading your "
-"add-on, so you will know of any issues before the upload takes place rather "
-"than afterwards."
+"<cite>_server.pbl</cite> will also be validated prior to uploading your add-"
+"on, so you will know of any issues before the upload takes place rather than "
+"afterwards."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><a>
@@ -342,8 +341,8 @@ msgstr ""
 #: template.html:123
 msgid ""
 "<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">Create</a> art for "
-"the main game or for user-made <a "
-"href=\"https://forums.wesnoth.org/viewforum.php?f=23\">add-ons</a>"
+"the main game or for user-made <a href=\"https://forums.wesnoth.org/"
+"viewforum.php?f=23\">add-ons</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
@@ -392,39 +391,37 @@ msgstr ""
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:136
 msgid ""
-"<a href=\"https://www.wesnoth.org/start/1.16\">Wesnoth 1.16 Release "
-"Notes</a>"
+"<a href=\"https://www.wesnoth.org/start/1.16\">Wesnoth 1.16 Release Notes</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:137
 msgid ""
-"<a href=\"https://www.wesnoth.org/start/1.14\">Wesnoth 1.14 Release "
-"Notes</a>"
+"<a href=\"https://www.wesnoth.org/start/1.14\">Wesnoth 1.14 Release Notes</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:138
 msgid ""
-"<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release "
-"Notes</a>"
+"<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release Notes</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:139
 msgid ""
-"<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release "
-"Notes</a>"
+"<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release Notes</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:140
-msgid "<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</a>"
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:141
-msgid "<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</a>"
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div>
@@ -442,8 +439,8 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div>
 #: template.html:159
 msgid ""
-"Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" "
-"href=\"https://wiki.wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
+"Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" href=\"https://wiki."
+"wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div>

@@ -1,0 +1,1470 @@
+# Russian translations for PACKAGE package
+# Copyright (C) 2008 Wesnoth Development Team
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2008.
+# Artem Khrapov (kabachuha) <artemkhrapov2001@yandex.ru>, 2020-2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wesnoth-announcement\n"
+"Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2024-02-27 11:46-0600\n"
+"PO-Revision-Date: 2021-10-21 00:12+0300\n"
+"Last-Translator: Artem Khrapov <artemkhrapov2001@yandex.ru>\n"
+"Language-Team: https://wiki.wesnoth.org/RussianTranslation\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0\n"
+
+#. type: Attribute 'lang' of: <html>
+#: template.html:3
+msgid "en"
+msgstr "ru"
+
+# type: Content of: <html><head><title>
+#. type: Content of: <html><body><div><div><h1>
+#: template.html:15 template.html:29
+#, fuzzy
+#| msgid "The Battle for Wesnoth 1.16"
+msgid "The Battle for Wesnoth 1.18"
+msgstr "Битва за Веснот 1.16"
+
+#. type: Content of: <html><body><div><div>
+#: template.html:27
+msgid ""
+"<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span aria-"
+"hidden=\"true\"></span></a>"
+msgstr ""
+"<a id=\"bigshield\" href=\"/\" aria-label=\"Эмблема Веснота\"><span aria-"
+"hidden=\"true\"></span></a>"
+
+#. type: Content of: <html><body><div><div><h1>
+#: template.html:29
+#, fuzzy
+#| msgid "<span id=\"branding-sub\">Dune Conquests Update</span>"
+msgid "<span id=\"branding-sub\">Draconic Invasions Update</span>"
+msgstr "<span id=\"branding-sub\">Обновление «Завоеватели Пустынь»</span>"
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:32
+#, fuzzy
+#| msgid ""
+#| "<i>October 2021.</i> The development team is proud to present version "
+#| "1.16 of <cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></"
+#| "cite>!"
+msgid ""
+"<i>March 2023.</i> The development team is proud to present version 1.18 of "
+"<cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
+msgstr ""
+"<i>Октябрь 2021 года.</i> Команда разработчиков с гордостью представляет "
+"версию 1.16 <cite><a href=\"/\">Битвы&nbsp;за&nbsp;Веснот</a></cite>!"
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:34
+#, fuzzy
+#| msgid ""
+#| "This release features a variety of improvements to many areas of the game "
+#| "including many improved campaigns, a fully rebalanced Dunefolk faction, "
+#| "new portraits and units, upgrades to the AI, a variety of new features "
+#| "for add-on authors, many <b>many</b> bugs fixed, and much more besides. "
+#| "Try out the new features for yourself, or take a look <a "
+#| "href=\"#game\">below</a> for more details."
+msgid ""
+"This release features many new additions as well as refinements to existing "
+"content including a new Drake campaign, greatly improved graphical "
+"performance, major balance changes for multiplayer, achievements, many "
+"enhancements to the editor, and so much more! Try them out for yourself, or "
+"take a look <a href=\"#game\">below</a> for more details."
+msgstr ""
+"Этот выпуск доставит Вам множество улучшений самых различных сторон игры: "
+"переработанные кампании, полностью сбалансированную фракцию Народа пустыни, "
+"новых бойцов и их портреты, усовершенствованный ИИ, пакет свежих "
+"возможностей для авторов аддонов, кучу <b>кучу</b> исправленных ошибок и "
+"многое другое. Испытайте же их на себе или взгляните <a href=\"#game\">ниже</"
+"a>, чтобы узнать подробности."
+
+#. type: Content of: <html><body><div><div><div><a><span>
+#: template.html:38
+msgid ""
+"<a class=\"download-button\" role=\"button\" href=\"https://www.wesnoth.org/"
+"#download\"> <span class=\"download-arrow\" aria-hidden=\"true\"></span> "
+"<span class=\"download-text\"> <span class=\"download-big\">Download Now</"
+"span> </span> </a> <a class=\"itchio-button\" role=\"button\" href=\"https://"
+"wesnoth.itch.io/battle-for-wesnoth\" aria-label=\"Available on itch.io\"> "
+"<span class=\"download-text\">"
+msgstr ""
+"<a class=\"download-button\" role=\"button\" href=\"https://www.wesnoth.org/"
+"#download\"> <span class=\"download-arrow\" aria-hidden=\"true\"></span> "
+"<span class=\"download-text\"> <span class=\"download-big\">Загрузить</span> "
+"</span> </a> <a class=\"itchio-button\" role=\"button\" href=\"https://"
+"wesnoth.itch.io/battle-for-wesnoth\" aria-label=\"Доступно на itch.io\"> "
+"<span class=\"download-text\">"
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:48
+msgid ""
+"<span class=\"download-big\">Get on itch.io</span> </span> </a> <a "
+"class=\"steam-button\" role=\"button\" href=\"https://store.steampowered.com/"
+"app/599390\"> <span class=\"download-text\"> <span class=\"steam-icon\" aria-"
+"hidden=\"true\"></span> <span class=\"download-big\">Get on Steam</span> </"
+"span> </a>"
+msgstr ""
+"<span class=\"download-big\">Получить с itch.io</span> </span> </a> <a "
+"class=\"steam-button\" role=\"button\" href=\"https://store.steampowered.com/"
+"app/599390\"> <span class=\"download-text\"> <span class=\"steam-icon\" aria-"
+"hidden=\"true\"></span> <span class=\"download-big\">Забрать со Steam</span> "
+"</span> </a>"
+
+# type: Content of: <html><body><div><div><div><h2>
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:65
+msgid "What’s New in This Update"
+msgstr "Что нового в этом обновлении"
+
+# type: Content of: <html><body><div><div><div><h3>
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:67
+msgid "For Players"
+msgstr "Игрокам"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:69
+#, fuzzy
+#| msgid "<a href=\"images/start-1.jpg\">"
+msgid "<a href=\"images/start-1.png\">"
+msgstr "<a href=\"images/start-1.jpg\">"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:69
+msgid "In-game game history viewer"
+msgstr ""
+
+# type: Content of: <html><body><div><div><div>
+#. type: Content of: <html><body><div><div><div>
+#: template.html:69 template.html:77 template.html:89 template.html:99
+#: template.html:105
+msgid "</a>"
+msgstr "</a>"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:71
+msgid ""
+"Players can now view a history of their own previously played games and can "
+"search the history of other players as well by clicking the Match History "
+"button in the online multiplayer lobby. This shows information on the game "
+"itself, the players in the game, the era used, any modifications enabled, "
+"and lets you download the game’s replay to watch for yourself. Additionally, "
+"there’s a <a href=\"https://replays.wesnoth.org/dashboard/\">dashboard</a> "
+"available with more general data about games played."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:73
+msgid ""
+"Wesnoth’s rendering has been completely overhauled, leading to a significant "
+"improvement in performance with our own tests showing a nearly 60% boost in "
+"FPS. This will of course vary depending on the computer you’re using to run "
+"Wesnoth, but will in all cases result in a much smoother and more consistent "
+"experience across all areas of the game."
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><h4>
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:75
+msgid "Campaigns"
+msgstr "Кампании"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:77
+#, fuzzy
+#| msgid "<a href=\"images/start-2.jpg\">"
+msgid "<a href=\"images/start-2.png\">"
+msgstr "<a href=\"images/start-2.jpg\">"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:77 template.html:89
+msgid "Campaigns menu screenshot"
+msgstr "Меню кампаний"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:79
+msgid ""
+"A new campaign, Winds of Fate, has been added to the game! This is the first "
+"Drake campaign to be included in Wesnoth, showing their fight for survival "
+"and return to Wesnoth’s Great Continent as they flee their shrinking and "
+"sinking island home."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:81
+msgid ""
+"Eastern Invasion has been completely remade to add more variety to its "
+"scenarios, give more personality to its characters, make the AI more "
+"interesting to play against, and to fix several lore conflicts with other "
+"campaigns."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:83
+msgid ""
+"And lastly, the Quenoth faction in the campaign Under the Burning Suns has "
+"been given an overhaul to make them more interesting - hero units can now "
+"gain unique bonuses when leveling up while regular units have new abilities "
+"and new weapon effects for their attacks, making this a unique experience "
+"among Wesnoth’s campaigns."
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><dl><dt>
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:85
+msgid "Multiplayer"
+msgstr "Мультиплеер"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:87
+msgid ""
+"All multiplayer factions have gone through major updates to ensure standard "
+"1v1 games are more balanced as well as to help survival scenarios be more "
+"fun and to allow campaigns to use the new variable recall cost mechanic. "
+"Higher level units have also had a variety of adjustments to better balance "
+"the Age of Heroes era as well as survival scenarios where high level units "
+"are common."
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:89
+#, fuzzy
+#| msgid "<a href=\"images/start-5.jpg\">"
+msgid "<a href=\"images/start-5.gif\">"
+msgstr "<a href=\"images/start-5.jpg\">"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:91
+msgid ""
+"A clear separation has been made for auto-hosted games such as Afterlife vs "
+"custom games hosted by other players. Games hosted by players will be in the "
+"General Lobby tab, while auto-hosted games will be in the Matchmaking tab. "
+"To aid with reporting problematic players or games, the <cite>/report</cite> "
+"command now shows a dialog where information about the issue can be entered. "
+"And to better handle server disconnects due to network issues, Wesnoth will "
+"now automatically detect when your connection is lost and alert you to the "
+"problem."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:93
+msgid ""
+"The King of the Hill map has been updated to encourage players to actually "
+"claim the center keep - whichever side holds the hill gains significant "
+"bonus income and the first player to take control will obtain a treasure "
+"chest containing a tidy sum."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:95
+msgid ""
+"And, as a cherry on top, the waterfalls on Isars Cross are now animated."
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><h3>
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:97
+msgid "For Content Creators"
+msgstr "Для авторов"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:99
+#, fuzzy
+#| msgid "<a href=\"images/start-3.jpg\">"
+msgid "<a href=\"images/start-3.png\">"
+msgstr "<a href=\"images/start-3.jpg\">"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:99
+msgid "Achievements"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:101
+msgid ""
+"Wesnoth now has built-in support for achievements! These achievements <b>are "
+"not Steam achievements</b>, however because of that they are not limited to "
+"a predefined set of achievements available only to the base game - add-ons "
+"can define their own achievements and via a modification type add-on can "
+"even add additional achievements to other add-ons or to mainline."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:103
+msgid ""
+"For distributing your add-ons, Wesnoth now allows using your forum username "
+"and password when uploading. When using this approach, the add-on’s "
+"passphrase is instead stored in the encrypted credentials file rather than "
+"plaintext in your <cite>_server.pbl</cite>, which is more secure, but it "
+"also means that if you lose your password you can use the forum’s password "
+"recovery to regain access to your add-ons. Additionally, this allows "
+"specifying other users who are also allowed to upload updates to the add-on, "
+"for add-ons which are developed collaboratively by multiple people. Your "
+"<cite>_server.pbl</cite> will also be validated prior to uploading your add-"
+"on, so you will know of any issues before the upload takes place rather than "
+"afterwards."
+msgstr ""
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:105
+msgid "<a href=\"images/start-4.jpg\">"
+msgstr "<a href=\"images/start-4.jpg\">"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:105
+#, fuzzy
+#| msgid "New terrain"
+msgid "Raise/lowered terrain"
+msgstr "Новая местность"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:107
+msgid ""
+"The scenario editor has received a major upgrade: instead of only being able "
+"to understand single scenario files, it is now capable of creating the "
+"skeleton of a brand new add-on as well as providing a UI for creating the "
+"required <cite>_server.pbl</cite>. This means it’s now possible to create an "
+"add-on, the add-on’s <cite>_server.pbl</cite>, its scenarios, and upload the "
+"add-on for others to play all from within Wesnoth."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:109
+msgid ""
+"The map editor similarly has been given a significant improvement: it’s now "
+"possible to add cliffs and valleys, which can be used to add quite a bit of "
+"<cite>depth</cite> to your maps. Beyond that, there’s also been a variety of "
+"new terrains and fauna units added as well, from palisade walls, seashell "
+"embellishments, and seaweed terrain to fire ants, giant jumping spiders, and "
+"rocs."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:111
+msgid ""
+"A wide variety of units have likewise had their sprites improved and had "
+"various animations added, primarily Loyalists, Orcs, and Trolls but also "
+"some Elf and Undead units as well."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:113
+msgid ""
+"And finally, EmmyLua documentation has been added for nearly all of the lua "
+"functions that Wesnoth defines, providing autocomplete when typing and "
+"documentation when hovering over the function. This was written primarily "
+"for Visual Studio Code, but should work with any editor that has an EmmyLua "
+"plugin."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:115
+msgid "Contribute"
+msgstr "Участвуйте"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:117
+msgid ""
+"<cite>The Battle for Wesnoth</cite> is constantly being improved and "
+"expanded upon by a multitude of international volunteers from diverse "
+"backgrounds. Since its inception in July 2003, hundreds of people have "
+"contributed to all areas of the game, from mainline content shipped as part "
+"of the official releases to hundreds of player-made projects available to "
+"download from our add-ons server. Whether you need help beating a particular "
+"scenario or adding a feature to your custom maps, <cite>Wesnoth</cite> "
+"boasts a massive community of players and creators always willing to help."
+msgstr ""
+"С момента создания в июле 2003 года <cite>Битва за Веснот</cite> постоянно "
+"улучшается и расширяется сотнями волонтёров со всех концов света и всех "
+"мыслимых культур. Их вклад простирается от материалов, поставляемых вместе с "
+"официальными выпусками игры, до сотен пользовательских проектов, доступных "
+"для скачивания с нашего сервера аддонов. Если Вам понадобится поддержка в "
+"прохождении определённого сценария или в том, как добавить новые возможности "
+"Вашим картам, в <cite>Весноте</cite> Вы найдёте многочисленное сообщество "
+"игроков и авторов, всегда готовых помочь."
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:119
+msgid ""
+"Besides creating your own add-on content, there are many other ways you can "
+"help <cite>Wesnoth</cite>:"
+msgstr ""
+"Кроме создания собственных аддонов, Вы можете помочь <cite>Весноту</cite> во "
+"многих начинаниях:"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:122
+msgid "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
+msgstr "<a href=\"https://wiki.wesnoth.org/Project\">Пишите</a> код"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:123
+msgid ""
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">Create</a> art for "
+"the main game or for user-made <a href=\"https://forums.wesnoth.org/"
+"viewforum.php?f=23\">add-ons</a>"
+msgstr ""
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">Рисуйте</a> "
+"оформление основной игры или пользовательских <a href=\"https://forums."
+"wesnoth.org/viewforum.php?f=23\">аддонов</a>"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:124
+msgid ""
+"<a href=\"https://wiki.wesnoth.org/WesnothTranslations\">Translate</a> the "
+"game into your language"
+msgstr ""
+"<a href=\"https://wiki.wesnoth.org/WesnothTranslations\">Переводите</a> игру "
+"на свой язык"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:125
+msgid ""
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=14\">Produce</a> new "
+"music tracks and sound effects"
+msgstr ""
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=14\">Сочиняйте</a> "
+"новые музыкальные дорожки и звуковые эффекты"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:126
+msgid "Spread the word about <cite>Wesnoth</cite> on social media!"
+msgstr "Рассказывайте про <cite>Веснот</cite> в социальных сетях!"
+
+# type: Content of: <html><body><div><div><div><h2>
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:129
+msgid "More Info"
+msgstr "Дополнительно"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:132
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://changelog.wesnoth.org/1.16/\">Full Changelog</a> "
+#| "(English only)"
+msgid ""
+"<a href=\"https://changelog.wesnoth.org/1.18/\">Full Changelog</a> (English "
+"only)"
+msgstr ""
+"<a href=\"https://changelog.wesnoth.org/1.16/\">Полный список изменений</a> "
+"(На английском)"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:133
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://www.wesnoth.org/manual/1.16/manual.en.html\">User’s "
+#| "Manual</a>"
+msgid ""
+"<a href=\"https://www.wesnoth.org/manual/1.18/manual.en.html\">User’s "
+"Manual</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/manual/1.16/manual.ru.html\">Руководство "
+"пользователя</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:134
+msgid "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
+msgstr ""
+"<a href=\"https://www.wesnoth.org\">Официальный сайт</a> (на английском)"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:136
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</"
+#| "a>"
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.16\">Wesnoth 1.16 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.6\">Заметки о выпуске Веснота 1.6</"
+"a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:137
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.14\">Wesnoth 1.14 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.14\">Заметки о выпуске Веснота "
+"1.14</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:138
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.12\">Заметки о выпуске Веснота "
+"1.12</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:139
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.10\">Заметки о выпуске Веснота "
+"1.10</a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:140
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.8\">Заметки о выпуске Веснота 1.8</"
+"a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:141
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.6\">Заметки о выпуске Веснота 1.6</"
+"a>"
+
+# type: Content of: <html><body><div><div><div><div><p>
+#. type: Content of: <html><body><div><div><div><div>
+#: template.html:152
+msgid "This page is also available in the following languages:"
+msgstr "Эта страница также доступна на следующих языках:"
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:158
+msgid ""
+"<a href=\"https://wiki.wesnoth.org/StartingPoints\">Site Map</a> &#8226; <a "
+"href=\"https://status.wesnoth.org/\">Site Status</a>"
+msgstr ""
+"<a href=\"https://wiki.wesnoth.org/StartingPoints\">Карта сайта</a> &#8226; "
+"<a href=\"https://status.wesnoth.org/\">Состояние сайта</a>"
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:159
+#, fuzzy
+#| msgid ""
+#| "Copyright &#169; 2003&#8211;2021 by <a rel=\"author\" href=\"https://wiki."
+#| "wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
+msgid ""
+"Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" href=\"https://wiki."
+"wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
+msgstr ""
+"Авторские права &#169; 2003&#8211;2021 <a rel=\"author\" href=\"https://wiki."
+"wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:160
+#, fuzzy
+#| msgid "Site design Copyright &#169; 2017&#8211;2021 by Iris Morelle"
+msgid "Site design Copyright &#169; 2017&#8211;2024 by Iris Morelle"
+msgstr "Авторство дизайна сайта &#169; 2017&#8211;2021 Iris Morelle"
+
+#~ msgid "Dunefolk overhaul sample screenshot"
+#~ msgstr "Пример обновлённых людей пустыни"
+
+#~ msgid ""
+#~ "Due to our use of more modern distribution platforms such as Steam, itch."
+#~ "io, Flathub, and others, players will be automatically upgraded to a new "
+#~ "stable series for the first time since <cite>Wesnoth</cite> was released. "
+#~ "To support this, an option will be shown the first time 1.16.0 is started "
+#~ "after being upgraded from 1.14.17. This will provide the option to "
+#~ "migrate settings as well as download the 1.16 version of any add-ons that "
+#~ "are installed, if they have been updated to work with 1.16. To go along "
+#~ "with that, <cite>Wesnoth</cite> is now able to select save files from "
+#~ "previous versions from within the game itself."
+#~ msgstr ""
+#~ "Из-за особенностей современных платформ распространения — Steam, itch.io, "
+#~ "Flathub и им подобных — игроки будут автоматически обновлены до новой "
+#~ "стабильной ветки в первый раз со времён выпуска <cite>Веснота</cite>. "
+#~ "Чтобы обеспечить плавный переход, как только Веснот запустится сразу "
+#~ "после обновления с 1.14.17 до 1.16.0, Вам будет предложена опция "
+#~ "перенести настройки со старой версии и скачать обновленные версии "
+#~ "установленных аддонов, если они существуют на 1.16. К тому же, теперь "
+#~ "<cite>Веснот</cite> позволяет загружать файлы сохранений предыдущих "
+#~ "версий из самой игры."
+
+#~ msgid ""
+#~ "Addressing a long-standing pain point, especially for players with slow "
+#~ "download speeds and/or data limits, updating add-ons will no longer "
+#~ "result in the entire add-on being redownloaded — instead only the files "
+#~ "that have actually changed will be downloaded, which will significantly "
+#~ "reduce both the time it takes to update add-ons as well as how much data "
+#~ "is used when updating. Additionally, any version of an add-on that has "
+#~ "been recently uploaded by the author is selectable for download, thus "
+#~ "allowing for downgrading an add-on if needed for any reason."
+#~ msgstr ""
+#~ "Облегчая давнюю головную боль, особенно для игроков с медленной скоростью "
+#~ "соединения и/или ограниченным трафиком, обновления аддонов больше не "
+#~ "будут выражаться в скачивании всего аддона заново — вместо этого станут "
+#~ "загружаться только файлы, которые на самом деле претерпели изменения, "
+#~ "таким образом сократится как время, затрачиваемое на обновление аддонов, "
+#~ "так и используемые данные. Вместе с тем, предыдущие версии аддонов, "
+#~ "загруженные на сервер, будут ещё какое-то время доступны для скачивания — "
+#~ "таким образом Вы можете откатить изменения аддона, если зачем-то "
+#~ "потребуется."
+
+#~ msgid ""
+#~ "Many aspects of the AI have seen improvements as well, with much of the "
+#~ "experimental AI having been merged into the default AI. This allows it to "
+#~ "better handle healers, poison, retreating, and other behavior."
+#~ msgstr ""
+#~ "Развитие получили и составляющие искусственного интеллекта: значительная "
+#~ "часть опытного ИИ перешла в ИИ по умолчанию. Это позволит ему лучше "
+#~ "взаимодействовать с лечением, отравлением, отступлением и остальными "
+#~ "видами поведения."
+
+#~ msgid ""
+#~ "Finally, the entire Dunefolk faction has been reworked and rebalanced, "
+#~ "including a reimagining of the unit lines, new unit descriptions and "
+#~ "sprites, and reworking of the liminal alignment. They should now be much "
+#~ "closer to the factions in the Default era in terms of overall strength as "
+#~ "well as be more interesting to play."
+#~ msgstr ""
+#~ "Наконец, была переработана и сбалансирована вся фракция Народа пустыни: "
+#~ "пересмотрены линейки бойцов, добавлены новые описания и спрайты бойцов, "
+#~ "изменён тип теневых бойцов. Теперь она должна приблизиться к фракциям эры "
+#~ "по умолчанию как по своей силе, так и по интересу к игре."
+
+#~ msgid ""
+#~ "<cite>Descent into Darkness</cite>, <cite>Liberty</cite>, and "
+#~ "<cite>Sceptre of Fire</cite> have received a multitude of revisions, "
+#~ "including streamlining of the gameplay, addition of RPG elements, various "
+#~ "storyline and dialogue rewrites, and visual and balance updates. For "
+#~ "those looking for something befitting the upcoming night of Halloween, "
+#~ "the overhauled, undead-heavy <cite>Descent into Darkness</cite> as well "
+#~ "as the <cite>Secrets of the Ancients</cite> are the campaigns to play! "
+#~ "<cite>Under the Burning Suns</cite> also received revamped maps and the "
+#~ "Quenoth faction was rebalanced to better match the other mainline "
+#~ "factions."
+#~ msgstr ""
+#~ "<cite>Нисхождение во Тьму</cite>, <cite>Освобождение</cite> и "
+#~ "<cite>Огненный скипетр</cite> были в значительной мере доработаны: их "
+#~ "геймплей стал более гладким, в них добавили элементы ролевой игры, "
+#~ "история и многие диалоги были переписаны, а также обновления получили "
+#~ "баланс и графика. Для тех же, кто ищет, чем занять себя в наступающую "
+#~ "ночь Хэллоуина, прекрасно подойдут перелопаченные, перегруженные "
+#~ "мертвецами кампании <cite>Нисхождение во Тьму</cite> и <cite>Секреты "
+#~ "Древних</cite>! <cite>Под палящими светилами</cite> получила "
+#~ "перерисованные карты, а фракция Квенота была сбалансирована, чтобы лучше "
+#~ "соотноситься с остальными фракциями основной игры."
+
+#~ msgid ""
+#~ "To accompany the improved AI that was added in this development cycle, "
+#~ "all campaigns were adjusted to retain their intended difficulties and to "
+#~ "prevent unusual difficulty spikes throughout the campaign, most notably "
+#~ "in <cite>Eastern Invasion</cite>. The novice level campaigns were also "
+#~ "reduced in difficulty to make them more accessible to newer players."
+#~ msgstr ""
+#~ "Чтобы соответствовать наработкам в ИИ, добавленным в этом цикле "
+#~ "разработки, все кампании были подправлены, чтобы сохранить задуманную для "
+#~ "них сложность и предотвратить внезапные скачки сложности на их "
+#~ "протяжении, что особенно было заметно во <cite>Вторжении с Востока</"
+#~ "cite>. Сложность кампаний для начинающих также была уменьшена, чтобы "
+#~ "сделать их более доступными новым игрокам."
+
+#~ msgid ""
+#~ "<cite>The Hammer of Thursagan</cite> had several scenarios revised and "
+#~ "others removed to modernize the story and gameplay, especially to focus "
+#~ "more on dwarven culture and the interactions between their clans. "
+#~ "<cite>Secrets of the Ancients</cite> also received a minor gameplay "
+#~ "update with new zombie variations available for creation and recruiting."
+#~ msgstr ""
+#~ "Несколько сценариев <cite>Молота Турсагана</cite> были удалены, а "
+#~ "остальные пересмотрены, чтобы сделать историю и геймплей более "
+#~ "современными, в особенности, чтобы сосредоточиться на культуре гномов и "
+#~ "на взаимодействии между их кланами. В <cite>Секретах Древних</cite> для "
+#~ "создания и призыва теперь доступны новые разновидности ходячих трупов."
+
+#~ msgid ""
+#~ "Finally, accompanying the various modernizations and tweaks to many of "
+#~ "the mainline campaigns, a new campaign menu was made featuring several "
+#~ "stunning backgrounds drawn by Emilien Rotival (LordBob), Stefan, and "
+#~ "Kathrin Polikeit (Kitty)."
+#~ msgstr ""
+#~ "Наконец, в сопровождение горам новшеств и выделки многих основных "
+#~ "кампаний, было разработано новое меню кампаний, украшенное "
+#~ "восхитительными пейзажами, написанными Emilien Rotival (LordBob), Stefan "
+#~ "и Kathrin Polikeit (Kitty)."
+
+#~ msgid "Isar's Cross background"
+#~ msgstr "Фон «Перекрёстка Исара»"
+
+#~ msgid ""
+#~ "There have been two major additions to <cite>Wesnoth’s</cite> multiplayer "
+#~ "content: Isle of Mists and World Conquest. Isle of Mists is a coop "
+#~ "survival scenario in the vein of Dark Forecast, the latter of which has "
+#~ "had its difficulty reduced with the former taking its place in terms of "
+#~ "challenge. World Conquest, formerly the add-on World Conquest II, is a "
+#~ "multiplayer campaign with RPG elements where up to three players can "
+#~ "cooperate to survive, upgrade their units, and defeat the armies opposing "
+#~ "them."
+#~ msgstr ""
+#~ "Многопользовательский контент <cite>Веснота</cite> пополнился двумя "
+#~ "добавлениями: «Островом туманов» и «Покорением Мира». «Остров туманов» — "
+#~ "сценарий для выживания сообща в духе «Мрачного прогноза», к слову, "
+#~ "сложность последнего была уменьшена, и теперь по вызовам, которые он "
+#~ "собой представляет, его место занял «остров». «Покорение Мира» — ранее "
+#~ "аддон World Conquest II — это многопользовательская кампания с элементами "
+#~ "ролевой игры, в которой вплоть до трёх игроков могут объединить свои "
+#~ "усилия, чтобы испытать себя на прочность, продвинуть свои войска и "
+#~ "победить противостоящие им армии."
+
+#~ msgid ""
+#~ "The add-on Plan Unit Advance is also now included in mainline. When "
+#~ "enabled, this allows players to pre-emptively choose what they want their "
+#~ "units to become if they level up on another player’s turn in multiplayer. "
+#~ "Separately complementing this, units whose advancement has not been "
+#~ "planned will now always level up into the same unit rather than choosing "
+#~ "one at random when there are multiple options available."
+#~ msgstr ""
+#~ "Аддон «Планировка продвижений бойцов» теперь также поставляется с "
+#~ "основной игрой. Когда он включён, игроки могут заранее выбирать, по "
+#~ "какому пути пойдёт развитие их бойцов, если они повысят свой уровень во "
+#~ "время хода другого игрока в мультиплеере. Отдельно подчеркнём это: бойцы, "
+#~ "чьё продвижение не было выбрано, теперь всегда продвинутся в свой же тип "
+#~ "бойца, вместо того, чтобы выбрать один из нескольких доступных, если они "
+#~ "имеются."
+
+#~ msgid ""
+#~ "This update also includes a large number of balance updates to the "
+#~ "default era factions, especially gold and hitpoints tweaks to key units. "
+#~ "Certain matchups and units should now be more balanced and allow for "
+#~ "greater diversity in gameplay."
+#~ msgstr ""
+#~ "Обновление несёт в себе большое число поправок баланса фракций эры по "
+#~ "умолчанию, особенно стоимости и здоровья ключевых бойцов. Теперь "
+#~ "некоторые бойцы и их сочетания должны быть более уравновешены, что "
+#~ "позволит процессу игры стать более разнообразным."
+
+#~ msgid ""
+#~ "Another significant change is a new feature which isolates add-on content "
+#~ "from each other once a game has started. This will prevent add-ons that "
+#~ "are not being used in a game from interfering with each other, thereby "
+#~ "significantly reducing the occurrence of strange bugs and out of sync "
+#~ "errors."
+#~ msgstr ""
+#~ "Ещё одно важное изменение — теперь содержание аддонов отделяется друг от "
+#~ "друга после запуска игры. Это сделано, чтобы предотвратить взаимные "
+#~ "помехи со стороны аддонов, не используемых в игре, и тем самым "
+#~ "значительно сократить частоту странных неполадок и ошибок "
+#~ "рассинхронизации."
+
+#~ msgid ""
+#~ "Improvements for game hosts to better handle unwanted players have also "
+#~ "been implemented — bans from individual games are now enforced by "
+#~ "username rather than just by IP address, people on a player’s ignore list "
+#~ "are now automatically banned from joining their games, and observers are "
+#~ "now also required to enter the password to join password protected games "
+#~ "rather than just players."
+#~ msgstr ""
+#~ "Для хостов игр были улучшены способы борьбы с нежеланными игроками: "
+#~ "блокировка индивидуальных игр теперь осуществляется через имя "
+#~ "пользователя, а не только через IP-адрес; игроки из списка игнора "
+#~ "пользователя автоматически не допускаются в его партии; а наблюдателям "
+#~ "теперь, как и игрокам, необходимо ввести пароль, чтобы присоединиться к "
+#~ "защищённым играм."
+
+#~ msgid "Royal Warrior portrait"
+#~ msgstr "Портрет Короля-воина"
+
+#~ msgid ""
+#~ "To go along with the new incremental downloads of add-on updates "
+#~ "mentioned above, this release also includes incremental uploads for add-"
+#~ "on authors; when uploading a new version of your add-on you will only "
+#~ "send the files that have changed rather than the entire add-on. "
+#~ "Additionally, add-ons can now provide translations of their titles and "
+#~ "descriptions for multiple languages in the <code>_server.pbl</code> file. "
+#~ "A minor security improvement has also been made to <code>_server.pbl</"
+#~ "code> handling — it is no longer required for the passphrase field to be "
+#~ "stored plaintext in the file; instead <cite>Wesnoth</cite> will prompt "
+#~ "you to enter the passphrase if it is not present."
+#~ msgstr ""
+#~ "В сопровождение механизма накопительных обновлений аддонов, упомянутого "
+#~ "выше, в этом выпуске авторы также отправлять их в виде накопительных "
+#~ "пакетов; при загрузке новой версии аддона на сервер Вы отправите только "
+#~ "файлы, которые изменились, а не весь аддон. Более того, теперь аддоны "
+#~ "могут предоставлять переводы своих названий и описаний на другие языки в "
+#~ "файле <code>_server.pbl</code>. В обработке этого файла также появилось "
+#~ "небольшое удобство: теперь в нём не требуется хранить пароль аддона "
+#~ "открытым текстом, вместо этого <cite>Веснот</cite> потребует от Вас "
+#~ "ввести пароль внутри игры."
+
+#~ msgid ""
+#~ "More significantly, though perhaps less visible, are the various and "
+#~ "sundry improvements made to the WML, Lua, and Wesnoth Formula Language "
+#~ "(WFL) APIs. First and foremost, many of the existing Lua functions have "
+#~ "been reorganized into submodules, and a comprehensive list of these "
+#~ "changes can be found <a href=\"https://wiki.wesnoth.org/LuaAPI/"
+#~ "UpdatingFrom14\">here</a>. While the existing names of reorganized "
+#~ "functions will still work, content authors are nevertheless encouraged to "
+#~ "update existing code to the new modules. Separately, the version of Lua "
+#~ "that comes packaged with <cite>Wesnoth</cite> has been updated to 5.4 "
+#~ "from 5.3."
+#~ msgstr ""
+#~ "Что значительнее, хотя, возможно, не так видно, программные интерфейсы "
+#~ "WML, Lua, and Wesnoth Formula Language (WFL) получили обширное повышение "
+#~ "качества. Прежде всего, многие существующие функции Lua были "
+#~ "сгруппированы по подмодулям — исчерпывающий список этих изменений "
+#~ "находится <a href=\"https://wiki.wesnoth.org/LuaAPI/"
+#~ "UpdatingFrom14\">здесь</a>. В то время, как прежние имена перемещённых "
+#~ "функций всё ещё будут работать, мы советуем разработчикам обновить "
+#~ "имеющийся код с учётом новых модулей. Независимо от этого, версия Lua, "
+#~ "которая поставляется вместе с <cite>Веснотом</cite>, обновилась с 5.3 до "
+#~ "5.4."
+
+#~ msgid ""
+#~ "The <code>formula=</code> attribute is now also supported in the "
+#~ "<code>[variable]</code> conditional tag. This allows the use of "
+#~ "conditions that would otherwise require the use of more complex WML or "
+#~ "Lua, as well as being generally a more concise way to express complex "
+#~ "conditions."
+#~ msgstr ""
+#~ "Параметр <code>formula=</code> теперь также поддерживается в теге условия "
+#~ "<code>[variable]</code>. Вы сможете обозначать условия, которые иначе "
+#~ "потребовали бы гораздо более сложного кода на WML или Lua, гораздо более "
+#~ "лаконично."
+
+#~ msgid ""
+#~ "The <code>male_voice=</code> and <code>female_voice=</code> attributes "
+#~ "are now supported in <code>[message]</code> to better allow for voice "
+#~ "acting for add-ons."
+#~ msgstr ""
+#~ "Теперь <code>[message]</code> поддерживает параметры <code>male_voice=</"
+#~ "code> и <code>female_voice=</code> (мужской и женский голос), чтобы "
+#~ "улучшить поддержку аддонов с озвучкой."
+
+#~ msgid ""
+#~ "The new tag <code>[modify_unit_type]</code> has been added for campaigns, "
+#~ "eras, and modifications to allow for changing certain unit types’ "
+#~ "experience, cost, and advancement options. In particular, this is meant "
+#~ "to be the replacement for the no longer supported <code>[advancefrom]</"
+#~ "code> tag."
+#~ msgstr ""
+#~ "Для кампаний, эр и модификаций появился новый тег "
+#~ "<code>[modify_unit_type]</code>. Он позволяет изменить опыт, цену и "
+#~ "возможные продвижения выбранных бойцов. В частности, он подразумевается "
+#~ "как замена более не поддерживаемого тега <code>[advancefrom]</code>."
+
+#~ msgid ""
+#~ "Programmatically working with WML from within Lua has also been expanded "
+#~ "and simplified with the addition of the <code>wml.merge</code>, <code>wml."
+#~ "diff</code>, <code>wml.patch</code>, <code>wml.find_child</code>, "
+#~ "<code>wml.attribute_count</code>, <code>wml.equal</code>, <code>wml."
+#~ "valid</code>, and <code>wml.interpolate</code> functions."
+#~ msgstr ""
+#~ "Кроме того, мы расширили и упростили программный доступ к WML изнутри Lua "
+#~ "добавлением функций <code>wml.merge</code>, <code>wml.diff</code>, "
+#~ "<code>wml.patch</code>, <code>wml.find_child</code>, <code>wml."
+#~ "attribute_count</code>, <code>wml.equal</code>, <code>wml.valid</code> и "
+#~ "<code>wml.interpolate</code>."
+
+#~ msgid ""
+#~ "A great deal of new art has been added to many different areas of the "
+#~ "game. Portraits have been added for the Royal Warrior, Jinn, Naga "
+#~ "Ophidian, Naga Ringcaster, and others. New terrains such as Catacombs, "
+#~ "Ancient Stone floors and walls, and Overgrown Walls are now available for "
+#~ "use in the editor, along with many improved terrain transitions. A "
+#~ "variety of wildlife units have also been added, including the Crocodile, "
+#~ "Cave Bear, Icemonax, Fire Ant, Horned Scarab, Seahorse, and more."
+#~ msgstr ""
+#~ "Самые различные участки игры получили порцию новой графики. Король-воин, "
+#~ "Джинн, Наг-лучник, Наг-дискомёт и другие обрели свои портреты. Теперь в "
+#~ "редакторе карт доступна новая местность, такая как катакомбы, древний "
+#~ "каменный пол и стены, а также заросшие стены, кроме того, отлажены многие "
+#~ "переходы между местностями. В Весноте появилось множество диких животных: "
+#~ "крокодилы, пещерные медведи, ледоносцы, огненные муравьи, жуки-скарабеи, "
+#~ "морские коньки и не только."
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#, fuzzy
+#~| msgid ""
+#~| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+#~| "wesnoth-1.12.6/wesnoth-1.12.6-win32.exe/download'><b>Wesnoth for "
+#~| "Microsoft Windows</b></a>"
+#~ msgid ""
+#~ "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
+#~ "wesnoth-1.16.0/wesnoth-1.16.0-win64.exe/download\"><i "
+#~ "class=\"downloadicon downloadicon-windows\" aria-hidden=\"true\"></"
+#~ "i><span class=\"os\"></span> <span class=\"size\"></span></a>"
+#~ msgstr ""
+#~ "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+#~ "wesnoth-1.12.6/wesnoth-1.12.6-win32.exe/download'><b>Веснот для Microsoft "
+#~ "Windows</b></a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#, fuzzy
+#~| msgid ""
+#~| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+#~| "wesnoth-1.12.6/Wesnoth_1.12.6.dmg/download'><b>Wesnoth for Apple OS X</"
+#~| "b></a>"
+#~ msgid ""
+#~ "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
+#~ "wesnoth-1.16.0/Wesnoth_1.16.0.dmg/download\"><i class=\"downloadicon "
+#~ "downloadicon-apple\" aria-hidden=\"true\"></i><span class=\"os\"></span> "
+#~ "<span class=\"size\"></span></a>"
+#~ msgstr ""
+#~ "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+#~ "wesnoth-1.12.6/Wesnoth_1.12.6.dmg/download'><b>Веснот для Apple OS X</b></"
+#~ "a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#, fuzzy
+#~| msgid ""
+#~| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+#~| "wesnoth-1.12.6/Wesnoth_1.12.6.dmg/download'><b>Wesnoth for Apple OS X</"
+#~| "b></a>"
+#~ msgid ""
+#~ "<a href=\"https://flathub.org/apps/details/org.wesnoth.Wesnoth\"><i "
+#~ "class=\"downloadicon downloadicon-linux\" aria-hidden=\"true\"></i><span "
+#~ "class=\"os\"></span></a>"
+#~ msgstr ""
+#~ "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+#~ "wesnoth-1.12.6/Wesnoth_1.12.6.dmg/download'><b>Веснот для Apple OS X</b></"
+#~ "a>"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#, fuzzy
+#~| msgid ""
+#~| "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+#~| "wesnoth-1.12.6/wesnoth-1.12.6.tar.bz2/download'><b>Source code</b></a>"
+#~ msgid ""
+#~ "<a href=\"https://sourceforge.net/projects/wesnoth/files/wesnoth-1.16/"
+#~ "wesnoth-1.16.0/wesnoth-1.16.0.tar.bz2/download\"><i class=\"downloadicon "
+#~ "downloadicon-src\" aria-hidden=\"true\"></i><span class=\"os\"></span> "
+#~ "<span class=\"size\"></span></a>"
+#~ msgstr ""
+#~ "<a href='http://sourceforge.net/projects/wesnoth/files/wesnoth-1.12/"
+#~ "wesnoth-1.12.6/wesnoth-1.12.6.tar.bz2/download'><b>Исходный код</b></a>"
+
+#, fuzzy
+#~| msgid ""
+#~| "This release features many improvements in all areas, including a "
+#~| "completely revamped interface, a new multiplayer faction, dozens of new "
+#~| "portraits, updated unit animations, hundreds of bug fixes, and a vastly "
+#~| "improved map editor. Try out the new features for yourself, or read on "
+#~| "for more details..."
+#~ msgid ""
+#~ "Along with the long-awaited debut on Steam, this new release series "
+#~ "brings forth a vast number of additions and changes in all areas: a new "
+#~ "single-player campaign, a visual and functional refresh of the "
+#~ "multiplayer lobby and add-ons manager, a refurbished display engine, new "
+#~ "unit graphics and animations, and much more. Try out the new features for "
+#~ "yourself, or <a href=\"#game\">read on</a> for more details..."
+#~ msgstr ""
+#~ "В этом выпуске вас ждут множество улучшений во всех областях: полностью "
+#~ "переботанный интерфейс, новая фракция мультиплеера, дюжина новых "
+#~ "портретов, обновленная анимация, сотни исправленных ошибок и изрядно "
+#~ "усовершенствованный редактор карт. Попробуйте всё сами — или читайте "
+#~ "дальше..."
+
+#~ msgid "Title Screen"
+#~ msgstr "Главный экран"
+
+# type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#~ msgid "Wesnoth Screenshot"
+#~ msgstr "Скриншот Веснота"
+
+# type: Content of: <html><body><div><div><div><h4>
+#~ msgid "General"
+#~ msgstr "Общие"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='images/start-6.png'>"
+#~ msgid "<a href=\"images/start-6.jpg\">"
+#~ msgstr "<a href='images/start-6.png'>"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#, fuzzy
+#~| msgid "<a href='images/start-1.png'>"
+#~ msgid "<a href=\"images/start-7.jpg\">"
+#~ msgstr "<a href='images/start-1.png'>"
+
+# type: Content of: <html><body><div><div><div><h2>
+#~ msgid "Download"
+#~ msgstr "Скачать"
+
+# type: Content of: <html><body><div><div><div><p>
+#, fuzzy
+#~| msgid ""
+#~| "<cite>The Battle for Wesnoth</cite> is made available under the <a "
+#~| "href='https://www.gnu.org/licenses/gpl-2.0.html'>GNU General Public "
+#~| "License</a> (GNU GPL). The source code is available from <a href='http://"
+#~| "www.wesnoth.org'>wesnoth.org</a>, where you can also find instructions "
+#~| "for <a href='//wiki.wesnoth.org/CompilingWesnoth'>building from source</"
+#~| "a> on a range of different operating systems. Ready-to-go packages are "
+#~| "also available for most popular operating systems, including Microsoft "
+#~| "Windows, Apple OS X, and GNU/Linux."
+#~ msgid ""
+#~ "<cite>The Battle for Wesnoth</cite> is made available under the <a "
+#~ "href=\"https://www.gnu.org/licenses/gpl-2.0.html\">GNU General Public "
+#~ "License</a> (GNU GPL) — either version 2 of the license or, at your "
+#~ "option, any later version — and the <a href=\"https://creativecommons.org/"
+#~ "licenses/by-sa/4.0/\">Creative Commons Attribution Share-Alike License</"
+#~ "a> (CC BY-SA), version 4.0. The source code is available on <a "
+#~ "href=\"https://github.com/wesnoth/wesnoth\">GitHub</a>, and you can find "
+#~ "instructions for <a href=\"https://wiki.wesnoth.org/"
+#~ "CompilingWesnoth\">building from source</a> on a range of different "
+#~ "operating systems on our wiki. Ready-to-install packages are available "
+#~ "for Microsoft Windows, Apple macOS, and GNU/Linux."
+#~ msgstr ""
+#~ "<cite>Битва за Веснот</cite> доступна на условиях <a href='http://www.gnu."
+#~ "org/licenses/gpl-2.0.html'>Универсальной общественной лицензии GNU</a> "
+#~ "(GPL). Исходный код доступен на сайте <a href='http://www.wesnoth."
+#~ "org'>wesnoth.org</a>. Там же вы также найдёте инструкции <a href='http://"
+#~ "wesnoth.org/wiki/CompilingWesnoth'>по сборке</a> для целого ряда "
+#~ "операционных систем. Для наиболее популярных операционных систем, включая "
+#~ "GNU/Linux, Microsoft Windows и Apple OS X, уже есть готовые пакеты."
+
+# type: Content of: <html><body><div><div><div><p>
+#, fuzzy
+#~| msgid ""
+#~| "You can refer to the <a href='//wiki.wesnoth.org/Download'>downloads "
+#~| "page</a> for the latest up-to-date packages and instructions, including "
+#~| "those for other platforms once they become available."
+#~ msgid ""
+#~ "You can refer to the <a href=\"https://wiki.wesnoth.org/"
+#~ "Download\">downloads page</a> for the latest up-to-date packages and "
+#~ "instructions, including those for other platforms once they become "
+#~ "available."
+#~ msgstr ""
+#~ "Обратитесь к <a href='//www.wesnoth.org/wiki/Download'>странице закачек</"
+#~ "a>, чтобы найти самые свежие пакеты и инструкции, включая пакет и "
+#~ "инструкции для других платформ, когда те появятся."
+
+# type: Content of: <html><body><div><div><div><p>
+#, fuzzy
+#~| msgid ""
+#~| "If you downloaded previous versions of the game, you might be interested "
+#~| "in downloading the <a href='//wiki.wesnoth.org/Download_Xdeltas'>Xdelta</"
+#~| "a> files only."
+#~ msgid ""
+#~ "If you downloaded previous versions of the game, you might be interested "
+#~ "in downloading the <a href=\"https://wiki.wesnoth.org/"
+#~ "Download_Xdeltas\">Xdelta</a> files only."
+#~ msgstr ""
+#~ "Если вы уже скачивали прежние версии, то, возможно, захотите скачать "
+#~ "только файлы <a href='//www.wesnoth.org/Download_Xdeltas'>Xdelta</a>."
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#, fuzzy
+#~| msgid "<a href='//www.wesnoth.org'>"
+#~ msgid "<a href=\"//www.wesnoth.org\">"
+#~ msgstr "<a href='//www.wesnoth.org'>"
+
+# type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#~ msgid "Wesnoth Logo"
+#~ msgstr "Логотип Веснота"
+
+# type: Content of: <html><body><div><div><div><ul><li>
+#, fuzzy
+#~| msgid "<a id='download-button' href='#download'>Download Now!</a>"
+#~ msgid "<a id=\"download-button\" href=\"#download\">Download Now!</a>"
+#~ msgstr "<a id='download-button' href='#download'>Скачать!</a>"
+
+#~ msgid ""
+#~ "<i>November 2014.</i> As the year comes to an end, a new stable release "
+#~ "series begins."
+#~ msgstr ""
+#~ "<i>Ноябрь 2014.</i> Год приближается концу, а новая серия стабильных "
+#~ "выпусков только начинается."
+
+#~ msgid ""
+#~ "The improvements for this release begin at the title screen, featuring "
+#~ "the familiar map of Wesnoth and its surroundings in a new visually-"
+#~ "appealing style. Starting a new game — be it in single or multiplayer "
+#~ "mode — reveals a completely refurnished game screen, with a more "
+#~ "streamlined and modern design. As part of our commitment to elegance and "
+#~ "consistency, every dialog in the game features the new design and many "
+#~ "other subtle enhancements."
+#~ msgstr ""
+#~ "Улучшения начинаются с первого экрана. Знакомая карта Веснота и "
+#~ "окружающих земель предстаёт в новом, приятном стиле. Начав новую одно- "
+#~ "или многопользовательскую игру, вы увидите полностью переоснащённый "
+#~ "игровой экран с более чётким и современным дизайном. Мы ставим во главу "
+#~ "угла элегантность и постоянство, поэтому мы сделали новый дизайн и "
+#~ "множество других тонких улучшений для каждого диалога в игре."
+
+#~ msgid ""
+#~ "The minimap now offers alternative display modes for situations where a "
+#~ "more fine-grained visualization of units, terrains, and villages is "
+#~ "desired. Many sidebar elements have been rearranged and rescaled "
+#~ "according to the current screen resolution in order to make better use of "
+#~ "available space, and the team flag and number for the selected unit are "
+#~ "displayed for ease of access. Leaders and designated hero units in "
+#~ "campaigns and multiplayer scenarios are also adorned with star-shaped "
+#~ "ellipses for fast identification on the field."
+#~ msgstr ""
+#~ "Миникарта теперь предлагает альтернативные режимы для ситуаций, когда "
+#~ "требуется более тонкое отображение бойцов, ландшафта и деревень. Многие "
+#~ "элементы боковой панели перераспределены и масштабированы согласно "
+#~ "текущему разрешению экрана, чтобы лучше использовать доступное место. Для "
+#~ "облегчения доступа отображается флаг и номер команды выбранного бойца. "
+#~ "Лидеры и выделенные герои в сценариях кампаний также украшены подсветкой "
+#~ "в форме звезды для быстрой идентификации на поле."
+
+#~ msgid ""
+#~ "Because <cite>Wesnoth</cite> thrives on the diversity and ingenuity of "
+#~ "add-on content, this time the Add-ons Manager packs long overdue "
+#~ "additions, such as displaying each add-on’s installation status directly "
+#~ "on the list, filtering items by their type or status, and enabling "
+#~ "authors to link to feedback topics hosted on our <a href='//forums."
+#~ "wesnoth.org/'>official forum board</a>."
+#~ msgstr ""
+#~ "Поскольку в <cite>Весноте</cite> процветают разнообразные и оригинальные "
+#~ "аддоны, в этот раз в менеджер аддонов внесены давно назревшие изменения. "
+#~ "Состояние установки каждого аддона отображается прямо в списке, аддоны "
+#~ "можно фильтровать по типу или состоянию, а авторы могут добавлять ссылку "
+#~ "на посвященную аддону тему на нашем <a href='http://forums.wesnoth."
+#~ "org/'>официальном форуме</a>."
+
+#~ msgid ""
+#~ "Units with specialized variations like the Walking Corpse and Soulless "
+#~ "now have subsections in the built-in help system dedicated to documenting "
+#~ "each variation in full. New top categories have been added as well, "
+#~ "introducing the different types of add-ons to newcomers, and providing an "
+#~ "overview for each multiplayer faction."
+#~ msgstr ""
+#~ "Бойцы со специальными вариациями, такие как Ходячий труп и Бездушный "
+#~ "получили во встроенной системе справки подразделы, полностью посвященные "
+#~ "каждому из вариантов. Также добавлены новые категории верхнего уровня: "
+#~ "рассказ о разных типах аддонов для новичков и обзор все фракций "
+#~ "мультиплеера."
+
+#~ msgid ""
+#~ "Many art improvements have been made to the game’s mounted units, "
+#~ "including the Horseman, Cavalryman, and Elvish Scout unit lines. The "
+#~ "Dwarvish Fighter and Thunderer lines and the undead Spectre and Skeleton "
+#~ "units have had their animations revamped in full. Several generic "
+#~ "portraits were added or updated as well: the Spearman, Ogre, Wose, "
+#~ "Ancient Lich, Wraith, and some troll units, amongst others."
+#~ msgstr ""
+#~ "Улучшения в оформлении коснулись, например, конных бойцов, включая "
+#~ "всадников и кавалеристов у людей и разведчиков у эльфов. Полностью "
+#~ "переработана анимация гномьих ополченцев, громовержцев и их производных, "
+#~ "а также фантомов и скелетов. Добавлены новые портреты, в частности, для "
+#~ "копьеносцев, огров, леших, древних личей, привидений и некоторых троллей."
+
+#~ msgid ""
+#~ "A number of additional portrait variations have been added to "
+#~ "<cite>Wesnoth’s</cite> flagship campaign, <cite>Heir to the Throne</"
+#~ "cite>, as well as a brand new set of portrait art for <cite>Eastern "
+#~ "Invasion</cite>."
+#~ msgstr ""
+#~ "Во флагманской кампании <cite>Веснота</cite>, <cite>Наследник престола</"
+#~ "cite>, добавлены варианты портретов героев. В кампании <cite>Вторжение с "
+#~ "востока</cite> все портреты совершенно новые."
+
+#~ msgid ""
+#~ "To complement the new title screen artwork, all campaign journey maps "
+#~ "featured in story screens have been redrawn in the same style, and new "
+#~ "ones have been added to several campaigns that previously lacked one."
+#~ msgstr ""
+#~ "Все карты кампаний переработаны, чтобы соответствовать стилю карты на "
+#~ "главном экране. В нескольких кампаниях, где раньше карт не было, они были "
+#~ "добавлены."
+
+#~ msgid ""
+#~ "Most mainline campaigns have also received various visual and gameplay "
+#~ "improvements. Most notably, <cite>Son of the Black Eye</cite> has been "
+#~ "rebalanced in its entirety, bringing its difficulty in line with its "
+#~ "designation as an expert level campaign. Many scenarios of <cite>Eastern "
+#~ "Invasion</cite> have seen significant improvements, with some having been "
+#~ "completely redesigned from the ground up."
+#~ msgstr ""
+#~ "Мы улучшили геймплей и оформление большинства официальных кампаний. "
+#~ "Заметнее всего изменилась кампания <cite>Сын Чёрного Глаза</cite> — мы "
+#~ "полностью пересмотрели баланс, приведя её сложность в соответствии с "
+#~ "маркировкой как кампании для опытных игроков. Были существенно улучшены "
+#~ "многие сценарии <cite>Вторжения с Востока</cite>; некоторые были "
+#~ "полностью переработаны."
+
+#~ msgid ""
+#~ "Although all campaigns in the menu are labeled according to their "
+#~ "difficulty level, it is not uncommon for players to underestimate the "
+#~ "challenge and face unsurmountable obstacles midway through. For this "
+#~ "reason, a new option has been added to the Load Game dialog allowing "
+#~ "players to switch difficulty at the very start of a scenario."
+#~ msgstr ""
+#~ "Несмотря на то, что большинство кампаний маркированы согласно своей "
+#~ "сложности, игроки порой их недооценивают. Из-за этого они порой утыкаются "
+#~ "в непреодолимые препятствия посреди кампании. Чтобы этого избежать, мы "
+#~ "добавили в диалог загрузки игры новую опцию, позволяющую игрокам изменить "
+#~ "сложность в самом начале сценария."
+
+#~ msgid ""
+#~ "This series sees the introduction of a new playable faction in "
+#~ "multiplayer games, the Khalifate. Available in game setup to use via the "
+#~ "“Default + Khalifate” era, this faction of humans lacks magic users, and "
+#~ "instead specializes in using terrain features to coordinate attacks at "
+#~ "dawn or dusk. Their ranks boast lawful and liminal units, healers, high-"
+#~ "accuracy melee fighters, and fearsome horse-mounted archers. While "
+#~ "Khalifate units tend to be more expensive than those of the Loyalist "
+#~ "faction, they make up for this with high mobility — especially on hilly "
+#~ "terrains."
+#~ msgstr ""
+#~ "В новом выпуске введена новая фракция для многопользовательских игр — "
+#~ "Халифат. Чтобы использовать её в игре, нужно выбрать эру «По "
+#~ "умолчания+Халифат». В этой человеческой фракции нет магов; зато они умеют "
+#~ "хорошо использовать особенности местности, чтобы нападать на рассвете и "
+#~ "закате. Они могут похвастаться порядочными и сумеречными бойцами, "
+#~ "целителями, умелыми рукопашными бойцами и грозными конными лучниками. "
+#~ "Бойцы Халифата чаще всего дороже верноподданных, но они компенсируют этой "
+#~ "высокой мобильностью — особенно на холмистой местности."
+
+#~ msgid ""
+#~ "A new kind of add-on, multiplayer modifications, has been implemented. "
+#~ "Modifications are capable of changing the game rules independently of the "
+#~ "selected era or map. Thus, add-on creators can design scripts that "
+#~ "improve and alter the gameplay without restricting those improvements to "
+#~ "a certain era or map. The default installation does not feature any "
+#~ "modifications, but you can already download a few from the add-ons server."
+#~ msgstr ""
+#~ "Введён новый вид аддонов — модификаторы мультиплеера. Модификаторы могут "
+#~ "менять правила игры вне зависимости от текущей эру или карты. Таким "
+#~ "образом, авторы аддонов могут создавать скрипты, которые улучшают и "
+#~ "изменяют игровой процесс, не ограничивая эти изменения конкретной эрой "
+#~ "или картой. По умолчанию никаких модификаторов не установлено, но вы "
+#~ "можете загрузить их с сервера аддонов."
+
+#~ msgid ""
+#~ "Multiplayer game creation has been redesigned and split into two screens. "
+#~ "The first is responsible for game creation and selection of era and "
+#~ "modifications, while the second allows for additional configuration. New "
+#~ "functionality to allow user-made add-ons to display custom configuration "
+#~ "options on the latter screen has been added. In addition, all multiplayer "
+#~ "screens were improved to take the new changes to multiplayer campaigns "
+#~ "into account and increase the visibility of relevant information, as well "
+#~ "as adjusted to improve support for low-resolution devices."
+#~ msgstr ""
+#~ "Создание многопользовательской игры переработано и занимает теперь два "
+#~ "экрана. Первый отвечает за создание игры и выбор эры и модификаторов, "
+#~ "второй — за дополнительную настройку. Добавлен новый функционал: теперь "
+#~ "пользовательские аддоны могут выводить на второй экран собственные "
+#~ "параметры. Во всех экранах мультиплеера учтены новые возможности "
+#~ "многопользовательских кампаний, а важная информация сделана более "
+#~ "заметной. Кроме того, улучшена поддержка устройств с малым разрешением."
+
+#~ msgid ""
+#~ "Many bugs related to reloading multiplayer campaigns and scenarios have "
+#~ "been fixed. Support for the <a href='//wiki.wesnoth.org/"
+#~ "CampaignWML'><code>[campaign]</code> tag</a> has been added to "
+#~ "multiplayer mode, thus allowing the same campaign to be played in both "
+#~ "multiplayer and singleplayer. As a result of this, difficulty levels and "
+#~ "other features of singleplayer campaigns are supported in multiplayer as "
+#~ "well. Multiplayer campaigns also support new functionality, including "
+#~ "returning to the lobby between scenarios and performing side "
+#~ "configurations. Finally, the <cite>Legend of Wesmere</cite> campaign has "
+#~ "been made available as the first multiplayer-ready campaign shipping with "
+#~ "the game."
+#~ msgstr ""
+#~ "Исправлено множество ошибок при повторной загрузке многопользовательских "
+#~ "кампаний и сценариев. Мультиплеер теперь поддерживает <a href='http://"
+#~ "wiki.wesnoth.org/CampaignWML'>тэг <code>[campaign]</code></a>, благодаря "
+#~ "чему одну и ту же кампанию можно играть как однопользовательском, так и в "
+#~ "многопользовательском режиме. В результате в многопользовательском режиме "
+#~ "доступны уровни сложности и другие преимущества однопользовательских "
+#~ "кампаний. В многопользовательских кампания появилась возможность "
+#~ "вернуться в холл мультиплеера между сценариями и настроить стороны. "
+#~ "Наконец, кампания <cite>Легенда Весмира</cite> стала первой включенной в "
+#~ "официальную поставку игры кампанией с полной поддержкой "
+#~ "многопользовательского режима."
+
+#~ msgid ""
+#~ "Several other features have been added to enhance the multiplayer "
+#~ "experience. An audible bell has been added to the game setup screen to "
+#~ "notify the host once all players have finished selecting a faction. A "
+#~ "sound is also played when the game has begun. If players disconnect from "
+#~ "the game, an option to assign their side to ‘idle’ without revealing "
+#~ "their vision to the game host is now available, as well as a ‘blindfolded "
+#~ "join’ option so that players may rejoin the game and be assigned to a "
+#~ "side without getting the vision of a normal observer."
+#~ msgstr ""
+#~ "Добавлено несколько новых функций, улучшающих восприятие "
+#~ "многопользовательской игры. Когда все игроки выбрали себе фракцию, экран "
+#~ "настройки игры уведомляет создателя игры звонком. Начало игры также "
+#~ "сопровождается звуком. Теперь можно пометить сторону игроков, которые "
+#~ "отсоединились от сервера, как «неактивную», не открывая владельцу игры их "
+#~ "сторону; также можно «присоединиться вслепую» — игроки могут вернуться в "
+#~ "игру и начать играть за свою сторону, не глядя на игру как обычные "
+#~ "зрители."
+
+#~ msgid ""
+#~ "Just as the game engine’s extensibility allows our community to create "
+#~ "and publish their own original content, it also allows players to change "
+#~ "options as they see fit. The Hotkeys Preferences dialog has been renewed "
+#~ "with a categorized view, the ability to assign multiple sequences to a "
+#~ "particular action, and change assignments to make use of additional "
+#~ "buttons found in certain mouse models."
+#~ msgstr ""
+#~ "Расширяемость движка игры не только позволяет членам нашего сообщества "
+#~ "создавать и публиковать свои собственные материалы, но и даёт игрокам "
+#~ "возможность настраивать игру по своему усмотрению. В новом диалоге "
+#~ "настройки горячих клавиш разбиты по категориям, есть возможность "
+#~ "назначать одному действию несколько последовательностей и использовать "
+#~ "дополнительные кнопки некоторых моделей мышей."
+
+#~ msgid ""
+#~ "Very often, players require direct access to the game files to share "
+#~ "their saves, create or modify add-ons, or take screenshots of their games "
+#~ "or map creations. As the game runs on multiple platforms and accepts a "
+#~ "vast number of installation alternatives, a reliable and consistent "
+#~ "mechanism to provide players with access to their stored data has been "
+#~ "added to the Preferences dialog. In addition to this, new options are now "
+#~ "available to manage newly created screenshots: players will be able to "
+#~ "immediately open them in their preferred image viewer, or browse the full "
+#~ "contents of their screenshots folder."
+#~ msgstr ""
+#~ "Игрокам нередко требуется прямой доступ к файлам игры: чтобы делиться "
+#~ "сохранёнными играми, изменять аддоны, делать снимки экрана своих игр и "
+#~ "карт. Так как игра поддерживает множество платформ и допускает множество "
+#~ "альтернатив при установке, мы добавили в диалог предпочтений надежный и "
+#~ "последовательный механизм доступа к сохранённым данным игры. Кроме того, "
+#~ "доступны новые возможности по управлению свежесозданными скриншотами: "
+#~ "игроки могут открыть их в том просмотрщике изображений, который им "
+#~ "нравится или открыть каталог скриншотов в проводнике."
+
+#~ msgid ""
+#~ "The UI theme selection dialog now includes a short description of each "
+#~ "item. A new optional theme optimized for the <a href='http://www.open-"
+#~ "pandora.org/'>Pandora</a> and other small resolution devices has been "
+#~ "added as well, providing a more compact visualization of unit stats and "
+#~ "more visible command buttons."
+#~ msgstr ""
+#~ "Диалог выбора темы содержит краткое описание каждой темы. Также добавлена "
+#~ "новая тема, оптимизированная под <a href='http://www.open-pandora."
+#~ "org/'>Pandora</a> и другие устройства с малым разрешением. В этой теме "
+#~ "визуализация качеств бойца сделана более компактной, а кнопки управления "
+#~ "— более заметными."
+
+#~ msgid ""
+#~ "Two new translations have been started: Scottish Gaelic and Ukrainian. As "
+#~ "always, <cite>The Battle for Wesnoth</cite> relies on volunteers for "
+#~ "translating the game. Anyone interested should refer to the <a "
+#~ "href='#contribute'>Contribute</a> section below for details."
+#~ msgstr ""
+#~ "Начаты два новых перевода: на гаэльский и украинский языки. Как всегда, "
+#~ "перевод <cite>Битвы за Веснот</cite> выполнен волонтёрами. Все, кто "
+#~ "интересуется подробностями, могу ознакомится ниже с разделом <a "
+#~ "href='#contribute'>Участвуйте</a>."
+
+#~ msgid ""
+#~ "Like the main game interface, the map editor was also given a major "
+#~ "overhaul, bringing with it increased visibility for commonly used file "
+#~ "and selection tools and more easily identifiable action icons. This "
+#~ "version also marks the debut of the experimental scenario mode, which "
+#~ "enables additional features previously available only to WML coders. Note "
+#~ "that there are still many aspects remaining to be finalized and polished "
+#~ "before it can be considered a substitute for the targeted subset of WML."
+#~ msgstr ""
+#~ "Редактор карт, как и вся игра, подвергся значительной переделке. Часто "
+#~ "используемые инструменты работы с файлами и выбора сделаны более "
+#~ "заметными, а иконки действий более ясными. В этой версии также появится "
+#~ "экспериментальный режим сценариев с возможностями, ранее доступными "
+#~ "только разработчикам WML. Стоит отметить, что потребуется закончить "
+#~ "работу над многими аспектами этого режима, прежде чем считать его "
+#~ "полноценной заменой соответствующего подмножества WML."
+
+#~ msgid ""
+#~ "On the terrain selection front, tropical forests were completely redrawn "
+#~ "and expanded with several variations, including rainforest, sparse and "
+#~ "dense palm forests, and savanna. Underground maps also benefit from the "
+#~ "addition of new bridge types, and battle scenarios may be spiced up with "
+#~ "two new trash and debris terrains available directly from the editor."
+#~ msgstr ""
+#~ "Из изменений в части выбора местности стоит отметить тропические леса. "
+#~ "Они полностью перерисованы и дополнены несколькими вариациями: влажные "
+#~ "джунгли, редкий и плотный пальмовый лес, а также саванна. В подземных "
+#~ "картах добавлены новые виды мостов, а сценарии битв можно оживить двумя "
+#~ "видами мусора и обломков, доступных прямо из редактора."
+
+#~ msgid ""
+#~ "Both players and WML authors will benefit from improved debugging tools. "
+#~ "Loading-stage error reports are now far more legible and feature copy-to-"
+#~ "clipboard functionality. The Gamestate Inspector tool received similar "
+#~ "updates: in addition to a copy-to-clipboard option for game variables and "
+#~ "status information, it now also makes use of the same underlying code as "
+#~ "saved games to correctly generate valid multiline WML attributes and "
+#~ "translatable strings."
+#~ msgstr ""
+#~ "Как игроки, так и авторы WML смогут воспользоваться преимуществами новых "
+#~ "средств отладки. Отчёты об ошибках загрузки теперь более удобочитаемы, и "
+#~ "их можно копировать в буфер обмена. Инспектор состояния игры также "
+#~ "обновился: кроме копирования в буфер игровых переменных и информации о "
+#~ "состоянии, он также использует тот же код, что и сохранённые игры, чтобы "
+#~ "генерировать правильные многострочные атрибуты WML и переводимые строки."
+
+#~ msgid ""
+#~ "To further assist WML authors, <code>GUI.pyw</code>, a graphical "
+#~ "interface for the three main WML maintenance scripts (<code>wmllint</"
+#~ "code>, <code>wmlindent</code>, and <code>wmlscope</code>) has been "
+#~ "included, providing a convenient alternative to the command line "
+#~ "versions. The tool may be found in the <a href='//wiki.wesnoth.org/"
+#~ "EditingWesnoth'><code>data/tools</code></a> folder. More information on "
+#~ "the maintenance tools can be found <a href='//wiki.wesnoth.org/"
+#~ "Maintenance_tools'>on the wiki</a>."
+#~ msgstr ""
+#~ "Для авторов WML также добавлен <code>GUI.pyw</code>, графический "
+#~ "интерфейс к трём основным скриптам поддержки WML (<code>wmllint</code>, "
+#~ "<code>wmlindent</code> и <code>wmlscope</code>) — удобная альтернатива "
+#~ "командной строке. Этот инструмент можно найти в каталоге <a href='//wiki."
+#~ "wesnoth.org/EditingWesnoth'><code>data/tools</code></a>. Подробнее об "
+#~ "этих инструментах можно прочитать <a href='//wiki.wesnoth.org/"
+#~ "Maintenance_tools'>в вики</a>."
+
+#~ msgid ""
+#~ "On the back-end side, this new stable series contains a vast array of "
+#~ "additions for content creators. <a href='//wiki.wesnoth.org/"
+#~ "Micro_AIs'>Micro AIs</a> provide a powerful framework for assigning new "
+#~ "and specialized AI behaviors to sides with minimal coding effort. Other "
+#~ "AI improvements include a vastly improved and entirely configurable <a "
+#~ "href='//wiki.wesnoth.org/AI_Recruitment'>AI recruitment engine</a>, and a "
+#~ "new AI for use in multiplayer games."
+#~ msgstr ""
+#~ "В новой стабильной версии авторы игрового контента найдут много нового. "
+#~ "<a href='//wiki.wesnoth.org/Micro_AIs'>Micro AIs</a> —  мощное средство, "
+#~ "позволяющая задать для каждой стороны в игре нужное поведение AI с "
+#~ "минимумом кода. Другие важные улучшения ИИ — заметно обновлённый и "
+#~ "полностью настраиваемый <a href='//wiki.wesnoth.org/"
+#~ "AI_Recruitment'>движок вербовки ИИ</a>, а также новый ИИ для "
+#~ "использования в многопользовательских играх."
+
+#~ msgid ""
+#~ "Many other new features have been added to the <a href='http://wiki."
+#~ "wesnoth.org/ReferenceWML'>WML</a> and <a href='//wiki.wesnoth.org/"
+#~ "LuaWML'>Lua</a> API. For instance, <a href='//wiki.wesnoth.org/"
+#~ "AnimationWML'>animation WML tags</a> support a new, more compact syntax "
+#~ "for defining animation frames in less space. The API has also received "
+#~ "several changes which content creators porting 1.10-based add-ons must "
+#~ "adapt to: a list is provided in our dedicated <a href='//forums.wesnoth."
+#~ "org/viewtopic.php?t=36057'>forum topic</a>."
+#~ msgstr ""
+#~ "Множество других возможностей добавлены в API <a href='http://wiki."
+#~ "wesnoth.org/ReferenceWML'>WML</a> и <a href='//wiki.wesnoth.org/"
+#~ "LuaWML'>Lua</a>. К примеру, <a href='//wiki.wesnoth.org/AnimationWML'>WML-"
+#~ "теги анимации</a> поддерживают новый, более компактный синтаксис для "
+#~ "задания фреймов анимации. В API также внесено несколько изменений, "
+#~ "которые необходимо учитывать при переносе аддонов с версии 1.10: полный "
+#~ "список можно посмотреть в специальной  <a href='//forums.wesnoth.org/"
+#~ "viewtopic.php?t=36057'>ветке на нашем форуме</a>."
