@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.10\n"
-"POT-Creation-Date: 2024-02-27 11:46-0600\n"
+"POT-Creation-Date: 2024-02-29 09:27-0600\n"
 "PO-Revision-Date: 2012-01-14 00:58+0300\n"
 "Last-Translator: Andrius Štikonas <stikonas@gmail.com>\n"
 "Language-Team: Lithuanian\n"
@@ -44,7 +44,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:32
 msgid ""
-"<i>March 2023.</i> The development team is proud to present version 1.18 of "
+"<i>March 2024.</i> The development team is proud to present version 1.18 of "
 "<cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
 msgstr ""
 
@@ -93,40 +93,8 @@ msgstr "Kas naujo Vesnote 1.10"
 msgid "For Players"
 msgstr "Žaidėjams"
 
-# type: Content of: <html><body><div><div><div><div><div><a>
-#. type: Content of: <html><body><div><div><div><a>
-#: template.html:69
-#, fuzzy
-#| msgid "<a href='images/start-1-full.jpg'>"
-msgid "<a href=\"images/start-1.png\">"
-msgstr "<a href='images/start-1-full.jpg'>"
-
-#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
-#: template.html:69
-msgid "In-game game history viewer"
-msgstr ""
-
-# type: Content of: <html><body><div><div><div>
-#. type: Content of: <html><body><div><div><div>
-#: template.html:69 template.html:77 template.html:89 template.html:99
-#: template.html:105
-msgid "</a>"
-msgstr "</a>"
-
 #. type: Content of: <html><body><div><div><p>
-#: template.html:71
-msgid ""
-"Players can now view a history of their own previously played games and can "
-"search the history of other players as well by clicking the Match History "
-"button in the online multiplayer lobby. This shows information on the game "
-"itself, the players in the game, the era used, any modifications enabled, "
-"and lets you download the game’s replay to watch for yourself. Additionally, "
-"there’s a <a href=\"https://replays.wesnoth.org/dashboard/\">dashboard</a> "
-"available with more general data about games played."
-msgstr ""
-
-#. type: Content of: <html><body><div><div><p>
-#: template.html:73
+#: template.html:69
 msgid ""
 "Wesnoth’s rendering has been completely overhauled, leading to a significant "
 "improvement in performance with our own tests showing a nearly 60% boost in "
@@ -135,27 +103,45 @@ msgid ""
 "experience across all areas of the game."
 msgstr ""
 
+#. type: Content of: <html><body><div><div><p>
+#: template.html:71
+msgid ""
+"All factions in the Default era have gone through major updates to ensure "
+"standard 1v1 games are more balanced as well as to help survival scenarios "
+"be more fun and to allow campaigns to use the new variable recall cost "
+"mechanic. Higher level units have also had a variety of adjustments to "
+"better balance the Age of Heroes era as well as survival scenarios where "
+"high level units are common."
+msgstr ""
+
 # type: Content of: <html><body><div><div><div><h4>
 #. type: Content of: <html><body><div><div><h4>
-#: template.html:75
+#: template.html:73
 msgid "Campaigns"
 msgstr "Kampanijos"
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
-#: template.html:77
+#: template.html:75
 #, fuzzy
 #| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href=\"images/start-2.png\">"
 msgstr "<a href='images/start-1-full.jpg'>"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
-#: template.html:77 template.html:89
+#: template.html:75
 msgid "Campaigns menu screenshot"
 msgstr ""
 
+# type: Content of: <html><body><div><div><div>
+#. type: Content of: <html><body><div><div><div>
+#: template.html:75 template.html:85 template.html:89 template.html:99
+#: template.html:105
+msgid "</a>"
+msgstr "</a>"
+
 #. type: Content of: <html><body><div><div><p>
-#: template.html:79
+#: template.html:77
 msgid ""
 "A new campaign, Winds of Fate, has been added to the game! This is the first "
 "Drake campaign to be included in Wesnoth, showing their fight for survival "
@@ -164,16 +150,16 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:81
+#: template.html:79
 msgid ""
-"Eastern Invasion has been completely remade to add more variety to its "
-"scenarios, give more personality to its characters, make the AI more "
-"interesting to play against, and to fix several lore conflicts with other "
-"campaigns."
+"Eastern Invasion - the first Loyalist campaign ever added to Wesnoth - has "
+"been completely remade to add more variety to its scenarios, give more "
+"personality to its characters, make the AI more interesting to play against, "
+"and to fix several lore conflicts with other campaigns."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:83
+#: template.html:81
 msgid ""
 "And lastly, the Quenoth faction in the campaign Under the Burning Suns has "
 "been given an overhaul to make them more interesting - hero units can now "
@@ -184,19 +170,33 @@ msgstr ""
 
 # type: Content of: <html><body><div><div><div><dl><dt>
 #. type: Content of: <html><body><div><div><h4>
-#: template.html:85
+#: template.html:83
 msgid "Multiplayer"
 msgstr "Daugelio žaidėjų žaidimas"
+
+# type: Content of: <html><body><div><div><div><div><div><a>
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:85
+#, fuzzy
+#| msgid "<a href='images/start-1-full.jpg'>"
+msgid "<a href=\"images/start-1.png\">"
+msgstr "<a href='images/start-1-full.jpg'>"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:85
+msgid "In-game game history viewer"
+msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:87
 msgid ""
-"All multiplayer factions have gone through major updates to ensure standard "
-"1v1 games are more balanced as well as to help survival scenarios be more "
-"fun and to allow campaigns to use the new variable recall cost mechanic. "
-"Higher level units have also had a variety of adjustments to better balance "
-"the Age of Heroes era as well as survival scenarios where high level units "
-"are common."
+"Players can now view a history of their own previously played games and can "
+"search the history of other players as well by clicking the Match History "
+"button in the online multiplayer lobby. This shows information on the game "
+"itself, the players in the game, the era used, any modifications enabled, "
+"and lets you download the game’s replay to watch for yourself. Additionally, "
+"there’s a <a href=\"https://replays.wesnoth.org/dashboard/\">dashboard</a> "
+"available with more general data about games played."
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><div><div><a>
@@ -206,6 +206,11 @@ msgstr ""
 #| msgid "<a href='images/start-5-full.jpg'>"
 msgid "<a href=\"images/start-5.gif\">"
 msgstr "<a href='images/start-5-full.jpg'>"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:89
+msgid "Animated waterfall"
+msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:91
@@ -272,12 +277,12 @@ msgid ""
 "For distributing your add-ons, Wesnoth now allows using your forum username "
 "and password when uploading. When using this approach, the add-on’s "
 "passphrase is instead stored in the encrypted credentials file rather than "
-"plaintext in your <cite>_server.pbl</cite>, which is more secure, but it "
+"plaintext in your <code>_server.pbl</code>, which is more secure, but it "
 "also means that if you lose your password you can use the forum’s password "
 "recovery to regain access to your add-ons. Additionally, this allows "
 "specifying other users who are also allowed to upload updates to the add-on, "
 "for add-ons which are developed collaboratively by multiple people. Your "
-"<cite>_server.pbl</cite> will also be validated prior to uploading your add-"
+"<code>_server.pbl</code> will also be validated prior to uploading your add-"
 "on, so you will know of any issues before the upload takes place rather than "
 "afterwards."
 msgstr ""
@@ -301,8 +306,8 @@ msgid ""
 "The scenario editor has received a major upgrade: instead of only being able "
 "to understand single scenario files, it is now capable of creating the "
 "skeleton of a brand new add-on as well as providing a UI for creating the "
-"required <cite>_server.pbl</cite>. This means it’s now possible to create an "
-"add-on, the add-on’s <cite>_server.pbl</cite>, its scenarios, and upload the "
+"required <code>_server.pbl</code>. This means it’s now possible to create an "
+"add-on, the add-on’s <code>_server.pbl</code>, its scenarios, and upload the "
 "add-on for others to play all from within Wesnoth."
 msgstr ""
 
