@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth 1.16\n"
-"POT-Creation-Date: 2024-03-01 13:32-0600\n"
+"POT-Creation-Date: 2024-03-01 13:54-0600\n"
 "PO-Revision-Date: 2022-04-23 11:12+0800\n"
 "Last-Translator: CloudiDust <cloudidust@gmail.com>\n"
 "Language-Team: Wesnoth Simplified Chinese Team\n"
@@ -267,8 +267,7 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:93
-msgid ""
-"And, as a cherry on top, the waterfall on Isar’s Cross are now animated."
+msgid "And, as a cherry on top, the waterfall on Isar’s Cross is now animated."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h4>

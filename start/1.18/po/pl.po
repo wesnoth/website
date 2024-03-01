@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Bitwa o Wesnoth\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-01 13:32-0600\n"
+"POT-Creation-Date: 2024-03-01 13:54-0600\n"
 "PO-Revision-Date: 2021-10-24 13:58+0200\n"
 "Last-Translator: Piotr Makarewicz (ForPeace) <makarepio@gmail.com>\n"
 "Language-Team: \n"
@@ -266,8 +266,7 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:93
-msgid ""
-"And, as a cherry on top, the waterfall on Isar’s Cross are now animated."
+msgid "And, as a cherry on top, the waterfall on Isar’s Cross is now animated."
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><h3>

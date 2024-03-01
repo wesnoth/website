@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-start 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-01 13:32-0600\n"
+"POT-Creation-Date: 2024-03-01 13:54-0600\n"
 "PO-Revision-Date: 2005-10-14 10:10+0200\n"
 "Last-Translator: Oron Peled <oron@actcom.co.il>\n"
 "Language-Team: Hebrew\n"
@@ -233,8 +233,7 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:93
-msgid ""
-"And, as a cherry on top, the waterfall on Isar’s Cross are now animated."
+msgid "And, as a cherry on top, the waterfall on Isar’s Cross is now animated."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h4>

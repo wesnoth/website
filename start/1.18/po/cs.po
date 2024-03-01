@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-03-01 13:32-0600\n"
+"POT-Creation-Date: 2024-03-01 13:54-0600\n"
 "PO-Revision-Date: 2021-10-23 18:17+0200\n"
 "Last-Translator: Michal Žejdl <lachim@emer.cz>\n"
 "Language-Team: Czech https://wiki.wesnoth.org/CzechTranslation\n"
@@ -263,8 +263,7 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:93
-msgid ""
-"And, as a cherry on top, the waterfall on Isar’s Cross are now animated."
+msgid "And, as a cherry on top, the waterfall on Isar’s Cross is now animated."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h4>

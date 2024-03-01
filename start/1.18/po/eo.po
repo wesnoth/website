@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Release Notes 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-01 13:32-0600\n"
+"POT-Creation-Date: 2024-03-01 13:54-0600\n"
 "PO-Revision-Date: 2006-12-23 18:54+0100\n"
 "Last-Translator: Viliam Bur <viliam@bur.sk>\n"
 "Language-Team: Wesnoth Esperanto team <viliam@bur.sk>\n"
@@ -232,8 +232,7 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:93
-msgid ""
-"And, as a cherry on top, the waterfall on Isar’s Cross are now animated."
+msgid "And, as a cherry on top, the waterfall on Isar’s Cross is now animated."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h4>
