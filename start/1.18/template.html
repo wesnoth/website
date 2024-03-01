@@ -14,8 +14,6 @@
 
 	<title>The Battle for Wesnoth 1.18</title>
 
-	<script src="js/jquery-3.3.1.min.js"></script>
-
 	<script src="js/modernizr.js"></script>
 </head>
 
@@ -161,34 +159,30 @@
 </div></div></div>
 
 <script>
-	(function($) {
+	(function() {
 		/*
-		* Auto links on headers
-		*/
-		$("h2,h3,h4").each(function(i, e) {
-			var link = $("<a/>", { text: $(this).text(), href: "#" + $(this)[0].id } );
-			$(this).text("").append(link);
+		 * Auto links on headers
+		 */
+		document.querySelectorAll("h2,h3,h4").forEach((h) => {
+			const link = document.createElement("a");
+			link.textContent = h.textContent;
+			link.href = "#" + h.id;
+			h.textContent = "";
+			h.append(link);
 		});
 
 		/*
-		* Smooth scrolling for anchor links
-		*/
-
-		$('a[href*="#"]:not([href="#"])').click(function() {
-			if (location.pathname.replace(/^\//,"") == this.pathname.replace(/^\//,"") && location.hostname == this.hostname) {
-				var hash = this.hash;
-				var target = $(hash);
-				target = target.length ? target : $("[name=" + hash.slice(1) + "]");
-				if (target.length) {
-					$("html,body").animate(
-						{ scrollTop: target.offset().top },
-						{ duration: 500, complete: function() { window.location.href = hash; } }
-					);
-					return false;
-				}
-			}
+		 * Smooth scrolling for anchor links
+		 */
+		document.querySelectorAll("a[href*='#']:not([href='#'])").forEach((link) => {
+			link.addEventListener('click', (e) => {
+				e.preventDefault();
+				document.querySelector(e.target.hash).scrollIntoView({
+					behavior: 'smooth'
+				});
+			});
 		});
-	}(jQuery));
+	}());
 </script>
 
 </body>
