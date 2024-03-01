@@ -316,7 +316,7 @@ if ($view === 'langs')
 	//
 	// Print the list of languages to pick from.
 	//
-	?><fieldset id="language-teams"><legend>Language:</legend>
+	?><fieldset id="language-teams"><legend>Language</legend>
 		<ul class="gettext-switch"><?php
 			// Since $langs is pretty free-form and in all likelihood provided
 			// in language code order, resort it by human-readable names
