@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-03-01 13:54-0600\n"
+"POT-Creation-Date: 2024-03-03 15:58-0600\n"
 "PO-Revision-Date: 2024-03-03 17:24+1100\n"
 "Last-Translator: Thomas Hockings <elprofesh@gmail.com>\n"
 "Language-Team: \n"
@@ -23,7 +23,6 @@ msgstr "en_GB"
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:15 template.html:27
-#| msgid "The Battle for Wesnoth 1.16"
 msgid "The Battle for Wesnoth 1.18"
 msgstr "The Battle for Wesnoth 1.18"
 
@@ -38,16 +37,11 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:27
-#| msgid "<span id=\"branding-sub\">Dune Conquests Update</span>"
 msgid "<span id=\"branding-sub\">Draconic Invasions Update</span>"
 msgstr "<span id=\"branding-sub\">Draconic Invasions Update</span>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:30
-#| msgid ""
-#| "<i>October 2021.</i> The development team is proud to present version "
-#| "1.16 of <cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></"
-#| "cite>!"
 msgid ""
 "<i>March 2024.</i> The development team is proud to present version 1.18 of "
 "<cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
@@ -57,13 +51,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:32
-#| msgid ""
-#| "This release features a variety of improvements to many areas of the game "
-#| "including many improved campaigns, a fully rebalanced Dunefolk faction, "
-#| "new portraits and units, upgrades to the AI, a variety of new features "
-#| "for add-on authors, many <b>many</b> bugs fixed, and much more besides. "
-#| "Try out the new features for yourself, or take a look <a "
-#| "href=\"#game\">below</a> for more details."
 msgid ""
 "This release features many new additions as well as refinements to existing "
 "content including a new Drake campaign, a full remake of our oldest Loyalist "
@@ -165,7 +152,6 @@ msgstr "Campaigns"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:73
-#| msgid "<a href=\"images/start-2.jpg\">"
 msgid "<a href=\"images/start-2.png\">"
 msgstr "<a href=\"images/start-2.png\">"
 
@@ -231,7 +217,6 @@ msgstr "Multiplayer"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:83
-#| msgid "<a href=\"images/start-1.jpg\">"
 msgid "<a href=\"images/start-1.png\">"
 msgstr "<a href=\"images/start-1.png\">"
 
@@ -262,7 +247,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:87
-#| msgid "<a href=\"images/start-5.jpg\">"
 msgid "<a href=\"images/start-5.gif\">"
 msgstr "<a href=\"images/start-5.gif\">"
 
@@ -320,7 +304,6 @@ msgstr "For Content Creators"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:97
-#| msgid "<a href=\"images/start-3.jpg\">"
 msgid "<a href=\"images/start-3.png\">"
 msgstr "<a href=\"images/start-3.png\">"
 
@@ -387,7 +370,6 @@ msgstr "<a href=\"images/start-4.jpg\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:103
-#| msgid "New terrain"
 msgid "Raise/lowered terrain"
 msgstr "Raise/lowered terrain"
 
@@ -533,9 +515,6 @@ msgstr "More Info"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:130
-#| msgid ""
-#| "<a href=\"https://changelog.wesnoth.org/1.16/\">Full Changelog</a> "
-#| "(English only)"
 msgid ""
 "<a href=\"https://changelog.wesnoth.org/1.18/\">Full Changelog</a> (English "
 "only)"
@@ -545,9 +524,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:131
-#| msgid ""
-#| "<a href=\"https://www.wesnoth.org/manual/1.16/manual.en.html\">User’s "
-#| "Manual</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/manual/1.18/manual.en.html\">User’s "
 "Manual</a>"
@@ -565,9 +541,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:136
-#| msgid ""
-#| "<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</"
-#| "a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.16\">Wesnoth 1.16 Release Notes</a>"
 msgstr ""
@@ -614,9 +587,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:157
-#| msgid ""
-#| "Copyright &#169; 2003&#8211;2021 by <a rel=\"author\" href=\"https://wiki."
-#| "wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 msgid ""
 "Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" href=\"https://wiki."
 "wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
@@ -626,7 +596,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:158
-#| msgid "Site design Copyright &#169; 2017&#8211;2021 by Iris Morelle"
 msgid "Site design Copyright &#169; 2017&#8211;2024 by Iris Morelle"
 msgstr "Site design Copyright &#169; 2017&#8211;2024 by Iris Morelle"
 

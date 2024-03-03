@@ -2,23 +2,24 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # k konami, 2024
 # RatArmy, 2024
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-03-01 13:54-0600\n"
+"POT-Creation-Date: 2024-03-03 15:58-0600\n"
 "PO-Revision-Date: 2024-03-02 02:37+0000\n"
 "Last-Translator: RatArmy, 2024\n"
-"Language-Team: Japanese (https://app.transifex.com/wesnoth-jp/teams/60513/ja/)\n"
+"Language-Team: Japanese (https://app.transifex.com/wesnoth-jp/teams/60513/"
+"ja/)\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. type: Attribute 'lang' of: <html>
@@ -51,53 +52,57 @@ msgid ""
 "<i>March 2024.</i> The development team is proud to present version 1.18 of "
 "<cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
 msgstr ""
-"<i>2024年3月、</i>開発チームは<cite><a "
-"href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>バージョン1.18を自信を持ってお届けします！"
+"<i>2024年3月、</i>開発チームは<cite><a href=\"/\">The&nbsp;Battle&nbsp;"
+"for&nbsp;Wesnoth</a></cite>バージョン1.18を自信を持ってお届けします！"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:32
 msgid ""
 "This release features many new additions as well as refinements to existing "
-"content including a new Drake campaign, a full remake of our oldest Loyalist"
-" campaign, greatly improved graphical performance, major balance changes for"
-" multiplayer, achievements, many enhancements to the editor, and so much "
+"content including a new Drake campaign, a full remake of our oldest Loyalist "
+"campaign, greatly improved graphical performance, major balance changes for "
+"multiplayer, achievements, many enhancements to the editor, and so much "
 "more! Try them out for yourself, or take a look <a href=\"#game\">below</a> "
 "for more details."
 msgstr ""
-"このリリースには多くの改善と新機能が施されました。新しいドレークのキャンペーン、最古の忠誠軍のキャンペーンのフルリメイク、グラフィックパフォーマンスの大幅な向上、マルチプレイヤーのバランス調整、実績（Achievements）、エディタの数多くの機能強化だけでなく、その他にもたくさんの変更点があります！新機能を直に体験してもよいですし、以下の<a"
-" href=\"#game\">詳細</a>をご覧になるのもよいでしょう。"
+"このリリースには多くの改善と新機能が施されました。新しいドレークのキャンペー"
+"ン、最古の忠誠軍のキャンペーンのフルリメイク、グラフィックパフォーマンスの大"
+"幅な向上、マルチプレイヤーのバランス調整、実績（Achievements）、エディタの数"
+"多くの機能強化だけでなく、その他にもたくさんの変更点があります！新機能を直に"
+"体験してもよいですし、以下の<a href=\"#game\">詳細</a>をご覧になるのもよいで"
+"しょう。"
 
 #. type: Content of: <html><body><div><div><div><a><span>
 #: template.html:36
 msgid ""
-"<a class=\"download-button\" role=\"button\" "
-"href=\"https://www.wesnoth.org/#download\"> <span class=\"download-arrow\" "
-"aria-hidden=\"true\"></span> <span class=\"download-text\"> <span "
-"class=\"download-big\">Download Now</span> </span> </a> <a class=\"itchio-"
-"button\" role=\"button\" href=\"https://wesnoth.itch.io/battle-for-wesnoth\""
-" aria-label=\"Available on itch.io\"> <span class=\"download-text\">"
+"<a class=\"download-button\" role=\"button\" href=\"https://www.wesnoth.org/"
+"#download\"> <span class=\"download-arrow\" aria-hidden=\"true\"></span> "
+"<span class=\"download-text\"> <span class=\"download-big\">Download Now</"
+"span> </span> </a> <a class=\"itchio-button\" role=\"button\" href=\"https://"
+"wesnoth.itch.io/battle-for-wesnoth\" aria-label=\"Available on itch.io\"> "
+"<span class=\"download-text\">"
 msgstr ""
-"<a class=\"download-button\" role=\"button\" "
-"href=\"https://www.wesnoth.org/#download\"> <span class=\"download-arrow\" "
-"aria-hidden=\"true\"></span> <span class=\"download-text\"> <span "
-"class=\"download-big\">Download Now</span> </span> </a> <a class=\"itchio-"
-"button\" role=\"button\" href=\"https://wesnoth.itch.io/battle-for-wesnoth\""
-" aria-label=\"Available on itch.io\"> <span class=\"download-text\">"
+"<a class=\"download-button\" role=\"button\" href=\"https://www.wesnoth.org/"
+"#download\"> <span class=\"download-arrow\" aria-hidden=\"true\"></span> "
+"<span class=\"download-text\"> <span class=\"download-big\">Download Now</"
+"span> </span> </a> <a class=\"itchio-button\" role=\"button\" href=\"https://"
+"wesnoth.itch.io/battle-for-wesnoth\" aria-label=\"Available on itch.io\"> "
+"<span class=\"download-text\">"
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:46
 msgid ""
 "<span class=\"download-big\">Get on itch.io</span> </span> </a> <a "
-"class=\"steam-button\" role=\"button\" "
-"href=\"https://store.steampowered.com/app/599390\"> <span class=\"download-"
-"text\"> <span class=\"steam-icon\" aria-hidden=\"true\"></span> <span "
-"class=\"download-big\">Get on Steam</span> </span> </a>"
+"class=\"steam-button\" role=\"button\" href=\"https://store.steampowered.com/"
+"app/599390\"> <span class=\"download-text\"> <span class=\"steam-icon\" aria-"
+"hidden=\"true\"></span> <span class=\"download-big\">Get on Steam</span> </"
+"span> </a>"
 msgstr ""
 "<span class=\"download-big\">Get on itch.io</span> </span> </a> <a "
-"class=\"steam-button\" role=\"button\" "
-"href=\"https://store.steampowered.com/app/599390\"> <span class=\"download-"
-"text\"> <span class=\"steam-icon\" aria-hidden=\"true\"></span> <span "
-"class=\"download-big\">Get on Steam</span> </span> </a>"
+"class=\"steam-button\" role=\"button\" href=\"https://store.steampowered.com/"
+"app/599390\"> <span class=\"download-text\"> <span class=\"steam-icon\" aria-"
+"hidden=\"true\"></span> <span class=\"download-big\">Get on Steam</span> </"
+"span> </a>"
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:63
@@ -112,26 +117,35 @@ msgstr "プレイヤー向け"
 #. type: Content of: <html><body><div><div><p>
 #: template.html:67
 msgid ""
-"Wesnoth’s rendering has been completely overhauled, leading to a significant"
-" improvement in performance with our own tests showing a nearly 60% boost in"
-" FPS. This will of course vary depending on the computer you’re using to run"
-" Wesnoth, but will in all cases result in a much smoother and more "
-"consistent experience across all areas of the game."
+"Wesnoth’s rendering has been completely overhauled, leading to a significant "
+"improvement in performance with our own tests showing a nearly 60% boost in "
+"FPS. This will of course vary depending on the computer you’re using to run "
+"Wesnoth, but will in all cases result in a much smoother and more consistent "
+"experience across all areas of the game."
 msgstr ""
-"Wesnothのレンダリングを完璧にオーバーホールしたことによってパフォーマンスが大幅に向上し、私達の行ったテストでは60%近いFPSの向上が確認されました。もちろんあなたがWesnothを遊ぶコンピューター次第で差はありますが、どのようなマシンであってもよりスムーズで安定した体験をゲームのあらゆる領域で味わうことができるでしょう。"
+"Wesnothのレンダリングを完璧にオーバーホールしたことによってパフォーマンスが大"
+"幅に向上し、私達の行ったテストでは60%近いFPSの向上が確認されました。もちろん"
+"あなたがWesnothを遊ぶコンピューター次第で差はありますが、どのようなマシンで"
+"あってもよりスムーズで安定した体験をゲームのあらゆる領域で味わうことができる"
+"でしょう。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:69
 msgid ""
 "All factions in the Default era have gone through major updates to ensure "
 "standard 1v1 games are more balanced and to allow campaigns to use the new "
-"variable recall cost mechanic. Higher level units have also had a variety of"
-" adjustments to better balance the Age of Heroes era as well as survival "
+"variable recall cost mechanic. Higher level units have also had a variety of "
+"adjustments to better balance the Age of Heroes era as well as survival "
 "scenarios where high level units are common. Level three advancements for "
 "the Saurian Oracle and Saurian Soothsayer have been added and the Orcish "
 "Nightblade now serves as the default advancement for the Orcish Slayer."
 msgstr ""
-"標準の時代のすべての党派に、1対1のゲームのバランスがより良くなるように重要な変更が加えられました。また、召還コストの仕組みに関する新しい変数をキャンペーンで使用できるようになりました。英雄の時代や一部のサバイバルシナリオのバランスを良くするため、高レベルのユニットには多様な調整が加えられました。トカゲの神官とトカゲの僧侶にはレベル3が用意され、オークの夜刀はオークの殺戮者のデフォルトのレベルアップ先となりました。"
+"標準の時代のすべての党派に、1対1のゲームのバランスがより良くなるように重要な"
+"変更が加えられました。また、召還コストの仕組みに関する新しい変数をキャンペー"
+"ンで使用できるようになりました。英雄の時代や一部のサバイバルシナリオのバラン"
+"スを良くするため、高レベルのユニットには多様な調整が加えられました。トカゲの"
+"神官とトカゲの僧侶にはレベル3が用意され、オークの夜刀はオークの殺戮者のデフォ"
+"ルトのレベルアップ先となりました。"
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:71
@@ -157,13 +171,14 @@ msgstr "</a>"
 #. type: Content of: <html><body><div><div><p>
 #: template.html:75
 msgid ""
-"A new campaign, <cite>Winds of Fate</cite>, has been added to the game! This"
-" is the first Drake campaign to be included in Wesnoth, showing their fight "
-"for survival and tumultuous return to Wesnoth’s Great Continent as they flee"
-" their sinking island homes."
+"A new campaign, <cite>Winds of Fate</cite>, has been added to the game! This "
+"is the first Drake campaign to be included in Wesnoth, showing their fight "
+"for survival and tumultuous return to Wesnoth’s Great Continent as they flee "
+"their sinking island homes."
 msgstr ""
-"新たなキャンペーン<cite>「運命の風」</cite>が追加されました！ Wesnoth "
-"公式としては初のドレーク・キャンペーンで、彼らの生き残りをかけた戦いと、沈みゆく島から逃れて Wesnoth の大陸へと帰還する波乱の旅路を描きます。"
+"新たなキャンペーン<cite>「運命の風」</cite>が追加されました！ Wesnoth 公式と"
+"しては初のドレーク・キャンペーンで、彼らの生き残りをかけた戦いと、沈みゆく島"
+"から逃れて Wesnoth の大陸へと帰還する波乱の旅路を描きます。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:77
@@ -173,7 +188,10 @@ msgid ""
 "scenario variety augmented by much more dynamic AI opponents. Several lore "
 "conflicts with other campaigns have also been resolved."
 msgstr ""
-"<cite>東部侵略</cite>はWesnothに初めて追加された忠誠軍のキャンペーンですが、フルリメイクされました。キャラクターたちはより掘り下げられ、とてもダイナミックな敵AIによってシナリオの多様性が高まりました。また、他のキャンペーンとの間にあったいくつかの歴史の食い違いも解消されました。"
+"<cite>東部侵略</cite>はWesnothに初めて追加された忠誠軍のキャンペーンですが、"
+"フルリメイクされました。キャラクターたちはより掘り下げられ、とてもダイナミッ"
+"クな敵AIによってシナリオの多様性が高まりました。また、他のキャンペーンとの間"
+"にあったいくつかの歴史の食い違いも解消されました。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:79
@@ -181,10 +199,14 @@ msgid ""
 "And lastly, the Quenoth faction in the campaign <cite>Under the Burning "
 "Suns</cite> has been given an overhaul to make them more interesting — hero "
 "units can now gain unique bonuses when leveling up while regular units have "
-"new abilities and new weapon effects for their attacks, making this a unique"
-" experience among Wesnoth’s campaigns."
+"new abilities and new weapon effects for their attacks, making this a unique "
+"experience among Wesnoth’s campaigns."
 msgstr ""
-"最後に、<cite>燃える太陽の下で</cite>のQuenoth党派はより興味深くなるようにオーバーホールされました。レベルアップの際、一般的なユニットでは新しい能力や攻撃時の特殊能力が追加されますが、Quenothのヒーローユニットたちは固有のボーナスを得るようになりました。これによって、Wesnothのキャンペーンの中でも独特な体験をすることができます。"
+"最後に、<cite>燃える太陽の下で</cite>のQuenoth党派はより興味深くなるように"
+"オーバーホールされました。レベルアップの際、一般的なユニットでは新しい能力や"
+"攻撃時の特殊能力が追加されますが、Quenothのヒーローユニットたちは固有のボーナ"
+"スを得るようになりました。これによって、Wesnothのキャンペーンの中でも独特な体"
+"験をすることができます。"
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:81
@@ -208,13 +230,16 @@ msgid ""
 "search the history of other players as well by clicking the Match History "
 "button in the online multiplayer lobby. This shows information on the game "
 "itself, the players in the game, the era used, any modifications enabled, "
-"and lets you download the game’s replay to watch for yourself. Additionally,"
-" there’s an <a href=\"https://replays.wesnoth.org/dashboard/\">online "
+"and lets you download the game’s replay to watch for yourself. Additionally, "
+"there’s an <a href=\"https://replays.wesnoth.org/dashboard/\">online "
 "dashboard</a> available with more general data about games played."
 msgstr ""
-"自身がプレイしたゲーム履歴の閲覧や他のプレイヤーの履歴検索を、オンラインマルチプレイヤーロビーの「マッチ履歴」ボタンをクリックして行えるようになりました。履歴ではそのゲーム自身や参加プレイヤー、使用された時代、有効なModの情報が表示され、ゲームのリプレイをダウンロードして見ることもできます。さらに、<a"
-" "
-"href=\"https://replays.wesnoth.org/dashboard/\">オンラインダッシュボード</a>ではゲームプレイに関するより総合的なデータを利用できます。"
+"自身がプレイしたゲーム履歴の閲覧や他のプレイヤーの履歴検索を、オンラインマル"
+"チプレイヤーロビーの「マッチ履歴」ボタンをクリックして行えるようになりまし"
+"た。履歴ではそのゲーム自身や参加プレイヤー、使用された時代、有効なModの情報が"
+"表示され、ゲームのリプレイをダウンロードして見ることもできます。さらに、<a "
+"href=\"https://replays.wesnoth.org/dashboard/\">オンラインダッシュボード</a>"
+"ではゲームプレイに関するより総合的なデータを利用できます。"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:87
@@ -230,31 +255,41 @@ msgstr "滝のアニメーション"
 #: template.html:89
 msgid ""
 "A clear separation has been made for auto-hosted games such as Afterlife vs "
-"custom games hosted by other players. Games hosted by players will be in the"
-" General Lobby tab, while auto-hosted games will be in the Matchmaking tab. "
-"To aid with reporting problematic players or games, the <code>/report</code>"
-" command now shows a dialog where information about the issue can be "
-"entered. And to better handle server disconnects due to network issues, "
-"Wesnoth will now automatically detect when your connection is lost and alert"
-" you to the problem."
+"custom games hosted by other players. Games hosted by players will be in the "
+"General Lobby tab, while auto-hosted games will be in the Matchmaking tab. "
+"To aid with reporting problematic players or games, the <code>/report</code> "
+"command now shows a dialog where information about the issue can be entered. "
+"And to better handle server disconnects due to network issues, Wesnoth will "
+"now automatically detect when your connection is lost and alert you to the "
+"problem."
 msgstr ""
-"Afterlifeのようなホストが自動で行われるゲームと、他のプレイヤーがホストするカスタムゲームとを明白に区別するようになりました。プレイヤーがホストするゲームは「一般ロビー」タブに、自動ホストされるゲームは「マッチメイキング」タブに表示されます。問題のあるプレイヤーやゲームの通報を支援するために、<code>/report</code>コマンドではダイアログが表示され、問題に関する情報を入力できるようになりました。さらにネットワークの問題によるサーバーからの切断の取り扱いを改善するために、あなたの接続が失われたことをWesnothが自動で検知し、アラートをあなたに表示するようになりました。"
+"Afterlifeのようなホストが自動で行われるゲームと、他のプレイヤーがホストするカ"
+"スタムゲームとを明白に区別するようになりました。プレイヤーがホストするゲーム"
+"は「一般ロビー」タブに、自動ホストされるゲームは「マッチメイキング」タブに表"
+"示されます。問題のあるプレイヤーやゲームの通報を支援するために、<code>/"
+"report</code>コマンドではダイアログが表示され、問題に関する情報を入力できるよ"
+"うになりました。さらにネットワークの問題によるサーバーからの切断の取り扱いを"
+"改善するために、あなたの接続が失われたことをWesnothが自動で検知し、アラートを"
+"あなたに表示するようになりました。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:91
 msgid ""
 "The King of the Hill map has been updated to encourage players to claim the "
 "center keep — whichever side holds the hill gains significant bonus income "
-"and the first player to take control will obtain a treasure chest containing"
-" a tidy sum."
+"and the first player to take control will obtain a treasure chest containing "
+"a tidy sum."
 msgstr ""
-"「丘の王」マップがアップデートされ、中央の主塔を占領するプレイヤーを支援するようになりました。中央の丘を保持した陣営には収入に大きなボーナスが付与され、最初に占領したプレイヤーには大金の入った宝箱が与えられます。"
+"「丘の王」マップがアップデートされ、中央の主塔を占領するプレイヤーを支援する"
+"ようになりました。中央の丘を保持した陣営には収入に大きなボーナスが付与され、"
+"最初に占領したプレイヤーには大金の入った宝箱が与えられます。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:93
-msgid ""
-"And, as a cherry on top, the waterfall on Isar’s Cross is now animated."
-msgstr "また、上を見ていただければわかるかと思いますが、「Isar の十字」の滝にアニメーションが付きました。"
+msgid "And, as a cherry on top, the waterfall on Isar’s Cross is now animated."
+msgstr ""
+"また、上を見ていただければわかるかと思いますが、「Isar の十字」の滝にアニメー"
+"ションが付きました。"
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:95
@@ -274,17 +309,24 @@ msgstr "実績"
 #. type: Content of: <html><body><div><div><p>
 #: template.html:99
 msgid ""
-"Wesnoth now has built-in support for achievements! These achievements <b>are"
-" not Steam achievements</b>, however because of that they are not limited to"
-" a predefined set of achievements available only to the base game — add-ons "
+"Wesnoth now has built-in support for achievements! These achievements <b>are "
+"not Steam achievements</b>, however because of that they are not limited to "
+"a predefined set of achievements available only to the base game — add-ons "
 "can define their own achievements and can even add additional achievements "
 "to other add-ons or to mainline. For this initial version, achievements are "
-"already implemented for the tutorial campaign, <cite>Descent into "
-"Darkness</cite>, <cite>Eastern Invasion</cite>, <cite>Liberty</cite>, and "
-"the co-op multiplayer maps <cite>Dark Forecast</cite>, <cite>Isle of "
-"Mists</cite>, <cite>A New Land</cite> and <cite>Team Survival</cite>."
+"already implemented for the tutorial campaign, <cite>Descent into Darkness</"
+"cite>, <cite>Eastern Invasion</cite>, <cite>Liberty</cite>, and the co-op "
+"multiplayer maps <cite>Dark Forecast</cite>, <cite>Isle of Mists</cite>, "
+"<cite>A New Land</cite> and <cite>Team Survival</cite>."
 msgstr ""
-"Wesnothに「実績（Achievements）」機能が搭載されました！これは<b>Steamの実績ではありません</b>。それ故にWesnoth標準で定義された実績に限定されておらず、アドオンにそれ自身の実績を同梱したり、Wesnoth標準のコンテンツに対する実績をアドオンから追加することもできます。今回リリースされる最初の実績には、キャンペーンではチュートリアルや<cite>闇へ堕ちて</cite>、<cite>東部侵略</cite>、<cite>自由</cite>に実装されており、協力プレイのマルチプレイヤーマップでは<cite>暗黒の前兆</cite>や<cite>霧の島</cite>、<cite>新天地</cite>、<cite>チームサバイバル</cite>に実装されています。"
+"Wesnothに「実績（Achievements）」機能が搭載されました！これは<b>Steamの実績で"
+"はありません</b>。それ故にWesnoth標準で定義された実績に限定されておらず、アド"
+"オンにそれ自身の実績を同梱したり、Wesnoth標準のコンテンツに対する実績をアドオ"
+"ンから追加することもできます。今回リリースされる最初の実績には、キャンペーン"
+"ではチュートリアルや<cite>闇へ堕ちて</cite>、<cite>東部侵略</cite>、<cite>自"
+"由</cite>に実装されており、協力プレイのマルチプレイヤーマップでは<cite>暗黒の"
+"前兆</cite>や<cite>霧の島</cite>、<cite>新天地</cite>、<cite>チームサバイバル"
+"</cite>に実装されています。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:101
@@ -298,10 +340,19 @@ msgid ""
 "specifying other users who are allowed to upload updates to the add-on, for "
 "add-ons which are developed collaboratively by multiple people. Your "
 "<code>_server.pbl</code> will also be validated prior to uploading your add-"
-"on, so you will know of any issues before the upload takes place rather than"
-" afterwards."
+"on, so you will know of any issues before the upload takes place rather than "
+"afterwards."
 msgstr ""
-"あなたがアドオンを配布する際に、Wesnothはあなたのフォーラムでのユーザー名とパスワードをアップロードに使用できるようになりました。この方法を使用すると、<code>_server.pbl</code>内のプレーンテキストのかわりに暗号化された証明書ファイルとしてアドオンのパスフレーズを格納できるようになります。これによって安全性が増し、もしあなたがパスワードを失ってしまってもフォーラムのパスワードを使用して再びあなたのアドオンにアクセスできるようになります。さらに、複数人で協力して開発を行っている場合は、あなたの他にもアドオンをアップロードできるユーザーを指定できるようになります。また、あなたの<code>_server.pbl</code>はアドオンのアップロード前に検証されるようになったため、事前に問題に気付くことができるようになりました。"
+"あなたがアドオンを配布する際に、Wesnothはあなたのフォーラムでのユーザー名とパ"
+"スワードをアップロードに使用できるようになりました。この方法を使用すると、"
+"<code>_server.pbl</code>内のプレーンテキストのかわりに暗号化された証明書ファ"
+"イルとしてアドオンのパスフレーズを格納できるようになります。これによって安全"
+"性が増し、もしあなたがパスワードを失ってしまってもフォーラムのパスワードを使"
+"用して再びあなたのアドオンにアクセスできるようになります。さらに、複数人で協"
+"力して開発を行っている場合は、あなたの他にもアドオンをアップロードできるユー"
+"ザーを指定できるようになります。また、あなたの<code>_server.pbl</code>はアド"
+"オンのアップロード前に検証されるようになったため、事前に問題に気付くことがで"
+"きるようになりました。"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:103
@@ -316,16 +367,18 @@ msgstr "地形の上昇・下降"
 #. type: Content of: <html><body><div><div><p>
 #: template.html:105
 msgid ""
-"The scenario editor has received a major upgrade: instead of only being able"
-" to understand single scenario files, it is now capable of creating the "
+"The scenario editor has received a major upgrade: instead of only being able "
+"to understand single scenario files, it is now capable of creating the "
 "skeleton of a brand new add-on as well as providing a UI for creating the "
-"required <code>_server.pbl</code>. This means it’s now possible to create an"
-" add-on, the add-on’s <code>_server.pbl</code>, its scenarios, and upload "
-"the add-on for others to play, all from within Wesnoth."
+"required <code>_server.pbl</code>. This means it’s now possible to create an "
+"add-on, the add-on’s <code>_server.pbl</code>, its scenarios, and upload the "
+"add-on for others to play, all from within Wesnoth."
 msgstr ""
-"シナリオエディタがメジャーアップグレードしました。従来は単一のシナリオファイルの作成しかできませんでしたが、全く新しいアドオンを骨組みから作成し、必要な"
-" _server.pbl を作成するためのUIを提供することが可能になりました。つまり、アドオンやアドオンの _server.pbl "
-"やシナリオの作成と、アドオンサーバーへアップロードすることのすべてが、Wesnoth 本体だけで可能になったということです。"
+"シナリオエディタがメジャーアップグレードしました。従来は単一のシナリオファイ"
+"ルの作成しかできませんでしたが、全く新しいアドオンを骨組みから作成し、必要な "
+"_server.pbl を作成するためのUIを提供することが可能になりました。つまり、アド"
+"オンやアドオンの _server.pbl やシナリオの作成と、アドオンサーバーへアップロー"
+"ドすることのすべてが、Wesnoth 本体だけで可能になったということです。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:107
@@ -333,11 +386,13 @@ msgid ""
 "The map editor similarly has been given a significant improvement: it’s now "
 "possible to add cliffs and valleys, which can be used to add quite a bit of "
 "<cite>depth</cite> to your maps. Beyond that, there’s been a variety of new "
-"terrains and fauna units added from palisade walls, seashell embellishments,"
-" and seaweed terrain to fire ants, giant jumping spiders, and rocs."
+"terrains and fauna units added from palisade walls, seashell embellishments, "
+"and seaweed terrain to fire ants, giant jumping spiders, and rocs."
 msgstr ""
-"マップエディタも大幅に改善されました。断崖（cliff）や渓谷（valley）を追加できるようになったことで、マップに奥行き感を出せるようになりました。それ以外にも、多くの地形と動物ユニット"
-" ― 絶壁や貝の装飾、海藻地形に始まり、火蟻や巨大跳び蜘蛛、ロック鳥まで、多様なアイテムが追加されました。"
+"マップエディタも大幅に改善されました。断崖（cliff）や渓谷（valley）を追加でき"
+"るようになったことで、マップに奥行き感を出せるようになりました。それ以外に"
+"も、多くの地形と動物ユニット ― 絶壁や貝の装飾、海藻地形に始まり、火蟻や巨大跳"
+"び蜘蛛、ロック鳥まで、多様なアイテムが追加されました。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:109
@@ -346,7 +401,8 @@ msgid ""
 "various animations added, primarily Loyalists, Orcs, and Trolls but also "
 "some Elf and Undead units."
 msgstr ""
-"忠誠ユニットを始め、オークやトロル、エルフ、アンデッドにいたる様々なユニットのスプライト画像が改善され、多様なアニメーションも追加されました。"
+"忠誠ユニットを始め、オークやトロル、エルフ、アンデッドにいたる様々なユニット"
+"のスプライト画像が改善され、多様なアニメーションも追加されました。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:111
@@ -357,9 +413,11 @@ msgid ""
 "for Visual Studio Code, but should work with any editor that has an LuaCATS "
 "plugin."
 msgstr ""
-"そして遂に、Wesnoth が定義しているほぼすべての Lua 関数に LuaCATS "
-"ドキュメンテーションが追加されて、入力時のオートコンプリートと、関数の上にカーソルをホバーさせたときのドキュメント表示が可能となりました。本来は "
-"Visual Studio Code 向けに作成されたものですが、LuaCATS プラグインがあるエディターならどれでも動作するはずです。"
+"そして遂に、Wesnoth が定義しているほぼすべての Lua 関数に LuaCATS ドキュメン"
+"テーションが追加されて、入力時のオートコンプリートと、関数の上にカーソルをホ"
+"バーさせたときのドキュメント表示が可能となりました。本来は Visual Studio "
+"Code 向けに作成されたものですが、LuaCATS プラグインがあるエディターならどれで"
+"も動作するはずです。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:113
@@ -374,35 +432,43 @@ msgid ""
 "backgrounds. Since its inception in July 2003, hundreds of people have "
 "contributed to all areas of the game, from mainline content shipped as part "
 "of the official releases to hundreds of player-made projects available to "
-"download from our add-ons server. Whether you need help beating a particular"
-" scenario or adding a feature to your custom maps, <cite>Wesnoth</cite> "
+"download from our add-ons server. Whether you need help beating a particular "
+"scenario or adding a feature to your custom maps, <cite>Wesnoth</cite> "
 "boasts a massive community of players and creators always willing to help."
 msgstr ""
-"<cite>The Battle for Wesnoth</cite> "
-"は世界各国の様々な得意分野を持つ人々の自発的な貢献によって発展を続けています。2003 年 7 "
-"月にプロジェクトが始まって以来、公式リリースに取り込まれたコンテンツはもちろん、アドオンサーバからダウンロード可能なユーザの独自プロジェクトまで、多くの人々が様々な形でプロジェクトに貢献してきました。シナリオがクリアできないとき、独自マップの作成で困ったときなど、<cite>Wesnoth</cite>の誇るこの巨大なコミュニティがきっとあなたの助けになってくれるでしょう。"
+"<cite>The Battle for Wesnoth</cite> は世界各国の様々な得意分野を持つ人々の自"
+"発的な貢献によって発展を続けています。2003 年 7 月にプロジェクトが始まって以"
+"来、公式リリースに取り込まれたコンテンツはもちろん、アドオンサーバからダウン"
+"ロード可能なユーザの独自プロジェクトまで、多くの人々が様々な形でプロジェクト"
+"に貢献してきました。シナリオがクリアできないとき、独自マップの作成で困ったと"
+"きなど、<cite>Wesnoth</cite>の誇るこの巨大なコミュニティがきっとあなたの助け"
+"になってくれるでしょう。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:117
 msgid ""
 "Besides creating your own add-on content, there are many other ways you can "
 "help <cite>Wesnoth</cite>:"
-msgstr "アドオンコンテンツの作成以外にも、<cite>Wesnoth</cite> の開発に貢献する方法はたくさんあります："
+msgstr ""
+"アドオンコンテンツの作成以外にも、<cite>Wesnoth</cite> の開発に貢献する方法は"
+"たくさんあります："
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:120
 msgid "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
-msgstr "コードの<a href=\"https://wiki.wesnoth.org/Project\">コントリビューション</a>"
+msgstr ""
+"コードの<a href=\"https://wiki.wesnoth.org/Project\">コントリビューション</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:121
 msgid ""
 "<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">Create</a> art for "
-"the main game or for user-made <a "
-"href=\"https://forums.wesnoth.org/viewforum.php?f=23\">add-ons</a>"
+"the main game or for user-made <a href=\"https://forums.wesnoth.org/"
+"viewforum.php?f=23\">add-ons</a>"
 msgstr ""
-"<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">メインゲーム</a>と<a "
-"href=\"https://forums.wesnoth.org/viewforum.php?f=23\">アドオン</a>用のグラフィック制作"
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">メインゲーム</a>と"
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=23\">アドオン</a>用のグ"
+"ラフィック制作"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:122
@@ -417,8 +483,8 @@ msgid ""
 "<a href=\"https://forums.wesnoth.org/viewforum.php?f=14\">Produce</a> new "
 "music tracks and sound effects"
 msgstr ""
-"ミュージックトラックとサウンドエフェクトの<a "
-"href=\"https://forums.wesnoth.org/viewforum.php?f=14\">制作</a>"
+"ミュージックトラックとサウンドエフェクトの<a href=\"https://forums.wesnoth."
+"org/viewforum.php?f=14\">制作</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:124
@@ -435,7 +501,8 @@ msgstr "詳細"
 msgid ""
 "<a href=\"https://changelog.wesnoth.org/1.18/\">Full Changelog</a> (English "
 "only)"
-msgstr "<a href=\"https://changelog.wesnoth.org/1.18/\">すべての変更履歴</a>（英語）"
+msgstr ""
+"<a href=\"https://changelog.wesnoth.org/1.18/\">すべての変更履歴</a>（英語）"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:131
@@ -443,7 +510,8 @@ msgid ""
 "<a href=\"https://www.wesnoth.org/manual/1.18/manual.en.html\">User’s "
 "Manual</a>"
 msgstr ""
-"<a href=\"https://www.wesnoth.org/manual/1.18/manual.ja.html\">ユーザーマニュアル</a>"
+"<a href=\"https://www.wesnoth.org/manual/1.18/manual.ja.html\">ユーザーマニュ"
+"アル</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:132
@@ -453,30 +521,34 @@ msgstr "<a href=\"https://www.wesnoth.org\">公式サイト</a>（英語）"
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:136
 msgid ""
-"<a href=\"https://www.wesnoth.org/start/1.16\">Wesnoth 1.16 Release "
-"Notes</a>"
-msgstr "<a href=\"https://www.wesnoth.org/start/1.16\">Wesnoth 1.16 リリースノート</a>"
+"<a href=\"https://www.wesnoth.org/start/1.16\">Wesnoth 1.16 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.16\">Wesnoth 1.16 リリースノート</"
+"a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:137
 msgid ""
-"<a href=\"https://www.wesnoth.org/start/1.14\">Wesnoth 1.14 Release "
-"Notes</a>"
-msgstr "<a href=\"https://www.wesnoth.org/start/1.14\">Wesnoth 1.14 リリースノート</a>"
+"<a href=\"https://www.wesnoth.org/start/1.14\">Wesnoth 1.14 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.14\">Wesnoth 1.14 リリースノート</"
+"a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:138
 msgid ""
-"<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release "
-"Notes</a>"
-msgstr "<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 リリースノート</a>"
+"<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 リリースノート</"
+"a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:139
 msgid ""
-"<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release "
-"Notes</a>"
-msgstr "<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 リリースノート</a>"
+"<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 リリースノート</"
+"a>"
 
 #. type: Content of: <html><body><div><div><div><div>
 #: template.html:150
@@ -489,17 +561,17 @@ msgid ""
 "<a href=\"https://wiki.wesnoth.org/StartingPoints\">Site Map</a> &#8226; <a "
 "href=\"https://status.wesnoth.org/\">Site Status</a>"
 msgstr ""
-"<a href=\"https://wiki.wesnoth.org/StartingPoints\">サイトマップ</a> &#8226; <a "
-"href=\"https://status.wesnoth.org/\">サイトステータス</a>"
+"<a href=\"https://wiki.wesnoth.org/StartingPoints\">サイトマップ</a> &#8226; "
+"<a href=\"https://status.wesnoth.org/\">サイトステータス</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:157
 msgid ""
-"Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" "
-"href=\"https://wiki.wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
+"Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" href=\"https://wiki."
+"wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 msgstr ""
-"Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" "
-"href=\"https://wiki.wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
+"Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" href=\"https://wiki."
+"wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:158
