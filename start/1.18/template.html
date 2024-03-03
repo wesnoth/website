@@ -174,7 +174,7 @@
 		/*
 		 * Smooth scrolling for anchor links
 		 */
-		document.querySelectorAll("a[href*='#']:not([href='#'])").forEach((link) => {
+		document.querySelectorAll("a[href^='#']:not([href$='#'])").forEach((link) => {
 			link.addEventListener('click', (e) => {
 				e.preventDefault();
 				document.querySelector(e.target.hash).scrollIntoView({
