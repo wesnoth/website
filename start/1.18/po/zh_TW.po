@@ -1,30 +1,30 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Wesnoth Development Team
+# The Battle for Wesnoth - Traditional Chinese Translations
+# Copyright (C) 2005-2024 Wesnoth development team
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 曾筠鈞 <yunchuntseng@gmail.com>, 2024.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: wesnoth-1.18\n"
 "POT-Creation-Date: 2024-03-01 13:54-0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2024-03-17 19:02+0800\n"
+"Last-Translator: 楊綮銘 <steven2880@gmail.com>\n"
+"Language-Team: Wesnoth Traditional Chinese Team\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #. type: Attribute 'lang' of: <html>
 #: template.html:3
 msgid "en"
-msgstr ""
+msgstr "zh_TW"
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:15 template.html:27
 msgid "The Battle for Wesnoth 1.18"
-msgstr ""
+msgstr "韋諾之戰 1.18"
 
 #. type: Content of: <html><body><div><div>
 #: template.html:25
@@ -32,11 +32,13 @@ msgid ""
 "<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span aria-"
 "hidden=\"true\"></span></a>"
 msgstr ""
+"<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span aria-"
+"hidden=\"true\"></span></a>"
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:27
 msgid "<span id=\"branding-sub\">Draconic Invasions Update</span>"
-msgstr ""
+msgstr "<span id=\"branding-sub\">沙丘征服更新</span>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:30
@@ -44,6 +46,8 @@ msgid ""
 "<i>March 2024.</i> The development team is proud to present version 1.18 of "
 "<cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
 msgstr ""
+"<i>2024年3月</i>開發團隊在此隆重推出1.18版本的<cite><a href=\"/\">韋&nbsp;諾"
+"&nbsp;之&nbsp;戰</a></cite>!"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:32
@@ -55,6 +59,10 @@ msgid ""
 "more! Try them out for yourself, or take a look <a href=\"#game\">below</a> "
 "for more details."
 msgstr ""
+"此版本增加許多新的內容，並對現有的內容進行改善，包括新的龍族戰役、最古老親皇"
+"派戰役的全面重製、圖形效能的大幅改善，還有針對多人遊戲的平衡調整、成就系統、"
+"編輯器擴充，以及其他更多內容！等你來親自體驗，透過<a href=\"#game\">下方</a>"
+"來查看更多細節。"
 
 #. type: Content of: <html><body><div><div><div><a><span>
 #: template.html:36
@@ -66,6 +74,12 @@ msgid ""
 "wesnoth.itch.io/battle-for-wesnoth\" aria-label=\"Available on itch.io\"> "
 "<span class=\"download-text\">"
 msgstr ""
+"<a class=\"download-button\" role=\"button\" href=\"https://www.wesnoth.org/"
+"#download\"> <span class=\"download-arrow\" aria-hidden=\"true\"></span> "
+"<span class=\"download-text\"> <span class=\"download-big\">立即下載</span> "
+"</span> </a> <a class=\"itchio-button\" role=\"button\" href=\"https://"
+"wesnoth.itch.io/battle-for-wesnoth\" aria-label=\"Available on itch.io\"> "
+"<span class=\"download-text\">"
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:46
@@ -76,16 +90,21 @@ msgid ""
 "hidden=\"true\"></span> <span class=\"download-big\">Get on Steam</span> </"
 "span> </a>"
 msgstr ""
+"<span class=\"download-big\">在itch.io中下載</span> </span> </a> <a "
+"class=\"steam-button\" role=\"button\" href=\"https://store.steampowered.com/"
+"app/599390\"> <span class=\"download-text\"> <span class=\"steam-icon\" aria-"
+"hidden=\"true\"></span> <span class=\"download-big\">在Steam中下載</span> </"
+"span> </a>"
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:63
 msgid "What’s New in This Update"
-msgstr ""
+msgstr "本次更新內容"
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:65
 msgid "For Players"
-msgstr ""
+msgstr "針對玩家的更新"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:67
@@ -96,6 +115,9 @@ msgid ""
 "Wesnoth, but will in all cases result in a much smoother and more consistent "
 "experience across all areas of the game."
 msgstr ""
+"韋諾之戰的程式渲染已全面改造，性能大幅提升，根據我們的測試，每秒傳輸幀數提升"
+"將近60%。這個表現取決您的電腦性能，但無論如何都會使遊戲在各個領域的體驗更完整"
+"和更加一致。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:69
@@ -108,26 +130,27 @@ msgid ""
 "the Saurian Oracle and Saurian Soothsayer have been added and the Orcish "
 "Nightblade now serves as the default advancement for the Orcish Slayer."
 msgstr ""
+"預設時代的所有派系都經歷重大更新，以確保一對一時更加平衡，並確保戰役使用新的"
+"可變召喚成本機制。高級單位也進行各種調整，更好地平衡了英雄時代以及高級單位普"
+"遍存在的生存章節。已新增蜥蜴先知和蜥蜴預言者的第三階段升級，而且半獸人獵殺者"
+"將可升級成半獸人夜刃。"
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:71
 msgid "Campaigns"
-msgstr ""
+msgstr "戰役"
 
-# type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:73
-#, fuzzy
 #| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href=\"images/start-2.png\">"
-msgstr "<a href='images/start-1-full.jpg'>"
+msgstr "<a href=\"images/start-2.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:73
 msgid "Campaigns menu screenshot"
-msgstr ""
+msgstr "戰役選單截圖"
 
-# type: Content of: <html><body><div><div><div>
 #. type: Content of: <html><body><div><div><div>
 #: template.html:73 template.html:83 template.html:87 template.html:97
 #: template.html:103
@@ -142,6 +165,8 @@ msgid ""
 "for survival and tumultuous return to Wesnoth’s Great Continent as they flee "
 "their sinking island homes."
 msgstr ""
+"此次新增一個新戰役<cite>《命運之風》</cite>！首次在韋諾之戰裡加入龍族戰役，展"
+"現他們為生存而戰，逃離沉沒的島嶼家園後重返韋諾大陸的動盪歷程。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:77
@@ -151,6 +176,9 @@ msgid ""
 "scenario variety augmented by much more dynamic AI opponents. Several lore "
 "conflicts with other campaigns have also been resolved."
 msgstr ""
+"<cite>《東部入侵》</cite> — 在韋諾之戰裡首次加入的親皇派戰役 — 目前已經全面重"
+"新製作，角色更加深入，情節更加豐富，並且搭配更加動態的人工智慧對手，增加了更"
+"多的章節變化。同時也解決了與其他戰役之間的一些故事衝突。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:79
@@ -161,24 +189,25 @@ msgid ""
 "new abilities and new weapon effects for their attacks, making this a unique "
 "experience among Wesnoth’s campaigns."
 msgstr ""
+"最後，在<cite>《烈日當空》</cite> 戰役中的昆諾種族已經進行了大幅度的改版，故"
+"事更加有趣 — 英雄單位升級時可以獲得獨特的獎勵，而普通單位能在升級時擁有新技能"
+"和攻擊時的新武器效果，這將成為韋諾之戰裡戰役中獨一無二的體驗。"
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:81
 msgid "Multiplayer"
-msgstr ""
+msgstr "多人遊戲"
 
-# type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:83
-#, fuzzy
 #| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href=\"images/start-1.png\">"
-msgstr "<a href='images/start-1-full.jpg'>"
+msgstr "<a href=\"images/start-1.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:83
 msgid "In-game game history viewer"
-msgstr ""
+msgstr "遊戲歷史紀錄"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:85
@@ -191,19 +220,22 @@ msgid ""
 "there’s an <a href=\"https://replays.wesnoth.org/dashboard/\">online "
 "dashboard</a> available with more general data about games played."
 msgstr ""
+"現在玩家可以查看自己先前的遊戲歷史紀錄，也可以點選線上多人遊戲大廳中的「對戰"
+"歷史」來搜索其他玩家的遊戲歷史紀錄。歷史紀錄會顯示有關遊戲本身、遊戲中的玩"
+"家、使用的時代、啟用的任何修改，並讓您下載遊戲的重播來觀看。此外，還能點選<a "
+"href=\"https://replays.wesnoth.org/dashboard/\">線上戰情室</a>來查看更多細"
+"節。"
 
-# type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:87
-#, fuzzy
 #| msgid "<a href='images/start-2-full.jpg'>"
 msgid "<a href=\"images/start-5.gif\">"
-msgstr "<a href='images/start-2-full.jpg'>"
+msgstr "<a href=\"images/start-5.gif\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:87
 msgid "Animated waterfall"
-msgstr ""
+msgstr "動畫瀑布"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:89
@@ -217,6 +249,12 @@ msgid ""
 "now automatically detect when your connection is lost and alert you to the "
 "problem."
 msgstr ""
+"現在，自動進行的遊戲（例如Afterlife）與其他玩家主持的自訂遊戲已被區分開來。玩"
+"家主持的遊戲將顯示在「一般大廳」中，而自動進行的遊戲則會顯示在「配對」中。為"
+"了幫助玩家回報其他有問題的玩家或是遊戲本身的問題，在<code>/report</code>中有"
+"一個對話框，玩家可以在對話框內輸入發現的問題。此外，為了能在網路出問題而導致"
+"伺服器斷線時做出更好的應對措施，韋諾之戰現在會自動檢測您的連線是否中斷，並主"
+"動告知您此訊息。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:91
@@ -226,29 +264,29 @@ msgid ""
 "and the first player to take control will obtain a treasure chest containing "
 "a tidy sum."
 msgstr ""
+"為鼓勵玩家佔領中央要塞，山丘之王地圖已經更新為：無論玩家佔領山頂的哪一方，都"
+"能獲得可觀的額外收入，而且第一個佔領者還可獲得一個鉅額寶箱。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:93
 msgid "And, as a cherry on top, the waterfall on Isar’s Cross is now animated."
-msgstr ""
+msgstr "最後作為一個驚喜，伊薩爾交叉口上的瀑布現在已經加入了動畫效果。"
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:95
 msgid "For Content Creators"
-msgstr ""
+msgstr "針對創作者們的更新"
 
-# type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:97
-#, fuzzy
 #| msgid "<a href='images/start-3-full.jpg'>"
 msgid "<a href=\"images/start-3.png\">"
-msgstr "<a href='images/start-3-full.jpg'>"
+msgstr "<a href=\"images/start-3.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:97
 msgid "Achievements"
-msgstr ""
+msgstr "成就"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:99
@@ -263,6 +301,12 @@ msgid ""
 "multiplayer maps <cite>Dark Forecast</cite>, <cite>Isle of Mists</cite>, "
 "<cite>A New Land</cite> and <cite>Team Survival</cite>."
 msgstr ""
+"韋諾之戰現在支援內建成就系統！這些成就<b>並非 Steam 成就</b>，也因此並不限於"
+"基本遊戲中預定的成就集 — 模組可以定義自己的成就，甚至可以向其他模組或主線遊戲"
+"中添加額外的成就。在這個初始版本中，已為教學戰役、<cite>墮入黑暗</cite>、"
+"<cite>東部入侵</cite>、<cite>自由</cite>以及多人地圖<cite>黑暗預測</cite>、"
+"<cite>迷霧之島</cite>、<cite>新土地</cite>和<cite>團隊生存</cite>實現了成就系"
+"統。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:101
@@ -279,19 +323,23 @@ msgid ""
 "on, so you will know of any issues before the upload takes place rather than "
 "afterwards."
 msgstr ""
+"關於您自製模組的發佈，韋諾之戰現在允許使用您的論壇使用者名稱和密碼來上傳模"
+"組。這樣一來，模組的密碼將儲存在加密文件中，而不是以純文本形式儲存在您的"
+"<code>_server.pbl</code>中，這將具更安全性，但也意味者，如果您忘記密碼，必須"
+"要使用論壇的密碼恢復功能來重新取得存取許可。此外，對於多人合作開發的模組，可"
+"以讓被指定的用戶對該模組進行更新。在上傳模組前，必須先驗證您的<code>_server."
+"pbl</code>，就能在上傳前就知道是否存在任何問題，而不是之後才發現。"
 
-# type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:103
-#, fuzzy
 #| msgid "<a href='images/start-4-full.jpg'>"
 msgid "<a href=\"images/start-4.jpg\">"
-msgstr "<a href='images/start-4-full.jpg'>"
+msgstr "<a href=\"images/start-4.jpg\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:103
 msgid "Raise/lowered terrain"
-msgstr ""
+msgstr "高低地形"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:105
@@ -303,6 +351,10 @@ msgid ""
 "add-on, the add-on’s <code>_server.pbl</code>, its scenarios, and upload the "
 "add-on for others to play, all from within Wesnoth."
 msgstr ""
+"章節編輯器進行重大升級：現在不僅能理解單一章節，還可以讓您製作新模組的結構，"
+"也提供在製作<code>_server.pbl</code>時的使用者介面。這意味著現在您可以在韋諾"
+"之戰裡製作一個模組、該模組的<code>_server.pbl</code>及該模組的劇情，並上傳該"
+"模組供其他玩家使用。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:107
@@ -313,6 +365,9 @@ msgid ""
 "terrains and fauna units added from palisade walls, seashell embellishments, "
 "and seaweed terrain to fire ants, giant jumping spiders, and rocs."
 msgstr ""
+"地圖編輯器也得到重大改進：現在可以加入懸崖和山谷，可以為您的地圖增加不少的"
+"<cite>細節</cite>。除此之外，還能新增各種新的地形和生物，從柵欄牆、貝殼裝飾和"
+"海藻地形到火蟻、巨型跳蛛和巨鷹都有。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:109
@@ -321,6 +376,8 @@ msgid ""
 "various animations added, primarily Loyalists, Orcs, and Trolls but also "
 "some Elf and Undead units."
 msgstr ""
+"許多精靈單位的圖像得到改善，並新增各種動畫，主要是保皇派、半獸人和巨魔，但也"
+"包括一些精靈和不死族的單位。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:111
@@ -331,11 +388,14 @@ msgid ""
 "for Visual Studio Code, but should work with any editor that has an LuaCATS "
 "plugin."
 msgstr ""
+"最後，幾乎所有韋諾之戰定義的Lua函數現在都有LuaCATS(Lua Comment And Type "
+"System)支援，在輸入時會自動填寫，並在滑鼠停在上方時提供文檔。這主要是為了"
+"Visual Studio Code而編寫，但應適用於任何具有LuaCATS模組的編輯器。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:113
 msgid "Contribute"
-msgstr ""
+msgstr "貢獻"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:115
@@ -349,6 +409,11 @@ msgid ""
 "scenario or adding a feature to your custom maps, <cite>Wesnoth</cite> "
 "boasts a massive community of players and creators always willing to help."
 msgstr ""
+"許多來自不同背景的國際志願者不間斷地對<cite>韋諾之戰</cite>進行改進和擴展。自"
+"2003年7月創立以來，數百人在遊戲的各個領域做出了貢獻，從官方發布的主要內容到數"
+"百個玩家製作的模組，都可以透過我們的模組伺服器來下載。無論您需要幫忙來打贏特"
+"定的章節，或是在您的自定地圖上添加某個功能，韋諾之戰都擁有一個龐大的玩家和創"
+"作者社區，隨時為您提供協助。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:117
@@ -356,14 +421,13 @@ msgid ""
 "Besides creating your own add-on content, there are many other ways you can "
 "help <cite>Wesnoth</cite>:"
 msgstr ""
+"除了創作您自己的模組之外，還有其他許多方式可以讓<cite>韋諾</cite>變得更好："
 
-# type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:120
-#, fuzzy
 #| msgid "<a href='http://www.wesnoth.org'>"
 msgid "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
-msgstr "<a href='//www.wesnoth.org'>"
+msgstr "<a href=\"https://wiki.wesnoth.org/Project\">貢獻</a>編碼"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:121
@@ -372,16 +436,18 @@ msgid ""
 "the main game or for user-made <a href=\"https://forums.wesnoth.org/"
 "viewforum.php?f=23\">add-ons</a>"
 msgstr ""
+"為主遊戲<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">製作</a>美術"
+"圖像或自製<a href=\"https://forums.wesnoth.org/viewforum.php?f=23\">模組</a>"
 
-# type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:122
-#, fuzzy
 #| msgid "<a href='http://www.wesnoth.org'>"
 msgid ""
 "<a href=\"https://wiki.wesnoth.org/WesnothTranslations\">Translate</a> the "
 "game into your language"
-msgstr "<a href='//www.wesnoth.org'>"
+msgstr ""
+"<a href=\"https://wiki.wesnoth.org/WesnothTranslations\">翻譯</a>遊戲成您的語"
+"言"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:123
@@ -389,80 +455,75 @@ msgid ""
 "<a href=\"https://forums.wesnoth.org/viewforum.php?f=14\">Produce</a> new "
 "music tracks and sound effects"
 msgstr ""
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=14\">製作</a>新的音樂曲"
+"目和音效"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:124
 msgid "Spread the word about <cite>Wesnoth</cite> on social media!"
-msgstr ""
+msgstr "在社群媒體上宣傳<cite>韋諾之戰</cite>的訊息！"
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:127
 msgid "More Info"
-msgstr ""
+msgstr "更多資訊"
 
-# type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:130
-#, fuzzy
 #| msgid "<a href='http://www.wesnoth.org'>"
 msgid ""
 "<a href=\"https://changelog.wesnoth.org/1.18/\">Full Changelog</a> (English "
 "only)"
-msgstr "<a href='//www.wesnoth.org'>"
+msgstr ""
+"<a href=\"https://changelog.wesnoth.org/1.18/\">完整的更新日誌</a> (英文)"
 
-# type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:131
-#, fuzzy
 msgid ""
 "<a href=\"https://www.wesnoth.org/manual/1.18/manual.en.html\">User’s "
 "Manual</a>"
-msgstr "<a href='//www.wesnoth.org'>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/manual/stable/manual.zh_TW.html\">玩家手冊"
+"</a>"
 
-# type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:132
-#, fuzzy
 #| msgid "<a href='http://www.wesnoth.org'>"
 msgid "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
-msgstr "<a href='//www.wesnoth.org'>"
+msgstr "<a href=\"https://www.wesnoth.org\">官方網站</a> (英文)"
 
-# type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:136
-#, fuzzy
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.16\">Wesnoth 1.16 Release Notes</a>"
-msgstr "<a href='//www.wesnoth.org'>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.16\">韋諾之戰 1.16 版本說明</a>"
 
-# type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:137
-#, fuzzy
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.14\">Wesnoth 1.14 Release Notes</a>"
-msgstr "<a href='//www.wesnoth.org'>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.14\">韋諾之戰 1.14 版本說明</a>"
 
-# type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:138
-#, fuzzy
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release Notes</a>"
-msgstr "<a href='//www.wesnoth.org'>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.12\">韋諾之戰 1.12 版本說明</a>"
 
-# type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:139
-#, fuzzy
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release Notes</a>"
-msgstr "<a href='//www.wesnoth.org'>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.10\">韋諾之戰 1.10 版本說明</a>"
 
 #. type: Content of: <html><body><div><div><div><div>
 #: template.html:150
 msgid "This page is also available in the following languages:"
-msgstr ""
+msgstr "此頁面還有其他語言版本："
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:156
@@ -470,6 +531,8 @@ msgid ""
 "<a href=\"https://wiki.wesnoth.org/StartingPoints\">Site Map</a> &#8226; <a "
 "href=\"https://status.wesnoth.org/\">Site Status</a>"
 msgstr ""
+"<a href=\"https://wiki.wesnoth.org/StartingPoints\">網站導覽</a> &#8226; <a "
+"href=\"https://status.wesnoth.org/\">伺服器狀態</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:157
@@ -477,11 +540,13 @@ msgid ""
 "Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" href=\"https://wiki."
 "wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 msgstr ""
+"版權所有&#169; 2003&#8211;2024 <a rel=\"author\" href=\"https://wiki.wesnoth."
+"org/Project\">韋諾之戰製作團隊</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:158
 msgid "Site design Copyright &#169; 2017&#8211;2024 by Iris Morelle"
-msgstr ""
+msgstr "網站設計版權所有&#169; 2017&#8211;2024 Iris Morelle"
 
 # type: Content of: <html><body><div><div><div><a>
 #, fuzzy
