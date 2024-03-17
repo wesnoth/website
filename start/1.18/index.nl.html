@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+
+<html class="no-js press-release" lang="nl">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montaga%7COpen+Sans:400,400i,700,700i" type="text/css" />
+	<link rel="icon" type="image/png" href="/wesmere/img/favicon-32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/wesmere/img/favicon-16.png" sizes="16x16" />
+
+	<link rel="stylesheet" type="text/css" href="https://www.wesnoth.org/wesmere/css/wesmere.css" />
+	<link rel="stylesheet" type="text/css" href="css/lintanir.css" />
+
+	<title>De Strijd om Wesnoth 1.18</title>
+
+	<script src="js/modernizr.js"></script>
+</head>
+
+<body>
+
+<div id="main">
+
+<div id="cover" role="banner">
+	<a id="bigshield" href="/" aria-label="Wesnoth logo"><span
+aria-hidden="true"></span></a>
+
+	<h1 id="branding-title">De Strijd om Wesnoth 1.18<br/><span id="branding-sub">Invasie der Draken Update</span></h1>
+
+	<div id="intro">
+		<p><i>Maart 2024.</i> Het ontwikkelingsteam presenteert met trots versie 1.18
+van <cite><a href="/">De&nbsp;Strijd&nbsp;om&nbsp;Wesnoth</a></cite>!</p>
+
+		<p>Deze release bevat vele verbeteringen op meerdere gebieden van het spel,
+waaronder een nieuwe Draken veldtocht, een volledig herziene versie van onze
+oudste Loyalisten veldtocht, verbeterde grafische prestaties, grote
+wijzigingen om multiplayer gebalanceerder te maken, prestaties, veel
+verbeteringen in de editor, en nog veel meer. Probeer de nieuwe functies
+zelf uit of lees <a href="#game">hieronder</a> verder voor meer informatie.</p>
+	</div>
+
+	<div id="quick-download">
+		<a class="download-button" role="button"
+href="https://www.wesnoth.org/#download"> <span class="download-arrow"
+aria-hidden="true"></span> <span class="download-text"> <span
+class="download-big">Download Nu</span> </span> </a> <a
+class="itchio-button" role="button"
+href="https://wesnoth.itch.io/battle-for-wesnoth" aria-label="Beschikbaar
+onp itch.io"> <span class="download-text">
+				<svg class="itchio-logo" xmlns="http://www.w3.org/2000/svg" height="235.452" width="261.728" viewBox="0 0 245.371 220.736"><path d="M31.99 1.365C21.287 7.72.2 31.945 0 38.298v10.516C0 62.144 12.46 73.86 23.773 73.86c13.584 0 24.902-11.258 24.903-24.62 0 13.362 10.93 24.62 24.515 24.62 13.586 0 24.165-11.258 24.165-24.62 0 13.362 11.622 24.62 25.207 24.62h.246c13.586 0 25.208-11.258 25.208-24.62 0 13.362 10.58 24.62 24.164 24.62 13.585 0 24.515-11.258 24.515-24.62 0 13.362 11.32 24.62 24.903 24.62 11.313 0 23.773-11.714 23.773-25.046V38.298c-.2-6.354-21.287-30.58-31.988-36.933C180.118.197 157.056-.005 122.685 0c-34.37.003-81.228.54-90.697 1.365zm65.194 66.217a28.025 28.025 0 0 1-4.78 6.155c-5.128 5.014-12.157 8.122-19.906 8.122a28.482 28.482 0 0 1-19.948-8.126c-1.858-1.82-3.27-3.766-4.563-6.032l-.006.004c-1.292 2.27-3.092 4.215-4.954 6.037a28.5 28.5 0 0 1-19.948 8.12c-.934 0-1.906-.258-2.692-.528-1.092 11.372-1.553 22.24-1.716 30.164l-.002.045c-.02 4.024-.04 7.333-.06 11.93.21 23.86-2.363 77.334 10.52 90.473 19.964 4.655 56.7 6.775 93.555 6.788h.006c36.854-.013 73.59-2.133 93.554-6.788 12.883-13.14 10.31-66.614 10.52-90.474-.022-4.596-.04-7.905-.06-11.93l-.003-.045c-.162-7.926-.623-18.793-1.715-30.165-.786.27-1.757.528-2.692.528a28.5 28.5 0 0 1-19.948-8.12c-1.862-1.822-3.662-3.766-4.955-6.037l-.006-.004c-1.294 2.266-2.705 4.213-4.563 6.032a28.48 28.48 0 0 1-19.947 8.125c-7.748 0-14.778-3.11-19.906-8.123a28.025 28.025 0 0 1-4.78-6.155 27.99 27.99 0 0 1-4.736 6.155 28.49 28.49 0 0 1-19.95 8.124c-.27 0-.54-.012-.81-.02h-.007c-.27.008-.54.02-.813.02a28.49 28.49 0 0 1-19.95-8.123 27.992 27.992 0 0 1-4.736-6.155zm-20.486 26.49l-.002.01h.015c8.113.017 15.32 0 24.25 9.746 7.028-.737 14.372-1.105 21.722-1.094h.006c7.35-.01 14.694.357 21.723 1.094 8.93-9.747 16.137-9.73 24.25-9.746h.014l-.002-.01c3.833 0 19.166 0 29.85 30.007L210 165.244c8.504 30.624-2.723 31.373-16.727 31.4-20.768-.773-32.267-15.855-32.267-30.935-11.496 1.884-24.907 2.826-38.318 2.827h-.006c-13.412 0-26.823-.943-38.318-2.827 0 15.08-11.5 30.162-32.267 30.935-14.004-.027-25.23-.775-16.726-31.4L46.85 124.08C57.534 94.073 72.867 94.073 76.7 94.073zm45.985 23.582v.006c-.02.02-21.863 20.08-25.79 27.215l14.304-.573v12.474c0 .584 5.74.346 11.486.08h.006c5.744.266 11.485.504 11.485-.08v-12.474l14.304.573c-3.928-7.135-25.79-27.215-25.79-27.215v-.006l-.003.002z" color="#000"/></svg>
+				<span class="download-big">Ontvang via itch.io</span> </span> </a> <a
+class="steam-button" role="button"
+href="https://store.steampowered.com/app/599390"> <span
+class="download-text"> <span class="steam-icon" aria-hidden="true"></span>
+<span class="download-big">Ontvang via Steam</span> </span> </a>
+	</div>
+</div>
+
+<div id="nav"></div>
+
+<div id="content">
+
+<h2 id="game" class="center">Wat is nieuw in deze update</h2>
+
+<h4 id="players">Voor Spelers</h4>
+
+<p>De weergave van Wesnoth is volledig herzien, wat heeft geleid tot een
+aanzienlijke verbetering van de prestaties. Onze eigen tests lieten een
+FPS-verbetering van bijna 60% zien. Dit zal uiteraard variëren afhankelijk
+van de computer die je gebruikt om Wesnoth te spelen, maar zal in alle
+gevallen resulteren in een veel soepelere en consistentere ervaring in alle
+delen van het spel.</p>
+
+<p>Alle facties in het Standaard-tijdperk hebben grote updates ondergaan om
+ervoor te zorgen dat standaard 1v1-games evenwichtiger zijn en om
+valdtochten in staat te stellen het nieuwe variabele oproepkostenmechanisme
+te gebruiken. Eenheden van een hoger niveau hebben ook een aantal
+aanpassingen ondergaan om het Tijd der Helden-tijdperk beter in balans te
+brengen, evenals overlevingsscenario's waarin eenheden van een hoog niveau
+gebruikelijk zijn. Level drie-verbeteringen voor het Sauriaans Orakel en
+Sauriaanse Waarzegger zijn toegevoegd en de Orkse Nachtsluiper dient nu als
+de standaardvooruitgang voor de Orkmoordenaar.</p>
+
+<h4 id="campaigns">Veldtochten</h4>
+
+<div class="thumb"><a href="images/start-2.png"><img src="images/start-2-thumb.png" alt="Veldtochten menu schermafbeelding" /></a></div>
+
+<p>Een nieuwe veldtocht, <cite>Windvlagen van het Lot</cite>, is aan het spel
+toegevoegd! Dit is de eerste Draken-veldtocht die in Wesnoth is opgenomen en
+toont hun strijd om te overleven en de tumultueuze terugkeer naar Wesnoth’s
+Grote Continent terwijl ze hun zinkende thuiseilanden ontvluchten.</p>
+
+<p><cite>Oostelijke Invasie</cite> — de eerste Loyalist-veldtocht die ooit aan
+Wesnoth is toegevoegd — is volledig opnieuw gemaakt met veel diepere
+karakters en een grotere variatie in scenario's, aangevuld met veel
+dynamischere AI-tegenstanders. Verschillende oude problemen met andere
+veldtochten zijn ook opgelost.</p>
+
+<p>En ten slotte heeft de Quenoth-factie in de veldtocht <cite>Onder de
+Brandende Zonnen</cite> een correctie ondergaan om ze interessanter te
+maken: heldeneenheden kunnen nu unieke bonussen krijgen als ze een level
+omhoog gaan, terwijl reguliere eenheden nieuwe vaardigheden en nieuwe wapens
+hebben. effecten voor hun aanvallen, waardoor dit een unieke ervaring is
+onder de veldtochten van Wesnoth.</p>
+
+<h4 id="multiplayer">Multiplayer</h4>
+
+<div class="thumb tright"><a href="images/start-1.png"><img src="images/start-1-thumb.png" alt="Geschiedenis tonen in het spel" /></a></div>
+
+<p>Spelers kunnen nu de geschiedenis van hun eigen eerder gespeelde spellen
+bekijken en ook de geschiedenis van andere spelers doorzoeken door op de
+knop Wedstrijdgeschiedenis in de online multiplayerlobby te klikken. Dit
+toont informatie over het spel zelf, de spelers in het spel, het gebruikte
+tijdperk, eventuele ingeschakelde add-ons, en laat je de herhaling van het
+spel downloaden om het zelf te bekijken. Daarnaast is er een <a
+href="https://replays.wesnoth.org/dashboard/">online dashboard</a>
+beschikbaar met meer algemene gegevens over gespeelde games.</p>
+
+<div class="thumb tleft"><a href="images/start-5.gif"><img src="images/start-5.gif" alt="Geanimeerde waterval" /></a></div>
+
+<p>Er is een duidelijke scheiding gemaakt tussen automatisch gehoste games
+zoals Afterlife en aangepaste games die door andere spelers worden
+gehost. Games die door spelers worden gehost, staan op het tabblad Algemene
+lobby, terwijl automatisch gehoste games op het tabblad Matchmaking
+staan. Om te helpen bij het rapporteren van problematische spelers of games,
+toont de opdracht <code>/report</code> nu een dialoogvenster waarin
+informatie over het probleem kan worden ingevoerd. En om beter om te kunnen
+gaan met server-verbroken verbindingen als gevolg van netwerkproblemen, zal
+Wesnoth nu automatisch detecteren wanneer uw verbinding verbroken wordt en u
+op de hoogte stellen van het probleem.</p>
+
+<p>De Koning van de Heuvel-kaart is bijgewerkt om spelers aan te moedigen de
+middelste donjon te claimen. De kant van de heuvel waar de heuvel zich
+bevindt, krijgt een aanzienlijk bonusinkomen en de eerste speler die de
+controle overneemt, krijgt een schatkist met daarin een aardig bedrag.</p>
+
+<p>En als kers op de taart is de waterval op Isar’s Kruis nu geanimeerd.</p>
+
+<h4 id="creators">Voor makers van content</h4>
+
+<div class="thumb tright"><a href="images/start-3.png"><img src="images/start-3-thumb.png" alt="Prestaties" /></a></div>
+
+<p>Wesnoth heeft nu ingebouwde ondersteuning voor prestaties! Deze prestaties
+<b>zijn geen Steam-prestaties</b>, maar daarom zijn ze niet beperkt tot een
+vooraf gedefinieerde reeks prestaties die alleen beschikbaar zijn voor het
+basisspel - add-ons kunnen hun eigen prestaties definiëren en kunnen zelfs
+extra prestaties toevoegen aan andere add-ons of aan de hoofdlijn. Voor deze
+eerste versie zijn de prestaties al geïmplementeerd voor de uitlegveldtocht,
+<cite>Afdaling naar de Duisternis</cite>, <cite>Oostelijke Invasie</cite>,
+<cite>Vrijheid</cite> en de coöp-multiplayer kaarten <cite>Duistere
+Voorspelling</cite>, <cite>Eiland der Misten</cite>, <cite>Een Nieuw
+Land</cite> en <cite>Team Overleving</cite>.</p>
+
+<p>Voor het distribueren van uw add-ons staat Wesnoth nu toe dat u uw
+forumgebruikersnaam en -wachtwoord gebruikt tijdens het uploaden. Wanneer u
+deze aanpak gebruikt, wordt de wachtwoordzin van de add-on in plaats daarvan
+opgeslagen in het gecodeerde inloggegevensbestand in plaats van platte tekst
+in uw <code>_server.pbl</code>, wat veiliger is, maar het betekent ook dat
+als u uw wachtwoord kwijtraakt, u kunt het wachtwoordherstel van het forum
+gebruiken om weer toegang te krijgen tot uw add-ons. Bovendien maakt dit het
+mogelijk om andere gebruikers te specificeren die updates naar de add-on
+mogen uploaden, voor add-ons die door meerdere mensen gezamenlijk zijn
+ontwikkeld. Uw <code>_server.pbl</code> wordt ook gevalideerd voordat u uw
+add-on uploadt, zodat u op de hoogte bent van eventuele problemen voordat de
+upload plaatsvindt en niet achteraf.</p>
+
+<div class="thumb tleft"><a href="images/start-4.jpg"><img src="images/start-4-thumb.jpg" alt="Verhoogd/verlaagd terrein" /></a></div>
+
+<p>De scenario-editor heeft een grote upgrade gekregen: in plaats van alleen
+afzonderlijke veldtochtbestanden te kunnen begrijpen, is deze nu in staat de
+basis van een gloednieuwe add-on te creëren en een gebruikersinterface te
+bieden voor het maken van de vereiste <code>_server. pbl</code>. Dit
+betekent dat het nu mogelijk is om een add-on te maken, de
+<code>_server.pbl</code> van de add-on, en de scenario's ervan, en de add-on
+te uploaden zodat anderen deze kunnen spelen, allemaal vanuit Wesnoth.</p>
+
+<p>De kaarteditor heeft eveneens een aanzienlijke verbetering ondergaan: het is
+nu mogelijk om kliffen en valleien toe te voegen, die kunnen worden gebruikt
+om behoorlijk wat <cite>diepte</cite> aan uw kaarten toe te
+voegen. Daarnaast is er een verscheidenheid aan nieuwe terreinen en
+fauna-eenheden toegevoegd, van palissademuren, schelpversieringen en
+zeewierterrein tot vuurmieren en gigantische springspinnen.</p>
+
+<p>Bij een grote verscheidenheid aan eenheden zijn de afbeeldingen eveneens
+verbeterd en zijn er verschillende animaties toegevoegd, voornamelijk
+loyalisten, orks en trollen, maar ook enkele elf- en ondode-eenheden.</p>
+
+<p>En ten slotte is LuaCATS-documentatie toegevoegd voor bijna alle
+Lua-functies die Wesnoth definieert, waardoor automatisch aanvullen wordt
+geboden bij het typen en documentatie wanneer de muis over de functie
+beweegt. Dit is voornamelijk geschreven voor Visual Studio Code, maar zou
+moeten werken met elke editor die een LuaCATS-plug-in heeft.</p>
+
+<h2 id="contribute">Bijdragen</h2>
+
+<p><cite>De Strijd om Wesnoth</cite> wordt voortdurend verbeterd en uitgebreid
+door een groot aantal internationale vrijwilligers met verschillende
+achtergronden. Sinds de start in juli 2003 hebben honderden mensen
+bijgedragen aan alle onderdelen van het spel, van de standaard veldtochten
+die als onderdeel van de officiële releases worden uitgegeven tot honderden
+door spelers gemaakte projecten die kunnen worden gedownload van onze
+add-ons-server. Of je nu hulp nodig hebt bij het oplossen van een bepaald
+scenario of het toevoegen van een functie aan je aangepaste kaarten,
+<cite>Wesnoth</cite> heeft een enorme gemeenschap van spelers en makers die
+altijd bereid zijn om te helpen.</p>
+
+<p>Naast het maken van add-ons, zijn er vele andere manieren waarop u
+<cite>Wesnoth</cite> kunt helpen:</p>
+
+<ul>
+  <li><a href="https://wiki.wesnoth.org/Project">Draag bij</a> aan de code</li>
+  <li><a href="https://forums.wesnoth.org/viewforum.php?f=9">Creëer</a>
+afbeeldingen voor de standaard veldtochten of voor <a
+href="https://forums.wesnoth.org/viewforum.php?f=23">add-ons</a> van
+contentmakers</li>
+  <li><a href="https://wiki.wesnoth.org/WesnothTranslations">Vertaal</a> het spel
+in je eigen taal</li>
+  <li><a href="https://forums.wesnoth.org/viewforum.php?f=14">Produceer</a> nieuwe
+muziek en geluidseffecten</li>
+  <li>Verspreid <cite>Wesnoth</cite> op social media!</li>
+</ul>
+
+<h2 id="more">Meer informatie</h2>
+
+<ul>
+  <li><a href="https://changelog.wesnoth.org/1.18/">Volledige lijst met
+veranderingen</a> (Alleen in het Engels)</li>
+  <li><a
+href="https://www.wesnoth.org/manual/1.18/manual.en.html">Gebruikershandleiding</a></li>
+  <li><a href="https://www.wesnoth.org">Officiële website</a> (Alleen in het
+Engels)</li>
+</ul>
+
+<ul>
+  <li><a href="https://www.wesnoth.org/start/1.16">Wesnoth 1.16 Release Notes</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.14">Wesnoth 1.14 Release Notes</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.12">Wesnoth 1.12 Release Notes</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.10">Wesnoth 1.10 Release Notes</a></li>
+</ul>
+
+</div> 
+
+<!-- content -->
+</div> 
+
+<!-- #main -->
+<div id="footer-sep"></div>
+
+<div id="footer"><div id="footer-content"><div>
+	<div id="languages">
+		Deze pagina is ook beschikbaar in de volgende talen:
+		<ul>
+			
+		<!--LANGS--><li lang='en'><a href='index.en.html'>English (US)</a></li><li lang='en-gb'><a href='index.en_GB.html'>English (GB)</a></li><li lang='ja'><a href='index.ja.html'>日本語</a></li><li lang='nl'><a href='index.nl.html'>Nederlands</a></li>
+<!--LANGS-->
+</ul>
+	</div>
+
+	<a href="https://wiki.wesnoth.org/StartingPoints">Site Map</a> &#8226; <a
+href="https://status.wesnoth.org/">Site Status</a><br />
+	Copyright &#169; 2003&#8211;2024 door <a rel="author"
+href="https://wiki.wesnoth.org/Project">The Battle for Wesnoth Project</a><br />
+	Site design Copyright &#169; 2017&#8211;2024 door Iris Morelle
+</div></div></div>
+
+<script>
+	(function() {
+		/*
+		 * Auto links on headers
+		 */
+		document.querySelectorAll("h2,h3,h4").forEach((h) => {
+			const link = document.createElement("a");
+			link.textContent = h.textContent;
+			link.href = "#" + h.id;
+			h.textContent = "";
+			h.append(link);
+		});
+
+		/*
+		 * Smooth scrolling for anchor links
+		 */
+		document.querySelectorAll("a[href^='#']:not([href$='#'])").forEach((link) => {
+			link.addEventListener('click', (e) => {
+				e.preventDefault();
+				document.querySelector(e.target.hash).scrollIntoView({
+					behavior: 'smooth'
+				});
+			});
+		});
+	}());
+</script>
+
+</body>
+</html>
