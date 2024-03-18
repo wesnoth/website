@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-1.18\n"
 "POT-Creation-Date: 2024-03-01 13:54-0600\n"
-"PO-Revision-Date: 2024-03-17 19:02+0800\n"
+"PO-Revision-Date: 2024-03-18 21:22+0800\n"
 "Last-Translator: 楊綮銘 <steven2880@gmail.com>\n"
 "Language-Team: Wesnoth Traditional Chinese Team\n"
 "Language: zh_TW\n"
@@ -38,7 +38,7 @@ msgstr ""
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:27
 msgid "<span id=\"branding-sub\">Draconic Invasions Update</span>"
-msgstr "<span id=\"branding-sub\">沙丘征服更新</span>"
+msgstr "<span id=\"branding-sub\">龍族入侵更新</span>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:30
@@ -46,8 +46,8 @@ msgid ""
 "<i>March 2024.</i> The development team is proud to present version 1.18 of "
 "<cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
 msgstr ""
-"<i>2024年3月</i>開發團隊在此隆重推出1.18版本的<cite><a href=\"/\">韋&nbsp;諾"
-"&nbsp;之&nbsp;戰</a></cite>!"
+"<i>2024 年 3 月</i>開發團隊在此隆重推出 1.18 版本的<cite><a href=\"/\">韋諾之"
+"戰</a></cite>!"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:32
@@ -61,8 +61,8 @@ msgid ""
 msgstr ""
 "此版本增加許多新的內容，並對現有的內容進行改善，包括新的龍族戰役、最古老親皇"
 "派戰役的全面重製、圖形效能的大幅改善，還有針對多人遊戲的平衡調整、成就系統、"
-"編輯器擴充，以及其他更多內容！等你來親自體驗，透過<a href=\"#game\">下方</a>"
-"來查看更多細節。"
+"編輯器擴充，以及其他更多內容！等您親自來體驗，透過<a href=\"#game\">下方</a>"
+"內容來查看更多細節。"
 
 #. type: Content of: <html><body><div><div><div><a><span>
 #: template.html:36
@@ -116,8 +116,8 @@ msgid ""
 "experience across all areas of the game."
 msgstr ""
 "韋諾之戰的程式渲染已全面改造，性能大幅提升，根據我們的測試，每秒傳輸幀數提升"
-"將近60%。這個表現取決您的電腦性能，但無論如何都會使遊戲在各個領域的體驗更完整"
-"和更加一致。"
+"將近 60%。這個表現取決您的電腦性能，但無論如何都會使遊戲在各個領域的體驗更完"
+"整和更加一致。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:69
@@ -249,12 +249,12 @@ msgid ""
 "now automatically detect when your connection is lost and alert you to the "
 "problem."
 msgstr ""
-"現在，自動進行的遊戲（例如Afterlife）與其他玩家主持的自訂遊戲已被區分開來。玩"
-"家主持的遊戲將顯示在「一般大廳」中，而自動進行的遊戲則會顯示在「配對」中。為"
-"了幫助玩家回報其他有問題的玩家或是遊戲本身的問題，在<code>/report</code>中有"
-"一個對話框，玩家可以在對話框內輸入發現的問題。此外，為了能在網路出問題而導致"
-"伺服器斷線時做出更好的應對措施，韋諾之戰現在會自動檢測您的連線是否中斷，並主"
-"動告知您此訊息。"
+"現在，自動進行的遊戲（例如 Afterlife）與其他玩家主持的自訂遊戲已被區分開來。"
+"玩家主持的遊戲將顯示在「一般大廳」中，而自動進行的遊戲則會顯示在「配對」中。"
+"為了幫助玩家回報其他有問題的玩家或是遊戲本身的問題，在<code>/report</code>中"
+"有一個對話框，玩家可以在對話框內輸入發現的問題。此外，為了能在網路出問題而導"
+"致伺服器斷線時做出更好的應對措施，韋諾之戰現在會自動檢測您的連線是否中斷，並"
+"主動告知您此訊息。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:91
@@ -325,10 +325,11 @@ msgid ""
 msgstr ""
 "關於您自製模組的發佈，韋諾之戰現在允許使用您的論壇使用者名稱和密碼來上傳模"
 "組。這樣一來，模組的密碼將儲存在加密文件中，而不是以純文本形式儲存在您的"
-"<code>_server.pbl</code>中，這將具更安全性，但也意味者，如果您忘記密碼，必須"
-"要使用論壇的密碼恢復功能來重新取得存取許可。此外，對於多人合作開發的模組，可"
-"以讓被指定的用戶對該模組進行更新。在上傳模組前，必須先驗證您的<code>_server."
-"pbl</code>，就能在上傳前就知道是否存在任何問題，而不是之後才發現。"
+"<code>_server.pbl</code>中，這將更具更安全性，但也意味者，如果您忘記密碼，必"
+"須要使用論壇的密碼恢復功能來重新取得存取許可。此外，對於多人合作開發的模組，"
+"可以讓被指定的用戶對該模組進行更新。在上傳模組前，必須先驗證您的"
+"<code>_server.pbl</code>，就能在上傳前就知道是否存在任何問題，而不是之後才發"
+"現。"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:103
@@ -365,9 +366,9 @@ msgid ""
 "terrains and fauna units added from palisade walls, seashell embellishments, "
 "and seaweed terrain to fire ants, giant jumping spiders, and rocs."
 msgstr ""
-"地圖編輯器也得到重大改進：現在可以加入懸崖和山谷，可以為您的地圖增加不少的"
-"<cite>細節</cite>。除此之外，還能新增各種新的地形和生物，從柵欄牆、貝殼裝飾和"
-"海藻地形到火蟻、巨型跳蛛和巨鷹都有。"
+"地圖編輯器也得到重大改進：現在可以加入懸崖和山谷，為您的地圖增加不少的<cite>"
+"細節</cite>。除此之外，還能新增各種新的地形和生物，從柵欄牆、貝殼裝飾和海藻地"
+"形到火蟻、巨型跳蛛和巨鷹都有。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:109
@@ -388,9 +389,9 @@ msgid ""
 "for Visual Studio Code, but should work with any editor that has an LuaCATS "
 "plugin."
 msgstr ""
-"最後，幾乎所有韋諾之戰定義的Lua函數現在都有LuaCATS(Lua Comment And Type "
-"System)支援，在輸入時會自動填寫，並在滑鼠停在上方時提供文檔。這主要是為了"
-"Visual Studio Code而編寫，但應適用於任何具有LuaCATS模組的編輯器。"
+"最後，幾乎所有韋諾之戰定義的 Lua 函數現在都有 LuaCATS(Lua Comment And Type "
+"System) 支援，在輸入時會自動填寫，並在滑鼠停在上方時提供文檔。這主要是為了 "
+"Visual Studio Code 而編寫，但應適用於任何具有 LuaCATS 模組的編輯器。"
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:113
@@ -409,11 +410,11 @@ msgid ""
 "scenario or adding a feature to your custom maps, <cite>Wesnoth</cite> "
 "boasts a massive community of players and creators always willing to help."
 msgstr ""
-"許多來自不同背景的國際志願者不間斷地對<cite>韋諾之戰</cite>進行改進和擴展。自"
-"2003年7月創立以來，數百人在遊戲的各個領域做出了貢獻，從官方發布的主要內容到數"
-"百個玩家製作的模組，都可以透過我們的模組伺服器來下載。無論您需要幫忙來打贏特"
-"定的章節，或是在您的自定地圖上添加某個功能，韋諾之戰都擁有一個龐大的玩家和創"
-"作者社區，隨時為您提供協助。"
+"許多來自不同背景的國際志願者不間斷地對<cite>韋諾之戰</cite>進行改進和擴展。"
+"自 2003 年 7 月創立以來，數百人在遊戲的各個領域做出了貢獻，從官方發布的主要內"
+"容到數百個玩家製作的模組，都可以透過我們的模組伺服器來下載。無論您需要幫忙來"
+"打贏特定的章節，或是在您的自定地圖上添加某個功能，韋諾之戰都擁有一個龐大的玩"
+"家和創作者社區，隨時為您提供協助。"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:117
