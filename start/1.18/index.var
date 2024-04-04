@@ -14,6 +14,10 @@ URI: index.nl.html
 Content-type: text/xhtml
 Content-language: nl
 
+URI: index.uk.html
+Content-type: text/xhtml
+Content-language: uk
+
 URI: index.zh_TW.html
 Content-type: text/xhtml
 Content-language: zh-tw

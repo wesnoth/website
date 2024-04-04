@@ -1,0 +1,589 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-03-03 15:58-0600\n"
+"PO-Revision-Date: 2024-04-03 16:59+0300\n"
+"Last-Translator: Oleksii Okhrimenko(lexa04) <e-mail: ohrimale@gmail.com "
+"discord: amakri>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Attribute 'lang' of: <html>
+#: template.html:3
+msgid "en"
+msgstr "uk"
+
+#. type: Content of: <html><body><div><div><h1>
+#: template.html:15 template.html:27
+msgid "The Battle for Wesnoth 1.18"
+msgstr "The Battle for Wesnoth 1.18"
+
+#. type: Content of: <html><body><div><div>
+#: template.html:25
+msgid ""
+"<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span aria-"
+"hidden=\"true\"></span></a>"
+msgstr ""
+"<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span aria-"
+"hidden=\"true\"></span></a>"
+
+#. type: Content of: <html><body><div><div><h1>
+#: template.html:27
+msgid "<span id=\"branding-sub\">Draconic Invasions Update</span>"
+msgstr "<span id=\"branding-sub\">Оновлення Драконічних Вторгнень</span>"
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:30
+msgid ""
+"<i>March 2024.</i> The development team is proud to present version 1.18 of "
+"<cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
+msgstr ""
+"<i>Березень 2024.</i> Команда розробників рада презентувати версію 1.18 для "
+"<cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:32
+msgid ""
+"This release features many new additions as well as refinements to existing "
+"content including a new Drake campaign, a full remake of our oldest Loyalist "
+"campaign, greatly improved graphical performance, major balance changes for "
+"multiplayer, achievements, many enhancements to the editor, and so much "
+"more! Try them out for yourself, or take a look <a href=\"#game\">below</a> "
+"for more details."
+msgstr ""
+"У цьому випуску доволі багато нововведень, як і переробки існуючого змісту, "
+"включаючи нову кампанію за Дрейків, повне переосмислення нашої найстарішої "
+"кампанії за Вірнопідданих, значно покращену графічну продуктивність, великі "
+"зміни балансу для мультиплеєру, багато покращень в редакторі і ще безліч "
+"усього! Випробуйте це все самі або <a href=\"#game\">читайте далі</a>, щоб "
+"дізнатися більше деталей."
+
+#. type: Content of: <html><body><div><div><div><a><span>
+#: template.html:36
+msgid ""
+"<a class=\"download-button\" role=\"button\" href=\"https://www.wesnoth.org/"
+"#download\"> <span class=\"download-arrow\" aria-hidden=\"true\"></span> "
+"<span class=\"download-text\"> <span class=\"download-big\">Download Now</"
+"span> </span> </a> <a class=\"itchio-button\" role=\"button\" href=\"https://"
+"wesnoth.itch.io/battle-for-wesnoth\" aria-label=\"Available on itch.io\"> "
+"<span class=\"download-text\">"
+msgstr ""
+"<a class=\"download-button\" role=\"button\" href=\"https://www.wesnoth.org/"
+"#download\"> <span class=\"download-arrow\" aria-hidden=\"true\"></span> "
+"<span class=\"download-text\"> <span class=\"download-big\">Завантажити "
+"Зараз</span> </span> </a> <a class=\"itchio-button\" role=\"button\" "
+"href=\"https://wesnoth.itch.io/battle-for-wesnoth\" aria-label=\"Available "
+"on itch.io\"> <span class=\"download-text\">"
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:46
+msgid ""
+"<span class=\"download-big\">Get on itch.io</span> </span> </a> <a "
+"class=\"steam-button\" role=\"button\" href=\"https://store.steampowered.com/"
+"app/599390\"> <span class=\"download-text\"> <span class=\"steam-icon\" aria-"
+"hidden=\"true\"></span> <span class=\"download-big\">Get on Steam</span> </"
+"span> </a>"
+msgstr ""
+"<span class=\"download-big\">Отримати на itch.io</span> </span> </a> <a "
+"class=\"steam-button\" role=\"button\" href=\"https://store.steampowered.com/"
+"app/599390\"> <span class=\"download-text\"> <span class=\"steam-icon\" aria-"
+"hidden=\"true\"></span> <span class=\"download-big\">Отримати в Steam</span> "
+"</span> </a>"
+
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:63
+msgid "What’s New in This Update"
+msgstr "Що нового в цьому оновленні"
+
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:65
+msgid "For Players"
+msgstr "Для гравців"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:67
+msgid ""
+"Wesnoth’s rendering has been completely overhauled, leading to a significant "
+"improvement in performance with our own tests showing a nearly 60% boost in "
+"FPS. This will of course vary depending on the computer you’re using to run "
+"Wesnoth, but will in all cases result in a much smoother and more consistent "
+"experience across all areas of the game."
+msgstr ""
+"Рендеринг Весноту було повністю перероблено, що призвело до значного "
+"покращення в продуктивності, показуючи приблизно на 60% більше FPS, ніж "
+"раніше. Це, звісно, дуже залежить від комп'ютера, який ви використовуєте для "
+"гри в Веснот, але в будь-якому разі ви отримаєте більш плавний та цільний "
+"досвід на будь-якому етапі гри."
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:69
+msgid ""
+"All factions in the Default era have gone through major updates to ensure "
+"standard 1v1 games are more balanced and to allow campaigns to use the new "
+"variable recall cost mechanic. Higher level units have also had a variety of "
+"adjustments to better balance the Age of Heroes era as well as survival "
+"scenarios where high level units are common. Level three advancements for "
+"the Saurian Oracle and Saurian Soothsayer have been added and the Orcish "
+"Nightblade now serves as the default advancement for the Orcish Slayer."
+msgstr ""
+"Усі фракції Типової ери було оновлено, щоб забезпечити більш збалансовані "
+"стандартні матчі 1v1, а також щоб дозволити кампаніями використовувати нові "
+"різноманітні механіки заклику. Бійці більш високих рівнів також отримали "
+"кілька правок, щоб краще збалансувати еру Вік героїв, як і сценарії на "
+"виживання, де бійці високих рівнів зустрічаються частіше. Було додано "
+"просування третього рівня для Оракула та Ворожбита, а Оркський душогуб тепер "
+"є типовим просуванням для Оркського згубника."
+
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:71
+msgid "Campaigns"
+msgstr "Кампанії"
+
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:73
+msgid "<a href=\"images/start-2.png\">"
+msgstr "<a href=\"images/start-2.png\">"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:73
+msgid "Campaigns menu screenshot"
+msgstr "Зображення меню вибору кампаній"
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:73 template.html:83 template.html:87 template.html:97
+#: template.html:103
+msgid "</a>"
+msgstr "</a>"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:75
+msgid ""
+"A new campaign, <cite>Winds of Fate</cite>, has been added to the game! This "
+"is the first Drake campaign to be included in Wesnoth, showing their fight "
+"for survival and tumultuous return to Wesnoth’s Great Continent as they flee "
+"their sinking island homes."
+msgstr ""
+"Було додано нову кампанію, <cite>Крила Долі</cite>! Це перша кампанія за "
+"дрейків, що була офіційно додана до Весноту, у ній розповідається про їхню "
+"боротьбу за виживання та галасливе повернення до Великого Континенту "
+"Весноту, після того як їм довелося покинути свою домівку на зникаючому "
+"острові."
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:77
+msgid ""
+"<cite>Eastern Invasion</cite> — the first Loyalist campaign ever added to "
+"Wesnoth — has been fully remade with far deeper characters and greater "
+"scenario variety augmented by much more dynamic AI opponents. Several lore "
+"conflicts with other campaigns have also been resolved."
+msgstr ""
+"<cite>Вторгення зі Сходу</cite> — першу кампанію за Вірнопідданих, коли-"
+"небудь додану до Весноту — було повністю перероблено, тепер вона має "
+"набагато глибших персонажів та більше різноманіття сценаріїв з динамічними "
+"ворогами, що керуються штучним інтелектом. Також було було вирішено декілька "
+"конфліктів історії з іншими кампаніями."
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:79
+msgid ""
+"And lastly, the Quenoth faction in the campaign <cite>Under the Burning "
+"Suns</cite> has been given an overhaul to make them more interesting — hero "
+"units can now gain unique bonuses when leveling up while regular units have "
+"new abilities and new weapon effects for their attacks, making this a unique "
+"experience among Wesnoth’s campaigns."
+msgstr ""
+"І нарешті, фракцію Квенот з кампанії <cite>Під Жагучими Світилами</cite> "
+"було трохи переосмислено, щоб зробити її цікавішою — бійці-герої тепер "
+"можуть отримувати унікальні бонуси за підвищення рівня, а звичайні бійці "
+"мають нові здібності і ефекти зброї для їхніх атак, роблячи проходження "
+"найбільш унікальними досвідом серед усіх кампаній Весноту."
+
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:81
+msgid "Multiplayer"
+msgstr "Мультиплеєр"
+
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:83
+msgid "<a href=\"images/start-1.png\">"
+msgstr "<a href=\"images/start-1.png\">"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:83
+msgid "In-game game history viewer"
+msgstr "Перегляд історії матчів у грі"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:85
+msgid ""
+"Players can now view a history of their own previously played games and can "
+"search the history of other players as well by clicking the Match History "
+"button in the online multiplayer lobby. This shows information on the game "
+"itself, the players in the game, the era used, any modifications enabled, "
+"and lets you download the game’s replay to watch for yourself. Additionally, "
+"there’s an <a href=\"https://replays.wesnoth.org/dashboard/\">online "
+"dashboard</a> available with more general data about games played."
+msgstr ""
+"Гравці тепер мають можливість переглядати свої попередні матчі та шукати "
+"історію інших гравців, натиснувши кнопку \"Історія матчів\", знаходячись на "
+"мультиплеєрному сервері. Це покаже інформацію про саму гру, гравців у грі, "
+"обрану еру, використані модифікації та дозволить завантажити повтор гри для "
+"перегляду. Крім того, є <a href=\"https://replays.wesnoth.org/dashboard/"
+"\">онлайн дошка</a> з більш загальною інформацією про зіграні ігри."
+
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:87
+msgid "<a href=\"images/start-5.gif\">"
+msgstr "<a href=\"images/start-5.gif\">"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:87
+msgid "Animated waterfall"
+msgstr "Анімований водоспад"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:89
+msgid ""
+"A clear separation has been made for auto-hosted games such as Afterlife vs "
+"custom games hosted by other players. Games hosted by players will be in the "
+"General Lobby tab, while auto-hosted games will be in the Matchmaking tab. "
+"To aid with reporting problematic players or games, the <code>/report</code> "
+"command now shows a dialog where information about the issue can be entered. "
+"And to better handle server disconnects due to network issues, Wesnoth will "
+"now automatically detect when your connection is lost and alert you to the "
+"problem."
+msgstr ""
+"Було явно відмежовано матчі, що створюються ботами(такі як Afterlife), від "
+"звичайних користувацьких. Ігри, що створюються гравцями, знаходитимуться у "
+"вкладці \"Головне лобі\", а ті, що створюються ботами — у вкладці "
+"\"Матчмейкінг\". Щоб допомогти легше скаржитися на проблемних гравців чи "
+"гри, команда <code>/report</code> тепер показує діалогове вікно, де можна "
+"ввести інформацію про проблему. І для кращої обробки відключень від сервера "
+"через мережеві проблеми, Веснот тепер автоматично виявлятиме, коли втрачено "
+"з'єднання і попереджатиме вас про це."
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:91
+msgid ""
+"The King of the Hill map has been updated to encourage players to claim the "
+"center keep — whichever side holds the hill gains significant bonus income "
+"and the first player to take control will obtain a treasure chest containing "
+"a tidy sum."
+msgstr ""
+"Мапу \"Цар Гори\" було оновлено, щоб заохотити гравців захоплювати "
+"центральну цитадель — сторона, що утримує гору, отримує значний бонусний "
+"дохід і перший гравець, що добереться туди, отримає скриню зі скарбами, в "
+"якій знаходиться невеликий статок."
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:93
+msgid "And, as a cherry on top, the waterfall on Isar’s Cross is now animated."
+msgstr "І на кінець, водоспад на мапі \"Перехрестя Ісара\" тепер анімований."
+
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:95
+msgid "For Content Creators"
+msgstr "Для творців"
+
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:97
+msgid "<a href=\"images/start-3.png\">"
+msgstr "<a href=\"images/start-3.png\">"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:97
+msgid "Achievements"
+msgstr "Досягнення"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:99
+msgid ""
+"Wesnoth now has built-in support for achievements! These achievements <b>are "
+"not Steam achievements</b>, however because of that they are not limited to "
+"a predefined set of achievements available only to the base game — add-ons "
+"can define their own achievements and can even add additional achievements "
+"to other add-ons or to mainline. For this initial version, achievements are "
+"already implemented for the tutorial campaign, <cite>Descent into Darkness</"
+"cite>, <cite>Eastern Invasion</cite>, <cite>Liberty</cite>, and the co-op "
+"multiplayer maps <cite>Dark Forecast</cite>, <cite>Isle of Mists</cite>, "
+"<cite>A New Land</cite> and <cite>Team Survival</cite>."
+msgstr ""
+"Веснот тепер підтримує досягнення! Ці досягнення <b>не є досягненнями у "
+"Steam</b>, але саме через це вони не обмежені заздалегідь визначеним набором "
+"досягнень, доступним у основній грі — аддони/моди можуть створювати свої "
+"власні досягнення і навіть можуть додавати додаткові досягнення до інших "
+"аддонів чи навіть основної гри. У цій початковій версії досягнення вже було "
+"включено для наступного вмісту — Навчання, <cite>Падіння в Темряву</cite>, "
+"<cite>Вторгнення зі Сходу</cite>, <cite>Воля</cite>, та кооперативних "
+"багатокористувацьких мап <cite>Неясний прогноз</cite>, <cite>Острів Імли</"
+"cite>, <cite>Нова Земля</cite> та <cite>Командне виживання</cite>."
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:101
+msgid ""
+"For distributing your add-ons, Wesnoth now allows using your forum username "
+"and password when uploading. When using this approach, the add-on’s "
+"passphrase is instead stored in the encrypted credentials file rather than "
+"plaintext in your <code>_server.pbl</code>, which is more secure, but it "
+"also means that if you lose your password you can use the forum’s password "
+"recovery to regain access to your add-ons. Additionally, this allows "
+"specifying other users who are allowed to upload updates to the add-on, for "
+"add-ons which are developed collaboratively by multiple people. Your "
+"<code>_server.pbl</code> will also be validated prior to uploading your add-"
+"on, so you will know of any issues before the upload takes place rather than "
+"afterwards."
+msgstr ""
+"Для поширення ваших аддонів/модів Веснот тепер дозволяє використовувати ваше "
+"ім'я користувача та пароль на форумі під час завантаження. Використовуючи "
+"цей підхід, кодова фраза аддону зберігається у зашифрованому файлі облікових "
+"даних, а не у текстовому форматі у вашому <code>_server.pbl</code>, що є "
+"більш безпечним, проте це також означає, що якщо ви забудете свій пароль, ви "
+"зможете використовувати функцію відновлення пароля на форумі, щоб отримати "
+"доступ до своїх аддонів/модів. Ще це дозволяє вказати інших користувачів, "
+"яким дозволено завантажувати оновлення аддонів/модів, що розробляються "
+"спільно декількома людьми. Ваш файл <code>_server.pbl</code> також буде "
+"перевірено перед завантаженням вашого додатка, тому ви будете знати про будь-"
+"які проблеми перед завантаженням, а не після цього."
+
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:103
+msgid "<a href=\"images/start-4.jpg\">"
+msgstr "<a href=\"images/start-4.jpg\">"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:103
+msgid "Raise/lowered terrain"
+msgstr "Підвищена/заглиблена місцевість"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:105
+msgid ""
+"The scenario editor has received a major upgrade: instead of only being able "
+"to understand single scenario files, it is now capable of creating the "
+"skeleton of a brand new add-on as well as providing a UI for creating the "
+"required <code>_server.pbl</code>. This means it’s now possible to create an "
+"add-on, the add-on’s <code>_server.pbl</code>, its scenarios, and upload the "
+"add-on for others to play, all from within Wesnoth."
+msgstr ""
+"Редактор сценаріїв отримав значне оновлення: тепер, замість того, щоб "
+"розрізняти лише окремі файли сценаріїв, він здатен створювати каркас нового "
+"аддону/моду, а також надає користувальницький інтерфейс для створення "
+"необхідного файлу <code>_server.pbl</code>. Це означає, що тепер можливо "
+"створити аддон/мод, файл <code>_server.pbl</code>, сценарії та завантажити "
+"аддон для інших гравців, не покидаючи Весноту."
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:107
+msgid ""
+"The map editor similarly has been given a significant improvement: it’s now "
+"possible to add cliffs and valleys, which can be used to add quite a bit of "
+"<cite>depth</cite> to your maps. Beyond that, there’s been a variety of new "
+"terrains and fauna units added from palisade walls, seashell embellishments, "
+"and seaweed terrain to fire ants, giant jumping spiders, and rocs."
+msgstr ""
+"Редактор мап також отримав значне покращення: тепер можливо додавати скелі "
+"та долини, що дозволить додати трохи <cite>глибини</cite> вашим мапам. Крім "
+"того, було додано різноманіття нової місцевості та бійців фауни, включаючи "
+"палісадні стіни, прикраси з черепашок і морські водорості, а також вогняних "
+"мурах, гігантських стрибаючих павуків та птахів рух."
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:109
+msgid ""
+"A wide variety of units have likewise had their sprites improved and had "
+"various animations added, primarily Loyalists, Orcs, and Trolls but also "
+"some Elf and Undead units."
+msgstr ""
+"Велика кількість бійців отримала покращені спрайти та було додано багато "
+"анімацій, переважно для Вірнопідданих, Орків та Тролів, а також кількох "
+"Ельфів та Мерців."
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:111
+msgid ""
+"And finally, LuaCATS documentation has been added for nearly all of the Lua "
+"functions that Wesnoth defines, providing autocomplete when typing and "
+"documentation when hovering over the function. This was written primarily "
+"for Visual Studio Code, but should work with any editor that has an LuaCATS "
+"plugin."
+msgstr ""
+"І нарешті, для майже всіх Lua функцій, які використовує Веснот, була додана "
+"документація LuaCATS, яка забезпечує автодоповнення під час введення та "
+"допомогу при наведенні курсора на функцію. Це було розроблено в основному "
+"для Visual Studio Code, але має працювати з будь-яким редактором, який має "
+"плагін LuaCATS."
+
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:113
+msgid "Contribute"
+msgstr "Робіть свій внесок"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:115
+msgid ""
+"<cite>The Battle for Wesnoth</cite> is constantly being improved and "
+"expanded upon by a multitude of international volunteers from diverse "
+"backgrounds. Since its inception in July 2003, hundreds of people have "
+"contributed to all areas of the game, from mainline content shipped as part "
+"of the official releases to hundreds of player-made projects available to "
+"download from our add-ons server. Whether you need help beating a particular "
+"scenario or adding a feature to your custom maps, <cite>Wesnoth</cite> "
+"boasts a massive community of players and creators always willing to help."
+msgstr ""
+"<cite>Битву за Веснот</cite> постійно покращує та розширює безліч "
+"інтернаціональних добровольців, що мають різний досвід та походять з різних "
+"країн. З самого початку Весноту в липні 2003 року, сотні людей зробили свій "
+"внесок в усі сфери гри, починаючи основним вмістом, що поставляється як "
+"частина офіційних випусків, і закінчуючи сотнями користувацьких проєктів, що "
+"доступні для завантаження з нашого серверу аддонів/модів. Незалежно від "
+"того, чи потрібна вам допомога в проходжені певного сценарію чи додаванні "
+"функцій до ваших власних карт, <cite>Веснот</cite> може похвалитися "
+"величезною спільнотою гравців і творців, які завжди готові допомогти."
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:117
+msgid ""
+"Besides creating your own add-on content, there are many other ways you can "
+"help <cite>Wesnoth</cite>:"
+msgstr ""
+"Окрім створення власних аддонів та модів, існує багато інших способів "
+"допомогти <cite>Весноту</cite>:"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:120
+msgid "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
+msgstr ""
+"<a href=\"https://wiki.wesnoth.org/Project\">Робіть свій внесок</a> у код"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:121
+msgid ""
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">Create</a> art for "
+"the main game or for user-made <a href=\"https://forums.wesnoth.org/"
+"viewforum.php?f=23\">add-ons</a>"
+msgstr ""
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">Створюйте</a> "
+"ілюстрації для основної гри чи користувацьких <a href=\"https://forums."
+"wesnoth.org/viewforum.php?f=23\">аддонів та модів</a>"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:122
+msgid ""
+"<a href=\"https://wiki.wesnoth.org/WesnothTranslations\">Translate</a> the "
+"game into your language"
+msgstr ""
+"<a href=\"https://wiki.wesnoth.org/WesnothTranslations\">Перекладайте</a> "
+"гру вашою мовою"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:123
+msgid ""
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=14\">Produce</a> new "
+"music tracks and sound effects"
+msgstr ""
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=14\">Створюйте</a> "
+"новую музику та звукові ефекти"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:124
+msgid "Spread the word about <cite>Wesnoth</cite> on social media!"
+msgstr "Поширюйте інформацію про <cite>Веснот</cite> в соціальних мережах!"
+
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:127
+msgid "More Info"
+msgstr "Більше інформації"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:130
+msgid ""
+"<a href=\"https://changelog.wesnoth.org/1.18/\">Full Changelog</a> (English "
+"only)"
+msgstr ""
+"<a href=\"https://changelog.wesnoth.org/1.18/\">Повний список змін</a> (лише "
+"англійською)"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:131
+msgid ""
+"<a href=\"https://www.wesnoth.org/manual/1.18/manual.en.html\">User’s "
+"Manual</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/manual/1.18/manual.en.html\">Інструкція "
+"користувача</a>"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:132
+msgid "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
+msgstr ""
+"<a href=\"https://www.wesnoth.org\">Офіційний веб-сайт</a> (лише англійською)"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:136
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.16\">Wesnoth 1.16 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.16\">Нотатки розробників до "
+"Wesnoth 1.16</a>"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:137
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.14\">Wesnoth 1.14 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.14\">Нотатки розробників до "
+"Wesnoth 1.14</a>"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:138
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.12\">Нотатки розробників до "
+"Wesnoth 1.12</a>"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:139
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.10\">Нотатки розробників до "
+"Wesnoth 1.10</a>"
+
+#. type: Content of: <html><body><div><div><div><div>
+#: template.html:150
+msgid "This page is also available in the following languages:"
+msgstr "Ця сторінка також доступна наступними мовами:"
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:156
+msgid ""
+"<a href=\"https://wiki.wesnoth.org/StartingPoints\">Site Map</a> &#8226; <a "
+"href=\"https://status.wesnoth.org/\">Site Status</a>"
+msgstr ""
+"<a href=\"https://wiki.wesnoth.org/StartingPoints\">Мапа веб-сайту</a> "
+"&#8226; <a href=\"https://status.wesnoth.org/\">Статус веб-сайту</a>"
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:157
+msgid ""
+"Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" href=\"https://wiki."
+"wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
+msgstr ""
+"Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" href=\"https://wiki."
+"wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:158
+msgid "Site design Copyright &#169; 2017&#8211;2024 by Iris Morelle"
+msgstr "Site design Copyright &#169; 2017&#8211;2024 by Iris Morelle"
