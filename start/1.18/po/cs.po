@@ -1,13 +1,13 @@
 # Vladimír Slávik <slavik.vladimir@seznam.cz>, 2009 - 2012.
 # Martin Hrubý <hrubymar10@gmail.com>, 2019.
-# Michal Žejdl <lachim@emer.cz>, 2021.
+# Michal Žejdl <lachim@emer.cz>, 2021, 2024
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2024-03-01 13:54-0600\n"
-"PO-Revision-Date: 2021-10-23 18:17+0200\n"
+"PO-Revision-Date: 2024-11-19 23:46+0100\n"
 "Last-Translator: Michal Žejdl <lachim@emer.cz>\n"
 "Language-Team: Czech https://wiki.wesnoth.org/CzechTranslation\n"
 "Language: cs\n"
@@ -23,10 +23,8 @@ msgstr "cs"
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:15 template.html:27
-#, fuzzy
-#| msgid "The Battle for Wesnoth 1.16"
 msgid "The Battle for Wesnoth 1.18"
-msgstr "Bitva o Wesnoth 1.16"
+msgstr "Bitva o Wesnoth 1.18"
 
 #. type: Content of: <html><body><div><div>
 #: template.html:25
@@ -39,10 +37,8 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:27
-#, fuzzy
-#| msgid "<span id=\"branding-sub\">Dune Conquests Update</span>"
 msgid "<span id=\"branding-sub\">Draconic Invasions Update</span>"
-msgstr "<span id=\"branding-sub\">Aktualizace Dobývání dun</span>"
+msgstr "<span id=\"branding-sub\">přináší Vpád drakonidů</span>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:30
