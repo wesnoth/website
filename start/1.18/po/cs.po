@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2024-03-01 13:54-0600\n"
-"PO-Revision-Date: 2024-11-19 23:46+0100\n"
+"PO-Revision-Date: 2024-11-20 21:30+0100\n"
 "Last-Translator: Michal Žejdl <lachim@emer.cz>\n"
 "Language-Team: Czech https://wiki.wesnoth.org/CzechTranslation\n"
 "Language: cs\n"
@@ -42,28 +42,15 @@ msgstr "<span id=\"branding-sub\">přináší Vpád drakonidů</span>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:30
-#, fuzzy
-#| msgid ""
-#| "<i>October 2021.</i> The development team is proud to present version "
-#| "1.16 of <cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></"
-#| "cite>!"
 msgid ""
 "<i>March 2024.</i> The development team is proud to present version 1.18 of "
 "<cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
 msgstr ""
-"<i>Říjen 2021.</i> Vývojový tým s hrdostí představuje verzi 1.16 hry "
+"<i>Březen 2024.</i> Vývojový tým s hrdostí představuje verzi 1.18 hry "
 "<cite><a href=\"/\">Bitva&nbsp;o&nbsp;Wesnoth</a></cite>!"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:32
-#, fuzzy
-#| msgid ""
-#| "This release features a variety of improvements to many areas of the game "
-#| "including many improved campaigns, a fully rebalanced Dunefolk faction, "
-#| "new portraits and units, upgrades to the AI, a variety of new features "
-#| "for add-on authors, many <b>many</b> bugs fixed, and much more besides. "
-#| "Try out the new features for yourself, or take a look <a "
-#| "href=\"#game\">below</a> for more details."
 msgid ""
 "This release features many new additions as well as refinements to existing "
 "content including a new Drake campaign, a full remake of our oldest Loyalist "
@@ -72,12 +59,12 @@ msgid ""
 "more! Try them out for yourself, or take a look <a href=\"#game\">below</a> "
 "for more details."
 msgstr ""
-"Toto vydání nabízí celou řadu vylepšení mnoha oblastí hry včetně mnoha "
-"zlepšených kampaní, plně vyvážené frakce pouštních lidí, nových portrétů "
-"a jednotek, zmodernizované umělé inteligence, různých nových funkcí pro "
-"autory rozšíření, skutečně <b>velkého</b> počtu opravených chyb a mnoho "
-"dalšího. Vyzkoušejte si nové funkce sami nebo se podívejte <a "
-"href=\"#game\">níže</a> na další podrobnosti."
+"Tato verze obsahuje mnoho nových přírůstků a drobných zdokonalení "
+"stávajícího obsahu, včetně nového tažení za drakonidy, úplné předělávky "
+"našeho nejstaršího tažení za věrné, výrazně posíleného grafického výkonu, "
+"významných změn vyvážení pro hru více hráčů, úspěchů, spousty vylepšení "
+"editoru a mnoho dalšího! Vyzkoušejte si je sami, nebo se podívejte <a "
+"href=\"#game\">níže</a> na více podrobností."
 
 #. type: Content of: <html><body><div><div><div><a><span>
 #: template.html:36
@@ -150,10 +137,8 @@ msgstr "Tažení"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:73
-#, fuzzy
-#| msgid "<a href=\"images/start-2.jpg\">"
 msgid "<a href=\"images/start-2.png\">"
-msgstr "<a href=\"images/start-2.jpg\">"
+msgstr "<a href=\"images/start-2.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:73
@@ -201,10 +186,8 @@ msgstr "Hra více hráčů"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:83
-#, fuzzy
-#| msgid "<a href=\"images/start-1.jpg\">"
 msgid "<a href=\"images/start-1.png\">"
-msgstr "<a href=\"images/start-1.jpg\">"
+msgstr "<a href=\"images/start-1.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:83
@@ -225,10 +208,8 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:87
-#, fuzzy
-#| msgid "<a href=\"images/start-5.jpg\">"
 msgid "<a href=\"images/start-5.gif\">"
-msgstr "<a href=\"images/start-5.jpg\">"
+msgstr "<a href=\"images/start-5.gif\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:87
@@ -269,10 +250,8 @@ msgstr "Pro tvůrce obsahu"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:97
-#, fuzzy
-#| msgid "<a href=\"images/start-3.jpg\">"
 msgid "<a href=\"images/start-3.png\">"
-msgstr "<a href=\"images/start-3.jpg\">"
+msgstr "<a href=\"images/start-3.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:97
@@ -316,10 +295,8 @@ msgstr "<a href=\"images/start-4.jpg\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:103
-#, fuzzy
-#| msgid "New terrain"
 msgid "Raise/lowered terrain"
-msgstr "Nový terén"
+msgstr "Zvýšený/snížený terén"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:105
@@ -441,28 +418,20 @@ msgstr "Další informace"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:130
-#, fuzzy
-#| msgid ""
-#| "<a href=\"https://changelog.wesnoth.org/1.16/\">Full Changelog</a> "
-#| "(English only)"
 msgid ""
 "<a href=\"https://changelog.wesnoth.org/1.18/\">Full Changelog</a> (English "
 "only)"
 msgstr ""
-"<a href=\"https://changelog.wesnoth.org/1.16/\">Úplný seznam změn</a> (pouze "
+"<a href=\"https://changelog.wesnoth.org/1.18/\">Úplný seznam změn</a> (pouze "
 "anglicky)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:131
-#, fuzzy
-#| msgid ""
-#| "<a href=\"https://www.wesnoth.org/manual/1.16/manual.en.html\">User’s "
-#| "Manual</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/manual/1.18/manual.en.html\">User’s "
 "Manual</a>"
 msgstr ""
-"<a href=\"https://www.wesnoth.org/manual/1.16/manual.cs.html\">Uživatelský "
+"<a href=\"https://www.wesnoth.org/manual/1.18/manual.cs.html\">Uživatelský "
 "manuál</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
@@ -473,15 +442,11 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:136
-#, fuzzy
-#| msgid ""
-#| "<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</"
-#| "a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.16\">Wesnoth 1.16 Release Notes</a>"
 msgstr ""
-"<a href=\"https://www.wesnoth.org/start/1.6\">Poznámky k vydání Wesnoth 1.6</"
-"a>"
+"<a href=\"https://www.wesnoth.org/start/1.16\">Poznámky k vydání Wesnoth "
+"1.16</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:137
@@ -523,23 +488,17 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:157
-#, fuzzy
-#| msgid ""
-#| "Copyright &#169; 2003&#8211;2021 by <a rel=\"author\" href=\"https://wiki."
-#| "wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 msgid ""
 "Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" href=\"https://wiki."
 "wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 msgstr ""
 "&#169; <a rel=\"author\" href=\"https://wiki.wesnoth.org/Project\">Projekt "
-"The Battle for Wesnoth</a>, 2003&#8211;2021"
+"The Battle for Wesnoth</a>, 2003&#8211;2024"
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:158
-#, fuzzy
-#| msgid "Site design Copyright &#169; 2017&#8211;2021 by Iris Morelle"
 msgid "Site design Copyright &#169; 2017&#8211;2024 by Iris Morelle"
-msgstr "Návrh stránek &#169; Iris Morelle, 2017&#8211;2021"
+msgstr "Návrh stránek &#169; Iris Morelle, 2017&#8211;2024"
 
 #~ msgid ""
 #~ "<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</"
