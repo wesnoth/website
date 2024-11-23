@@ -110,6 +110,7 @@ msgstr "Pro hráče"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:67
+#, fuzzy
 msgid ""
 "Wesnoth’s rendering has been completely overhauled, leading to a significant "
 "improvement in performance with our own tests showing a nearly 60% boost in "
@@ -117,9 +118,15 @@ msgid ""
 "Wesnoth, but will in all cases result in a much smoother and more consistent "
 "experience across all areas of the game."
 msgstr ""
+"Vykreslování hry Wesnoth bylo kompletně přepracováno, což vedlo k výraznému "
+"zlepšení výkonu, přičemž naše vlastní testy ukázaly téměř 60% nárůst FPS. To "
+"se samozřejmě bude lišit v závislosti na počítači, na kterém Wesnoth "
+"spouštíte, ale ve všech případech bude výsledkem mnohem plynulejší a "
+"konzistentnější zážitek ve všech oblastech hry."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:69
+#, fuzzy
 msgid ""
 "All factions in the Default era have gone through major updates to ensure "
 "standard 1v1 games are more balanced and to allow campaigns to use the new "
@@ -129,6 +136,13 @@ msgid ""
 "the Saurian Oracle and Saurian Soothsayer have been added and the Orcish "
 "Nightblade now serves as the default advancement for the Orcish Slayer."
 msgstr ""
+"Všechny frakce ve výchozí éře prošly zásadními aktualizacemi, aby byly "
+"standardní hry 1v1 vyváženější a aby kampaně mohly využívat novou mechaniku "
+"proměnlivých nákladů na odvolání. Jednotky vyšších úrovní se také dočkaly "
+"řady úprav, aby lépe vyvážily éru Age of Heroes i scénáře přežití, v nichž "
+"se běžně vyskytují jednotky vysokých úrovní. Byly přidány vylepšení třetí "
+"úrovně pro saurského věštce a saurského věštce a orkská noční čepel nyní "
+"slouží jako výchozí vylepšení pro orkského zabijáka."
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:71
@@ -153,24 +167,35 @@ msgstr "</a>"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:75
+#, fuzzy
 msgid ""
 "A new campaign, <cite>Winds of Fate</cite>, has been added to the game! This "
 "is the first Drake campaign to be included in Wesnoth, showing their fight "
 "for survival and tumultuous return to Wesnoth’s Great Continent as they flee "
 "their sinking island homes."
 msgstr ""
+"Do hry byla přidána nová kampaň <cite>Winds of Fate</cite>! Jedná se o první "
+"kampaň Draků, která je součástí hry Wesnoth a ukazuje jejich boj o přežití a "
+"bouřlivý návrat na Velký kontinent Wesnoth při útěku z potápějících se "
+"ostrovních domovů."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:77
+#, fuzzy
 msgid ""
 "<cite>Eastern Invasion</cite> — the first Loyalist campaign ever added to "
 "Wesnoth — has been fully remade with far deeper characters and greater "
 "scenario variety augmented by much more dynamic AI opponents. Several lore "
 "conflicts with other campaigns have also been resolved."
 msgstr ""
+"<cite>Eastern Invasion</cite> - první loajalistická kampaň, která kdy byla "
+"do Wesnothu přidána - byla kompletně předělána s mnohem hlubšími charaktery "
+"a větší rozmanitostí scénářů, doplněnou o mnohem dynamičtější AI protivníků. "
+"Vyřešeno bylo také několik lore konfliktů s jinými kampaněmi."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:79
+#, fuzzy
 msgid ""
 "And lastly, the Quenoth faction in the campaign <cite>Under the Burning "
 "Suns</cite> has been given an overhaul to make them more interesting — hero "
@@ -178,6 +203,11 @@ msgid ""
 "new abilities and new weapon effects for their attacks, making this a unique "
 "experience among Wesnoth’s campaigns."
 msgstr ""
+"A konečně, frakce Quenothů v kampani <cite>Pod hořícími slunci</cite> byla "
+"přepracována, aby byla zajímavější - jednotky hrdinů nyní mohou při "
+"zvyšování úrovně získávat jedinečné bonusy, zatímco běžné jednotky mají nové "
+"schopnosti a nové efekty zbraní pro své útoky, což z ní činí jedinečný "
+"zážitek mezi kampaněmi Wesnothu."
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:81
@@ -196,6 +226,7 @@ msgstr "Prohlížeč herní historie ve hře"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:85
+#, fuzzy
 msgid ""
 "Players can now view a history of their own previously played games and can "
 "search the history of other players as well by clicking the Match History "
@@ -205,6 +236,13 @@ msgid ""
 "there’s an <a href=\"https://replays.wesnoth.org/dashboard/\">online "
 "dashboard</a> available with more general data about games played."
 msgstr ""
+"Hráči si nyní mohou prohlédnout historii svých vlastních dříve odehraných "
+"her a po kliknutí na tlačítko Historie zápasů v online lobby pro více hráčů "
+"mohou vyhledávat i v historii ostatních hráčů. Zde se zobrazí informace o "
+"samotné hře, hráčích ve hře, použité éře, všech povolených modifikacích a "
+"můžete si stáhnout opakovaný záznam hry a podívat se na něj sami. Kromě toho "
+"je k dispozici <a href=\"https://replays.wesnoth.org/dashboard/\">online "
+"dashboard</a> s obecnějšími údaji o odehraných hrách."
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:87
@@ -218,6 +256,7 @@ msgstr "Animovaný vodopád"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:89
+#, fuzzy
 msgid ""
 "A clear separation has been made for auto-hosted games such as Afterlife vs "
 "custom games hosted by other players. Games hosted by players will be in the "
@@ -228,20 +267,33 @@ msgid ""
 "now automatically detect when your connection is lost and alert you to the "
 "problem."
 msgstr ""
+"Byly jasně odděleny automaticky hostované hry, jako je Afterlife, a vlastní "
+"hry hostované jinými hráči. Hry hostované hráči budou na kartě Obecné lobby, "
+"zatímco automaticky hostované hry budou na kartě Matchmaking. Příkaz <code>/"
+"report</code> nyní zobrazí dialogové okno, do kterého lze zadat informace o "
+"problému, a pomůže tak s nahlášením problematických hráčů nebo her. A aby "
+"bylo možné lépe řešit odpojení serveru kvůli problémům se sítí, Wesnoth nyní "
+"automaticky zjistí, kdy došlo ke ztrátě připojení, a upozorní vás na problém."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:91
+#, fuzzy
 msgid ""
 "The King of the Hill map has been updated to encourage players to claim the "
 "center keep — whichever side holds the hill gains significant bonus income "
 "and the first player to take control will obtain a treasure chest containing "
 "a tidy sum."
 msgstr ""
+"Mapa Král kopce byla aktualizována tak, aby hráče povzbuzovala k obsazení "
+"centrální pevnosti - kterákoli strana kopce získá významný bonusový příjem a "
+"hráč, který ji ovládne jako první, získá truhlu s pokladem, v níž se skrývá "
+"slušná částka."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:93
+#, fuzzy
 msgid "And, as a cherry on top, the waterfall on Isar’s Cross is now animated."
-msgstr ""
+msgstr "A jako třešnička na dortu je nyní vodopád na Isar's Cross animovaný."
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:95
@@ -260,6 +312,7 @@ msgstr "Úspěchy"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:99
+#, fuzzy
 msgid ""
 "Wesnoth now has built-in support for achievements! These achievements <b>are "
 "not Steam achievements</b>, however because of that they are not limited to "
@@ -271,9 +324,19 @@ msgid ""
 "multiplayer maps <cite>Dark Forecast</cite>, <cite>Isle of Mists</cite>, "
 "<cite>A New Land</cite> and <cite>Team Survival</cite>."
 msgstr ""
+"Wesnoth má nyní integrovanou podporu pro achievementy! Tyto úspěchy "
+"<b>nejsou úspěchy služby Steam</b>, nicméně díky tomu nejsou omezeny na "
+"předdefinovanou sadu úspěchů dostupných pouze pro základní hru - přídavky "
+"mohou definovat své vlastní úspěchy a dokonce mohou přidávat další úspěchy "
+"do jiných přídavků nebo do hlavní linie. Pro tuto počáteční verzi jsou již "
+"implementovány achievementy pro výukovou kampaň, <cite>Sestup do temnoty</"
+"cite>, <cite>Východní invaze</cite>, <cite>Svoboda</cite> a kooperativní "
+"multiplayerové mapy <cite>Temná předpověď</cite>, <cite>Isle of Mists</"
+"cite>, <cite>Nová země</cite> a <cite>Týmové přežití</cite>."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:101
+#, fuzzy
 msgid ""
 "For distributing your add-ons, Wesnoth now allows using your forum username "
 "and password when uploading. When using this approach, the add-on’s "
@@ -287,6 +350,16 @@ msgid ""
 "on, so you will know of any issues before the upload takes place rather than "
 "afterwards."
 msgstr ""
+"Pro distribuci vašich doplňků nyní Wesnoth umožňuje při nahrávání používat "
+"vaše uživatelské jméno a heslo na fóru. Při použití tohoto přístupu je "
+"přístupová fráze doplňku uložena v zašifrovaném souboru pověření namísto "
+"prostého textu ve vašem souboru <code>_server.pbl</code>, což je "
+"bezpečnější, ale také to znamená, že pokud heslo ztratíte, můžete použít "
+"obnovení hesla fóra k obnovení přístupu ke svým doplňkům. Kromě toho to "
+"umožňuje určit další uživatele, kteří mohou nahrávat aktualizace doplňku, u "
+"doplňků, které jsou vyvíjeny společně více lidmi. Váš <code>_server.pbl</"
+"code> bude také ověřen před nahráním doplňku, takže se o případných "
+"problémech dozvíte ještě před nahráním, nikoli až po něm."
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:103
@@ -300,6 +373,7 @@ msgstr "Zvýšený/snížený terén"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:105
+#, fuzzy
 msgid ""
 "The scenario editor has received a major upgrade: instead of only being able "
 "to understand single scenario files, it is now capable of creating the "
@@ -308,9 +382,16 @@ msgid ""
 "add-on, the add-on’s <code>_server.pbl</code>, its scenarios, and upload the "
 "add-on for others to play, all from within Wesnoth."
 msgstr ""
+"Editor scénářů prošel významnou aktualizací: místo toho, aby si rozuměl "
+"pouze s jednotlivými soubory scénářů, je nyní schopen vytvořit kostru zcela "
+"nového přídavku a také poskytnout uživatelské rozhraní pro vytvoření "
+"požadovaného souboru <code>_server.pbl</code>. To znamená, že je nyní možné "
+"vytvořit přídavek, jeho <code>_server.pbl</code>, jeho scénáře a nahrát "
+"přídavek pro ostatní, aby si ho mohli zahrát, a to vše z prostředí Wesnoth."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:107
+#, fuzzy
 msgid ""
 "The map editor similarly has been given a significant improvement: it’s now "
 "possible to add cliffs and valleys, which can be used to add quite a bit of "
@@ -318,17 +399,27 @@ msgid ""
 "terrains and fauna units added from palisade walls, seashell embellishments, "
 "and seaweed terrain to fire ants, giant jumping spiders, and rocs."
 msgstr ""
+"Podobně byl výrazně vylepšen i editor map: nyní je možné přidávat útesy a "
+"údolí, čímž lze mapám dodat značnou <cite>hloubku</cite>. Kromě toho byla "
+"přidána celá řada nových terénů a jednotek fauny od palisádových zdí, "
+"mušlových ozdob a terénů z mořských řas až po ohnivé mravence, obří "
+"skákající pavouky a skákavky."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:109
+#, fuzzy
 msgid ""
 "A wide variety of units have likewise had their sprites improved and had "
 "various animations added, primarily Loyalists, Orcs, and Trolls but also "
 "some Elf and Undead units."
 msgstr ""
+"Podobně byly vylepšeny sprity a přidány různé animace u celé řady jednotek, "
+"především u loajalistů, skřetů a trollů, ale také u některých elfů a "
+"nemrtvých."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:111
+#, fuzzy
 msgid ""
 "And finally, LuaCATS documentation has been added for nearly all of the Lua "
 "functions that Wesnoth defines, providing autocomplete when typing and "
@@ -336,6 +427,11 @@ msgid ""
 "for Visual Studio Code, but should work with any editor that has an LuaCATS "
 "plugin."
 msgstr ""
+"A nakonec byla přidána dokumentace LuaCATS pro téměř všechny funkce Lua, "
+"které Wesnoth definuje, a to díky automatickému dokončování při psaní a "
+"dokumentaci při najetí na funkci. Tato funkce byla napsána především pro "
+"Visual Studio Code, ale měla by fungovat v jakémkoli editoru, který má "
+"zásuvný modul LuaCATS."
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:113
