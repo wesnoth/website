@@ -7,14 +7,15 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2024-03-01 13:54-0600\n"
-"PO-Revision-Date: 2024-11-23 06:27+0100\n"
-"Last-Translator: Michal Žejdl <lachim@emer.cz>\n"
+"PO-Revision-Date: 2024-12-08 14:17+0100\n"
+"Last-Translator: Septim <septim@centrum.cz>\n"
 "Language-Team: Czech https://wiki.wesnoth.org/CzechTranslation\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 3.5\n"
 
 #. type: Attribute 'lang' of: <html>
 #: template.html:3
@@ -62,9 +63,9 @@ msgstr ""
 "Tato verze obsahuje mnoho nových přírůstků a drobných zdokonalení "
 "stávajícího obsahu, včetně nového tažení za drakonidy, úplné předělávky "
 "našeho nejstaršího tažení za věrné, výrazně posíleného grafického výkonu, "
-"významných změn vyvážení pro hru více hráčů, úspěchů, spousty vylepšení "
-"editoru a mnoho dalšího! Vyzkoušejte si je sami, nebo se podívejte <a "
-"href=\"#game\">níže</a> na více podrobností."
+"významných změn vyvážení pro hru více hráčů, zaznamenávání úspěchů, spousty "
+"vylepšení editoru a mnoho dalšího! Vyzkoušejte si je sami, nebo se podívejte "
+"<a href=\"#game\">níže</a> na více podrobností."
 
 #. type: Content of: <html><body><div><div><div><a><span>
 #: template.html:36
@@ -95,8 +96,8 @@ msgstr ""
 "<span class=\"download-big\">Získat na itch.io</span> </span> </a> <a "
 "class=\"steam-button\" role=\"button\" href=\"https://store.steampowered.com/"
 "app/599390\"> <span class=\"download-text\"> <span class=\"steam-icon\" aria-"
-"hidden=\"true\"></span> <span class=\"download-big\">Mít na Steamu</span> </"
-"span> </a>"
+"hidden=\"true\"></span> <span class=\"download-big\">Získat na Steamu</span> "
+"</span> </a>"
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:63
@@ -110,7 +111,6 @@ msgstr "Pro hráče"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:67
-#, fuzzy
 msgid ""
 "Wesnoth’s rendering has been completely overhauled, leading to a significant "
 "improvement in performance with our own tests showing a nearly 60% boost in "
@@ -118,15 +118,14 @@ msgid ""
 "Wesnoth, but will in all cases result in a much smoother and more consistent "
 "experience across all areas of the game."
 msgstr ""
-"Vykreslování hry Wesnoth bylo kompletně přepracováno, což vedlo k výraznému "
-"zlepšení výkonu, přičemž naše vlastní testy ukázaly téměř 60% nárůst FPS. To "
-"se samozřejmě bude lišit v závislosti na počítači, na kterém Wesnoth "
+"Vykreslování hry bylo kompletně přepracováno, což vedlo k výraznému zlepšení "
+"výkonu, přičemž naše vlastní testy ukázaly téměř 60% nárůst FPS. To se "
+"samozřejmě bude lišit v závislosti na zařízení, na kterém Bitvu o Wesnoth "
 "spouštíte, ale ve všech případech bude výsledkem mnohem plynulejší a "
 "konzistentnější zážitek ve všech oblastech hry."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:69
-#, fuzzy
 msgid ""
 "All factions in the Default era have gone through major updates to ensure "
 "standard 1v1 games are more balanced and to allow campaigns to use the new "
@@ -137,12 +136,12 @@ msgid ""
 "Nightblade now serves as the default advancement for the Orcish Slayer."
 msgstr ""
 "Všechny frakce ve výchozí éře prošly zásadními aktualizacemi, aby byly "
-"standardní hry 1v1 vyváženější a aby kampaně mohly využívat novou mechaniku "
-"proměnlivých nákladů na odvolání. Jednotky vyšších úrovní se také dočkaly "
-"řady úprav, aby lépe vyvážily éru Age of Heroes i scénáře přežití, v nichž "
-"se běžně vyskytují jednotky vysokých úrovní. Byly přidány vylepšení třetí "
-"úrovně pro saurského věštce a saurského věštce a orkská noční čepel nyní "
-"slouží jako výchozí vylepšení pro orkského zabijáka."
+"standardní 1v1 hry vyváženější a aby kampaně mohly využívat novou mechaniku "
+"proměnlivých nákladů na povolávání jednotek. Jednotky vyšších úrovní se také "
+"dočkaly řady úprav, aby lépe vyvážily éru Věk hrdinů i scénáře přežití, v "
+"nichž se běžně jednotky vysokých úrovní vyskytují. Byly přidány vylepšení "
+"třetí úrovně pro ještěráckého věštce i ještěráckého jasnovidce a skřetí "
+"šerobřit je nyní standardním vylepšením skřetího mordýře."
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:71
@@ -167,31 +166,30 @@ msgstr "</a>"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:75
-#, fuzzy
 msgid ""
 "A new campaign, <cite>Winds of Fate</cite>, has been added to the game! This "
 "is the first Drake campaign to be included in Wesnoth, showing their fight "
 "for survival and tumultuous return to Wesnoth’s Great Continent as they flee "
 "their sinking island homes."
 msgstr ""
-"Do hry byla přidána nová kampaň <cite>Winds of Fate</cite>! Jedná se o první "
-"kampaň Draků, která je součástí hry Wesnoth a ukazuje jejich boj o přežití a "
-"bouřlivý návrat na Velký kontinent Wesnoth při útěku z potápějících se "
+"Do hry bylo přidáno nové tažení <cite>Větry osudu</cite>! Jedná se o první "
+"drakonidské tažení, která je součástí hry Wesnoth. Ukazuje jejich boj o "
+"přežití a bouřlivý návrat na Velký kontinent při útěku z potápějících se "
 "ostrovních domovů."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:77
-#, fuzzy
 msgid ""
 "<cite>Eastern Invasion</cite> — the first Loyalist campaign ever added to "
 "Wesnoth — has been fully remade with far deeper characters and greater "
 "scenario variety augmented by much more dynamic AI opponents. Several lore "
 "conflicts with other campaigns have also been resolved."
 msgstr ""
-"<cite>Eastern Invasion</cite> - první loajalistická kampaň, která kdy byla "
-"do Wesnothu přidána - byla kompletně předělána s mnohem hlubšími charaktery "
-"a větší rozmanitostí scénářů, doplněnou o mnohem dynamičtější AI protivníků. "
-"Vyřešeno bylo také několik lore konfliktů s jinými kampaněmi."
+"<cite>Invaze z východu</cite> - první tažení za věrné, která kdy bylo do "
+"Wesnothu přidáno - bylo kompletně předěláno. Charaktery hlavních postav jsou "
+"nyní mnohem hlubší a scénáře jsou rozmanitější, doplněné o mnohem "
+"dynamičtější AI protivníků. Vyřešeno bylo také několik konfliktů příběhu s "
+"událostmi v jiných taženích."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:79
@@ -226,7 +224,6 @@ msgstr "Prohlížeč herní historie ve hře"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:85
-#, fuzzy
 msgid ""
 "Players can now view a history of their own previously played games and can "
 "search the history of other players as well by clicking the Match History "
@@ -236,13 +233,13 @@ msgid ""
 "there’s an <a href=\"https://replays.wesnoth.org/dashboard/\">online "
 "dashboard</a> available with more general data about games played."
 msgstr ""
-"Hráči si nyní mohou prohlédnout historii svých vlastních dříve odehraných "
-"her a po kliknutí na tlačítko Historie zápasů v online lobby pro více hráčů "
-"mohou vyhledávat i v historii ostatních hráčů. Zde se zobrazí informace o "
-"samotné hře, hráčích ve hře, použité éře, všech povolených modifikacích a "
-"můžete si stáhnout opakovaný záznam hry a podívat se na něj sami. Kromě toho "
-"je k dispozici <a href=\"https://replays.wesnoth.org/dashboard/\">online "
-"dashboard</a> s obecnějšími údaji o odehraných hrách."
+"Hráči si nyní mohou prohlížet svou historii odehraných her a po kliknutí na "
+"tlačítko Historie zápasů v online čekárně pro více hráčů mohou vyhledávat i "
+"v historii ostatních hráčů. Zde se zobrazí informace o samotné hře, hráčích "
+"ve hře, použité éře a všech povolených modifikacích. Můžete si zde stáhnout "
+"záznam hry a podívat se na něj. Kromě toho je k dispozici <a href=\"https://"
+"replays.wesnoth.org/dashboard/\">online přehled</a> s obecnějšími údaji o "
+"odehraných hrách."
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:87
@@ -277,23 +274,23 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:91
-#, fuzzy
 msgid ""
 "The King of the Hill map has been updated to encourage players to claim the "
 "center keep — whichever side holds the hill gains significant bonus income "
 "and the first player to take control will obtain a treasure chest containing "
 "a tidy sum."
 msgstr ""
-"Mapa Král kopce byla aktualizována tak, aby hráče povzbuzovala k obsazení "
-"centrální pevnosti - kterákoli strana kopce získá významný bonusový příjem a "
-"hráč, který ji ovládne jako první, získá truhlu s pokladem, v níž se skrývá "
-"slušná částka."
+"Mapa Král vršku byla aktualizována tak, aby hráče povzbuzovala k obsazení "
+"centrální pevnosti. Strana, která drží vršek získá významný bonusový příjem "
+"a hráč, který jej ovládne jako první, získá truhlu s pokladem, ukrývající "
+"fajnovou sumičku."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:93
-#, fuzzy
 msgid "And, as a cherry on top, the waterfall on Isar’s Cross is now animated."
-msgstr "A jako třešnička na dortu je nyní vodopád na Isar's Cross animovaný."
+msgstr ""
+"A jako třešnička na dortu je nyní vodopád na mapě Isarova křižovatka "
+"animovaný."
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:95
@@ -312,7 +309,6 @@ msgstr "Úspěchy"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:99
-#, fuzzy
 msgid ""
 "Wesnoth now has built-in support for achievements! These achievements <b>are "
 "not Steam achievements</b>, however because of that they are not limited to "
@@ -324,15 +320,16 @@ msgid ""
 "multiplayer maps <cite>Dark Forecast</cite>, <cite>Isle of Mists</cite>, "
 "<cite>A New Land</cite> and <cite>Team Survival</cite>."
 msgstr ""
-"Wesnoth má nyní integrovanou podporu pro achievementy! Tyto úspěchy "
-"<b>nejsou úspěchy služby Steam</b>, nicméně díky tomu nejsou omezeny na "
-"předdefinovanou sadu úspěchů dostupných pouze pro základní hru - přídavky "
-"mohou definovat své vlastní úspěchy a dokonce mohou přidávat další úspěchy "
-"do jiných přídavků nebo do hlavní linie. Pro tuto počáteční verzi jsou již "
-"implementovány achievementy pro výukovou kampaň, <cite>Sestup do temnoty</"
-"cite>, <cite>Východní invaze</cite>, <cite>Svoboda</cite> a kooperativní "
-"multiplayerové mapy <cite>Temná předpověď</cite>, <cite>Isle of Mists</"
-"cite>, <cite>Nová země</cite> a <cite>Týmové přežití</cite>."
+"Bitva o Wesnoth má nyní integrovanou podporu pro zaznamenávání úspěchů! Tyto "
+"úspěchy <b>nejsou úspěchy používané ve službě Steam</b>, nicméně díky tomu "
+"nejsou omezeny na předdefinovanou sadu úspěchů dostupných pouze pro základní "
+"hru. Rozšíření mohou definovat své vlastní úspěchy a dokonce mohou přidávat "
+"další úspěchy do jiných rozšíření či do základní hry. Pro tuto počáteční "
+"verzi je již implementováno zaznamenávání úspěchů pro tutoriál, pro tažení "
+"<cite>Pád do temnoty</cite>, <cite>Invaze z východu</cite> a <cite>Svoboda</"
+"cite> a pro kooperativní hry více hráčů na mapách <cite>Temná předpověď</"
+"cite>, <cite>Ostrov mlh</cite>, <cite>Nová země</cite> a <cite>Týmové "
+"přežití</cite>."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:101
@@ -407,15 +404,13 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:109
-#, fuzzy
 msgid ""
 "A wide variety of units have likewise had their sprites improved and had "
 "various animations added, primarily Loyalists, Orcs, and Trolls but also "
 "some Elf and Undead units."
 msgstr ""
-"Podobně byly vylepšeny sprity a přidány různé animace u celé řady jednotek, "
-"především u loajalistů, skřetů a trollů, ale také u některých elfů a "
-"nemrtvých."
+"Podobně byly vylepšeny obrázky a přidány různé animace u celé řady jednotek, "
+"především u věrných, skřetů a trollů, ale také u některých elfů a nemrtvých."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:111
