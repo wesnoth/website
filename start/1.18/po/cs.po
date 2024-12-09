@@ -120,7 +120,7 @@ msgid ""
 msgstr ""
 "Vykreslování hry bylo kompletně přepracováno, což vedlo k výraznému zlepšení "
 "výkonu, přičemž naše vlastní testy ukázaly téměř 60% nárůst FPS. To se "
-"samozřejmě bude lišit v závislosti na zařízení, na kterém Bitvu o Wesnoth "
+"samozřejmě bude lišit v závislosti na počítači, na kterém Bitvu o Wesnoth "
 "spouštíte, ale ve všech případech bude výsledkem mnohem plynulejší a "
 "konzistentnější zážitek ve všech oblastech hry."
 
