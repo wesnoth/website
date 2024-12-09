@@ -281,7 +281,7 @@ msgid ""
 "a tidy sum."
 msgstr ""
 "Mapa Král vršku byla aktualizována tak, aby hráče povzbuzovala k obsazení "
-"centrální pevnosti. Strana, která drží vršek získá významný bonusový příjem "
+"centrální pevnosti. Strana, která drží vršek, získá významný bonusový příjem "
 "a hráč, který jej ovládne jako první, získá truhlu s pokladem, ukrývající "
 "fajnovou sumičku."
 
