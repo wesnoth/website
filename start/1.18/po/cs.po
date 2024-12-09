@@ -173,7 +173,7 @@ msgid ""
 "their sinking island homes."
 msgstr ""
 "Do hry bylo přidáno nové tažení <cite>Větry osudu</cite>! Jedná se o první "
-"drakonidské tažení, která je součástí hry Wesnoth. Ukazuje jejich boj o "
+"drakonidské tažení, které je součástí hry Wesnoth. Ukazuje jejich boj o "
 "přežití a bouřlivý návrat na Velký kontinent při útěku z potápějících se "
 "ostrovních domovů."
 
