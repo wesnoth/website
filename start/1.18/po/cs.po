@@ -139,7 +139,7 @@ msgstr ""
 "standardní hry 1v1 vyváženější a aby tažení mohla využívat novou mechaniku "
 "proměnlivých nákladů na povolávání jednotek. Jednotky vyšších úrovní se také "
 "dočkaly řady úprav, aby lépe vyvážily éru Věk hrdinů i scénáře přežití, v "
-"nichž se běžně jednotky vysokých úrovní vyskytují. Byly přidány vylepšení "
+"nichž se běžně jednotky vysokých úrovní vyskytují. Byla přidána vylepšení "
 "třetí úrovně pro ještěráckého věštce i ještěráckého jasnovidce a skřetí "
 "šerobřit je nyní standardním vylepšením skřetího mordýře."
 
