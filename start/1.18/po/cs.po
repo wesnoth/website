@@ -8,15 +8,14 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2024-03-01 13:54-0600\n"
-"PO-Revision-Date: 2024-12-29 14:12+0100\n"
-"Last-Translator: Septim <septim@centrum.cz>\n"
+"PO-Revision-Date: 2024-12-29 18:24+0100\n"
+"Last-Translator: Michal Žejdl <lachim@emer.cz>\n"
 "Language-Team: Czech https://wiki.wesnoth.org/CzechTranslation\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Poedit 3.5\n"
 
 #. type: Attribute 'lang' of: <html>
 #: template.html:3
@@ -201,11 +200,11 @@ msgid ""
 "new abilities and new weapon effects for their attacks, making this a unique "
 "experience among Wesnoth’s campaigns."
 msgstr ""
-"A konečně, frakce quenothských elfů v tažení <cite>Pod žhnoucími slunci</"
+"A konečně, frakce quenothských elfů v tažení <cite>Pod žhnoucími slunci</"
 "cite> byla přepracována, aby byla zajímavější. Jednotky hrdinů nyní mohou "
 "při zvyšování úrovně získávat jedinečné bonusy, zatímco běžné jednotky "
-"disponují novými schopnostmi a novými efekty zbraní pro své útoky. Hraní "
-"tohoto příběhu tak v rámci tažení Wesnothu představuje jedinečný zážitek."
+"disponují novými schopnostmi a novými efekty zbraní pro své útoky. Hraní "
+"tohoto příběhu tak v rámci tažení Wesnothu představuje jedinečný zážitek."
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:81
@@ -263,13 +262,13 @@ msgid ""
 "now automatically detect when your connection is lost and alert you to the "
 "problem."
 msgstr ""
-"Byly jasně odděleny automaticky hostované hry, jako je Afterlife, a hry "
+"Byly jasně odděleny automaticky hostované hry, jako je Afterlife, a hry "
 "hostované jinými hráči. Hry hostované hráči budou na kartě Obecná čekárna, "
 "zatímco automaticky hostované hry budou na kartě Dohazování. Příkaz <code>/"
-"report</code> nyní zobrazí dialogové okno, do kterého lze zadat informace o "
-"problému, a pomůže tak s nahlášením problematických hráčů nebo her. A aby "
+"report</code> nyní zobrazí dialogové okno, do kterého lze zadat informace "
+"o problému, a pomůže tak s nahlášením problematických hráčů nebo her. A aby "
 "bylo možné lépe řešit odpojení serveru kvůli problémům se sítí, hra nyní "
-"automaticky detekuje, že došlo ke ztrátě připojení, a upozorní tě na problém."
+"automaticky zjistí, že došlo ke ztrátě spojení, a upozorní tě na problém."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:91
@@ -330,10 +329,8 @@ msgstr ""
 "cite>, <cite>Ostrov mlh</cite>, <cite>Nová země</cite> a <cite>Týmové "
 "přežití</cite>."
 
-# Druhou větu asi nedokážu správně přeložit...
 #. type: Content of: <html><body><div><div><p>
 #: template.html:101
-#, fuzzy
 msgid ""
 "For distributing your add-ons, Wesnoth now allows using your forum username "
 "and password when uploading. When using this approach, the add-on’s "
@@ -348,15 +345,15 @@ msgid ""
 "afterwards."
 msgstr ""
 "Pro distribuci tvých rozšíření nyní Wesnoth umožňuje používat při nahrávání "
-"tvé uživatelské jméno a heslo z fóra. Při použití tohoto přístupu je "
-"přístupová fráze doplňku uložena v zašifrovaném souboru pověření namísto "
-"prostého textu v tvém souboru <code>_server.pbl</code>, což je bezpečnější. "
+"tvé uživatelské jméno a heslo z fóra. Při použití tohoto přístupu je heslo "
+"rozšíření uloženo v zašifrovaném souboru s přístupovými údaji namísto "
+"prostého textu v tvém souboru <code>_server.pbl</code>, což je bezpečnější. "
 "Ale také to znamená, že pokud heslo ztratíš, můžeš využít obnovu hesla "
-"z fóra k obnovení přístupu ke svým rozšířením. Kromě toho to umožňuje u "
-"rozšíření, které jsou vyvíjeny společně více lidmi, určit další uživatele, "
+"z fóra k obnovení přístupu ke svým rozšířením. Kromě toho to umožňuje "
+"u rozšíření, jež jsou vyvíjena společně více lidmi, určit další uživatele, "
 "kteří mohou nahrávat jejich aktualizace. Tvůj <code>_server.pbl</code> bude "
-"také ověřen před nahráním rozšíření, takže se o případných problémech dozvíš "
-"ještě před nahráním, nikoli až po něm."
+"také ověřen před nahráním rozšíření, takže se o případných problémech dozvíš "
+"hned, nikoli až po nahrání."
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:103
@@ -379,11 +376,11 @@ msgid ""
 "add-on for others to play, all from within Wesnoth."
 msgstr ""
 "Editor scénářů prošel významnou aktualizací. Místo toho, aby dokázal "
-"pracovat pouze s jednotlivými soubory scénářů, je nyní schopen vytvořit "
-"kostru zbrusu nového rozšíření a také poskytnout uživatelské rozhraní pro "
+"pracovat pouze s jednotlivými soubory scénářů, je nyní schopen vytvořit "
+"kostru zbrusu nového rozšíření a také poskytnout uživatelské rozhraní pro "
 "vytvoření požadovaného souboru <code>_server.pbl</code>. To znamená, že je "
 "nyní možné vytvořit rozšíření, jeho <code>_server.pbl</code> soubor, jeho "
-"scénáře a nahrát rozšíření pro ostatní hráče, a to vše z prostředí Wesnothu."
+"scénáře a nahrát rozšíření pro ostatní hráče, a to vše z prostředí Wesnothu."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:107
@@ -394,11 +391,11 @@ msgid ""
 "terrains and fauna units added from palisade walls, seashell embellishments, "
 "and seaweed terrain to fire ants, giant jumping spiders, and rocs."
 msgstr ""
-"Podobně byl výrazně vylepšen i editor map. Nyní je možné přidávat útesy a "
-"údolí, čímž lze mapám dodat značnou <cite>hloubku</cite>. Kromě toho byla "
-"přidána celá řada nových terénů a jednotek fauny od palisádových zdí, terénů "
-"z lastur a mořských řas až po ohnivé mravence, obří skákající pavouky a "
-"ptáky Nohy."
+"Podobně byl výrazně vylepšen i editor map. Nyní je možné přidávat útesy "
+"a údolí, čímž lze mapám dodat značnou <cite>hloubku</cite>. Kromě toho byla "
+"přidána celá řada nových terénů a jednotek fauny od palisádových zdí, terénů "
+"z lastur a mořských řas až po ohnivé mravence, obří skákající pavouky "
+"a ptáky Nohy."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:109
@@ -412,7 +409,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:111
-#, fuzzy
 msgid ""
 "And finally, LuaCATS documentation has been added for nearly all of the Lua "
 "functions that Wesnoth defines, providing autocomplete when typing and "
@@ -420,10 +416,10 @@ msgid ""
 "for Visual Studio Code, but should work with any editor that has an LuaCATS "
 "plugin."
 msgstr ""
-"A nakonec byla přidána dokumentace LuaCATS pro téměř všechny funkce Lua, "
-"které Wesnoth definuje, a to díky automatickému dokončování při psaní a "
-"dokumentaci při najetí na funkci. Tato funkce byla napsána především pro "
-"Visual Studio Code, ale měla by fungovat v jakémkoli editoru, který má "
+"A nakonec byla přidána dokumentace LuaCATS pro téměř všechny funkce Lua, "
+"které Wesnoth definuje. Ta poskytuje automatické dokončování při psaní "
+"a popis funkce při najetí myší na ni. Tohle bylo napsáno především pro "
+"Visual Studio Code, ale mělo by to fungovat v jakémkoli editoru, který má "
 "zásuvný modul LuaCATS."
 
 #. type: Content of: <html><body><div><div><h2>
