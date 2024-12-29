@@ -1,13 +1,14 @@
 # Vladimír Slávik <slavik.vladimir@seznam.cz>, 2009 - 2012.
 # Martin Hrubý <hrubymar10@gmail.com>, 2019.
 # Michal Žejdl <lachim@emer.cz>, 2021, 2024
+# Petr Šlejhar (Septim) <septim@centrum.cz>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2024-03-01 13:54-0600\n"
-"PO-Revision-Date: 2024-12-08 14:17+0100\n"
+"PO-Revision-Date: 2024-12-29 14:12+0100\n"
 "Last-Translator: Septim <septim@centrum.cz>\n"
 "Language-Team: Czech https://wiki.wesnoth.org/CzechTranslation\n"
 "Language: cs\n"
@@ -193,7 +194,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:79
-#, fuzzy
 msgid ""
 "And lastly, the Quenoth faction in the campaign <cite>Under the Burning "
 "Suns</cite> has been given an overhaul to make them more interesting — hero "
@@ -201,11 +201,11 @@ msgid ""
 "new abilities and new weapon effects for their attacks, making this a unique "
 "experience among Wesnoth’s campaigns."
 msgstr ""
-"A konečně, frakce Quenothů v kampani <cite>Pod hořícími slunci</cite> byla "
-"přepracována, aby byla zajímavější - jednotky hrdinů nyní mohou při "
-"zvyšování úrovně získávat jedinečné bonusy, zatímco běžné jednotky mají nové "
-"schopnosti a nové efekty zbraní pro své útoky, což z ní činí jedinečný "
-"zážitek mezi kampaněmi Wesnothu."
+"A konečně, frakce quenothských elfů v tažení <cite>Pod žhnoucími slunci</"
+"cite> byla přepracována, aby byla zajímavější. Jednotky hrdinů nyní mohou "
+"při zvyšování úrovně získávat jedinečné bonusy, zatímco běžné jednotky "
+"disponují novými schopnostmi a novými efekty zbraní pro své útoky. Hraní "
+"tohoto příběhu tak v rámci tažení Wesnothu představuje jedinečný zážitek."
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:81
@@ -253,7 +253,6 @@ msgstr "Animovaný vodopád"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:89
-#, fuzzy
 msgid ""
 "A clear separation has been made for auto-hosted games such as Afterlife vs "
 "custom games hosted by other players. Games hosted by players will be in the "
@@ -264,13 +263,13 @@ msgid ""
 "now automatically detect when your connection is lost and alert you to the "
 "problem."
 msgstr ""
-"Byly jasně odděleny automaticky hostované hry, jako je Afterlife, a vlastní "
-"hry hostované jinými hráči. Hry hostované hráči budou na kartě Obecné lobby, "
-"zatímco automaticky hostované hry budou na kartě Matchmaking. Příkaz <code>/"
+"Byly jasně odděleny automaticky hostované hry, jako je Afterlife, a hry "
+"hostované jinými hráči. Hry hostované hráči budou na kartě Obecná čekárna, "
+"zatímco automaticky hostované hry budou na kartě Dohazování. Příkaz <code>/"
 "report</code> nyní zobrazí dialogové okno, do kterého lze zadat informace o "
 "problému, a pomůže tak s nahlášením problematických hráčů nebo her. A aby "
-"bylo možné lépe řešit odpojení serveru kvůli problémům se sítí, Wesnoth nyní "
-"automaticky zjistí, kdy došlo ke ztrátě připojení, a upozorní vás na problém."
+"bylo možné lépe řešit odpojení serveru kvůli problémům se sítí, hra nyní "
+"automaticky detekuje, že došlo ke ztrátě připojení, a upozorní tě na problém."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:91
@@ -331,6 +330,7 @@ msgstr ""
 "cite>, <cite>Ostrov mlh</cite>, <cite>Nová země</cite> a <cite>Týmové "
 "přežití</cite>."
 
+# Druhou větu asi nedokážu správně přeložit...
 #. type: Content of: <html><body><div><div><p>
 #: template.html:101
 #, fuzzy
@@ -347,16 +347,16 @@ msgid ""
 "on, so you will know of any issues before the upload takes place rather than "
 "afterwards."
 msgstr ""
-"Pro distribuci vašich doplňků nyní Wesnoth umožňuje při nahrávání používat "
-"vaše uživatelské jméno a heslo na fóru. Při použití tohoto přístupu je "
+"Pro distribuci tvých rozšíření nyní Wesnoth umožňuje používat při nahrávání "
+"tvé uživatelské jméno a heslo z fóra. Při použití tohoto přístupu je "
 "přístupová fráze doplňku uložena v zašifrovaném souboru pověření namísto "
-"prostého textu ve vašem souboru <code>_server.pbl</code>, což je "
-"bezpečnější, ale také to znamená, že pokud heslo ztratíte, můžete použít "
-"obnovení hesla fóra k obnovení přístupu ke svým doplňkům. Kromě toho to "
-"umožňuje určit další uživatele, kteří mohou nahrávat aktualizace doplňku, u "
-"doplňků, které jsou vyvíjeny společně více lidmi. Váš <code>_server.pbl</"
-"code> bude také ověřen před nahráním doplňku, takže se o případných "
-"problémech dozvíte ještě před nahráním, nikoli až po něm."
+"prostého textu v tvém souboru <code>_server.pbl</code>, což je bezpečnější. "
+"Ale také to znamená, že pokud heslo ztratíš, můžeš využít obnovu hesla "
+"z fóra k obnovení přístupu ke svým rozšířením. Kromě toho to umožňuje u "
+"rozšíření, které jsou vyvíjeny společně více lidmi, určit další uživatele, "
+"kteří mohou nahrávat jejich aktualizace. Tvůj <code>_server.pbl</code> bude "
+"také ověřen před nahráním rozšíření, takže se o případných problémech dozvíš "
+"ještě před nahráním, nikoli až po něm."
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:103
@@ -370,7 +370,6 @@ msgstr "Zvýšený/snížený terén"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:105
-#, fuzzy
 msgid ""
 "The scenario editor has received a major upgrade: instead of only being able "
 "to understand single scenario files, it is now capable of creating the "
@@ -379,16 +378,15 @@ msgid ""
 "add-on, the add-on’s <code>_server.pbl</code>, its scenarios, and upload the "
 "add-on for others to play, all from within Wesnoth."
 msgstr ""
-"Editor scénářů prošel významnou aktualizací: místo toho, aby si rozuměl "
-"pouze s jednotlivými soubory scénářů, je nyní schopen vytvořit kostru zcela "
-"nového přídavku a také poskytnout uživatelské rozhraní pro vytvoření "
-"požadovaného souboru <code>_server.pbl</code>. To znamená, že je nyní možné "
-"vytvořit přídavek, jeho <code>_server.pbl</code>, jeho scénáře a nahrát "
-"přídavek pro ostatní, aby si ho mohli zahrát, a to vše z prostředí Wesnoth."
+"Editor scénářů prošel významnou aktualizací. Místo toho, aby dokázal "
+"pracovat pouze s jednotlivými soubory scénářů, je nyní schopen vytvořit "
+"kostru zbrusu nového rozšíření a také poskytnout uživatelské rozhraní pro "
+"vytvoření požadovaného souboru <code>_server.pbl</code>. To znamená, že je "
+"nyní možné vytvořit rozšíření, jeho <code>_server.pbl</code> soubor, jeho "
+"scénáře a nahrát rozšíření pro ostatní hráče, a to vše z prostředí Wesnothu."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:107
-#, fuzzy
 msgid ""
 "The map editor similarly has been given a significant improvement: it’s now "
 "possible to add cliffs and valleys, which can be used to add quite a bit of "
@@ -396,11 +394,11 @@ msgid ""
 "terrains and fauna units added from palisade walls, seashell embellishments, "
 "and seaweed terrain to fire ants, giant jumping spiders, and rocs."
 msgstr ""
-"Podobně byl výrazně vylepšen i editor map: nyní je možné přidávat útesy a "
+"Podobně byl výrazně vylepšen i editor map. Nyní je možné přidávat útesy a "
 "údolí, čímž lze mapám dodat značnou <cite>hloubku</cite>. Kromě toho byla "
-"přidána celá řada nových terénů a jednotek fauny od palisádových zdí, "
-"mušlových ozdob a terénů z mořských řas až po ohnivé mravence, obří "
-"skákající pavouky a skákavky."
+"přidána celá řada nových terénů a jednotek fauny od palisádových zdí, terénů "
+"z lastur a mořských řas až po ohnivé mravence, obří skákající pavouky a "
+"ptáky Nohy."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:109
