@@ -1,13 +1,14 @@
 # Vladimír Slávik <slavik.vladimir@seznam.cz>, 2009 - 2012.
 # Martin Hrubý <hrubymar10@gmail.com>, 2019.
-# Michal Žejdl <lachim@emer.cz>, 2021.
+# Michal Žejdl <lachim@emer.cz>, 2021, 2024
+# Petr Šlejhar (Septim) <septim@centrum.cz>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2024-03-01 13:54-0600\n"
-"PO-Revision-Date: 2021-10-23 18:17+0200\n"
+"PO-Revision-Date: 2024-12-30 10:43+0100\n"
 "Last-Translator: Michal Žejdl <lachim@emer.cz>\n"
 "Language-Team: Czech https://wiki.wesnoth.org/CzechTranslation\n"
 "Language: cs\n"
@@ -23,10 +24,8 @@ msgstr "cs"
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:15 template.html:27
-#, fuzzy
-#| msgid "The Battle for Wesnoth 1.16"
 msgid "The Battle for Wesnoth 1.18"
-msgstr "Bitva o Wesnoth 1.16"
+msgstr "Bitva o Wesnoth 1.18"
 
 #. type: Content of: <html><body><div><div>
 #: template.html:25
@@ -39,35 +38,20 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:27
-#, fuzzy
-#| msgid "<span id=\"branding-sub\">Dune Conquests Update</span>"
 msgid "<span id=\"branding-sub\">Draconic Invasions Update</span>"
-msgstr "<span id=\"branding-sub\">Aktualizace Dobývání dun</span>"
+msgstr "<span id=\"branding-sub\">přináší Vpád drakonidů</span>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:30
-#, fuzzy
-#| msgid ""
-#| "<i>October 2021.</i> The development team is proud to present version "
-#| "1.16 of <cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></"
-#| "cite>!"
 msgid ""
 "<i>March 2024.</i> The development team is proud to present version 1.18 of "
 "<cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
 msgstr ""
-"<i>Říjen 2021.</i> Vývojový tým s hrdostí představuje verzi 1.16 hry "
+"<i>Březen 2024.</i> Vývojový tým s hrdostí představuje verzi 1.18 hry "
 "<cite><a href=\"/\">Bitva&nbsp;o&nbsp;Wesnoth</a></cite>!"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:32
-#, fuzzy
-#| msgid ""
-#| "This release features a variety of improvements to many areas of the game "
-#| "including many improved campaigns, a fully rebalanced Dunefolk faction, "
-#| "new portraits and units, upgrades to the AI, a variety of new features "
-#| "for add-on authors, many <b>many</b> bugs fixed, and much more besides. "
-#| "Try out the new features for yourself, or take a look <a "
-#| "href=\"#game\">below</a> for more details."
 msgid ""
 "This release features many new additions as well as refinements to existing "
 "content including a new Drake campaign, a full remake of our oldest Loyalist "
@@ -76,12 +60,12 @@ msgid ""
 "more! Try them out for yourself, or take a look <a href=\"#game\">below</a> "
 "for more details."
 msgstr ""
-"Toto vydání nabízí celou řadu vylepšení mnoha oblastí hry včetně mnoha "
-"zlepšených kampaní, plně vyvážené frakce pouštních lidí, nových portrétů "
-"a jednotek, zmodernizované umělé inteligence, různých nových funkcí pro "
-"autory rozšíření, skutečně <b>velkého</b> počtu opravených chyb a mnoho "
-"dalšího. Vyzkoušejte si nové funkce sami nebo se podívejte <a "
-"href=\"#game\">níže</a> na další podrobnosti."
+"Tato verze obsahuje mnoho nových přírůstků a drobných zdokonalení "
+"stávajícího obsahu, včetně nového tažení za drakonidy, úplné předělávky "
+"našeho nejstaršího tažení za věrné, výrazně posíleného grafického výkonu, "
+"významných změn vyvážení pro hru více hráčů, zaznamenávání úspěchů, spousty "
+"vylepšení editoru a mnoho dalšího! Vyzkoušejte si je sami, nebo se podívejte "
+"<a href=\"#game\">níže</a> na více podrobností."
 
 #. type: Content of: <html><body><div><div><div><a><span>
 #: template.html:36
@@ -112,8 +96,8 @@ msgstr ""
 "<span class=\"download-big\">Získat na itch.io</span> </span> </a> <a "
 "class=\"steam-button\" role=\"button\" href=\"https://store.steampowered.com/"
 "app/599390\"> <span class=\"download-text\"> <span class=\"steam-icon\" aria-"
-"hidden=\"true\"></span> <span class=\"download-big\">Mít na Steamu</span> </"
-"span> </a>"
+"hidden=\"true\"></span> <span class=\"download-big\">Získat na Steamu</span> "
+"</span> </a>"
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:63
@@ -134,6 +118,11 @@ msgid ""
 "Wesnoth, but will in all cases result in a much smoother and more consistent "
 "experience across all areas of the game."
 msgstr ""
+"Vykreslování hry bylo kompletně přepracováno, což vedlo k výraznému zlepšení "
+"výkonu, přičemž naše vlastní testy ukázaly téměř 60% nárůst FPS. To se "
+"samozřejmě bude lišit v závislosti na počítači, na kterém Bitvu o Wesnoth "
+"spouštíte, ale ve všech případech bude výsledkem mnohem plynulejší "
+"a konzistentnější zážitek ve všech oblastech hry."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:69
@@ -146,6 +135,13 @@ msgid ""
 "the Saurian Oracle and Saurian Soothsayer have been added and the Orcish "
 "Nightblade now serves as the default advancement for the Orcish Slayer."
 msgstr ""
+"Všechny frakce ve výchozí éře prošly zásadními aktualizacemi, aby byly "
+"standardní hry 1v1 vyváženější a aby tažení mohla využívat novou mechaniku "
+"proměnlivých nákladů na povolávání jednotek. Jednotky vyšších úrovní se také "
+"dočkaly řady úprav, aby lépe vyvážily éru Věk hrdinů i scénáře přežití, "
+"v nichž se běžně jednotky vysokých úrovní vyskytují. Byla přidána vylepšení "
+"třetí úrovně pro ještěráckého věštce i ještěráckého jasnovidce a skřetí "
+"šerobřit je nyní standardním vylepšením skřetího mordýře."
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:71
@@ -154,10 +150,8 @@ msgstr "Tažení"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:73
-#, fuzzy
-#| msgid "<a href=\"images/start-2.jpg\">"
 msgid "<a href=\"images/start-2.png\">"
-msgstr "<a href=\"images/start-2.jpg\">"
+msgstr "<a href=\"images/start-2.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:73
@@ -178,6 +172,10 @@ msgid ""
 "for survival and tumultuous return to Wesnoth’s Great Continent as they flee "
 "their sinking island homes."
 msgstr ""
+"Do hry bylo přidáno nové tažení <cite>Větry osudu</cite>! Jedná se o první "
+"drakonidské tažení, které je součástí hry Wesnoth. Ukazuje jejich boj "
+"o přežití a bouřlivý návrat na Velký kontinent při útěku z potápějících se "
+"ostrovních domovů."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:77
@@ -187,6 +185,11 @@ msgid ""
 "scenario variety augmented by much more dynamic AI opponents. Several lore "
 "conflicts with other campaigns have also been resolved."
 msgstr ""
+"<cite>Invaze z východu</cite> – první tažení za věrné, které kdy bylo do "
+"Wesnothu přidáno – bylo kompletně předěláno. Charaktery hlavních postav jsou "
+"nyní mnohem hlubší a scénáře jsou rozmanitější, doplněné o mnohem "
+"dynamičtější AI protivníků. Vyřešeno bylo také několik konfliktů příběhu "
+"s událostmi v jiných taženích."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:79
@@ -197,6 +200,11 @@ msgid ""
 "new abilities and new weapon effects for their attacks, making this a unique "
 "experience among Wesnoth’s campaigns."
 msgstr ""
+"A konečně, frakce quenothských elfů v tažení <cite>Pod žhnoucími slunci</"
+"cite> byla přepracována, aby byla zajímavější. Jednotky hrdinů nyní mohou "
+"při zvyšování úrovně získávat jedinečné bonusy, zatímco běžné jednotky "
+"disponují novými schopnostmi a novými efekty zbraní pro své útoky. Hraní "
+"tohoto příběhu tak v rámci tažení Wesnothu představuje jedinečný zážitek."
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:81
@@ -205,15 +213,13 @@ msgstr "Hra více hráčů"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:83
-#, fuzzy
-#| msgid "<a href=\"images/start-1.jpg\">"
 msgid "<a href=\"images/start-1.png\">"
-msgstr "<a href=\"images/start-1.jpg\">"
+msgstr "<a href=\"images/start-1.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:83
 msgid "In-game game history viewer"
-msgstr ""
+msgstr "Prohlížeč herní historie ve hře"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:85
@@ -226,18 +232,23 @@ msgid ""
 "there’s an <a href=\"https://replays.wesnoth.org/dashboard/\">online "
 "dashboard</a> available with more general data about games played."
 msgstr ""
+"Hráči si nyní mohou prohlížet svou historii odehraných her a po kliknutí na "
+"tlačítko Historie zápasů v online čekárně pro více hráčů mohou vyhledávat "
+"i v historii ostatních hráčů. Zde se zobrazí informace o samotné hře, "
+"hráčích ve hře, použité éře a všech povolených modifikacích. Můžete si zde "
+"stáhnout záznam hry a podívat se na něj. Kromě toho je k dispozici <a "
+"href=\"https://replays.wesnoth.org/dashboard/\">online přehled</a> "
+"s obecnějšími údaji o odehraných hrách."
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:87
-#, fuzzy
-#| msgid "<a href=\"images/start-5.jpg\">"
 msgid "<a href=\"images/start-5.gif\">"
-msgstr "<a href=\"images/start-5.jpg\">"
+msgstr "<a href=\"images/start-5.gif\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:87
 msgid "Animated waterfall"
-msgstr ""
+msgstr "Animovaný vodopád"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:89
@@ -251,6 +262,13 @@ msgid ""
 "now automatically detect when your connection is lost and alert you to the "
 "problem."
 msgstr ""
+"Byly jasně odděleny automaticky hostované hry, jako je Afterlife, a hry "
+"hostované jinými hráči. Hry hostované hráči budou na kartě Obecná čekárna, "
+"zatímco automaticky hostované hry budou na kartě Dohazování. Příkaz <code>/"
+"report</code> nyní zobrazí dialogové okno, do kterého lze zadat informace "
+"o problému, a pomůže tak s nahlášením problematických hráčů nebo her. A aby "
+"bylo možné lépe řešit odpojení serveru kvůli problémům se sítí, hra nyní "
+"automaticky zjistí, že došlo ke ztrátě spojení, a upozorní vás na problém."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:91
@@ -260,11 +278,17 @@ msgid ""
 "and the first player to take control will obtain a treasure chest containing "
 "a tidy sum."
 msgstr ""
+"Mapa Král vršku byla aktualizována tak, aby hráče povzbuzovala k obsazení "
+"centrální pevnosti. Strana, která drží vršek, získá významný bonusový příjem "
+"a hráč, který jej ovládne jako první, získá truhlu s pokladem, ukrývající "
+"fajnovou sumičku."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:93
 msgid "And, as a cherry on top, the waterfall on Isar’s Cross is now animated."
 msgstr ""
+"A jako třešnička na dortu je nyní vodopád na mapě Isarova křižovatka "
+"animovaný."
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:95
@@ -273,15 +297,13 @@ msgstr "Pro tvůrce obsahu"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:97
-#, fuzzy
-#| msgid "<a href=\"images/start-3.jpg\">"
 msgid "<a href=\"images/start-3.png\">"
-msgstr "<a href=\"images/start-3.jpg\">"
+msgstr "<a href=\"images/start-3.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:97
 msgid "Achievements"
-msgstr ""
+msgstr "Úspěchy"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:99
@@ -296,6 +318,16 @@ msgid ""
 "multiplayer maps <cite>Dark Forecast</cite>, <cite>Isle of Mists</cite>, "
 "<cite>A New Land</cite> and <cite>Team Survival</cite>."
 msgstr ""
+"Bitva o Wesnoth má nyní integrovanou podporu pro zaznamenávání úspěchů! Tyto "
+"úspěchy <b>nejsou úspěchy používané ve službě Steam</b>, nicméně díky tomu "
+"nejsou omezeny na předdefinovanou sadu úspěchů dostupných pouze pro základní "
+"hru. Rozšíření mohou definovat své vlastní úspěchy, a dokonce mohou přidávat "
+"další úspěchy do jiných rozšíření či do základní hry. Pro tuto počáteční "
+"verzi je již implementováno zaznamenávání úspěchů pro tutoriál, pro tažení "
+"<cite>Pád do temnoty</cite>, <cite>Invaze z východu</cite> a <cite>Svoboda</"
+"cite> a pro kooperativní hry více hráčů na mapách <cite>Temná předpověď</"
+"cite>, <cite>Ostrov mlh</cite>, <cite>Nová země</cite> a <cite>Týmové "
+"přežití</cite>."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:101
@@ -312,6 +344,16 @@ msgid ""
 "on, so you will know of any issues before the upload takes place rather than "
 "afterwards."
 msgstr ""
+"Pro distribuci vašich rozšíření nyní Wesnoth umožňuje používat při nahrávání "
+"vaše uživatelské jméno a heslo z fóra. Při použití tohoto přístupu je heslo "
+"rozšíření uloženo v zašifrovaném souboru s přístupovými údaji namísto "
+"prostého textu ve vašem souboru <code>_server.pbl</code>, což je "
+"bezpečnější. Ale také to znamená, že pokud heslo ztratíte, můžete využít "
+"obnovu hesla z fóra k obnovení přístupu ke svým rozšířením. Kromě toho to "
+"umožňuje u rozšíření, jež jsou vyvíjena společně více lidmi, určit další "
+"uživatele, kteří mohou nahrávat své aktualizace. Váš <code>_server.pbl</"
+"code> bude také ověřen před nahráním rozšíření, takže se o případných "
+"problémech dozvíte hned, nikoli až po nahrání."
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:103
@@ -320,10 +362,8 @@ msgstr "<a href=\"images/start-4.jpg\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:103
-#, fuzzy
-#| msgid "New terrain"
 msgid "Raise/lowered terrain"
-msgstr "Nový terén"
+msgstr "Zvýšený/snížený terén"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:105
@@ -335,6 +375,12 @@ msgid ""
 "add-on, the add-on’s <code>_server.pbl</code>, its scenarios, and upload the "
 "add-on for others to play, all from within Wesnoth."
 msgstr ""
+"Editor scénářů prošel významnou aktualizací. Místo toho, aby dokázal "
+"pracovat pouze s jednotlivými soubory scénářů, je nyní schopen vytvořit "
+"kostru zbrusu nového rozšíření a také poskytnout uživatelské rozhraní pro "
+"vytvoření požadovaného souboru <code>_server.pbl</code>. To znamená, že je "
+"nyní možné vytvořit rozšíření, jeho soubor <code>_server.pbl</code>, jeho "
+"scénáře a nahrát rozšíření pro ostatní hráče, a to vše z prostředí Wesnothu."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:107
@@ -345,6 +391,11 @@ msgid ""
 "terrains and fauna units added from palisade walls, seashell embellishments, "
 "and seaweed terrain to fire ants, giant jumping spiders, and rocs."
 msgstr ""
+"Podobně byl výrazně vylepšen i editor map. Nyní je možné přidávat útesy "
+"a údolí, čímž lze mapám dodat značnou <cite>hloubku</cite>. Kromě toho byla "
+"přidána celá řada nových terénů a jednotek fauny od palisádových zdí, terénů "
+"z lastur a mořských řas až po ohnivé mravence, obří skákající pavouky "
+"a ptáky Nohy."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:109
@@ -353,6 +404,8 @@ msgid ""
 "various animations added, primarily Loyalists, Orcs, and Trolls but also "
 "some Elf and Undead units."
 msgstr ""
+"Podobně byly vylepšeny obrázky a přidány různé animace u celé řady jednotek, "
+"především u věrných, skřetů a trollů, ale také u některých elfů a nemrtvých."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:111
@@ -363,6 +416,11 @@ msgid ""
 "for Visual Studio Code, but should work with any editor that has an LuaCATS "
 "plugin."
 msgstr ""
+"A nakonec byla přidána dokumentace LuaCATS pro téměř všechny funkce Lua, "
+"které Wesnoth definuje. Ta poskytuje automatické dokončování při psaní "
+"a popis funkce při najetí myší na ni. Tohle bylo napsáno především pro "
+"Visual Studio Code, ale mělo by to fungovat v jakémkoli editoru, který má "
+"zásuvný modul LuaCATS."
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:113
@@ -445,28 +503,20 @@ msgstr "Další informace"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:130
-#, fuzzy
-#| msgid ""
-#| "<a href=\"https://changelog.wesnoth.org/1.16/\">Full Changelog</a> "
-#| "(English only)"
 msgid ""
 "<a href=\"https://changelog.wesnoth.org/1.18/\">Full Changelog</a> (English "
 "only)"
 msgstr ""
-"<a href=\"https://changelog.wesnoth.org/1.16/\">Úplný seznam změn</a> (pouze "
+"<a href=\"https://changelog.wesnoth.org/1.18/\">Úplný seznam změn</a> (pouze "
 "anglicky)"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:131
-#, fuzzy
-#| msgid ""
-#| "<a href=\"https://www.wesnoth.org/manual/1.16/manual.en.html\">User’s "
-#| "Manual</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/manual/1.18/manual.en.html\">User’s "
 "Manual</a>"
 msgstr ""
-"<a href=\"https://www.wesnoth.org/manual/1.16/manual.cs.html\">Uživatelský "
+"<a href=\"https://www.wesnoth.org/manual/1.18/manual.cs.html\">Uživatelský "
 "manuál</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
@@ -477,15 +527,11 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:136
-#, fuzzy
-#| msgid ""
-#| "<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</"
-#| "a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.16\">Wesnoth 1.16 Release Notes</a>"
 msgstr ""
-"<a href=\"https://www.wesnoth.org/start/1.6\">Poznámky k vydání Wesnoth 1.6</"
-"a>"
+"<a href=\"https://www.wesnoth.org/start/1.16\">Poznámky k vydání Wesnoth "
+"1.16</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:137
@@ -527,347 +573,14 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:157
-#, fuzzy
-#| msgid ""
-#| "Copyright &#169; 2003&#8211;2021 by <a rel=\"author\" href=\"https://wiki."
-#| "wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 msgid ""
 "Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" href=\"https://wiki."
 "wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 msgstr ""
 "&#169; <a rel=\"author\" href=\"https://wiki.wesnoth.org/Project\">Projekt "
-"The Battle for Wesnoth</a>, 2003&#8211;2021"
+"The Battle for Wesnoth</a>, 2003&#8211;2024"
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:158
-#, fuzzy
-#| msgid "Site design Copyright &#169; 2017&#8211;2021 by Iris Morelle"
 msgid "Site design Copyright &#169; 2017&#8211;2024 by Iris Morelle"
-msgstr "Návrh stránek &#169; Iris Morelle, 2017&#8211;2021"
-
-#~ msgid ""
-#~ "<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</"
-#~ "a>"
-#~ msgstr ""
-#~ "<a href=\"https://www.wesnoth.org/start/1.8\">Poznámky k vydání Wesnoth "
-#~ "1.8</a>"
-
-#~ msgid ""
-#~ "<a href=\"https://www.wesnoth.org/start/1.6\">Wesnoth 1.6 Release Notes</"
-#~ "a>"
-#~ msgstr ""
-#~ "<a href=\"https://www.wesnoth.org/start/1.6\">Poznámky k vydání Wesnoth "
-#~ "1.6</a>"
-
-#~ msgid "Dunefolk overhaul sample screenshot"
-#~ msgstr "Ukázkový snímek obrazovky s předělaným pouštním lidem"
-
-#~ msgid ""
-#~ "Due to our use of more modern distribution platforms such as Steam, itch."
-#~ "io, Flathub, and others, players will be automatically upgraded to a new "
-#~ "stable series for the first time since <cite>Wesnoth</cite> was released. "
-#~ "To support this, an option will be shown the first time 1.16.0 is started "
-#~ "after being upgraded from 1.14.17. This will provide the option to "
-#~ "migrate settings as well as download the 1.16 version of any add-ons that "
-#~ "are installed, if they have been updated to work with 1.16. To go along "
-#~ "with that, <cite>Wesnoth</cite> is now able to select save files from "
-#~ "previous versions from within the game itself."
-#~ msgstr ""
-#~ "Vzhledem k tomu, že používáme modernější distribuční platformy jako "
-#~ "Steam, itch.io, Flathub a další, dostanou hráči poprvé od vydání "
-#~ "<cite>Wesnothu</cite> automatický upgrade na novou stabilní řadu. Na "
-#~ "podporu toho bude při prvním spuštění 1.16.0 po upgrade z 1.14.17 "
-#~ "zobrazena příslušná volba. Ta poskytne možnost přenést nastavení a také "
-#~ "stáhnout verzi 1.16 všech nainstalovaných rozšíření, pokud byla "
-#~ "aktualizována tak, aby pracovala s verzí 1.16. Spolu s tím nyní "
-#~ "<cite>Wesnoth</cite> dokáže ve hře samotné nabídnout výběr uložených "
-#~ "souborů z předchozích verzí."
-
-#~ msgid ""
-#~ "Addressing a long-standing pain point, especially for players with slow "
-#~ "download speeds and/or data limits, updating add-ons will no longer "
-#~ "result in the entire add-on being redownloaded — instead only the files "
-#~ "that have actually changed will be downloaded, which will significantly "
-#~ "reduce both the time it takes to update add-ons as well as how much data "
-#~ "is used when updating. Additionally, any version of an add-on that has "
-#~ "been recently uploaded by the author is selectable for download, thus "
-#~ "allowing for downgrading an add-on if needed for any reason."
-#~ msgstr ""
-#~ "Aktualizace rozšíření již nebude znamenat opětovné stahování celého "
-#~ "rozšíření – místo toho se budou stahovat pouze soubory, které se skutečně "
-#~ "změnily, což výrazně zkrátí dobu potřebnou k aktualizaci rozšíření "
-#~ "i množství dat, které se při aktualizaci spotřebuje. Tím se řeší "
-#~ "dlouhodobé bolavé místo, zejména pro hráče s pomalou rychlostí stahování "
-#~ "a/nebo datovým limitem. Kromě toho lze ke stažení vybrat jakoukoli verzi "
-#~ "rozšíření, kterou autor nedávno nahrál, což umožňuje snížit verzi "
-#~ "rozšíření (downgrade), pokud je to z jakéhokoli důvodu třeba."
-
-#~ msgid ""
-#~ "Many aspects of the AI have seen improvements as well, with much of the "
-#~ "experimental AI having been merged into the default AI. This allows it to "
-#~ "better handle healers, poison, retreating, and other behavior."
-#~ msgstr ""
-#~ "Vylepšení se dočkalo i mnoho aspektů umělé inteligence, přičemž většina "
-#~ "experimentální umělé inteligence byla začleněna do umělé inteligence "
-#~ "výchozí. Díky tomu lépe zvládá léčitele, jed, ústup a další chování."
-
-#~ msgid ""
-#~ "Finally, the entire Dunefolk faction has been reworked and rebalanced, "
-#~ "including a reimagining of the unit lines, new unit descriptions and "
-#~ "sprites, and reworking of the liminal alignment. They should now be much "
-#~ "closer to the factions in the Default era in terms of overall strength as "
-#~ "well as be more interesting to play."
-#~ msgstr ""
-#~ "A konečně, byla přepracována a vybalancována celá frakce pouštního lidu, "
-#~ "včetně předělání linií jednotek pro povyšování, nových popisů a spritů "
-#~ "jednotek a přepracování šeré příslušnosti. Nyní by se měli svou celkovou "
-#~ "silou mnohem více přiblížit frakcím ve výchozí éře a také by mělo být "
-#~ "zajímavější s nimi hrát."
-
-#~ msgid ""
-#~ "<cite>Descent into Darkness</cite>, <cite>Liberty</cite>, and "
-#~ "<cite>Sceptre of Fire</cite> have received a multitude of revisions, "
-#~ "including streamlining of the gameplay, addition of RPG elements, various "
-#~ "storyline and dialogue rewrites, and visual and balance updates. For "
-#~ "those looking for something befitting the upcoming night of Halloween, "
-#~ "the overhauled, undead-heavy <cite>Descent into Darkness</cite> as well "
-#~ "as the <cite>Secrets of the Ancients</cite> are the campaigns to play! "
-#~ "<cite>Under the Burning Suns</cite> also received revamped maps and the "
-#~ "Quenoth faction was rebalanced to better match the other mainline "
-#~ "factions."
-#~ msgstr ""
-#~ "Tažení <cite>Pád do temnoty</cite>, <cite>Svoboda</cite> a <cite>Ohnivé "
-#~ "žezlo</cite> se dočkala mnoha úprav, včetně zefektivnění hratelnosti, "
-#~ "přidání RPG prvků, různých úprav příběhu a rozhovorů a také aktualizací "
-#~ "vizuální stránky a vyvážení. Pro ty, kteří hledají něco, co by se hodilo "
-#~ "k nadcházející halloweenské noci, jsou přepracovaná, nemrtvými nacpaná "
-#~ "tažení <cite>Pád do temnoty</cite>, stejně jako <cite>Tajemství předků</"
-#~ "cite> to pravé! Tažení <cite>Pod žhnoucími slunci</cite> se také dočkalo "
-#~ "přepracovaných map a frakce quenothských byla vybalancována tak, aby lépe "
-#~ "odpovídala ostatním frakcím hlavní linie."
-
-#~ msgid ""
-#~ "To accompany the improved AI that was added in this development cycle, "
-#~ "all campaigns were adjusted to retain their intended difficulties and to "
-#~ "prevent unusual difficulty spikes throughout the campaign, most notably "
-#~ "in <cite>Eastern Invasion</cite>. The novice level campaigns were also "
-#~ "reduced in difficulty to make them more accessible to newer players."
-#~ msgstr ""
-#~ "Ruku v ruce s vylepšenou umělou inteligencí, která byla přidána v tomto "
-#~ "vývojovém cyklu, byla všechna tažení upravena tak, aby si zachovala svou "
-#~ "zamýšlenou obtížnost a aby se zabránilo neobvyklým výkyvům obtížnosti "
-#~ "v průběhu celého tažení, zejména v <cite>Invazi z východu</cite>. Tažením "
-#~ "úrovně nováček byla rovněž snížena obtížnost, aby byla přístupnější pro "
-#~ "nové hráče."
-
-#~ msgid ""
-#~ "<cite>The Hammer of Thursagan</cite> had several scenarios revised and "
-#~ "others removed to modernize the story and gameplay, especially to focus "
-#~ "more on dwarven culture and the interactions between their clans. "
-#~ "<cite>Secrets of the Ancients</cite> also received a minor gameplay "
-#~ "update with new zombie variations available for creation and recruiting."
-#~ msgstr ""
-#~ "V tažení <cite>Thursaganovo kladivo</cite> bylo několik scénářů "
-#~ "přepracováno a jiné odstraněny, aby se zmodernizovaly příběh "
-#~ "a hratelnost, zejména aby se více zaměřily na trpasličí kulturu "
-#~ "a vzájemné vztahy mezi jejich klany. <cite>Tajemství předků</cite> se "
-#~ "také dočkalo drobné aktualizace hratelnosti s novými variantami zombií, "
-#~ "které jsou k dispozici pro vytváření a verbování."
-
-#~ msgid ""
-#~ "Finally, accompanying the various modernizations and tweaks to many of "
-#~ "the mainline campaigns, a new campaign menu was made featuring several "
-#~ "stunning backgrounds drawn by Emilien Rotival (LordBob), Stefan, and "
-#~ "Kathrin Polikeit (Kitty)."
-#~ msgstr ""
-#~ "A na závěr, spolu s různými modernizacemi a úpravami mnoha hlavních "
-#~ "tažení byla vytvořena nová nabídka tažení s několika úžasnými obrázky na "
-#~ "pozadí, které nakreslili Emilien Rotival (LordBob), Stefan a Kathrin "
-#~ "Polikeit (Kitty)."
-
-#~ msgid "Isar's Cross background"
-#~ msgstr "Pozadí Isarova křižovatka"
-
-#~ msgid ""
-#~ "There have been two major additions to <cite>Wesnoth’s</cite> multiplayer "
-#~ "content: Isle of Mists and World Conquest. Isle of Mists is a coop "
-#~ "survival scenario in the vein of Dark Forecast, the latter of which has "
-#~ "had its difficulty reduced with the former taking its place in terms of "
-#~ "challenge. World Conquest, formerly the add-on World Conquest II, is a "
-#~ "multiplayer campaign with RPG elements where up to three players can "
-#~ "cooperate to survive, upgrade their units, and defeat the armies opposing "
-#~ "them."
-#~ msgstr ""
-#~ "K obsahu hry pro více hráčů <cite>Wesnothu</cite> přibyly dva významné "
-#~ "přírůstky: Ostrov mlh a Dobytí světa. Ostrov mlh je kooperativní scénář "
-#~ "pro přežití v duchu scénáře Temná předpověď, kteréhožto obtížnost byla "
-#~ "snížena, aby tak dříve jmenovaný převzal jeho místo z hlediska "
-#~ "náročnosti. Dobytí světa, původně rozšíření Dobytí světa II, je tažení "
-#~ "pro hru více hráčů s prvky RPG, kde mohou až tři hráči spolupracovat na "
-#~ "přežití, vylepšování svých jednotek a porážení armád, které proti nim "
-#~ "stojí."
-
-#~ msgid ""
-#~ "The add-on Plan Unit Advance is also now included in mainline. When "
-#~ "enabled, this allows players to pre-emptively choose what they want their "
-#~ "units to become if they level up on another player’s turn in multiplayer. "
-#~ "Separately complementing this, units whose advancement has not been "
-#~ "planned will now always level up into the same unit rather than choosing "
-#~ "one at random when there are multiple options available."
-#~ msgstr ""
-#~ "Rozšíření Plánovat povýšení jednotky je nyní také součástí hlavní řady. "
-#~ "Je-li povoleno, umožňuje hráčům předem zvolit, čím se jejich jednotky "
-#~ "stanou, když povýší ve hře více hráčů při tahu jiného hráče. Samostatným "
-#~ "doplňkem toho je, že jednotky, jejichž postup nebyl naplánován, nyní "
-#~ "povýší vždy na stejnou jednotku, místo aby se náhodně vybrala jedna "
-#~ "z možností, když je jich k dispozici víc."
-
-#~ msgid ""
-#~ "This update also includes a large number of balance updates to the "
-#~ "default era factions, especially gold and hitpoints tweaks to key units. "
-#~ "Certain matchups and units should now be more balanced and allow for "
-#~ "greater diversity in gameplay."
-#~ msgstr ""
-#~ "Tato aktualizace také obsahuje velké množství změn vyvážení frakcí "
-#~ "výchozí éry, zejména úpravy množství zlata a počtu zásahových bodů "
-#~ "u klíčových jednotek. Některé souboje a jednotky by nyní měly být "
-#~ "vyváženější a umožnit větší rozmanitost hraní."
-
-#~ msgid ""
-#~ "Another significant change is a new feature which isolates add-on content "
-#~ "from each other once a game has started. This will prevent add-ons that "
-#~ "are not being used in a game from interfering with each other, thereby "
-#~ "significantly reducing the occurrence of strange bugs and out of sync "
-#~ "errors."
-#~ msgstr ""
-#~ "Další významnou změnou je nová funkce, která po spuštění hry izoluje "
-#~ "obsah rozšíření od sebe navzájem. Tím se zabrání tomu, aby se rozšíření, "
-#~ "která se ve hře nepoužívají, vzájemně ovlivňovala, čímž se výrazně sníží "
-#~ "výskyt podivných chyb a výpadků synchronizace."
-
-#~ msgid ""
-#~ "Improvements for game hosts to better handle unwanted players have also "
-#~ "been implemented — bans from individual games are now enforced by "
-#~ "username rather than just by IP address, people on a player’s ignore list "
-#~ "are now automatically banned from joining their games, and observers are "
-#~ "now also required to enter the password to join password protected games "
-#~ "rather than just players."
-#~ msgstr ""
-#~ "Byla také zavedena vylepšení pro hostitele her, aby se lépe vypořádali "
-#~ "s nežádoucími hráči – zákaz vstupu do jednotlivých her je nyní vynucován "
-#~ "podle uživatelského jména, nikoli pouze podle IP adresy, lidem na hráčovo "
-#~ "seznamu ignorovaných je nyní automaticky zakázáno připojit se k jeho hrám "
-#~ "a také pozorovatelé, nejen samotní hráči, musí nyní zadat heslo, aby se "
-#~ "mohli připojit k heslem chráněným hrám."
-
-#~ msgid "Royal Warrior portrait"
-#~ msgstr "Podobizna královského válečníka"
-
-#~ msgid ""
-#~ "To go along with the new incremental downloads of add-on updates "
-#~ "mentioned above, this release also includes incremental uploads for add-"
-#~ "on authors; when uploading a new version of your add-on you will only "
-#~ "send the files that have changed rather than the entire add-on. "
-#~ "Additionally, add-ons can now provide translations of their titles and "
-#~ "descriptions for multiple languages in the <code>_server.pbl</code> file. "
-#~ "A minor security improvement has also been made to <code>_server.pbl</"
-#~ "code> handling — it is no longer required for the passphrase field to be "
-#~ "stored plaintext in the file; instead <cite>Wesnoth</cite> will prompt "
-#~ "you to enter the passphrase if it is not present."
-#~ msgstr ""
-#~ "Spolu s výše zmíněným novým přírůstkovým stahováním aktualizací rozšíření "
-#~ "zahrnuje tato verze také přírůstkové nahrávání pro autory rozšíření. Při "
-#~ "nahrávání nové verze rozšíření odešlete pouze soubory, které se změnily, "
-#~ "a nikoli celé rozšíření. Kromě toho mohou nyní rozšíření v souboru "
-#~ "<code>_server.pbl</code> poskytovat překlady svých názvů a popisů do více "
-#~ "jazyků. Drobné bezpečnostní vylepšení bylo provedeno také při zpracování "
-#~ "souboru <code>_server.pbl</code> – již není nutné, aby bylo pole "
-#~ "s přístupovou frází uloženo v souboru jako prostý text. Místo toho, pokud "
-#~ "není přístupová fráze přítomna, vás <cite>Wesnoth</cite> vyzve, abyste ji "
-#~ "zadali."
-
-#~ msgid ""
-#~ "More significantly, though perhaps less visible, are the various and "
-#~ "sundry improvements made to the WML, Lua, and Wesnoth Formula Language "
-#~ "(WFL) APIs. First and foremost, many of the existing Lua functions have "
-#~ "been reorganized into submodules, and a comprehensive list of these "
-#~ "changes can be found <a href=\"https://wiki.wesnoth.org/LuaAPI/"
-#~ "UpdatingFrom14\">here</a>. While the existing names of reorganized "
-#~ "functions will still work, content authors are nevertheless encouraged to "
-#~ "update existing code to the new modules. Separately, the version of Lua "
-#~ "that comes packaged with <cite>Wesnoth</cite> has been updated to 5.4 "
-#~ "from 5.3."
-#~ msgstr ""
-#~ "Ještě významnější, i když možná méně viditelná, jsou různorodá "
-#~ "a rozmanitá vylepšení API WML, Lua a Wesnoth Formula Language (WFL). "
-#~ "V první řadě bylo mnoho stávajících funkcí jazyka Lua přeorganizováno do "
-#~ "submodulů a <a href=\"https://wiki.wesnoth.org/LuaAPI/"
-#~ "UpdatingFrom14\">zde</a> je možno nalézt vyčerpávající seznam těchto "
-#~ "změn. Stávající názvy přeorganizovaných funkcí budou sice stále fungovat, "
-#~ "přesto se autorům obsahu doporučuje, aby stávající kód aktualizovali "
-#~ "podle nových modulů. Dále byla aktualizována verze jazyka Lua dodávaná "
-#~ "v balíčku s <cite>Wesnothem</cite>, a to z verze 5.3 na verzi 5.4."
-
-#~ msgid ""
-#~ "The <code>formula=</code> attribute is now also supported in the "
-#~ "<code>[variable]</code> conditional tag. This allows the use of "
-#~ "conditions that would otherwise require the use of more complex WML or "
-#~ "Lua, as well as being generally a more concise way to express complex "
-#~ "conditions."
-#~ msgstr ""
-#~ "Atribut <code>formula=</code> je nyní podporován také v podmiňovací "
-#~ "značce <code>[variable]</code>. To umožňuje používat podmínky, které by "
-#~ "jinak vyžadovaly použití složitějšího jazyka WML nebo Lua, a také je to "
-#~ "obecně stručnější způsob vyjádření složitých podmínek."
-
-#~ msgid ""
-#~ "The <code>male_voice=</code> and <code>female_voice=</code> attributes "
-#~ "are now supported in <code>[message]</code> to better allow for voice "
-#~ "acting for add-ons."
-#~ msgstr ""
-#~ "V <code>[message]</code> jsou nyní podporovány atributy "
-#~ "<code>male_voice=</code> a <code>female_voice=</code>, aby bylo pro "
-#~ "rozšíření lépe zohledněno namlouvání postav."
-
-#~ msgid ""
-#~ "The new tag <code>[modify_unit_type]</code> has been added for campaigns, "
-#~ "eras, and modifications to allow for changing certain unit types’ "
-#~ "experience, cost, and advancement options. In particular, this is meant "
-#~ "to be the replacement for the no longer supported <code>[advancefrom]</"
-#~ "code> tag."
-#~ msgstr ""
-#~ "Pro tažení, éry a modifikace byla přidána nová značka "
-#~ "<code>[modify_unit_type]</code>, jež umožňuje měnit zkušenosti, náklady "
-#~ "a možnosti postupu určitých typů jednotek. Konkrétně to má být náhrada "
-#~ "značky <code>[advancefrom]</code>, která už není podporována."
-
-#~ msgid ""
-#~ "Programmatically working with WML from within Lua has also been expanded "
-#~ "and simplified with the addition of the <code>wml.merge</code>, <code>wml."
-#~ "diff</code>, <code>wml.patch</code>, <code>wml.find_child</code>, "
-#~ "<code>wml.attribute_count</code>, <code>wml.equal</code>, <code>wml."
-#~ "valid</code>, and <code>wml.interpolate</code> functions."
-#~ msgstr ""
-#~ "Programování práce s jazykem WML v jazyce Lua bylo také rozšířeno "
-#~ "a zjednodušeno přidáním funkcí <code>wml.merge</code>, <code>wml.diff</"
-#~ "code>, <code>wml.patch</code>, <code>wml.find_child</code>, <code>wml."
-#~ "attribute_count</code>, <code>wml.equal</code>, <code>wml.valid</code> "
-#~ "a <code>wml.interpolate</code>."
-
-#~ msgid ""
-#~ "A great deal of new art has been added to many different areas of the "
-#~ "game. Portraits have been added for the Royal Warrior, Jinn, Naga "
-#~ "Ophidian, Naga Ringcaster, and others. New terrains such as Catacombs, "
-#~ "Ancient Stone floors and walls, and Overgrown Walls are now available for "
-#~ "use in the editor, along with many improved terrain transitions. A "
-#~ "variety of wildlife units have also been added, including the Crocodile, "
-#~ "Cave Bear, Icemonax, Fire Ant, Horned Scarab, Seahorse, and more."
-#~ msgstr ""
-#~ "Do mnoha různých oblastí hry bylo přidáno velké množství nových kreseb. "
-#~ "Byly přidány podobizny královského válečníka, džina, ofidiána, vrhače "
-#~ "prstenců a dalších. V editoru jsou nyní k dispozici nové terény jako "
-#~ "katakomby, starobylé kamenné podlahy a zdi a zarostlé stěny, spolu "
-#~ "s mnoha vylepšenými přechody mezi terény. Také byla přidána celá škála "
-#~ "jednotek divoké zvěře včetně ještěra bažinného, medvěda jeskynního, "
-#~ "icemonaxe, ohnivého mravence, skaraba rohatého, velkého mořského koníka "
-#~ "a dalších."
+msgstr "Návrh stránek &#169; Iris Morelle, 2017&#8211;2024"
