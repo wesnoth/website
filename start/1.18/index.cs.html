@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html class="no-js press-release" lang="cs">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+	<link rel="icon" type="image/png" href="/wesmere/img/favicon-32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/wesmere/img/favicon-16.png" sizes="16x16" />
+
+	<link rel="stylesheet" type="text/css" href="https://www.wesnoth.org/wesmere/css/wesmere.css" />
+	<link rel="stylesheet" type="text/css" href="css/lintanir.css" />
+
+	<title>Bitva o Wesnoth 1.18</title>
+
+	<script src="js/modernizr.js"></script>
+</head>
+
+<body>
+
+<div id="main">
+
+<div id="cover" role="banner">
+	<a id="bigshield" href="/" aria-label="logo Wesnothu"><span
+aria-hidden="true"></span></a>
+
+	<h1 id="branding-title">Bitva o Wesnoth 1.18<br/><span id="branding-sub">přináší Vpád drakonidů</span></h1>
+
+	<div id="intro">
+		<p><i>Březen 2024.</i> Vývojový tým s hrdostí představuje verzi 1.18 hry
+<cite><a href="/">Bitva&nbsp;o&nbsp;Wesnoth</a></cite>!</p>
+
+		<p>Tato verze obsahuje mnoho nových přírůstků a drobných zdokonalení
+stávajícího obsahu, včetně nového tažení za drakonidy, úplné předělávky
+našeho nejstaršího tažení za věrné, výrazně posíleného grafického výkonu,
+významných změn vyvážení pro hru více hráčů, zaznamenávání úspěchů, spousty
+vylepšení editoru a mnoho dalšího! Vyzkoušejte si je sami, nebo se podívejte
+<a href="#game">níže</a> na více podrobností.</p>
+	</div>
+
+	<div id="quick-download">
+		<a class="download-button" role="button"
+href="https://www.wesnoth.org/#download"> <span class="download-arrow"
+aria-hidden="true"></span> <span class="download-text"> <span
+class="download-big">Hned stáhnout</span> </span> </a> <a
+class="itchio-button" role="button"
+href="https://wesnoth.itch.io/battle-for-wesnoth" aria-label="Dostupné na
+itch.io"> <span class="download-text">
+				<svg class="itchio-logo" xmlns="http://www.w3.org/2000/svg" height="235.452" width="261.728" viewBox="0 0 245.371 220.736"><path d="M31.99 1.365C21.287 7.72.2 31.945 0 38.298v10.516C0 62.144 12.46 73.86 23.773 73.86c13.584 0 24.902-11.258 24.903-24.62 0 13.362 10.93 24.62 24.515 24.62 13.586 0 24.165-11.258 24.165-24.62 0 13.362 11.622 24.62 25.207 24.62h.246c13.586 0 25.208-11.258 25.208-24.62 0 13.362 10.58 24.62 24.164 24.62 13.585 0 24.515-11.258 24.515-24.62 0 13.362 11.32 24.62 24.903 24.62 11.313 0 23.773-11.714 23.773-25.046V38.298c-.2-6.354-21.287-30.58-31.988-36.933C180.118.197 157.056-.005 122.685 0c-34.37.003-81.228.54-90.697 1.365zm65.194 66.217a28.025 28.025 0 0 1-4.78 6.155c-5.128 5.014-12.157 8.122-19.906 8.122a28.482 28.482 0 0 1-19.948-8.126c-1.858-1.82-3.27-3.766-4.563-6.032l-.006.004c-1.292 2.27-3.092 4.215-4.954 6.037a28.5 28.5 0 0 1-19.948 8.12c-.934 0-1.906-.258-2.692-.528-1.092 11.372-1.553 22.24-1.716 30.164l-.002.045c-.02 4.024-.04 7.333-.06 11.93.21 23.86-2.363 77.334 10.52 90.473 19.964 4.655 56.7 6.775 93.555 6.788h.006c36.854-.013 73.59-2.133 93.554-6.788 12.883-13.14 10.31-66.614 10.52-90.474-.022-4.596-.04-7.905-.06-11.93l-.003-.045c-.162-7.926-.623-18.793-1.715-30.165-.786.27-1.757.528-2.692.528a28.5 28.5 0 0 1-19.948-8.12c-1.862-1.822-3.662-3.766-4.955-6.037l-.006-.004c-1.294 2.266-2.705 4.213-4.563 6.032a28.48 28.48 0 0 1-19.947 8.125c-7.748 0-14.778-3.11-19.906-8.123a28.025 28.025 0 0 1-4.78-6.155 27.99 27.99 0 0 1-4.736 6.155 28.49 28.49 0 0 1-19.95 8.124c-.27 0-.54-.012-.81-.02h-.007c-.27.008-.54.02-.813.02a28.49 28.49 0 0 1-19.95-8.123 27.992 27.992 0 0 1-4.736-6.155zm-20.486 26.49l-.002.01h.015c8.113.017 15.32 0 24.25 9.746 7.028-.737 14.372-1.105 21.722-1.094h.006c7.35-.01 14.694.357 21.723 1.094 8.93-9.747 16.137-9.73 24.25-9.746h.014l-.002-.01c3.833 0 19.166 0 29.85 30.007L210 165.244c8.504 30.624-2.723 31.373-16.727 31.4-20.768-.773-32.267-15.855-32.267-30.935-11.496 1.884-24.907 2.826-38.318 2.827h-.006c-13.412 0-26.823-.943-38.318-2.827 0 15.08-11.5 30.162-32.267 30.935-14.004-.027-25.23-.775-16.726-31.4L46.85 124.08C57.534 94.073 72.867 94.073 76.7 94.073zm45.985 23.582v.006c-.02.02-21.863 20.08-25.79 27.215l14.304-.573v12.474c0 .584 5.74.346 11.486.08h.006c5.744.266 11.485.504 11.485-.08v-12.474l14.304.573c-3.928-7.135-25.79-27.215-25.79-27.215v-.006l-.003.002z" color="#000"/></svg>
+				<span class="download-big">Získat na itch.io</span> </span> </a> <a
+class="steam-button" role="button"
+href="https://store.steampowered.com/app/599390"> <span
+class="download-text"> <span class="steam-icon" aria-hidden="true"></span>
+<span class="download-big">Získat na Steamu</span> </span> </a>
+	</div>
+</div>
+
+<div id="nav"></div>
+
+<div id="content">
+
+<h2 id="game" class="center">Co je v této aktualizaci nového</h2>
+
+<h4 id="players">Pro hráče</h4>
+
+<p>Vykreslování hry bylo kompletně přepracováno, což vedlo k výraznému zlepšení
+výkonu, přičemž naše vlastní testy ukázaly téměř 60% nárůst FPS. To se
+samozřejmě bude lišit v závislosti na počítači, na kterém Bitvu o Wesnoth
+spouštíte, ale ve všech případech bude výsledkem mnohem plynulejší
+a konzistentnější zážitek ve všech oblastech hry.</p>
+
+<p>Všechny frakce ve výchozí éře prošly zásadními aktualizacemi, aby byly
+standardní hry 1v1 vyváženější a aby tažení mohla využívat novou mechaniku
+proměnlivých nákladů na povolávání jednotek. Jednotky vyšších úrovní se také
+dočkaly řady úprav, aby lépe vyvážily éru Věk hrdinů i scénáře přežití,
+v nichž se běžně jednotky vysokých úrovní vyskytují. Byla přidána vylepšení
+třetí úrovně pro ještěráckého věštce i ještěráckého jasnovidce a skřetí
+šerobřit je nyní standardním vylepšením skřetího mordýře.</p>
+
+<h4 id="campaigns">Tažení</h4>
+
+<div class="thumb"><a href="images/start-2.png"><img src="images/start-2-thumb.png" alt="Snímek obrazovky výběru tažení" /></a></div>
+
+<p>Do hry bylo přidáno nové tažení <cite>Větry osudu</cite>! Jedná se o první
+drakonidské tažení, které je součástí hry Wesnoth. Ukazuje jejich boj
+o přežití a bouřlivý návrat na Velký kontinent při útěku z potápějících se
+ostrovních domovů.</p>
+
+<p><cite>Invaze z východu</cite> – první tažení za věrné, které kdy bylo do
+Wesnothu přidáno – bylo kompletně předěláno. Charaktery hlavních postav jsou
+nyní mnohem hlubší a scénáře jsou rozmanitější, doplněné o mnohem
+dynamičtější AI protivníků. Vyřešeno bylo také několik konfliktů příběhu
+s událostmi v jiných taženích.</p>
+
+<p>A konečně, frakce quenothských elfů v tažení <cite>Pod žhnoucími
+slunci</cite> byla přepracována, aby byla zajímavější. Jednotky hrdinů nyní
+mohou při zvyšování úrovně získávat jedinečné bonusy, zatímco běžné jednotky
+disponují novými schopnostmi a novými efekty zbraní pro své útoky. Hraní
+tohoto příběhu tak v rámci tažení Wesnothu představuje jedinečný zážitek.</p>
+
+<h4 id="multiplayer">Hra více hráčů</h4>
+
+<div class="thumb tright"><a href="images/start-1.png"><img src="images/start-1-thumb.png" alt="Prohlížeč herní historie ve hře" /></a></div>
+
+<p>Hráči si nyní mohou prohlížet svou historii odehraných her a po kliknutí na
+tlačítko Historie zápasů v online čekárně pro více hráčů mohou vyhledávat
+i v historii ostatních hráčů. Zde se zobrazí informace o samotné hře,
+hráčích ve hře, použité éře a všech povolených modifikacích. Můžete si zde
+stáhnout záznam hry a podívat se na něj. Kromě toho je k dispozici <a
+href="https://replays.wesnoth.org/dashboard/">online přehled</a>
+s obecnějšími údaji o odehraných hrách.</p>
+
+<div class="thumb tleft"><a href="images/start-5.gif"><img src="images/start-5.gif" alt="Animovaný vodopád" /></a></div>
+
+<p>Byly jasně odděleny automaticky hostované hry, jako je Afterlife, a hry
+hostované jinými hráči. Hry hostované hráči budou na kartě Obecná čekárna,
+zatímco automaticky hostované hry budou na kartě Dohazování. Příkaz
+<code>/report</code> nyní zobrazí dialogové okno, do kterého lze zadat
+informace o problému, a pomůže tak s nahlášením problematických hráčů nebo
+her. A aby bylo možné lépe řešit odpojení serveru kvůli problémům se sítí,
+hra nyní automaticky zjistí, že došlo ke ztrátě spojení, a upozorní vás na
+problém.</p>
+
+<p>Mapa Král vršku byla aktualizována tak, aby hráče povzbuzovala k obsazení
+centrální pevnosti. Strana, která drží vršek, získá významný bonusový příjem
+a hráč, který jej ovládne jako první, získá truhlu s pokladem, ukrývající
+fajnovou sumičku.</p>
+
+<p>A jako třešnička na dortu je nyní vodopád na mapě Isarova křižovatka
+animovaný.</p>
+
+<h4 id="creators">Pro tvůrce obsahu</h4>
+
+<div class="thumb tright"><a href="images/start-3.png"><img src="images/start-3-thumb.png" alt="Úspěchy" /></a></div>
+
+<p>Bitva o Wesnoth má nyní integrovanou podporu pro zaznamenávání úspěchů! Tyto
+úspěchy <b>nejsou úspěchy používané ve službě Steam</b>, nicméně díky tomu
+nejsou omezeny na předdefinovanou sadu úspěchů dostupných pouze pro základní
+hru. Rozšíření mohou definovat své vlastní úspěchy, a dokonce mohou přidávat
+další úspěchy do jiných rozšíření či do základní hry. Pro tuto počáteční
+verzi je již implementováno zaznamenávání úspěchů pro tutoriál, pro tažení
+<cite>Pád do temnoty</cite>, <cite>Invaze z východu</cite>
+a <cite>Svoboda</cite> a pro kooperativní hry více hráčů na mapách
+<cite>Temná předpověď</cite>, <cite>Ostrov mlh</cite>, <cite>Nová
+země</cite> a <cite>Týmové přežití</cite>.</p>
+
+<p>Pro distribuci vašich rozšíření nyní Wesnoth umožňuje používat při nahrávání
+vaše uživatelské jméno a heslo z fóra. Při použití tohoto přístupu je heslo
+rozšíření uloženo v zašifrovaném souboru s přístupovými údaji namísto
+prostého textu ve vašem souboru <code>_server.pbl</code>, což je
+bezpečnější. Ale také to znamená, že pokud heslo ztratíte, můžete využít
+obnovu hesla z fóra k obnovení přístupu ke svým rozšířením. Kromě toho to
+umožňuje u rozšíření, jež jsou vyvíjena společně více lidmi, určit další
+uživatele, kteří mohou nahrávat své aktualizace. Váš
+<code>_server.pbl</code> bude také ověřen před nahráním rozšíření, takže se
+o případných problémech dozvíte hned, nikoli až po nahrání.</p>
+
+<div class="thumb tleft"><a href="images/start-4.jpg"><img src="images/start-4-thumb.jpg" alt="Zvýšený/snížený terén" /></a></div>
+
+<p>Editor scénářů prošel významnou aktualizací. Místo toho, aby dokázal
+pracovat pouze s jednotlivými soubory scénářů, je nyní schopen vytvořit
+kostru zbrusu nového rozšíření a také poskytnout uživatelské rozhraní pro
+vytvoření požadovaného souboru <code>_server.pbl</code>. To znamená, že je
+nyní možné vytvořit rozšíření, jeho soubor <code>_server.pbl</code>, jeho
+scénáře a nahrát rozšíření pro ostatní hráče, a to vše z prostředí Wesnothu.</p>
+
+<p>Podobně byl výrazně vylepšen i editor map. Nyní je možné přidávat útesy
+a údolí, čímž lze mapám dodat značnou <cite>hloubku</cite>. Kromě toho byla
+přidána celá řada nových terénů a jednotek fauny od palisádových zdí, terénů
+z lastur a mořských řas až po ohnivé mravence, obří skákající pavouky
+a ptáky Nohy.</p>
+
+<p>Podobně byly vylepšeny obrázky a přidány různé animace u celé řady jednotek,
+především u věrných, skřetů a trollů, ale také u některých elfů a nemrtvých.</p>
+
+<p>A nakonec byla přidána dokumentace LuaCATS pro téměř všechny funkce Lua,
+které Wesnoth definuje. Ta poskytuje automatické dokončování při psaní
+a popis funkce při najetí myší na ni. Tohle bylo napsáno především pro
+Visual Studio Code, ale mělo by to fungovat v jakémkoli editoru, který má
+zásuvný modul LuaCATS.</p>
+
+<h2 id="contribute">Přispějte</h2>
+
+<p><cite>Bitva o Wesnoth</cite> je neustále vylepšována a rozšiřována velkým
+množstvím dobrovolníků z celého světa pocházejících z různých prostředí. Od
+jejího uvedení v červenci 2003 přispěly stovky lidí do všech oblastí hry od
+hlavního obsahu, který je dodáván jako součást oficiálních vydání, až po
+stovky projektů vytvořených hráči, jež jsou dostupné ke stažení na našem
+serveru s rozšířeními. Ať už potřebujete pomoci pokořit určitý scénář, nebo
+přidat nějaký prvek do vaší vlastní mapy, <cite>Wesnoth</cite> se může
+pochlubit silnou komunitou hráčů a tvůrců vždy ochotných podat pomocnou
+ruku.</p>
+
+<p>Kromě vytváření obsahu vašich vlastních rozšíření je mnoho dalších způsobů,
+kterými můžete vypomoci <cite>Wesnothu</cite>:</p>
+
+<ul>
+  <li><a href="https://wiki.wesnoth.org/Project">Přispívat</a> do kódu</li>
+  <li><a href="https://forums.wesnoth.org/viewforum.php?f=9">Vytvářet</a> grafiku
+pro hlavní hru nebo <a
+href="https://forums.wesnoth.org/viewforum.php?f=23">rozšíření</a> udělaná
+hráči</li>
+  <li><a href="https://wiki.wesnoth.org/WesnothTranslations">Překládat</a> hru do
+svého jazyka</li>
+  <li><a href="https://forums.wesnoth.org/viewforum.php?f=14">Skládat</a> nové
+hudební nahrávky a zvukové efekty</li>
+  <li>Šířit zvěst o <cite>Wesnothu</cite> na sociálních médiích!</li>
+</ul>
+
+<h2 id="more">Další informace</h2>
+
+<ul>
+  <li><a href="https://changelog.wesnoth.org/1.18/">Úplný seznam změn</a> (pouze
+anglicky)</li>
+  <li><a href="https://www.wesnoth.org/manual/1.18/manual.cs.html">Uživatelský
+manuál</a></li>
+  <li><a href="https://www.wesnoth.org">Oficiální stránky</a> (pouze anglicky)</li>
+</ul>
+
+<ul>
+  <li><a href="https://www.wesnoth.org/start/1.16">Poznámky k vydání Wesnoth
+1.16</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.14">Poznámky k vydání Wesnoth
+1.14</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.12">Poznámky k vydání Wesnoth
+1.12</a></li>
+  <li><a href="https://www.wesnoth.org/start/1.10">Poznámky k vydání Wesnoth
+1.10</a></li>
+</ul>
+
+</div> 
+
+<!-- content -->
+</div> 
+
+<!-- #main -->
+<div id="footer-sep"></div>
+
+<div id="footer"><div id="footer-content"><div>
+	<div id="languages">
+		Tato stránka je k dispozici také v následujících jazycích:
+		<ul>
+			
+		<!--LANGS--><li lang='cs'><a href='index.cs.html'>Čeština</a></li><li lang='en'><a href='index.en.html'>English (US)</a></li><li lang='en-gb'><a href='index.en_GB.html'>English (GB)</a></li><li lang='ja'><a href='index.ja.html'>日本語</a></li><li lang='nl'><a href='index.nl.html'>Nederlands</a></li><li lang='uk'><a href='index.uk.html'>Українська</a></li><li lang='zh-tw'><a href='index.zh_TW.html'>中文(繁)</a></li>
+<!--LANGS-->
+</ul>
+	</div>
+
+	<a href="https://wiki.wesnoth.org/StartingPoints">Mapa stránek</a> &#8226;
+<a href="https://status.wesnoth.org/">Stav služeb</a><br />
+	&#169; <a rel="author" href="https://wiki.wesnoth.org/Project">Projekt The
+Battle for Wesnoth</a>, 2003&#8211;2024<br />
+	Návrh stránek &#169; Iris Morelle, 2017&#8211;2024
+</div></div></div>
+
+<script>
+	(function() {
+		/*
+		 * Auto links on headers
+		 */
+		document.querySelectorAll("h2,h3,h4").forEach((h) => {
+			const link = document.createElement("a");
+			link.textContent = h.textContent;
+			link.href = "#" + h.id;
+			h.textContent = "";
+			h.append(link);
+		});
+
+		/*
+		 * Smooth scrolling for anchor links
+		 */
+		document.querySelectorAll("a[href^='#']:not([href$='#'])").forEach((link) => {
+			link.addEventListener('click', (e) => {
+				e.preventDefault();
+				document.querySelector(e.target.hash).scrollIntoView({
+					behavior: 'smooth'
+				});
+			});
+		});
+	}());
+</script>
+
+</body>
+</html>
