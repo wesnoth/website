@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.10\n"
-"POT-Creation-Date: 2024-03-01 13:54-0600\n"
+"POT-Creation-Date: 2025-01-20 18:09-0600\n"
 "PO-Revision-Date: 2012-01-14 00:58+0300\n"
 "Last-Translator: Andrius Štikonas <stikonas@gmail.com>\n"
 "Language-Team: Lithuanian\n"
@@ -23,33 +23,33 @@ msgstr ""
 
 # type: Content of: <html><head><title>
 #. type: Content of: <html><body><div><div><h1>
-#: template.html:15 template.html:27
+#: template.html:14 template.html:26
 #, fuzzy
 #| msgid "Battle for Wesnoth 1.10"
 msgid "The Battle for Wesnoth 1.18"
 msgstr "Mūšis dėl Vesnoto 1.10"
 
 #. type: Content of: <html><body><div><div>
-#: template.html:25
+#: template.html:24
 msgid ""
 "<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span aria-"
 "hidden=\"true\"></span></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h1>
-#: template.html:27
+#: template.html:26
 msgid "<span id=\"branding-sub\">Draconic Invasions Update</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:30
+#: template.html:29
 msgid ""
 "<i>March 2024.</i> The development team is proud to present version 1.18 of "
 "<cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: template.html:32
+#: template.html:31
 msgid ""
 "This release features many new additions as well as refinements to existing "
 "content including a new Drake campaign, a full remake of our oldest Loyalist "
@@ -60,7 +60,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><a><span>
-#: template.html:36
+#: template.html:35
 msgid ""
 "<a class=\"download-button\" role=\"button\" href=\"https://www.wesnoth.org/"
 "#download\"> <span class=\"download-arrow\" aria-hidden=\"true\"></span> "
@@ -71,7 +71,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
-#: template.html:46
+#: template.html:45
 msgid ""
 "<span class=\"download-big\">Get on itch.io</span> </span> </a> <a "
 "class=\"steam-button\" role=\"button\" href=\"https://store.steampowered.com/"
@@ -82,7 +82,7 @@ msgstr ""
 
 # type: Content of: <html><body><div><div><div><h2>
 #. type: Content of: <html><body><div><div><h2>
-#: template.html:63
+#: template.html:62
 #, fuzzy
 #| msgid "What’s New in Wesnoth 1.10"
 msgid "What’s New in This Update"
@@ -90,12 +90,12 @@ msgstr "Kas naujo Vesnote 1.10"
 
 # type: Content of: <html><body><div><div><div><h3>
 #. type: Content of: <html><body><div><div><h4>
-#: template.html:65
+#: template.html:64
 msgid "For Players"
 msgstr "Žaidėjams"
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:67
+#: template.html:66
 msgid ""
 "Wesnoth’s rendering has been completely overhauled, leading to a significant "
 "improvement in performance with our own tests showing a nearly 60% boost in "
@@ -105,7 +105,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:69
+#: template.html:68
 msgid ""
 "All factions in the Default era have gone through major updates to ensure "
 "standard 1v1 games are more balanced and to allow campaigns to use the new "
@@ -118,32 +118,32 @@ msgstr ""
 
 # type: Content of: <html><body><div><div><div><h4>
 #. type: Content of: <html><body><div><div><h4>
-#: template.html:71
+#: template.html:70
 msgid "Campaigns"
 msgstr "Kampanijos"
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
-#: template.html:73
+#: template.html:72
 #, fuzzy
 #| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href=\"images/start-2.png\">"
 msgstr "<a href='images/start-1-full.jpg'>"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
-#: template.html:73
+#: template.html:72
 msgid "Campaigns menu screenshot"
 msgstr ""
 
 # type: Content of: <html><body><div><div><div>
 #. type: Content of: <html><body><div><div><div>
-#: template.html:73 template.html:83 template.html:87 template.html:97
-#: template.html:103
+#: template.html:72 template.html:82 template.html:86 template.html:96
+#: template.html:102
 msgid "</a>"
 msgstr "</a>"
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:75
+#: template.html:74
 msgid ""
 "A new campaign, <cite>Winds of Fate</cite>, has been added to the game! This "
 "is the first Drake campaign to be included in Wesnoth, showing their fight "
@@ -152,7 +152,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:77
+#: template.html:76
 msgid ""
 "<cite>Eastern Invasion</cite> — the first Loyalist campaign ever added to "
 "Wesnoth — has been fully remade with far deeper characters and greater "
@@ -161,7 +161,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:79
+#: template.html:78
 msgid ""
 "And lastly, the Quenoth faction in the campaign <cite>Under the Burning "
 "Suns</cite> has been given an overhaul to make them more interesting — hero "
@@ -172,25 +172,25 @@ msgstr ""
 
 # type: Content of: <html><body><div><div><div><dl><dt>
 #. type: Content of: <html><body><div><div><h4>
-#: template.html:81
+#: template.html:80
 msgid "Multiplayer"
 msgstr "Daugelio žaidėjų žaidimas"
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
-#: template.html:83
+#: template.html:82
 #, fuzzy
 #| msgid "<a href='images/start-1-full.jpg'>"
 msgid "<a href=\"images/start-1.png\">"
 msgstr "<a href='images/start-1-full.jpg'>"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
-#: template.html:83
+#: template.html:82
 msgid "In-game game history viewer"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:85
+#: template.html:84
 msgid ""
 "Players can now view a history of their own previously played games and can "
 "search the history of other players as well by clicking the Match History "
@@ -203,19 +203,19 @@ msgstr ""
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
-#: template.html:87
+#: template.html:86
 #, fuzzy
 #| msgid "<a href='images/start-5-full.jpg'>"
 msgid "<a href=\"images/start-5.gif\">"
 msgstr "<a href='images/start-5-full.jpg'>"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
-#: template.html:87
+#: template.html:86
 msgid "Animated waterfall"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:89
+#: template.html:88
 msgid ""
 "A clear separation has been made for auto-hosted games such as Afterlife vs "
 "custom games hosted by other players. Games hosted by players will be in the "
@@ -228,7 +228,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:91
+#: template.html:90
 msgid ""
 "The King of the Hill map has been updated to encourage players to claim the "
 "center keep — whichever side holds the hill gains significant bonus income "
@@ -237,13 +237,13 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:93
+#: template.html:92
 msgid "And, as a cherry on top, the waterfall on Isar’s Cross is now animated."
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><h3>
 #. type: Content of: <html><body><div><div><h4>
-#: template.html:95
+#: template.html:94
 #, fuzzy
 #| msgid "For Content Developers"
 msgid "For Content Creators"
@@ -251,19 +251,19 @@ msgstr "Turinio kūrėjams"
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
-#: template.html:97
+#: template.html:96
 #, fuzzy
 #| msgid "<a href='images/start-3-full.jpg'>"
 msgid "<a href=\"images/start-3.png\">"
 msgstr "<a href='images/start-3-full.jpg'>"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
-#: template.html:97
+#: template.html:96
 msgid "Achievements"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:99
+#: template.html:98
 msgid ""
 "Wesnoth now has built-in support for achievements! These achievements <b>are "
 "not Steam achievements</b>, however because of that they are not limited to "
@@ -277,7 +277,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:101
+#: template.html:100
 msgid ""
 "For distributing your add-ons, Wesnoth now allows using your forum username "
 "and password when uploading. When using this approach, the add-on’s "
@@ -294,19 +294,19 @@ msgstr ""
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
-#: template.html:103
+#: template.html:102
 #, fuzzy
 #| msgid "<a href='images/start-4-full.jpg'>"
 msgid "<a href=\"images/start-4.jpg\">"
 msgstr "<a href='images/start-4-full.jpg'>"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
-#: template.html:103
+#: template.html:102
 msgid "Raise/lowered terrain"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:105
+#: template.html:104
 msgid ""
 "The scenario editor has received a major upgrade: instead of only being able "
 "to understand single scenario files, it is now capable of creating the "
@@ -317,7 +317,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:107
+#: template.html:106
 msgid ""
 "The map editor similarly has been given a significant improvement: it’s now "
 "possible to add cliffs and valleys, which can be used to add quite a bit of "
@@ -327,7 +327,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:109
+#: template.html:108
 msgid ""
 "A wide variety of units have likewise had their sprites improved and had "
 "various animations added, primarily Loyalists, Orcs, and Trolls but also "
@@ -335,7 +335,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:111
+#: template.html:110
 msgid ""
 "And finally, LuaCATS documentation has been added for nearly all of the Lua "
 "functions that Wesnoth defines, providing autocomplete when typing and "
@@ -345,12 +345,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
-#: template.html:113
+#: template.html:112
 msgid "Contribute"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:115
+#: template.html:114
 msgid ""
 "<cite>The Battle for Wesnoth</cite> is constantly being improved and "
 "expanded upon by a multitude of international volunteers from diverse "
@@ -363,7 +363,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: template.html:117
+#: template.html:116
 msgid ""
 "Besides creating your own add-on content, there are many other ways you can "
 "help <cite>Wesnoth</cite>:"
@@ -371,14 +371,14 @@ msgstr ""
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:120
+#: template.html:119
 #, fuzzy
 #| msgid "<a href='http://www.wesnoth.org'>"
 msgid "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
 msgstr "<a href='//www.wesnoth.org'>"
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:121
+#: template.html:120
 msgid ""
 "<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">Create</a> art for "
 "the main game or for user-made <a href=\"https://forums.wesnoth.org/"
@@ -387,7 +387,7 @@ msgstr ""
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:122
+#: template.html:121
 #, fuzzy
 #| msgid "<a href='http://www.wesnoth.org'>"
 msgid ""
@@ -396,26 +396,26 @@ msgid ""
 msgstr "<a href='//www.wesnoth.org'>"
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:123
+#: template.html:122
 msgid ""
 "<a href=\"https://forums.wesnoth.org/viewforum.php?f=14\">Produce</a> new "
 "music tracks and sound effects"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:124
+#: template.html:123
 msgid "Spread the word about <cite>Wesnoth</cite> on social media!"
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><h2>
 #. type: Content of: <html><body><div><div><h2>
-#: template.html:127
+#: template.html:126
 msgid "More Info"
 msgstr "Daugiau informacijos"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:130
+#: template.html:129
 #, fuzzy
 #| msgid ""
 #| "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.10.0/"
@@ -429,7 +429,7 @@ msgstr ""
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:131
+#: template.html:130
 #, fuzzy
 #| msgid ""
 #| "<a href='http://svn.gna.org/viewcvs/*checkout*/wesnoth/tags/1.10.0/doc/"
@@ -443,7 +443,7 @@ msgstr ""
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:132
+#: template.html:131
 #, fuzzy
 #| msgid "<a href='//www.wesnoth.org'>Official Website</a> (English)"
 msgid "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
@@ -451,7 +451,7 @@ msgstr "<a href='//www.wesnoth.org'>Oficialus tinklalapis</a> (angliškai)"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:136
+#: template.html:135
 #, fuzzy
 #| msgid "<a href='//www.wesnoth.org/start/1.6'>Wesnoth 1.6 Release Notes</a>"
 msgid ""
@@ -460,7 +460,7 @@ msgstr "<a href='//www.wesnoth.org/start/1.6'>Vesnoto 1.6 laidos apžvalga</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:137
+#: template.html:136
 #, fuzzy
 #| msgid ""
 #| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
@@ -470,7 +470,7 @@ msgstr "<a href='//www.wesnoth.org/start/1.4'>Vesnoto 1.4 laidos apžvalga</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:138
+#: template.html:137
 #, fuzzy
 #| msgid ""
 #| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
@@ -480,7 +480,7 @@ msgstr "<a href='//www.wesnoth.org/start/1.4'>Vesnoto 1.4 laidos apžvalga</a>"
 
 # type: Content of: <html><body><div><div><div><ul><li>
 #. type: Content of: <html><body><div><div><ul><li>
-#: template.html:139
+#: template.html:138
 #, fuzzy
 #| msgid ""
 #| "<a href='http://www.wesnoth.org/start/1.4'>Wesnoth 1.4 Release Notes</a>"
@@ -490,26 +490,26 @@ msgstr "<a href='//www.wesnoth.org/start/1.4'>Vesnoto 1.4 laidos apžvalga</a>"
 
 # type: Content of: <html><body><div><div><div><div><p>
 #. type: Content of: <html><body><div><div><div><div>
-#: template.html:150
+#: template.html:149
 msgid "This page is also available in the following languages:"
 msgstr "Šis puslapis taip pat prieinamas šiomis kalbomis:"
 
 #. type: Content of: <html><body><div><div><div>
-#: template.html:156
+#: template.html:155
 msgid ""
 "<a href=\"https://wiki.wesnoth.org/StartingPoints\">Site Map</a> &#8226; <a "
 "href=\"https://status.wesnoth.org/\">Site Status</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
-#: template.html:157
+#: template.html:156
 msgid ""
 "Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" href=\"https://wiki."
 "wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
-#: template.html:158
+#: template.html:157
 msgid "Site design Copyright &#169; 2017&#8211;2024 by Iris Morelle"
 msgstr ""
 
