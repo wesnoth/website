@@ -56,7 +56,6 @@ $core_textdomains = [
 // Mainline campaign textdmains.
 $mainline_campaign_textdomains = [
 	'wesnoth-did',
-	'wesnoth-dm',
 	'wesnoth-dw',
 	'wesnoth-ei',
 	'wesnoth-httt',
@@ -69,6 +68,7 @@ $mainline_campaign_textdomains = [
 	'wesnoth-tb',
 	'wesnoth-thot',
 	'wesnoth-trow',
+	'wesnoth-tdg',
 	'wesnoth-tsg',
 	'wesnoth-utbs',
 	'wesnoth-wc',
