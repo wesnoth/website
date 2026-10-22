@@ -1,4 +1,4 @@
-DOMAIN = wesnoth-start-1.18
+DOMAIN = wesnoth-start-1.20
 
 PODIR = po
 STAMPDIR = .stamp
