@@ -20,3 +20,5 @@ To update an existing translation, simply:
 * Commit the results.
 * Pull the update to the website's VM.
 * You're done.
+
+To make a new start page available, also add a symlink to the new directory in `/srv/www/html/start`.
