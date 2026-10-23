@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-22 21:48-0500\n"
+"POT-Creation-Date: 2026-10-22 21:54-0500\n"
 "PO-Revision-Date: 2010-03-24 13:33+0300\n"
 "Last-Translator: Kaido Kikkas <kakk@kakupesa.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,7 +121,8 @@ msgid ""
 "href=\"https://f-droid.org/en/packages/org.wesnoth.Wesnoth/\">F-Droid store</"
 "a>, representing both a lot of work and the first time in many years that a "
 "modern version of Wesnoth is available outside of the usual Windows, macOS, "
-"and Linux systems."
+"and Linux systems. It is, however, also still very much a work in progress "
+"and due to UI constraints will work better on tablets than phones."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
