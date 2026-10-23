@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-10-22 21:54-0500\n"
+"POT-Creation-Date: 2026-10-23 09:21-0500\n"
 "PO-Revision-Date: 2008-03-05 18:50+0800\n"
 "Last-Translator: Joset Anthony Zamora <eradicus_kee@yahoo.ca>\n"
 "Language-Team:  <LL@li.org>\n"
@@ -34,6 +34,11 @@ msgstr "Battle for Wesnoth 1.4"
 msgid ""
 "<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span aria-"
 "hidden=\"true\"></span></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><h1>
+#: template.html:26
+msgid "<span id=\"branding-sub\">Azure Expanses Update</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
@@ -117,15 +122,15 @@ msgid ""
 "href=\"https://f-droid.org/en/packages/org.wesnoth.Wesnoth/\">F-Droid store</"
 "a>, representing both a lot of work and the first time in many years that a "
 "modern version of Wesnoth is available outside of the usual Windows, macOS, "
-"and Linux systems. It is, however, also still very much a work in progress "
-"and due to UI constraints will work better on tablets than phones."
+"and Linux systems. It is, however, still very much a work in progress and "
+"due to UI constraints will work better on tablets than phones."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:69
 msgid ""
-"Performance has also been further improved, with graphical lag and "
-"stuttering significantly reduced especially on lower end systems."
+"Performance has been further improved, with graphical lag and stuttering "
+"significantly reduced especially on lower end systems."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
@@ -133,8 +138,10 @@ msgstr ""
 msgid ""
 "Additionally, with this release the new Celes UI theme has been added "
 "containing a major overhaul of the main menu to give Wesnoth a more "
-"interesting and modern look. The previous theme, dubbed \"Parchment\" also "
-"exists and both can be switched via display preferences."
+"interesting and modern look. The in-game help browser now also has a search "
+"and collapsible sidebar to help make it easier to find the information "
+"you're looking for. The previous theme, dubbed \"Parchment\" still exists "
+"and both can be switched via display preferences."
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><div><div><a>
@@ -260,8 +267,9 @@ msgid ""
 "Elo in the ranking system, send out challenges to individual players, and "
 "much more. In support of this there are now queues in the online lobby that "
 "players can join that will automatically start a game once there are enough "
-"players as well as a new <cite>Ranked Era</cite> that will be updated more "
-"frequently with unit balance changes."
+"players as well as a planned <cite>Ranked Era</cite> official add-on that "
+"will be updated more frequently with unit balance changes between 1.20 and "
+"1.22."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
@@ -327,8 +335,8 @@ msgid ""
 "alignment property for individual weapons, many new features for abilities "
 "and weapon specials including a registry of both to make using them much "
 "easier, new functionality added to lua widgets to allow for more complex "
-"dialogs, and at long last simultaneous movement of units with "
-"<code>[move_units_fake]</code>"
+"dialogs, the ability to define custom recruit and recall dialogs, and at "
+"long last simultaneous movement of units with <code>[move_units_fake]</code>."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
