@@ -6,12 +6,8 @@
  */
 
 @font-face {
-	font-family: 'Oldania ASD';
+	font-family: 'WesScript';
 	font-style: normal;
 	font-weight: 400;
-	src: local('Oldania ASD'),
-	     url('../fonts/oldaniaadfstd-regular-webfont.woff2') format('woff2'),
-	     url('../fonts/oldaniaadfstd-regular-webfont.woff') format('woff'),
-	     url('../fonts/oldaniaadfstd-regular.otf') format('opentype'),
-	     url('../fonts/oldaniaadfstd-regular-webfont.ttf') format('truetype');
+	src: local('WesScript'), url('../fonts/wesscript-regular.woff2') format('woff2');
 }
