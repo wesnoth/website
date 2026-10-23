@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-22 16:53-0500\n"
+"POT-Creation-Date: 2026-10-22 21:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,8 +29,8 @@ msgstr ""
 #. type: Content of: <html><body><div><div>
 #: template.html:24
 msgid ""
-"<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span "
-"aria-hidden=\"true\"></span></a>"
+"<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span aria-"
+"hidden=\"true\"></span></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
@@ -53,24 +53,22 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div><a><span>
 #: template.html:35
 msgid ""
-"<a class=\"download-button\" role=\"button\" "
-"href=\"https://www.wesnoth.org/#download\"> <span class=\"download-arrow\" "
-"aria-hidden=\"true\"></span> <span class=\"download-text\"> <span "
-"class=\"download-big\">Download Now</span> </span> </a> <a "
-"class=\"itchio-button\" role=\"button\" "
-"href=\"https://wesnoth.itch.io/battle-for-wesnoth\" aria-label=\"Available "
-"on itch.io\"> <span class=\"download-text\">"
+"<a class=\"download-button\" role=\"button\" href=\"https://www.wesnoth.org/"
+"#download\"> <span class=\"download-arrow\" aria-hidden=\"true\"></span> "
+"<span class=\"download-text\"> <span class=\"download-big\">Download Now</"
+"span> </span> </a> <a class=\"itchio-button\" role=\"button\" href=\"https://"
+"wesnoth.itch.io/battle-for-wesnoth\" aria-label=\"Available on itch.io\"> "
+"<span class=\"download-text\">"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:45
 msgid ""
 "<span class=\"download-big\">Get on itch.io</span> </span> </a> <a "
-"class=\"steam-button\" role=\"button\" "
-"href=\"https://store.steampowered.com/app/599390\"> <span "
-"class=\"download-text\"> <span class=\"steam-icon\" "
-"aria-hidden=\"true\"></span> <span class=\"download-big\">Get on "
-"Steam</span> </span> </a>"
+"class=\"steam-button\" role=\"button\" href=\"https://store.steampowered.com/"
+"app/599390\"> <span class=\"download-text\"> <span class=\"steam-icon\" aria-"
+"hidden=\"true\"></span> <span class=\"download-big\">Get on Steam</span> </"
+"span> </a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h2>
@@ -103,10 +101,10 @@ msgstr ""
 #: template.html:67
 msgid ""
 "Wesnoth once again has an Android port, currently available on the <a "
-"href=\"https://f-droid.org/en/packages/org.wesnoth.Wesnoth/\">F-Droid "
-"store</a>, representing both a lot of work and the first time in many years "
-"that a modern version of Wesnoth is available outside of the usual Windows, "
-"macOS, and Linux systems."
+"href=\"https://f-droid.org/en/packages/org.wesnoth.Wesnoth/\">F-Droid store</"
+"a>, representing both a lot of work and the first time in many years that a "
+"modern version of Wesnoth is available outside of the usual Windows, macOS, "
+"and Linux systems."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
@@ -119,9 +117,10 @@ msgstr ""
 #. type: Content of: <html><body><div><div><p>
 #: template.html:71
 msgid ""
-"Additionally, with this release the new Celes UI theme has been added along "
-"with a major overhaul of the main menu to give Wesnoth a more interesting "
-"and modern look."
+"Additionally, with this release the new Celes UI theme has been added "
+"containing a major overhaul of the main menu to give Wesnoth a more "
+"interesting and modern look. The previous theme, dubbed \"Parchment\" also "
+"exists and both can be switched via display preferences."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><a>
@@ -214,9 +213,9 @@ msgstr ""
 #: template.html:92
 msgid ""
 "<cite>Winds of Fate</cite> has been rebalanced with much lower recall costs, "
-"redesigned wildlife spawners and AI, and a much larger mid-campaign "
-"battle. Several characters and dialogue sequences were changed for better "
-"continuity with other campaigns."
+"redesigned wildlife spawners and AI, and a much larger mid-campaign battle. "
+"Several characters and dialogue sequences were changed for better continuity "
+"with other campaigns."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><h4>
@@ -230,7 +229,7 @@ msgid ""
 "Online multiplayer also had just as many changes with the addition of an <a "
 "href=\"https://tournament.wesnoth.org/\">official tournaments and ranked "
 "mode website</a> where players can compete in individual tournaments, for "
-"elo in the ranking system, send out challenges to individual players, and "
+"Elo in the ranking system, send out challenges to individual players, and "
 "much more. In support of this there are now queues in the online lobby that "
 "players can join that will automatically start a game once there are enough "
 "players as well as a new <cite>Ranked Era</cite> that will be updated more "
@@ -341,8 +340,8 @@ msgstr ""
 #: template.html:124
 msgid ""
 "<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">Create</a> art for "
-"the main game or for user-made <a "
-"href=\"https://forums.wesnoth.org/viewforum.php?f=23\">add-ons</a>"
+"the main game or for user-made <a href=\"https://forums.wesnoth.org/"
+"viewforum.php?f=23\">add-ons</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
@@ -384,36 +383,31 @@ msgstr ""
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:138
 msgid ""
-"<a href=\"https://www.wesnoth.org/start/1.18\">Wesnoth 1.18 Release "
-"Notes</a>"
+"<a href=\"https://www.wesnoth.org/start/1.18\">Wesnoth 1.18 Release Notes</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:139
 msgid ""
-"<a href=\"https://www.wesnoth.org/start/1.16\">Wesnoth 1.16 Release "
-"Notes</a>"
+"<a href=\"https://www.wesnoth.org/start/1.16\">Wesnoth 1.16 Release Notes</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:140
 msgid ""
-"<a href=\"https://www.wesnoth.org/start/1.14\">Wesnoth 1.14 Release "
-"Notes</a>"
+"<a href=\"https://www.wesnoth.org/start/1.14\">Wesnoth 1.14 Release Notes</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:141
 msgid ""
-"<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release "
-"Notes</a>"
+"<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release Notes</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:142
 msgid ""
-"<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release "
-"Notes</a>"
+"<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release Notes</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div>
@@ -431,8 +425,8 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div>
 #: template.html:160
 msgid ""
-"Copyright &#169; 2003&#8211;2026 by <a rel=\"author\" "
-"href=\"https://wiki.wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
+"Copyright &#169; 2003&#8211;2026 by <a rel=\"author\" href=\"https://wiki."
+"wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
