@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-25 16:49-0500\n"
+"POT-Creation-Date: 2026-10-25 18:00-0500\n"
 "PO-Revision-Date: 2009-04-03 19:27+0530\n"
 "Last-Translator: Nicky IW <inkraiswitras@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -331,7 +331,7 @@ msgid ""
 "For more advanced uses, it's now also possible for add-on authors to define "
 "their own GUI2 themes and use them within their own content via the lua "
 "function <code>gui.switch_theme()</code> or publish them as standalone "
-"wesnoth themes."
+"Wesnoth themes."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>

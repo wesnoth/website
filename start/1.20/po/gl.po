@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-10-25 16:49-0500\n"
+"POT-Creation-Date: 2026-10-25 18:00-0500\n"
 "PO-Revision-Date: 2014-10-29 06:54+0100\n"
 "Last-Translator: Adrián Chaves Fernández <adriyetichaves@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
@@ -338,7 +338,7 @@ msgid ""
 "For more advanced uses, it's now also possible for add-on authors to define "
 "their own GUI2 themes and use them within their own content via the lua "
 "function <code>gui.switch_theme()</code> or publish them as standalone "
-"wesnoth themes."
+"Wesnoth themes."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
