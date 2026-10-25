@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-10-23 09:21-0500\n"
+"POT-Creation-Date: 2026-10-25 16:49-0500\n"
 "PO-Revision-Date: 2010-03-24 13:33+0300\n"
 "Last-Translator: Kaido Kikkas <kakk@kakupesa.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,10 +142,12 @@ msgstr ""
 msgid ""
 "Additionally, with this release the new Celes UI theme has been added "
 "containing a major overhaul of the main menu to give Wesnoth a more "
-"interesting and modern look. The in-game help browser now also has a search "
+"interesting and modern look, the in-game help browser now also has a search "
 "and collapsible sidebar to help make it easier to find the information "
-"you're looking for. The previous theme, dubbed \"Parchment\" still exists "
-"and both can be switched via display preferences."
+"you're looking for, and the reachmap showing how far units can move and who "
+"they can attack has been redone to provide clearer information while also "
+"being highly configurable. The previous theme, dubbed \"Parchment\" still "
+"exists and both can be switched via display preferences."
 msgstr ""
 
 # type: Content of: <html><body><div><div><div><div><div><a>
@@ -331,9 +333,10 @@ msgstr ""
 #. type: Content of: <html><body><div><div><p>
 #: template.html:108
 msgid ""
-"For a more advanced feature, it's also now possible for add-on authors to "
-"define their own GUI2 themes and use them within their own content via the "
-"lua function <code>gui.switch_theme()</code>."
+"For more advanced uses, it's now also possible for add-on authors to define "
+"their own GUI2 themes and use them within their own content via the lua "
+"function <code>gui.switch_theme()</code> or publish them as standalone "
+"wesnoth themes."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
