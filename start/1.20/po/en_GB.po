@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-10-25 18:00-0500\n"
-"PO-Revision-Date: 2024-03-03 17:24+1100\n"
-"Last-Translator: Thomas Hockings <elprofesh@gmail.com>\n"
+"POT-Creation-Date: 2026-10-25 16:49-0500\n"
+"PO-Revision-Date: 2026-10-26 10:06+1100\n"
+"Last-Translator: Wedge009 <wedge009@wedge009.net>\n"
 "Language-Team: \n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #. type: Attribute 'lang' of: <html>
 #: template.html:3
@@ -23,10 +23,9 @@ msgstr "en_GB"
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:14 template.html:26
-#, fuzzy
 #| msgid "The Battle for Wesnoth 1.18"
 msgid "The Battle for Wesnoth 1.20"
-msgstr "The Battle for Wesnoth 1.18"
+msgstr "The Battle for Wesnoth 1.20"
 
 #. type: Content of: <html><body><div><div>
 #: template.html:24
@@ -39,14 +38,12 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:26
-#, fuzzy
 #| msgid "<span id=\"branding-sub\">Draconic Invasions Update</span>"
 msgid "<span id=\"branding-sub\">Azure Expanses Update</span>"
-msgstr "<span id=\"branding-sub\">Draconic Invasions Update</span>"
+msgstr "<span id=\"branding-sub\">Azure Expanses Update</span>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:29
-#, fuzzy
 #| msgid ""
 #| "<i>March 2024.</i> The development team is proud to present version 1.18 "
 #| "of <cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
@@ -54,8 +51,8 @@ msgid ""
 "<i>November 2026.</i> The development team is proud to present version 1.20 "
 "of <cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
 msgstr ""
-"<i>March 2024.</i> The development team is proud to present version 1.18 of "
-"<cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
+"<i>November 2026.</i> The development team is proud to present version 1.20 "
+"of <cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:31
@@ -66,6 +63,11 @@ msgid ""
 "for content creators, a new Android port, and even more! Try out the new "
 "features for yourself, or read on for more details..."
 msgstr ""
+"This release has a variety of major and minor changes to all parts of the "
+"game from multiple new and revised campaigns, an overhauled UI, a variety of "
+"new multiplayer features, improved graphical performance, new functionality "
+"for content creators, a new Android port, and even more! Try out the new "
+"features for yourself, or read on for more details..."
 
 #. type: Content of: <html><body><div><div><div><a><span>
 #: template.html:35
@@ -113,18 +115,16 @@ msgstr "For Players"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:65
-#, fuzzy
 #| msgid "<a href=\"images/start-4.jpg\">"
 msgid "<a href=\"images/start-2.jpg\">"
-msgstr "<a href=\"images/start-4.jpg\">"
+msgstr "<a href=\"images/start-2.jpg\">"
 
 # type: Attribute 'alt' of: <html><body><div><div><div><div><div><img>
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:65
-#, fuzzy
 #| msgid "Wesnoth Screenshot"
 msgid "Celes theme screenshot"
-msgstr "Wesnoth Screenshot"
+msgstr "Celes theme screenshot"
 
 # type: Content of: <html><body><div><div><div>
 #. type: Content of: <html><body><div><div><div>
@@ -143,6 +143,12 @@ msgid ""
 "and Linux systems. It is, however, still very much a work in progress and "
 "due to UI constraints will work better on tablets than phones."
 msgstr ""
+"Wesnoth once again has an Android port, currently available on the <a "
+"href=\"https://f-droid.org/en/packages/org.wesnoth.Wesnoth/\">F-Droid store</"
+"a>, representing both a lot of work and the first time in many years that a "
+"modern version of Wesnoth is available outside of the usual Windows, macOS, "
+"and Linux systems. It is, however, still very much a work in progress and "
+"due to UI constraints will work better on tablets than phones."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:69
@@ -150,6 +156,8 @@ msgid ""
 "Performance has been further improved, with graphical lag and stuttering "
 "significantly reduced especially on lower end systems."
 msgstr ""
+"Performance has been further improved, with graphical lag and stuttering "
+"significantly reduced especially on lower end systems."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:71
@@ -163,6 +171,14 @@ msgid ""
 "being highly configurable. The previous theme, dubbed \"Parchment\" still "
 "exists and both can be switched via display preferences."
 msgstr ""
+"Additionally, with this release the new Celes UI theme has been added "
+"containing a major overhaul of the main menu to give Wesnoth a more "
+"interesting and modern look, the in-game help browser now also has a search "
+"and collapsible side-bar to help make it easier to find the information "
+"you're looking for, and the reach-map showing how far units can move and who "
+"they can attack has been redone to provide clearer information while also "
+"being highly configurable. The previous theme, dubbed ‘Parchment’ still "
+"exists and both can be switched via display preferences."
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
@@ -172,10 +188,9 @@ msgstr "<a href=\"images/start-1.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:72
-#, fuzzy
 #| msgid "Campaigns menu screenshot"
 msgid "Main menu screenshot"
-msgstr "Campaigns menu screenshot"
+msgstr "Main menu screenshot"
 
 # type: Content of: <html><body><div><div><div><h4>
 #. type: Content of: <html><body><div><div><h4>
@@ -190,6 +205,9 @@ msgid ""
 "scenarios, each awarding Konrad unique recruits, companions, or items. The "
 "original campaign is still available as Heir to the Throne, Classic."
 msgstr ""
+"<cite>Heir to the Throne</cite> now features an open world with 33 branching "
+"scenarios, each awarding Konrad unique recruits, companions, or items. The "
+"original campaign is still available as Heir to the Throne, Classic."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:78
@@ -199,21 +217,23 @@ msgid ""
 "against the fierce orcs of the north. Choose between 23 magic spells as you "
 "bear witness to the rise of a tyrant."
 msgstr ""
+"<cite>The Deceiver’s Gambit</cite> replaces Delfador’s Memoirs. Follow a "
+"young mage from the shores of Alduin to the halls of the King as they war "
+"against the fierce orcs of the north. Choose between 23 magic spells as you "
+"bear witness to the rise of a tyrant."
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:80
-#, fuzzy
 #| msgid "<a href=\"images/start-3.png\">"
 msgid "<a href=\"images/start-3.webp\">"
-msgstr "<a href=\"images/start-3.png\">"
+msgstr "<a href=\"images/start-3.webp\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:80
-#, fuzzy
 #| msgid "Campaigns menu screenshot"
 msgid "Campaigns screenshot 1"
-msgstr "Campaigns menu screenshot"
+msgstr "Campaigns screenshot 1"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:82
@@ -222,6 +242,9 @@ msgid ""
 "Tribe out from the bowels of Irdya and up to the surface world — but beware "
 "what awaits you there."
 msgstr ""
+"<cite>Dusk of Dawn</cite> is our first troll campaign. Lead the Golden Flame "
+"Tribe out from the bowels of Irdya and up to the surface world — but beware "
+"what awaits you there."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:84
@@ -231,6 +254,10 @@ msgid ""
 "villagers must join forces with the local merfolk and take the fight to the "
 "pirates."
 msgstr ""
+"<cite>Of Pearls and Pirates</cite> is a new beginner-oriented campaign set "
+"in a sleepy fishing town on the Bay of Pearls. When corsairs strike, the "
+"villagers must join forces with the local merfolk and take the fight to the "
+"pirates."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:86
@@ -240,21 +267,23 @@ msgid ""
 "Delfador's tutelage, the original tutorial is still available as part of "
 "Heir to the Throne, Classic."
 msgstr ""
+"<cite>The South Guard</cite> has been significantly revised, and now "
+"replaces the classic Battle Training tutorial. For players nostalgic for "
+"Delfador's tutelage, the original tutorial is still available as part of "
+"Heir to the Throne, Classic."
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:88
-#, fuzzy
 #| msgid "<a href=\"images/start-4.jpg\">"
 msgid "<a href=\"images/start-4.webp\">"
-msgstr "<a href=\"images/start-4.jpg\">"
+msgstr "<a href=\"images/start-4.webp\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:88
-#, fuzzy
 #| msgid "Campaigns menu screenshot"
 msgid "Campaign screenshot 2"
-msgstr "Campaigns menu screenshot"
+msgstr "Campaign screenshot 2"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:90
@@ -263,6 +292,9 @@ msgid ""
 "adjustments, improved enemy AI, a new Thunderer advancement, a redesign of "
 "High Pass, and the re-addition of the formerly removed Mages and Drakes."
 msgstr ""
+"<cite>The Hammer of Thursagan</cite> has been enhanced with story "
+"adjustments, improved enemy AI, a new Thunderer advancement, a redesign of "
+"High Pass, and the re-addition of the formerly removed Mages and Drakes."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:92
@@ -272,6 +304,10 @@ msgid ""
 "Several characters and dialogue sequences were changed for better continuity "
 "with other campaigns."
 msgstr ""
+"<cite>Winds of Fate</cite> has been re-balanced with much lower recall "
+"costs, redesigned wildlife spawns and AI, and a much larger mid-campaign "
+"battle. Several characters and dialogue sequences were changed for better "
+"continuity with other campaigns."
 
 # type: Content of: <html><body><div><div><div><h4>
 #. type: Content of: <html><body><div><div><h4>
@@ -292,6 +328,15 @@ msgid ""
 "will be updated more frequently with unit balance changes between 1.20 and "
 "1.22."
 msgstr ""
+"Online multiplayer also had just as many changes with the addition of an <a "
+"href=\"https://tournament.wesnoth.org/\">official tournaments and ranked "
+"mode web site</a> where players can compete in individual tournaments, for "
+"Elo in the ranking system, send challenges to individual players, and much "
+"more. In support of this there are now queues in the online lobby that "
+"players can join that will automatically start a game once there are enough "
+"players as well as a planned <cite>Ranked Era</cite> official add-on that "
+"will be updated more frequently with unit balance changes between 1.20 and "
+"1.22."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:98
@@ -302,6 +347,11 @@ msgid ""
 "address some long standing issues in certain faction matchups. A new map, "
 "Double Siege, has also been added."
 msgstr ""
+"Speaking of, another round of balancing changes have been implemented for "
+"the Default era factions, which now includes the Dunefolk. Along with this, "
+"several scenarios have been updated to better account for the Dunefolk as "
+"well as address some long standing issues in certain faction match-ups. A "
+"new scenario, Double Siege, has also been added."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:100
@@ -311,6 +361,10 @@ msgid ""
 "let us bring more engagement and players and eras to the scene, recovering a "
 "sliver of well deserved glory this game should have!"
 msgstr ""
+"All of this will allow us to have tools to easily host various events and "
+"tournaments through the span of this version and beyond. This will hopefully "
+"let us bring more engagement and players and eras to the scene, recovering a "
+"sliver of well deserved glory this game should have!"
 
 # type: Content of: <html><body><div><div><div><h3>
 #. type: Content of: <html><body><div><div><h3>
@@ -326,19 +380,22 @@ msgid ""
 "editor that's been added to the scenario editor. With this it's possible to "
 "create entire new units from within the editor itself."
 msgstr ""
+"And last but not least, there have been a variety of improvements for "
+"content creators as well with the most obvious being the new unit type "
+"editor that's been added to the scenario editor. With this it's possible to "
+"create entire new units from within the editor itself."
 
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:106
-#, fuzzy
 #| msgid "<a href=\"images/start-2.png\">"
 msgid "<a href=\"images/start-5.png\">"
-msgstr "<a href=\"images/start-2.png\">"
+msgstr "<a href=\"images/start-5.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:106
 msgid "Unit type editor"
-msgstr ""
+msgstr "Unit type editor"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:108
@@ -346,8 +403,12 @@ msgid ""
 "For more advanced uses, it's now also possible for add-on authors to define "
 "their own GUI2 themes and use them within their own content via the lua "
 "function <code>gui.switch_theme()</code> or publish them as standalone "
-"Wesnoth themes."
+"wesnoth themes."
 msgstr ""
+"For more advanced uses, it's now also possible for add-on authors to define "
+"their own GUI2 themes and use them within their own content via the lua "
+"function <code>gui.switch_theme()</code> or publish them as standalone "
+"Wesnoth themes."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:110
@@ -359,6 +420,12 @@ msgid ""
 "dialogs, the ability to define custom recruit and recall dialogs, and at "
 "long last simultaneous movement of units with <code>[move_units_fake]</code>."
 msgstr ""
+"Many other APIs have been implemented and improved as well including an "
+"alignment property for individual weapons, many new features for abilities "
+"and weapon specials including a registry of both to make using them much "
+"easier, new functionality added to lua widgets to allow for more complex "
+"dialogues, the ability to define custom recruit and recall dialogues, and at "
+"long last simultaneous movement of units with <code>[move_units_fake]</code>."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:112
@@ -367,6 +434,9 @@ msgid ""
 "issues and is also now regularly run against the base game which will help "
 "to keep it in a maintained and working state for add-on authors."
 msgstr ""
+"The <code>wmllint</code> tool has been updated to address some long standing "
+"issues and is also now regularly run against the base game which will help "
+"to keep it in a maintained and working state for add-on authors."
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:116
@@ -452,7 +522,6 @@ msgstr "More Info"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:133
-#, fuzzy
 #| msgid ""
 #| "<a href=\"https://changelog.wesnoth.org/1.18/\">Full Changelog</a> "
 #| "(English only)"
@@ -460,7 +529,7 @@ msgid ""
 "<a href=\"https://changelog.wesnoth.org/1.20/\">Full Changelog</a> (English "
 "only)"
 msgstr ""
-"<a href=\"https://changelog.wesnoth.org/1.18/\">Full Change-Log</a> (English "
+"<a href=\"https://changelog.wesnoth.org/1.20/\">Full Change Log</a> (English "
 "only)"
 
 # type: Content of: <html><body><div><div><div><a>
@@ -468,19 +537,18 @@ msgstr ""
 #: template.html:134
 msgid "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
 msgstr ""
-"<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
+"<a href=\"https://www.wesnoth.org\">Official Web Site</a> (English only)"
 
 # type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:138
-#, fuzzy
 #| msgid ""
 #| "<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</"
 #| "a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.18\">Wesnoth 1.18 Release Notes</a>"
 msgstr ""
-"<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</a>"
+"<a href=\"https://www.wesnoth.org/start/1.18\">Wesnoth 1.18 Release Notes</a>"
 
 # type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
@@ -531,7 +599,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:160
-#, fuzzy
 #| msgid ""
 #| "Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" href=\"https://wiki."
 #| "wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
@@ -539,15 +606,14 @@ msgid ""
 "Copyright &#169; 2003&#8211;2026 by <a rel=\"author\" href=\"https://wiki."
 "wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 msgstr ""
-"Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" href=\"https://wiki."
+"Copyright &#169; 2003&#8211;2026 by <a rel=\"author\" href=\"https://wiki."
 "wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:161
-#, fuzzy
 #| msgid "Site design Copyright &#169; 2017&#8211;2024 by Iris Morelle"
 msgid "Site design Copyright &#169; 2017&#8211;2026 by Iris Morelle"
-msgstr "Site design Copyright &#169; 2017&#8211;2024 by Iris Morelle"
+msgstr "Site design Copyright &#169; 2017&#8211;2026 by Iris Morelle"
 
 #~ msgid ""
 #~ "This release features many new additions as well as refinements to "
