@@ -1,0 +1,609 @@
+# Bengali translation of Wesnoth 1.20 landing page.
+# Copyright (C) 2026 Wesnoth development team
+# SPDX-FileCopyrightText: 2026 Subhraman Sarkar <sbmskmm@protonmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bn\n"
+"POT-Creation-Date: 2026-10-23 09:21-0500\n"
+"PO-Revision-Date: 2026-10-26 10:57+0530\n"
+"Last-Translator: Subhraman Sarkar <sbmskmm@protonmail.com>\n"
+"Language-Team: Bangla <>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Lokalize 25.04.0\n"
+"Report-Msgid-Bugs-To: bugs.wesnoth.org\n"
+
+#. type: Attribute 'lang' of: <html>
+#: template.html:3
+msgid "en"
+msgstr "en"
+
+#. type: Content of: <html><body><div><div><h1>
+#: template.html:14 template.html:26
+msgid "The Battle for Wesnoth 1.20"
+msgstr "দা ব্যাটল ফর ওয়েসনথ 1.20"
+
+#. type: Content of: <html><body><div><div>
+#: template.html:24
+msgid ""
+"<a id=\"bigshield\" href=\"/\" aria-label=\"Wesnoth logo\"><span aria-"
+"hidden=\"true\"></span></a>"
+msgstr ""
+"<a id=\"bigshield\" href=\"/\" aria-label=\"ওয়েসনথ লোগো\"><span aria-"
+"hidden=\"true\"></span></a>"
+
+#. type: Content of: <html><body><div><div><h1>
+#: template.html:26
+msgid "<span id=\"branding-sub\">Azure Expanses Update</span>"
+msgstr "<span id=\"branding-sub\">অ্যাজ়ুর এক্সপ্যান্সেস আপডেট</span>"
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:29
+msgid ""
+"<i>November 2026.</i> The development team is proud to present version 1.20 "
+"of <cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
+msgstr ""
+"<i>নভেম্বর 2026.</i> ডেভেলপমেন্ট টিম 1.20 of <cite><a href=\"/"
+"\">দা&nbsp;ব্যাটল&nbsp;ফর&nbsp;ওয়েসনথ</a></cite>-এর 1.20 সংস্করণ প্রকাশ করতে "
+"পেরে গর্বিত!"
+
+#. type: Content of: <html><body><div><div><div><p>
+#: template.html:31
+msgid ""
+"This release has a variety of major and minor changes to all parts of the "
+"game from multiple new and revised campaigns, an overhauled UI, a variety of "
+"new multiplayer features, improved graphical performance, new functionality "
+"for content creators, a new Android port, and even more! Try out the new "
+"features for yourself, or read on for more details..."
+msgstr ""
+"এই সংস্করণে খেলার সকল অংশে বড় এবং ছোট বহু পরিবর্তন রয়েছে যেমন একাধিক নতুন এবং "
+"পরিমার্জিত অভিযান, একটি নতুনভাবে সাজানো ইউআই, বিভিন্ন নতুন মাল্টিপ্লেয়ার ফিচার"
+", "
+"উন্নততর গ্রাফিক্স পারফরম্যান্স, কনটেন্ট ক্রিয়েটরদের জন্য নতুন সুযোগসুবিধা, একট"
+"ি সম্পূর্ণ "
+"নতুন অ্যান্ডয়েড পোর্ট, এবং আরও অনেক কিছু! নতুন ফিচারগুলি নিজে ব্যবহার করে দেখু"
+"ন, বা "
+"আরও জানার জন্য পড়তে থাকুন..."
+
+#. type: Content of: <html><body><div><div><div><a><span>
+#: template.html:35
+msgid ""
+"<a class=\"download-button\" role=\"button\" href=\"https://www.wesnoth.org/"
+"#download\"> <span class=\"download-arrow\" aria-hidden=\"true\"></span> "
+"<span class=\"download-text\"> <span class=\"download-big\">Download Now</"
+"span> </span> </a> <a class=\"itchio-button\" role=\"button\" href=\"https://"
+"wesnoth.itch.io/battle-for-wesnoth\" aria-label=\"Available on itch.io\"> "
+"<span class=\"download-text\">"
+msgstr ""
+"<a class=\"download-button\" role=\"button\" href=\"https://www.wesnoth.org/"
+"#download\"> <span class=\"download-arrow\" aria-hidden=\"true\"></span> "
+"<span class=\"download-text\"> <span class=\"download-big\">এখনই ডাউনলোড "
+"করুন</span> </span> </a> <a class=\"itchio-button\" role=\"button\" "
+"href=\"https://wesnoth.itch.io/battle-for-wesnoth\" aria-label=\"itch.io-তে "
+"উপলব্ধ\"> <span class=\"download-text\">"
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:45
+msgid ""
+"<span class=\"download-big\">Get on itch.io</span> </span> </a> <a "
+"class=\"steam-button\" role=\"button\" href=\"https://store.steampowered.com/"
+"app/599390\"> <span class=\"download-text\"> <span class=\"steam-icon\" aria-"
+"hidden=\"true\"></span> <span class=\"download-big\">Get on Steam</span> </"
+"span> </a>"
+msgstr ""
+"<span class=\"download-big\">itch.io থেকে পান</span> </span> </a> <a "
+"class=\"steam-button\" role=\"button\" href=\"https://store.steampowered.com/"
+"app/599390\"> <span class=\"download-text\"> <span class=\"steam-icon\" aria-"
+"hidden=\"true\"></span> <span class=\"download-big\">Steam থেকে পান</span> </"
+"span> </a>"
+
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:62
+msgid "What’s New in This Update"
+msgstr "এই আপডেটে নতুন কী"
+
+#. type: Content of: <html><body><div><div><h3>
+#: template.html:64
+msgid "For Players"
+msgstr "খেলোয়াড়দের জন্য"
+
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:65
+msgid "<a href=\"images/start-2.jpg\">"
+msgstr "<a href=\"images/start-2.jpg\">"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:65
+msgid "Celes theme screenshot"
+msgstr "সেলেস থিম স্ক্রিনশট"
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:65 template.html:72 template.html:80 template.html:88
+#: template.html:106
+msgid "</a>"
+msgstr "</a>"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:67
+msgid ""
+"Wesnoth once again has an Android port, currently available on the <a "
+"href=\"https://f-droid.org/en/packages/org.wesnoth.Wesnoth/\">F-Droid store</"
+"a>, representing both a lot of work and the first time in many years that a "
+"modern version of Wesnoth is available outside of the usual Windows, macOS, "
+"and Linux systems. It is, however, still very much a work in progress and "
+"due to UI constraints will work better on tablets than phones."
+msgstr ""
+"ওয়েসনথের জন্য আবারও একটি আন্ড্রয়েড পোর্ট এসেছে, যা বর্তমানে <a href=\"https://"
+"f-"
+"droid.org/en/packages/org.wesnoth.Wesnoth/\">F-Droid স্টোরে</a> পাওয়া যাচ্ছে,"
+" "
+"যা প্রচুর পরিশ্রমের ফলশ্রুতি এবং বহু বছর পর এই প্রথমবার ওয়েসনথের একটি আধুনিক স"
+"ংস্করণ "
+"প্রচলিত উইন্ডোজ, ম্যাকওস ও লিনাক্স সিস্টেমের বাইরেও পাওয়া যাচ্ছে। তবে এটির ওপ"
+"রে "
+"এখনও কাজ চলছে, এবং ইউআই-সংক্রান্ত সীমাবদ্ধতার কারণে ফোনের চেয়ে ট্যাবলেটে এটি "
+"ভালো কাজ করবে।"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:69
+msgid ""
+"Performance has been further improved, with graphical lag and stuttering "
+"significantly reduced especially on lower end systems."
+msgstr ""
+"পারফরম্যান্স আরও উন্নত করা হয়েছে; বিশেষ করে লোয়ার-এন্ড সিস্টেমে গ্রাফিক্যাল ল"
+"্যাগ ও "
+"স্টাটারিং উল্লেখযোগ্যভাবে কমানো হয়েছে।"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:71
+msgid ""
+"Additionally, with this release the new Celes UI theme has been added "
+"containing a major overhaul of the main menu to give Wesnoth a more "
+"interesting and modern look. The in-game help browser now also has a search "
+"and collapsible sidebar to help make it easier to find the information "
+"you're looking for. The previous theme, dubbed \"Parchment\" still exists "
+"and both can be switched via display preferences."
+msgstr ""
+"এছাড়া, এই সংস্করণে নতুন সেলেস ইউআই থিম যুক্ত করা হয়েছে, যাতে মূল মেনুর বড় ধ"
+"রনের "
+"সংস্কার করা হয়েছে, ওয়েসনথকে আরও আকর্ষণীয় ও আধুনিক চেহারা দেওয়ার জন্য। খেলার"
+" "
+"ভেতরের হেল্প ব্রাউজারেও এখন একটি সার্চ ও কোলাপসিবল সাইডবার যুক্ত হয়েছে, যা আপ"
+"নার "
+"প্রয়োজনীয় তথ্য খুঁজে পাওয়া সহজ করবে। আগের থিমটি, যার নাম \"পার্চমেন্ট\", এখ"
+"নও "
+"রয়েছে, এবং ডিসপ্লে প্রেফারেন্স থেকে দুটির মধ্যে পরিবর্তন করা যায়।"
+
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:72
+msgid "<a href=\"images/start-1.png\">"
+msgstr "<a href=\"images/start-1.png\">"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:72
+msgid "Main menu screenshot"
+msgstr "মুল মেনু স্ক্রিনশট"
+
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:74
+msgid "Campaigns"
+msgstr "অভিযানগুলি"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:76
+msgid ""
+"<cite>Heir to the Throne</cite> now features an open world with 33 branching "
+"scenarios, each awarding Konrad unique recruits, companions, or items. The "
+"original campaign is still available as Heir to the Throne, Classic."
+msgstr ""
+"<cite>সিংহাসনের উত্তরাধিকারী</cite> এখন একটি ওপেন ওয়ার্ল্ড নিয়ে এসেছে, যেখান"
+"ে "
+"রয়েছে ৩৩টি শাখাবিশিষ্ট ঘটনাক্রম, এবং প্রতিটি সিনারিও কনরাডকে দেয় অনন্য রিক্র"
+"ুট, "
+"সঙ্গী বা আইটেম। মূল অভিযানটি এখনও সিংহাসনের উত্তরাধিকারী, ক্লাসিক নামে রয়েছে।"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:78
+msgid ""
+"<cite>The Deceiver’s Gambit</cite> replaces Delfador’s Memoirs. Follow a "
+"young mage from the shores of Alduin to the halls of the King as they war "
+"against the fierce orcs of the north. Choose between 23 magic spells as you "
+"bear witness to the rise of a tyrant."
+msgstr ""
+"<cite>প্রতারকের গ্যাম্বিট</cite> এখন ডেলফাডোরের স্মৃতিকথার জায়গা নিয়েছে। আল"
+"ডুইনের "
+"উপকূল থেকে রাজপ্রাসাদের হলঘর পর্যন্ত এক তরুণ জাদুকরকে অনুসরণ করুন, যিনি উত্তরে"
+"র হিংস্র "
+"অর্কদের বিরুদ্ধে যুদ্ধ করছেন। 23টি জাদুমন্ত্রের বেছে শিখে নিন, আর এক স্বৈরাচার"
+"ী "
+"শাসকের উত্থানের সাক্ষী হোন।"
+
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:80
+msgid "<a href=\"images/start-3.webp\">"
+msgstr "<a href=\"images/start-3.webp\">"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:80
+msgid "Campaigns screenshot 1"
+msgstr "অভিযান স্ক্রিনশট 1"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:82
+msgid ""
+"<cite>Dusk of Dawn</cite> is our first troll campaign. Lead the Golden Flame "
+"Tribe out from the bowels of Irdya and up to the surface world — but beware "
+"what awaits you there."
+msgstr ""
+"<cite>ভোরের গোধুলী</cite> আমাদের প্রথম ট্রোল অভিযান। স্বর্ণালি অগ্নি উপজাতিকে "
+"ইরডিয়ার অন্তর্স্থল থেকে পথ দেখিয়ে ভূপৃষ্ঠের জগতে নিয়ে আসুন — কিন্তু সেখানে যা "
+"অপেক্ষা "
+"করে থাকবে তার থেকে সাবধান।"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:84
+msgid ""
+"<cite>Of Pearls and Pirates</cite> is a new beginner-oriented campaign set "
+"in a sleepy fishing town on the Bay of Pearls. When corsairs strike, the "
+"villagers must join forces with the local merfolk and take the fight to the "
+"pirates."
+msgstr ""
+"<cite>মুক্তা এবং জলদস্যুরা</cite> নতুন খেলোয়াড়দের জন্য তৈরী একটি নতুন ঘটনাক্"
+"রম যার "
+"পটভূমি মুক্তা উপসাগরের তীরে এক ঘুমন্ত জেলে বসতি। করসেয়াররা আক্রমণ করলে গ্রামব"
+"াসীদের "
+"স্থানীয় জলমানবদের সঙ্গে হাত মিলিয়ে জলদস্যুদের বিরুদ্ধে পাল্টা লড়াইয়ে নামতে"
+" হবে।"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:86
+msgid ""
+"<cite>The South Guard</cite> has been significantly revised, and now "
+"replaces the classic Battle Training tutorial. For players nostalgic for "
+"Delfador's tutelage, the original tutorial is still available as part of "
+"Heir to the Throne, Classic."
+msgstr ""
+"<cite>দক্ষিণ প্রহরী</cite> উল্লেখযোগ্যভাবে সংশোধিত হয়েছে এবং এখন ক্লাসিক ব্যা"
+"টল "
+"ট্রেনিং টিউটোরিয়ালের স্থান নিয়েছে। যেসব খেলোয়াড় ডেলফেডরের শিক্ষাদানের স্মৃ"
+"তির, "
+"তাদের জন্য মূল টিউটোরিয়ালটি এখনও সিংহাসনের উত্তরাধিকারী, ক্লাসিক-এর অংশ হিসেব"
+"ে "
+"রয়েছে।"
+
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:88
+msgid "<a href=\"images/start-4.webp\">"
+msgstr "<a href=\"images/start-4.webp\">"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:88
+msgid "Campaign screenshot 2"
+msgstr "অভিযান স্ক্রিনশট 2"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:90
+msgid ""
+"<cite>The Hammer of Thursagan</cite> has been enhanced with story "
+"adjustments, improved enemy AI, a new Thunderer advancement, a redesign of "
+"High Pass, and the re-addition of the formerly removed Mages and Drakes."
+msgstr ""
+"<cite>থুরসাগানের হাতুড়ি</cite> কাহিনি-সংক্রান্ত পরিবর্তন, উন্নত শত্রু এআই, "
+"থান্ডারারের জন্য একটি নতুন উন্নয়ণ, হাই পাস-এর নতুন নকশা, এবং আগে বাদ দেওয়া জা"
+"দুকর "
+"ও ড্রেক-এর পুনরায় সংযোজনের মাধ্যমে উন্নত করা হয়েছে।"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:92
+msgid ""
+"<cite>Winds of Fate</cite> has been rebalanced with much lower recall costs, "
+"redesigned wildlife spawners and AI, and a much larger mid-campaign battle. "
+"Several characters and dialogue sequences were changed for better continuity "
+"with other campaigns."
+msgstr ""
+"<cite>ভাগ্যের ঝড়</cite> অনেক কম পুনরায় ডাকার খরচ, পুনর্পরিকল্পিত বন্যপ্রাণী তৈ"
+"রী "
+"করার ব্যবস্থা এবং কৃত্রিম বুদ্ধিমত্তা, এবং একটি অনেক বড় মধ্য-প্রচারাভিযান যুদ"
+"্ধ সহ "
+"পুনরায় ব্যলান্সিং করা হয়েছে। বিভিন্ন চরিত্র এবং সংলাপ ক্রম অন্যান্য প্রচারাভিয"
+"ানের "
+"সাথে মিলিয়ে ধারাবাহিকতার জন্য পরিবর্তন করা হয়েছে।"
+
+#. type: Content of: <html><body><div><div><h4>
+#: template.html:94
+msgid "Multiplayer"
+msgstr "মাল্টিপ্লেয়ার"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:96
+msgid ""
+"Online multiplayer also had just as many changes with the addition of an <a "
+"href=\"https://tournament.wesnoth.org/\">official tournaments and ranked "
+"mode website</a> where players can compete in individual tournaments, for "
+"Elo in the ranking system, send out challenges to individual players, and "
+"much more. In support of this there are now queues in the online lobby that "
+"players can join that will automatically start a game once there are enough "
+"players as well as a planned <cite>Ranked Era</cite> official add-on that "
+"will be updated more frequently with unit balance changes between 1.20 and "
+"1.22."
+msgstr ""
+"অনলাইন মাল্টিপ্লেয়ারেও সমান সংখ্যক পরিবর্তন এসেছে। এতে যুক্ত হয়েছে একটি <a "
+"href=\"https://tournament.wesnoth.org/\">অফিসিয়াল টুর্নামেন্ট ও র‍্যাঙ্কড মোড"
+" "
+"ওয়েবসাইট</a>, যেখানে খেলোয়াড়রা আলাদা আলাদা টুর্নামেন্টে অংশগ্রহণ করতে পারবে"
+"ন, "
+"র‍্যাঙ্কিং সিস্টেমে Elo অর্জনের জন্য খেলতে পারেন, নির্দিষ্ট খেলোয়াড়দের চ্যাল"
+"েঞ্জ "
+"পাঠাতে পারেন, এবং আরও অনেক কিছু করতে পারেন। এর সহায়তায় অনলাইন লবিতে এখন কিউ "
+"(queue) রয়েছে, যেখানে খেলোয়াড়রা যোগ দিতে পারেন এবং যথেষ্ট সংখ্যক খেলোয়াড় "
+"হলেই "
+"গেম স্বয়ংক্রিয়ভাবে শুরু হয়ে যাবে। পাশাপাশি পরিকল্পনা করা হয়েছে Ranked Era "
+"নামের "
+"একটি অফিসিয়াল অ্যাড-অন, যেটি 1.20 ও 1.22-এর মধ্যবর্তী ইউনিট ব্যালান্সের "
+"পরিবর্তনগুলো নিয়ে আরও দ্রুত আপডেট করা হবে।"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:98
+msgid ""
+"Speaking of, another round of balancing changes have been implemented for "
+"the Default era factions, which now includes the Dunefolk. Along with this, "
+"several maps have been updated to better account for the Dunefolk as well as "
+"address some long standing issues in certain faction matchups. A new map, "
+"Double Siege, has also been added."
+msgstr ""
+"প্রসঙ্গত, স্বাভাবিক যুগের ফ্যাকশনগুলোর জন্য আরও এক দফা ব্যালান্সিং পরিবর্তন কর"
+"া হয়েছে, "
+"যেখানে এখন মরুবাসীরাও অন্তর্ভুক্ত। এর সঙ্গে, মরুবাসীদের আরও ভালোভাবে বিবেচনায়"
+" নিতে "
+"এবং কিছু নির্দিষ্ট ফ্যাকশন ম্যাচআপের দীর্ঘদিনের সমস্যা সমাধান করতে বেশ কয়েকটি"
+" ম্যাপ "
+"পরিমার্জন করা হয়েছে। ডাবল সিজ নামে একটি নতুন ম্যাপও যুক্ত হয়েছে।"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:100
+msgid ""
+"All of this will allow us to have tools to easily host various events and "
+"tournaments through the span of this version and beyond. This will hopefully "
+"let us bring more engagement and players and eras to the scene, recovering a "
+"sliver of well deserved glory this game should have!"
+msgstr ""
+"এই সবকিছুর সাহায্যে আমরা এই সংস্করণের সম্পূর্ণ সময়কালে এবং তার পরেও বিভিন্ন ই"
+"ভেন্ট ও "
+"টুর্নামেন্ট সহজে আয়োজন করার মতো সরঞ্জাম পাব। আশা করা যায়, এর ফলে আরও বেশি "
+"অংশগ্রহণ, নতুন খেলোয়াড় ও নতুন যুগ এই অঙ্গনে আসবে, এবং এই গেমের প্রাপ্য মর্যা"
+"দার অন্তত "
+"একটুখানিও ফিরে পাওয়া যাবে!"
+
+#. type: Content of: <html><body><div><div><h3>
+#: template.html:102
+msgid "For Content Creators"
+msgstr "কনটেন্ট ক্রিয়েটরদের জন্য"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:104
+msgid ""
+"And last but not least, there have been a variety of improvements for "
+"content creators as well with the most obvious being the new unit type "
+"editor that's been added to the scenario editor. With this it's possible to "
+"create entire new units from within the editor itself."
+msgstr ""
+"সবশেষে, কনটেন্ট নির্মাতাদের জন্যও নানা ধরনের উন্নতি আনা হয়েছে, যার মধ্যে সবচে"
+"য়ে "
+"চোখে পড়ার মতো হলো ঘটনাক্রম পরিমার্জকে যুক্ত হওয়া নতুন ইউনিট টাইপ পরিমার্জক। "
+"এটি "
+"ব্যবহার করে পরিমার্জকের ভেতর থেকেই সম্পূর্ণ নতুন ইউনিট তৈরি করা সম্ভব।"
+
+#. type: Content of: <html><body><div><div><div><a>
+#: template.html:106
+msgid "<a href=\"images/start-5.png\">"
+msgstr "<a href=\"images/start-5.png\">"
+
+#. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
+#: template.html:106
+msgid "Unit type editor"
+msgstr "ইউনিট টাইপ পরিমার্জক"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:108
+msgid ""
+"For a more advanced feature, it's also now possible for add-on authors to "
+"define their own GUI2 themes and use them within their own content via the "
+"lua function <code>gui.switch_theme()</code>."
+msgstr ""
+"উন্নততর ব্যবহারের জন্য, অ্যাড-অন লেখকরা এখন তাদের নিজের জিইউআই2 থিম তৈরী করতে "
+"পারবেন এবং সেটিকে নিজেদের কনটেন্টে <code>gui.switch_theme()</code> লুয়া "
+"ফাংশনের দ্বারা ব্যবহার করতে পারবেন।"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:110
+msgid ""
+"Many other APIs have been implemented and improved as well including an "
+"alignment property for individual weapons, many new features for abilities "
+"and weapon specials including a registry of both to make using them much "
+"easier, new functionality added to lua widgets to allow for more complex "
+"dialogs, the ability to define custom recruit and recall dialogs, and at "
+"long last simultaneous movement of units with <code>[move_units_fake]</code>."
+msgstr ""
+"আরও অনেক এপিআই তৈরী এবং উন্নত করা হয়েছে যার মধ্যে রয়েছে ব্যক্তিগত অস্ত্রের জ"
+"ন্য "
+"একটি অ্যালাইনমেন্ট বৈশিষ্ট্য, ক্ষমতা এবং অস্ত্র বিশেষত্বের জন্য অনেক নতুন বৈশি"
+"ষ্ট্য যার মধ্যে "
+"রয়েছে উভয়ের একটি রেজিস্ট্রি যা সেগুলি ব্যবহার করা অনেক সহজ করে, লুয়া উইডগেটগ"
+"ুলিতে "
+"যুক্ত করা নতুন কার্যকারিতা যা আরও জটিল ডায়ালগ তৈরী করার সুযোগ দেয়, কাস্টম নিয"
+"়োগ "
+"এবং পুনরায় ডাকার ডায়ালগ তৈরী করার ক্ষমতা, এবং অবশেষে "
+"<code>[move_units_fake]</code> সহ ইউনিটগুলির একযোগে চলাচল।"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:112
+msgid ""
+"The <code>wmllint</code> tool has been updated to address some long standing "
+"issues and is also now regularly run against the base game which will help "
+"to keep it in a maintained and working state for add-on authors."
+msgstr ""
+"এই <code>wmllint</code> টুলটি কিছু দীর্ঘস্থায়ী সমস্যার সমাধান করার জন্য আপডেট"
+" করা হয়েছে এবং এখন এটি নিয়মিত মূল খেলার বিরুদ্ধে চালানো হয় যা অ্যাড-অন লেখক"
+"দের জন্য এটি চালু এবং ব্যবহারযোগ্য অবস্থায় রাখতে সাহায্য করবে।"
+
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:116
+msgid "Contribute"
+msgstr "সাহায্য করুন"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:118
+msgid ""
+"<cite>The Battle for Wesnoth</cite> is constantly being improved and "
+"expanded upon by a multitude of international volunteers from diverse "
+"backgrounds. Since its inception in July 2003, hundreds of people have "
+"contributed to all areas of the game, from mainline content shipped as part "
+"of the official releases to hundreds of player-made projects available to "
+"download from our add-ons server. Whether you need help beating a particular "
+"scenario or adding a feature to your custom maps, <cite>Wesnoth</cite> "
+"boasts a massive community of players and creators always willing to help."
+msgstr ""
+"<cite>দা ব্যাটল ফর ওয়েসনথ</cite> ক্রমাগত উন্নত করা হচ্ছে এবং বিশ্বের বিভিন্ন "
+"প্রান্তের আন্তর্জাতিক স্বেচ্ছাসেবকদের একটি বিশাল দল দ্বারা সম্প্রসারিত করা হচ্"
+"ছে। জুলাই ২০০৩ সালে এর শুরু থেকে, শত শত মানুষ গেমটির সকল ক্ষেত্রে অবদান রেখেছে"
+"ন, অফিসিয়াল রিলিজের অংশ হিসেবে প্রেরিত মূল বিষয়বস্তু থেকে শুরু করে আমাদের অ্য"
+"াড-অন সার্ভার থেকে ডাউনলোডের জন্য উপলব্ধ শত শত খেলোয়াড়-নির্মিত প্রকল্প পর্যন"
+"্ত। আপনি একটি নির্দিষ্ট ঘটনাক্রম জিততে সাহায্যের প্রয়োজন হোক বা আপনার নিজস্ব "
+"মানচিত্রে একটি বৈশিষ্ট্য যোগ করতে হোক না কেন, <cite>ওয়েসনথ</cite> খেলোয়াড় এ"
+"বং নির্মাতাদের একটি বিশাল সম্প্রদায় নিয়ে গর্বিত যারা সর্বদা সাহায্য করতে ইচ্"
+"ছুক।"
+
+#. type: Content of: <html><body><div><div><p>
+#: template.html:120
+msgid ""
+"Besides creating your own add-on content, there are many other ways you can "
+"help <cite>Wesnoth</cite>:"
+msgstr ""
+"আপনার নিজস্ব অ্যাড-অন কন্টেন্ট তৈরি করার পাশাপাশি, আপনার<cite>Wesnoth</cite> ক"
+"ে সাহায্য করার অন্যান্য অনেক উপায় রয়েছে:"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:123
+msgid "<a href=\"https://wiki.wesnoth.org/Project\">Contribute</a> code"
+msgstr "কোড <a href=\"https://wiki.wesnoth.org/Project\">লিখে</a>"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:124
+msgid ""
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">Create</a> art for "
+"the main game or for user-made <a href=\"https://forums.wesnoth.org/"
+"viewforum.php?f=23\">add-ons</a>"
+msgstr ""
+"মুল খেলা বা ব্যবহারকারীদের তৈরী <a href=\"https://forums.wesnoth.org/"
+"viewforum.php?f=23\">অ্যাড-অনের</a> জন্য শিল্প<a href=\"https://forums.wesnoth"
+".org/viewforum.php?f=9\">তৈরী</a> করে।"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:125
+msgid ""
+"<a href=\"https://wiki.wesnoth.org/WesnothTranslations\">Translate</a> the "
+"game into your language"
+msgstr ""
+"আপনার ভাষায় খেলাটিকে <a href=\"https://wiki.wesnoth.org/WesnothTranslations\">"
+"অনুবাদ</a> করে।"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:126
+msgid ""
+"<a href=\"https://forums.wesnoth.org/viewforum.php?f=14\">Produce</a> new "
+"music tracks and sound effects"
+msgstr ""
+"নতুন সঙ্গীত এবং সাউন্ড এফেক্ট <a href=\"https://forums.wesnoth.org/viewforum.p"
+"hp?f=14\">সৃজন</a> করে"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:127
+msgid "Spread the word about <cite>Wesnoth</cite> on social media!"
+msgstr "<cite>ওয়েসনথের</cite>  সম্পর্কে সোশ্যাল মিডিয়াতে জানান!"
+
+#. type: Content of: <html><body><div><div><h2>
+#: template.html:130
+msgid "More Info"
+msgstr "আরও তথ্য"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:133
+msgid ""
+"<a href=\"https://changelog.wesnoth.org/1.20/\">Full Changelog</a> (English "
+"only)"
+msgstr ""
+"<a href=\"https://changelog.wesnoth.org/1.20/\">সম্পূর্ণ পরিবর্তনলগ</a> (শুধু "
+"ইংরেজিতে)"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:134
+msgid "<a href=\"https://www.wesnoth.org\">Official Website</a> (English only)"
+msgstr ""
+"<a href=\"https://www.wesnoth.org\">অফিসিয়াল ওয়েবসাইট</a> (শুধু ইংরেজিতে)"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:138
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.18\">Wesnoth 1.18 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.18\">ওয়েসনথ 1.18 রিলিজ় নোটস্</a>"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:139
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.16\">Wesnoth 1.16 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.18\">ওয়েসনথ 1.16 রিলিজ় নোটস্</a>"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:140
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.14\">Wesnoth 1.14 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.18\">ওয়েসনথ 1.14 রিলিজ় নোটস্</a>"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:141
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.12\">Wesnoth 1.12 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.18\">ওয়েসনথ 1.12 রিলিজ় নোটস্</a>"
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: template.html:142
+msgid ""
+"<a href=\"https://www.wesnoth.org/start/1.10\">Wesnoth 1.10 Release Notes</a>"
+msgstr ""
+"<a href=\"https://www.wesnoth.org/start/1.18\">ওয়েসনথ 1.10 রিলিজ় নোটস্</a>"
+
+#. type: Content of: <html><body><div><div><div><div>
+#: template.html:153
+msgid "This page is also available in the following languages:"
+msgstr "এই পাতাটি নিম্নলিখিত ভাষাগুলিতেও উপলব্ধ:"
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:159
+msgid ""
+"<a href=\"https://wiki.wesnoth.org/StartingPoints\">Site Map</a> &#8226; <a "
+"href=\"https://status.wesnoth.org/\">Site Status</a>"
+msgstr ""
+"<a href=\"https://wiki.wesnoth.org/StartingPoints\">সাইট ম্যাপ</a> &#8226; <a "
+"href=\"https://status.wesnoth.org/\">সাইট স্ট্যাটাস</a>"
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:160
+msgid ""
+"Copyright &#169; 2003&#8211;2026 by <a rel=\"author\" href=\"https://"
+"wiki.wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
+msgstr ""
+"কপিরাইট &#169; 2003&#8211;2026 by <a rel=\"author\" href=\"https://"
+"wiki.wesnoth.org/Project\">দা ব্যাটল ফর ওয়েসনথ প্রোজেক্ট</a>"
+
+#. type: Content of: <html><body><div><div><div>
+#: template.html:161
+msgid "Site design Copyright &#169; 2017&#8211;2026 by Iris Morelle"
+msgstr "সাইট ডিজ়াইন কপিরাইট &#169; 2017&#8211;2026 Iris Morelle"
