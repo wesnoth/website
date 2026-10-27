@@ -10,3 +10,7 @@ URI: index.en_GB.html
 Content-type: text/xhtml
 Content-language: en-gb
 
+URI: index.nl.html
+Content-type: text/xhtml
+Content-language: nl
+
