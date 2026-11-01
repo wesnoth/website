@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: bugs.wesnoth.org\n"
-"POT-Creation-Date: 2026-10-25 18:00-0500\n"
+"POT-Creation-Date: 2026-11-01 10:07-0600\n"
 "PO-Revision-Date: 2026-10-27 08:44+0530\n"
 "Last-Translator: Subhraman Sarkar <sbmskmm@protonmail.com>\n"
 "Language-Team: Bengali < >\n"
@@ -47,9 +47,8 @@ msgid ""
 "<i>November 2026.</i> The development team is proud to present version 1.20 "
 "of <cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
 msgstr ""
-"<i>নভেম্বর 2026.</i> ডেভেলপমেন্ট টিম <cite><a href=\"/"
-"\">দা&nbsp;ব্যাটল&nbsp;ফর&nbsp;ওয়েসনথ</a></cite>-এর 1.20 সংস্করণ প্রকাশ করতে "
-"পেরে গর্বিত!"
+"<i>নভেম্বর 2026.</i> ডেভেলপমেন্ট টিম <cite><a href=\"/\">দা&nbsp;ব্যাটল&nbsp;"
+"ফর&nbsp;ওয়েসনথ</a></cite>-এর 1.20 সংস্করণ প্রকাশ করতে পেরে গর্বিত!"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:31
@@ -115,8 +114,8 @@ msgstr "<a href=\"images/start-2.jpg\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:65
-msgid "Celes theme screenshot"
-msgstr "সেলেস থিম স্ক্রিনশট"
+msgid "Main menu screenshot"
+msgstr "মুল মেনু স্ক্রিনশট"
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:65 template.html:72 template.html:80 template.html:88
@@ -175,8 +174,8 @@ msgstr "<a href=\"images/start-1.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:72
-msgid "Main menu screenshot"
-msgstr "মুল মেনু স্ক্রিনশট"
+msgid "Celes theme screenshot"
+msgstr "সেলেস থিম স্ক্রিনশট"
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:74
@@ -458,9 +457,9 @@ msgid ""
 "the main game or for user-made <a href=\"https://forums.wesnoth.org/"
 "viewforum.php?f=23\">add-ons</a>"
 msgstr ""
-"মুল খেলা বা ব্যবহারকারীদের তৈরী <a href=\"https://forums.wesnoth.org/"
-"viewforum.php?f=23\">অ্যাড-অনের</a> জন্য শিল্প<a href=\"https://"
-"forums.wesnoth.org/viewforum.php?f=9\"> অঙ্কন</a> করে"
+"মুল খেলা বা ব্যবহারকারীদের তৈরী <a href=\"https://forums.wesnoth.org/viewforum."
+"php?f=23\">অ্যাড-অনের</a> জন্য শিল্প<a href=\"https://forums.wesnoth.org/"
+"viewforum.php?f=9\"> অঙ্কন</a> করে"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:125
@@ -557,11 +556,11 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div>
 #: template.html:160
 msgid ""
-"Copyright &#169; 2003&#8211;2026 by <a rel=\"author\" href=\"https://"
-"wiki.wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
+"Copyright &#169; 2003&#8211;2026 by <a rel=\"author\" href=\"https://wiki."
+"wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 msgstr ""
-"কপিরাইট &#169; 2003&#8211;2026 by <a rel=\"author\" href=\"https://"
-"wiki.wesnoth.org/Project\">দা ব্যাটল ফর ওয়েসনথ প্রোজেক্ট</a>"
+"কপিরাইট &#169; 2003&#8211;2026 by <a rel=\"author\" href=\"https://wiki."
+"wesnoth.org/Project\">দা ব্যাটল ফর ওয়েসনথ প্রোজেক্ট</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:161

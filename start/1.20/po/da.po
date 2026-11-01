@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Wesnoth 1.4\n"
-"POT-Creation-Date: 2026-10-25 18:00-0500\n"
+"POT-Creation-Date: 2026-11-01 10:07-0600\n"
 "PO-Revision-Date: 2008-03-06 21:50+0100\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Dansk <dansk@dansk-gruppen.dk\n"
@@ -100,13 +100,13 @@ msgstr "For spillere"
 msgid "<a href=\"images/start-2.jpg\">"
 msgstr "<a href='images/start-4-full.jpg'>"
 
-# type: Attribute 'alt' of: <html><body><div><div><div><div><div><img>
+# type: Content of: <html><body><div><div><div><dl><dt>
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:65
 #, fuzzy
-#| msgid "Wesnoth Screenshot"
-msgid "Celes theme screenshot"
-msgstr "Wesnoth skærmbillede"
+#| msgid "Multiplayer lobby improvements"
+msgid "Main menu screenshot"
+msgstr "Forbedringer i flerspillerlobby"
 
 # type: Content of: <html><body><div><div><div>
 #. type: Content of: <html><body><div><div><div>
@@ -154,13 +154,13 @@ msgstr ""
 msgid "<a href=\"images/start-1.png\">"
 msgstr "<a href='images/start-1-full.jpg'>"
 
-# type: Content of: <html><body><div><div><div><dl><dt>
+# type: Attribute 'alt' of: <html><body><div><div><div><div><div><img>
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:72
 #, fuzzy
-#| msgid "Multiplayer lobby improvements"
-msgid "Main menu screenshot"
-msgstr "Forbedringer i flerspillerlobby"
+#| msgid "Wesnoth Screenshot"
+msgid "Celes theme screenshot"
+msgstr "Wesnoth skærmbillede"
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:74
