@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 0.9.6+cvs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-25 18:00-0500\n"
+"POT-Creation-Date: 2026-11-01 10:07-0600\n"
 "PO-Revision-Date: 2005-10-03 15:48+0200\n"
 "Last-Translator:  Alfredo Beaumont <ziberpunk@ziberghetto.dhis.org>\n"
 "Language-Team: Basque <eu@li.org>\n"
@@ -99,7 +99,7 @@ msgstr "<a href='images/start-4-full.jpg'>"
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:65
 #, fuzzy
-msgid "Celes theme screenshot"
+msgid "Main menu screenshot"
 msgstr "Wesnoth-eko Borroka 1.0 Argitalpen Oharrak"
 
 # type: Content of: <html><body><div><div><div>
@@ -151,7 +151,7 @@ msgstr "<a href='images/start-1-full.jpg'>"
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:72
 #, fuzzy
-msgid "Main menu screenshot"
+msgid "Celes theme screenshot"
 msgstr "Wesnoth-eko Borroka 1.0 Argitalpen Oharrak"
 
 #. type: Content of: <html><body><div><div><h4>

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Wesnoth 1.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-25 18:00-0500\n"
+"POT-Creation-Date: 2026-11-01 10:07-0600\n"
 "PO-Revision-Date: 2021-10-23 06:36+0200\n"
 "Last-Translator: Guillaume Pascal <guillaume.pascal43@laposte.net>\n"
 "Language-Team: Équipe de traduction française <wesnoth@ml.free.fr>\n"
@@ -124,13 +124,12 @@ msgstr "Pour les joueurs"
 msgid "<a href=\"images/start-2.jpg\">"
 msgstr "<a href=\"images/start-4.jpg\">"
 
-# type: Attribute 'alt' of: <html><body><div><div><div><div><div><img>
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:65
 #, fuzzy
-#| msgid "Wesnoth Screenshot"
-msgid "Celes theme screenshot"
-msgstr "Capture d\\'écran de Wesnoth"
+#| msgid "Campaigns menu screenshot"
+msgid "Main menu screenshot"
+msgstr "Photo d'écran du menu des campagnes"
 
 # type: Content of: <html><body><div><div><div>
 #. type: Content of: <html><body><div><div><div>
@@ -178,12 +177,13 @@ msgstr ""
 msgid "<a href=\"images/start-1.png\">"
 msgstr "<a href=\"images/start-1.jpg\">"
 
+# type: Attribute 'alt' of: <html><body><div><div><div><div><div><img>
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:72
 #, fuzzy
-#| msgid "Campaigns menu screenshot"
-msgid "Main menu screenshot"
-msgstr "Photo d'écran du menu des campagnes"
+#| msgid "Wesnoth Screenshot"
+msgid "Celes theme screenshot"
+msgstr "Capture d\\'écran de Wesnoth"
 
 # type: Content of: <html><body><div><div><div><h4>
 #. type: Content of: <html><body><div><div><h4>

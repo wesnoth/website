@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-10-25 18:00-0500\n"
+"POT-Creation-Date: 2026-11-01 10:07-0600\n"
 "PO-Revision-Date: 2018-05-06 22:59+0200\n"
 "Last-Translator: aceman <acelists@atlas.sk>\n"
 "Language-Team: none\n"
@@ -110,13 +110,12 @@ msgstr "Pre hráčov"
 msgid "<a href=\"images/start-2.jpg\">"
 msgstr "<a href=\"images/start-4.jpg\">"
 
-# type: Attribute 'alt' of: <html><body><div><div><div><div><div><img>
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:65
 #, fuzzy
-#| msgid "Wesnoth Screenshot"
-msgid "Celes theme screenshot"
-msgstr "Záber z hry Wesnoth"
+#| msgid "Campaigns menu screenshot"
+msgid "Main menu screenshot"
+msgstr "Snímka obrazovky ponuky výprav"
 
 # type: Content of: <html><body><div><div><div>
 #. type: Content of: <html><body><div><div><div>
@@ -164,12 +163,13 @@ msgstr ""
 msgid "<a href=\"images/start-1.png\">"
 msgstr "<a href=\"images/start-1.jpg\">"
 
+# type: Attribute 'alt' of: <html><body><div><div><div><div><div><img>
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:72
 #, fuzzy
-#| msgid "Campaigns menu screenshot"
-msgid "Main menu screenshot"
-msgstr "Snímka obrazovky ponuky výprav"
+#| msgid "Wesnoth Screenshot"
+msgid "Celes theme screenshot"
+msgstr "Záber z hry Wesnoth"
 
 # type: Content of: <html><body><div><div><div><h4>
 #. type: Content of: <html><body><div><div><h4>

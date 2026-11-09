@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-10-25 18:00-0500\n"
+"POT-Creation-Date: 2026-11-01 10:07-0600\n"
 "PO-Revision-Date: 2012-01-14 01:03+0200\n"
 "Last-Translator: Jarkko Patteri <jarkkopatteri@gmail.com>\n"
 "Language-Team: Finnish <//wiki.wesnoth.org/FinnishTranslation>\n"
@@ -104,7 +104,7 @@ msgstr "<a href='images/start-4-full.jpg'>"
 #: template.html:65
 #, fuzzy
 #| msgid "Wesnoth Screenshot"
-msgid "Celes theme screenshot"
+msgid "Main menu screenshot"
 msgstr "Wesnoth Kuvakaappaus"
 
 # type: Content of: <html><body><div><div><div>
@@ -158,7 +158,7 @@ msgstr "<a href='images/start-1-full.jpg'>"
 #: template.html:72
 #, fuzzy
 #| msgid "Wesnoth Screenshot"
-msgid "Main menu screenshot"
+msgid "Celes theme screenshot"
 msgstr "Wesnoth Kuvakaappaus"
 
 # type: Content of: <html><body><div><div><div><h4>

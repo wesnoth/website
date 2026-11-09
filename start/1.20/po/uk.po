@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-10-25 18:00-0500\n"
+"POT-Creation-Date: 2026-11-01 10:07-0600\n"
 "PO-Revision-Date: 2024-04-03 16:59+0300\n"
 "Last-Translator: Oleksii Okhrimenko(lexa04) <e-mail: ohrimale@gmail.com "
 "discord: amakri>\n"
@@ -122,7 +122,7 @@ msgstr "<a href=\"images/start-4.jpg\">"
 #: template.html:65
 #, fuzzy
 #| msgid "Campaigns menu screenshot"
-msgid "Celes theme screenshot"
+msgid "Main menu screenshot"
 msgstr "Зображення меню вибору кампаній"
 
 #. type: Content of: <html><body><div><div><div>
@@ -171,7 +171,7 @@ msgstr "<a href=\"images/start-1.png\">"
 #: template.html:72
 #, fuzzy
 #| msgid "Campaigns menu screenshot"
-msgid "Main menu screenshot"
+msgid "Celes theme screenshot"
 msgstr "Зображення меню вибору кампаній"
 
 #. type: Content of: <html><body><div><div><h4>

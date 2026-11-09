@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.10\n"
-"POT-Creation-Date: 2026-10-25 18:00-0500\n"
+"POT-Creation-Date: 2026-11-01 10:07-0600\n"
 "PO-Revision-Date: 2012-01-14 00:58+0300\n"
 "Last-Translator: Andrius Štikonas <stikonas@gmail.com>\n"
 "Language-Team: Lithuanian\n"
@@ -106,7 +106,7 @@ msgstr "<a href='images/start-4-full.jpg'>"
 #: template.html:65
 #, fuzzy
 #| msgid "Wesnoth Screenshot"
-msgid "Celes theme screenshot"
+msgid "Main menu screenshot"
 msgstr "Vesnoto ekranvaizdis"
 
 # type: Content of: <html><body><div><div><div>
@@ -160,7 +160,7 @@ msgstr "<a href='images/start-1-full.jpg'>"
 #: template.html:72
 #, fuzzy
 #| msgid "Wesnoth Screenshot"
-msgid "Main menu screenshot"
+msgid "Celes theme screenshot"
 msgstr "Vesnoto ekranvaizdis"
 
 # type: Content of: <html><body><div><div><div><h4>

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-10-25 18:00-0500\n"
+"POT-Creation-Date: 2026-11-01 10:07-0600\n"
 "PO-Revision-Date: 2014-10-29 06:54+0100\n"
 "Last-Translator: Adrián Chaves Fernández <adriyetichaves@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
@@ -113,7 +113,7 @@ msgstr "<a href='images/start-4.png'>"
 #: template.html:65
 #, fuzzy
 #| msgid "Wesnoth Screenshot"
-msgid "Celes theme screenshot"
+msgid "Main menu screenshot"
 msgstr "Captura de pantalla de A batalla polo Noroeste."
 
 # type: Content of: <html><body><div><div><div>
@@ -167,7 +167,7 @@ msgstr "<a href='images/start-1.png'>"
 #: template.html:72
 #, fuzzy
 #| msgid "Wesnoth Screenshot"
-msgid "Main menu screenshot"
+msgid "Celes theme screenshot"
 msgstr "Captura de pantalla de A batalla polo Noroeste."
 
 # type: Content of: <html><body><div><div><div><h4>
