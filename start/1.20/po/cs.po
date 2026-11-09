@@ -1,14 +1,14 @@
 # Vladimír Slávik <slavik.vladimir@seznam.cz>, 2009 - 2012.
 # Martin Hrubý <hrubymar10@gmail.com>, 2019.
-# Michal Žejdl <lachim@emer.cz>, 2021, 2024
+# Michal Žejdl <lachim@emer.cz>, 2021, 2024, 2026
 # Petr Šlejhar (Septim) <septim@centrum.cz>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-10-25 18:00-0500\n"
-"PO-Revision-Date: 2024-12-30 10:43+0100\n"
+"POT-Creation-Date: 2026-11-01 10:07-0600\n"
+"PO-Revision-Date: 2026-11-01 11:46+0100\n"
 "Last-Translator: Michal Žejdl <lachim@emer.cz>\n"
 "Language-Team: Czech https://wiki.wesnoth.org/CzechTranslation\n"
 "Language: cs\n"
@@ -24,10 +24,8 @@ msgstr "cs"
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:14 template.html:26
-#, fuzzy
-#| msgid "The Battle for Wesnoth 1.18"
 msgid "The Battle for Wesnoth 1.20"
-msgstr "Bitva o Wesnoth 1.18"
+msgstr "Bitva o Wesnoth 1.20"
 
 #. type: Content of: <html><body><div><div>
 #: template.html:24
@@ -40,22 +38,16 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:26
-#, fuzzy
-#| msgid "<span id=\"branding-sub\">Draconic Invasions Update</span>"
 msgid "<span id=\"branding-sub\">Azure Expanses Update</span>"
-msgstr "<span id=\"branding-sub\">přináší Vpád drakonidů</span>"
+msgstr "<span id=\"branding-sub\">uvádí Modré dálavy</span>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:29
-#, fuzzy
-#| msgid ""
-#| "<i>March 2024.</i> The development team is proud to present version 1.18 "
-#| "of <cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
 msgid ""
 "<i>November 2026.</i> The development team is proud to present version 1.20 "
 "of <cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
 msgstr ""
-"<i>Březen 2024.</i> Vývojový tým s hrdostí představuje verzi 1.18 hry "
+"<i>Listopad 2026.</i> Vývojový tým s hrdostí představuje verzi 1.20 hry "
 "<cite><a href=\"/\">Bitva&nbsp;o&nbsp;Wesnoth</a></cite>!"
 
 #. type: Content of: <html><body><div><div><div><p>
@@ -67,6 +59,11 @@ msgid ""
 "for content creators, a new Android port, and even more! Try out the new "
 "features for yourself, or read on for more details..."
 msgstr ""
+"Tato verze přináší celou řadu významných i drobných změn ve všech částech "
+"hry – několik nových a poupravených tažení, přepracované uživatelské "
+"rozhraní, řadu nových prvků pro hru více hráčů, vylepšený grafický výkon, "
+"nové funkce pro tvůrce obsahu, nový port pro Android a ještě mnohem více! "
+"Vyzkoušejte si novinky na vlastní kůži, nebo si přečtěte další podrobnosti..."
 
 #. type: Content of: <html><body><div><div><div><a><span>
 #: template.html:35
@@ -112,17 +109,13 @@ msgstr "Pro hráče"
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:65
-#, fuzzy
-#| msgid "<a href=\"images/start-4.jpg\">"
 msgid "<a href=\"images/start-2.jpg\">"
-msgstr "<a href=\"images/start-4.jpg\">"
+msgstr "<a href=\"images/start-2.jpg\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:65
-#, fuzzy
-#| msgid "Campaigns menu screenshot"
-msgid "Celes theme screenshot"
-msgstr "Snímek obrazovky výběru tažení"
+msgid "Main menu screenshot"
+msgstr "Snímek obrazovky hlavního menu"
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:65 template.html:72 template.html:80 template.html:88
@@ -140,6 +133,13 @@ msgid ""
 "and Linux systems. It is, however, still very much a work in progress and "
 "due to UI constraints will work better on tablets than phones."
 msgstr ""
+"Hra Wesnoth má opět svou verzi pro Android, která je v současné době "
+"k dispozici v <a href=\"https://f-droid.org/en/packages/org.wesnoth.Wesnoth/"
+"\">obchodu F-Droid</a>, což představuje nejen spoustu práce, ale také první "
+"případ za mnoho let, kdy je moderní verze Wesnothu dostupná i mimo obvyklé "
+"systémy Windows, macOS a Linux. Jedná se však stále o velmi nedokončený "
+"projekt a díky omezením uživatelského rozhraní bude fungovat lépe na "
+"tabletech než na telefonech."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:69
@@ -147,6 +147,8 @@ msgid ""
 "Performance has been further improved, with graphical lag and stuttering "
 "significantly reduced especially on lower end systems."
 msgstr ""
+"Dále byl vylepšen výkon, přičemž se výrazně snížily grafické prodlevy "
+"a trhání obrazu, zejména na slabších počítačích."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:71
@@ -160,6 +162,15 @@ msgid ""
 "being highly configurable. The previous theme, dubbed \"Parchment\" still "
 "exists and both can be switched via display preferences."
 msgstr ""
+"Kromě toho byl v této verzi přidán nový motiv uživatelského rozhraní "
+"„Celes“, který přináší zásadní přepracování hlavního menu, díky čemuž "
+"Wesnoth získává zajímavější a modernější vzhled. Prohlížeč nápovědy ve hře "
+"nyní také obsahuje vyhledávání a sbalitelný postranní panel, což usnadňuje "
+"nalezení požadovaných informací. Mapa dosahu, která ukazuje, jak daleko se "
+"jednotky mohou pohybovat a na koho mohou útočit, byla přepracována tak, aby "
+"poskytovala jasnější informace a zároveň měla hodně možností nastavení. "
+"Původní motiv s názvem „Parchment“ stále existuje a mezi oběma lze přepínat "
+"v nastavení obrazovky."
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:72
@@ -168,10 +179,8 @@ msgstr "<a href=\"images/start-1.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:72
-#, fuzzy
-#| msgid "Campaigns menu screenshot"
-msgid "Main menu screenshot"
-msgstr "Snímek obrazovky výběru tažení"
+msgid "Celes theme screenshot"
+msgstr "Snímek obrazovky s motivem Celes"
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:74
@@ -185,6 +194,9 @@ msgid ""
 "scenarios, each awarding Konrad unique recruits, companions, or items. The "
 "original campaign is still available as Heir to the Throne, Classic."
 msgstr ""
+"<cite>Dědic trůnu</cite> nyní nabízí otevřený svět s 33 rozvětvenými "
+"scénáři, z nichž každý Konrádovi přináší jedinečné rekruty, společníky nebo "
+"předměty. Původní tažení je stále dostupné pod názvem Dědic trůnu, klasika."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:78
@@ -194,20 +206,19 @@ msgid ""
 "against the fierce orcs of the north. Choose between 23 magic spells as you "
 "bear witness to the rise of a tyrant."
 msgstr ""
+"<cite>Podvodníkův gambit</cite> nahrazuje Delfadorovy paměti. Sledujte osudy "
+"mladého mága od břehů Alduinu až do síní krále, který bojuje proti divokým "
+"skřetům ze severu. Vyberte si z 23 kouzel a staňte se svědky vzestupu tyrana."
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:80
-#, fuzzy
-#| msgid "<a href=\"images/start-3.png\">"
 msgid "<a href=\"images/start-3.webp\">"
-msgstr "<a href=\"images/start-3.png\">"
+msgstr "<a href=\"images/start-3.webp\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:80
-#, fuzzy
-#| msgid "Campaigns menu screenshot"
 msgid "Campaigns screenshot 1"
-msgstr "Snímek obrazovky výběru tažení"
+msgstr "Snímek obrazovky v tažení 1"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:82
@@ -216,6 +227,9 @@ msgid ""
 "Tribe out from the bowels of Irdya and up to the surface world — but beware "
 "what awaits you there."
 msgstr ""
+"<cite>Soumrak úsvitu</cite> je naše první tažení s trolly. Veďte kmen "
+"Zlatého plamene z útrob Irdye až na povrch – ale dejte si pozor na to, co "
+"vás tam čeká."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:84
@@ -225,6 +239,10 @@ msgid ""
 "villagers must join forces with the local merfolk and take the fight to the "
 "pirates."
 msgstr ""
+"<cite>O perlách a pirátech</cite> je nové tažení určené pro začátečníky, "
+"jehož děj se odehrává v jednom poklidném rybářském městečku Zátoky perel. "
+"Když zaútočí piráti, musí se vesničané spojit s místními mořskými lidmi "
+"a postavit se na odpor."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:86
@@ -234,20 +252,20 @@ msgid ""
 "Delfador's tutelage, the original tutorial is still available as part of "
 "Heir to the Throne, Classic."
 msgstr ""
+"<cite>Jižní hlídka</cite> prošla významnými úpravami a nyní nahrazuje "
+"klasický tutoriál „Bojový výcvik“. Pro hráče, kteří s nostalgií vzpomínají "
+"na Delfadorovo vedení, je původní výukový program stále dostupný jako "
+"součást tažení „Dědic trůnu, klasika“."
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:88
-#, fuzzy
-#| msgid "<a href=\"images/start-4.jpg\">"
 msgid "<a href=\"images/start-4.webp\">"
-msgstr "<a href=\"images/start-4.jpg\">"
+msgstr "<a href=\"images/start-4.webp\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:88
-#, fuzzy
-#| msgid "Campaigns menu screenshot"
 msgid "Campaign screenshot 2"
-msgstr "Snímek obrazovky výběru tažení"
+msgstr "Snímek obrazovky v tažení 2"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:90
@@ -256,6 +274,9 @@ msgid ""
 "adjustments, improved enemy AI, a new Thunderer advancement, a redesign of "
 "High Pass, and the re-addition of the formerly removed Mages and Drakes."
 msgstr ""
+"<cite>Thursaganovo kladivo</cite> má upravený příběh, vylepšenou umělou "
+"inteligenci nepřátel a nové povýšení hromovládce. Byl předělán Vysoký "
+"průsmyk a znovu přidán dříve odstraněný scénář Mágové a drakonidé."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:92
@@ -265,6 +286,10 @@ msgid ""
 "Several characters and dialogue sequences were changed for better continuity "
 "with other campaigns."
 msgstr ""
+"<cite>Větry osudu</cite> prošly vyvážením, přičemž byly výrazně sníženy "
+"náklady na povolání jednotek, přepracovány generátory a umělá inteligence "
+"divoké zvěře a bitva v polovině tažení je mnohem větší. Bylo také upraveno "
+"několik postav a rozhovorů, aby lépe navazovaly na ostatní tažení."
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:94
@@ -284,6 +309,15 @@ msgid ""
 "will be updated more frequently with unit balance changes between 1.20 and "
 "1.22."
 msgstr ""
+"Stejně tak došlo k mnoha změnám ve hře více hráčů online, a to díky zavedení "
+"<a href=\"https://tournament.wesnoth.org/\">oficiální webové stránky "
+"věnované turnajům a žebříčku</a>, kde mohou hráči soutěžit v samostatných "
+"turnajích, získávat hodnocení Elo, posílat výzvy jednotlivým hráčům a mnoho "
+"dalšího. V rámci této podpory jsou nyní v online čekárně k dispozici fronty, "
+"do kterých se hráči mohou zapojit a které automaticky spustí hru, jakmile se "
+"sejde dostatečný počet hráčů. Dále se plánuje oficiální rozšíření "
+"<cite>Ranked Era</cite>, které bude aktualizováno častěji spolu se změnami "
+"ve vyvážení jednotek mezi verzemi 1.20 a 1.22."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:98
@@ -294,6 +328,11 @@ msgid ""
 "address some long standing issues in certain faction matchups. A new map, "
 "Double Siege, has also been added."
 msgstr ""
+"Když už jsme u toho, byla provedena další řada změn ve vyvážení frakcí "
+"základní éry, do které nyní patří i pouštní lid. Současně s tím bylo "
+"aktualizováno několik map, aby pouštní lid zohlednily a zároveň vyřešily "
+"některé dlouhodobé problémy při určitých kombinacích frakcí. Byla také "
+"přidána nová mapa s názvem „Dvojité obléhání“."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:100
@@ -303,6 +342,10 @@ msgid ""
 "let us bring more engagement and players and eras to the scene, recovering a "
 "sliver of well deserved glory this game should have!"
 msgstr ""
+"Díky tomu všemu budeme mít k dispozici nástroje, které nám umožní snadno "
+"pořádat různé akce a turnaje po celou dobu života této verze i v budoucnu. "
+"Doufáme, že se nám tak podaří přilákat na scénu více hráčů a oživit různé "
+"éry, čímž této hře vrátíme alespoň kousek slávy, kterou si rozhodně zaslouží!"
 
 #. type: Content of: <html><body><div><div><h3>
 #: template.html:102
@@ -317,18 +360,20 @@ msgid ""
 "editor that's been added to the scenario editor. With this it's possible to "
 "create entire new units from within the editor itself."
 msgstr ""
+"A v neposlední řadě došlo také k celé škále vylepšení pro tvůrce obsahu, "
+"z nichž nejviditelnější je nový editor typů jednotek, který byl přidán do "
+"editoru scénářů. Díky němu je možné vytvářet zcela nové jednotky přímo "
+"v samotném editoru."
 
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:106
-#, fuzzy
-#| msgid "<a href=\"images/start-2.png\">"
 msgid "<a href=\"images/start-5.png\">"
-msgstr "<a href=\"images/start-2.png\">"
+msgstr "<a href=\"images/start-5.png\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:106
 msgid "Unit type editor"
-msgstr ""
+msgstr "Editor typů jednotek"
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:108
@@ -338,6 +383,10 @@ msgid ""
 "function <code>gui.switch_theme()</code> or publish them as standalone "
 "Wesnoth themes."
 msgstr ""
+"Pro pokročilejší použití mají nyní autoři rozšíření také možnost definovat "
+"vlastní motivy GUI2 a používat je ve svém obsahu prostřednictvím funkce lua "
+"<code>gui.switch_theme()</code> nebo je vydat jako samostatné motivy pro "
+"Wesnoth."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:110
@@ -349,6 +398,13 @@ msgid ""
 "dialogs, the ability to define custom recruit and recall dialogs, and at "
 "long last simultaneous movement of units with <code>[move_units_fake]</code>."
 msgstr ""
+"Bylo implementováno a vylepšeno také mnoho dalších API. Například jednotlivé "
+"zbraně mají vlastnost příslušnost (alignment). Schopnosti a zvláštní útoky "
+"zbraní dostaly mnoho nových možností, včetně registru obou, který jejich "
+"používání výrazně usnadňuje. Do ovládacích prvků (widgetů) lua byly přidány "
+"nové funkce, které umožňují vytvářet složitější dialogy. Je možné definovat "
+"vlastní dialogová okna pro verbování a povolávání jednotek. A konečně lze "
+"také provádět souběžný pohyb jednotek pomocí <code>[move_units_fake]</code>."
 
 #. type: Content of: <html><body><div><div><p>
 #: template.html:112
@@ -357,6 +413,9 @@ msgid ""
 "issues and is also now regularly run against the base game which will help "
 "to keep it in a maintained and working state for add-on authors."
 msgstr ""
+"Nástroj <code>wmllint</code> byl aktualizován, aby vyřešil některé "
+"dlouhodobé problémy, a nyní je také pravidelně spouštěn nad základní hrou, "
+"což pomůže udržovat ji v dobrém a funkčním stavu pro autory rozšíření."
 
 #. type: Content of: <html><body><div><div><h2>
 #: template.html:116
@@ -406,8 +465,8 @@ msgid ""
 "viewforum.php?f=23\">add-ons</a>"
 msgstr ""
 "<a href=\"https://forums.wesnoth.org/viewforum.php?f=9\">Vytvářet</a> "
-"grafiku pro hlavní hru nebo <a href=\"https://forums.wesnoth.org/viewforum."
-"php?f=23\">rozšíření</a> udělaná hráči"
+"grafiku pro hlavní hru nebo pro <a href=\"https://forums.wesnoth.org/"
+"viewforum.php?f=23\">rozšíření</a> udělaná hráči"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:125
@@ -439,15 +498,11 @@ msgstr "Další informace"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:133
-#, fuzzy
-#| msgid ""
-#| "<a href=\"https://changelog.wesnoth.org/1.18/\">Full Changelog</a> "
-#| "(English only)"
 msgid ""
 "<a href=\"https://changelog.wesnoth.org/1.20/\">Full Changelog</a> (English "
 "only)"
 msgstr ""
-"<a href=\"https://changelog.wesnoth.org/1.18/\">Úplný seznam změn</a> (pouze "
+"<a href=\"https://changelog.wesnoth.org/1.20/\">Úplný seznam změn</a> (pouze "
 "anglicky)"
 
 #. type: Content of: <html><body><div><div><ul><li>
@@ -458,15 +513,11 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:138
-#, fuzzy
-#| msgid ""
-#| "<a href=\"https://www.wesnoth.org/start/1.16\">Wesnoth 1.16 Release "
-#| "Notes</a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.18\">Wesnoth 1.18 Release Notes</a>"
 msgstr ""
-"<a href=\"https://www.wesnoth.org/start/1.16\">Poznámky k vydání Wesnoth "
-"1.16</a>"
+"<a href=\"https://www.wesnoth.org/start/1.18\">Poznámky k vydání Wesnoth "
+"1.18</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:139
@@ -516,23 +567,17 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:160
-#, fuzzy
-#| msgid ""
-#| "Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" href=\"https://wiki."
-#| "wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 msgid ""
-"Copyright &#169; 2003&#8211;2026 by <a rel=\"author\" href=\"https://wiki."
-"wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
+"Copyright &#169; 2003&#8211;2026 by <a rel=\"author\" href=\"https://"
+"wiki.wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 msgstr ""
 "&#169; <a rel=\"author\" href=\"https://wiki.wesnoth.org/Project\">Projekt "
-"The Battle for Wesnoth</a>, 2003&#8211;2024"
+"The Battle for Wesnoth</a>, 2003&#8211;2026"
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:161
-#, fuzzy
-#| msgid "Site design Copyright &#169; 2017&#8211;2024 by Iris Morelle"
 msgid "Site design Copyright &#169; 2017&#8211;2026 by Iris Morelle"
-msgstr "Návrh stránek &#169; Iris Morelle, 2017&#8211;2024"
+msgstr "Návrh stránek &#169; Iris Morelle, 2017&#8211;2026"
 
 #~ msgid ""
 #~ "This release features many new additions as well as refinements to "
@@ -789,5 +834,5 @@ msgstr "Návrh stránek &#169; Iris Morelle, 2017&#8211;2024"
 #~ "<a href=\"https://www.wesnoth.org/manual/1.18/manual.en.html\">User’s "
 #~ "Manual</a>"
 #~ msgstr ""
-#~ "<a href=\"https://www.wesnoth.org/manual/1.18/manual.cs."
-#~ "html\">Uživatelský manuál</a>"
+#~ "<a href=\"https://www.wesnoth.org/manual/1.18/"
+#~ "manual.cs.html\">Uživatelský manuál</a>"

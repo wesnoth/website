@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Versionshinweise zu 1.14\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-10-25 18:00-0500\n"
+"POT-Creation-Date: 2026-11-01 10:07-0600\n"
 "PO-Revision-Date: 2018-08-19 14:08+0200\n"
 "Last-Translator: Chevan <irc://irc.freenode.net/#wesnoth-de>\n"
 "Language-Team: irc://irc.freenode.net/#wesnoth-de\n"
@@ -139,9 +139,9 @@ msgstr "<a href=\"images/start-4.jpg\">"
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:65
 #, fuzzy
-#| msgid "Wesnoth Screenshot"
-msgid "Celes theme screenshot"
-msgstr "BfW Schnappschuss"
+#| msgid "Campaigns menu screenshot"
+msgid "Main menu screenshot"
+msgstr "Auswahl-Menü"
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:65 template.html:72 template.html:80 template.html:88
@@ -190,9 +190,9 @@ msgstr "<a href=\"images/start-1.jpg\">"
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:72
 #, fuzzy
-#| msgid "Campaigns menu screenshot"
-msgid "Main menu screenshot"
-msgstr "Auswahl-Menü"
+#| msgid "Wesnoth Screenshot"
+msgid "Celes theme screenshot"
+msgstr "BfW Schnappschuss"
 
 #. type: Content of: <html><body><div><div><h4>
 #: template.html:74

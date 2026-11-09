@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rel-notes 1.6\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-10-25 18:00-0500\n"
+"POT-Creation-Date: 2026-11-01 10:07-0600\n"
 "PO-Revision-Date: 2009-03-18 14:55+0200\n"
 "Last-Translator: Nilgün Belma Bugüner <nilgun@belgeler.gen.tr>\n"
 "Language-Team: Turkish <wesnoth-tr@googlegroups.com>\n"
@@ -107,7 +107,7 @@ msgstr "<a href='images/start-4-full.jpg'>"
 #: template.html:65
 #, fuzzy
 #| msgid "Wesnoth Screenshot"
-msgid "Celes theme screenshot"
+msgid "Main menu screenshot"
 msgstr "Wesnoth Ekran Görüntüsü"
 
 # type: Content of: <html><body><div><div><div>
@@ -161,7 +161,7 @@ msgstr "<a href='images/start-1-full.jpg'>"
 #: template.html:72
 #, fuzzy
 #| msgid "Wesnoth Screenshot"
-msgid "Main menu screenshot"
+msgid "Celes theme screenshot"
 msgstr "Wesnoth Ekran Görüntüsü"
 
 # type: Content of: <html><body><div><div><div><h4>

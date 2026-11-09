@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-10-25 18:00-0500\n"
+"POT-Creation-Date: 2026-11-01 10:07-0600\n"
 "PO-Revision-Date: 2026-10-26 10:06+1100\n"
 "Last-Translator: Wedge009 <wedge009@wedge009.net>\n"
 "Language-Team: \n"
@@ -23,7 +23,6 @@ msgstr "en_GB"
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:14 template.html:26
-#| msgid "The Battle for Wesnoth 1.18"
 msgid "The Battle for Wesnoth 1.20"
 msgstr "The Battle for Wesnoth 1.20"
 
@@ -38,15 +37,11 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><h1>
 #: template.html:26
-#| msgid "<span id=\"branding-sub\">Draconic Invasions Update</span>"
 msgid "<span id=\"branding-sub\">Azure Expanses Update</span>"
 msgstr "<span id=\"branding-sub\">Azure Expanses Update</span>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: template.html:29
-#| msgid ""
-#| "<i>March 2024.</i> The development team is proud to present version 1.18 "
-#| "of <cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
 msgid ""
 "<i>November 2026.</i> The development team is proud to present version 1.20 "
 "of <cite><a href=\"/\">The&nbsp;Battle&nbsp;for&nbsp;Wesnoth</a></cite>!"
@@ -115,16 +110,13 @@ msgstr "For Players"
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:65
-#| msgid "<a href=\"images/start-4.jpg\">"
 msgid "<a href=\"images/start-2.jpg\">"
 msgstr "<a href=\"images/start-2.jpg\">"
 
-# type: Attribute 'alt' of: <html><body><div><div><div><div><div><img>
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:65
-#| msgid "Wesnoth Screenshot"
-msgid "Celes theme screenshot"
-msgstr "Celes theme screenshot"
+msgid "Main menu screenshot"
+msgstr "Main menu screenshot"
 
 # type: Content of: <html><body><div><div><div>
 #. type: Content of: <html><body><div><div><div>
@@ -186,11 +178,11 @@ msgstr ""
 msgid "<a href=\"images/start-1.png\">"
 msgstr "<a href=\"images/start-1.png\">"
 
+# type: Attribute 'alt' of: <html><body><div><div><div><div><div><img>
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:72
-#| msgid "Campaigns menu screenshot"
-msgid "Main menu screenshot"
-msgstr "Main menu screenshot"
+msgid "Celes theme screenshot"
+msgstr "Celes theme screenshot"
 
 # type: Content of: <html><body><div><div><div><h4>
 #. type: Content of: <html><body><div><div><h4>
@@ -225,13 +217,11 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:80
-#| msgid "<a href=\"images/start-3.png\">"
 msgid "<a href=\"images/start-3.webp\">"
 msgstr "<a href=\"images/start-3.webp\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:80
-#| msgid "Campaigns menu screenshot"
 msgid "Campaigns screenshot 1"
 msgstr "Campaigns screenshot 1"
 
@@ -275,13 +265,11 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:88
-#| msgid "<a href=\"images/start-4.jpg\">"
 msgid "<a href=\"images/start-4.webp\">"
 msgstr "<a href=\"images/start-4.webp\">"
 
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:88
-#| msgid "Campaigns menu screenshot"
 msgid "Campaign screenshot 2"
 msgstr "Campaign screenshot 2"
 
@@ -388,7 +376,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><div><div><a>
 #. type: Content of: <html><body><div><div><div><a>
 #: template.html:106
-#| msgid "<a href=\"images/start-2.png\">"
 msgid "<a href=\"images/start-5.png\">"
 msgstr "<a href=\"images/start-5.png\">"
 
@@ -522,9 +509,6 @@ msgstr "More Info"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:133
-#| msgid ""
-#| "<a href=\"https://changelog.wesnoth.org/1.18/\">Full Changelog</a> "
-#| "(English only)"
 msgid ""
 "<a href=\"https://changelog.wesnoth.org/1.20/\">Full Changelog</a> (English "
 "only)"
@@ -542,9 +526,6 @@ msgstr ""
 # type: Content of: <html><body><div><div><div><a>
 #. type: Content of: <html><body><div><div><ul><li>
 #: template.html:138
-#| msgid ""
-#| "<a href=\"https://www.wesnoth.org/start/1.8\">Wesnoth 1.8 Release Notes</"
-#| "a>"
 msgid ""
 "<a href=\"https://www.wesnoth.org/start/1.18\">Wesnoth 1.18 Release Notes</a>"
 msgstr ""
@@ -599,9 +580,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:160
-#| msgid ""
-#| "Copyright &#169; 2003&#8211;2024 by <a rel=\"author\" href=\"https://wiki."
-#| "wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
 msgid ""
 "Copyright &#169; 2003&#8211;2026 by <a rel=\"author\" href=\"https://wiki."
 "wesnoth.org/Project\">The Battle for Wesnoth Project</a>"
@@ -611,7 +589,6 @@ msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
 #: template.html:161
-#| msgid "Site design Copyright &#169; 2017&#8211;2024 by Iris Morelle"
 msgid "Site design Copyright &#169; 2017&#8211;2026 by Iris Morelle"
 msgstr "Site design Copyright &#169; 2017&#8211;2026 by Iris Morelle"
 

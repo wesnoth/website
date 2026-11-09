@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-10-25 18:00-0500\n"
+"POT-Creation-Date: 2026-11-01 10:07-0600\n"
 "PO-Revision-Date: 2009-03-20 23:06+0100\n"
 "Last-Translator: Jordà Polo <jorda@ettin.org>\n"
 "Language-Team: Catalan <wesnoth-ca@lists.ettin.org>\n"
@@ -102,13 +102,13 @@ msgstr "Per a jugadors"
 msgid "<a href=\"images/start-2.jpg\">"
 msgstr "<a href='images/start-4-full.jpg'>"
 
-# type: Attribute 'alt' of: <html><body><div><div><div><div><div><img>
+# type: Content of: <html><body><div><div><div><ul><li>
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:65
 #, fuzzy
-#| msgid "Wesnoth Screenshot"
-msgid "Celes theme screenshot"
-msgstr "Captura de Wesnoth"
+#| msgid "Multiplayer lobby improvements"
+msgid "Main menu screenshot"
+msgstr "Millores a la sala de joc multijugador"
 
 # type: Content of: <html><body><div><div><div>
 #. type: Content of: <html><body><div><div><div>
@@ -156,13 +156,13 @@ msgstr ""
 msgid "<a href=\"images/start-1.png\">"
 msgstr "<a href='images/start-1-full.jpg'>"
 
-# type: Content of: <html><body><div><div><div><ul><li>
+# type: Attribute 'alt' of: <html><body><div><div><div><div><div><img>
 #. type: Attribute 'alt' of: <html><body><div><div><div><a><img>
 #: template.html:72
 #, fuzzy
-#| msgid "Multiplayer lobby improvements"
-msgid "Main menu screenshot"
-msgstr "Millores a la sala de joc multijugador"
+#| msgid "Wesnoth Screenshot"
+msgid "Celes theme screenshot"
+msgstr "Captura de Wesnoth"
 
 # type: Content of: <html><body><div><div><div><h4>
 #. type: Content of: <html><body><div><div><h4>
