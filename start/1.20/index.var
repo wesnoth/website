@@ -2,13 +2,17 @@ URI: index.bn.html
 Content-type: text/xhtml
 Content-language: bn
 
-URI: index.en_GB.html
+URI: index.cs.html
 Content-type: text/xhtml
-Content-language: en-gb
+Content-language: cs
 
 URI: index.en.html
 Content-type: text/xhtml
 Content-language: en
+
+URI: index.en_GB.html
+Content-type: text/xhtml
+Content-language: en-gb
 
 URI: index.hu.html
 Content-type: text/xhtml
