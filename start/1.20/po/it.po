@@ -124,10 +124,6 @@ msgstr "<a href=\"images/start-2.jpg\">"
 #: template.html:65
 msgid "Celes theme screenshot"
 msgstr "Schermata di Wesnoth (tema Celes)"
-#, fuzzy
-#| msgid "Campaigns menu screenshot"
-msgid "Main menu screenshot"
-msgstr "Schermata menù campagne"
 
 # type: Content of: <html><body><div><div><div>
 #. type: Content of: <html><body><div><div><div>
@@ -199,10 +195,6 @@ msgstr "<a href=\"images/start-1.png\">"
 #: template.html:72
 msgid "Main menu screenshot"
 msgstr "Schermata menù principale"
-#, fuzzy
-#| msgid "Wesnoth Screenshot"
-msgid "Celes theme screenshot"
-msgstr "Schermata di Wesnoth"
 
 # type: Content of: <html><body><div><div><div><h4>
 #. type: Content of: <html><body><div><div><h4>
